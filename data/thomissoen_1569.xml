@@ -71,7 +71,7 @@
             </titlePage>
             <pb n="E2"/>
             <figure type="image"/>
-            <div type="toc">
+            <div type="toc" xml:id="toc-section">
                 <head type="add">Indholdsfortegnelse</head>
                 <head><pb n="E3"/> Jt Almindeligt Register offuer <lb/> Psalmerne.</head>
                 <list rend="simple">
@@ -123,7 +123,8 @@
                     </item>
                 </list>
             </div>
-            <div type="calendar">
+            <div type="calendar" xml:id="calendar">
+                <head type="add">Kalender</head>
                 <div type="month">
                     <head><pb n="E4"/>Januarius / Glugmaanet. <lb/> haffuer xxxj. dage.</head>
                     <table>
@@ -2890,7 +2891,8 @@
                     </table>
                 </div>
             </div>
-            <div type="preface">
+            <div type="preface" xml:id="introduction">
+                <head type="add">Forklaring</head>
                 <head n="5"><pb n="E16"/> Forklaring paa dette Calen<lb rend="="/>dario Romano. </head>
                 <p>
                     <c function="initials" rend="4">D</c>Ette Aar som i dette Calendario er <lb/>
@@ -4409,7 +4411,7 @@
                         </list></p>
                 </div>
             </div>
-            <div type="preface">
+            <div type="preface" xml:id="martin-luther-preface">
                 <head type="add">Martin Luthers forord</head>
                 <head n="4"><pb n="E42"/> Doctor Morten Lu<lb rend="="/>thers Fortale.</head>
                 <p><c function="initials" rend="4">A</c>T det er gaat oc Gud behageligt <lb/>at
@@ -4472,7 +4474,7 @@
                 </p>
                 <figure type="vignette"/>
             </div>
-            <div type="preface">
+            <div type="preface" xml:id="hans-thomsen-preface">
                 <head type="add">Hans Thomsens forord</head>
                 <p><pb n="E45"/> Alle gode Gudfryctige Christne i <lb/> Danmarckis oc Norgis <lb/>
                     Riger. <lb/> Guds Naade / velsignelse oc trøst ved hans <lb/> euige Søn / vor
@@ -4760,7 +4762,8 @@
             </div>
         </front>
         <body>
-            <div type="psalmgroup" xml:id="section-1">
+            <div type="psalmgroup" xml:id="section-1" n="1">
+                <head type="add">Kristi komme</head>
                 <head><pb ana="1" n="E57"/> Om Christi Tilkommelse <lb/> til Verden.</head>
                 <div type="psalm">
                     <head>I. <lb/> Den Hymne / <title>Veni redemptor <lb/> gentium</title>. <lb/> D.
@@ -4869,7 +4872,8 @@
                     </lg>
                 </div>
             </div>
-            <div type="psalmgroup" xml:id="section-2">
+            <div type="psalmgroup" xml:id="section-2" n="2">
+                <head type="add">Kristi fødsel</head>
                 <head n="4">Om Christi Fødzel.</head>
                 <div type="psalm">
                     <head> I. <lb/> Kyrie Eleyson / paa Christi <lb/> Fødzels Høytid.</head>
@@ -6268,7 +6272,8 @@
                     <figure type="vignette"/>
                 </div>
             </div>
-            <div type="psalmgroup" xml:id="section-3">
+            <div type="psalmgroup" xml:id="section-3" n="3">
+                <head type="add">Kristi person og embede</head>
                 <head>Om Christi Person oc <lb/> Embede.</head>
                 <div type="psalm">
                     <head> I. <lb/>
@@ -7869,8 +7874,9 @@
                     <figure type="vignette"/>
                 </div>
             </div>
-            <div type="psalmgroup" xml:id="section-4">
-                <head n="4">Om Christi pine <lb/> oc Død.</head>
+            <div type="psalmgroup" xml:id="section-4" n="4">
+                <head>Om Christi pine <lb/> oc Død.</head>
+                <head type="add">Om Kristi pine og død</head>
                 <div type="psalm">
                     <head> I. <lb/> Hielp Gud at ieg <lb/> nu kunde.</head>
                     <notatedMusic>
@@ -9110,8 +9116,9 @@
                     <figure type="vignette"/>
                 </div>
             </div>
-            <div type="psalmgroup" xml:id="section-5">
-                <head n="4">Om Christi Opstan<lb rend="="/>delse.</head>
+            <div type="psalmgroup" xml:id="section-5" n="5">
+                <head type="add">Om Krisi opstandelse</head>
+                <head>Om Christi Opstan<lb rend="="/>delse.</head>
                 <div type="psalm">
                     <head> I. <lb/> Kyrie eleison / som siungis om <lb/> Paaske høytid.</head>
                     <notatedMusic>
@@ -9536,8 +9543,9 @@
                     <figure type="vignette"/>
                 </div>
             </div>
-            <div type="psalmgroup" xml:id="section-6">
-                <head n="4"><pb n="E248"/>Om Christi Him<lb rend="="/>melfart.</head>
+            <div type="psalmgroup" xml:id="section-6" n="6">
+                <head type="add">Kristi himmelfart</head>
+                <head><pb n="E248"/>Om Christi Him<lb rend="="/>melfart.</head>
                 <div type="psalm">
                     <head> I. <lb/>
                         <title>POSTQVAM RESVR<lb rend="="/>rexit</title>. Siungis lige som / <lb/>
@@ -9719,7 +9727,8 @@
                     <lb/>
                 </div>
             </div>
-            <div type="psalmgroup" xml:id="section-7">
+            <div type="psalmgroup" xml:id="section-7" n="7">
+                <head type="add">Om helligånden</head>
                 <head n="4">Om den Hellig <lb/> Aand.</head>
                 <div type="psalm">
                     <head> I. <lb/>
@@ -10083,8 +10092,9 @@
                     <figure type="vignette"/>
                 </div>
             </div>
-            <div type="psalmgroup" xml:id="section-8">
-                <head n="4"><pb n="E272"/>Om den Hellige Tre<lb rend="="/>foldighed.</head>
+            <div type="psalmgroup" xml:id="section-8" n="8">
+                <head type="add">Den hellige treenighed</head>
+                <head><pb n="E272"/>Om den Hellige Tre<lb rend="="/>foldighed.</head>
                 <div type="psalm">
                     <head> I. <lb/>
                         <title>O Herre Gud Fader met <lb/> din krafft</title>.</head>
@@ -10196,7 +10206,8 @@
                     <lb/>
                 </div>
             </div>
-            <div type="psalmgroup" xml:id="section-9">
+            <div type="psalmgroup" xml:id="section-9" n="9">
+                <head type="add">Katekismus</head>
                 <head n="1" rend="Antiqua1">Catechismus.</head>
                 <div type="psalmgroup" xml:id="section-9-1">
                     <head n="4">Om de Thi Guds <lb/> Bud.</head>
@@ -11292,8 +11303,9 @@
                     </div>
                 </div>
             </div>
-            <div type="psalmgroup" xml:id="section-10">
-                <head n="4">Om Guds Ord.</head>
+            <div type="psalmgroup" xml:id="section-10" n="10">
+                <head type="add">Guds ord</head>
+                <head>Om Guds Ord.</head>
                 <div type="psalm">
                     <head> I. <lb/>
                         <title>Loffuer Gud i fromme <lb/>Christne</title> &amp;c. <lb/> M. D.
@@ -12131,8 +12143,9 @@
                     </lg>
                 </div>
             </div>
-            <div type="psalmgroup" xml:id="section-11">
-                <head n="4">Om Skabelsen.</head>
+            <div type="psalmgroup" xml:id="section-11" n="11">
+                <head type="add">Skabelsen</head>
+                <head>Om Skabelsen.</head>
                 <div type="psalm">
                     <head> I. <lb/> En ny Dageuise / om alle Creaturis <lb/> Skabelse / giort aff
                         Doctore <lb/> Petro Palladio.</head>
@@ -12376,8 +12389,9 @@
                     <figure type="vignette"/>
                 </div>
             </div>
-            <div type="psalmgroup" xml:id="section-12">
-                <head n="4"><pb ana="150" n="E355"/>Om Louen oc Euangelio / om <lb/> Synden /
+            <div type="psalmgroup" xml:id="section-12" n="12">
+                <head type="add">Loven og evangeliet</head>
+                <head><pb ana="150" n="E355"/>Om Louen oc Euangelio / om <lb/> Synden /
                     Syndernis forladelse / Ret<lb rend="="/>færdighed / Troen oc gode
                     <lb/>Gierninger. <lb/>
                 </head>
@@ -13681,8 +13695,9 @@
                     </lg>
                 </div>
             </div>
-            <div type="psalmgroup" xml:id="section-13">
-                <head n="4"><pb n="E400"/>Om Penitentze.</head>
+            <div type="psalmgroup" xml:id="section-13" n="13">
+                <head type="add">Pønitens</head>
+                <head><pb n="E400"/>Om Penitentze.</head>
                 <div type="psalm">
                     <head> I. <lb/> Den <ref target="#">XXV. Psalme</ref> / <title>Ad te <lb/>
                             Domine leuaui animam <lb/> meam etc.</title></head>
@@ -14645,8 +14660,9 @@
                     </lg>
                 </div>
             </div>
-            <div type="psalmgroup" xml:id="section-14">
-                <head n="4"><pb ana="190" n="E435"/>Om den Christelig <lb/> Kircke.</head>
+            <div type="psalmgroup" xml:id="section-14" n="14">
+                <head type="add">Den kristelige kirke</head>
+                <head><pb ana="190" n="E435"/>Om den Christelig <lb/> Kircke.</head>
                 <div type="psalm">
                     <head> I. <lb/> Den <ref target="#sal-1">I. Psalme</ref> / <title>Beatus vir qui
                             non <lb/> abijt in consilio impiorum</title>. Siungis <lb/> lige som /
@@ -14940,8 +14956,9 @@
                     </lg>
                 </div>
             </div>
-            <div type="psalmgroup" xml:id="section-15">
-                <head n="4"><pb ana="195" n="E445"/>Om Ecteskab.</head>
+            <div type="psalmgroup" xml:id="section-15" n="15">
+                <head type="add">Ægteskab</head>
+                <head><pb ana="195" n="E445"/>Om Ecteskab.</head>
                 <div type="psalm">
                     <head> I. <lb/> Den <ref target="#">CXXVIII. Psalme</ref>. <title>Beati <lb/>
                             omnes qui timent Domi<lb rend="="/>num</title>. <lb/>D. Morten
@@ -15489,8 +15506,9 @@
                     <figure type="vignette"/>
                 </div>
             </div>
-            <div type="psalmgroup" xml:id="section-16">
-                <head n="4"><pb n="E462"/> Om Verdzlig Øff<lb rend="="/>righed.</head>
+            <div type="psalmgroup" xml:id="section-16" n="16">
+                <head type="add">Verdslig øvrighed</head>
+                <head><pb n="E462"/> Om Verdzlig Øff<lb rend="="/>righed.</head>
                 <div type="psalm">
                     <head> I. <lb/> Den <ref target="#">CXXVII. Psalme</ref> / <title>Nisi <lb/>
                             Dominus ædificauerit <lb/> domum</title> etc. </head>
@@ -15868,8 +15886,9 @@
                     <lb/>
                 </div>
             </div>
-            <div type="psalmgroup" xml:id="section-17">
-                <head n="4">Om Kaarssit / oc trøst mod <lb/> atskillige modgang oc <lb/>
+            <div type="psalmgroup" xml:id="section-17" n="17">
+                <head type="add">Korset og trøst mod modgang og fristelse</head>
+                <head>Om Kaarssit / oc trøst mod <lb/> atskillige modgang oc <lb/>
                     fristelser.</head>
                 <div type="psalm">
                     <head> I. <lb/> Den <ref target="#">III. Psalme</ref> / <title>Domine quid
@@ -17911,8 +17930,9 @@
                     </div>
                 </div>
             </div>
-            <div type="psalmgroup" xml:id="section-18">
-                <head n="4">Om Bøn oc tacksigelse.</head>
+            <div type="psalmgroup" xml:id="section-18" n="18">
+                <head type="add">Bøn og taksigelse</head>
+                <head>Om Bøn oc tacksigelse.</head>
                 <div type="psalmgroup">
                     <head type="add">Bønner</head>
                     <div type="psalm">
@@ -20331,7 +20351,8 @@
                     </lg>
                 </div>
             </div>
-            <div type="psalmgroup">
+            <div type="psalmgroup" xml:id="section-19" n="19">
+                <head type="add">Taksigelser</head>
                 <head n="4"><pb ana="288" n="E631"/> Tacksigelser.</head>
                 <div type="psalm">
                     <head> I. <lb/> Haleluia / Gladelig <lb/> ville wi &amp;c.</head>
@@ -21585,8 +21606,9 @@
                     <figure type="vignette"/>
                 </div>
             </div>
-            <div type="psalmgroup">
-                <head n="4">Tacksigelser oc Bøner <lb/> Om Morgenen.</head>
+            <div type="psalmgroup" xml:id="section-20" n="20">
+                <head type="add">Taksigelser og bønner om morgenen</head>
+                <head>Tacksigelser oc Bøner <lb/> Om Morgenen.</head>
                 <div type="psalm">
                     <head> I. <lb/> En ny Dageuise / at tacke Gud for<lb/>sin beskermelse i den
                         fremfarne Nat / oc at be<lb rend="="/>de hannem om lycke oc raad / om
@@ -21916,8 +21938,9 @@
                     <lb/>
                 </div>
             </div>
-            <div type="psalmgroup">
-                <head n="4">Tacksigelser oc Bøner<lb/> om Afftenen.</head>
+            <div type="psalmgroup" xml:id="section-21" n="21">
+                <head type="add">Taksigelser og bønner om aftenen</head>
+                <head>Tacksigelser oc Bøner<lb/> om Afftenen.</head>
                 <div type="psalm">
                     <head> I. <lb/> En Christelig Afften vise / til at befa<lb rend="="/>le sig Gud
                         i vold met / naar mand vil gaa til <lb/> sengs / siungis lige som / Aff
@@ -22294,7 +22317,8 @@
                     </lg>
                 </div>
             </div>
-            <div type="psalmgroup">
+            <div type="psalmgroup" xml:id="section-22" n="22">
+                <head type="add">Bordbønner</head>
                 <head>Bøner for Maaltid.</head>
                 <div type="psalm">
                     <head> I. <lb/> Benedicite, Velsignere / ja det <lb/> skal Herren giøre &amp;c. </head>
@@ -22401,7 +22425,8 @@
                     <figure type="vignette"/>
                 </div>
             </div>
-            <div type="psalmgroup">
+            <div type="psalmgroup" xml:id="section-23" n="23">
+                <head type="add">Taksigelser efter måltidet</head>
                 <head n="4"><pb ana="329" n="E713"/>Tacksigelser effter<lb/> Maaltid.</head>
                 <div type="psalm">
                     <head> I. <lb/> Gratias, Lader oss nu alle vor kiere <lb/>Fader tacke /</head>
@@ -22580,8 +22605,9 @@
                     <figure type="vignette"/>
                 </div>
             </div>
-            <div type="psalmgroup" xml:id="section-19">
-                <head n="4"><pb ana="332" n="E719"/>Om Døden / oc begraff<lb rend="="/>uelse.</head>
+            <div type="psalmgroup" xml:id="section-24" n="24">
+                <head type="add">Døden og begravelse</head>
+                <head><pb ana="332" n="E719"/>Om Døden / oc begraff<lb rend="="/>uelse.</head>
                 <div type="psalm">
                     <head> I. <lb/> Media vita in morte sumus, <lb/> D. Morten Luther.</head>
                     <notatedMusic>
