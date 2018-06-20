@@ -59,9 +59,9 @@
                 <docTitle>
                     <titlePart>Den danske <lb/> Psalmebog / <lb/> met mange Christeli<lb rend="="
                         />ge Psalmer / Ordentlig <lb/> tilsammenset / forme<lb rend="="/>ret oc
-                            forbe<lb rend="="/>dret. <lb/> Aff </titlePart>
+                            forbe<lb rend="="/>dret.</titlePart>
                 </docTitle>
-                <docAuthor> Hans Thomissøn.</docAuthor>
+                <docAuthor>Aff <lb/> Hans Thomissøn.</docAuthor>
                 <figure type="vignette"/>
                 <docImprint> Prentet i Kiøbenhaffn / aff <lb/>
                     <name>Laurentz Bene<lb rend="="/>dicht.</name>
@@ -4765,7 +4765,8 @@
             <div type="psalmgroup" xml:id="section-1" n="1">
                 <head type="add">Kristi komme</head>
                 <head><pb ana="1" n="E57"/> Om Christi Tilkommelse <lb/> til Verden.</head>
-                <div type="psalm">
+                <div type="psalm" xml:id="veni-redemptor-gentium" n="1">
+                    <head type="add">Veni redemptor gentium</head>
                     <head>I. <lb/> Den Hymne / <title>Veni redemptor <lb/> gentium</title>. <lb/> D.
                         Morten Luther.</head>
                     <figure type="image"/>
@@ -4822,7 +4823,8 @@
                         <l>Loffue euindelig / Amen. </l>
                     </lg>
                 </div>
-                <div type="psalm">
+                <div type="psalm" xml:id="conditor-alme-siderum" n="2">
+                    <head type="add">Conditor alme siderum</head>
                     <head> II. <lb/> Den Hymne / <title>Conditor al<lb rend="="/>me syderum</title>. </head>
                     <notatedMusic>
                         <ptr target="nil"/>
@@ -4875,7 +4877,8 @@
             <div type="psalmgroup" xml:id="section-2" n="2">
                 <head type="add">Kristi fødsel</head>
                 <head n="4">Om Christi Fødzel.</head>
-                <div type="psalm">
+                <div type="psalm" xml:id="kyrie-eleison-christi-foedsel" n="1">
+                    <head type="add">Kyrie ved julemessen</head>
                     <head> I. <lb/> Kyrie Eleyson / paa Christi <lb/> Fødzels Høytid.</head>
                     <figure type="image"/>
                     <notatedMusic>
@@ -4895,7 +4898,8 @@
                         <l><pb ana="4" n="E63"/>men fød Christum i oss O hellig Aand. </l>
                     </lg>
                 </div>
-                <div type="psalm">
+                <div type="psalm" xml:id="a-solis-ortus-cardine" n="2">
+                    <head type="add">A solis ortus cardine</head>
                     <head> II. <lb/> Den Hymne / <title>A solis ortus <lb/> cardine</title>. <lb/>D.
                         Morten Luther.</head>
                     <notatedMusic>
@@ -4958,7 +4962,8 @@
                         <l>At Dieffuelens rige faar icke mact.</l>
                     </lg>
                 </div>
-                <div type="psalm">
+                <div type="psalm" xml:id="corde-natus-ex-parentis" n="3">
+                    <head type="add">Corde natus ex parentis</head>
                     <head> III. <lb/> Den Hymne / <title>Corde na<lb rend="="/>tus ex
                             parentis</title>.</head>
                     <notatedMusic>
@@ -5011,7 +5016,8 @@
                         <l> Fra nu oc <lb/> ind til euig tid.</l>
                     </lg>
                 </div>
-                <div type="psalm" xml:lang="la">
+                <div type="psalm" xml:lang="la" xml:id="grates-nunc-omnes" n="4">
+                    <head type="add">Grates nunc omnes</head>
                     <head><pb ana="6" n="E67"/>IIII. <lb/>
                         <title>GRATES NVNC <lb/> omnes</title>. </head>
                     <notatedMusic>
@@ -5027,7 +5033,8 @@
                         <l>Gloria in excelsis.</l>
                     </lg>
                 </div>
-                <div type="psalm">
+                <div type="psalm" xml:id="grates-nunc-omnes-da" n="5">
+                    <head type="add">Grates nunc omnes på dansk</head>
                     <head><pb n="E68"/>V. <lb/>
                         <title>GRATES NVNC OM<lb rend="="/>nes</title> Paa danske.</head>
                     <notatedMusic>
@@ -5043,7 +5050,8 @@
                         <l> Ære oc priss være Gud <lb/> i det Høyeste. </l>
                     </lg>
                 </div>
-                <div type="psalm" xml:lang="la">
+                <div type="psalm" xml:lang="la" xml:id="dies-est-leticie" n="6">
+                    <head type="add">Dies est læticie</head>
                     <head><pb ana="7" n="E69"/> VI. <lb/>
                         <title>DIES EST LÆ<lb rend="="/>ticiæ</title>: </head>
                     <notatedMusic>
@@ -5145,7 +5153,8 @@
                         <l> fac ad te venire.</l>
                     </lg>
                 </div>
-                <div type="psalm">
+                <div type="psalm" xml:id="dies-est-leticie-da" n="7">
+                    <head type="add">Dies est læticie på dansk</head>
                     <head> VII. <lb/>
                         <title>DIES EST LÆTI<lb rend="="/>ciæ</title>, Paa danske.</head>
                     <notatedMusic>
@@ -5249,7 +5258,8 @@
                         <l>Oc fred foruden all ende.</l>
                     </lg>
                 </div>
-                <div type="psalm">
+                <div type="psalm" xml:id="et-lidet-barn-saa-lystelig" n="8">
+                    <head type="add">Et lidet barn så lystelig</head>
                     <head> VIII. <lb/>
                         <title>Jt lidet Barn saa <lb/> lysteligt</title>.</head>
                     <notatedMusic>
@@ -5305,7 +5315,8 @@
                         <l>Lad oss i Freden leffue.</l>
                     </lg>
                 </div>
-                <div type="psalm">
+                <div type="psalm" xml:id="en-jomfrue-foedte-et-barn" n="9">
+                    <head type="add">En jomfru fødte et barn</head>
                     <head> IX. <lb/>
                         <title>En Jomfru fødde it Barn i dag etc.</title>
                         <lb/> siungis met de Noder / som / <title>Jt lidet Barn <lb/> saa
@@ -5323,7 +5334,8 @@
                         <l>Met pine oc Dødzens galle.</l>
                     </lg>
                 </div>
-                <div type="psalm" xml:lang="la">
+                <div type="psalm" xml:lang="la" xml:id="resonet-in-laudibus" n="10">
+                    <head type="add">Resonet in laudibus</head>
                     <head> X. <lb/> RESONET IN <lb/> laudibus. </head>
                     <notatedMusic>
                         <ptr target="nil"/>
@@ -5360,7 +5372,8 @@
                         <l>purgatorem criminum.</l>
                     </lg>
                 </div>
-                <div type="psalm">
+                <div type="psalm" xml:id="christus-natus-hodie" n="11">
+                    <head type="add">Christus natus hodie på dansk</head>
                     <head> XI. <lb/> Christus natus hodie, <lb/> Fordansket.</head>
                     <notatedMusic>
                         <ptr target="nil"/>
@@ -5402,7 +5415,8 @@
                         <l><space extent="4blanks"/>Euindelig.</l>
                     </lg>
                 </div>
-                <div type="psalm">
+                <div type="psalm" xml:id="lovsang-efter-resonet" n="12">
+                    <head type="add">Lovsang efter Resonet in laudibus</head>
                     <head> XII. <lb/> En Loffsang met de Noder / som / <lb/> Resonet in laudibus,
                             siun<lb rend="="/>gis met.</head>
                     <lg>
@@ -5473,9 +5487,10 @@
                         <l>Thi hand er den oss hielper aff nød / </l>
                         <l>Det er nu skeet som spaad haffde Esaias.</l>
                     </lg>
+                    <figure type="vignette"/>
                 </div>
-                <figure type="vignette"/>
-                <div type="psalm">
+                <div type="psalm" xml:id="in-dulci-jubilo" n="13">
+                    <head type="add">In dulci jubilo</head>
                     <head><pb n="E86"/>XIII. <lb/> In dulci iubilo.</head>
                     <notatedMusic>
                         <ptr target="nil"/>
@@ -5522,7 +5537,8 @@
                         <l> Eya vaare wi der.</l>
                     </lg>
                 </div>
-                <div type="psalm">
+                <div type="psalm" xml:id="lov-gud-du-kristenhed" n="14">
+                    <head type="add">Lov Gud, du kristenhed</head>
                     <head> XIIII. <lb/> Loff Gud du Christenhed / etc. siun<lb rend="="/>gis met de
                         Noder / som / In dulci iu<lb rend="="/>bilo, siungis met.</head>
                     <lg>
@@ -5597,7 +5613,8 @@
                         <l>Ærens Krone faa.</l>
                     </lg>
                 </div>
-                <div type="psalm">
+                <div type="psalm" xml:id="pris-aere-og-dyd" n="15">
+                    <head type="add">Pris ære og dyd</head>
                     <head> XV. <lb/> En gammel Julesang / <title>Priss <lb/> oc ære oc dyd
                             &amp;c.</title></head>
                     <notatedMusic>
@@ -5693,7 +5710,8 @@
                         <l> in regno gloriæ, omni tempore. </l>
                     </lg>
                 </div>
-                <div type="psalm">
+                <div type="psalm" xml:id="puer-natus-in-bethlehem" n="16">
+                    <head type="add">Puer natus in Bethlehem</head>
                     <head> XVI. <lb/> PVER NATVS IN <lb/> Bethlehem. </head>
                     <lg>
                         <l>Puer natus in Bethlehem,</l>
@@ -5816,7 +5834,8 @@
                         <l> Haleluia. </l>
                     </lg>
                 </div>
-                <div type="psalm">
+                <div type="psalm" xml:id="lovsang-vor-herre-jesu-foedsel" n="17">
+                    <head type="add">Lovsang om Vor Herre Jesu fødsel</head>
                     <head><pb ana="21" n="E97"/> XVII. <lb/> En Loffsang om vor Herris <lb/> Jesu
                         Christi Fød<lb rend="="/>zel. <lb/> D. Morten Luther.</head>
                     <notatedMusic>
@@ -5874,7 +5893,8 @@
                         <l><space extent="4blanks"/>Kyrieleis.</l>
                     </lg>
                 </div>
-                <div type="psalm">
+                <div type="psalm" xml:id="vaer-glad-du-hellige-kristenhed" n="18">
+                    <head type="add">Vær glad, du hellige kristenhed</head>
                     <head><pb ana="22" n="E99"/> XVIII. <lb/>
                         <title>Ver glad du hellige Chri<lb rend="="/>stenhed</title>.</head>
                     <notatedMusic>
@@ -5931,7 +5951,8 @@
                     </lg>
                     <figure type="vignette"/>
                 </div>
-                <div type="psalm">
+                <div type="psalm" xml:id="troestelig-boernesang-om-det-lille" n="19">
+                    <head type="add">Børnesang om det velsignede Jesusbarn</head>
                     <head><pb ana="23" n="E101"/> XIX. <lb/> En trøstelig Børnesang / om det <lb/>
                         lille Velsignede barn Jesus / vddragen <lb/> aff S. Lucæ Euangelistis <lb/>
                         andet Capitel. <lb/> D. Morten Luther.</head>
@@ -6030,7 +6051,8 @@
                         <l>Oc siunger oss it saligt nyt Aar.</l>
                     </lg>
                 </div>
-                <div type="psalm">
+                <div type="psalm" xml:id="fra-himmelen-kom-den-engel" n="20">
+                    <head type="add">Fra himlen kom den engel</head>
                     <head><pb n="E104"/> XX. <lb/>
                         <title>Fra Himmelen kom den Engle <lb/> Skar &amp;c.</title> Siungis met de
                         noder / som / <lb/>
@@ -6074,7 +6096,8 @@
                         <l>Taalmodig trøstig alle stund.</l>
                     </lg>
                 </div>
-                <div type="psalm">
+                <div type="psalm" xml:id="o-jesus-krist-som-manddom-tog" n="21">
+                    <head type="add">O Jesus Krist som manddom tog</head>
                     <head> XXI. <lb/> O Jesu Christ som Man<lb rend="="/>dom tog.</head>
                     <notatedMusic>
                         <ptr target="nil"/>
@@ -6126,7 +6149,8 @@
                         <l>Hand er vor kiære Fader.</l>
                     </lg>
                 </div>
-                <div type="psalm">
+                <div type="psalm" xml:id="nu-glaeder-eder-adams-boern" n="22">
+                    <head type="add">Nu glæder Eder Adams børn</head>
                     <head> XXII. <lb/> Nu glæder eder Adams <lb/> Børn.</head>
                     <notatedMusic>
                         <ptr target="nil"/>
@@ -6150,7 +6174,8 @@
                         <l> bleff skenckt <lb/>oss vs le oc arme. </l>
                     </lg>
                 </div>
-                <div type="psalm">
+                <div type="psalm" xml:id="hostis-herodes" n="23">
+                    <head type="add">Hostis Herodes</head>
                     <head><pb ana="27" n="E109"/> XXIII. <lb/> Den Hymne / <title>Hostis He<lb
                                 rend="="/>rodes etc.</title>
                         <lb/> D. Morten Luther.</head>
@@ -6189,7 +6214,8 @@
                         <l>Ske loff oc priss i alle land.</l>
                     </lg>
                 </div>
-                <div type="psalm">
+                <div type="psalm" xml:id="alle-kristne-fryde-sig-nu" n="24">
+                    <head type="add">Alle kristne fryde sig nu</head>
                     <head> XXIIII. <lb/>
                         <title>Alle Christne fryde <lb/>sig nu</title>. <lb/> Denne Sang maa oc
                         siungis paa vor <lb/> Frue dag / Purificationis et <lb/> Visitationis. </head>
