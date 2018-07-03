@@ -42,20 +42,14 @@
             <pb n="E1"/>
             <titlePage rend="center">
                 <docTitle>
-                    <lb/>
-                    <titlePart>GRADVAL.</titlePart>
-                    <lb/>
-                    <titlePart> En Almindelig </titlePart>
-                    <lb/>
-                    <titlePart> Sangbog / som Hoybaarne </titlePart>
-                    <lb/>
-                    <titlePart> Første oc Stormectige Herre / Her Frederich den </titlePart>
-                    <lb/>
-                    <titlePart> Anden / Danmarckis Norgis Wendis oc Gottis Konning
-                        <ex>etcetera</ex>. <lb/> Haffuer ladet Ordinere oc tilsammen scriffue paa
-                            La<lb rend="="/>tine oc Danske / at bruge i Kirckerne / til des yder<lb
-                            rend="="/>mere endrectighed vdi Sang oc Ceremo<lb rend="="/>nier /
-                        effter Ordinantzens<lb/> lydelse. </titlePart>
+
+                    <titlePart>GRADVAL.<lb/> En Almindelig <lb/> Sangbog / som Hoybaarne <lb/>
+                        Første oc Stormectige Herre / Her Frederich den <lb/> Anden / Danmarckis
+                        Norgis Wendis oc Gottis Konning <ex>etcetera</ex>. <lb/> Haffuer ladet
+                        Ordinere oc tilsammen scriffue paa La<lb rend="="/>tine oc Danske / at bruge
+                        i Kirckerne / til des yder<lb rend="="/>mere endrectighed vdi Sang oc
+                            Ceremo<lb rend="="/>nier / effter Ordinantzens<lb/> lydelse.
+                    </titlePart>
                 </docTitle>
                 <lb/>
                 <docAuthor> Ved<lb/>
@@ -77,7 +71,7 @@
                 </imprimatur>
             </titlePage>
             <pb n="E2"/>
-            <div type="images">
+            <!--<div type="images">
                 <lb/>
 
                 <head>Frederich den Anden met Guds Naade</head>
@@ -102,7 +96,7 @@
                 <head>
                     <lb/>1573.</head>
 
-            </div>
+            </div>-->
             <div type="preface" xml:id="frederik-1-preface">
                 <head type="add">Frederik 1.s forord</head>
                 <p><pb n="E4"/>
@@ -483,9 +477,9 @@
         <body>
             <div xml:id="foerste-soendag-i-advent">
                 <head type="add">Første søndag i advent</head>
+                <head><pb ana="1" n="E13"/> Den<ex>n</ex> Første Søndag <lb/> i Aduent.</head>
                 <div type="psalm">
-                    <head>
-                        <pb ana="1" n="E13"/> Den<ex>n</ex> Første Søndag <lb/> i Aduent.</head>
+
                     <lb/>
                     <figure type="image"/>
 
@@ -1377,8 +1371,9 @@
             </div>
             <div xml:id="anden-soendag-i-advent">
                 <head type="add">Anden søndag i advent</head>
+                <head>Den Anden Søndag <lb/>i Aduent.</head>
                 <div type="psalm" xml:lang="la">
-                    <head>Den Anden Søndag <lb/>i Aduent. <lb/>Introitus Latinus. <lb/>
+                    <head>Introitus Latinus. <lb/>
                         <ref target="#">Esaiæ. 3.</ref></head>
                     <lb/>
                     <notatedMusic>
@@ -1423,8 +1418,9 @@
             </div>
             <div xml:id="tredje-soendag-i-advent">
                 <head type="add">Tredje søndag i advent</head>
+                <head>Den Tredie Søndag <lb/> i Aduent.</head>
                 <div type="psalm" xml:lang="la">
-                    <head>Den Tredie Søndag <lb/> i Aduent.<lb/> Introitus Latinus. <lb/>
+                    <head>Introitus Latinus. <lb/>
                         <ref target="#">Philipp: 4.</ref></head>
                     <lb/>
                     <notatedMusic>
@@ -1478,8 +1474,9 @@
             </div>
             <div xml:id="fjerde-soendag-i-advent">
                 <head type="add">Fjerde søndag i advent</head>
+                <head>Den Fierde Søndag <lb/> i Aduent.</head>
                 <div type="psalm" xml:lang="la">
-                    <head>Den Fierde Søndag <lb/> i Aduent.<lb/> Introitus Latinus.<lb/>
+                    <head>Introitus Latinus.<lb/>
                         <ref target="#">Psalm: 106.</ref></head>
                     <lb/>
                     <notatedMusic>
@@ -1531,14 +1528,11 @@
             </div>
             <div xml:id="paa-kristi-foedselsdag">
                 <head type="add">På Kristi fødselsdag</head>
+                <head>Paa Christi fødzels dag.</head>
                 <div type="psalm">
                     <pb ana="36" n="E48"/>
-                    <head>Paa Christi fødzels dag.</head>
-                    <lb/>
                     <figure type="image"/>
-                    <lb/>
                     <head>Introitus dansk.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -1875,7 +1869,7 @@
                 <div type="psalm" xml:lang="la">
 
                     <p>Offersang skal vdi Kiøbstederne begyndis <lb/> paa denne effterfølgende <hi
-                            rend="italics">Sequentze.</hi> Men <lb/>vdi Landzkirckerne paa / <hi
+                            rend="italics">Sequentze.</hi> Men <lb/> vdi Landzkirckerne paa / <hi
                             rend="italics">Reso<lb rend="="/>net in laudibus et c.</hi>
                     </p>
                     <lb/>
@@ -1886,7 +1880,7 @@
 
                     <lg>
                         <l>
-                            <c function="initials" rend="2">E</c> Ja re colamus laudibus piis, </l>
+                            <c function="initials" rend="2">E</c>Ja recolamus laudibus piis, </l>
                         <l>digna huius di e i carmina, </l>
                         <l>in qua nobis <pb ana="55" n="E67"/>lux o ri tur gratissima. </l>
                         <l>Noctis inter it ne<lb rend="="/>bula, pereunt nostrj criminis vmbracula. </l>
@@ -1956,12 +1950,11 @@
                         <l>quod an<lb rend="="/>nunciatum est per Gabri el. </l>
                     </lg>
 
-                    <pb ana="61" n="E73"/>
                 </div>
                 <div type="psalm">
 
-                    <head>Post singulos versus repete, Sunt <lb/><hi rend="italics">impleta etc. Ad
-                            finem vsque.</hi>
+                    <head><pb ana="61" n="E73"/>Post singulos versus repete, Sunt <lb/><hi
+                            rend="italics">impleta etc. Ad finem vsque.</hi>
                         <lb/> Lige saa paa Danske / vnder de <lb/>samme Noder.</head>
 
 
@@ -1974,7 +1967,6 @@
                         <l>Det er nu skeet som spaad haffde Esaias.</l>
                     </lg>
                     <lg>
-
                         <head>Almuen.</head>
                         <l> &#9758; Gabrielis ord de ere fuldkommen nu / <lb/></l>
                         <l> Eya / Eya /</l>
@@ -2277,137 +2269,129 @@
                         <l>hans krafft hun er w krencke lig / alt in den sin </l>
                         <l><pb ana="73" n="E85"/>Guddoms æ re. </l>
                     </lg>
+                    <lg>
+                        <l>
+                            <space extent="2blanks"/>Moder hun er Daatter værd / </l>
+                        <l>Fader er Sønsens Herre. </l>
+                        <l>Huo haffuer hørt slig vnderlig færd / </l>
+                        <l>At Gud vilde Menniske være? </l>
+                        <l>Suenden haffuer Herre mact / </l>
+                        <l>Ehuor hand gaar hand giffuer paa act / </l>
+                        <l>Wi kand det icke besinde. </l>
+                        <l>Hand er baade nær oc langt der fra / </l>
+                        <l>Som Scrifften siger oc vndrer der paa / </l>
+                        <l>Wi kand det icke besinde.</l>
+                    </lg>
+                    <lb/>
+                    <lg>
+                        <l>
+                            <space extent="2blanks"/>Den som alting haffuer i vold /</l>
+                        <l>Oc Himmelen haffuer at raade /</l>
+                        <l>Hand føddis i en Asne stold /</l>
+                        <l>For Øxen oc Asen baade.</l>
+                        <l>Soel oc Maane haffuer hand giort /</l>
+                        <l>All Verden skabte hand met it Ord /</l>
+                        <l>Planeter oc alle Stierner /</l>
+                        <l>Hand huiltis i den Krybbe saa trang /</l>
+                        <l>For Mennisken vilde hand lide den tuang /</l>
+                        <l>Thi kiendis wi hannem saa gierne.</l>
+                    </lg>
+                    <lb/>
+                    <lg>
+                        <l>
+                            <space extent="2blanks"/>Christ er fød aff en Jomfru reen /</l>
+                        <l>Det kunde hand vel forlæste /</l>
+                        <l>Som Rosen springer aff Lilie gren /</l>
+                        <l>Jmod Naturens bæste /</l>
+                        <l>Hand føddis aff en Jomfru spæ oc vng /</l>
+                        <l>Hendis byrde vaar læt oc icke tung /</l>
+                        <l>Det kunde vel Jesus raade /</l>
+                        <l>De Spenner der hun met gaff at di /</l>
+                        <l>Der vaar den hellig Aands dyd vdi /</l>
+                        <l>Opfylt met Guddoms naade. </l>
+                    </lg>
 
+                    <lg>
+                        <l><pb ana="74" n="E86"/>
+                            <space extent="2blanks"/>Som Solen ganger igennem it Glar /</l>
+                        <l>Oc det vorder intet at skade /</l>
+                        <l>Saa er Maria en Jomfru klar /</l>
+                        <l>Vdaff den hellig Aands naade.</l>
+                        <l>Salig er den Barnemoder /</l>
+                        <l>Som Herre Gud gaff Naaden stor /</l>
+                        <l>At hun skulde Jesum føde:</l>
+                        <l>Saligt er det Liff hannem bar /</l>
+                        <l>Och saa de Lemmer der met vaar /</l>
+                        <l>Som oss skulde frelse aff møde.</l>
+                    </lg>
                     <lb/>
-                    <div>
-                        <lg>
-                            <l>
-                                <space extent="2blanks"/>Moder hun er Daatter værd / </l>
-                            <l>Fader er Sønsens Herre. </l>
-                            <l>Huo haffuer hørt slig vnderlig færd / </l>
-                            <l>At Gud vilde Menniske være? </l>
-                            <l>Suenden haffuer Herre mact / </l>
-                            <l>Ehuor hand gaar hand giffuer paa act / </l>
-                            <l>Wi kand det icke besinde. </l>
-                            <l>Hand er baade nær oc langt der fra / </l>
-                            <l>Som Scrifften siger oc vndrer der paa / </l>
-                            <l>Wi kand det icke besinde.</l>
-                        </lg>
-                        <lb/>
-                        <lg>
-                            <l>
-                                <space extent="2blanks"/>Den som alting haffuer i vold /</l>
-                            <l>Oc Himmelen haffuer at raade /</l>
-                            <l>Hand føddis i en Asne stold /</l>
-                            <l>For Øxen oc Asen baade.</l>
-                            <l>Soel oc Maane haffuer hand giort /</l>
-                            <l>All Verden skabte hand met it Ord /</l>
-                            <l>Planeter oc alle Stierner /</l>
-                            <l>Hand huiltis i den Krybbe saa trang /</l>
-                            <l>For Mennisken vilde hand lide den tuang /</l>
-                            <l>Thi kiendis wi hannem saa gierne.</l>
-                        </lg>
-                        <lb/>
-                        <lg>
-                            <l>
-                                <space extent="2blanks"/>Christ er fød aff en Jomfru reen /</l>
-                            <l>Det kunde hand vel forlæste /</l>
-                            <l>Som Rosen springer aff Lilie gren /</l>
-                            <l>Jmod Naturens bæste /</l>
-                            <l>Hand føddis aff en Jomfru spæ oc vng /</l>
-                            <l>Hendis byrde vaar læt oc icke tung /</l>
-                            <l>Det kunde vel Jesus raade /</l>
-                            <l>De Spenner der hun met gaff at di /</l>
-                            <l>Der vaar den hellig Aands dyd vdi /</l>
-                            <l>Opfylt met Guddoms naade. </l>
-                        </lg>
-                        <pb ana="74" n="E86"/>
-                        <lg>
-                            <l>
-                                <space extent="2blanks"/>Som Solen ganger igennem it Glar /</l>
-                            <l>Oc det vorder intet at skade /</l>
-                            <l>Saa er Maria en Jomfru klar /</l>
-                            <l>Vdaff den hellig Aands naade.</l>
-                            <l>Salig er den Barnemoder /</l>
-                            <l>Som Herre Gud gaff Naaden stor /</l>
-                            <l>At hun skulde Jesum føde:</l>
-                            <l>Saligt er det Liff hannem bar /</l>
-                            <l>Och saa de Lemmer der met vaar /</l>
-                            <l>Som oss skulde frelse aff møde.</l>
-                        </lg>
-                        <lb/>
-                        <lg>
-                            <l>
-                                <space extent="2blanks"/>Keyseren loed biude offuer alt sit Land
-                                /</l>
-                            <l>Hand loed det Folck bescriffue /</l>
-                            <l>All Verden stod da til hans haand /</l>
-                            <l>De skulde hannem Skatten giffue.</l>
-                            <l>Opstod Joseph oc Maria glad /</l>
-                            <l>Saa fore de til Bethlehem stad /</l>
-                            <l>De kunde icke lenger komme /</l>
-                            <l>Oc der det kom til Midnatz tid /</l>
-                            <l>Da føddis den Herre baade mild oc blid /</l>
-                            <l>Oss alle til glæde oc fromme.</l>
-                        </lg>
-                        <lb/>
-                        <lg>
-                            <l>
-                                <space extent="2blanks"/>Engelen taler til Hyrderne saa /</l>
-                            <l/>
-                            <l>Hand fick saa vel til orde /</l>
-                            <l/>
-                            <l>Der hand fand dem paa marcken gaa /</l>
-                            <l/>
-                            <l>Oc vocte deris Hiorde.</l>
-                            <l/>
-                            <l>Nu er Himmerigs Konge fød /</l>
-                            <l/>
-                            <l>All Verdsens sorg hun er forød /</l>
-                            <l/>
-                            <l>Det maa wi visselige acte /</l>
-                            <l/>
-                            <l>Hand er en Herre offuer Engle Chor /</l>
-                            <l/>
-                            <l>En Høffding offuer dem paa Jorden boer /</l>
-                            <l/>
-                            <l>Faur i alle sine facte.</l>
-                        </lg>
-                        <lb/>
-                        <lg>
-                            <l>
-                                <space extent="2blanks"/>Herre Gud som oss haffuer skabt /</l>
-                            <l>Hand loed sig der til sømme /</l>
-                            <l>Frelste dem igen som vaare fortabt /</l>
-                            <l>Alt vdaff Dieffuelens giemme.</l>
-                            <l>Forlad oss det som wi haffue brut /</l>
-                            <l>Vnd oss at giøre som for dig er gaat / <pb ana="75" n="E87"/> Vort hu
-                                fra synden at vende /</l>
-                            <l>Lad oss leffue i stadelig tro /</l>
-                            <l>Met dig at bliffue i euig ro /</l>
-                            <l>Oc fred foruden all ende.</l>
-                        </lg>
-                    </div>
+                    <lg>
+                        <l>
+                            <space extent="2blanks"/>Keyseren loed biude offuer alt sit Land /</l>
+                        <l>Hand loed det Folck bescriffue /</l>
+                        <l>All Verden stod da til hans haand /</l>
+                        <l>De skulde hannem Skatten giffue.</l>
+                        <l>Opstod Joseph oc Maria glad /</l>
+                        <l>Saa fore de til Bethlehem stad /</l>
+                        <l>De kunde icke lenger komme /</l>
+                        <l>Oc der det kom til Midnatz tid /</l>
+                        <l>Da føddis den Herre baade mild oc blid /</l>
+                        <l>Oss alle til glæde oc fromme.</l>
+                    </lg>
                     <lb/>
+                    <lg>
+                        <l>
+                            <space extent="2blanks"/>Engelen taler til Hyrderne saa /</l>
+                        <l/>
+                        <l>Hand fick saa vel til orde /</l>
+                        <l/>
+                        <l>Der hand fand dem paa marcken gaa /</l>
+                        <l/>
+                        <l>Oc vocte deris Hiorde.</l>
+                        <l/>
+                        <l>Nu er Himmerigs Konge fød /</l>
+                        <l/>
+                        <l>All Verdsens sorg hun er forød /</l>
+                        <l/>
+                        <l>Det maa wi visselige acte /</l>
+                        <l/>
+                        <l>Hand er en Herre offuer Engle Chor /</l>
+                        <l/>
+                        <l>En Høffding offuer dem paa Jorden boer /</l>
+                        <l/>
+                        <l>Faur i alle sine facte.</l>
+                    </lg>
+                    <lb/>
+                    <lg>
+                        <l>
+                            <space extent="2blanks"/>Herre Gud som oss haffuer skabt /</l>
+                        <l>Hand loed sig der til sømme /</l>
+                        <l>Frelste dem igen som vaare fortabt /</l>
+                        <l>Alt vdaff Dieffuelens giemme.</l>
+                        <l>Forlad oss det som wi haffue brut /</l>
+                        <l>Vnd oss at giøre som for dig er gaat / <pb ana="75" n="E87"/> Vort hu fra
+                            synden at vende /</l>
+                        <l>Lad oss leffue i stadelig tro /</l>
+                        <l>Met dig at bliffue i euig ro /</l>
+                        <l>Oc fred foruden all ende.</l>
+                    </lg>
+                    <p>Strax effter denne Psalme / maa der <lb/>siungis / <hi rend="italics">Grates
+                            nunc omnes</hi>, met <lb/>sin Danske. <lb/> Effter Predicken maa der
+                        siungis / All den <lb/> gantske Christenhed <ex>etcetera</ex>. Oc siden
+                        læsis den <lb/>Danske Collect / aff Alter<lb rend="="/>bogen. <lb/></p>
+
                 </div>
             </div>
             <div xml:id="sankt-stefans-dag">
                 <head type="add">Sankt Stefans dag</head>
+                <head>Paa S. Staffens dag.</head>
                 <div type="psalm" xml:lang="la">
-                    <head>Strax effter denne Psalme / maa der <lb/>siungis / <hi rend="italics"
-                            >Grates nunc omnes</hi>, met <lb/>sin Danske. <lb/> Effter Predicken maa
-                        der siungis / All den <lb/> gantske Christenhed <ex>etcetera</ex>. Oc siden
-                        læsis den <lb/>Danske Collect / aff Alter<lb rend="="/>bogen. <lb/></head>
-
-
-                    <head>Paa S. Staffens dag.<lb/> Introitus lat.<lb/>
+                    <head> Introitus lat.<lb/>
                         <ref target="#">Psalm: 119.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
                     </notatedMusic>
-
                     <lg>
                         <l>
                             <c function="initials" rend="2">E</c> T e nim se de runt princi pes, </l>
@@ -2557,10 +2541,10 @@
             </div>
             <div xml:id="hans-evangeliste-dag">
                 <head type="add">Hans Evangeliste Dag</head>
+                <head>Paa S. Hans Euange<lb rend="="/>liste dag.</head>
                 <div type="psalm" xml:lang="la">
-
-
-                    <head>Paa S. Hans Euange<lb rend="="/>liste dag. <lb/> Introitus Latinus. <lb/>
+                    <head type="add">Introitus</head>
+                    <head> Introitus Latinus. <lb/>
                         <ref target="#">Syrach, 15.</ref></head>
                     <lb/>
                     <notatedMusic>
@@ -2610,8 +2594,9 @@
             </div>
             <div xml:id="foerste-soendag-efter-jul">
                 <head type="add">Første søndag efter jul</head>
+                <head>Den første Søndag <lb/> effter Jul.</head>
                 <div type="psalm" xml:lang="la">
-                    <head>Den første Søndag <lb/> effter Jul.<lb/> Introitus Latinus. <lb/>
+                    <head>Introitus Latinus. <lb/>
                         <ref target="#">Sapientiæ. 18.</ref></head>
                     <lb/>
                     <notatedMusic>
@@ -2663,15 +2648,14 @@
             </div>
             <div xml:id="nytaarsdag">
                 <head type="add">Nytårsdag</head>
+                <head>Paa Nyt Aars<lb/>dag.</head>
                 <div type="psalm" xml:lang="la">
-                    <head>Paa Nyt Aars<lb/>dag.<lb/> Introitus lat. <lb/>
+                    <head>Introitus lat. <lb/>
                         <ref target="#">Lucæ. 2.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
                     </notatedMusic>
-
                     <lg>
                         <l>
                             <c function="initials" rend="2">E</c> T postquam con summati sunt <pb
@@ -2689,26 +2673,23 @@
                         <l>Sic ut erat in principio et nunc et sem per, </l>
                         <l>et in se cu la secu lorum, A men. </l>
                     </lg>
-
                     <pb ana="94" n="E106"/>
                 </div>
             </div>
             <div xml:id="soendag-mellem-nytaar-og-helligtrekonger">
                 <head type="add">Søndagen mellem nytårsdag og helligtrekongersdag</head>
                 <div type="psalm" xml:lang="la">
-
-
                     <head>HALELVIA. <lb/>Dies Sanctificatus <ex>etcetera</ex>. vt supra <lb/>
                         <hi rend="italics">die Natiuitatis Christj.</hi>
-                        <lb/>Den Søndag imellom <lb/> Nyt Aars dag och hellige <lb/>tre Kongers dag. <lb/>
-                        <lb/>Introitus lati: <lb/>
+                    </head>
+                    <head>Den Søndag imellom <lb/> Nyt Aars dag och hellige <lb/>tre Kongers dag. </head>
+                    <head>Introitus lati: <lb/>
                         <ref target="#">Psalm: 45.</ref></head>
                     <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
                     </notatedMusic>
-
                     <lg>
                         <l>
                             <c function="initials" rend="2">V</c> Vltum tu um de preca<lb rend="="
@@ -2749,10 +2730,9 @@
             </div>
             <div xml:id="helligtrekongersdag">
                 <head type="add">Helligtrekongersdag</head>
+                <head>Paa hellig tre Kon<lb rend="="/>gers dag.</head>
                 <div type="psalm" xml:lang="la">
-
-
-                    <head>Paa hellig tre Kon<lb rend="="/>gers dag.<lb/> Introitus latinus. <lb/>
+                    <head>Introitus latinus. <lb/>
                         <ref target="#">Ex Malachi: 3.</ref></head>
                     <lb/>
                     <notatedMusic>
@@ -2805,9 +2785,9 @@
             </div>
             <div xml:id="foerste-soendag-efter-helligtrekongersdag">
                 <head type="add">Første søndag efter helligtrekongersdag</head>
+                <head>Den<ex>n</ex> Første Søndag effter hellig tre Kongers dag.</head>
                 <div type="psalm" xml:lang="la">
-                    <head>Den<ex>n</ex> Første Søndag effter hellig tre Kongers dag. <lb/> Introitus
-                        latinus. <lb/>
+                    <head> Introitus latinus. <lb/>
                         <ref target="#">Ex Esaiæ. 6.</ref> et <ref target="#">Apocal:
                         4.</ref></head>
                     <lb/>
@@ -2861,9 +2841,9 @@
             </div>
             <div xml:id="anden-soendag-efter-helligtrekongersdag">
                 <head type="add">Anden søndag efter helligtrekongersdag</head>
+                <head>Den Anden Søndag<lb/> effter hellig tre Kongers <lb/>dag. </head>
                 <div type="psalm" xml:lang="la">
-                    <head>Den Anden Søndag<lb/> effter hellig tre Kongers <lb/>dag. <lb/> Introitus
-                        lat: <lb/>
+                    <head> Introitus lat: <lb/>
                         <ref target="#">Psalm: 65.</ref></head>
                     <lb/>
                     <notatedMusic>
@@ -2915,13 +2895,10 @@
             </div>
             <div xml:id="tredje-soendag-efter-helligtrekongersdag">
                 <head type="add">Tredje søndag efter helligtrekongersdag</head>
+                <head>Den<ex>n</ex> Tredie Søndag <lb/>effter hellig tre Kongers <lb/>dag. </head>
                 <div type="psalm" xml:lang="la">
-
-
-                    <head>Den<ex>n</ex> Tredie Søndag <lb/>effter hellig tre Kongers <lb/>dag. <lb/>
-                        Introitus lat: <lb/>
+                    <head> Introitus lat: <lb/>
                         <ref target="#">Psalm: 97.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -2969,9 +2946,9 @@
             </div>
             <div xml:id="marie-renselses-dag">
                 <head type="add">Marias renselsesdag</head>
+                <head>Paa Marie renselsis <lb/>dag.</head>
                 <div type="psalm">
-                    <head>Paa Marie renselsis <lb/>dag.<lb/> Introitus dansk.</head>
-                    <lb/>
+                    <head>Introitus dansk.</head>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -3279,11 +3256,9 @@
             </div>
             <div xml:id="fjerde-femte-sjette-soendag-efter-helligtrekongersdag">
                 <head type="add">Fjerde, femte og sjette søndag efter helligtrekongersdag</head>
+                <head>iiij. v. oc vj. Søndag <lb/> effter hellig tre Kongers <lb/>dag. </head>
                 <div type="psalm">
-
-                    <head>iiij. v. oc vj. Søndag <lb/> effter hellig tre Kongers <lb/>dag. <lb/>
-                        Introitus Dansk.</head>
-                    <lb/>
+                    <head> Introitus Dansk.</head>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -3412,9 +3387,9 @@
             </div>
             <div xml:id="soendag-septuagesima">
                 <head type="add">Septuagesima</head>
+                <head>Den Søndag Sep<lb rend="="/>tuagesima.</head>
                 <div type="psalm" xml:lang="la">
-                    <head>Den Søndag Sep<lb rend="="/>tuagesima.<lb/> Introitus Danske.
-                        <lb/>Hierusalem du hellige <app>
+                    <head>Introitus Danske. <lb/>Hierusalem du hellige <app>
                             <lem>Stad</lem>
                             <rdg><q>Satd</q> orig.</rdg>
                         </app><ex>etcetera</ex>. <hi rend="italics">vt supra.</hi>
@@ -3479,8 +3454,12 @@
                 <div type="psalm" xml:lang="la">
                     <head>For oc effter Predicken som<lb/>
                         <hi rend="italics">Dominica prima Aduentus.</hi>
-                        <lb/>Den Søndag Sexa<lb rend="="/>gesima.<lb/> Introitus Dansk.
-                        <lb/>Jerusalem du hellige Stad <ex>etcetera</ex>.<lb/> Introitus lat: <lb/>
+                        <lb/></head>
+                    <head>Den Søndag Sexa<lb rend="="/>gesima.<lb/>
+                    </head>
+                    <head>Introitus Dansk. <lb/>Jerusalem du hellige Stad
+                        <ex>etcetera</ex>.<lb/></head>
+                    <head> Introitus lat: <lb/>
                         <ref target="#">Psal: 44.</ref></head>
                     <lb/>
                     <notatedMusic>
@@ -3517,7 +3496,8 @@
                     <head>All den anden Sang <hi rend="italics">vt Domi<lb rend="="/>nica
                             præcedente.</hi>
                         <lb/>Paa fastelaffns Søndag / <lb/>Om Christi Daab. <lb/>
-                        <figure type="image"/><lb/>Introitus Dansk.</head>
+                        <figure type="image"/><lb/></head>
+                    <head>Introitus Dansk.</head>
                     <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
@@ -3650,14 +3630,16 @@
                     </lg>
 
                     <lb/>
+                    <p>All den Anden Sang /<hi rend="italics">vt Domini<lb rend="="/>ca
+                            præcedente.</hi>
+                        <lb/>Den første Søndag i Faste.</p>
                 </div>
             </div>
             <div xml:id="foerste-soendag-i-faste">
                 <head type="add">Første søndag i fasten</head>
+                <head>Den første Søndag i <lb/>Faste.</head>
                 <div type="psalm">
-                    <head>All den Anden Sang /<hi rend="italics">vt Domini<lb rend="="/>ca
-                            præcedente.</hi>
-                        <lb/>Den første Søndag i Faste.<lb/> Introitus Dansk.</head>
+                    <head>Introitus Dansk.</head>
                     <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
@@ -4120,8 +4102,9 @@
             </div>
             <div xml:id="anden-soendag-i-faste">
                 <head type="add">Anden søndag i fasten</head>
+                <head>Den<ex>n</ex> Anden Søndag<lb/>i Faste.</head>
                 <div type="psalm" xml:lang="la">
-                    <head>Den<ex>n</ex> Anden Søndag<lb/>i Faste.<lb/> Introitus latinus. <lb/>
+                    <head>Introitus latinus. <lb/>
                         <ref target="#">Psalm: 25.</ref></head>
                     <lb/>
                     <notatedMusic>
@@ -4158,15 +4141,15 @@
             </div>
             <div xml:id="tredje-soendag-i-faste">
                 <head type="add">Tredje søndag i fasten</head>
+                <head>Den Tredie Søndag i<lb/>Faste.</head>
                 <div type="psalm" xml:lang="la">
-                    <head>Den Tredie Søndag i<lb/>Faste.<lb/> Introitus latinus. <lb/>
+                    <head>Introitus latinus. <lb/>
                         <ref target="#">Psalm: 25.</ref></head>
                     <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
                     </notatedMusic>
-
                     <lg>
                         <l>
                             <c function="initials" rend="2">O</c> Culi mei sem = per ad Do mi num, </l>
@@ -4181,21 +4164,18 @@
                         <l>Sic ut erat in principi o et <pb ana="155" n="E167"/>nunc et sem per, </l>
                         <l>et in se cu la se= cu lo rum, A men. </l>
                     </lg>
-
-                    <lb/>
                 </div>
             </div>
             <div xml:id="midfaste-soendag">
                 <head type="add">Midfastesøndag</head>
+                <head>Paa Medfaste Søn<lb rend="="/>dag.</head>
                 <div type="psalm" xml:lang="la">
-                    <head>Paa Medfaste Søn<lb rend="="/>dag.<lb/> Introitus lat: <lb/>
+                    <head>Introitus lat: <lb/>
                         <ref target="#">Psalm: 66.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
                     </notatedMusic>
-
                     <lg>
                         <l>
                             <c function="initials" rend="2">L</c> Æta re Jerusa lem, </l>
@@ -4219,9 +4199,10 @@
             </div>
             <div xml:id="marie-bebudelsesdag">
                 <head type="add">Mariæ bebudelsesdag</head>
+                <head>Marie Bebudelsis<lb rend="="/>dag.</head>
                 <div type="psalm" xml:lang="la">
-                    <head>Marie Bebudelsis<lb rend="="/>dag.<lb/> Introitus Dansk / Jesu Christ som
-                        <lb/>Mandom tog: Som paa Kyn<lb rend="="/>delmisse dag. <lb/> Introitus lat: <lb/>
+                    <head>Introitus Dansk / Jesu Christ som <lb/>Mandom tog: Som paa Kyn<lb rend="="
+                        />delmisse dag. <lb/> Introitus lat: <lb/>
                         <ref target="#">Psal: 45.</ref></head>
                     <lb/>
                     <notatedMusic>
@@ -4280,20 +4261,21 @@
                         <l>et pe pe rit sal ua to= <pb ana="161" n="E173"/>rem.</l>
                         <l>Ha le = lu ia. </l>
                     </lg>
-
-                    <lb/>
+                    <div>
+                        <head>Sequentz.</head>
+                        <p> Nu bede wi den hellig Aand <ex>etcetera</ex>. <lb/>Loffsang effter
+                            Prædicken: Ære være Gud <lb/>Fader i Himmerig <ex>etcetera</ex>. <lb/>
+                            Offertorium.<lb/> Aff Adams fald / <hi rend="italics">vt supra.</hi>
+                            <lb/>Alt det andet til enden / som paa<lb/>
+                            <hi rend="italics">Inuocauit</hi> Søndag.<lb/></p>
+                    </div>
                 </div>
             </div>
             <div xml:id="soendag-efter-midfaste">
                 <head type="add">Søndag efter midfaste</head>
+                <head>Den Søndag effter <lb/>Medfaste.</head>
                 <div type="psalm" xml:lang="la">
-                    <head>Sequentz.<lb/> Nu bede wi den hellig Aand <ex>etcetera</ex>. <lb/>Loffsang
-                        effter Prædicken: Ære være Gud <lb/>Fader i Himmerig <ex>etcetera</ex>.
-                        <lb/> Offertorium.<lb/> Aff Adams fald / <hi rend="italics">vt supra.</hi>
-                        <lb/>Alt det andet til enden / som paa<lb/>
-                        <hi rend="italics">Inuocauit</hi> Søndag.<lb/> Den Søndag effter
-                        <lb/>Medfaste.<lb/> Introitus latinus. <ref target="#">Psalm:
-                        43.</ref></head>
+                    <head>Introitus latinus. <ref target="#">Psalm: 43.</ref></head>
                     <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
@@ -4323,8 +4305,9 @@
             </div>
             <div xml:id="palmesoendag">
                 <head type="add">Palmesøndag</head>
+                <head>Paa Palme Søndag.</head>
                 <div type="psalm" xml:lang="la">
-                    <head>Paa Palme Søndag.<lb/> Introitus latinus. <lb/>
+                    <head> Introitus latinus. <lb/>
                         <ref target="#">Psalm: 22.</ref></head>
                     <lb/>
                     <notatedMusic>
@@ -4353,9 +4336,10 @@
             </div>
             <div xml:id="skaertorsdag">
                 <head type="add">Skærtorsdag</head>
+                <head>Paa Skiertorsdag.</head>
                 <div type="psalm" xml:lang="la">
-                    <head>Paa Skiertorsdag.<lb/> Introitus Dansk. <lb/>Aff dybsens nød: <hi
-                            rend="italics">vt supra.</hi><lb/>Introitus latinus.<lb/>
+                    <head> Introitus Dansk. <lb/>Aff dybsens nød: <hi rend="italics">vt
+                        supra.</hi><lb/>Introitus latinus.<lb/>
                         <ref target="#">Ex Galat: 6.</ref></head>
                     <lb/>
                     <notatedMusic>
@@ -4619,8 +4603,9 @@
             </div>
             <div xml:id="langfredag">
                 <head type="add">Langfredag</head>
+                <head>Lang Fredag.</head>
                 <div type="psalm">
-                    <head>Lang Fredag.<lb/> Introitus Dansk.</head>
+                    <head>Introitus Dansk.</head>
                     <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
@@ -5148,11 +5133,10 @@
             </div>
             <div xml:id="paaskedag">
                 <head type="add">Påskedag</head>
+                <head>Sommer Parten.<lb/> Paaske dag. <lb/></head>
                 <div type="psalm">
-                    <head>Sommer Parten.<lb/> Paaske dag. <lb/>
-                        <figure type="image"/>
-                        <lb/> Introitus Dansk.</head>
-                    <lb/>
+                    <figure type="image"/>
+                    <head>Introitus Dansk.</head>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -5166,8 +5150,6 @@
                         <l>Ky ri e lei son / </l>
                         <l>O Herre miskunde oss. </l>
                     </lg>
-
-                    <lb/>
                     <div>
                         <lg>
                             <l>
@@ -5646,34 +5628,22 @@
                         <l><pb ana="215" n="E227"/> hun sig paa Gud forla der / </l>
                         <l> Ha le lu ia. </l>
                     </lg>
-
+                    <p>Afftensang paa Landsbyerne. <lb/>Huor som der holdis Afftensang paa
+                        Landsbyerne / <lb/>maa der siungis for Predicken. <lb/>Christ laa i Dødsens
+                        baande <ex>etcetera</ex>. <hi rend="italics">vt supra.</hi>
+                        <lb/> Strax der effter / <hi rend="italics">victimæ paschalj laudes
+                            etc.</hi> met / <lb/>Christ stod op aff døde <ex>etcetera</ex>. <hi
+                            rend="italics">vt supra.</hi>
+                        <lb/> Effter Predicken maa der siungis / Ærens <lb/>Konning
+                            <ex>etcetera</ex>. Oc siden læsis den Danske <lb/>Collect / aff
+                        Alterbogen. <lb/></p>
                     <lb/>
                 </div>
             </div>
             <div xml:id="anden-og-tredje-paaskedag">
                 <head type="add">Anden og tredje påskedag</head>
+                <head>Anden oc Tredie<lb/>Paaske dag.</head>
                 <div type="psalm">
-                    <head>Afftensang paa Landsbyerne. <lb/>Huor som der holdis Afftensang paa
-                        Landsbyerne / <lb/>maa der siungis for Predicken. <lb/>Christ laa i Dødsens
-                        baande <ex>etcetera</ex>.</head>
-                    <head>
-                        <hi rend="italics">vt supra.</hi>
-                    </head>
-                    <lb/>
-                    <head>Strax der effter /</head>
-                    <head>
-                        <hi rend="italics">victimæ paschalj laudes etc.</hi>
-                    </head>
-                    <head>met / <lb/>Christ stod op aff døde <ex>etcetera</ex>.</head>
-                    <head>
-                        <hi rend="italics">vt supra.</hi>
-                    </head>
-                    <lb/>
-                    <head>Effter Predicken maa der siungis / Ærens <lb/>Konning <ex>etcetera</ex>.
-                        Oc siden læsis den Danske <lb/>Collect / aff Alterbogen. <lb/>
-                    </head>
-                    <head>Anden oc Tredie<lb/>Paaske dag.</head>
-                    <lb/>
                     <div>
                         <table>
                             <row>
@@ -5797,9 +5767,9 @@
             </div>
             <div xml:id="foerste-soendag-efter-paaske">
                 <head type="add">Første søndag efter påske</head>
+                <head>Den første Søndag<lb/>effter Paaske. </head>
                 <div type="psalm" xml:lang="la">
-                    <head>Den første Søndag<lb/>effter Paaske. <lb/> Introitus latinus. <lb/><ref
-                            target="#">1. Pet: 2.</ref></head>
+                    <head>Introitus latinus. <lb/><ref target="#">1. Pet: 2.</ref></head>
                     <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
@@ -5852,8 +5822,9 @@
             </div>
             <div xml:id="anden-soendag-efter-paaske">
                 <head type="add">Anden søndag efter påske</head>
+                <head>Den<ex>n</ex> Anden Søndag<lb/>effter Paaske.</head>
                 <div type="psalm" xml:lang="la">
-                    <head>Den<ex>n</ex> Anden Søndag<lb/>effter Paaske.<lb/> Introitus latinus. <lb/>
+                    <head>Introitus latinus. <lb/>
                         <ref target="#">Psalm:33.</ref></head>
                     <lb/>
                     <notatedMusic>
@@ -5906,8 +5877,9 @@
             </div>
             <div xml:id="tredje-soendag-efter-paaske">
                 <head type="add">Tredje søndag efter påske</head>
+                <head>Den<ex>n</ex> Tredie Søndag<lb/>effter Paaske.</head>
                 <div type="psalm" xml:lang="la">
-                    <head>Den<ex>n</ex> Tredie Søndag<lb/>effter Paaske.<lb/> Introitus latinus. <lb/>
+                    <head> Introitus latinus. <lb/>
                         <ref target="#">Psalm: 66.</ref></head>
                     <lb/>
                     <notatedMusic>
@@ -5963,8 +5935,9 @@
             </div>
             <div xml:id="fjerde-soendag-efter-paaske">
                 <head type="add">Fjerde søndag efter påske</head>
+                <head>Den fierde Søndag<lb/>effter Paaske.</head>
                 <div type="psalm" xml:lang="la">
-                    <head>Den fierde Søndag<lb/>effter Paaske.<lb/> Introitus latinus. <lb/>
+                    <head>Introitus latinus. <lb/>
                         <ref target="#">Psalm: 98.</ref></head>
                     <lb/>
                     <notatedMusic>
@@ -5987,15 +5960,16 @@
                         <l>Sic ut e rat in principi o et nunc et semper, </l>
                         <l>et in se cu la se culorum, Amen. </l>
                     </lg>
-
-                    <lb/>
+                    <div>
+                        <head>HALELVIA. <lb/>Surgens Iesus: vide supra.</head>
+                    </div>
                 </div>
             </div>
             <div xml:id="femte-soendag-efter-paaske">
                 <head type="add">Femte søndag efter påske</head>
+                <head>Den femte Søndag<lb/>effter Paaske. </head>
                 <div type="psalm" xml:lang="la">
-                    <head>HALELVIA. <lb/>Surgens Iesus: vide supra. <lb/>Den femte Søndag<lb/>effter
-                        Paaske. <lb/>Introitus lat:</head>
+                    <head>Introitus lat:</head>
                     <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
@@ -6044,8 +6018,9 @@
             </div>
             <div xml:id="kristi-himmelfartsdag">
                 <head type="add">Kristi himmelfartsdag</head>
+                <head>Vor Herris Himmel<lb rend="="/>ferds dag.</head>
                 <div type="psalm" xml:lang="la">
-                    <head>Vor Herris Himmel<lb rend="="/>ferds dag.<lb/> Introitus latinus.<lb/>
+                    <head>Introitus latinus.<lb/>
                         <ref target="#">Actorum.1.</ref></head>
                     <lb/>
                     <notatedMusic>
@@ -6089,15 +6064,14 @@
                         <l>et Domi = nus in vo ce tu = bæ. </l>
                         <l>Ha le lu ia. </l>
                     </lg>
-
-                    <lb/>
+                    <p>All den anden Sang / som paa <lb/>anden Paaske dag. </p>
                 </div>
             </div>
             <div xml:id="sjette-soendag-efter-paaske">
                 <head type="add">Sjette søndag efter påske</head>
+                <head>Den siette Søndag<lb/> effter Paaske.</head>
                 <div type="psalm" xml:lang="la">
-                    <head>All den anden Sang / som paa <lb/>anden Paaske dag. <lb/> Den siette
-                        Søndag<lb/> effter Paaske.<lb/> Introitus latinus.<lb/>
+                    <head>Introitus latinus.<lb/>
                         <ref target="#">Psalm: 27.</ref></head>
                     <lb/>
                     <notatedMusic>
@@ -6151,11 +6125,9 @@
             </div>
             <div xml:id="pinsedag">
                 <head type="add">Pinsedag</head>
+                <head>Paa Pintze dag.</head>
                 <div type="psalm" xml:lang="la">
-                    <head>Paa Pintze dag. <lb/>
-                        <figure type="image"/>
-                    </head>
-                    <lb/>
+                    <figure type="image"/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -6601,17 +6573,13 @@
             </div>
             <div xml:id="anden-og-tredje-pinsedag">
                 <head type="add">Anden og tredje pinsedag</head>
+                <head>Paa Anden Pintzedag oc Tredie.</head>
                 <div type="psalm">
-                    <head>Paa Anden Pintzedag oc Tredie.</head>
-                    <lb/>
-                    <head>Introitus</head>
-                    <head>Dansk.</head>
-                    <lb/>
+                    <head>Introitus Dansk.</head>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
                     </notatedMusic>
-
                     <lg>
                         <l>
                             <c function="initials" rend="2">K</c>Om O Herre hel = lig Aand / </l>
@@ -6695,12 +6663,9 @@
             </div>
             <div xml:id="trinitatis">
                 <head type="add">Trinitatis</head>
+                <head>Den hellige Trefoldig<lb rend="="/>heds Søndag.</head>
                 <div type="psalm">
-                    <head>Den hellige Trefoldig<lb rend="="/>heds Søndag.</head>
-                    <lb/>
-                    <head>Introitus</head>
-                    <head>Dansk.</head>
-                    <lb/>
+                    <head>Introitus Dansk.</head>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -6901,11 +6866,10 @@
             </div>
             <div xml:id="foerste-soendag-efter-trinitatis">
                 <head type="add">Første søndag efter trinitatis</head>
+                <head>Den første Søndag<lb/>effter Trinitatis.</head>
                 <div type="psalm" xml:lang="la">
-                    <head>Den første Søndag<lb/>effter Trinitatis.<lb/> Introitus Dansk. vide
-                            Domi<lb rend="="/>nica Trinitatis. <lb/>Introitus latinus. <ref
-                            target="#">Psalm: 13.</ref></head>
-                    <lb/>
+                    <head>Introitus Dansk. <lb/> vide Domi<lb rend="="/>nica Trinitatis.
+                        <lb/>Introitus latinus. <ref target="#">Psalm: 13.</ref></head>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -7102,8 +7066,9 @@
             </div>
             <div xml:id="anden-soendag-efter-trinitatis">
                 <head type="add">Anden søndag efter trinitatis</head>
+                <head>Den Anden Søndag<lb/>effter Trinitatis.</head>
                 <div type="psalm" xml:lang="la">
-                    <head>Den Anden Søndag<lb/>effter Trinitatis.<lb/> Introitus latinus.<lb/>
+                    <head>Introitus latinus.<lb/>
                         <ref target="#">Psalm: 18.</ref></head>
                     <lb/>
                     <notatedMusic>
@@ -7152,8 +7117,9 @@
             </div>
             <div xml:id="tredje-soendag-efter-trinitatis">
                 <head type="add">Tredje søndag efter trinitatis</head>
+                <head>Den<ex>n</ex> Tredie Søndag<lb/>effter Trinitatis.</head>
                 <div type="psalm" xml:lang="la">
-                    <head>Den<ex>n</ex> Tredie Søndag<lb/>effter Trinitatis.<lb/> Introitus latinus.<lb/>
+                    <head>Introitus latinus.<lb/>
                         <ref target="#">Psalm: 25.</ref></head>
                     <lb/>
                     <notatedMusic>
@@ -7206,8 +7172,9 @@
             </div>
             <div xml:id="fjerde-soendag-efter-trinitatis">
                 <head type="add">Fjerde søndag efter trinitatis</head>
+                <head>Den<ex>n</ex> Fierde Søndag<lb/>effter Trinitatis.</head>
                 <div type="psalm" xml:lang="la">
-                    <head>Den<ex>n</ex> Fierde Søndag<lb/>effter Trinitatis.<lb/> Introitus latinus.<lb/>
+                    <head>Introitus latinus.<lb/>
                         <ref target="#">Psalm: 27.</ref></head>
                     <lb/>
                     <notatedMusic>
@@ -7258,8 +7225,9 @@
             </div>
             <div xml:id="hans-baptiste-dag">
                 <head type="add">Sankthansdag</head>
+                <head>Paa S. Hans Bap<lb rend="="/>tiste dag.</head>
                 <div type="psalm">
-                    <head>Paa S. Hans Bap<lb rend="="/>tiste dag.<lb/> Introitus Dansk.</head>
+                    <head>Introitus Dansk.</head>
                     <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
@@ -7581,8 +7549,8 @@
                 <head type="add">Mariæ besøgelsesdag</head>
                 <div type="psalm">
                     <head>All den anden Sang / for oc effter Pre<lb rend="="/>dicken / skal holdis /
-                        som <hi rend="italics">Dominica <lb/>Trinitatis.</hi>
-                        <lb/>Paa Marie besøgelsis <lb/>Dag.<lb/> Introitus Dansk.</head>
+                        som <hi rend="italics">Dominica <lb/>Trinitatis.</hi></head>
+                    <head>Paa Marie besøgelsis <lb/>Dag.<lb/> Introitus Dansk.</head>
                     <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
@@ -7732,8 +7700,9 @@
             </div>
             <div xml:id="femte-soendag-efter-trinitatis">
                 <head type="add">Femte søndag efter trinitatis</head>
+                <head>Den<ex>n</ex> Femte Søndag effter Trinitatis.</head>
                 <div type="psalm" xml:lang="la">
-                    <head>Den<ex>n</ex> Femte Søndag effter Trinitatis.<lb/> Introitus Dansk.</head>
+                    <head>Introitus Dansk.</head>
                     <p>Som paa S. Hans dag. <lb/>Oc skal fremdelis siungis til Dominicam<lb/> Nonam
                         Trinitatis. <lb/>Introitus latinus.<lb/>
                         <ref target="#">Psalm: 27.</ref></p>
@@ -7781,19 +7750,20 @@
                         <l>Hale lu = ia. </l>
                     </lg>
 
-                    <lb/>
+                    <div>
+                        <head>Offertorium, Som paa S. Hans dag:</head>
+                        <p>Oc skal fremdelis siungis til <hi rend="italics">Dominicam No<lb rend="="
+                                />nam Trinitatis.</hi> All anden Sang / for oc effter Pre<lb
+                                rend="="/>dicken / Som Dominica Prima <lb/>Trinitatis.</p>
+                    </div>
                 </div>
             </div>
             <div xml:id="sjette-soendag-efter-trinitatis">
                 <head type="add">Sjette søndag efter trinitatis</head>
+                <head>Den Siette Søndag <lb/>effter Trinitatis.</head>
                 <div type="psalm" xml:lang="la">
-                    <head>Offertorium, Som paa S. Hans dag: <lb/>Oc skal fremdelis siungis til <hi
-                            rend="italics">Dominicam No<lb rend="="/>nam Trinitatis.</hi>
-                    </head>
-                    <lb/>
-                    <head>All anden Sang / for oc effter Pre<lb rend="="/>dicken / Som Dominica
-                        Prima <lb/>Trinitatis.<lb/> Den Siette Søndag <lb/>effter Trinitatis.<lb/>
-                        Introitus latinus. <ref target="#">Psalm: 28.</ref></head>
+                    <head>Introitus latinus. <ref
+                            target="#">Psalm: 28.</ref></head>
                     <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
@@ -10692,40 +10662,26 @@
 
         </body>
         <back>
-            <div xml:id="register">
+            <div type="register" xml:id="register">
                 <head type="add">Register</head>
-                <div type="register">
-                    <pb n="E473"/>
-                    <lb/>
-
-                    <head>Register offuer <lb/> denne Bog.</head>
-                </div>
-                <div type="index">
-                    <lb/>
-
+                <head><pb n="E473"/>Register offuer <lb/> denne Bog.</head>
+                <div>
                     <head>Nogle besynderlige Høyti<lb rend="="/>der om Aarit.</head>
-                    <lb/>
-                    <div type="section">
-                        <p>Alle Helligens dag / <ref target="407" type="SheetNumber">407.</ref>
-                        </p>
-                        <lb/>
-                        <p>S. Hans baptiste dag / <ref target="304" type="SheetNumber">304.</ref>
-                        </p>
-                        <lb/>
-                        <p>Marie Renselsis dag / <ref target="110" type="SheetNumber">110.</ref>
-                        </p>
-                        <lb/>
-                        <p>Marie Bebudelsis dag / <ref target="158" type="SheetNumber">158.</ref>
-                        </p>
-                        <lb/>
-                        <p>Marie Besøgelsis dag / <ref target="313" type="SheetNumber">313.</ref>
-                        </p>
-                        <lb/>
-                        <p>S. Michels dag / <ref target="367" type="SheetNumber">367.</ref>
-                        </p>
-                    </div>
+                    <list rend="simple">
+                        <item>Alle Helligens dag / <ref target="407" type="SheetNumber">407.</ref>
+                        </item>
+                        <item>S. Hans baptiste dag / <ref target="304" type="SheetNumber">304.</ref>
+                        </item>
+                        <item>Marie Renselsis dag / <ref target="110" type="SheetNumber">110.</ref>
+                        </item>
+                        <item>Marie Bebudelsis dag / <ref target="158" type="SheetNumber">158.</ref>
+                        </item>
+                        <item>Marie Besøgelsis dag / <ref target="313" type="SheetNumber">313.</ref>
+                        </item>
+                        <item>S. Michels dag / <ref target="367" type="SheetNumber">367.</ref>
+                        </item>
+                    </list>
                 </div>
-                <lb/>
                 <div type="index">
 
                     <head>Danske Psalmer.</head>
