@@ -1,8 +1,25 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
-        <fileDesc>
+	    <fileDesc>
             <titleStmt>
                 <title>Niels Jespersens Graduale</title>
+                <editor>
+                    <name xml:id="mette.svendsen">
+                        <persName>
+                            <forename type="first">Mette-Marie</forename>
+                            <surname>Møller Svendsen</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <editor>
+                    <name xml:id="th">
+                        <persName>
+                            <forename type="first">Thomas</forename>
+                            <surname>Hansen</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet og Velux Fonden</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
@@ -13,8 +30,15 @@
                     <name>Matthias Schneider</name>
                 </respStmt>
             </editionStmt>
-            <publicationStmt>
-                <p/>
+	    <publicationStmt>
+                <publisher>Danske Sprog- og Litteraturselskab</publisher>
+                <pubPlace>København</pubPlace>
+                <date>2018</date>
+                <idno>jespersen_1573</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2018, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
             </publicationStmt>
             <sourceDesc>
                 <bibl>
@@ -33,7 +57,7 @@
                 </keywords>
             </textClass>
             <abstract>
-                <ab>nil</ab>
+		    <ab>Niels Jespersens Graduale (1573) indeholder kirkeårets salmer og melodier samt liturgiske prosasange på latin med førreformatoriske gregorianske melodier.</ab>
             </abstract>
         </profileDesc>
     </teiHeader>
@@ -43,7 +67,7 @@
                 <docTitle>
                     <titlePart><pb n="E1"/>GRADVAL.</titlePart>
                     <titlePart type="desc"> En Almindelig <lb/> Sangbog / som Hoybaarne <lb/> Første
-                        oc Stormectige Herre / Her Frederich den <lb/> Anden / Danmarckis Norgis
+			    oc Stormectige Herre / Her <persName>Frederich den <lb/> Anden</persName> / Danmarckis Norgis
                         Wendis oc Gottis Konning etcetera. <lb/> Haffuer ladet Ordinere oc tilsammen
                         scriffue paa La<lb rend="="/>tine oc Danske / at bruge i Kirckerne / til des
                             yder<lb rend="="/>mere endrectighed vdi Sang oc Ceremo<lb rend="="/>nier
@@ -1016,7 +1040,7 @@
                         <l>
                             <space extent="2blanks"/>Kierlighed / </l>
                         <l>O Herre /</l>
-                        <l> dig saare tuingit haffuer /</l>
+                        <l>dig saare tuingit haffuer /</l>
                         <l>At dit Blod ey offuer oss klaffuer /</l>
                         <l>Som betalede all vor skyld / </l>
                         <l><pb ana="22" n="E34"/> At oss Gud er vorden huld.</l>
@@ -1143,22 +1167,21 @@
                     </notatedMusic>
                     <lg>
                         <l>
-                            <c function="initials" rend="2">P</c> O pulus Si on, </l>
-                        <l>ec = ce Do minus veni et ad sal<lb rend="="/>uan das gen tes, </l>
-                        <l>et au di tam fa = ci et Do mi nus glo = ri = am vo cis su æ, </l>
-                        <l>in læ ti ti a <pb ana="26" n="E38"/> cor = dis ve stri. <ref target="#"
-                                >Psalm: 80.</ref></l>
-                        <l>Qui re gis Jsra el in ten de, </l>
-                        <l>qui de du<lb rend="="/>cis ve lut ouem Jo seph.</l>
-                        <l>Glo ri a Patri et Fi li o et Spi ri tu i sanc to. </l>
-                        <l>Sic<lb rend="="/>ut e rat in prin ci pi o et nunc et sem per, </l>
-                        <l>et in se cu la se cu lorum, A men. </l>
+                            <c function="initials" rend="2">P</c>Opulus Sion, </l>
+                        <l>ecce Dominus veni et ad sal<lb rend="="/>uandas gentes, </l>
+                        <l>et auditam faci et Dominus gloriam vocis suæ, </l>
+                        <l>in lætitia <pb ana="26" n="E38"/> cordis vestri. <ref target="#">Psalm:
+                                80.</ref></l>
+                        <l>Qui regis Jsrael intende, </l>
+                        <l>qui de du<lb rend="="/>cis velut ouem Joseph.</l>
+                        <l>Gloria Patri et Filio et Spiritui sancto. </l>
+                        <l>Sic<lb rend="="/>ut erat in principio et nunc et semper, </l>
+                        <l>et in secula seculorum, Amen. </l>
                     </lg>
                 </div>
                 <div type="psalm" xml:lang="la">
                     <head><pb ana="27" n="E39"/>HALELVIA. <lb/>
                         <ref target="#">Psalm: 122.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -1179,7 +1202,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>Introitus Latinus. <lb/>
                         <ref target="#">Philipp: 4.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -1209,7 +1231,6 @@
                 <div type="psalm" xml:lang="la">
                     <head><pb ana="31" n="E43"/>HALELVIA. <lb/><ref target="#">Psalm:
                         80.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -1230,7 +1251,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>Introitus Latinus.<lb/>
                         <ref target="#">Psalm: 106.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -1255,7 +1275,6 @@
                 </div>
                 <div type="psalm" xml:lang="la">
                     <head>HALELVIA.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -1332,7 +1351,6 @@
                 </div>
                 <div type="psalm" xml:lang="la">
                     <head>Introitus Latinus. <ref target="#">Esaiæ, 9.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -1355,7 +1373,6 @@
                 </div>
                 <div type="psalm" xml:lang="la">
                     <head><pb ana="40" n="E52"/>Kyrie.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -1369,7 +1386,6 @@
                 </div>
                 <div type="psalm" xml:lang="la">
                     <head><pb ana="41" n="E53"/>Gloria in excelsis Deo.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -1410,7 +1426,6 @@
                 </div>
                 <div type="psalm" xml:lang="la">
                     <head>HALELVIA. <ref target="#">Ex Esaiæ: 9.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -1430,7 +1445,6 @@
                 </div>
                 <div type="psalm">
                     <head>Sequentz.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -1479,7 +1493,6 @@
                 </div>
                 <div type="psalm" xml:lang="la">
                     <head>Credo.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -1779,7 +1792,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>Sanctus. <lb/>
                         <ref target="#">Esaiæ: 6.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -2074,7 +2086,6 @@
                 </div>
                 <div type="psalm">
                     <head>Kyrie.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -2189,7 +2200,6 @@
                     <head type="add">Introitus</head>
                     <head> Introitus Latinus. <lb/>
                         <ref target="#">Syrach, 15.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -2212,7 +2222,6 @@
                 <div type="psalm" xml:lang="la">
                     <head><pb ana="86" n="E98"/>HALELVIA. <lb/>
                         <ref target="#">Iohan: 21.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -2235,7 +2244,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>Introitus Latinus. <lb/>
                         <ref target="#">Sapientiæ. 18.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -2314,7 +2322,6 @@
                     <head>Den Søndag imellom <lb/> Nyt Aars dag och hellige <lb/>tre Kongers dag. </head>
                     <head>Introitus lati: <lb/>
                         <ref target="#">Psalm: 45.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -2337,7 +2344,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>HALELVIA. <lb/>
                         <ref target="#">Psalm: 45.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -2359,7 +2365,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>Introitus latinus. <lb/>
                         <ref target="#">Ex Malachi: 3.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -2386,7 +2391,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>HALELVIA.<lb/>
                         <ref target="#">Matth: 2.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -2410,7 +2414,6 @@
                     <head> Introitus latinus. <lb/>
                         <ref target="#">Ex Esaiæ. 6.</ref> et <ref target="#">Apocal:
                         4.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -2437,7 +2440,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>HALELVIA. <lb/>
                         <ref target="#">Psalm: 100.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -2460,7 +2462,6 @@
                 <div type="psalm" xml:lang="la">
                     <head> Introitus lat: <lb/>
                         <ref target="#">Psalm: 65.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -2487,7 +2488,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>HALELVIA <lb/>
                         <ref target="#">Psalm: 148.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -2533,7 +2533,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>HALELVIA.<lb/>
                         <ref target="#">Psalm: 97.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -2634,7 +2633,6 @@
                         <hi rend="italics">Te decet Hymnus etc. vt infra Domi:</hi> 8. <hi
                             rend="italics">post <lb/> Trinitatis.</hi>
                         <lb/>Haleluia Danske paa Lands<lb rend="="/>byerne.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -2669,7 +2667,6 @@
                         effterfølgende Søndage / ind til <lb/>
                         <hi rend="italics">Dominicam Inuocauit</hi>, Maa siungis den<lb rend="="/>ne
                         effterfølgende Sang.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -2891,7 +2888,6 @@
                 </div>
                 <div type="psalm">
                     <head>Haleluia Danske / vdi <lb/>Lands Kircker.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -2959,7 +2955,6 @@
                     <lb/>
                     <head>Introitus latinus. <lb/>
                         <ref target="#">Psalm: 18.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -2989,7 +2984,6 @@
                             rend="italics">tractus:</hi>
                         <lb/>met / Nu bede wi den hellig Aand. <lb/>
                         <ref target="#">Psalm: 130.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -3018,7 +3012,6 @@
                         <ex>etcetera</ex>.<lb/></head>
                     <head> Introitus lat: <lb/>
                         <ref target="#">Psal: 44.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -3052,7 +3045,6 @@
                         <lb/>Paa fastelaffns Søndag / <lb/>Om Christi Daab. <lb/>
                         <figure type="image"/><lb/></head>
                     <head>Introitus Dansk.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -3149,7 +3141,6 @@
                 <div type="psalm" xml:lang="la">
                     <head><pb ana="132" n="E144"/>Introitus latinus. <lb/>
                         <ref target="#">Psalm: 31.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -3183,7 +3174,6 @@
                 <head>Den første Søndag i <lb/>Faste.</head>
                 <div type="psalm">
                     <head>Introitus Dansk.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -3256,7 +3246,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>Introitus lat: <lb/>
                         <ref target="#">Psal: 91.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -3286,7 +3275,6 @@
                         <lb/>
                         <hi rend="italics">Duo Pueri.</hi>
                     </head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -3357,7 +3345,6 @@
                 <div type="psalm">
                     <head><pb ana="144" n="E156"/>Effter Predicken / Ære være Gud Fa<lb rend="="
                         />der i Himmerig / <ex>etcetera</ex>. <lb/> Offertorium.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -3592,7 +3579,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>Introitus latinus. <lb/>
                         <ref target="#">Psalm: 25.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -3627,7 +3613,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>Introitus latinus. <lb/>
                         <ref target="#">Psalm: 25.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -3684,7 +3669,6 @@
                     <head>Introitus Dansk / Jesu Christ som <lb/>Mandom tog: Som paa Kyn<lb rend="="
                         />delmisse dag. <lb/> Introitus lat: <lb/>
                         <ref target="#">Psal: 45.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -3712,7 +3696,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>HALELVIA. <lb/>
                         <ref target="#">Ex Lucæ, 1.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -3741,7 +3724,6 @@
                 <head>Den Søndag effter <lb/>Medfaste.</head>
                 <div type="psalm" xml:lang="la">
                     <head>Introitus latinus. <ref target="#">Psalm: 43.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -3770,7 +3752,6 @@
                 <div type="psalm" xml:lang="la">
                     <head> Introitus latinus. <lb/>
                         <ref target="#">Psalm: 22.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -3800,7 +3781,6 @@
                     <head> Introitus Dansk. <lb/>Aff dybsens nød: <hi rend="italics">vt
                         supra.</hi><lb/>Introitus latinus.<lb/>
                         <ref target="#">Ex Galat: 6.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -4036,7 +4016,6 @@
                 <head><pb ana="176" n="E188"/>Lang Fredag.</head>
                 <div type="psalm">
                     <head>Introitus Dansk.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -4555,7 +4534,6 @@
                 </div>
                 <div type="psalm" xml:lang="la">
                     <head>Introitus lat: <lb/><ref target="#">Psalm: 139.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -4597,7 +4575,6 @@
                 </div>
                 <div type="psalm" xml:lang="la">
                     <head>Gloria in excelsis Deo.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -4638,7 +4615,6 @@
                 <div type="psalm" xml:lang="la">
                     <head><pb ana="195" n="E207"/>HALELVIA. <lb/><ref target="#">1. Corinth.
                             5.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -4654,7 +4630,6 @@
                 </div>
                 <div type="psalm">
                     <head>Sequentz.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -4722,7 +4697,6 @@
                 </div>
                 <div type="psalm">
                     <head><pb ana="200" n="E212"/>Offertorium.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -4990,7 +4964,6 @@
                 </div>
                 <div type="psalm">
                     <head>Kyrie.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -5090,7 +5063,6 @@
                 <head>Den første Søndag<lb/>effter Paaske. </head>
                 <div type="psalm" xml:lang="la">
                     <head>Introitus latinus. <lb/><ref target="#">1. Pet: 2.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -5113,7 +5085,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>HALELVIA. <lb/>
                         <ref target="#">Matth. 28.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -5140,7 +5111,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>Introitus latinus. <lb/>
                         <ref target="#">Psalm:33.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -5166,7 +5136,6 @@
                 <div type="psalm" xml:lang="la">
                     <head><pb ana="226" n="E238"/>HALELVIA. <lb/>
                         <ref target="#">Ex Ioh: 10.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -5189,7 +5158,6 @@
                 <div type="psalm" xml:lang="la">
                     <head> Introitus latinus. <lb/>
                         <ref target="#">Psalm: 66.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -5218,7 +5186,6 @@
                     <head><pb ana="230" n="E242"/>HALELVIA. <lb/>
                         <ref target="#">Lucæ. 24.</ref>
                         <ref target="#">Ioh: 20.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -5241,7 +5208,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>Introitus latinus. <lb/>
                         <ref target="#">Psalm: 98.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -5271,7 +5237,6 @@
                 <head>Den femte Søndag<lb/>effter Paaske. </head>
                 <div type="psalm" xml:lang="la">
                     <head>Introitus lat:</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -5296,7 +5261,6 @@
                 </div>
                 <div type="psalm" xml:lang="la">
                     <head><pb ana="236" n="E248"/>Haleluia.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -5317,7 +5281,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>Introitus latinus.<lb/>
                         <ref target="#">Actorum.1.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -5344,7 +5307,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>HALELVIA.<lb/>
                         <ref target="#">Psalm: 47.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -5365,7 +5327,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>Introitus latinus.<lb/>
                         <ref target="#">Psalm: 27.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -5393,7 +5354,6 @@
                 <div type="psalm" xml:lang="la">
                     <head><pb ana="243" n="E255"/>Haleluia.<lb/>
                         <ref target="#">Psal: 68.</ref><ref target="#">Ephes: 4.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -5432,7 +5392,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>Introitus latinus.<lb/>
                         <ref target="#">Sapientiæ, 1.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -5481,7 +5440,6 @@
                 </div>
                 <div type="psalm" xml:lang="la">
                     <head>Gloria in excelsis Deo.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -5524,7 +5482,6 @@
                 </div>
                 <div type="psalm" xml:lang="la">
                     <head>HALELVIA.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -5541,7 +5498,6 @@
                 </div>
                 <div type="psalm" xml:lang="la">
                     <head>Sequentz.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -5586,7 +5542,6 @@
                         tre gange / Det første Vers aff: Nu bede <lb/>wi den hellig Aand. <lb/>
                     </head>
                     <head>Offertorium.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -5714,7 +5669,6 @@
                     <head>Præfatio. <lb/>Dominus vobiscum,</head>
                     <head>
                         <lb/>Begyndis <lb/>som paa Jule dag.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -5844,7 +5798,6 @@
                     </head>
                     <lb/>
                     <head>Kyrie.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -5949,7 +5902,6 @@
                 </div>
                 <div type="psalm" xml:lang="la">
                     <head>Introitus latinus.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -5971,7 +5923,6 @@
                     <head><pb ana="276" n="E288"/>Kyrie &amp; Gloria in excelsis, vt in<lb/> die
                         Pentecostes. <lb/>HALELVIA.<lb/>
                         <ref target="#">Daniel: 3.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -5986,7 +5937,6 @@
                 </div>
                 <div type="psalm" xml:lang="la">
                     <head><pb ana="277" n="E289"/>Sequentz.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -6118,7 +6068,6 @@
                 </div>
                 <div type="psalm">
                     <head>HALELVIA.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -6272,7 +6221,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>Introitus latinus.<lb/>
                         <ref target="#">Psalm: 18.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -6295,7 +6243,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>HALELVIA.<lb/>
                         <ref target="#">Psalm: 7.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -6318,7 +6265,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>Introitus latinus.<lb/>
                         <ref target="#">Psalm: 25.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -6343,7 +6289,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>Haleluia.<lb/>
                         <ref target="#">Psal: 18.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -6368,7 +6313,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>Introitus latinus.<lb/>
                         <ref target="#">Psalm: 27.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -6393,7 +6337,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>Haleluia.<lb/>
                         <ref target="#">Psal: 21.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -6414,7 +6357,6 @@
                 <head><pb ana="304" n="E316"/>Paa S. Hans Bap<lb rend="="/>tiste dag.</head>
                 <div type="psalm">
                     <head>Introitus Dansk.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -6503,7 +6445,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>Introitus latinus.<lb/>
                         <ref target="#">Esaiæ, 49.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -6527,7 +6468,6 @@
                 <div type="psalm">
                     <head>HALELVIA.<lb/>
                         <ref target="#">Matth. 11.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -6550,7 +6490,6 @@
                 </div>
                 <div type="psalm">
                     <head>Offertorium.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -6712,7 +6651,6 @@
                         />dicken / skal holdis / som <hi rend="italics">Dominica
                             <lb/>Trinitatis.</hi></head>
                     <head>Paa Marie besøgelsis <lb/>Dag.<lb/> Introitus Dansk.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -6806,7 +6744,6 @@
                 <div type="psalm">
                     <head>Introitus latinus.<lb/>
                         <ref target="#">Ex Lu: 1.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -6873,7 +6810,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>HALELVIA.<lb/>
                         <ref target="#">Psalm: 71.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -6900,7 +6836,6 @@
                 <head>Den Siette Søndag <lb/>effter Trinitatis.</head>
                 <div type="psalm" xml:lang="la">
                     <head>Introitus latinus. <ref target="#">Psalm: 28.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -6924,7 +6859,6 @@
                 </div>
                 <div type="psalm" xml:lang="la">
                     <head><pb ana="324" n="E336"/>HALELVIA. <ref target="#">Psalm: 47.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -6967,7 +6901,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>HALELVIA. <lb/>
                         <ref target="#">Psalm: 59.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -6988,7 +6921,6 @@
                 <head>Den Ottende Søndag<lb/> effter Trinitatis. </head>
                 <div type="psalm" xml:lang="la">
                     <head>Introitus latinus. <ref target="#">Psalm: 48.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -7012,7 +6944,6 @@
                 </div>
                 <div type="psalm" xml:lang="la">
                     <head><pb ana="331" n="E343"/>Haleluia. <ref target="#">Psal: 65.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -7032,7 +6963,6 @@
                 <head>Den Niende Søndag <lb/>effter Trinitatis.</head>
                 <div type="psalm">
                     <head> Introitus Dansk.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -7093,7 +7023,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>Introitus latinus.<lb/>
                         <ref target="#">Psalm: 54.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -7116,7 +7045,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>HALELVIA.<lb/>
                         <ref target="#">Psalm: 78.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -7131,7 +7059,6 @@
                 </div>
                 <div type="psalm">
                     <head>Offertorium.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -7220,7 +7147,6 @@
                 <div type="psalm" xml:lang="la">
                     <head> Introitus latinus.<lb/>
                         <ref target="#">Psalm: 55.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -7247,7 +7173,6 @@
                 <div type="psalm" xml:lang="la">
                     <head><pb ana="342" n="E354"/>HALELVIA.<lb/>
                         <ref target="#">Psalm: 81.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -7269,7 +7194,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>Introitus latinus.<lb/>
                         <ref target="#">Psalm: 68.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -7292,7 +7216,6 @@
                     <head>Haleluia.<lb/>
                         <ref target="#">Psal: 88.</ref>
                     </head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -7313,7 +7236,6 @@
                 <div type="psalm" xml:lang="la">
                     <head> Introitus latinus.<lb/>
                         <ref target="#">Psalm: 39.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -7337,7 +7259,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>HALELVIA.<lb/>
                         <ref target="#">Psalm: 90.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -7358,7 +7279,6 @@
                 <head><pb ana="350" n="E362"/>Den Trettende Søndag <lb/>effter Trinitatis.</head>
                 <div type="psalm">
                     <head>Introitus Dansk.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -7411,7 +7331,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>Introitus latinus.<lb/>
                         <ref target="#">Psalm: 74.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -7438,7 +7357,6 @@
                 <div type="psalm" xml:lang="la">
                     <head><pb ana="354" n="E366"/>HALELVIA.<lb/>
                         <ref target="#">Psalm: 95.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -7454,7 +7372,6 @@
                 </div>
                 <div type="psalm">
                     <head>Offertorium.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -7537,7 +7454,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>Introitus latinus.<lb/>
                         <ref target="#">Psalm: 84.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -7562,7 +7478,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>Haleluia.<lb/>
                         <ref target="#">Psal: 95.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -7583,7 +7498,6 @@
                 <div type="psalm" xml:lang="la">
                     <head> Introitus latinus.<lb/>
                         <ref target="#">Psalm: 86.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -7608,7 +7522,6 @@
                 <div type="psalm" xml:lang="la">
                     <head><pb ana="363" n="E375"/>HALELVIA.<lb/>
                         <ref target="#">Psalm: 108.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -7630,7 +7543,6 @@
                 <div type="psalm" xml:lang="la">
                     <head> Introitus latinus.<lb/>
                         <ref target="#">Psalm: 86.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -7656,7 +7568,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>Haleluia.<lb/>
                         <ref target="#">Psal: 114.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -7676,7 +7587,6 @@
                 <head>Paa S. Michels dag.</head>
                 <div type="psalm">
                     <head> Introitus Dansk.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -7707,7 +7617,6 @@
                 <div type="psalm" xml:lang="la">
                     <head><pb ana="370" n="E382"/>Introitus latinus.<lb/>
                         <ref target="#">Psalm: 103.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -7731,7 +7640,6 @@
                 </div>
                 <div type="psalm">
                     <head><pb ana="372" n="E384"/>HALELVIA.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -7888,7 +7796,6 @@
                         och priss / vt supra. <lb/>All den anden Sang / for oc effter predicken
                         /<lb/> Som Dominica prima Trinitatis. <lb/>Den<ex>n</ex> xvij. Søndag effter
                         <lb/>Trinitatis.<lb/> Introitus Dansk.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -7949,7 +7856,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>Introitus latinus.<lb/>
                         <ref target="#">Psalm: 119.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -7971,7 +7877,6 @@
                 <div type="psalm" xml:lang="la">
                     <head><pb ana="392" n="E404"/>HALELVIA.<lb/>
                         <ref target="#">Psalm: 116.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -7986,7 +7891,6 @@
                 </div>
                 <div type="psalm">
                     <head><pb ana="393" n="E405"/>Offertorium.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -8136,7 +8040,6 @@
                 <head>Den xviij. Søndag <lb/>effter Trinitatis.</head>
                 <div type="psalm" xml:lang="la">
                     <head> Introitus latinus.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -8161,7 +8064,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>HALELVIA.<lb/>
                         <ref target="#">Psalm: 117.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -8182,7 +8084,6 @@
                 <div type="psalm" xml:lang="la">
                     <head> Introitus latinus.<lb/>
                         <ref target="#">Ex Psalm: 34.</ref> et <ref target="#">35.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -8207,7 +8108,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>Haleluia.<lb/>
                         <ref target="#">Psal: 118.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -8229,7 +8129,6 @@
                 <div type="psalm" xml:lang="la">
                     <head> Introitus latinus.<lb/>
                         <ref target="#">Ex Tobiæ, 3.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -8257,7 +8156,6 @@
                 <div type="psalm" xml:lang="la">
                     <head><pb ana="406" n="E418"/>HALELVIA.<lb/>
                         <ref target="#">Psalm: 125.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -8284,7 +8182,6 @@
                             septima <lb/> Trinitatis etc. <lb/>
                             <lb/>Introitus latinus.<lb/>
                             <ref target="#">Psalm: 34.</ref></head>
-                        <lb/>
                         <notatedMusic>
                             <ptr target="nil"/>
                             <desc>nil</desc>
@@ -8339,7 +8236,6 @@
                 <head> Den xxj. Søndag effter <lb/>Trinitatis. </head>
                 <div type="psalm">
                     <head> Introitus Danske.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -8414,7 +8310,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>Introitus latinus.<lb/>
                         <ref target="#">Esther, 13.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -8440,7 +8335,6 @@
                 <div type="psalm" xml:lang="la">
                     <head><pb ana="416" n="E428"/>Haleluia.<lb/>
                         <ref target="#">Psal: 130.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -8455,7 +8349,6 @@
                 </div>
                 <div type="psalm">
                     <head><pb ana="417" n="E429"/>Offertorium.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -8535,7 +8428,6 @@
                 <div type="psalm" xml:lang="la">
                     <head> Introitus latinus.<lb/>
                         <ref target="#">Psalm: 130.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -8559,7 +8451,6 @@
                 <div type="psalm" xml:lang="la">
                     <head><pb ana="421" n="E433"/>Haleluia.<lb/>
                         <ref target="#">Psal: 146.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -8581,7 +8472,6 @@
                 <div type="psalm" xml:lang="la">
                     <head> Introitus latinus.<lb/>
                         <ref target="#">Ieremiæ, 29.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -8606,7 +8496,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>HALELVIA.<lb/>
                         <ref target="#">Psalm: 147.</ref></head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -8883,7 +8772,6 @@
                 <head>
                     <hi rend="italics">Propitius esto.</hi>
                 </head>
-                <lb/>
                 <notatedMusic>
                     <ptr target="nil"/>
                     <desc>nil</desc>
@@ -8911,7 +8799,6 @@
             </div>
             <div type="psalm">
                 <head><pb ana="435" n="E447"/>Det andet Chor.</head>
-                <lb/>
                 <notatedMusic>
                     <ptr target="nil"/>
                     <desc>nil</desc>
@@ -8928,7 +8815,6 @@
                 <head>
                     <hi rend="italics"><pb ana="436" n="E448"/>Peccatores.</hi>
                     <lb/>Det første Chor.</head>
-                <lb/>
                 <notatedMusic>
                     <ptr target="nil"/>
                     <desc>nil</desc>
@@ -8963,7 +8849,6 @@
             </div>
             <div type="psalm">
                 <head><pb ana="437" n="E449"/>Det andet Chor.</head>
-                <lb/>
                 <notatedMusic>
                     <ptr target="nil"/>
                     <desc>nil</desc>
@@ -9234,7 +9119,6 @@
                 <div type="psalm" xml:lang="la">
                     <head>Sang oc ceremonier som<lb/>holdis vdi Preste Calent / eller Pro<lb
                             rend="="/>uinciali Colloquio. <lb/>Introitus latinus.</head>
-                    <lb/>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
