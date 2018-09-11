@@ -1,6 +1,6 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
-	    <fileDesc>
+        <fileDesc>
             <titleStmt>
                 <title>Niels Jespersens Graduale</title>
                 <editor>
@@ -30,7 +30,7 @@
                     <name>Matthias Schneider</name>
                 </respStmt>
             </editionStmt>
-	    <publicationStmt>
+            <publicationStmt>
                 <publisher>Danske Sprog- og Litteraturselskab</publisher>
                 <pubPlace>København</pubPlace>
                 <date>2018</date>
@@ -57,7 +57,8 @@
                 </keywords>
             </textClass>
             <abstract>
-		    <ab>Niels Jespersens Graduale (1573) indeholder kirkeårets salmer og melodier samt liturgiske prosasange på latin med førreformatoriske gregorianske melodier.</ab>
+                <ab>Niels Jespersens Graduale (1573) indeholder kirkeårets salmer og melodier samt
+                    liturgiske prosasange på latin med førreformatoriske gregorianske melodier.</ab>
             </abstract>
         </profileDesc>
     </teiHeader>
@@ -67,11 +68,12 @@
                 <docTitle>
                     <titlePart><pb n="E1"/>GRADVAL.</titlePart>
                     <titlePart type="desc"> En Almindelig <lb/> Sangbog / som Hoybaarne <lb/> Første
-			    oc Stormectige Herre / Her <persName>Frederich den <lb/> Anden</persName> / Danmarckis Norgis
-                        Wendis oc Gottis Konning etcetera. <lb/> Haffuer ladet Ordinere oc tilsammen
-                        scriffue paa La<lb rend="="/>tine oc Danske / at bruge i Kirckerne / til des
-                            yder<lb rend="="/>mere endrectighed vdi Sang oc Ceremo<lb rend="="/>nier
-                        / effter Ordinantzens<lb/> lydelse. </titlePart>
+                        oc Stormectige Herre / Her <persName>Frederich den <lb/> Anden</persName> /
+                        Danmarckis Norgis Wendis oc Gottis Konning etcetera. <lb/> Haffuer ladet
+                        Ordinere oc tilsammen scriffue paa La<lb rend="="/>tine oc Danske / at bruge
+                        i Kirckerne / til des yder<lb rend="="/>mere endrectighed vdi Sang oc
+                            Ceremo<lb rend="="/>nier / effter Ordinantzens<lb/> lydelse.
+                    </titlePart>
                 </docTitle>
                 <docAuthor> Ved <lb/>
                     <name>Niels Jesperssøn</name>/ Superintendent <lb/> vdi Fyens Stigt. </docAuthor>
@@ -93,7 +95,9 @@
                 <p>1573.</p>
             </figure>
             <div type="preface" xml:id="frederik-1-preface">
-                <head type="add">Frederik 1.s forord</head>
+                <head type="add">
+                    <reg xml:lang="da">Frederik 1.s forord</reg>
+                </head>
                 <p><pb n="E4"/>
                     <c function="initials" rend="2">W</c>J Frederich thend <lb/> Anden met Guds
                     Naade / Danmar<lb rend="="/>ckis Norgis Wendis och Gottis Konning / Hertug
@@ -427,23 +431,29 @@
                     døde dag / <lb/>oc siden lønis met den wforgengelige ærens Krune vdi Himmelen /
                     <lb/>formedelst Jesum Christum vor Herre. Guds euige naade / Jesu <lb/>Christi
                     fortieniste oc den Verdige Hellig Aands delactighed være <lb/>met eder alle:
-                    Datum Hafniæ / Aar <ex>etcetera</ex>. <hi rend="italics">M. D. LXXIII.</hi>
-                    <lb/> Den første dag Julij / paa huilcken vor naadigste Herre oc Kon<lb rend="="
-                    />ning / Konning Frederich den Anden <ex>etcetera</ex>. Bleff fød i det Aar
-                        <ex>etcetera</ex>. <lb/>
-                    <hi rend="italics">M. D. XXXIIII.</hi> Den gode Gud velsigne oc beuare hans
-                    <lb/>Kong: Maiett: naadeligen til Liff oc Siel / Amen.</p>
+                    Datum Hafniæ / Aar <ex>etcetera</ex>. M. D. LXXIII. <lb/> Den første dag Julij /
+                    paa huilcken vor naadigste Herre oc Kon<lb rend="="/>ning / Konning Frederich
+                    den Anden <ex>etcetera</ex>. Bleff fød i det Aar <ex>etcetera</ex>. <lb/> M. D.
+                    XXXIIII. Den gode Gud velsigne oc beuare hans <lb/>Kong: Maiett: naadeligen til
+                    Liff oc Siel / Amen.</p>
                 <figure type="vignette"/>
             </div>
         </front>
         <body>
             <div xml:id="foerste-soendag-i-advent">
                 <head type="add">Første søndag i advent</head>
-                <head><pb ana="1" n="E13"/> Den<ex>n</ex> Første Søndag <lb/> i Aduent.</head>
+                <head>
+                    <pb ana="1" n="E13"/>
+                    <orig>Den<ex>n</ex> Første Søndag <lb/> i Aduent.</orig>
+                    <reg>Første søndag i advent</reg>
+                </head>
                 <div xml:id="foerste-soendag-i-advent-introitus-da" type="chapter">
                     <figure type="image"/>
                     <head type="add">Introitus (dansk)</head>
-                    <head>Introitus dansk.</head>
+                    <head>
+                        <orig>Introitus dansk.</orig>
+                        <reg>Introitus (dansk)</reg>
+                    </head>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -506,8 +516,9 @@
                 </div>
                 <div type="chapter" xml:lang="la">
                     <head type="add">Introitus (latin)</head>
-                    <head>Introitus lat. <lb/>
-                        <ref target="#sl-25">Psalm. 25.</ref></head>
+                    <head>
+                        <orig>Introitus lat. <lb/><ref target="#sl-25">Psalm. 25.</ref></orig>
+                        <reg>Introitus (latin)</reg></head>
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -539,7 +550,7 @@
                         <l><c function="initials" rend="2">K</c>Yrie / </l>
                         <l>Gud Fader all som høye<lb rend="="/>ste trøst / </l>
                         <l>du est vor glæde oc lyst / </l>
-                        <l>spar oss æ len de / </l>
+                        <l>spar oss ælende / </l>
                         <l>beuar oss fra Synd / </l>
                         <l>forbarme dig offuer oss. <pb ana="6" n="E18"/> Christe /</l>
                         <l>du est vor vey oc det sande liuss / </l>
@@ -4083,11 +4094,10 @@
                             <l>Guds Bud vnder euig pine.</l>
                         </lg>
                         <lg>
-                            <l>
-                                <space extent="2blanks"/>De sende hannem først ind til Annas /</l>
+                            <l><space extent="2blanks"/>De sende hannem først ind til Annas /</l>
                             <l>Der møtte hannem sorrig oc møde /</l>
-                            <l>Oc strax der nest til Caiphas / <pb ana="178" n="E190"/>De hastede
-                                met hannem til døde /</l>
+                            <l>Oc strax der nest til Caiphas /</l>
+                            <l><pb ana="178" n="E190"/>De hastede met hannem til døde /</l>
                             <l>Met løgn oc falsk oc stor wret /</l>
                             <l>Som de hannem giorde den gantske nat.</l>
                             <l>Peder monne hannem forsuære.</l>
@@ -4135,8 +4145,8 @@
                         <lg>
                             <l>
                                 <space extent="2blanks"/>Pilatus suarede aff sin forstand /</l>
-                            <l>Jeg kand icke andet fornemme / <pb ana="179" n="E191"/>End Jesus er
-                                en wskyldig Mand /</l>
+                            <l>Jeg kand icke andet fornemme /</l>
+                            <l><pb ana="179" n="E191"/>End Jesus er en wskyldig Mand /</l>
                             <l>Huor for skal ieg hannem dømme?</l>
                             <l>Da raabte de Jøder huer oc en /</l>
                             <l>Oc sagde / du est icke Keyserens ven /</l>
@@ -4185,9 +4195,8 @@
                         </lg>
                         <lg>
                             <l>
-                                <space extent="2blanks"/>Der stod omkring den menige mand / <pb
-                                    ana="180" n="E192"/>
-                                <lb/>De spottede hannem mangelunde /</l>
+                                <space extent="2blanks"/>Der stod omkring den menige mand / </l>
+                            <l><pb ana="180" n="E192"/>De spottede hannem mangelunde /</l>
                             <l>Den suare pine taalde hand</l>
                             <l>Vdi tre gantske stunde /</l>
                             <l>Saa gaff hand strax der op sin Aand /</l>
@@ -4331,7 +4340,7 @@
                     </notatedMusic>
                     <lg>
                         <l>
-                            <pb ana="183" n="E195"/><c function="initials" rend="2">J</c>E sus oppaa
+                            <pb ana="183" n="E195"/><c function="initials" rend="2">J</c>Esus oppaa
                             Kaarssit stod / </l>
                         <l>oc hanne forløb hans hel lig Blod / </l>
                         <l>hans Saar giorde hannem stor pi ne / </l>
@@ -4447,12 +4456,12 @@
                     </notatedMusic>
                     <lg>
                         <l>
-                            <c function="initials" rend="2">D</c>Et hel li ge Kaarss vor Herre selff
+                            <c function="initials" rend="2">D</c>Et hellige Kaarss vor Herre selff
                             bar / </l>
-                        <l> met blo di ge vunder oc dø de lig <pb ana="186" n="E198"/> >Saar / </l>
+                        <l> met blodige vunder oc dødelig <pb ana="186" n="E198"/> >Saar / </l>
                         <l>for oss hand plict oc bod fuldgiorde / </l>
-                        <l> at wi skuld oss der til for la de /</l>
-                        <l>wi vorder ey sa lig i an dre maade. </l>
+                        <l>at wi skuld oss der til forlade /</l>
+                        <l>wi vorder ey salig i andre maade. </l>
                     </lg>
                     <lb/>
                     <div>
@@ -8977,15 +8986,9 @@
                             <l>Der Gud offuer Jsrael monne giffue.</l>
                         </lg>
                     </div>
-                    <lb/>
                     <div>
-                        <p rend="indent3">
-                            <hi>All den anden sang vdi Messen / effter</hi>
-                            <lb/>Søndagens skick.</p>
-                        <lb/>
-                        <p rend="indent3">
-                            <hi>Om afftenen / naar Bruden føris til</hi>
-                            <lb/>sengs / siungis / Kom Gud skaber O hellig<lb rend="="/>Aand: vide
+                        <p rend="indent3"> All den anden sang vdi Messen / effter <lb/> Søndagens skick.</p>
+                        <p rend="indent3"> Om afftenen / naar Bruden føris til <lb/> sengs / siungis / Kom Gud skaber O hellig<lb rend="="/>Aand: vide
                             feria secunda Pentecostes. </p>
                     </div>
                 </div>
