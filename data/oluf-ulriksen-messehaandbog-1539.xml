@@ -3,6 +3,23 @@
         <fileDesc>
             <titleStmt>
                 <title>Haandbog om den rette evangeliske Messe</title>
+                <editor>
+                    <name xml:id="mette.svendsen">
+                        <persName>
+                            <forename type="first">Mette-Marie</forename>
+                            <surname>Møller Svendsen</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <editor>
+                    <name xml:id="th">
+                        <persName>
+                            <forename type="first">Thomas</forename>
+                            <surname>Hansen</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet og Velux Fonden</funder>
             </titleStmt>
             <editionStmt>
                 <edition />
@@ -14,7 +31,14 @@
                 </respStmt>
             </editionStmt>
             <publicationStmt>
-                <p />
+                <publisher>Danske Sprog- og Litteraturselskab</publisher>
+                <pubPlace>København</pubPlace>
+                <date>2018</date>
+                <idno></idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2018, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
             </publicationStmt>
             <sourceDesc>
                 <bibl>
@@ -28,6 +52,7 @@
             <textClass>
                 <keywords>
                     <term>religion</term>
+                    <term>reformationstiden</term>
                 </keywords>
             </textClass>
         <abstract><ab>nil</ab></abstract></profileDesc>
@@ -41,23 +66,22 @@
                     <titlePart>Titulus.</titlePart>
                     <lb />
                     <titlePart>Een gantske nyttelig oc alle sognepre<lb rend="="/>scer oc predica<ex>n</ex>t̄ nødtørtelig Ha<ex>n</ex>dbog
-<lb />Om de<ex>n</ex> rette Eunageliske Messe oc be<ex>n</ex><lb rend="="/>nis vstraffelige oc ga<ex>m</ex>ble sedua<ex>n</ex>lige Le<lb />remomer. m<ex>eth</ex> Collecter oc Prefatōibus.
+<lb />Om de<ex>n</ex> rette Euangeliske Messe oc de<ex>n</ex><lb rend="="/>nis vstraffelige oc ga<ex>m</ex>ble sedua<ex>n</ex>lige Le<lb />remomer. m<ex>eth</ex> Collecter oc Prefatōibus.
 <lb />Delligelt om Børn at christne. Bru<lb rend="="/>der att vye. De siuge oc dennem som
-<lb />feugslede ere at søge. Oc om att Jor<lb rend="="/>de liig. Flitteligen effter kongen<lb rend="="/>ge maistads Ordinantsis in<lb rend="="/>deholdelse. Colligered.
-<lb />ordinered oc some
-<lb />stedis fordans<lb rend="="/>skedt.</titlePart>
+<lb />fengslede ere at søge. Oc om att Jor<lb rend="="/>de liig. Flitteligen effter kongen<lb rend="="/>ge maistads Ordinantsis in<lb rend="="/>deholdelse. Colligered.
+<lb />ordinered oc some<lb rend="="/>stedis fordans<lb rend="="/>skedt.</titlePart>
                 </docTitle>
                 <docImprint>
                     <lb />Anno dommi. Mdxxxix.
 </docImprint>
             </titlePage>
-            <div type="preface">
+            <div type="preface" xml:id="oluf-ulriksen-1539-preface">
+                <head type="add">
+                    <reg xml:lang="da">Frands Vormodsens forord</reg></head>
                 <pb n="E2" />
                 <lb />
-                <div type="head">
-                    <head>¶ Franciscus wormordi ynsker alle retsindige oc
-<lb />gudfryctige Predickere oc sogneherrer</head>
-                </div>
+                                <p rend="center">¶ Franciscus wormordi ynsker alle retsindige oc
+<lb />gudfryctige Predickere oc sogneherrer</p>
                 <div>
                     <p>
                         <lb />
@@ -119,6 +143,7 @@
         </front>
         <body>
             <div type="mainPart">
+                
                 <pb n="E4" />
                 <lb />
                 <div type="head">
@@ -134,7 +159,7 @@
 <lb />sagen fordi at Messen er i sig selffuer
 <lb />inthtet andit end herrens Jesu Chri<lb rend="="/>sti naduoris brug. vdi huilken skrøbe<lb rend="="/>lige oc bedrøffuede. for deris synder
 <lb />samuittigheď. annamēdis Jesu chris<lb rend="="/>ti vor herris sande legemme oc blod.
-<lb />oc hørendis hans dødt oc pynis ku<ex>n</ex>d<lb rend="="/>giørilse. for deris oc all verdens syn<lb rend="="/>der. i en sa<ex>n</ex>d tro der til. trøstis oc hu<lb rend="="/>sualis skulle. Der fore skal icke hol<lb rend="="/>des nogen besynderlig messe om søn<lb rend="="/><pb n="E5" />dagen eller nogen aff de høgtidelige
+                        <lb />oc hørendis hans dødt oc pynis ku<ex>n</ex>d<lb rend="="/>giørilse. for deris oc all verdens syn<lb rend="="/>der. i en sa<ex>n</ex>d tro der til. trøstis oc hu<lb rend="="/>sualis skulle. Der fore skal icke hol<lb rend="="/>des nogen besynderlig messe om søn<pb n="E5" rend="="/>dagen eller nogen aff de høgtidelige
 <lb />dage y kongelige maitstats Christeli<lb rend="="/>ge ordinantz beneffnde. vde<ex>n</ex> en almi<ex>n</ex>de<lb rend="="/>lig oc obenbarlig messe. ligernist som
 <lb />
                         <hi rend="center">her effterfølger.</hi>
@@ -184,7 +209,7 @@
 <lb />luntatis tue dirigere regere. et guber<lb rend="="/>nare. Amen.</p>
                                     <p>Saa bede sig framdelis for den helli<lb rend="="/>ge christne kircke och guds hellige
 <lb />oc ret sande Eua<ex>n</ex>gelij ords fra<ex>m</ex>gang.
-<lb />for kongelig maiestetis. all hans naa<lb rend="="/><pb n="E8" />dis oc rigsens raad oc ha<ex>n</ex>s naadis la<ex>n</ex>d
+                                        <lb />for kongelig maiestetis. all hans naa<pb n="E8" rend="="/>dis oc rigsens raad oc ha<ex>n</ex>s naadis la<ex>n</ex>d
 <lb />oc rijge etc.</p>
                                       <p>Nar dette nu aff presten som forscreff<lb rend="="/>uit stor. giort er. da. men Officium
 <lb />dominicale paa latine i købstederne.
@@ -199,7 +224,7 @@
                     <p>Paa landsbyer och der som icke
 <lb />ere latinske scoler. skal altingest leses
 <lb />oc siunges paa danske Oc fordi Pro
-<lb />Jntroitu siunges een gudelig Psal<lb rend="="/>me paa danske vddragen aff den helli<lb rend="="/><pb n="E9" />ge scrifft. Der som latinske scoler cere
+                        <lb />Jntroitu siunges een gudelig Psal<lb rend="="/>me paa danske vddragen aff den helli<pb n="E9" rend="="/>ge scrifft. Der som latinske scoler cere
 <lb />Vore det gaffnligt och tilbørligt att
 <lb />mandt sunge Jntroitus dominica<lb rend="="/>les och trium festorum. Christi. som
 <lb />vddragne ere aff den hellige scrifft aff
@@ -494,7 +519,7 @@
 <lb />naadeligen fore beuare. Naar mi oss
 <lb />men erligē oc tilbørligē skicke. Skul<lb rend="="/>le vii indtit arthe huadt gďz ords ha<lb rend="="/>dere oc forfølgere om oss sige De ku<ex>n</ex><lb rend="="/>de icke elske oss. Derfore kunde de in<lb rend="="/>tit got tale om oss Jcke giøre de det
 <lb />end heller. Men det tolmodeligen att<lb rend="="/>lide for guds vor herris Jesu Christi
-<lb />skyld. er oss idel salighedt. Mat. v.</p>
+<lb />skyld. er oss idel salighedt. <ref>Mat. v</ref>.</p>
                     <lb />
                     <p>Her effter vender preste<ex>n</ex> sig til folked
 <lb />och less Euangelium siendis.</p>
@@ -520,7 +545,7 @@
                 <div>
                     <p>
                         <lb />Saa leser hand da det hellige euange<lb rend="="/>lium med seduanlige noder. som fald<ex>er</ex>
-<lb />om samme dag oc findis i det ny tes<lb rend="="/>tamente. Euangeliu<ex>m</ex> Mat. XXvi</p>
+<lb />om samme dag oc findis i det ny tes<lb rend="="/>tamente. Euangeliu<ex>m</ex> <ref>Mat. XXvi</ref></p>
                     <lb />
                     <p>Der de ode. tog Jesus brød. oc eff<lb rend="="/>
 <pb n="E25" />der de aadt. tog Jesus brød. oc effter
@@ -713,7 +738,7 @@
 <lb />nogle. Oc side<ex>n</ex> før preste<ex>n</ex> gaar aff pre<lb rend="="/>dickestolen. begynder ha<ex>n</ex> een gudelig
 <lb />oc christelig Psalme eller lofsa<ex>n</ex>g. paa
 <lb />danske Nu er oss gď miscundelig eller
-<lb />een anden hendes lige. oc folked for<lb rend="="/>følger he<ex>n</ex>de. Deus misereat̄  Ps. lxvi.</p>
+<lb />een anden hendes lige. oc folked for<lb rend="="/>følger he<ex>n</ex>de. Deus misereat̄  <ref>Ps. lxvi</ref>.</p>
                 </div>
                 <div type="musicalNotation">
                     <p>
@@ -1588,8 +1613,7 @@ ge til synďnis forladelse. Dette giører
                         <hi rend="center">Die parascenes Collecta</hi>
                     </p>
                     <lb />
-                    <p>O Almectigste euige gď So<ex>m</ex> saa haff<lb rend="="/>{v} elst verden. At du for he<ex>n</ex>de ville ver
-<lb />dis at giffue din enborne søn i døden
+                    <p>O Almectigste euige gď So<ex>m</ex> saa haff<lb rend="="/>{v} elst verden. At du for he<ex>n</ex>de ville ver<lb rend="="/>dis at giffue din enborne søn i døden
 <lb />paa korsēs galge. Vi bede din vbegri<lb rend="="/>belige barmhiertighedt. att du vilt fri
 <lb />oss fra all dieffuelse<ex>n</ex>s mact. oc giffue oss
 <lb />dine tienere at vy vid sa<ex>m</ex>me hans pine
@@ -1632,8 +1656,7 @@ ge til synďnis forladelse. Dette giører
                     </p>
                     <lb />
                     <p>O Almectigste euige gudt. Vij bede
-<lb />giff at vij so<ex>m</ex> haffue begaaet poske høg
-<lb />tid Maa aff din naade det med gerni<ex>n</ex><lb rend="="/>ger fuldko<ex>m</ex>me. med huilket att vij gaa
+<lb />giff at vij so<ex>m</ex> haffue begaaet poske høg<lb rend="="/>tid Maa aff din naade det med gerni<ex>n</ex><lb rend="="/>ger fuldko<ex>m</ex>me. med huilket att vij gaa
 
 <pb n="E74" />
                         <lb />fra syndsens treldo<ex>m</ex> til aandens frihed
@@ -1645,8 +1668,7 @@ ge til synďnis forladelse. Dette giører
                     </p>
                     <lb />
                     <p>O Almectigste euige gudt Som vid
-<lb />din søns ydmyghed haff et opreist ver
-<lb />den som laa neďslagen ved synden. vij
+<lb />din søns ydmyghed haff et opreist ver<lb rend="="/>den som laa neďslagen ved synden. vij
 <lb />bede. giff dine tro tienere den euige gle<lb rend="="/>de. at lige som du haffuer frelst oss fra
 <lb />den euige dødz fald. att vij maa oc saa
 <lb />nyde de euige gleder. Vid sa<ex>m</ex>me di. ut̄</p>
@@ -1887,8 +1909,7 @@ ge til synďnis forladelse. Dette giører
                     <p>O Almectigste euige gď. forøg i oss
 <lb />een ret tro. haab. oc kierlighed. att vij
 <lb />maa faa huad du oss loffuer. oc vi maa
-<lb />elske alt det som du oss hinder oc befa
-<lb />ler. Ved samme din enbor. søn. vt̄</p>
+<lb />elske alt det som du oss hinder oc befa<lb rend="="/>ler. Ved samme din enbor. søn. vt̄</p>
                     <lb />
                     <p>
                         <hi rend="center">Dominica xiiij p᷒ trinitatis Collec.</hi>
@@ -1907,11 +1928,8 @@ ge til synďnis forladelse. Dette giører
                         <hi rend="center">Dominica xv p᷒ trinitatis Col.</hi>
                     </p>
                     <lb />
-                    <p>O Almectigste euige gud. lad din ide
-<lb />lig misku<ex>n</ex>dhz rense oc beuare din christ
-<lb />ne kircke. och effterdi hun dig foruden
-<lb />icke kan vere frels oc beholden. saa ver
-<lb />dis til at styre he<ex>n</ex>de altid med din gu<ex>n</ex>st
+                    <p>O Almectigste euige gud. lad din ide<lb rend="="/>lig misku<ex>n</ex>dhz rense oc beuare din christ<lb rend="="/>ne kircke. och effterdi hun dig foruden
+<lb />icke kan vere frels oc beholden. saa ver<lb rend="="/>dis til at styre he<ex>n</ex>de altid med din gu<ex>n</ex>st
 <lb />oc naade. Ved din enborne søn ut̄</p>
                     <lb />
                     <p>
@@ -2041,15 +2059,13 @@ ge til synďnis forladelse. Dette giører
                         <hi rend="center">Die annūtiatōis Marie Colle.</hi>
                     </p>
                     <lb />
-                    <p>O Almectigste euige gud. Som bebu<lb rend="="/>ede. formedelst Gabriel engil. din keri<lb rend="="/>ste enborne søns vor herris Jesu cris<lb rend="="/>ti moder att hun skulle vndf{??}a<ex>n</ex>ge oc fø
-<lb />de ha<ex>n</ex>nom aff sit rene oc io<ex>m</ex>fruelige liff
+                    <p>O Almectigste euige gud. Som bebu<lb rend="="/>ede. formedelst Gabriel engil. din keri<lb rend="="/>ste enborne søns vor herris Jesu cris<lb rend="="/>ti moder att hun skulle vndf{??}a<ex>n</ex>ge oc fø<lb rend="="/>de ha<ex>n</ex>nom aff sit rene oc io<ex>m</ex>fruelige liff
 <lb />til verden. vij bede ydmygeligē. att du
 
 <pb n="E88" />
                         <lb />vilt vid dit hellige eua<ex>n</ex>gelij ord fruct<lb rend="="/>so<ex>m</ex>melige giøre vore hierter. saa att vy
 <lb />effterfølge hende. troffasteligē troe<ex>n</ex>des
-<lb />gudz ord. oc saa med hende oc alle di<lb rend="="/>ne vdualde børn. faa troe<ex>n</ex>s søn den eui
-<lb />ge salighed. Vid sa<ex>m</ex>me din enbor. ut</p>
+<lb />gudz ord. oc saa med hende oc alle di<lb rend="="/>ne vdualde børn. faa troe<ex>n</ex>s søn den eui<lb rend="="/>ge salighed. Vid sa<ex>m</ex>me din enbor. ut</p>
                     <lb />
                     <p>
                         <hi rend="center">Die natiuitatis sāeti Joānis bap.</hi>
@@ -2083,8 +2099,7 @@ ge til synďnis forladelse. Dette giører
                         <hi rend="center">Die Michaelis et stōrū ange. Col.</hi>
                     </p>
                     <lb />
-                    <p>O Almectigste euige gud Som haff<lb rend="="/>uer skabt dine hellige engle. dine vdual
-<lb />de børn til hielp oc bistand mod ma<ex>n</ex><lb rend="="/>ge vaader oc farer i denne verden. Vij
+                    <p>O Almectigste euige gud Som haff<lb rend="="/>uer skabt dine hellige engle. dine vdual<lb rend="="/>de børn til hielp oc bistand mod ma<ex>n</ex><lb rend="="/>ge vaader oc farer i denne verden. Vij
 <lb />bede. att du vilt giffue oss uaade til att
 <lb />vere dig taknemmelige for saadane oc
 <lb />andre dine store velgierninger. och att
@@ -2106,7 +2121,7 @@ ge til synďnis forladelse. Dette giører
                         <hi rend="center">Pro Ecclesia Collecta</hi>
                     </p>
                     <lb />
-                    <p>O Almectigste euige gud Som tene
+                    <p>O Almectigste euige gud Som eene
 <lb />vedst de vdualde me<ex>n</ex>niskes tael. som
 <lb />den euige salighed skulle besidde. ver<lb rend="="/>des att beuare din hellige kircke ij en
 <lb />sand trois bekendelse til dig. oc en rec
@@ -2121,8 +2136,7 @@ ge til synďnis forladelse. Dette giører
 
 <pb n="E91" />
                         <lb />de<ex>n</ex> helligeaand haffuer skicked oss Bis<lb rend="="/>per. Prester. kircke herrer. dit hellige
-<lb />ords tienere. att skulle forestaa din hel
-<lb />lige kircke met salighedz lerdom oc sa<lb rend="="/>cramenternes vdskifftelse. vij bede. giff
+<lb />ords tienere. att skulle forestaa din hel<lb rend="="/>lige kircke met salighedz lerdom oc sa<lb rend="="/>cramenternes vdskifftelse. vij bede. giff
 <lb />dem naade oc visdom. hende rettelige
 <lb />atregere. att de med oss. oc vij med de<ex>n</ex><lb rend="="/>nē maa bliffue eui<ex>n</ex>delige salige. Vid. ut̄</p>
                     <lb />
@@ -2288,8 +2302,7 @@ ge til synďnis forladelse. Dette giører
 <lb />det er aff eth angerfuldt hierte at rette
 <lb />oc bedre sig. der gleder sig oc de helli<lb rend="="/>ge engle i hi<ex>m</ex>melen offuer eth syndigt
 <lb />me<ex>n</ex>niskes omuendelse. vij bede derfore
-<lb />o herre gud din vsigelige barmhiertig
-<lb />hed. att som Adam. Dauid. Petrus.
+<lb />o herre gud din vsigelige barmhiertig<lb rend="="/>hed. att som Adam. Dauid. Petrus.
 <lb />Magdalena. Røffueren. den forlorne
 
 <pb n="E99" />
@@ -2311,8 +2324,7 @@ ge til synďnis forladelse. Dette giører
 <pb n="E100" />
                         <lb />gere. det skal bliffue be<ex>n</ex>nem giffuit aff
 <lb />min fader som er i hi<ex>m</ex>mele<ex>n</ex>. fordi huor
-<lb />tho eller tre ere forsa<ex>m</ex>lede i mit naffn. ď
-<lb />er ieg mit ibla<ex>n</ex>d. med disst hellige ords
+<lb />tho eller tre ere forsa<ex>m</ex>lede i mit naffn. ď<lb rend="="/>er ieg mit ibla<ex>n</ex>d. med disst hellige ords
 <lb />nøgle och mact oplades for syndige
 <lb />angerfulde me<ex>n</ex>niske din euige vbegri<lb rend="="/>belige miskundhedz rigdom. oc i sam<lb rend="="/>me ords krafft beslutis oc tilbage hol<lb rend="="/>des alle onde vangerfulde me<ex>n</ex>niske de<lb rend="="/>ris synd. dennem til euig fordømmel<lb rend="="/>se. derffore o hīmelske faď bede vij dig
 <lb />for din kiere søns Jesu christi bitter
@@ -2472,7 +2484,7 @@ ge til synďnis forladelse. Dette giører
                         <lb />
                         
                         <lb />ordt der haffuer ana<ex>m</ex>met ma<ex>n</ex>dom i din
-<lb />
+
                         
                         <lb />clarhedz skin met eth nyt lius opliu<lb rend="="/>
                         
@@ -2481,10 +2493,10 @@ ge til synďnis forladelse. Dette giører
                         <lb />de gud. oc ha<ex>n</ex>nem sandelige vid sit hel<lb rend="="/>
                         
                         <lb />lige euighedz ords vdga<ex>n</ex>g begribe. at
-<lb />
+
                         
                         <lb />vij maa optages i ret kierlighed til de
-<lb />
+
                         
                         <lb />v{??}synlige tings sa<ex>n</ex>de atraa oc begerilse
 
@@ -2494,13 +2506,13 @@ ge til synďnis forladelse. Dette giører
                         <lb />Oc derfore met englene oc offueren<lb rend="="/>
                         
                         <lb />gle met Tronerne oc herredømmem{??}
-<lb />
+
                         
                         <lb />Desligest oc saa med alt det hi<ex>m</ex>melske
-<lb />
+
                         
                         <lb />herskab. siu<ex>n</ex>ge vij din herligheds och
-<lb />
+
                         
                         <lb />eres loffa<ex>n</ex>g. vden al ende. oc sige stsis</p>
                 </div>
@@ -2602,12 +2614,12 @@ ge til synďnis forladelse. Dette giører
                         <lb />Vid Jesū christū vor herre <c function="initials" rend="2">H</c>uil<lb rend="="/>
                         
                         <lb />ken som effter sin opsta<ex>n</ex>delse aff døde
-<lb />
+
                         
                         <lb />skinbarligē betede sig for alle sine dis<lb rend="="/>
                         
                         <lb />cipler. Oc i deris asyn er opfaren tiil
-<lb />
+
                         
                         <lb />himelen. Paa det han skulle giøre oss
 
@@ -2615,7 +2627,7 @@ ge til synďnis forladelse. Dette giører
                         <lb />
                         
                         <lb />delactige aff sin gďdo<ex>m</ex>melighed oc ere.
-<lb />
+
                         <figure type="notatedMusic">
                             <table>
                                 <row>
@@ -2624,18 +2636,17 @@ ge til synďnis forladelse. Dette giører
                             </table>
                         </figure>
                         <lb />Oc derfore Prefatō de Stō spū
-<lb />
                         
                         <lb />vid Jesū christū vor herre <c function="initials" rend="2">H</c>uilc<lb rend="="/>
                         
                         <lb />ken opfarendis offuer alle himle. Oc
-<lb />
+
                         
                         <lb />siddendis vid din høgre hand haffuer
-<lb />
+
                         
                         <lb />begaffuit dine vdualde børn met den
-<lb />
+
                         
                         <lb />foriette helligeaand. For huilcket aff
 
@@ -2645,16 +2656,16 @@ ge til synďnis forladelse. Dette giører
                         <lb />stoor glede sig frygď meget den ga<ex>n</ex>d<lb rend="="/>
                         
                         <lb />ske {v}den. Dissigest oc saa de hi<ex>m</ex>melske
-<lb />
+
                         
                         <lb />kraffter oc Engelske veldighede. Met
-<lb />
+
                         
                         <lb />dennem vij siunge din guddommelige
-<lb />
+
                         
                         <lb />maiestetis ere oc herlighed. Foruden
-<lb />
+
                         
                         <lb />ende. Sigendis Sanctus</p>
                 </div>
@@ -2669,19 +2680,19 @@ ge til synďnis forladelse. Dette giører
                         <lb />
                         
                         <lb />Oc euige gudt. <c function="initials" rend="2">H</c>Vilcken du so<ex>m</ex>
-<lb />
+
                         
                         <lb />met din enborne søn oc den helligand
-<lb />
+
                         
                         <lb />est en gud oc en herre. oc det icke vd{??}i
-<lb />
+
                         
                         <lb />en versonis besynďlighed. men vdi en
-<lb />
+
                         
                         <lb />verilses trefoldig hedt. Dij alt det som
-<lb />
+
                         
                         <lb />vij tro formedelst din egen obe<ex>n</ex>barit<lb rend="="/>
                         
@@ -2691,31 +2702,31 @@ ge til synďnis forladelse. Dette giører
                         <lb />
                         
                         <lb />me tro vij oc saa om din enborne søn
-<lb />
+
                         
                         <lb />Disligelt oc foruden nogen atskillig<lb rend="="/>
                         
                         <lb />hedzens forskel. om den verdige hellig
-<lb />
+
                         
                         <lb />aand Att i en sand oc euig guddo<ex>m</ex>me<lb rend="="/>
                         
                         <lb />ligheds bekendelse. vdi personerne be<lb rend="="/>
                         
                         <lb />synderlighed. oc eth i deris verilse. oc
-<lb />
+
                         
                         <lb />i maiestetens herlighed Lige de tilbe<lb rend="="/>
 <pb n="E119" />
                         <lb />
                         
                         <lb />dis. Huilke<ex>n</ex> maitstet loffue englent oc
-<lb />
+
                         
                         <lb />offuerenglene. Cherubyn oc saa Sera<lb rend="="/>
                         
                         <lb />phin. huilcke aldrig afflade att siunge
-<lb />
+
                         
                         <lb />endrectelige tilhobe altid siendis St̄᷒</p>
                 </div>
@@ -2728,7 +2739,7 @@ ge til synďnis forladelse. Dette giører
                         <lb />
                         
                         <lb />oc euige gud. <c function="initials" rend="2">O</c>C dig bør oss at
-<lb />
+
                         
                         <lb />ere oc benedide i iomfru Maria medt
 
@@ -2736,22 +2747,22 @@ ge til synďnis forladelse. Dette giører
                         <lb />
                         
                         <lb />hiertens frygd oc glede. Huilkeen so<ex>m</ex>
-<lb />
+
                         
                         <lb />haffuer vndfanget din enborne søn aff
-<lb />
+
                         
                         <lb />din hi<ex>m</ex>melske krafft. oc den helligaands
-<lb />
+
                         
                         <lb />vbegribelige offuerko<ex>m</ex>melse. saa att he<ex>n</ex>
-<lb />
+
                         
                         <lb />dis iomfrudo<ex>m</ex>s herlighedt oforkrenct
-<lb />
+
                         
                         <lb />Fødde hun de<ex>n</ex>ne verde<ex>n</ex> eth euige lius
-<lb />
+
                         <figure type="notatedMusic">
                             <table>
                                 <row>
@@ -2946,7 +2957,7 @@ ge til synďnis forladelse. Dette giører
 <lb />som Sī᷒ Marc᷒ scriffuir Capite X</p>
                     <lb />
                     <p>
-                        <c function="initials" rend="2">I</c>Den tid skickede foleket smaa
+                        <c function="initials" rend="2">I</c>Den tid skickede folcket smaa
 <lb />Børn til Jesum. Att han skulle
 <lb />legge sine henď paa dennem. Men dis<lb rend="="/>ciplerne afstygde de<ex>n</ex>nem som fre<ex>m</ex>skic<lb rend="="/>kede Børnene. Der Jes᷒ saa det. Da
 <lb />bleff han fortøruet oc sagde til dennē.
@@ -2990,7 +3001,7 @@ ge til synďnis forladelse. Dette giører
 <lb />allt hans gerninger. Fadderne suare.
 <lb />Jeg forsager. Presten siger Oc
 <lb />all ha<ex>n</ex>s medferd oc vesen. Fadďne suare
-<lb />Jeg forlager. Presten siger.</p>
+<lb />Jeg forsager. Presten siger.</p>
                     <lb />
                     <p>Tror du paa gud fader almectigste
 <lb />himmelens oc iordens scabermandt.</p>
@@ -3016,7 +3027,7 @@ ge til synďnis forladelse. Dette giører
 <lb />det oc øser tregange vand offuen
 <lb />paa barnsens hoffuit. saa at det fly<lb rend="="/>der ned att kroppen siendis.</p>
                     <lb />
-                    <p>Oc ieg døder dig J naffn faders Oc
+                    <p>Oc ieg døber dig J naffn faders Oc
 <lb />søns Oc helligaands. Amen</p>
                     <lb />
                     <p>Oc saa maa fadderne holde barnet saa
@@ -3047,8 +3058,7 @@ ge til synďnis forladelse. Dette giører
 <lb />Pater nost̄. Credo. Vor herris x bud
 
 <pb n="E134" />
-                        <lb />Oc om dobsens. oc alterēs sacramen<lb rend="="/>te Oc andz so<ex>m</ex> barnsēs salighz er anrø
-<lb />rēdis Om i ere ellers neruerēdis der
+                        <lb />Oc om dobsens. oc alterēs sacramen<lb rend="="/>te Oc andz so<ex>m</ex> barnsēs salighz er anrø<lb rend="="/>rēdis Om i ere ellers neruerēdis der
 <lb />so<ex>m</ex> barnet er. Saa at barnet ko<ex>m</ex>me<ex>n</ex>dis til
 <lb />sin lage alder. maa bliffue. som det nu
 <lb />er anna<ex>m</ex>met hoss christum. oc findes at
@@ -3060,7 +3070,7 @@ ge til synďnis forladelse. Dette giører
 <lb />er hiemedøbt J naffn faďs. oc søns. oc
 <lb />helligaands. Da skal han for inge<ex>n</ex> del
 <lb />døbe det andengang Fordi der er icke
-<lb />vden en dob. som screffuit er Ephe. iiij
+<lb />vden en dob. som screffuit er <ref>Ephe. iiij</ref>
 <lb />Me<ex>n</ex> lese sig allene offuer barnet. Tro<lb rend="="/>en. Oc Fader vor Med det eua<ex>n</ex>gelio
 <lb />som sc{??}ūs Marcus scriffuer ut̄</p>
                     <lb />
@@ -3078,13 +3088,11 @@ ge til synďnis forladelse. Dette giører
 <lb />den helligaand. Men i som faddere ere
 <lb />skulle vere her vidne til. oc tacke gudt
 <lb />at ha<ex>n</ex> dette barn haffuer saa ana<ex>m</ex>met til
-<lb />sin naade vid sin enborne søn iesū cris
-<lb />tū vor herre. Saa siger ha<ex>n</ex> til</p>
+<lb />sin naade vid sin enborne søn iesū cris<lb rend="="/>tū vor herre. Saa siger ha<ex>n</ex> til</p>
                     <lb />
                     <p>Herre<ex>n</ex> beuare di<ex>n</ex> iudga<ex>n</ex>g oc vdga<ex>n</ex>g. ut̄
 <lb />Siden less døbefaderen Den allersiste
-<lb />Collecte. so<ex>m</ex> saa begyndes Den almec
-<lb />tigste gud vor herris iesu cristi faď ut̄
+<lb />Collecte. so<ex>m</ex> saa begyndes Den almec<lb rend="="/>tigste gud vor herris iesu cristi faď ut̄
 <lb />Paa det siste skal han formane fadď<lb rend="="/>
                         <hi rend="center">ne att de haffue tilsyn til baruetur̄
 <lb />Finis baptismi et Ceremoniaꝵ</hi>
@@ -3098,8 +3106,7 @@ ge til synďnis forladelse. Dette giører
                 <lb />
                 <div>
                     <p>FRanciscus Vormordi ynsker alle
-<lb />gudfryctige predicanter oc sogneher
-<lb />rer Naade oc fred aff gud vor faď oc
+<lb />gudfryctige predicanter oc sogneher<lb rend="="/>rer Naade oc fred aff gud vor faď oc
 <lb />vor herre iesu christo. Saa scriffuer
 <lb />den høglerde ma<ex>n</ex>d Doctor Martinus
 <lb />Luter. Efft̄di at brølop oc ecteskaps
@@ -3121,8 +3128,7 @@ ge til synďnis forladelse. Dette giører
 <lb />oss bør att gøre.</p>
                     <lb />
                     <p>
-                        <space extent="2blanks" />Nar nogle ville giffues och vies. til<lb rend="="/>sa<ex>m</ex>men. Da scal det engang oc anden<lb rend="="/>gang liuses oc kundgøres aff predicke
-<lb />stolen for allehonde sagers skyld. vid
+                        <space extent="2blanks" />Nar nogle ville giffues och vies. til<lb rend="="/>sa<ex>m</ex>men. Da scal det engang oc anden<lb rend="="/>gang liuses oc kundgøres aff predicke<lb rend="="/>stolen for allehonde sagers skyld. vid
 <lb />saadan maade som her effterfølger.</p>
                     <lb />
                     <p>Desse erlige personer N. oc N. ville
@@ -3138,8 +3144,7 @@ ge til synďnis forladelse. Dette giører
 <lb />efft̄. gď giffue dem sin velsiguelse Amen</p>
                     <lb />
                     <p>Inge lønlige troloffuelser Oc ey de<ex>n</ex>
-<lb />som skeer i naagen maade emod meni
-<lb />ge landsens almindelige ga<ex>m</ex>ble. erlige.
+<lb />som skeer i naagen maade emod meni<lb rend="="/>ge landsens almindelige ga<ex>m</ex>ble. erlige.
 <lb />lofflige oc christelige seduane. skulle
 <lb />actis oc for ret ecteskab holdis. ey hel<lb rend="="/>ler det som aff vnge folk skeer forude<ex>n</ex>
 <lb />foreldernes samtycke oc deris vilge.
@@ -3153,8 +3158,7 @@ ge til synďnis forladelse. Dette giører
 
 <pb n="E139" />
                         <lb />slect oc byrd. so<ex>m</ex> her til dags hoss vore
-<lb />forfedre verit haff {v} Oc ko<ex>m</ex>me der no
-<lb />gle suoffre drebelige sager aurøre<ex>n</ex>dis
+<lb />forfedre verit haff {v} Oc ko<ex>m</ex>me der no<lb rend="="/>gle suoffre drebelige sager aurøre<ex>n</ex>dis
 <lb />samuittigheden oc sielssens salighed.
 <lb />Der om scal mand raadspørie sig med
 <lb />superintendenten.</p>
@@ -3163,17 +3167,14 @@ ge til synďnis forladelse. Dette giører
 <lb />sammen vies obenbarligen vdi meni<lb rend="="/>ge christen forsambli<ex>n</ex>gs ahøre oc ner<lb rend="="/>uerelse. Endog at dette i somme land
 <lb />oc byer skeer i vabnhusset. so<ex>m</ex> dog icke
 <lb />er straffeligt. Men nøtteligere er det
-<lb />for mange sagers skyld oc for endrec<lb rend="="/>tighed att det skeer for alterit efft̄ pre
-<lb />dicken. Nar almuen er mest tilstede.
-<lb />at det trøstelige gďs ord offuer brud<lb rend="="/>gomme och brudt om ectelkabs stadt
+<lb />for mange sagers skyld oc for endrec<lb rend="="/>tighed att det skeer for alterit efft̄ pre<lb rend="="/>dicken. Nar almuen er mest tilstede.
+<lb />at det trøstelige gďs ord offuer brud<lb rend="="/>gomme och brudt om ecteskabs stadt
 <lb />maa dess beder actes oc annammis aff
 <lb />mange. derfore scal bruduielse saa ha<ex>n</ex>d<lb rend="="/>les so<ex>m</ex> her efft̄følger. For Alterit.</p>
                     <pb n="E140" />
                     <lb />
                     <p>Nar preste<ex>n</ex> haffuer obe<ex>n</ex>barlige sport
-<lb />brudgomme oc brud huer besynderli<lb rend="="/>ge att Om der er noge<ex>n</ex> hinder paa no
-<lb />gen deris side. hemeligt eller obenbar<lb rend="="/>ligt att de icke maa vere tilhobe i ecte
-<lb />l kabs stat. oc haffuer hørt deris suar.
+<lb />brudgomme oc brud huer besynderli<lb rend="="/>ge att Om der er noge<ex>n</ex> hinder paa no<lb rend="="/>gen deris side. hemeligt eller obenbar<lb rend="="/>ligt att de icke maa vere tilhobe i ecte<lb rend="="/>skabs stat. oc haffuer hørt deris suar.
 <lb />der paa. Da giffuer ha<ex>n</ex> dem tilsa<ex>m</ex>me<ex>n</ex> oc
 <lb />siger først til brudgo<ex>m</ex>me<ex>n</ex> so<ex>m</ex> her efft̄føl
 <lb />Effterdi att intid hinder er paa ferde
@@ -3212,18 +3213,15 @@ ge til synďnis forladelse. Dette giører
                     </p>
                     <lb />
                     <p>Effterdi at disse erlige personer N oc
-<lb />N. haffue begerit oc samtygt huer an
-<lb />den til ecteskab oc saada<ex>n</ex>t her obenbar
-<lb />lige for gud oc al verden beke<ex>n</ex>de. Der
+<lb />N. haffue begerit oc samtygt huer an<lb rend="="/>den til ecteskab oc saada<ex>n</ex>t her obenbar<lb rend="="/>lige for gud oc al verden beke<ex>n</ex>de. Der
 <lb />paa haffue de giffuit huer ande<ex>n</ex> haand
 <lb />oc festnede gaffue. Saa kundigør ieg
-<lb />dennem tilsammen i ett ret erligt. cris<lb rend="="/>teligt. oc aff mennisken vatskilligt er<lb rend="="/>teskab. J naffn faders Oc søns oc hel
-<lb />ligaands Amen.</p>
+<lb />dennem tilsammen i ett ret erligt. cris<lb rend="="/>teligt. oc aff mennisken vatskilligt er<lb rend="="/>teskab. J naffn faders Oc søns oc hel<lb rend="="/>ligaands Amen.</p>
                     <lb />
                     <p>
                         <space extent="2blanks" />Huor sedua<ex>n</ex>ligt er at dette forscreff<lb rend="="/>
 <pb n="E142" />
-                        <lb />ne handles for kircke dørre<ex>n</ex>. Da skul<lb rend="="/>le brudgomme oc brud gaa ind i kirc<lb rend="="/>ken for alteridt Oc presten leser off{v}
+                      ne handles for kircke dørre<ex>n</ex>. Da skul<lb rend="="/>le brudgomme oc brud gaa ind i kirc<lb rend="="/>ken for alteridt Oc presten leser off{v}
 <lb />dennem guds ord. Genesis secundo.</p>
                     <lb />
                     <p>GVd vor herre sagde. Det er icke
@@ -3241,25 +3239,21 @@ ge til synďnis forladelse. Dette giører
 <lb />offuergiffue sin fader oc sin moder. oc
 
 <pb n="E143" />
-                        <lb />bliffue ved sin hustru. oc de baade skul
-<lb />le vere ett lego<ex>m</ex>me.</p>
+                        <lb />bliffue ved sin hustru. oc de baade skul<lb rend="="/>le vere ett lego<ex>m</ex>me.</p>
                     <lb />
                     <p>
                         <hi rend="center">Der effter taler presten dennem bode
 <lb />til. saa siendis.</hi>
                     </p>
                     <lb />
-                    <p>Effterdi at i haffue nu giffuit eder bo
-<lb />de tilsamme<ex>n</ex> vdi det hellige ecteskab i
+                    <p>Effterdi at i haffue nu giffuit eder bo<lb rend="="/>de tilsamme<ex>n</ex> vdi det hellige ecteskab i
 <lb />guds naffn. Saa hører nu først flitte<lb rend="="/>ligen guds bud oc befalning offuer de<ex>n</ex>
 <lb />ne stat. Saa siger S Paul᷒ Ephe. v</p>
                     <lb />
                     <p>Ihusbo<ex>n</ex>ď ellker eďs hustruer. liger<lb rend="="/>uis so<ex>m</ex> crisens haffuer elst sin cristī mē<lb rend="="/>nighed. oc haffuer han giffuit sig selff
 <lb />for hende. paa det ha<ex>n</ex> ville hellig gøre
 <lb />he<ex>n</ex>de. oc ha<ex>n</ex> haffuer rengiort he<ex>n</ex>de ved
-<lb />det vandbad i ordet. att han skulle til<lb rend="="/>føge sig he<ex>n</ex>ne en erefuld cristen menig
-<lb />hz. so<ex>m</ex> icke haffuer smitte eller rynke. el
-<lb />ler naaget andet saadant. Men att hu<ex>n</ex>
+<lb />det vandbad i ordet. att han skulle til<lb rend="="/>føge sig he<ex>n</ex>ne en erefuld cristen menig<lb rend="="/>hz. so<ex>m</ex> icke haffuer smitte eller rynke. el<lb rend="="/>ler naaget andet saadant. Men att hu<ex>n</ex>
 <lb />scal vere hellig oc vstraffelig.</p>
                     <lb />
                     <p>Ligeruiss saa skulle husdo<ex>n</ex>derne elske
@@ -3301,7 +3295,7 @@ ge til synďnis forladelse. Dette giører
 <lb />dyn skyld. nar du bruger oc arbeider
 <lb />henne. Med treldom oc kymmer skalt
 <lb />du neere dig aff henne al din liiffs tid.
-<lb />Torne oc tidsler scal hun bere oc giff<lb rend="="/>ue dig til grøde. Oc du skalt ede vr<lb rend="="/>terne paa marcken. i dit ansigtes sned
+<lb />Torne oc tidsler scal hun bere oc giff<lb rend="="/>ue dig til grøde. Oc du skalt ede vr<lb rend="="/>terne paa marcken. i dit ansigtes sued
 <lb />skalt du ede dit brød. Jntil du vorder
 
 <pb n="E146" />
@@ -3329,8 +3323,7 @@ ge til synďnis forladelse. Dette giører
 <lb />oc han anammer een velbehagelighedt
 <lb />aff herren.</p>
                     <lb />
-                    <p>Her beder preste<ex>n</ex> folked bede for brud
-<lb />gommen oc bruden legge<ex>n</ex>dis eller hol<lb rend="="/>
+                    <p>Her beder preste<ex>n</ex> folked bede for brud<lb rend="="/>gommen oc bruden legge<ex>n</ex>dis eller hol<lb rend="="/>
                         <hi rend="center">lendis sine hender offuer dennem.
 <lb />Lader oss alle bede.</hi>
                     </p>
@@ -3369,8 +3362,7 @@ ge til synďnis forladelse. Dette giører
 <lb />kiere søn vor herre. huilken med dig
 
 <pb n="E149" />
-                        <lb />oc med den helligaand leffuer oc regne
-<lb />rer fra euighedt oc til euighed Amen.
+                        <lb />oc med den helligaand leffuer oc regne<lb rend="="/>rer fra euighedt oc til euighed Amen.
 <lb />
                         <hi rend="center">Finis sponsalium.</hi>
                     </p>
@@ -3387,7 +3379,7 @@ ge til synďnis forladelse. Dette giører
                 <div>
                     <p>Efft̄di at søge de siuge er for gď me<lb rend="="/>git behageligt oc scal paa den yderste
 <lb />dommedag opregnes och bete<ex>n</ex>ckis aff
-<lb />vor herre iesu christo. so<ex>m</ex> ha<ex>n</ex> selffuer si<lb rend="="/>ger. Mattei xxv. Derfore scal mandt
+<lb />vor herre iesu christo. so<ex>m</ex> ha<ex>n</ex> selffuer si<lb rend="="/>ger. <ref>Mattei xxv</ref>. Derfore scal mandt
 <lb />gerne om mand bliffuer der til kalled
 <lb />i tiide besørge dennē met vnďuisning.
 <lb />Sacramente oc andit so<ex>m</ex> behoff gøres
@@ -3402,8 +3394,7 @@ ge til synďnis forladelse. Dette giører
 <lb />mand kan hannem desbeder sige. vnď<lb rend="="/>uise oc lere effter den leilighedt mand
 <lb />da hører.</p>
                     <lb />
-                    <p>Der nest scal preste<ex>n</ex>. om de<ex>n</ex> singes skrø
-<lb />belighz det fordrage ka<ex>n</ex> ha<ex>n</ex>nē foreholde
+                    <p>Der nest scal preste<ex>n</ex>. om de<ex>n</ex> singes skrø<lb rend="="/>belighz det fordrage ka<ex>n</ex> ha<ex>n</ex>nē foreholde
 <lb />nogle steder aff de<ex>n</ex> hellige scrift so<ex>m</ex> her
 <lb />effterfølger. aff huilke han kan lere at
 <lb />kende sig att vere en arm syndere for
@@ -3417,8 +3408,7 @@ ge til synďnis forladelse. Dette giører
                     <p>Videns antem deus ꝙ multa malitia
 
 <pb n="E151" />
-                        <lb />hominū esset in terra. et cuncta cogi<lb rend="="/>tatio cordis huāni intenta esset ad ma
-<lb />lum oī tempore. Genesis vi.</p>
+                        <lb />hominū esset in terra. et cuncta cogi<lb rend="="/>tatio cordis huāni intenta esset ad ma<lb rend="="/>lum oī tempore. Genesis vi.</p>
                     <lb />
                     <p>Non est iustus. ne vnus quidem. Nō
 <lb />ē qui intelligat. non ē qui exquirat de<lb rend="="/>um. Onmes deflexerunt. simul inuti<lb rend="="/>les facti sūt. nō ē qui excerceat bonita<lb rend="="/>tem. nō ē vs{qʒ} ad vnum. ps xiij.</p>
@@ -3430,7 +3420,7 @@ ge til synďnis forladelse. Dette giører
 <lb />ria dei. Ad Roma. tertio.</p>
                     <lb />
                     <p>Ego inquit Paulus. noui ꝙ nō habi<lb rend="="/>tet in me hoc ē in carne mea bonum et
-<lb />retera. Ad Roma. vij.</p>
+<lb />cetera. Ad Roma. vij.</p>
                     <lb />
                     <p>Et eramus natura filij ire quēadmodū
 <lb />er reteri. ad Ephesios. ij.</p>
@@ -3514,8 +3504,7 @@ ge til synďnis forladelse. Dette giører
 <lb />acte vel paa dee ord som lyde om sam<lb rend="="/>me hans hellige lego<ex>m</ex>mes oc blods sa<lb rend="="/>cramente. oc troo dennem aff hiertens
 <lb />grund. oc tacke hannem for den vbe<lb rend="="/>gribelige kierlighed so<ex>m</ex> han oss beuist
 <lb />haffuer. der han med sit hellige lego<ex>m</ex>es
-<lb />offer oc blods vdgydelse haffuer for<lb rend="="/>løst oss fra all fordømmelse. guds vre
-<lb />de. synden. døden oc helffuede. Oc til
+<lb />offer oc blods vdgydelse haffuer for<lb rend="="/>løst oss fra all fordømmelse. guds vre<lb rend="="/>de. synden. døden oc helffuede. Oc til
 <lb />dess amyndelse oc ihukommelse. haff{v}
 <lb />han effterlat oss att ede oc dricke i vin
 <lb />oc brød sit saude legomme oc blod. til
@@ -3524,24 +3513,21 @@ ge til synďnis forladelse. Dette giører
                     <p>¶ Ad populvm ↄgregatū exortatō.</p>
                     <lb />
                     <p>Myne alsomkeriste ve<ex>n</ex>ner. Vor herre
-<lb />iesus christus siger. Mat. xviij. capi.
+<lb />iesus christus siger. <ref>Mat. xviij</ref>. capi.
 <lb />Huarsomhelst t{??}o eller tre ere forsa<ex>m</ex>le<lb rend="="/>de i mit naffn. der er ieg selffuer ebla<ex>n</ex>t
 
 <pb n="E156" />
                         <lb />dennem. Oc huad de bedes i mit naffn
-<lb />det skal dennem vederfare. Oc for
-<lb />di men vy ere her forsamlede til at be
-<lb />gaa hans hellige naduore. Da ville vy
+<lb />det skal dennem vederfare. Oc for<lb rend="="/>di men vy ere her forsamlede til at be<lb rend="="/>gaa hans hellige naduore. Da ville vy
 <lb />vdi herrens naffn. giffue de<ex>n</ex>ne vor siu<lb rend="="/>ge broder eller syster hans høguerdi<lb rend="="/>ge sacrame<ex>n</ex>te. huilkē nu icke ka<ex>n</ex> ko<ex>m</ex>me
 <lb />m<ex>ed</ex> oss til kircke<ex>n</ex> til ha<ex>n</ex>s hellige naduor<lb rend="="/>dis delactighed.</p>
                     <lb />
-                    <p>Siden skal presten med een høg klat{??}
+                    <p>Siden skal presten med een høg klar
 <lb />røst forstandeligen lese. Credo. sigen<lb rend="="/>dis. Jeg tror paa gud fader etc.</p>
                     <lb />
                     <p>Oc Fader vorord fra ord. ad finem.
 <lb />Oc der nest Verba ↄsecrationis som
-<lb />de tilforn staa i Messebogen. Oc giff<lb rend="="/>ue saa den siuge sacramentet. so rubrit
-<lb />ken i messebogen der om inde holder.
+<lb />de tilforn staa i Messebogen. Oc giff<lb rend="="/>ue saa den siuge sacramentet. so rubric<lb rend="="/>ken i messebogen der om inde holder.
 <lb />Hijs peractis leser preste<ex>n</ex> Jesus chri<lb rend="="/>tus. eller Gud vere loffuit altid oc etc.
 <lb />med denne effterfølge<ex>n</ex>dis Collecte och
 <lb />benedictione.</p>
@@ -3551,24 +3537,21 @@ ge til synďnis forladelse. Dette giører
 <lb />tieneris konning Ezechie liff i fempte<ex>n</ex>
 <lb />aar. Vy bede din vsigelige godhed at
 <lb />du vilt verdis til att giffue denne din
-<lb />tienere samme naade oc forle hannē ef<lb rend="="/>ter din guddo<ex>m</ex>melige vilge. lifse<ex>n</ex>s sund
-<lb />het dit hellige naffn til loff oc ere Vid
+<lb />tienere samme naade oc forle hannē ef<lb rend="="/>ter din guddo<ex>m</ex>melige vilge. lifse<ex>n</ex>s sund<lb rend="="/>het dit hellige naffn til loff oc ere Vid
 <lb />din enborne søn ie c. Alia Collecta</p>
                     <lb />
                     <p>O Almectigste euige gud du som ha<lb rend="="/>ffuer befallid oss ved vor herre iesum
 <lb />christu<ex>m</ex> oc i den hellige apostels sancte{??}
 <lb />Jacobi lerdom att sculle søge de siuge
-<lb />oe gøre bøn før dennem. Vi bede din
+<lb />oc gøre bøn før dennem. Vi bede din
 <lb />euige godhedt. giff denne din tienere
 <lb />vor elskelige broder alle sine synders
 <lb />forladelse oc i sit hierte de<ex>n</ex> helligands
-<lb />trøst oc hugsualelse Oc see miscunde<lb rend="="/>lige til hans skrøbelighz bode induor
-<lb />tis oc vduortis oc størcke i hannē all
+<lb />trøst oc hugsualelse Oc see miscunde<lb rend="="/>lige til hans skrøbelighz bode induor<lb rend="="/>tis oc vduortis oc størcke i hannē all
 
 <pb n="E158" />
                         <lb />din vilges velbehagelighed at ha<ex>n</ex> maa
-<lb />findis paa dommedagen ebland alle di
-<lb />ne vdualde børn til det euige liffs an<lb rend="="/>na<ex>m</ex>melse. Ved din enborne søn ie. c. v.</p>
+<lb />findis paa dommedagen ebland alle di<lb rend="="/>ne vdualde børn til det euige liffs an<lb rend="="/>na<ex>m</ex>melse. Ved din enborne søn ie. c. v.</p>
                     <lb />
                     <p>
                         <hi rend="center">Benedictio apud infirmos.</hi>
@@ -3577,8 +3560,7 @@ ge til synďnis forladelse. Dette giører
                     <p>
                         <c function="initials" rend="2">G</c>Vd vor himmelske fader so<ex>m</ex> dig
 <lb />haffuer skafft benedide dig. Gudt
-<lb />vor herre iesus christus som dig haff<lb rend="="/>uer igenløst. frelse dig. Gud den ver
-<lb />dige helligaand som i due lignelse ko<ex>m</ex>
+<lb />vor herre iesus christus som dig haff<lb rend="="/>uer igenløst. frelse dig. Gud den ver<lb rend="="/>dige helligaand som i due lignelse ko<ex>m</ex>
 <lb />offuer christum i iordan. han opliuse
 <lb />dit hierte i een sand anger. troen beke<ex>n</ex>
 <lb />delse oc een ret christen kielighz. De<ex>n</ex>ne
@@ -3597,9 +3579,7 @@ ge til synďnis forladelse. Dette giører
 <lb />offuer alt formane hannem att han er
 <lb />tolmodig. Fordi gud legger oss
 <lb />korssit paa i denne verden. icke til vor
-<lb />for derffuelse Men att vi skulle saalu<ex>n</ex><lb rend="="/>de paami<ex>n</ex>dis at giffue oss til penite<ex>n</ex>tz<lb rend="="/>sand anger oc ruelse oc at vi maatte le
-<lb />re rettelige att kende hannem oc oss sel
-<lb />ffue Oc att vy saa paakaldendis hām
+<lb />for derffuelse Men att vi skulle saalu<ex>n</ex><lb rend="="/>de paami<ex>n</ex>dis at giffue oss til penite<ex>n</ex>tz<lb rend="="/>sand anger oc ruelse oc at vi maatte le<lb rend="="/>re rettelige att kende hannem oc oss sel<lb rend="="/>ffue Oc att vy saa paakaldendis hām
 <lb />maatte faa hans hi<ex>m</ex>melske gaffuers bn̄<lb rend="="/>didelse. Oc nar vi dø oc fare aff dette
 <lb />ellende att vy maatte da leffue m<ex>ed</ex> vor
 <lb />herre iesu christo i det euige liff Ame<ex>n</ex>.</p>
@@ -3620,13 +3600,11 @@ ge til synďnis forladelse. Dette giører
 <lb />oc offte søge de fe<ex>n</ex>gslede. icke alleniste
 <lb />nar de skulle affliffuis och staa deris
 <lb />rett. men offte tilforn. Paa det at de
-<lb />kunde tale med dennem om guds naa<lb rend="="/>dis bekendelse. fordi att saadane oben
-<lb />bare misdedere. menlige foracte guds
+<lb />kunde tale med dennem om guds naa<lb rend="="/>dis bekendelse. fordi att saadane oben<lb rend="="/>bare misdedere. menlige foracte guds
 <lb />naade oc hans hellige ordt. Vden de
 <lb />idelige da paamindis. ku<ex>n</ex>de de nepelige
 <lb />opleris rettelige til at kende gďs naa<lb rend="="/>de oc i een sand tro att forlade sig tiil
-<lb />syndernis forladelse eniste vid vor her
-<lb />re iesum christum.</p>
+<lb />syndernis forladelse eniste vid vor her<lb rend="="/>re iesum christum.</p>
                     <lb />
                     <p>Der som gď da formedelst sit hellige
 <lb />ords kundgiørelse. begaffuer dennem
@@ -3635,8 +3613,7 @@ ge til synďnis forladelse. Dette giører
 <pb n="E161" />
                         <lb />lis intil hans vsigelige godhed. oc saa
 <lb />med munden bekende vor herre iesum
-<lb />christum. Ere de da begere<ex>n</ex>dis det høg
-<lb />uerdige sacramente. da maa mand icke
+<lb />christum. Ere de da begere<ex>n</ex>dis det høg<lb rend="="/>uerdige sacramente. da maa mand icke
 <lb />necte deūi det. Men giffue dennem det
 <lb />ij eller iij dage tilforn før end de sculle
 <lb />rettis. med samme ceremonier som til<lb rend="="/>forn er berørd hoss de siuge. Med den
@@ -3644,8 +3621,7 @@ ge til synďnis forladelse. Dette giører
 <lb />ↄmunionē ut̄. N. ij.</p>
                     <lb />
                     <p>Vdi huilke ma<ex>n</ex>d icke ka<ex>n</ex> befinde sandt
-<lb />hiertēs anger oc troens rette bekendel
-<lb />se. dem skal ma<ex>n</ex>d med gudelig bøn be<lb rend="="/>fale y guds hender oc dog dessemellez
+<lb />hiertēs anger oc troens rette bekendel<lb rend="="/>se. dem skal ma<ex>n</ex>d med gudelig bøn be<lb rend="="/>fale y guds hender oc dog dessemellez
 <lb />spare ingen vmage oc arbeide. om de
 <lb />ku<ex>n</ex>de omuendis til een rett bekendelse
 <lb />før end de staa deris yderste rett.</p>
@@ -3673,8 +3649,7 @@ ge til synďnis forladelse. Dette giører
 <lb />til kirke<ex>n</ex> for klockerne so<ex>m</ex> sedua<ex>n</ex>ligt er</p>
                     <lb />
                     <p>Begeer ma<ex>n</ex>d oc der so<ex>m</ex> scoler ere bør<lb rend="="/>nene att gaa for liget. da maa det vel
-<lb />skee. nar de i saadan vmage so<ex>m</ex> seduan{??}<lb rend="="/>ligt er betenckis. Meē huar so<ex>m</ex> scoler ic
-<lb />ke ere. følger almugen ligit tiendis til
+<lb />skee. nar de i saadan vmage so<ex>m</ex> seduan{??}<lb rend="="/>ligt er betenckis. Meē huar so<ex>m</ex> scoler ic<lb rend="="/>ke ere. følger almugen ligit tiendis til
 <lb />graffuen. Nar børnene saa gaa
 <lb />for lig. maa siugis een psalme Cā{??}ū
 <lb />zacarie. Velsignet vere herren Jsraels
@@ -3704,8 +3679,7 @@ ge til synďnis forladelse. Dette giører
 <lb />paa ku{??}e som omkring staa oc lese.</p>
                     <pb n="E164" />
                     <lb />
-                    <p>der vor. bedendis gud att de maa bli<lb rend="="/>ffue voractige i en sa<ex>n</ex>d tro til deris dø
-<lb />de dag. oc ved døden gaa fra dette liff
+                    <p>der vor. bedendis gud att de maa bli<lb rend="="/>ffue voractige i en sa<ex>n</ex>d tro til deris dø<lb rend="="/>de dag. oc ved døden gaa fra dette liff
 <lb />til det euige liff.</p>
                     <lb />
                     <p>
@@ -3883,7 +3857,7 @@ ge til synďnis forladelse. Dette giører
                         <hi rend="center">Jnsignia Regis Danorum.
 <lb />
                             <figure type="image" />
-                            <lb />Paulus. i cor. xiiii.
+                            <lb /><ref>Paulus. i cor. xiiii</ref>.
 <lb />Omnia decenter et serundum
 <lb />ordinem fiant.</hi>
                     </p>
