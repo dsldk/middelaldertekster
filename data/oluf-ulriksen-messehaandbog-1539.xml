@@ -146,7 +146,7 @@
                 
                 <pb n="E4" />
                 <lb />
-                <div type="head">
+                <div xml:id="om-messen-boenner-og-ceremonier"><head type="add">Om messen. Bønner og ceremonier</head>
                     <head>OM Messen oc huorledis ma<ex>n</ex>d hen<lb rend="="/>ne effter Guds vor herris Jesu eris<lb rend="="/>ti ordt oc indsettilse holde skal. med
 <lb />vstraffelige sang. bønner oc
 <lb />Ceremonier</head>
@@ -233,11 +233,10 @@
 <lb />een anden. Psalme. som her effter føl<lb rend="="/>ger <hi rend="center">Officium.</hi>
                     </p>
                 </div>
-		<notatedMusic>
+	    <div xml:id="af-dybsens-noed-ulriksen" type="psalm"><head type="add">Af dybsens nød</head><notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
                     </notatedMusic>
-                <div type="musicalNotation">
                     <p>
                         <lb />
                         
@@ -287,7 +286,11 @@
                         <hi rend="center">Kyrieeleison.</hi>
                     </p>
                 </div>
-                <div type="musicalNotation">
+                <div xml:id="kyrie-gud-fader-alsomhoegeste-troest" type="psalm">
+                    <head type="add">Kyrie eleison</head><notatedMusic>
+                        <ptr target="nil"/>
+                        <desc>nil</desc>
+                    </notatedMusic>
                     <p>
                                                
                         <lb />Kyrie Gud fad<ex>e</ex>r. alsomhøgeste trøst
@@ -314,7 +317,11 @@
                     </p>
                 </div>
                 <pb n="E13" />
-                <div type="musicalNotation">
+                <div xml:id="kyrie-helligaand-i-evighed" type="psalm"><head type="add">Kyrie</head>
+                    <notatedMusic>
+                        <ptr target="nil"/>
+                        <desc>nil</desc>
+                    </notatedMusic>
                     <p>
                         <lb />
                         
@@ -333,7 +340,11 @@
 <lb />in excelsis deo. Huilken preste<ex>n</ex> for al<lb rend="="/>teridt efft kyrieeleison skall begynde.
 <lb />paa latine eller danske oc siden aff me<lb rend="="/>nige christen forsamling forfølges.</p>
                 </div>
-                <div type="musicalNotation">
+                <div xml:id="den-engelske-lovsang" type="psalm"><head type="add">Gloria in excelsis deo</head>
+                    <notatedMusic>
+                        <ptr target="nil"/>
+                        <desc>nil</desc>
+                    </notatedMusic>
                     <p>
                         <lb />
                         
@@ -417,7 +428,10 @@
 <lb />oc vende sig om til folkidt oc m<ex>ed</ex> sed<lb rend="="/>uanlige noder paa danske. lese Episte<lb rend="="/>len effter tidzens leilighedt aff det ga<ex>m</ex><lb rend="="/>ble eller ny testamente. lang somelige
 <lb />oc redelige. saa at folked kand vel for<lb rend="="/>staa oc mercke hannem. siendis.</p>
                 </div>
-                <div type="musicalNotation">
+                <div xml:id="epistel-i-cor-xi" type="psalm"><head type="add">Epistel, i. cor. xi</head><notatedMusic>
+                        <ptr target="nil"/>
+                        <desc>nil</desc>
+                    </notatedMusic>
                     <p>
                                              
                         <lb />De<ex>n</ex>ne Epistel bescr iffuer oss til de Cor<lb rend="="/>rinter santi᷒ Paulus.</p>
@@ -425,7 +439,7 @@
                 <div>
                     <p>
                         <lb />
-                        <hi rend="center">Epistelen. i. Cor. Xi.</hi>
+                        <hi rend="center">Epistelen. <ref>i. Cor. Xi</ref>.</hi>
                     </p>
                     <lb />
                     <p>
@@ -460,7 +474,10 @@
                                    <p>Der nest Halleluia. foruden nogen
 <lb />lang halle. med ett eller ij {v}ss. loco ḡ<lb rend="="/>dualis. paa latine eller danske. Psal<lb rend="="/>mus Laudate dominū omnes gentes,</p>
                 </div>
-                <div type="musicalNotation">
+                <div xml:id="Alleluia-boer-os-altid-siunge-her" type="psalm"><head type="add">Haleluja</head><notatedMusic>
+                        <ptr target="nil"/>
+                        <desc>nil</desc>
+                    </notatedMusic>
                     <p>
                         <lb />
                         
@@ -525,7 +542,10 @@
 <lb />och less Euangelium siendis.</p>
                 </div>
                 <pb n="E24" />
-                <div type="musicalNotation">
+                <div xml:id="herren-vaere-med-jer" type="psalm"><head type="add">Herren være med jer</head><notatedMusic>
+                        <ptr target="nil"/>
+                        <desc>nil</desc>
+                    </notatedMusic>
                     <p>
                       
                         
@@ -571,7 +591,10 @@
 <lb />danske huilken scolemester eller hørē
 <lb />scal begynde. Jn summis festis.</p>
                 </div>
-                <div type="musicalNotation">
+                <div xml:id="credo-in-umum-deum" type="psalm" xml:lang="la"><head type="add">Credo</head><notatedMusic>
+                        <ptr target="nil"/>
+                        <desc>nil</desc>
+                    </notatedMusic>
                     <p>
                       
                         <hi rend="center">Credo in vnum deum. Patrem etc
@@ -605,11 +628,14 @@
                     <lb />
                     <p>Paa lantzbyerne oc der so<ex>m</ex> scoler icke
 <lb />ere siu<ex>n</ex>ger ma<ex>n</ex>d Credo. Alleniste paa
-<lb />danske. huilken presten omuend til al<lb rend="="/>
-<pb n="E28" />
-                        <lb />terid scal begynde Oc folked skal for<lb rend="="/>følge he<ex>n</ex>de saa til ende. so<ex>m</ex> her efft̄følger</p>
+<lb />danske. huilken presten omuend til al
+                        <pb n="E28" rend="="/>
+                        terid scal begynde Oc folked skal for<lb rend="="/>følge he<ex>n</ex>de saa til ende. so<ex>m</ex> her efft̄følger</p>
                 </div>
-                <div type="musicalNotation">
+                <div xml:id="vi-tro-allesammen-paa-en-gud-ulriksen" type="psalm"><head type="add">Vi tro, vi alle tro på Gud </head><notatedMusic>
+                        <ptr target="nil"/>
+                        <desc>nil</desc>
+                    </notatedMusic>
                     <p>
                         <lb />
                         
@@ -740,7 +766,10 @@
 <lb />danske Nu er oss gď miscundelig eller
 <lb />een anden hendes lige. oc folked for<lb rend="="/>følger he<ex>n</ex>de. Deus misereat̄  <ref>Ps. lxvi</ref>.</p>
                 </div>
-                <div type="musicalNotation">
+                <div xml:id="du-er-oss-gud-miscundelig" type="psalm"><head type="add">Nu er os Gud miskundelig, og han vil os velsigne</head><notatedMusic>
+                        <ptr target="nil"/>
+                        <desc>nil</desc>
+                    </notatedMusic>
                     <p>
                         <lb />
                         
@@ -796,7 +825,10 @@
                         <hi rend="center">Prefatio communis</hi>
                     </p>
                 </div>
-                <div type="musicalNotation">
+                <div xml:id="prefatio-communis-ulriksen" type="psalm"><head type="add">Prefatio communis</head><notatedMusic>
+                        <ptr target="nil"/>
+                        <desc>nil</desc>
+                    </notatedMusic>
                     <p>
                         <lb />
                         
@@ -861,7 +893,11 @@
 <lb />eer. <hi rend="center">Sanctus</hi>
                     </p>
                 </div>
-                <div type="musicalNotation">
+                <div xml:id="hellig-hellig-hellig" type="psalm"><head type="add">Hellig hellig hellig</head>
+                    <notatedMusic>
+                        <ptr target="nil"/>
+                        <desc>nil</desc>
+                    </notatedMusic>
                     <p>
                        
                         <c function="initials" rend="2">H</c>El lig Hel lig Hel lig
@@ -892,7 +928,7 @@
 <lb />maa bruges for tidzens korthed.</p>
                 </div>
                 <lb />
-                <div type="head">
+                <div xml:id="formaningen"><head type="add">Formaningen</head>
                     <head>Her efft̄følger Formani<ex>n</ex>gen
 <lb />for alterid</head>
                 </div>
@@ -976,7 +1012,10 @@
                     <p>Nu vender Presten sig om til alterid
 <lb />igen oc siger. Pat̄ n̄r etc. Alta vore.</p>
                 </div>
-                <div type="musicalNotation">
+                <div xml:id="fadervor-ulriksen" type="psalm"><head type="add">Fadervor</head><notatedMusic>
+                        <ptr target="nil"/>
+                        <desc>nil</desc>
+                    </notatedMusic>
                     <p>
                         <lb />
                         
@@ -1048,7 +1087,10 @@
 <lb />skulle forscaa huad testamentens ord
 <lb />indeholle Ad eundem modum.</p>
                 </div>
-                <div type="musicalNotation">
+                <div xml:id="kalken-ulriksen" type="psalm"><head type="add">Kalken</head><notatedMusic>
+                        <ptr target="nil"/>
+                        <desc>nil</desc>
+                    </notatedMusic>
                     <p>
                         <lb />
                         
@@ -1108,7 +1150,10 @@ ge til synďnis forladelse. Dette giører
                         anden saadan psalme. Oc nar han haff<lb rend="="/>uer co<ex>m</ex>municerid dem alle. scal chorid
 <lb />lade aff att siunge. Jesus christ᷒</p>
                 </div>
-                <div type="musicalNotation">
+                <div xml:id="jesus-christus-er-vor-salighed" type="psalm"><head type="add">Jesus Kristus er til stede</head><notatedMusic>
+                        <ptr target="nil"/>
+                        <desc>nil</desc>
+                    </notatedMusic>
                     <p>
                         <lb />
                         
@@ -1172,7 +1217,10 @@ ge til synďnis forladelse. Dette giører
                         <hi rend="center">Agnus dei.</hi>
                     </p>
                 </div>
-                <div type="musicalNotation">
+                <div xml:id="agnus-dei-ulriksen" type="psalm"><head type="add">Agnus dei</head><notatedMusic>
+                        <ptr target="nil"/>
+                        <desc>nil</desc>
+                    </notatedMusic>
                     <p>
                         <lb />
                         
@@ -1228,7 +1276,10 @@ ge til synďnis forladelse. Dette giører
 <lb />Pro pare. eller oc dee x budord. so<ex>m</ex> her
 <lb />efft̄følger. Dee x budord.</p>
                 </div>
-                <div type="musicalNotation">
+                <div xml:id="de-ti-bud" type="psalm"><head type="add">De ti bud</head><notatedMusic>
+                        <ptr target="nil"/>
+                        <desc>nil</desc>
+                    </notatedMusic>
                     <p>
                         <lb />
                         
@@ -1285,7 +1336,10 @@ ge til synďnis forladelse. Dette giører
 <lb />in diebus nostris</hi>
                     </p>
                 </div>
-                <div type="musicalNotation">
+                <div xml:id="da-pacem-domine" type="psalm"><head type="add">Da pacem domine</head><notatedMusic>
+                        <ptr target="nil"/>
+                        <desc>nil</desc>
+                    </notatedMusic>
                     <p>
                         <lb />
                         
@@ -1323,7 +1377,8 @@ ge til synďnis forladelse. Dette giører
                 </div>
                 <pb n="E62" />
                 <lb />
-                <div type="head">
+                <div xml:id="Collecter-til-søndagene">
+                    <head type="add">Udvalgte kollekter til søndagene</head>
                     <head>Her effterfølger nogle faa vdualde
 <lb />Collecter til Søndagene. Høg<lb rend="="/>tidelige dage. oc ande<ex>n</ex> tid om
 <lb />Aaret nar behoff giørs.</head>
@@ -1432,7 +1487,7 @@ ge til synďnis forladelse. Dette giører
                     <lb />
                     <p>
                         <space extent="2blanks" />O Almectigste euige gud Som naa<lb rend="="/>delige vid stiernens skin hencte de vise
-<lb />aff østen til din enborne søns beke<ex>n</ex>del<lb rend="="/>se Vij bede din harm hiertighed att du
+<lb />aff østen til din enborne søns beke<ex>n</ex>del<lb rend="="/>se Vij bede din barmhiertighed att du
 
 <pb n="E66" />
                         <lb />vilt giffue oss det samme liusis skin i
@@ -2036,7 +2091,7 @@ ge til synďnis forladelse. Dette giører
                 </div>
                 <pb n="E87" />
                 <lb />
-                <div type="head">
+                <div xml:id="andre-tidspunkter-med-collect"><head type="add">Kollekter til andre dage</head>
                     <head>Seqūtur Collecte que iuxta rati<lb rend="="/>onē te<ex>m</ex>poris in ecclesia alias
 <lb />requiruntur</head>
                 </div>
@@ -2469,12 +2524,15 @@ ge til synďnis forladelse. Dette giører
                     </p>
                 </div>
                 <lb />
-                <div type="head">
+                <div xml:id="Prefationes"><head type="add">Prefationes</head>
                     <head>Sequuntur pie aliquot iuxta sarram
 <lb />Scripturam Prefationes que pas<lb rend="="/>sim in Ecclesiis cam solēt Et
 <lb />p̄mo de Natiuitate chris<lb rend="="/>ti Prefatō Sequitur</head>
                 </div>
-                <div type="musicalNotation">
+                <div xml:id="prefatio-nativitate-christi" type="psalm"><head type="add">Prefatio nativitate Christi</head><notatedMusic>
+                        <ptr target="nil"/>
+                        <desc>nil</desc>
+                    </notatedMusic>
                     <p>
                         <lb />
                         
@@ -2517,11 +2575,13 @@ ge til synďnis forladelse. Dette giører
                         <lb />eres loffa<ex>n</ex>g. vden al ende. oc sige stsis</p>
                 </div>
                 <lb />
-                <div type="head">
-                    <head>Prefatio de passione Christi.</head>
-                </div>
-                <div type="musicalNotation">
-                    <p>
+                <div xml:id="prefatio-de-passione-christi"><head type="add">Prefatio de passione Christi</head>
+                    <head>Prefatio de passione Christi.</head> <notatedMusic>
+                        <ptr target="nil"/>
+                        <desc>nil</desc>
+                    </notatedMusic>
+                
+                                 <p>
                         <lb />
                         
                         <lb />Oc euige gud. <c function="initials" rend="2">D</c>V som haffuer
@@ -2565,12 +2625,13 @@ ge til synďnis forladelse. Dette giører
                         
                         <lb />vid same Jesum Christum vor herre
 <lb />Vid huilkē etc oc̄ Jn prefatione ↄnī.</p>
-                </div>
-                <lb />
-                <div type="head">
+                <lb /></div>
+                <div xml:id="prefatio-de-resurrectione"><head type="add">Prefatio de Resurrectione</head>
                     <head>Prefatio de Resurrectione.</head>
-                </div>
-                <div type="musicalNotation">
+                <notatedMusic>
+                        <ptr target="nil"/>
+                        <desc>nil</desc>
+                    </notatedMusic>
                     <p>
                         <lb />
                         
@@ -2607,7 +2668,11 @@ ge til synďnis forladelse. Dette giører
                     <lb />
                     <p>Sequitur Prefatō de asce<ex>n</ex>stōe dn̄i</p>
                 </div>
-                <div type="musicalNotation">
+                <div xml:id="prefatio-ascent-domine" type="psalm"><head type="add">#</head>
+                    <notatedMusic>
+                        <ptr target="nil"/>
+                        <desc>nil</desc>
+                    </notatedMusic>
                     <p>
                         <lb />
                         
@@ -2670,12 +2735,16 @@ ge til synďnis forladelse. Dette giører
                         <lb />ende. Sigendis Sanctus</p>
                 </div>
                 <lb />
-                <div type="head">
+                <div xml:id="sequitur-prefatio-trinitate"><head type="add">Sequitur Prefatio de sancta at
+                    indiuidua Trinitate</head>
                     <head>Sequitur Prefatio de sancta at
 <lb />indiuidua Trinitate</head>
-                </div>
+                
                 <pb n="E117" />
-                <div type="musicalNotation">
+                <notatedMusic>
+                    <ptr target="nil"/>
+                    <desc>nil</desc>
+                </notatedMusic>
                     <p>
                         <lb />
                         
@@ -2731,10 +2800,12 @@ ge til synďnis forladelse. Dette giører
                         <lb />endrectelige tilhobe altid siendis St̄᷒</p>
                 </div>
                 <lb />
-                <div type="head">
+                <div xml:id="sequit-prefatio-virgine"><head type="add">Sequit̄ Prefatō de bt̄a Virgine</head>
                     <head>Sequit̄ Prefatō de bt̄a Virgine</head>
-                </div>
-                <div type="musicalNotation">
+                    <notatedMusic>
+                        <ptr target="nil"/>
+                        <desc>nil</desc>
+                    </notatedMusic>
                     <p>
                         <lb />
                         
@@ -2852,8 +2923,7 @@ ge til synďnis forladelse. Dette giører
 <lb />herre. een vbesmittet brud. oc tilføgis
 <lb />ha<ex>n</ex>nem vdi herlighed. vstraffelighed oc
 
-<pb n="E125" />
-                        <lb />hellighedt. Ephestoꝵ sexto Capite</p>
+<pb n="E125" />hellighedt. Ephestoꝵ sexto Capite</p>
                     <lb />
                     <p>Oc foruden alle vore gerni<ex>n</ex>gers verd<lb rend="="/>skyld. eniste vdaff sin store misku<ex>n</ex>hed
 <lb />giør gudt oss salige vidt genfødelse<ex>n</ex>s
@@ -2873,7 +2943,7 @@ ge til synďnis forladelse. Dette giører
 <lb />hierter. oc gudelig bøn till gudt paa
 <lb />dette barns vegne</p>
                     <pb n="E126" />
-                    <lb />
+              
                     <p>
                         <hi rend="center">Nar Formanigen er att ende. beder
 <lb />Presten. neffue Barnet. oc siger</hi>
@@ -3100,11 +3170,10 @@ ge til synďnis forladelse. Dette giører
                 </div>
                 <pb n="E136" />
                 <lb />
-                <div type="head">
+                <div xml:id="brudevielse-for-enfoldige-sognepræster">
+                    <head type="add">Brudevielse for enfoldige sognepræster</head>
                     <head>Om Bruduielsse for enfoldi<lb rend="="/>ge sognepresters skyld.</head>
-                </div>
-                <lb />
-                <div>
+                
                     <p>FRanciscus Vormordi ynsker alle
 <lb />gudfryctige predicanter oc sogneher<lb rend="="/>rer Naade oc fred aff gud vor faď oc
 <lb />vor herre iesu christo. Saa scriffuer
@@ -3368,7 +3437,7 @@ ge til synďnis forladelse. Dette giører
                     </p>
                 </div>
                 <lb />
-                <div type="head">
+                <div xml:id="ad-visitandum-infirmos"><head type="add">Ad visitandum infirmos</head>
                     <head>Ad visitandum infirmos
 <lb />
                         <c function="initials" rend="3">E</c>en maade huorledis mand skal
@@ -3591,7 +3660,8 @@ ge til synďnis forladelse. Dette giører
                 </div>
                 <pb n="E160" />
                 <lb />
-                <div type="head">
+                <div xml:id="om-faengslede-misdaedere">
+                    <head type="add">Fængslede misdædere</head>
                     <head>Om fengslede misdedere so<ex>m</ex> sculle aff<lb rend="="/>liffuis oc staa deris yderste rett.</head>
                 </div>
                 <lb />
@@ -3636,7 +3706,7 @@ ge til synďnis forladelse. Dette giører
             <div type="register">
                 <pb n="E162" />
                 <lb />
-                <div type="head">
+                <div xml:id="om-jordefaerd"><head type="add">Jordefærd</head>
                     <head>Om iordeferdt</head>
                 </div>
                 <div>
@@ -3699,7 +3769,7 @@ ge til synďnis forladelse. Dette giører
                 </div>
                 <pb n="E165" />
                 <lb />
-                <div type="head">
+                <div xml:id="index"><head type="add">Index</head>
                     <head>Jnder articuloꝵ huius libri.</head>
                 </div>
                 <lb />
