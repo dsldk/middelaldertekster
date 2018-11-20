@@ -3,15 +3,15 @@
         <fileDesc>
             <titleStmt>
                 <title>Lex castrensis sive curie</title>
-                <author>Sven Aggesøn</author>
-		<editor>
+                <author xml:id="sven-aggesen">Sven Aggesøn</author>
+                <editor>
                     <name xml:id="ts">
                         <persName>
                             <forename type="first">Tue</forename>
                             <surname>Søvsø</surname>
                         </persName>
                     </name>
-            </editor>
+                </editor>
             </titleStmt>
             <publicationStmt>
                 <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
@@ -26,15 +26,33 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl>ed. Stephanius</bibl>
-                
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <samplingDecl>
+                <ab>empty</ab>
+            </samplingDecl>
+            <projectDesc xml:id="project-danish-historical-writing">
+                <ab>Teksten udgivet i forbindelse med projektet Danish historical writing before
+                    1225, Københavns Universitet.</ab>
+            </projectDesc>
+            <appInfo>
+                <application xml:id="app_nil" type="nil" subtype="nil" ident="nil"
+                    version="99999999">
+                    <desc>nil</desc>
+                </application>
+            </appInfo>
+        </encodingDesc>
         <profileDesc>
             <creation>
                 <date when="1300">ca. 1300</date>
             </creation>
-            <abstract>nil</abstract><langUsage>
-                <language ident="la" />
+            <abstract>
+                <ab>Latinsk version (omkr. 1300) af Vederloven, nedskrevet på dansk i slutningen af
+                    1100-tallet, der gjaldt for kongens hird</ab>
+            </abstract>
+            <langUsage>
+                <language ident="la"/>
             </langUsage>
             <textClass>
                 <keywords>
@@ -45,7 +63,7 @@
     </teiHeader>
     <text>
         <body>
-            <pb n="144" />
+            <pb n="144"/>
             <head type="orig">KANUTI MAGNI, DANIÆ ET ANGLIÆ REGIS, LEGES CASTRENSES SIVE CURIALES;
                 Collectore Svenone Aggonis filio, Christierni Nepote.</head>
             <div>
@@ -56,17 +74,17 @@
                     Juventus castrensis, mutuis se contumeliis impunè lacesseret. Hinc potentissimi
                     Daniæ Reges, ut improborum refrænarent audaciam, ab ultimâ memoriâ, Legem
                     promulgandam sanciverunt, quam suo Idiomate Witherlogh nuncuparunt: nobis verò
-                    Latino <pb n="145" />sermone, licet vocabulo minus proprio, Legem Castrensem sive
-                    Militarem, vel Legem Curiæ, appellare licebit. Hanc equidem temporis vetustas
-                    prorsus antiquasset, utpotè raris admodum huc usque existentibus, qui res
-                    superiorum seculorum, quamlibet iliustres, memoriæ literisque commendarent: nisi
-                    si totius regni Danici illustris &amp; maximus Antistes Absalon, consvetâ
+                    Latino <pb n="145"/> sermone, licet vocabulo minus proprio, Legem Castrensem
+                    sive Militarem, vel Legem Curiæ, appellare licebit. Hanc equidem temporis
+                    vetustas prorsus antiquasset, utpotè raris admodum huc usque existentibus, qui
+                    res superiorum seculorum, quamlibet iliustres, memoriæ literisque commendarent:
+                    nisi si totius regni Danici illustris &amp; maximus Antistes Absalon, consvetâ
                     curiositate, circumspectâque ac providâ deliberatione cum nutricio suo, Kanuto
                     Rege, Waldemari Primi, Daniæ Regis filio, maturè habitâ atque institutâ, in
                     exiguum quoddam volumen, velut in matriculam, eam contulisset. Nam quod
                     antiquitate obsoletum esse plerumque decernitur, id ipsum literarum beneficio
                     reparatur. Quum itaque Constitutiones ejusmodi, nostrâ vernaculâ, &amp; quidem
-                    succinctâ brevitate, conscriptas repe-<pb n="146" />rissem: eas in Latinum
+                    succinctâ brevitate, conscriptas repe-<pb n="146"/>rissem: eas in Latinum
                     sermonem transferre conatus sum, haud sanè scientiæ aut ingenii confidentiâ,
                     nevè ut præsumptuosâ quadam arrogantiâ, majori doctrinâ præditis præjudicium
                     facerem: verùm potius ut ampliore dicendi facultate florentibus materiam
@@ -75,11 +93,11 @@
                     edocebo.</p>
             </div>
             <div>
-                <pb n="147" />
+                <pb n="147"/>
                 <head type="orig">CAP. I. DE KANUTO MAGNO, LEGUM CASTRENSIUM, SIVE CURIALIUM,
                     CONDITORE.</head>
                 <head type="add">Cap. I: Om Knud den store vederlovens indstifter</head>
-                <pb n="148" />
+                <pb n="148"/>
                 <p>Rex itaque Kanutus, Svenonis Tyvgescheg, Daniæ Regis, filius, cum avitis regnis
                     provinciisque potitus esset; ab ultimâ Thyle usque ad Græcorum imperium, invicto
                     quodam robore, ditionis suæ terminos magnificè dilatavit. Nam diffusæ
@@ -92,7 +110,7 @@
                     nevtiquam excelluerunt.</p>
             </div>
             <div>
-                <pb n="150" />
+                <pb n="150"/>
                 <head type="orig">CAP. II DE CAUSA ELECTIONIS.</head>
                 <head type="add">Cap. II: Udvælgelsen af hirdens medlemmer</head>
                 <p>Quocircà Rex Kanutus ad hanc tandem intendit, ut militum cohortem, prius, veluti
@@ -102,7 +120,7 @@
                     didicerat: ut nempè, &amp; generosâ orti prosapia, virtutis apicem capesserent;
                     &amp; locupletiori in familia educati, armaturæ imbellis non afficerentur
                     inopiâ. Præcone igitur denunciante proclamari jussit, solos illos Regis
-                    clementiam experturos, arctioris-<pb n="151" />que familiaritatis privilegio præ
+                    clementiam experturos, arctioris-<pb n="151"/>que familiaritatis privilegio præ
                     aliis fruituros, qui in Regis honorem, catervæque militaris decorem, bipennibus,
                     mucronumque capulis deauratis coruscarent. Cedit enim honori Principis, si eum
                     cœtus militaris corona, fulgentibus insignis armis, undique secus comitetur. Hoc
@@ -112,7 +130,7 @@
                     omnis ornatus aurô priùs conspicuus, aurifabrorum opera in massam conflatur; ut
                     quòd anteà in vanos usus fastus militaris collegerat, eo exquisita aurifabrorum
                     ingeniositas bipennes &amp; capulos venustaret. Ex quo accidit, ut (quomodo mens
-                    humana ad ambitionem proclivis esse solet) unusquis-<pb n="152" />que militum,
+                    humana ad ambitionem proclivis esse solet) unusquis-<pb n="152"/>que militum,
                     sumptibus haud parcens, commilitonem &amp; sodalem suum armorum splendore
                     artificioque præcellere conaretur. Undè liquet, eos tantùm elegantem armorum
                     decere ornatum, qui lautioris fortunæ auspiciis nati sunt &amp; educati. Quum
@@ -122,12 +140,12 @@
                     explevit. Quam catervam suo idiomate Thinglith nuncupari placuit.</p>
             </div>
             <div>
-                <pb n="153" />
+                <pb n="153"/>
                 <head type="orig">CAP. III. DE CAUSA INSTITUTIONIS.</head>
                 <head type="add">Cap. III: Formålet med lovens indstiftelse</head>
                 <p>Quum itaque Kanutus Rex tàm dissonos gentium ritus uni coadunasset familiæ: opus
                     erat, ut tanti Regis exercitus, utpote ex variis collectus nationibus, universis
-                    videlicet regnis ditioni suæ subjugatis, cujus tamen mo-<pb n="154" />res immensâ
+                    videlicet regnis ditioni suæ subjugatis, cujus tamen mo-<pb n="154"/>res immensâ
                     varietate discrepabant, ad uniformem castrensis disciplinæ tenorem seruandum
                     adigeretur. Nihil etenim honestos commilitones magis decet, quàm ut omni
                     controversiâ sopitâ, uni Domino, adinvicem non altercantes, pari voto
@@ -138,18 +156,18 @@
                     militiæ mores præfractius rigidiusque constringeret, adversum effrenes
                     concitatique ingenii tyrones severitate potius, quàm nimio favore ac profusâ
                     indulgentiâ utendum duxit. Non enim de facili tàm numerosam clientelam, sermone,
-                    moribus, &amp; ingeniis valdè dissimilem <pb n="155" />ac dissentientem, ad
+                    moribus, &amp; ingeniis valdè dissimilem <pb n="155"/>ac dissentientem, ad
                     mutuam concordiam revocare valuisset, nisi si pænæ immanitate præcipitium
                     excessus temperasset, &amp; magnitudine correptionis audaciam delinquendi
                     refrænasset.</p>
             </div>
             <div>
-                <pb n="156" />
+                <pb n="156"/>
                 <head type="orig">CAP. IV. DE LEGUM CONDITIONE ET LOCO.</head>
                 <head type="add">Cap. IV: Omstændighederne ved lovens indstiftelse</head>
                 <p>Quum igitur in Angliâ, omni exercitu suo collecto, Kanutus Rex defessa bellicis
                     operibus membra quietis tranquillitate recrearet; accersitis ad se viris
-                    sapientioribus, &amp; quos antè alios prudentiâ pollere <pb n="157" />noverat,
+                    sapientioribus, &amp; quos antè alios prudentiâ pollere <pb n="157"/>noverat,
                     Opone videlicet Sialandensi, cognomento Sapiente, &amp; Eskillo ejus filio,
                     quibus potissimùm consiliorum suorum arcana, propter multarum rerum
                     experientiam, communicare &amp; concredere solebat; (quos etiàm suos
@@ -160,7 +178,7 @@
                     quibuslibet injuriis lacessere auderet. Et quia ad transgressionis præcipitium
                     humana sit procliuis conditio: opus erat, ut singulis quibusque prævaricationis
                     casibus accurata adhiberentur remedia. Proptereà tàm in minutos, quàm graviores
-                    excessus, exquisitâ cautione <pb n="158" />animadvertendum statuit. Ut ergò
+                    excessus, exquisitâ cautione <pb n="158"/>animadvertendum statuit. Ut ergò
                     expeditius ad negotia magis ardua transeamus, de minutiis prius dispiciemus.
                     Omnem etenim controversiæ scrupulum Antiquitatis solertia ex Aula principum
                     eliminare satagens, in id summo studio incubuit, ne vel minima litigii causa
@@ -168,11 +186,11 @@
                     desiderio æstuabant, fraterna quædam dilectionis compago uniret.</p>
             </div>
             <div>
-                <pb n="159" />
+                <pb n="159"/>
                 <head type="orig">CAP. V. DE LEGIBUS MINUTOS EXCESSUS CONCERNENTIBUS.</head>
                 <head type="add">Cap. V: Om mindre alvorlige lovovertrædelser</head>
                 <p>Priscorum autem Curialium, qui &amp; nunc militari censentur nomine, hæc vigebat
-                    consvetudo, ut absque <pb n="160" />armigeris &amp; famulis, alterna sibi
+                    consvetudo, ut absque <pb n="160"/>armigeris &amp; famulis, alterna sibi
                     præstarent obsequia, &amp; vicissim sibi famularentur. Unde constituerunt, ut si
                     quis sodalis sui equum cum proprio adaquaret, alterum eundo, alterum equitaret
                     redeundo. Quod si verò quis alieno caballo ad aquandum subvectus, parcitatisque
@@ -182,7 +200,7 @@
                     virtutis titulum, vel temporis prioritatem, vel Nobilitatis propaginem, locis
                     sibi assignatis residerent milites; ut sic vel dignitate potiores, vel tempore
                     priores, loca capesserent digniora. Undè liquet, quòd nemo sinè singulari
-                    contumelià &amp; opprobrio à consveto loco transferri po-<pb n="161" />tuerit.
+                    contumelià &amp; opprobrio à consveto loco transferri po-<pb n="161"/>tuerit.
                     Pari eum sententiæ subjacere decreverunt, qui inter pabulandum suo equo ter
                     aristas porrexerit, alieno verò stipulam: &amp; super hoc, ut antea, duorum
                     convictus testimonio fuerit. Item, si quis equos adaquando contrà fluminis
@@ -193,7 +211,7 @@
                     resipiscere detrectaverit; extremum eum omnium locandum statuerunt. Imò
                     decreverunt, ut quilibet convictorum, ossa in eum pro arbitrio suo jactaret; nec
                     quisquam propterea temeritatis aut petulantiæ argueretur. Insuper, ut illi in
-                    potu &amp; cibo nemine com-<pb n="162" />municante, suo solus catino contentus
+                    potu &amp; cibo nemine com-<pb n="162"/>municante, suo solus catino contentus
                     esset &amp; poculo. At veró, si cujuspiam pertinaciæ adeò patrocinari vellet
                     Regis clementia, ut eum sibi collateralem constituendo in primâ sede locaret; ex
                     Principis hoc indulgentiâ ei concedendum putarunt; hac tamen adjectâ conditione,
@@ -201,7 +219,7 @@
                     exceptus esset.</p>
             </div>
             <div>
-                <pb n="164" />
+                <pb n="164"/>
                 <head type="orig">CAP. VI. DE MUTUA FAVORIS EXHIBITIONE, ET STIPENDIORUM
                     SOLUTIONE.</head>
                 <head type="add">Cap. VI: Om den gensidige respekt og tjenstvillighed mellem kongen
@@ -211,7 +229,7 @@
                     mansvetudinis temperamento ità se ad militum arbitrium accomodare; quomodo ipse
                     illis obsequendi formam necessitatemque præscriberet. Placuit ergò, ut Rex, sev
                     quilibet Princeps, qui exercitus comitatu gloriari velit, quemque decet tali
-                    honore <pb n="165" />potiri, fidelitatem, quam à suis hominibus exigit, iisdem
+                    honore <pb n="165"/>potiri, fidelitatem, quam à suis hominibus exigit, iisdem
                     vicissim præstaret, vultus hilaritatem exiberet, comitatisque &amp;
                     affabilitatis gratiam non denegaret. Operæ quoque pretium duxit statuere, ut
                     Rex, sivè Princeps, stipendia militibus suis, ubi usus vel necessitas
@@ -226,7 +244,8 @@
                 <head type="add">Cap. VII: Om overførslen af troskab fra en herre til en
                     anden</head>
                 <p>Illam etiàm non prætermisit Antiquitas formam instituere, quâ &amp; Principis
-                    majestas illibata, &amp; militis non esset honor imminutus, si ad alte-<pb n="166" />rius se quis transferret hominium. Statuit ergò, in Circumcisionis
+                    majestas illibata, &amp; militis non esset honor imminutus, si ad alte-<pb
+                        n="166"/>rius se quis transferret hominium. Statuit ergò, in Circumcisionis
                     Vigiliâ quæ novum annum inchoat, experti militis, Domini novitatem affectantis,
                     duos commilitones ad Dominum, cujus se dominio exuere cupit, ablegandos esse;
                     qui &amp; ei hominium cum servitio illius resignent. Et sic absque contumeliæ
@@ -234,12 +253,12 @@
                     convolare.</p>
             </div>
             <div>
-                <pb n="167" />
+                <pb n="167"/>
                 <head type="orig">CAP. VIII. DE CONVITIIS ET CONTUMELIIS.</head>
                 <head type="add">Cap. VIII: Om forulempelser og fornærmelser</head>
                 <p>Cæterùm quia universæ iniquitatis fomitem rixæ &amp; convitia suscitare soleant;
                     illius etiam remedia adhibere placuit, ne fraternæ unionis concordiâ dissidiis,
-                    odio, &amp; livore interruptâ, mutuis se contumeliis com-<pb n="168" />militones
+                    odio, &amp; livore interruptâ, mutuis se contumeliis com-<pb n="168"/>militones
                     afficerent. Censuit itaque Antiquitatis solertia hujuscemodi causis maturo
                     castigationis remedio occurrendum esse, ut rixarum &amp; convitiorum primordia
                     Legum autoritate anticipata in ipsis principiis sopirentur, antequam per longas
@@ -250,17 +269,17 @@
                     actionem institui placuit. Quod si actor commilitonem suum, super iniuriâ sibi
                     illatâ, in Witherloghmanne reum esse, duorum commilitonum suorum attestatione
                     probare poterit; adeò ut testes juramento super Sacramenta facto, testimonium
-                        <pb n="169" />suum confirmare non detrectent: sancitum est, reum, uno homine
+                        <pb n="169"/>suum confirmare non detrectent: sancitum est, reum, uno homine
                     exterius, in solito cœnaculo, locandum considere. Generali etiàm constitutione
                     definitum est, ut omnis controversia inter ipsos commilitones exorta, nusquam,
                     nisi in colloquio jam nominato, agitaretur, aut decideretur.</p>
             </div>
             <div>
-                <pb n="170" />
+                <pb n="170"/>
                 <head type="orig">CAP. IX. DE GENERALI CONTROVERSIA.</head>
                 <head type="add">Cap. IX: Generelt om uoverensstemmelser mellem hirdens
                     medlemmer</head>
-                <p>Constitutione etiam generali cau-<pb n="171" />tum est, ut omnis inter
+                <p>Constitutione etiam generali cau-<pb n="171"/>tum est, ut omnis inter
                     commilitones orta controversia de fundis, prædiis, &amp; agris, vel etiam de
                     mansionis deprædatione, quæ nostro idiomate Boran dicitur, in jam dicto
                     colloquio agitaretur. Tum verò is, cui commilitonum judicium jus venditionis
@@ -274,7 +293,7 @@
                     poterit.</p>
             </div>
             <div>
-                <pb n="173" />
+                <pb n="173"/>
                 <head type="orig">CAP. X. DE PRIMA LEGIS VIOLATIONE.</head>
                 <head type="add">Cap. X: Det første brud på loven</head>
                 <p>Modico postmodum temporis processu, post Legis constitutionem, humani sangvinis
@@ -282,7 +301,7 @@
                     acerrimus, versutus ille Protoplastorum seductor Satanas, Principalis dignitatis
                     aggressus excellentiam, Legis prævaricationem Regi attentavit persvadere: ut
                     capite veneno infecto, cæteris membris virus suæ corruptionis infunderet. Nam
-                    Legis conditor, Rex <pb n="174" />videlicet Kanutus, dum adhuc in Anglia pacis
+                    Legis conditor, Rex <pb n="174"/>videlicet Kanutus, dum adhuc in Anglia pacis
                     tranquillitate potiretur, iracundiæ accensus furore, quendam militem suum
                     exempto mucrone interemptum jugulavit. Unde phalanx universa nimio furore
                     consternata, confluentibus passim legionibus, ad arma concurrere non
@@ -292,7 +311,7 @@
                     facinoris novitatem capite Princeps plecteretur, an ei competeret indulgentia?
                     Nam si datæ sententiæ Rex subderetur, tanquam acephali &amp; profugi è regione
                     exterminarentur alienâ. Sin autem Regiæ indulgeretur reverentiæ, corruptionis
-                    &amp; indulgentiæ exemplum cæteris ansam peccandi <pb n="175" />præberet.
+                    &amp; indulgentiæ exemplum cæteris ansam peccandi <pb n="175"/>præberet.
                     Universæ tandem cohorti hæc placuit sententia, ut jactato in medio concionis
                     pulvinari Regia majestas procumberet, ibique sententiæ vel indulgentiam vel
                     rigorem præstolaretur. Quo facto, Regem erigentes, ipsi delicti veniam
@@ -304,10 +323,10 @@
                     ejectus abscederet.</p>
             </div>
             <div>
-                <pb n="179" />
+                <pb n="179"/>
                 <head type="orig">CAP. XI. DE VULNERIBUS ET PLAGIS, ET EARUM SATISFACTIONE.</head>
                 <head type="add">Cap. XI: Om mord, mordforsøg og fastsættelsen af bod</head>
-                <p>Postquàm verò Regis magnificen-<pb n="180" />tia, memorato modo, suæ
+                <p>Postquàm verò Regis magnificen-<pb n="180"/>tia, memorato modo, suæ
                     transgressionis delictum expiasset: constitutio illa de tali cæde omninò
                     puniendâ, octo Regum temporibus constanti firmitate illibata durabat; sub
                     imperio videlicet veteris Kanuti, qui Legis extitit conditor; filij quoque
@@ -318,7 +337,7 @@
                     Olavi, fratris ipsius; Erici Boni: &amp; antè noni Regis imperium, id est,
                     Nicolai, non est violata. Tunc etenim Christiernus Svenonis filius, Thukonem
                     Dokæ, exempto gladio, vulneravit, primusque post Kanuti Regis satisfactionem,
-                    Legem castrensem &amp; mili-<pb n="181" />tarem transgressor violavit. Quo facto,
+                    Legem castrensem &amp; mili-<pb n="181"/>tarem transgressor violavit. Quo facto,
                     Nicolai Regis perplexa extitit sententia. Nam &amp; regni sui incolumitati hoc
                     adversari, &amp; universis, rei cognatis tanquam regni potioribus, contrarium
                     existere putabat, si cum probroso nuncupationis vocabulo, id est, Nithingsorth,
@@ -328,7 +347,8 @@
                     Eskillus &amp; Aggo, &amp; reverendus eorum genitor Sveno, filius Trugoti, qui
                     suis temporibus inter primarios regni proceres habebatur. Hi namque plus honoris
                     incolumitati, quàm censui deferentes, satius decreverunt, quantumlibet onerosâ
-                    mulctâ pro commisso delicto satisfacere, quàm famæ suæ discrimen incur-<pb n="182" />rere. Diligenti igitur indagatione perscrutantes, Bo filium Hæthen,
+                    mulctâ pro commisso delicto satisfacere, quàm famæ suæ discrimen incur-<pb
+                        n="182"/>rere. Diligenti igitur indagatione perscrutantes, Bo filium Hæthen,
                     Wandalum, consuluerunt, eò quòd &amp; provectæ esset ætatis, &amp; veteris
                     Kanuti, quem Leges istas militares condidisse constat, miles egregius
                     extitisset: adhibitis etiàm aliis Senioribus, qui gesta temporum memoriæ
@@ -338,7 +358,7 @@
                     Wandalus in hunc modum respondit: Cum hactenus tale negotium minus exquisitè,
                     majorum nostrorum taxatione definitum sit: operæ videtur pretium, ut posteris
                     nostris certum satisfactionis modum præscribamus. Sit ergò pœna omnibus
-                    constituta successoribus, quæ sui rigoris <pb n="183" />timore, delinquendi
+                    constituta successoribus, quæ sui rigoris <pb n="183"/>timore, delinquendi
                     audaciam coërceat. Totius igitur Curiæ assensu, Regis Nicolai conniventiâ, novæ
                     Constitutionis sententiam promulgavit, ut scilicet, qui præsumptuosâ audaciæ
                     temeritate, præcedentis Legis constitutionem, id est, Witherlogh, commilitonem
@@ -348,7 +368,8 @@
                     pondere duarum auri Marcarum, quod nostro solet idiomate Górsum nuncupari.
                     Universis quoque commilitonibus, ejusdem Legis fœderi astrictis, tertiò
                     quadraginta Marcas, compositionis ergo, persolveret. Successu verò temporum (ut
-                    semper in malum proclivis est humana conditio) Aggo Thuer, Eskillum Ebbo-<pb n="184" />nis filium in Warvvath, functum villicatione in Burgh, in æde
+                    semper in malum proclivis est humana conditio) Aggo Thuer, Eskillum Ebbo-<pb
+                        n="184"/>nis filium in Warvvath, functum villicatione in Burgh, in æde
                     Gvidonis Stabularii, sub ascellâ Nicolai Regis, vulneravit. Quo facto Rex
                     vehementer concitatus, cum pronâ omnium commilitonum voluntate, præfatum Aggonem
                     capiendum decrevit, Gvidone resistente &amp; contradicente. Nam &amp; eundem
@@ -359,7 +380,7 @@
                     continuata.</p>
             </div>
             <div>
-                <pb n="187" />
+                <pb n="187"/>
                 <head type="orig">CAP. XII. DE ICTU ET PERCUSSIONE.</head>
                 <head type="add">Cap. XII: Om mindre alvorlige voldsforbrydelser</head>
                 <p>Attamen si quem commilitonem suum irritando, pugno, vel quolibet telo percutere
@@ -368,13 +389,13 @@
                     Quod tamen modernorum lenitas novo legis temperamento mitigare cœpit. Nam si tàm
                     evidenti signo vel testimonio, de facto constiterit, ut reus neutiquam
                     inficiatione se tueri poterit, placuit, ut ejus pedibus advolveretur, cui
-                    verecundiæ opprobrium intu-<pb n="188" />lit: ut ità abjectissimum dedecus
+                    verecundiæ opprobrium intu-<pb n="188"/>lit: ut ità abjectissimum dedecus
                     humillimâ satisfactionis formulâ expiaretur. Sin autem actor reum testibus
                     convincere non valuerit; generali constitutione decretum est, ut is, qui
                     calumniatur, cum sex commilitonibus, suam aboleat infamiam.</p>
             </div>
             <div>
-                <pb n="189" />
+                <pb n="189"/>
                 <head type="orig">CAP. XIII. DE VARIIS PLAGARUM CASIBUS.</head>
                 <head type="add">Cap. XIII: Om forsætlige og uforsætlige voldshandlinger</head>
                 <p>Sicut antiqui serpentis variæ sunt suggestiones; ita casus lacessentium sunt
@@ -382,7 +403,7 @@
                     vulnus infligat: item, sciens quandoque suum, quandoque non suum lædat: item,
                     ignorans aut suum, aut non. Si quis suum commilitonem sciens &amp; prudens
                     vulneraverit, juxtà formam præscriptam satisfaciet. Si verò nesciens &amp;
-                    ignorans commilitoni suo vul-<pb n="190" />nus intulerit, volens alium lædere,
+                    ignorans commilitoni suo vul-<pb n="190"/>nus intulerit, volens alium lædere,
                     &amp; eum casu læserit; si conventus fuerit, ignorantiam suam, &amp; quod nolens
                     fecerit, tribus commilitonibus attestantibus, defendere &amp; excusare debet.
                     Sin autem in defensione defecerit, juxtà prætaxatam satisfactionis formam, cum
@@ -393,7 +414,7 @@
                     fuligine obfuscaret. Decet enim honeste vivere, &amp; clari sangvinis viros
                     ignorantiæ desidiâ nobiles titulos non denigrare. Generali itaque constitutione
                     definitum est, omnes controversias, quæ legum decisione sunt divisæ, sextâ
-                    commilitonum manu, ut majo-<pb n="191" />res; vel tertiâ, aut secundâ, quales
+                    commilitonum manu, ut majo-<pb n="191"/>res; vel tertiâ, aut secundâ, quales
                     medioxumæ sunt vel minutæ, prout superius enucleauimus, terminare.</p>
             </div>
             <div>
@@ -403,7 +424,7 @@
                     superest ut ad majora transeamus negotia. Quum verò versuti hostis Diaboli
                     quotidiana sollicitudo id unicè agat, ut nos suis imposturis circumveniat:
                     callidè nos ab uno ad alium excessum sensim veluti per gradus ascendere facit,
-                    ut tandem <pb n="192" />ad damnationis interitum, completo delictorum cumulo,
+                    ut tandem <pb n="192"/>ad damnationis interitum, completo delictorum cumulo,
                     seducat. Nam ubi pestiferâ suggestione satellites suos in minutis exercuerit;
                     posteà eos ad majoris ruinæ lapsum indesinenter invitat. Sic quos antea cum
                     commilitonibus suis, ad cædis usque discrimina, rixari perdocuerat: eos tandem
@@ -413,7 +434,7 @@
                     non solùm vitæ, sed &amp; omnis substantiæ suæ jacturâ illum damnandum
                     censuerunt. Hac itaque formâ conveniendum decreverunt, si quem Rex de
                     proditione, vel crimine Majestatis - - - donec ità veli sinus ventus impleverit,
-                    ut intuentium se aspectui subduxerit: aut <pb n="193" />si, Fa-vonio non favente,
+                    ut intuentium se aspectui subduxerit: aut <pb n="193"/>si, Fa-vonio non favente,
                     remis undas impulerit, donec remorum aspectum cunctorum oculis subtraxerit, in
                     littore tenentur præstolari. Ubi verò paulò longius provectum in pelago
                     delitescere existimaverint, classico clangore ternis vicibus vociferantes,
@@ -424,7 +445,7 @@
                     eorum clamorem aut vociferationem exaudire non valuerit. Deindè universa
                     commilitonum legio totis unâ viribus trinâ vociferatione validè proclamabit, nè
                     aliâ ad eos viâ redire possit. Quo facto, hac lege tenentur astricti, ut si
-                    quisquam commilito-<pb n="194" />num, uno saltim comite aut telo superior, illi
+                    quisquam commilito-<pb n="194"/>num, uno saltim comite aut telo superior, illi
                     postmodum occurrerit, eumque non invaserit, ejusdem ignominiæ &amp; probrosæ
                     nuncupationis jacturam subire teneatur.</p>
                 <p>Atque hactenus, quantum à veteribus diligenti inquisitione poteram investigare,
