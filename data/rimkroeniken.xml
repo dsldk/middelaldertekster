@@ -4,6 +4,7 @@
             <titleStmt>
                 <title>Rimkrøniken (Ghemen, 1495)</title>
                 <author>empty</author>
+
                 <editor> <name xml:id="ss">
                     <persName>
                         <forename type="first">Simon</forename><forename>Skovgaard</forename>
@@ -15,6 +16,17 @@
                         <surname>Adans</surname>
                     </persName>
                 </name></editor>
+
+		<editor>
+                    <name xml:id="man">
+                        <persName>
+                            <forename type="first">Marita</forename>
+                            <forename type="middle">Akhøj</forename>
+                            <surname>Nielsen</surname>
+                        </persName>
+                    </name>
+            </editor>
+
             </titleStmt>
             <publicationStmt>
                 <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
@@ -35,7 +47,7 @@
                                 <settlement>København</settlement>
                                 <repository>Det Kongelige Bibliotek, UB</repository>
                                 <idno>E 2175,4°</idno>
-                                <msName>nil</msName>
+                                <msName>empty</msName>
                             </msIdentifier>
                         </msDesc>
                     </witness>
@@ -57,18 +69,22 @@
         </profileDesc>
     </teiHeader>
     <text>
-        <body>
-            <div>
-                <lb n="1" />
+	    <front>
+            <titlePage rend="center">
+                <docTitle>
+			<titlePart type="desc"><pb ed="1" n="a1r" /> ¶ Hær begynner th<ex>e</ex>n danskæ</titlePart>
+			<titlePart>Krønnickæ</titlePart>
+			<titlePart type="desc">well offuerseet oc ræth.</titlePart>
+		</docTitle>
+		<figure>
+                    <desc>Træsnit med portræt</desc>
+                </figure>
+            </titlePage>
+            <div type="toc">
                 <head type="add">Indholdsfortegnelse</head>
                 <head type="original">
-                    <pb ed="1" n="a1r" /> ¶ Hær begynner th<ex>e</ex>n danskæ Krønnickæ <lb n="2" />
-                    well offuerseet oc ræth.</head>
-                <p>
-                    
-                    <list>
-                        <item>
-                            <pb ed="2" n="a1v" /> Abel folio lxxvij</item>
+                    <list rend="simple">
+                        <item><pb ed="2" n="a1v" /> Abel folio lxxvij</item>
                         <item>Ambled folio xi</item>
                         <item>Baldher x</item>
                         <item>Butlæ xxxvi</item>
@@ -134,8 +150,13 @@
                         <item>Harald biørnss<ex>øn</ex> xl</item>
                         <item>humgher xlvij</item>
                         <item>harald klack li</item>
+<<<<<<< HEAD
                         <item>harald gormss<ex>øn</ex> liiij</item>
                        <pb ed="3" n="a2r" /> <item>harald blodta<ex>n</ex>d lv</item>
+=======
+                        <item> harald gormss<ex>øn</ex> liiij</item>
+                        <item><pb ed="3" n="a2r" /> harald blodta<ex>n</ex>d lv</item>
+>>>>>>> 52afcde310cb5f8cf7738186fc954b4a538c3be6
                         <item>harald suens<ex>øn</ex> lxij</item>
                         <item>Ingel xxiij</item>
                         <item>Iermer xxxvi</item>
@@ -213,15 +234,11 @@
                         </item>
                         <item> Woldemar lxxxij</item>
                     </list>
-                    
-                </p>
             </div>
-            <div>
-                <head type="add">Prolog</head>
+            <div type="preface" xml:id="christian-3-preface">
+                <head type="add">Forord</head>
                 <lg>
-                    <l>
-                        <pb ed="4" n="a2v" />
-                        <lb n="1" />¶ Wilde gud meg ther tijll nadh<ex>e</ex>n giffuæ<lb n="2" />
+                    <l><pb ed="4" n="a2v" />¶ Wilde gud meg ther tijll nadh<ex>e</ex>n giffuæ<lb n="2" />
                     </l>
                     <l>aff danæ ko<ex>n</ex>ninghæ wilde iegh skriffuæ<lb n="3" />
                     </l>
@@ -266,8 +283,8 @@
                     <l>som bædræ kan draghe tijl mynnæ</l>
                 </lg>
             </div>
+        <body>
             <div>
-                <lb n="23" />
                 <head type="add">Humble</head>
                 <head type="original">¶ Humblæ Danss fadher førstæ <lb n="24" /> Ko<ex>n</ex>ning i
                     Danmark</head>
@@ -12137,6 +12154,7 @@
                     </l>
                     <l>han giorde meg stoer hedher oc æræ <lb n="26" />
                     </l>
+<<<<<<< HEAD
                     <l>Ha<ex>n</ex> gaff meg eth preuilegiu<ex>m</ex>
                         <lb n="27" /></l><l>blanth andre gunsther slige <lb n="28" />
                     </l>
@@ -12145,6 +12163,13 @@
                     <l>
                         <pb ed="159" n="q5v" />
                         <lb n="1" />Han gaff meg oc meg<ex>eth</ex> skønt afflath <lb n="2" />
+=======
+		    <l>Ha<ex>n</ex> gaff meg eth preuilegiu<ex>m</ex></l>
+                        <l>blanth andre gunsther slige </l>
+			<l>Ath ieg maa lade holle eth studiu<ex>m</ex></l>
+                        <l>En stæd i danmarks rigæ</l>
+                    <l><pb ed="159" n="q5v" />Han gaff meg oc meg<ex>eth</ex> skønt afflath <lb n="2" />
+>>>>>>> 52afcde310cb5f8cf7738186fc954b4a538c3be6
                     </l>
                     <l>tijl ewigh tijd ath haffue <lb n="3" />
                     </l>
@@ -12201,10 +12226,7 @@
                     <l>m<ex>eth</ex> sendhen kan ieg th<ex>et</ex> drwe <lb n="29" />
                     </l>
                     <l>Saa bleff ieg tha paa kiøbmanhaffn dødh</l>
-                    <l>
-                        <pb ed="160" n="q6r" />
-                        <lb n="1" />i Roskild lawdh i iordhe <lb n="2" />
-                    </l>
+                    <l><pb ed="160" n="q6r" />i Roskild lawdh i iordhe </l>
                     <l>Ieg tacker gud som i all myn nødh <lb n="3" />
                     </l>
                     <l>beskermedhe meg oc wordhe <lb n="4" />

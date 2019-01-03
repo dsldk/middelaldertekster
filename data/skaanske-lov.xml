@@ -1,14 +1,18 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    
-    
-    
-    
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Skånske Lov (AM 28, 8vo)</title>
                 <author>empty</author>
-                <editor>Martin Sejer Danielsen</editor>
+		<editor>
+                    <name xml:id="msd">
+                        <persName>
+                            <forename type="first">Martin</forename>
+                            <forename type="middle">Sejer</forename>
+                            <surname>Danielsen</surname>
+                        </persName>
+                    </name>
+            </editor>
             </titleStmt>
             <publicationStmt>
                 <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
@@ -208,14 +212,12 @@
                         </rdg>
                     </app>
                      fik 
-                    <lb n="19" />sin 
-                    
-                    kristindom  ok  skal  þær 
-                    <lb n="20" />foræ  arf  standæ 
+                    <lb n="19" /> sin kristindom  ok  skal  þær 
+                    <lb n="20" /> foræ  arf  standæ 
                 </p>
             </div>
             <div>
-                <head type="add">Barn um føt uarþær</head>
+                <head type="add">Når et barn bliver født</head>
                 <p>
                     <hi rend="initial">b</hi>arn  um  føt 
                     <lb n="21" />uarþær  þa  skal  þæt 
