@@ -55,17 +55,14 @@
    <text>
       <front>
          <div xml:id="forside">
-            <head><hi rend="font_red"><pb n="E1"/>Een ny ha<ex>n</ex>dbog / <lb/>med Psalmer oc aan<lb rend="="
-                  />delige lofsange. wd<lb rend="="/>dragne aff then hellige schrifft. som nw ÿ then
-                     Ch<lb rend="="/>ristne forsamling (Gud til loff oc mennisken til sali<lb
-                     rend="="/>ghed) siunges. Med then Danske Otesang. Messe. Afftensang oc Nat<lb
-                     rend="="/>sang.</hi></head>
+            <head><pb n="E1"/>Een ny ha<ex>n</ex>dbog / <lb/>med Psalmer oc aan<lb rend="="/>delige
+               lofsange. wd<lb rend="="/>dragne aff then hellige schrifft. som nw ÿ then Ch<lb
+                  rend="="/>ristne forsamling (Gud til loff oc mennisken til sali<lb rend="="/>ghed)
+               siunges. Med then Danske Otesang. Messe. Afftensang oc Nat<lb rend="="/>sang.</head>
          </div>
          <div>
             <figure type="vignette"/>
-            <p>
-               <hi rend="font_red">Trycht ÿ Rozstock.</hi>
-            </p>
+            <p> Trycht ÿ Rozstock. </p>
             <figure type="vignette"/>
          </div>
 
@@ -319,9 +316,7 @@
          <div xml:id="te-deum-laudamus">
             <head type="add">Te deum laudamus</head>
             <head>&#x00B6; Sancti Ambrosij oc S. Augu<lb rend="="/>stini lofsang som hedder paa
-               latine. <figure type="vignette"/>
-               <hi rend="font_red">Te deum laudamus.</hi>
-               <figure type="vignette"/></head>
+               latine. <figure type="vignette"/> Te deum laudamus. <figure type="vignette"/></head>
 
             <lg>
                <l><c function="initials" rend="3">O</c>Gud wÿ loffue teg / </l>
@@ -473,8 +468,9 @@
                Herren Alleluia Alleluia.</p>
          </div>
          <div type="chapter">
-            <head type="add">Aftensang</head><head>&#x00B6; Til afftensang. &#x00B6; <hi rend="font_red">Nw frygder eder / <lb/>med twende</hi>
-               begyndelse. Then første.</head>
+            <head type="add">Aftensang</head>
+            <head>&#x00B6; Til afftensang. &#x00B6; Nw frygder eder / <lb/>med twende begyndelse.
+               Then første.</head>
          </div>
 
          <pb n="E15" ana="VIII."/>
@@ -618,10 +614,8 @@
                bliffuer til ewig tÿd / <lb/><hi rend="center">A M E N.</hi></p>
          </div>
          <div type="head">
-            <head>&#x00B6; <hi rend="font_red">Antiphona.</hi> Wÿ som leffue benedide Herren. <figure
-                  type="vignette"/>
-               <hi rend="font_red">Een hymne aff Christi</hi>
-               <figure type="vignette"/> fødzel. A solis ortus.</head>
+            <head>&#x00B6; Antiphona. Wÿ som leffue benedide Herren. <figure type="vignette"/> Een
+               hymne aff Christi <figure type="vignette"/> fødzel. A solis ortus.</head>
          </div>
          <div>
             <p><c function="initials" rend="3">C</c>Hristum wÿ skulle loffue nw / <lb/>Marie søn
@@ -657,20 +651,20 @@
                dieffuelsens rÿge faar icke macht.</p>
          </div>
 
-         <pb n="E23" ana="XII."/>
-         <div type="head">
-            <head>&#x00B6; Versickel fore Magnificat.</head>
-         </div>
-         <div>
+
+         <div xml:id="versikel-magnificat">
+            <head type="add">Versikel</head>
+            <head><pb n="E23" ana="XII."/>&#x00B6; Versickel fore Magnificat.</head>
             <p>Han skall regnere affuer Jacobs hwss ewindelig.</p>
             <p><space extent="2blanks"/>Hans rÿge faar ingen ende.</p>
          </div>
-         <div type="head">
+         <div xml:id="magnificat">
+            <head type="add">Magnificat</head>
             <head><figure type="vignette"/> Magnificat. <figure type="vignette"/></head>
          </div>
          <div>
-            <p><c function="initials" rend="3">M</c>Yn siæl (taler Maria) opho=<note place="right"
-                  >Luce. j.</note> yer Herren.</p>
+            <p><c function="initials" rend="3">M</c>Yn siæl (taler Maria) opho<lb rend="="/><note
+                  place="right">Luce. j.</note>yer Herren.</p>
             <p><space extent="2blanks"/>Oc mÿn aand frygder seg / <lb/>ÿ Gud mÿn frelsere.</p>
             <p><space extent="2blanks"/>For han saa til sÿn tiænnerskis ring hed / <lb/>see her aff
                worde meg salig sigende alle børnebørn.</p>
@@ -693,7 +687,8 @@
             <p><space extent="2blanks"/>Som haffuer wærid aff begyndelsen oc nw oc altÿd / <lb/>oc
                aff ewighed til ewi<lb rend="="/>ghed / <lb/>A M E N.</p>
          </div>
-         <div type="head">
+         <div xml:id="benedicamus-igen">
+            <head type="add">Benedicamus</head>
             <head><figure type="vignette"/> Benedicamus. <figure type="vignette"/></head>
          </div>
          <div>
@@ -702,8 +697,8 @@
             <p><space extent="2blanks"/>Gud wære loff oc ewig tack Alleluia Alleluia Alleluia.</p>
          </div>
          <div type="head">
-            <head>&#x00B6; Till Natsang. &#x00B6; <hi rend="font_red">Wor fader / <lb/>som gaar med the</hi> noder
-               ther. Deus misereatur siungis med.</head>
+            <head>&#x00B6; Till Natsang. &#x00B6; Wor fader / <lb/>som gaar med the noder ther. Deus
+               misereatur siungis med.</head>
          </div>
 
          <pb n="E25" ana="XIII."/>
@@ -845,108 +840,187 @@
                stercke Gud / <lb/>forbarm teg offuer oss / <lb/>Hellige barmhiertige trøstermand tw
                ewige Gud / <lb/>Lad oss icke awfalde aff then rette tro ÿ mistrøst Kyrieeleyson.</p>
          </div>
-         <div type="head">
+         <div xml:id="salme-xj">
+            <head type="add">Salvum me fac deus</head>
             <head>&#x00B6; Then. xj. Psalme Saluum me fac / <lb/>til att siunge om thet hellig
                Euangelij framgang.</head>
-         </div>
-         <div>
-            <p><c function="initials" rend="3">O</c>Gud aff himmelen see her til /<note
-                  place="right">Psalm. xj.</note> oc lad teg thet forbarme / <lb/>Gant<lb rend="="
-               />ske faa tha ere thÿne tiæner till / <lb/>beswigne ere wÿ arme / <lb/>Thÿne ord wil
-               man ey giffue macht / <lb/>oc troen er skøtt gantske forlatt / <lb/>hooss alle
-               menniskens sønner.</p>
-            <p><space extent="2blanks"/>The lære idel falsk oc swig / <lb/>hwad the<note
-                  place="right">ij. Tim. iij.</note> ris wÿsdom paafinder / <lb/>theris hierte er ic
-               ke samdrectelig / <lb/>til Guds ord att forkyn<lb rend="="/>de / <lb/>then ene wil
-               thette / <lb/>then anden wil thet / <lb/>bedrage oss med menniskens set / <lb/>oc
-               siunes dog hellig vdwortis.</p>
-            <p><space extent="2blanks"/>Gud wil then schrifft med rode<ex>n</ex> opryc<note
-                  place="right">Math: xv:|oc. xxiij.</note> ke / <lb/>som falsk hellighed oss lærer
-               / <lb/>ther till <pb n="E32"/> theris tunge staalt obenbare / <lb/>taler stort wÿ
-               wille oss wærie / <lb/>wÿ haffue rett oc macht ÿ hand / <lb/>hwad wÿ beschriffue thet
-               skall gaa fram / <lb/>hwem er ther wil oss stra ffe?</p>
-            <p><space extent="2blanks"/>Ther fore tall Gud ieg wil opsee / <lb/>the arme leggis fast
-               øde / <lb/>theris suck oc sorrig the meg bethee / <lb/>ieg wil theris kæremaal høre /
-               <lb/>Mÿne salige ord the skulle nw fra<ex>m</ex>: begiærlig the annamme them /
-               <lb/>paa then nom the arme seg trøste.</p>
-            <p><space extent="2blanks"/>Man prøffuer sølff med ilden wel / <lb/>saa worder thet
-               klart befundet / <lb/>paa Gu<lb rend="="/>ds ord man wel wochte s kall /
-               <lb/>tesligestÿ <note place="left">Math. v.|oc. x.</note>alle stunde / <lb/>thet wil
-               med korsit besker<lb rend="="/>mis best / <lb/>saa lærer oss then hellige læst /
-               <lb/>thets krafft luchter ÿ alle lande.</p>
-            <p><space extent="2blanks"/>O milde Gud bewaare thÿne ord / <lb/>fraa alle falske lære /
-               <lb/>att alle wÿ her sam<lb rend="="/>men boo / <lb/>tw wilt wor beskermer wære /
-               <lb/>The Guds forgangne monne tw her finde / <lb/>thit folk achte the nw offuer att
-               winde / <lb/>o Gud forbiwd thennom thet AMEN.</p>
-            <p><space extent="2blanks"/>Aere wære teg fader ewindelig / <lb/>oc <pb n="E33"
-                  ana="XVII."/> Christ thÿn søn wor Herre / <lb/>ther til wor trøster then Helliaand
-               / <lb/>aff hierter wÿ thet begiære / <lb/>Giff oss thÿn naade oc styr cke wor tro /
-               <lb/>att wÿ tilsamen med kierli<lb rend="="/>ghed boo / <lb/>ÿ eet sind effter thÿn
-               wilie.</p>
+            <lg>
+               <l><c function="initials" rend="3">O</c>Gud aff himmelen see her til /<note
+                     place="right">Psalm. xj.</note> oc lad teg thet forbarme / </l>
+               <l>Gant<lb rend="="/>ske faa tha ere thÿne tiæner till / </l>
+               <l>beswigne ere wÿ arme / </l>
+               <l>Thÿne ord wil man ey giffue macht / </l>
+               <l>oc troen er skøtt gantske forlatt / </l>
+               <l>hooss alle menniskens sønner.</l>
+            </lg>
+            <lg>
+               <l><space extent="2blanks"/>The lære idel falsk oc swig / </l>
+               <l>hwad the<note place="right">ij. Tim. iij.</note> ris wÿsdom paafinder / </l>
+               <l>theris hierte er ic ke samdrectelig / </l>
+               <l>til Guds ord att forkyn<lb rend="="/>de / </l>
+               <l>then ene wil thette / </l>
+               <l>then anden wil thet / </l>
+               <l>bedrage oss med menniskens set / </l>
+               <l>oc siunes dog hellig vdwortis.</l>
+            </lg>
+            <lg>
+               <l><space extent="2blanks"/>Gud wil then schrifft med rode<ex>n</ex> opryc<note
+                     place="right">Math: xv:|oc. xxiij.</note> ke / </l>
+               <l>som falsk hellighed oss lærer / </l>
+               <l>ther till <pb n="E32"/> theris tunge staalt obenbare / </l>
+               <l>taler stort wÿ wille oss wærie / </l>
+               <l>wÿ haffue rett oc macht ÿ hand / </l>
+               <l>hwad wÿ beschriffue thet skall gaa fram / </l>
+               <l>hwem er ther wil oss stra ffe?</l>
+            </lg>
+            <lg>
+               <l><space extent="2blanks"/>Ther fore tall Gud ieg wil opsee / </l>
+               <l>the arme leggis fast øde / </l>
+               <l>theris suck oc sorrig the meg bethee / </l>
+               <l>ieg wil theris kæremaal høre / </l>
+               <l>Mÿne salige ord the skulle nw fra<ex>m</ex>: begiærlig the annamme them / </l>
+               <l>paa then nom the arme seg trøste.</l>
+            </lg>
+            <lg>
+               <l><space extent="2blanks"/>Man prøffuer sølff med ilden wel / </l>
+               <l>saa worder thet klart befundet / </l>
+               <l>paa Gu<lb rend="="/>ds ord man wel wochte s kall / </l>
+               <l>tesligestÿ <note place="left">Math. v.|oc. x.</note>alle stunde / </l>
+               <l>thet wil med korsit besker<lb rend="="/>mis best / </l>
+               <l>saa lærer oss then hellige læst / </l>
+               <l>thets krafft luchter ÿ alle lande.</l>
+            </lg>
+            <lg>
+               <l><space extent="2blanks"/>O milde Gud bewaare thÿne ord / </l>
+               <l>fraa alle falske lære / </l>
+               <l>att alle wÿ her sam<lb rend="="/>men boo / </l>
+               <l>tw wilt wor beskermer wære / </l>
+               <l>The Guds forgangne monne tw her finde / </l>
+               <l>thit folk achte the nw offuer att winde / </l>
+               <l>o Gud forbiwd thennom thet AMEN.</l>
+            </lg>
+            <lg>
+               <l><space extent="2blanks"/>Aere wære teg fader ewindelig / </l>
+               <l>oc <pb n="E33" ana="XVII."/> Christ thÿn søn wor Herre / </l>
+               <l>ther til wor trøster then Helliaand / </l>
+               <l>aff hierter wÿ thet begiære / </l>
+               <l>Giff oss thÿn naade oc styr cke wor tro / </l>
+               <l>att wÿ tilsamen med kierli<lb rend="="/>ghed boo / </l>
+               <l>ÿ eet sind effter thÿn wilie.</l>
+            </lg>
          </div>
          <div type="head">
+            <head type="add">Dixit insipiens in corde suo</head>
             <head>&#x00B6; Then. xiij. Psalme / <lb/>Dixit insi<lb rend="="/>piens in corde
                suo.</head>
+            <lg>
+               <l><c function="initials" rend="3">S</c>Aa taler then vwÿse mund / </l>
+               <l>the<ex>n</ex> rette Gud wÿ meene. Thet si<lb rend="="/>ger han ey aff hiertens
+                  grund / </l>
+               <l>sÿne gierning giffue thet tilkende / </l>
+               <l>hans hellighed er for Gud een spot: J alle ha<ex>n</ex>s gierning er intthit got / </l>
+               <l>Jngen aff then<lb rend="="/>nom Gud rett dyrcke.</l>
+            </lg>
+            <lg>
+               <l><space extent="2blanks"/>Gud sielff aff himmelen saa hernid / </l>
+               <l>paa alle menniskens sønner / </l>
+               <l>tha han the ris gierning hadde seet / </l>
+               <l>om han nogen kunde finde / </l>
+               <l>Ther hans ord oc wæy for øghne hadde / </l>
+               <l>oc nogit effter hans wilie giorde / </l>
+               <l>thet kunde han wel paa achte.</l>
+            </lg>
+            <lg>
+               <l><space extent="2blanks"/>Ther wor ingen paa rette wey / </l>
+               <l>the wore alle wdtrædne / </l>
+               <l>alle giorde onth thet straffedes ey / </l>
+               <l>hwer hadde onde sed<lb rend="="/>wane / </l>
+               <l>Jngen aff them giorde aff hiertet <pb n="E34"/> gott / </l>
+               <l>ÿ hwor meged the hadde aff Gud faat / </l>
+               <l>thÿ motte han til att tale.</l>
+            </lg>
+            <lg>
+               <l><space extent="2blanks"/>Hwor lenge wille ÿ wanwittige wæ<lb rend="="/>re / </l>
+               <l>eders ondskab ey forlade? oc spare mit folk effter mÿn wilie / </l>
+               <l>oc giøre thennom ingen skade? Nw wel ÿ tro ey rett paa Gud / </l>
+               <l>ÿ kalle paa hannwm ey effter ha<ex>n</ex>s bud / </l>
+               <l>ÿ wille eder sielff forsørge.</l>
+            </lg>
+            <lg>
+               <l><space extent="2blanks"/>Ther fore haffue the aldrig roo / </l>
+               <l>men altÿd monne the frøchte / </l>
+               <l>Gud hooss the fromme altÿd wil boo / </l>
+               <l>the seg paa han<lb rend="="/>nwm forlade / </l>
+               <l>J offuer forsmaa then ar<lb rend="="/>mis raad / </l>
+               <l>oc holde hannwm alt for spot oc haad / </l>
+               <l>att Gud hans trøst er worden.</l>
+            </lg>
+            <lg>
+               <l><space extent="2blanks"/>Hwem skal Jsrael then arme / </l>
+               <l>salighe den giffue? Gud wil seg sitt folk forbar<lb rend="="/>me / </l>
+               <l>oc løse the forfarne / </l>
+               <l>Thet wil han giøre wid sÿn søn / </l>
+               <l>ther aff bliffuer Ja<lb rend="="/>cob gantske from / </l>
+               <l>oc Jsrael seg glæder.</l>
+            </lg>
          </div>
-         <div>
-            <p><c function="initials" rend="3">S</c>Aa taler then vwÿse mund / <lb/>the<ex>n</ex>
-               rette Gud wÿ meene. Thet si<lb rend="="/>ger han ey aff hiertens grund / <lb/>sÿne
-               gierning giffue thet tilkende / <lb/>hans hellighed er for Gud een spot: J alle
-                  ha<ex>n</ex>s gierning er intthit got / <lb/>Jngen aff then<lb rend="="/>nom Gud
-               rett dyrcke.</p>
-            <p><space extent="2blanks"/>Gud sielff aff himmelen saa hernid / <lb/>paa alle
-               menniskens sønner / <lb/>tha han the ris gierning hadde seet / <lb/>om han nogen
-               kunde finde / <lb/>Ther hans ord oc wæy for øghne hadde / <lb/>oc nogit effter hans
-               wilie giorde / <lb/>thet kunde han wel paa achte.</p>
-            <p><space extent="2blanks"/>Ther wor ingen paa rette wey / <lb/>the wore alle wdtrædne /
-               <lb/>alle giorde onth thet straffedes ey / <lb/>hwer hadde onde sed<lb rend="="/>wane
-               / <lb/>Jngen aff them giorde aff hiertet <pb n="E34"/> gott / <lb/>ÿ hwor meged the
-               hadde aff Gud faat / <lb/>thÿ motte han til att tale.</p>
-            <p><space extent="2blanks"/>Hwor lenge wille ÿ wanwittige wæ<lb rend="="/>re /
-               <lb/>eders ondskab ey forlade? oc spare mit folk effter mÿn wilie / <lb/>oc giøre
-               thennom ingen skade? Nw wel ÿ tro ey rett paa Gud / <lb/>ÿ kalle paa hannwm ey effter
-                  ha<ex>n</ex>s bud / <lb/>ÿ wille eder sielff forsørge.</p>
-            <p><space extent="2blanks"/>Ther fore haffue the aldrig roo / <lb/>men altÿd monne the
-               frøchte / <lb/>Gud hooss the fromme altÿd wil boo / <lb/>the seg paa han<lb rend="="
-               />nwm forlade / <lb/>J offuer forsmaa then ar<lb rend="="/>mis raad / <lb/>oc holde
-               hannwm alt for spot oc haad / <lb/>att Gud hans trøst er worden.</p>
-            <p><space extent="2blanks"/>Hwem skal Jsrael then arme / <lb/>salighe den giffue? Gud
-               wil seg sitt folk forbar<lb rend="="/>me / <lb/>oc løse the forfarne / <lb/>Thet wil
-               han giøre wid sÿn søn / <lb/>ther aff bliffuer Ja<lb rend="="/>cob gantske from /
-               <lb/>oc Jsrael seg glæder.</p>
-         </div>
-         <div type="head">
+         <div xml:id="dixit-insipiens-alt">
+            <head type="add">Dixit insipiens in corde suo, alternativ tekst</head>
             <head>&#x00B6; Then samme Psalme anderle<lb rend="="/>dis / <lb/>dog med samme
                noder.</head>
-         </div>
-         <div>
-            <p><c function="initials" rend="3">T</c>Hen daarlig mund han siger saa / <lb/>een Gud
-               bekende wÿ gier<lb rend="="/>ne / <lb/>Dog theris hierte ÿ wantro <pb n="E35"
-                  ana="XVIII."/> monne staa: med løgen hans ord forder<lb rend="="/>ue / <lb/>Theris
-               handling er fordømmelig / <lb/>for Guds øghne gantske vkendelig / <lb/>in<lb rend="="
-               />gen Guds bud paa achter.</p>
-            <p><space extent="2blanks"/>Gud fader nid aff himmelen saa / <lb/>tha wore wÿ alle
-               blinde / <lb/>han lod seg thet ic<lb rend="="/>ke forsmaa / <lb/>om han nogen kunde
-               finde / <lb/>Ther hadde forstand oppaa hans ord / <lb/>for thennom torde woffue bode
-               lÿff oc iord / <lb/>oc hans wilie fuldkomme.</p>
-            <p><space extent="2blanks"/>Tha skiøtte ingen then rette wæy / <lb/>all<lb rend="="
-               />sammen wor the wildfarne / <lb/>hwer fulde then gamle seed / <lb/>menniskens budord
-               att bewerne / <lb/>Jngen aff thennom nogit got<note place="right">Roman. iij</note>
-               hadde giord / <lb/>hwer wel for synden gior<lb rend="="/>de stor bood: Ther offuer
-               seg gud forbar me.</p>
-            <p><space extent="2blanks"/>Lang tÿd wille the forblindet wære / <lb/>seg sielff med
-               swig forderffue / <lb/>bedrage the arme / <lb/>theris gods fortære / <lb/>med lø<lb
-                  rend="="/>gen theris kunst beskerme: forthi att the<note place="right">Mat.
-                  xxiij.</note> tro ey paa Gud / <lb/>hannwm ey paakalle ÿ syndzens nød /
-               <lb/>theris gierning mene the thennom hielpe.</p>
-            <p><space extent="2blanks"/>Ther fore er theris hierte ey still / <lb/>till <pb n="E36"
-               /> frøcht oc sorrig seg wender / <lb/>Gud til the arme seg wende wil / <lb/>som han ÿ
-               troen finder / <lb/>Theris bøn han hører bestiller theris raad / <lb/>oc wil thennom
-               hielpe som han haffuer sagd / <lb/>thennom glædis att the hannwm haffue.</p>
-            <p><space extent="2blanks"/>Hwem wil the arme Jsraels børn / <lb/>til Sions trøst
-                  anna<ex>m</ex>me / <lb/>med krafft sÿne miskunds ørhne / <lb/>wil frelse sÿne faar
-               oc lame? Thet haffuer han giort oss med syn søn / <lb/>aff hwilken Jacob fick god
-               løn: oc alle Christne seg glæde.</p>
+            <lg>
+               <l><c function="initials" rend="3">T</c>Hen daarlig mund han siger saa / </l>
+               <l>een Gud bekende wÿ gier<lb rend="="/>ne / </l>
+               <l>Dog theris hierte ÿ wantro <pb n="E35" ana="XVIII."/> monne staa: med løgen hans
+                  ord forder<lb rend="="/>ue / </l>
+               <l>Theris handling er fordømmelig / </l>
+               <l>for Guds øghne gantske vkendelig / </l>
+               <l>in<lb rend="="/>gen Guds bud paa achter.</l>
+            </lg>
+            <lg>
+               <l><space extent="2blanks"/>Gud fader nid aff himmelen saa / </l>
+               <l>tha wore wÿ alle blinde / </l>
+               <l>han lod seg thet ic<lb rend="="/>ke forsmaa / </l>
+               <l>om han nogen kunde finde / </l>
+               <l>Ther hadde forstand oppaa hans ord / </l>
+               <l>for thennom torde woffue bode lÿff oc iord / </l>
+               <l>oc hans wilie fuldkomme.</l>
+            </lg>
+            <lg>
+               <l><space extent="2blanks"/>Tha skiøtte ingen then rette wæy / </l>
+               <l>all<lb rend="="/>sammen wor the wildfarne / </l>
+               <l>hwer fulde then gamle seed / </l>
+               <l>menniskens budord att bewerne / </l>
+               <l>Jngen aff thennom nogit got<note place="right">Roman. iij</note> hadde giord / </l>
+               <l>hwer wel for synden gior<lb rend="="/>de stor bood: Ther offuer seg gud forbar
+                  me.</l>
+            </lg>
+            <lg>
+               <l><space extent="2blanks"/>Lang tÿd wille the forblindet wære / </l>
+               <l>seg sielff med swig forderffue / </l>
+               <l>bedrage the arme / </l>
+               <l>theris gods fortære / </l>
+               <l>med lø<lb rend="="/>gen theris kunst beskerme: forthi att the<note place="right"
+                     >Mat. xxiij.</note> tro ey paa Gud / </l>
+               <l>hannwm ey paakalle ÿ syndzens nød / </l>
+               <l>theris gierning mene the thennom hielpe.</l>
+            </lg>
+            <lg>
+               <l><space extent="2blanks"/>Ther fore er theris hierte ey still / </l>
+               <l>till <pb n="E36"/> frøcht oc sorrig seg wender / </l>
+               <l>Gud til the arme seg wende wil / </l>
+               <l>som han ÿ troen finder / </l>
+               <l>Theris bøn han hører bestiller theris raad / </l>
+               <l>oc wil thennom hielpe som han haffuer sagd / </l>
+               <l>thennom glædis att the hannwm haffue.</l>
+            </lg>
+            <lg>
+               <l><space extent="2blanks"/>Hwem wil the arme Jsraels børn / </l>
+               <l>til Sions trøst anna<ex>m</ex>me / </l>
+               <l>med krafft sÿne miskunds ørhne / </l>
+               <l>wil frelse sÿne faar oc lame? Thet haffuer han giort oss med syn søn / </l>
+               <l>aff hwilken Jacob fick god løn: oc alle Christne seg glæde.</l>
+            </lg>
          </div>
          <div type="head">
             <head>&#x00B6; Een Sequentz / <lb/>Grates nunc omnes.</head>
@@ -965,77 +1039,127 @@
                prÿss wære Gud ÿ thet høgeste.</p>
          </div>
 
-         <pb n="E37" ana="XIX."/>
-         <div type="head">
-            <head>&#x00B6; Een lofsang aff Chri<lb rend="="/>sti fødzel.</head>
+         <div xml:id="en-lovsang-af-kristi-fødsel">
+            <head type="add">En lovsang af Kristi fødsel</head>
+            <head><pb n="E37" ana="XIX."/> &#x00B6; Een lofsang aff Chri<lb rend="="/>sti
+               fødzel.</head>
+            <lg>
+               <l><c function="initials" rend="3">L</c>Offuit wære tw Jesu Christ / </l>
+               <l>att tw menniske worden æst / </l>
+               <l>fød aff een Jomffru reen oc klar: thÿ glæ<note place="right">Luce. ij.</note> der
+                  seg alle Engle skare Kyrioley.</l>
+            </lg>
+            <lg>
+               <l><space extent="2blanks"/>Guds ewige faders eniste søn / </l>
+               <l>er fød<note place="right">Phil. ij.</note> for oss till stor trældom / </l>
+               <l>wor krenckelig natur han paa seg tog / </l>
+               <l>ther ÿ klædde seg thet ewige gode Kyrioley.</l>
+            </lg>
+            <lg>
+               <l><space extent="2blanks"/>Then som all werden skal frelse aff nød / </l>
+               <l>ligger ÿ thet Jo<ex>m</ex>ffruelig skød / </l>
+               <l>han er eet barn saa lidet oc kleint / </l>
+               <l>som him<lb rend="="/>mel oc iord opholder alleen Kyrioley.</l>
+            </lg>
+            <lg>
+               <l><space extent="2blanks"/>Thet ewige liwss gaar nw herind /<note place="right"
+                     >Johan. j.|viij. oc. ix.</note> som giffuer all werden eet nyt skÿn / </l>
+               <l>oc li<lb rend="="/>user mit om midnatis tÿd / </l>
+               <l>att wÿ kun<lb rend="="/>de kende wor fader saa blÿd Kyrioley.</l>
+            </lg>
+            <lg>
+               <l><space extent="2blanks"/>Gud faders søn een Gud aff artt / </l>
+               <l>eet dødeligt menniske han er worden snart /<note place="right">Luce. ij.</note> oc
+                  førde oss aff then iæmmerlig dall / </l>
+               <l>oc giorde oss arwinge wdi himmerigs sall Kyrioley.</l>
+            </lg>
+            <lg>
+               <l><space extent="2blanks"/>Han er paa iorden kommen the arme /<note place="right"
+                     >Math. xj.</note>
+                  <pb n="E38"/> att han wil seg offuer thennom forbar<lb rend="="/>me / </l>
+               <l>oc thennom ÿ himmelen att giøre <note place="left">Mat. xxij.</note>rÿge / </l>
+               <l>hans hellige Engle att wære lÿge / </l>
+               <l>Kyrioley.</l>
+            </lg>
+            <lg>
+               <l><space extent="2blanks"/>Saadant monne han sÿne børn til<lb rend="="/>wende / </l>
+               <l>ther paa wÿ oc nw hans kierli<lb rend="="/>ghed kende / </l>
+               <l>Thÿ tacker hannwm all Christe<ex>n</ex>hed oc prÿse teg Gud ÿ ewighed / </l>
+               <l>Kyrioley.</l>
+            </lg>
          </div>
-         <div>
-            <p><c function="initials" rend="3">L</c>Offuit wære tw Jesu Christ / <lb/>att tw
-               menniske worden æst / <lb/>fød aff een Jomffru reen oc klar: thÿ glæ<note
-                  place="right">Luce. ij.</note> der seg alle Engle skare Kyrioley.</p>
-            <p><space extent="2blanks"/>Guds ewige faders eniste søn / <lb/>er fød<note
-                  place="right">Phil. ij.</note> for oss till stor trældom / <lb/>wor krenckelig
-               natur han paa seg tog / <lb/>ther ÿ klædde seg thet ewige gode Kyrioley.</p>
-            <p><space extent="2blanks"/>Then som all werden skal frelse aff nød / <lb/>ligger ÿ thet
-                  Jo<ex>m</ex>ffruelig skød / <lb/>han er eet barn saa lidet oc kleint / <lb/>som
-                  him<lb rend="="/>mel oc iord opholder alleen Kyrioley.</p>
-            <p><space extent="2blanks"/>Thet ewige liwss gaar nw herind /<note place="right">Johan.
-                  j.|viij. oc. ix.</note> som giffuer all werden eet nyt skÿn / <lb/>oc li<lb
-                  rend="="/>user mit om midnatis tÿd / <lb/>att wÿ kun<lb rend="="/>de kende wor
-               fader saa blÿd Kyrioley.</p>
-            <p><space extent="2blanks"/>Gud faders søn een Gud aff artt / <lb/>eet dødeligt menniske
-               han er worden snart /<note place="right">Luce. ij.</note> oc førde oss aff then
-               iæmmerlig dall / <lb/>oc giorde oss arwinge wdi himmerigs sall Kyrioley.</p>
-            <p><space extent="2blanks"/>Han er paa iorden kommen the arme /<note place="right">Math.
-                  xj.</note>
-               <pb n="E38"/> att han wil seg offuer thennom forbar<lb rend="="/>me / <lb/>oc thennom
-               ÿ himmelen att giøre <note place="left">Mat. xxij.</note>rÿge / <lb/>hans hellige
-               Engle att wære lÿge / <lb/>Kyrioley.</p>
-            <p><space extent="2blanks"/>Saadant monne han sÿne børn til<lb rend="="/>wende /
-               <lb/>ther paa wÿ oc nw hans kierli<lb rend="="/>ghed kende / <lb/>Thÿ tacker hannwm
-               all Christe<ex>n</ex>hed oc prÿse teg Gud ÿ ewighed / <lb/>Kyrioley.</p>
-         </div>
-         <div type="head">
+         <div xml:id="dies-est-letitie-alt">
+            <head type="add">Die est letitie, alternativ tekst</head>
             <head>&#x00B6; Een anden skøn wÿse aff Chri<lb rend="="/>sti fødzel / <lb/>oc haffuer
                the samme noder som Dies est letitie siunges med.</head>
-         </div>
-         <div>
             <note place="left">Mat. j.|Luce. ij.</note>
-            <p><c function="initials" rend="3">E</c>Ett lidet barn saa ærefult / <lb/>ÿ dag oss
-               føddis til helsen / <lb/>wdaff een Jomffru naadefuld / <lb/>oss ar<lb rend="="/>me
-               til gienløsen / <lb/>Wore oss thet barn icke fød / <lb/>till ewige tÿd tha skulde wÿ
-               død / <lb/>Then salighed er oss alle / <lb/>Eya tw søde Jesu Christ / <lb/>att tw
-               menniske worde<ex>n</ex> æst / <lb/>Lad oss ey ÿ døden falde.</p>
-            <p><space extent="2blanks"/>Then tÿd hun er nw gantske rÿg / <lb/>till Guds naffn att wÿ
-               ære / <lb/>thÿ Guds søn wdaff himmerig / <lb/>paa iorden mo<ex>n</ex>ne wæ<lb
-                  rend="="/>re: Thet er een stor ydmyghed: som Gud <pb n="E39" ana="XX."/> fader oss
-               haffuer beteed / <lb/>een swend hans søn er worden / <lb/>forwden alt meen er wor den
-               oss lÿg / <lb/>ther med han giør oss alle<note place="right">Phil. ij.|Esaie.
-                  liij.</note> rÿg / <lb/>Bær oss aff syndzens byrde.</p>
-            <p><space extent="2blanks"/>Salig er then som thette tror / <lb/>aff hier tens grund oc
-               loffue / <lb/>til ewig tÿd han sa lighed faar / <lb/>ÿ Christo skall han soffue /
-               <lb/>Tror han att Christus fyllist nock er / <lb/>ÿ døde<ex>n</ex> for oss er giffuen
-               eet werd / <lb/>aff Gud wor ewige fader / <lb/>O hwilkit wnder mo<ex>n</ex><lb
-                  rend="="/>ne thet wære / <lb/>att Christus lÿder for oss wanære / <lb/>oc all wor
-               synd betaler.</p>
-            <p><space extent="2blanks"/>Thÿ tacker hannwm all Christenhed: for thette store gode /
-               <lb/>oc bede hans barm<lb rend="="/>hiertighed / <lb/>han wilde thennom benaa<lb
-                  rend="="/>de / <lb/>All falske lærdom att wende wdaff / <lb/>Wor onde sedwan att
-               giffue sÿn straff / <lb/>oc wilde oss thette forgiffue / <lb/>Gud fader / <lb/>Søn /
-               <lb/>oc Helliaand / <lb/>wÿ bede teg bode qwinne oc mand / <lb/>lad oss ÿ freden
-               leffue.</p>
+            <lg>
+               <l><c function="initials" rend="3">E</c>Ett lidet barn saa ærefult / </l>
+               <l>ÿ dag oss føddis til helsen / </l>
+               <l>wdaff een Jomffru naadefuld / </l>
+               <l>oss ar<lb rend="="/>me til gienløsen / </l>
+               <l>Wore oss thet barn icke fød / </l>
+               <l>till ewige tÿd tha skulde wÿ død / </l>
+               <l>Then salighed er oss alle / </l>
+               <l>Eya tw søde Jesu Christ / </l>
+               <l>att tw menniske worde<ex>n</ex> æst / </l>
+               <l>Lad oss ey ÿ døden falde.</l>
+            </lg>
+            <lg>
+               <l><space extent="2blanks"/>Then tÿd hun er nw gantske rÿg / </l>
+               <l>till Guds naffn att wÿ ære / </l>
+               <l>thÿ Guds søn wdaff himmerig / </l>
+               <l>paa iorden mo<ex>n</ex>ne wæ<lb rend="="/>re: Thet er een stor ydmyghed: som Gud
+                     <pb n="E39" ana="XX."/> fader oss haffuer beteed / </l>
+               <l>een swend hans søn er worden / </l>
+               <l>forwden alt meen er wor den oss lÿg / </l>
+               <l>ther med han giør oss alle<note place="right">Phil. ij.|Esaie. liij.</note> rÿg / </l>
+               <l>Bær oss aff syndzens byrde.</l>
+            </lg>
+            <lg>
+               <l><space extent="2blanks"/>Salig er then som thette tror / </l>
+               <l>aff hier tens grund oc loffue / </l>
+               <l>til ewig tÿd han sa lighed faar / </l>
+               <l>ÿ Christo skall han soffue / </l>
+               <l>Tror han att Christus fyllist nock er / </l>
+               <l>ÿ døde<ex>n</ex> for oss er giffuen eet werd / </l>
+               <l>aff Gud wor ewige fader / </l>
+               <l>O hwilkit wnder mo<ex>n</ex><lb rend="="/>ne thet wære / </l>
+               <l>att Christus lÿder for oss wanære / </l>
+               <l>oc all wor synd betaler.</l>
+            </lg>
+            <lg>
+               <l><space extent="2blanks"/>Thÿ tacker hannwm all Christenhed: for thette store gode
+                  / </l>
+               <l>oc bede hans barm<lb rend="="/>hiertighed / </l>
+               <l>han wilde thennom benaa<lb rend="="/>de / </l>
+               <l>All falske lærdom att wende wdaff / </l>
+               <l>Wor onde sedwan att giffue sÿn straff / </l>
+               <l>oc wilde oss thette forgiffue / </l>
+               <l>Gud fader / </l>
+               <l>Søn / </l>
+               <l>oc Helliaand / </l>
+               <l>wÿ bede teg bode qwinne oc mand / </l>
+               <l>lad oss ÿ freden leffue.</l>
+            </lg>
          </div>
-         <div type="head">
+         <div xml:id="christus-natus-hodie">
+            <head type="add">Christus natus hodie</head>
             <head><figure type="vignette"/> Christus natus hodie. <figure type="vignette"/></head>
-         </div>
-         <div>
-            <p><c function="initials" rend="3">N</c>W er fød oss Jesus Christ / <lb/>Aff<note
-                  place="right">Math. j.|Luce: ij.</note> een Jomffru thet er wist / <lb/>For<lb
-                  rend="="/>wden mands beblandelse / <lb/>Er <pb n="E40"/>
-               <note place="left">Math. j.|Luce. j.|Ezech xxvij|Psal. cxiij.</note>han kommen aff
-               høgeste: Wor salighed.</p>
-            <p><space extent="2blanks"/>Gud med oss emanuel. Then bebu<lb rend="="/>dede Gabriel /
-               <lb/>Ther till er witne Ezechi el / <lb/>Han kom til oss wor frelsere.</p>
+            <lg>
+               <l><c function="initials" rend="3">N</c>W er fød oss Jesus Christ / </l>
+               <l>Aff<note place="right">Math. j.|Luce: ij.</note> een Jomffru thet er wist / </l>
+               <l>For<lb rend="="/>wden mands beblandelse / </l>
+               <l>Er <pb n="E40"/>
+                  <note place="left">Math. j.|Luce. j.|Ezech xxvij|Psal. cxiij.</note>han kommen aff
+                  høgeste: Wor salighed.</l>
+            </lg>
+            <lg>
+               <l><space extent="2blanks"/>Gud med oss emanuel. Then bebu<lb rend="="/>dede Gabriel
+                  / </l>
+               <l>Ther till er witne Ezechi el / </l>
+               <l>Han kom til oss wor frelsere.</l>
+            </lg>
          </div>
          <div type="head">
             <head>&#x00B6; Gud faders søn.</head>
@@ -1057,59 +1181,104 @@
                wærer glade oc froo / <lb/>Giffuer hannwm loff wor Konning wÿss / <lb/>Som oss
                forhwerffde then ewig prÿss / <lb/>Ewindeling.</p>
          </div>
-         <div type="head">
+         <div xml:id="lovsang-af-kristi-opstandelse">
+            <head type="add">En lovsang af Kristi opstandelse</head>
             <head>&#x00B6; Een lofsang aff Christi opstandelse.</head>
-         </div>
-         <div>
-            <p><c function="initials" rend="3">C</c>Hrist laa ÿ dødzens bond / <lb/>for <note
-                  place="left">Mat xxviij</note>wore synder giffuen / <lb/>Han er i<lb rend="="
-               />gien opstanden: bar oss thet ewi <pb n="E41" ana="XXI."/> ge leffnid / <lb/>att wÿ
-               skulle alltÿd wære glad hanwm tacke oc prÿse ÿ allen stad / <lb/>oc si<lb rend="="
-               />unge Alleluia.</p>
+
+            <lg>
+               <l><c function="initials" rend="3">C</c>Hrist laa ÿ dødzens bond / </l>
+               <l>for <note place="left">Mat xxviij</note>wore synder giffuen / </l>
+               <l>Han er i<lb rend="="/>gien opstanden: bar oss thet ewi <pb n="E41" ana="XXI."/> ge
+                  leffnid / </l>
+               <l>att wÿ skulle alltÿd wære glad hanwm tacke oc prÿse ÿ allen stad / </l>
+               <l>oc si<lb rend="="/>unge Alleluia.</l>
+            </lg>
             <lb/>
-            <p><space extent="2blanks"/>Døden kunde ingen twinge / <lb/>blant al<lb rend="="/>le
-               menniskens sønner / <lb/>Thet giorde alt <lb/>wore synder / <lb/>ingen wskyldig wor
-               att fin<lb rend="="/>de / <lb/>Ther aff tha kom the<ex>n</ex> død saa snart /
-               <lb/>fick macht offuer oss med een fart / <lb/>holt oss ÿ sitt rÿge fangne.</p>
-            <p><space extent="2blanks"/>Jesus Christus Gud faders søn / <lb/>ÿ wort stæd er kommen /
-               <lb/>wid hanwm faa wÿ then ewige løn / <lb/>oc døden er offuer=<note place="right"
-                  >Osee. xiij.</note> wunden / <lb/>All sÿn rett oc all sÿn macht / <lb/>som wÿ wore
-               vnderlagt / <lb/>borttog Christi død allene.</p>
-            <p><space extent="2blanks"/>Ther wor een gantske vnderlig krÿ / <lb/>ther døden oc lÿff
-               the stridde / <lb/>liffuit fick tha macht oc offuerhand / <lb/>oc monne dø<lb
-                  rend="="/>den afliffue / <lb/>Schrifften haffuer oss thet<note place="right">Osee.
-                  xiij.|j. Corin. xv|Exodi. xj.|j. Petri. j.</note> kund giord / <lb/>att Christi
-               død bedreff thet mord / <lb/>eet spott aff døden er worden.</p>
+            <lg>
+               <l><space extent="2blanks"/>Døden kunde ingen twinge / </l>
+               <l>blant al<lb rend="="/>le menniskens sønner / </l>
+               <l>Thet giorde alt </l>
+               <l>wore synder / </l>
+               <l>ingen wskyldig wor att fin<lb rend="="/>de / </l>
+               <l>Ther aff tha kom the<ex>n</ex> død saa snart / </l>
+               <l>fick macht offuer oss med een fart / </l>
+               <l>holt oss ÿ sitt rÿge fangne.</l>
+            </lg>
+            <lg>
+               <l>space extent="2blanks"/>Jesus Christus Gud faders søn / </l>
+               <l>ÿ wort stæd er kommen / </l>
+               <l>wid hanwm faa wÿ then ewige løn / </l>
+               <l>oc døden er offuer=<note place="right">Osee. xiij.</note> wunden / </l>
+               <l>All sÿn rett oc all sÿn macht / </l>
+               <l>som wÿ wore vnderlagt / </l>
+               <l>borttog Christi død allene.</l>
+            </lg>
+            <lg>
+               <l><space extent="2blanks"/>Ther wor een gantske vnderlig krÿ / </l>
+               <l>ther døden oc lÿff the stridde / </l>
+               <l>liffuit fick tha macht oc offuerhand / </l>
+               <l>oc monne dø<lb rend="="/>den afliffue / </l>
+               <l>Schrifften haffuer oss thet<note place="right">Osee. xiij.|j. Corin. xv|Exodi.
+                     xj.|j. Petri. j.</note> kund giord / </l>
+               <l>att Christi død bedreff thet mord / </l>
+               <l>eet spott aff døden er worden.</l>
+            </lg>
             <lb/>
-            <p><space extent="2blanks"/>Her er thet rette paaschelam / <lb/>om huil<lb rend="="/>kit
-               Gud haffuer budit: Thet er thet som paa korsit kom / <lb/>for wor skyld stegt oc
-                  dø<lb rend="="/>det / <lb/>thets blod stenckis paa wore dørre / <lb/>
-               <pb n="E42"/> oc holler døden wdenfore / <lb/>Then mørde nær kan oss ey røre.</p>
-            <p><space extent="2blanks"/>Saa fÿre wÿ thet høge fest / <lb/>med hier<lb rend="="/>tens
-               frygd oc winde att Jesus Christus er oss næst / <lb/>sÿn naade lader han oss skine:
-               Han er sielff rettwÿshedzens liwss / <lb/>som opliwser wor hiertis hwss /
-               <lb/>Syndzens natt hun er bortgangen.</p>
+            <lg>
+               <l><space extent="2blanks"/>Her er thet rette paaschelam / </l>
+               <l>om huil<lb rend="="/>kit Gud haffuer budit: Thet er thet som paa korsit kom / </l>
+               <l>for wor skyld stegt oc dø<lb rend="="/>det / </l>
+               <l>thets blod stenckis paa wore dørre / </l>
+               <l>
+                  <pb n="E42"/> oc holler døden wdenfore / </l>
+               <l>Then mørde nær kan oss ey røre.</l>
+            </lg>
+            <lg>
+               <l><space extent="2blanks"/>Saa fÿre wÿ thet høge fest / </l>
+               <l>med hier<lb rend="="/>tens frygd oc winde att Jesus Christus er oss næst / </l>
+               <l>sÿn naade lader han oss skine: Han er sielff rettwÿshedzens liwss / </l>
+               <l>som opliwser wor hiertis hwss / </l>
+               <l>Syndzens natt hun er bortgangen.</l>
+            </lg>
             <note place="left">j. Corin. v.|Math. xv.|Johan. vj.</note>
-            <p><space extent="2blanks"/>Aff thet sande paaschelam æde wÿ oc saa leffue / <lb/>then
-               gamle swrdey menniske<ex>n</ex>s lærdom / <lb/>Guds ord skall han nw wÿge /
-               <lb/>Christus han er then sande mad / <lb/>som be spÿser then Christne stad /
-               <lb/>Troen kan ey andet lÿde.</p>
+            <lg>
+               <l><space extent="2blanks"/>Aff thet sande paaschelam æde wÿ oc saa leffue / </l>
+               <l>then gamle swrdey menniske<ex>n</ex>s lærdom / </l>
+               <l>Guds ord skall han nw wÿge / </l>
+               <l>Christus han er then sande mad / </l>
+               <l>som be spÿser then Christne stad / </l>
+               <l>Troen kan ey andet lÿde.</l>
+            </lg>
             <note place="left">Esaie. liij.</note>
-            <p><space extent="2blanks"/>Han frelste oss fraa død oc synd / <lb/>alt med sÿn bittre
-               pÿne / <lb/>Er han oss bleffuen opstandelsen / <lb/>retferdighed monne han giffue /
-               <lb/>Stat op aff søffne all Christen<lb rend="="/>hed / <lb/>lad mørckens gierninger
-               wære teg leed / <lb/>Retferdelig leff ÿ Christo Jesu.</p>
+            <lg>
+               <l><space extent="2blanks"/>Han frelste oss fraa død oc synd / </l>
+               <l>alt med sÿn bittre pÿne / </l>
+               <l>Er han oss bleffuen opstandelsen / </l>
+               <l>retferdighed monne han giffue / </l>
+               <l>Stat op aff søffne all Christen<lb rend="="/>hed / </l>
+               <l>lad mørckens gierninger wære teg leed / </l>
+               <l>Retferdelig leff ÿ Christo Jesu.</l>
+            </lg>
             <note place="left">Exodi. xv.|oc. xvij.</note>
-            <p><space extent="2blanks"/>Pharaonis machtt then grumme mand / <lb/>er fordømdt med
-               alle / <lb/>Wid Je<lb rend="="/>sum Christ wor frelsermand / <lb/>oss aff E<lb
-                  rend="="/>gypten han kalde / <lb/>Her haffue wÿ sand Mosen / <lb/>som wdledde alt
-               Jsraels køn / <lb/>
-               <pb n="E43" ana="XXII."/> fraa syndzens trældom til hiertens lÿse.</p>
-            <p><space extent="2blanks"/>Loff prÿss oc ære wære teg Dauid / <lb/>O Christe wor
-               Konning / <lb/>som stridde for<note place="right">Actu. vij.</note> oss mandelig /
-               <lb/>Goliat er offuerwunden /<note place="right">j. Reg. xvij</note> som lagde wind
-               paa med all sÿn wold / <lb/>att forderffue Jsraels skiold / <lb/>Thit aan<lb rend="="
-               />delig Jsraels folk seg glæder.</p>
+            <lg>
+               <l><space extent="2blanks"/>Pharaonis machtt then grumme mand / </l>
+               <l>er fordømdt med alle / </l>
+               <l>Wid Je<lb rend="="/>sum Christ wor frelsermand / </l>
+               <l>oss aff E<lb rend="="/>gypten han kalde / </l>
+               <l>Her haffue wÿ sand Mosen / </l>
+               <l>som wdledde alt Jsraels køn / </l>
+               <l>
+                  <pb n="E43" ana="XXII."/> fraa syndzens trældom til hiertens lÿse.</l>
+            </lg>
+            <lg>
+               <l><space extent="2blanks"/>Loff prÿss oc ære wære teg Dauid / </l>
+               <l>O Christe wor Konning / </l>
+               <l>som stridde for<note place="right">Actu. vij.</note> oss mandelig / </l>
+               <l>Goliat er offuerwunden /<note place="right">j. Reg. xvij</note> som lagde wind paa
+                  med all sÿn wold / </l>
+               <l>att forderffue Jsraels skiold / </l>
+               <l>Thit aan<lb rend="="/>delig Jsraels folk seg glæder.</l>
+            </lg>
          </div>
          <div type="head">
             <head>&#x00B6; Kyrieeleyson Paschale.</head>
@@ -1190,9 +1359,8 @@
             <p><space extent="2blanks"/>Han er opfaren som han sagde.</p>
          </div>
          <div type="head">
-            <head>&#x00B6; Loffuer Herren. <figure type="vignette"/>
-               <hi rend="font_red">Chorid.</hi>
-               <figure type="vignette"/></head>
+            <head>&#x00B6; Loffuer Herren. <figure type="vignette"/> Chorid. <figure type="vignette"
+               /></head>
          </div>
          <div>
             <p><space extent="2blanks"/>Helliaand wor bøn til teg / <lb/>O Gud<note place="right"
@@ -1201,7 +1369,7 @@
                giff oss.</p>
          </div>
          <div type="head">
-            <head>&#x00B6; Loffuer Herren. &#x00B6; <hi rend="font_red">Forsamlingen siunger.</hi></head>
+            <head>&#x00B6; Loffuer Herren. &#x00B6; Forsamlingen siunger.</head>
          </div>
          <div>
             <p><space extent="2blanks"/>Bed Gud for oss Alleluia. Loffuer Herren Alleluia
@@ -2264,7 +2432,7 @@
                andre flere. Ther<pb n="E93" ana="XLVII." rend="="/>fore ieg wil mÿn tro fraa
                mennisken wen de / <lb/>allene Herre thÿn ord ere glæde<ex>n</ex> mÿn:<note
                   place="right">Rom. x.</note> the lære meg teg rett kende.</p>
-            <p><hi rend="center"><hi rend="font_red">Mit haab er Christus.</hi></hi></p>
+            <p rend="center">Mit haab er Christus.</p>
          </div>
          <div type="head">
             <head>&#x00B6; Her effter følger thet hel<lb rend="="/>lige Euangeliske Messe embede /
@@ -2415,33 +2583,31 @@
             <head>andet ÿ thet gamle eller ny Testamen<lb rend="="/>te. j. Corint. xj.</head>
          </div>
          <div>
-            <p><hi rend="font_red"><c function="initials" rend="4">B</c>Rødre / <lb/>men thette biudendis /
-                  <lb/>loffuer ieg icke / <lb/>att ÿ icke tiff forbædrelse / <lb/>men til forargelse
-                  komme tilhaabe. Forthi sandeligen først nar ÿ komme til sam<lb rend="="/>men ÿ
-                  forsamlingen / <lb/>fornømmer ieg att ther er twedracht iblant eder / <lb/>ieg
-                  tror een deel. Thÿ ther maa wære parthier iblant eder / <lb/>paa thet the som
-                  fromme ere skulle obenbaris ibla<ex>n</ex>t eder. Nar ÿ komme till sammen med hwer
-                  anden / <lb/>saa holde ÿ icke Herrens naduore. Thÿ hwer til forn annammer sÿn
-                  eghen naduore vnder ma<lb rend="="/>altÿd. Oc een er hungrug / <lb/>then anden er
-                     druc<lb rend="="/>ken. Haffue ÿ icke hwss ther ÿ kunde æde oc dric ke wdi?
-                  Eller forachte ÿ Guds forsamlinge? oc beskæmme thennom som icke haffue? Hwad skal
-                  ieg sige eder? Skal ieg loffue eder? Her wdi loffuer ieg eder icke / <lb/>thÿ ieg
-                  haffuer anam<lb rend="="/>med aff Herre<ex>n</ex> thet som ieg haffuer antwordet
-                  eder: Att wor Herre Jesus ÿ then nat ther han bleff forraad / <lb/>tog han brødet
-                  / <lb/>oc tackit oc brød thet / <lb/>sigendis. Annammer / <lb/>æder / <lb/>thet er
-                  mit legomme / <lb/>som bliffuer brødit for eder / <lb/>thet te giører ÿ mÿn
-                  hugkommelse. Tesligeste oc kal<lb rend="="/>ken effter naduorden / <lb/>oc sagde.
-                  Thenne kalk er eet nyt Testamente ÿ mit blod. Thette giører</hi>
-               <pb n="E100"/>
-               <hi rend="font_red">(saa thit som ÿ dricke) ÿ mÿn hugkommelse.</hi></p>
-            <p><hi rend="font_red">Thÿ saa offte ÿ æde aff thette brød / <lb/>oc dricke aff thenne kalk /
-                  <lb/>skulle ÿ forkynde Herrens død ind<lb rend="="/>til han kommer. Ther fore /
-                  <lb/>hwo vwerdige æder thette brød / <lb/>eller dricker aff thenne kalk / <lb/>han
-                  er skyldig ÿ Herrens lego<ex>m</ex>me oc blod. Dog prøff<lb rend="="/>ue mennisken
-                  seg sielff / <lb/>oc saa æde seg aff thette brød / <lb/>oc dricke seg aff thenne
-                  kalk. Forthi hwo som æder oc dricker vwerdelig / <lb/>ha<ex>n</ex> æder oc dric<lb
-                     rend="="/>ker seg sielff dommen / <lb/>att han icke vnderskeder Herrens
-                  legomme.</hi></p>
+            <p><c function="initials" rend="4">B</c>Rødre / <lb/>men thette biudendis / <lb/>loffuer
+               ieg icke / <lb/>att ÿ icke tiff forbædrelse / <lb/>men til forargelse komme tilhaabe.
+               Forthi sandeligen først nar ÿ komme til sam<lb rend="="/>men ÿ forsamlingen /
+               <lb/>fornømmer ieg att ther er twedracht iblant eder / <lb/>ieg tror een deel. Thÿ
+               ther maa wære parthier iblant eder / <lb/>paa thet the som fromme ere skulle
+               obenbaris ibla<ex>n</ex>t eder. Nar ÿ komme till sammen med hwer anden / <lb/>saa
+               holde ÿ icke Herrens naduore. Thÿ hwer til forn annammer sÿn eghen naduore vnder
+                  ma<lb rend="="/>altÿd. Oc een er hungrug / <lb/>then anden er druc<lb rend="="
+               />ken. Haffue ÿ icke hwss ther ÿ kunde æde oc dric ke wdi? Eller forachte ÿ Guds
+               forsamlinge? oc beskæmme thennom som icke haffue? Hwad skal ieg sige eder? Skal ieg
+               loffue eder? Her wdi loffuer ieg eder icke / <lb/>thÿ ieg haffuer anam<lb rend="="
+               />med aff Herre<ex>n</ex> thet som ieg haffuer antwordet eder: Att wor Herre Jesus ÿ
+               then nat ther han bleff forraad / <lb/>tog han brødet / <lb/>oc tackit oc brød thet /
+               <lb/>sigendis. Annammer / <lb/>æder / <lb/>thet er mit legomme / <lb/>som bliffuer
+               brødit for eder / <lb/>thet te giører ÿ mÿn hugkommelse. Tesligeste oc kal<lb
+                  rend="="/>ken effter naduorden / <lb/>oc sagde. Thenne kalk er eet nyt Testamente
+               ÿ mit blod. Thette giører <pb n="E100"/> (saa thit som ÿ dricke) ÿ mÿn
+               hugkommelse.</p>
+            <p>Thÿ saa offte ÿ æde aff thette brød / <lb/>oc dricke aff thenne kalk / <lb/>skulle ÿ
+               forkynde Herrens død ind<lb rend="="/>til han kommer. Ther fore / <lb/>hwo vwerdige
+               æder thette brød / <lb/>eller dricker aff thenne kalk / <lb/>han er skyldig ÿ Herrens
+                  lego<ex>m</ex>me oc blod. Dog prøff<lb rend="="/>ue mennisken seg sielff / <lb/>oc
+               saa æde seg aff thette brød / <lb/>oc dricke seg aff thenne kalk. Forthi hwo som æder
+               oc dricker vwerdelig / <lb/>ha<ex>n</ex> æder oc dric<lb rend="="/>ker seg sielff
+               dommen / <lb/>att han icke vnderskeder Herrens legomme.</p>
          </div>
          <div type="head">
             <head>&#x00B6; Her effterfølger een lossang med Alleluia. Alleluia Alleluia
@@ -2472,10 +2638,9 @@
                   tec<lb rend="="/>kis effter tÿdsens leylighed.</head>
          </div>
          <div>
-            <p>&#x00B6; <hi rend="font_red">Thette effterfølgende Capitel</hi> taler icke om thet wÿns oc brøds
-               Sacra <hi rend="font_red">mente / <lb/>men om thet aandelige ædende / <lb/>thet er / <lb/>tro att
-                  Christus Gud oc menniske for oss haff<lb rend="="/>uer giffuit sitt legomme oc
-                  wdstørt sitt blod.</hi></p>
+            <p>&#x00B6; Thette effterfølgende Capitel taler icke om thet wÿns oc brøds Sacra mente /
+               <lb/>men om thet aandelige ædende / <lb/>thet er / <lb/>tro att Christus Gud oc
+               menniske for oss haff<lb rend="="/>uer giffuit sitt legomme oc wdstørt sitt blod.</p>
          </div>
 
          <pb n="E102"/>
@@ -2483,82 +2648,77 @@
             <head>&#x00B6; Textus Euangelij / <lb/>Johan. vj.</head>
          </div>
          <div>
-            <p><hi rend="font_red"><c function="initials" rend="4">T</c>Her folkid haffde seet att Jesus wor ther
-                  icke / <lb/>ey heller hans discipler / <lb/>ind stigede oc the wdi sckibene /
-                  <lb/>oc komme til Capernaum atspørendis Jesum. Oc ther the haffde fundit hannwm
-                  paa hÿn sÿ<lb rend="="/>de haffuid sagde the til hannwm. Mestere nar komst tw hÿd?
-                  Jesus swarede thennom oc sag de: Sandelig sandelig siger ieg eder / <lb/>ÿ
-                     atspør<lb rend="="/>rie meg icke forthi att ÿ soge teghen / <lb/>men forthi att
-                  ÿ aade aff brødene oc worde mætte. Giør mad hwilken icke forgaas / <lb/>men
-                  hwilken ther bliffuer til thet ewige lÿff / <lb/>hwilken menniskens søn skal
-                  giffue eder / <lb/>thÿ then samme haffuer Gud fader betegnet. Ther fore sagde the
-                  til ha<ex>n</ex><lb rend="="/>nwm. Hwad skulle wÿ giøre att wÿ kunde giø re Guds
-                  gierninge? Jesus swarid oc sagde thennom. Thet er Guds gierning / <lb/>att ÿ
-                  skulle tro paa then han wdsende. Forthi sagde the til <note place="left">Exodi.
-                     xvj.</note>hannwm. Hwad teghen giør tw forthi / <lb/>att wÿ kunde see oc tro
-                  teg? Hwad giør tw? Wore for fædre aade himmelske brød wdi ørcken som schreffuit
-                  staar. Han gaff thennom brød aff himmelen att æde. Tha sagde Jhesus
-                     thenno<ex>m</ex>. Sandelig sandelig siger ieg eder / <lb/>Moses gaff eder icke
-                  thet brød / <lb/>men mÿn fader giffuer eder sant brød aff himmelen / <lb/>Thÿ then
-                  er Guds brod / <lb/>hwilken nederstig aff himmelen / <lb/>oc giff=</hi>
-               <pb n="E103" ana="LII."/>
-               <hi rend="font_red">uer werden lÿff. Tha sagde the til hannwm / <lb/>Herre giff oss altÿd thet brød.
-                  Men Jesus sag de thennom. Jeg er liffzens brød. Hwo som kommer til meg / <lb/>han
-                  skal icke hungre / <lb/>oc hwo som tror paa meg han skal icke tørste. Men ieg
-                  haffuer sagt eder / <lb/>att ÿ oc saa soge meg oc icke trode. Alt thet som mÿn
-                  fader giffuer meg thet skal komme til meg / <lb/>oc then hwilken som faar kommid
-                  til meg skal ieg icke wddriffue / <lb/>Forthi ieg nederstÿg aff himmelen /
-                  <lb/>att giøre icke thet som ieg wil / <lb/>men hwad then wil som meg wd<lb
-                     rend="="/>sende. Men thette er then faders wilie / <lb/>att ieg skal icke tabe
-                  nogit aff alle the ting / <lb/>hwilke han gaff meg / <lb/>men ieg skal opwecke
-                  thennom paa then vderste dag. Thette er oc hans wilie hwil ken meg wdsende /
-                  <lb/>att hwer som seer sønnen oc tror paa hannwm / <lb/>han skal haffue thet ewige
-                  lÿff / <lb/>oc ieg skal opwecke hannwm paa then v<lb rend="="/>derste dag. Ther
-                  fore murrede Jøderne / <lb/>om thet att han haffde sagt / <lb/>Jeg er thet brød /
-                  <lb/>hwil ken ther nidfoer aff himmelen. Oc the sagde. Er icke thenne Joseps søn /
-                  <lb/>hwess fader oc mo&#271; wÿ kende? Ther fore huorlunde siger thenne / <lb/>ieg
-                  nidfoer aff himmelen? Tha swarede Jesus oc sagde thennom Murrer icke emellom eder
-                  sielffue. Jngen kand komme til meg wden fade ren (hwilken meg wdsende) faar draget
-                     han<lb rend="="/>nwm / <lb/>oc ieg skal opwecke hannwm paa then vderste dag.
-                  Ther staar schreffuit ÿ Propheter=<note place="right">Esaie. liiij.|Hierem.
-                     ij.</note> ne. Oc alle skulle wære lærde aff Gud. Ther fo=</hi>
-               <pb n="E104"/>
-               <hi rend="font_red">re / <lb/>hwer som haffuer hørd aff faderen / <lb/>oc haff<lb rend="="/>uer lærd
-                  / <lb/>han kommer til meg. Jcke att nogen fick seet faderen / <lb/>foruden then
-                  hwilken som er aff Gud / <lb/>then seer faderen.</hi></p>
+            <p><c function="initials" rend="4">T</c>Her folkid haffde seet att Jesus wor ther icke /
+               <lb/>ey heller hans discipler / <lb/>ind stigede oc the wdi sckibene / <lb/>oc komme
+               til Capernaum atspørendis Jesum. Oc ther the haffde fundit hannwm paa hÿn sÿ<lb
+                  rend="="/>de haffuid sagde the til hannwm. Mestere nar komst tw hÿd? Jesus swarede
+               thennom oc sag de: Sandelig sandelig siger ieg eder / <lb/>ÿ atspør<lb rend="="/>rie
+               meg icke forthi att ÿ soge teghen / <lb/>men forthi att ÿ aade aff brødene oc worde
+               mætte. Giør mad hwilken icke forgaas / <lb/>men hwilken ther bliffuer til thet ewige
+               lÿff / <lb/>hwilken menniskens søn skal giffue eder / <lb/>thÿ then samme haffuer Gud
+               fader betegnet. Ther fore sagde the til ha<ex>n</ex><lb rend="="/>nwm. Hwad skulle wÿ
+               giøre att wÿ kunde giø re Guds gierninge? Jesus swarid oc sagde thennom. Thet er Guds
+               gierning / <lb/>att ÿ skulle tro paa then han wdsende. Forthi sagde the til <note
+                  place="left">Exodi. xvj.</note>hannwm. Hwad teghen giør tw forthi / <lb/>att wÿ
+               kunde see oc tro teg? Hwad giør tw? Wore for fædre aade himmelske brød wdi ørcken som
+               schreffuit staar. Han gaff thennom brød aff himmelen att æde. Tha sagde Jhesus
+                  thenno<ex>m</ex>. Sandelig sandelig siger ieg eder / <lb/>Moses gaff eder icke
+               thet brød / <lb/>men mÿn fader giffuer eder sant brød aff himmelen / <lb/>Thÿ then er
+               Guds brod / <lb/>hwilken nederstig aff himmelen / <lb/>oc giff= <pb n="E103"
+                  ana="LII."/> uer werden lÿff. Tha sagde the til hannwm / <lb/>Herre giff oss altÿd
+               thet brød. Men Jesus sag de thennom. Jeg er liffzens brød. Hwo som kommer til meg /
+               <lb/>han skal icke hungre / <lb/>oc hwo som tror paa meg han skal icke tørste. Men
+               ieg haffuer sagt eder / <lb/>att ÿ oc saa soge meg oc icke trode. Alt thet som mÿn
+               fader giffuer meg thet skal komme til meg / <lb/>oc then hwilken som faar kommid til
+               meg skal ieg icke wddriffue / <lb/>Forthi ieg nederstÿg aff himmelen / <lb/>att giøre
+               icke thet som ieg wil / <lb/>men hwad then wil som meg wd<lb rend="="/>sende. Men
+               thette er then faders wilie / <lb/>att ieg skal icke tabe nogit aff alle the ting /
+               <lb/>hwilke han gaff meg / <lb/>men ieg skal opwecke thennom paa then vderste dag.
+               Thette er oc hans wilie hwil ken meg wdsende / <lb/>att hwer som seer sønnen oc tror
+               paa hannwm / <lb/>han skal haffue thet ewige lÿff / <lb/>oc ieg skal opwecke hannwm
+               paa then v<lb rend="="/>derste dag. Ther fore murrede Jøderne / <lb/>om thet att han
+               haffde sagt / <lb/>Jeg er thet brød / <lb/>hwil ken ther nidfoer aff himmelen. Oc the
+               sagde. Er icke thenne Joseps søn / <lb/>hwess fader oc mo&#271; wÿ kende? Ther fore
+               huorlunde siger thenne / <lb/>ieg nidfoer aff himmelen? Tha swarede Jesus oc sagde
+               thennom Murrer icke emellom eder sielffue. Jngen kand komme til meg wden fade ren
+               (hwilken meg wdsende) faar draget han<lb rend="="/>nwm / <lb/>oc ieg skal opwecke
+               hannwm paa then vderste dag. Ther staar schreffuit ÿ Propheter=<note place="right"
+                  >Esaie. liiij.|Hierem. ij.</note> ne. Oc alle skulle wære lærde aff Gud. Ther
+                  fo<pb n="E104" rend="="/>re / <lb/>hwer som haffuer hørd aff faderen / <lb/>oc
+                  haff<lb rend="="/>uer lærd / <lb/>han kommer til meg. Jcke att nogen fick seet
+               faderen / <lb/>foruden then hwilken som er aff Gud / <lb/>then seer faderen.</p>
          </div>
          <div type="head">
             <head><figure type="vignette"/> Diuisio. <figure type="vignette"/></head>
          </div>
          <div>
-            <p><hi rend="font_red"><c function="initials" rend="4">S</c>Andelig sandelig siger ieg eder / <lb/>hwo
-                  som tror paa meg / <lb/>han haffuer thet ewige lÿff. Jeg er thet lÿffsens brød /
-                  <lb/>Eders forfædre aade himmelske brød ÿ ørcken / <lb/>oc the ere døde. Thenne er
-                  thet brød nidstigendis aff himmelen / <lb/>att om nogen æder aff thet / <lb/>han
-                  skal icke døø. Jeg er leffuendis brød / <lb/>hwilken ieg nidstÿg aff himmelen /
-                  <lb/>om saa er nogen faar ædit aff thette brød han skal leffue ewindelig. Oc thet
-                  brød hwilkit ieg skal giffue er mit legomme hwilkit ieg skal giffue for werdzens
-                  lÿff. Ther fore toge Jøderne til att trættis emello<ex>m</ex> seg / <lb/>sigendis.
-                  Hworledis ka<ex>n</ex> thenne giffue oss thet sitt lego<ex>m</ex>me att æde?
-                     For<lb rend="="/>thi sagde Jesus thennom. Sandelig sandelig siger ieg eder.
-                  Wden ÿ faa ædit menniskens søns legomme / <lb/>oc druckid hans blod / <lb/>ÿ
-                  haffue icke lÿff wdi eder. Hwo somhelst æder mit le<lb rend="="/>gomme / <lb/>oc
-                  dricker mit blod / <lb/>han haffuer thet ewige lÿff / <lb/>oc ieg skal opwecke
-                  hannwm paa then vderste dag.</hi></p>
+            <p><c function="initials" rend="4">S</c>Andelig sandelig siger ieg eder / <lb/>hwo som
+               tror paa meg / <lb/>han haffuer thet ewige lÿff. Jeg er thet lÿffsens brød /
+               <lb/>Eders forfædre aade himmelske brød ÿ ørcken / <lb/>oc the ere døde. Thenne er
+               thet brød nidstigendis aff himmelen / <lb/>att om nogen æder aff thet / <lb/>han skal
+               icke døø. Jeg er leffuendis brød / <lb/>hwilken ieg nidstÿg aff himmelen / <lb/>om
+               saa er nogen faar ædit aff thette brød han skal leffue ewindelig. Oc thet brød
+               hwilkit ieg skal giffue er mit legomme hwilkit ieg skal giffue for werdzens lÿff.
+               Ther fore toge Jøderne til att trættis emello<ex>m</ex> seg / <lb/>sigendis.
+               Hworledis ka<ex>n</ex> thenne giffue oss thet sitt lego<ex>m</ex>me att æde? For<lb
+                  rend="="/>thi sagde Jesus thennom. Sandelig sandelig siger ieg eder. Wden ÿ faa
+               ædit menniskens søns legomme / <lb/>oc druckid hans blod / <lb/>ÿ haffue icke lÿff
+               wdi eder. Hwo somhelst æder mit le<lb rend="="/>gomme / <lb/>oc dricker mit blod /
+               <lb/>han haffuer thet ewige lÿff / <lb/>oc ieg skal opwecke hannwm paa then vderste
+               dag.</p>
          </div>
          <div type="head">
             <head><figure type="vignette"/> Diuisio. <figure type="vignette"/></head>
          </div>
          <div>
-            <p><c function="initials" rend="2">M</c>En mitt kiød er sand mad / <lb/>oc mit <hi rend="font_red">blod
-                  er sand drick / <lb/>hwo somhelst æder</hi>
-               <pb n="E105" ana="LIII."/>
-               <hi rend="font_red">mit kiød / <lb/>oc dricker mit blod / <lb/>han bliffuer wdi meg / <lb/>oc ieg wdi
-                  hannwm. Saa som then leff<lb rend="="/>uendis fader wdsende meg / <lb/>oc ieg
-                  leffuer for fa deren / <lb/>saa oc hwilken faar ædit meg / <lb/>han sielff skal
-                  leffue fore meg. Thenne er thet leffuendis brød / <lb/>hwilken nederfoer aff
-                     himmele<ex>n</ex>. Jcke saa som eders forfædre haffue æditt himmelske brød oc
-                  ere døde. Hwo som æder thette brød / <lb/>han skal leffue ewindelig.</hi></p>
+            <p><c function="initials" rend="2">M</c>En mitt kiød er sand mad / <lb/>oc mit blod er
+               sand drick / <lb/>hwo somhelst æder <pb n="E105" ana="LIII."/> mit kiød / <lb/>oc
+               dricker mit blod / <lb/>han bliffuer wdi meg / <lb/>oc ieg wdi hannwm. Saa som then
+                  leff<lb rend="="/>uendis fader wdsende meg / <lb/>oc ieg leffuer for fa deren /
+               <lb/>saa oc hwilken faar ædit meg / <lb/>han sielff skal leffue fore meg. Thenne er
+               thet leffuendis brød / <lb/>hwilken nederfoer aff himmele<ex>n</ex>. Jcke saa som
+               eders forfædre haffue æditt himmelske brød oc ere døde. Hwo som æder thette brød /
+               <lb/>han skal leffue ewindelig.</p>
          </div>
          <div type="head">
             <head>&#x00B6; Then Christne forsamling oc Chorid siunge tilhaabe Credo.</head>
@@ -2610,11 +2770,10 @@
             <head>&#x00B6; Deus misereatur nostri.</head>
          </div>
          <div>
-            <p>&#x00B6; <hi rend="font_red">Thenne Psalme siungis effter</hi> predicken med hwilken then Christne
-               for samling tacker Gud for alle sÿne welgi<lb rend="="/>erninger. Oc serdelis for
-               thet glædelig budskaff oc aandelig spÿse / <lb/>føde oc we<lb rend="="/>derqwegelse /
-               <lb/>med hwilke han (dag fraa <hi rend="center">dag) styrcker oc wederqweger sÿ<lb
-                     rend="="/>ne wdwalde.</hi></p>
+            <p>&#x00B6; Thenne Psalme siungis effter predicken med hwilken then Christne for samling
+               tacker Gud for alle sÿne welgi<lb rend="="/>erninger. Oc serdelis for thet glædelig
+               budskaff oc aandelig spÿse / <lb/>føde oc we<lb rend="="/>derqwegelse / <lb/>med
+               hwilke han (dag fraa dag) styrcker oc wederqweger sÿ<lb rend="="/>ne wdwalde.</p>
             <p><c function="initials" rend="3">N</c>W er oss Gud miskundelig / <lb/>oc<note
                   place="right">Psal. lxvj.</note> han wil oss welsigne / <lb/>sitt ansigt offuer
                iorderig / <lb/>thet lader han <pb n="E108"/> nw skine. Att wÿ paa iorden maa forstaa
@@ -2641,59 +2800,54 @@
                enarratio.</head>
          </div>
          <div>
-            <p><space extent="2blanks"/>&#x00B6; <hi rend="font_red">Een kort formaning som er Pater noster med sÿn
-                  beslutting oc wdlæggelse. Hwilken then Christne kirckiṣ{??} tiæner eller Biscop /
-                     <lb/>haff<lb rend="="/>uer til then Christne forsamling / <lb/>att hiukomme
-                  hwad hun skal bede aff Gud / <lb/>oc achte hwad han wil wor begæring skal wære til
-                  hannwm.</hi></p>
-            <p><hi rend="font_red"><c function="initials" rend="4">A</c>Lsomkiæriste wenner Jesu Christi / <lb/>Men
-                  saa er att wÿ ere her forsamle<lb rend="="/>de ÿ wor Herris Jesu Christi naffn /
-                  <lb/>hans hellige Testamente att annam me. Saa formaner ieg eder ÿ thet første /
-                  <lb/>att ÿ opløffte eders hierter til Gud / <lb/>oc bede med meg<note
-                     place="right">Matth. vj.</note> Pater noster / <lb/>saa som Jesus Christus
-                  haffuer lærd oss / <lb/>oc loffuit oss thet (til stor glæde) att wÿ skulle
-                  bønhøres.</hi></p>
-            <p><hi rend="font_red"><c function="initials" rend="4">A</c>Tt Gud wor himmelske fader wille miskundelig
-                  see til oss sÿne ælende<note place="right">Math: vj.|Luce. xj.</note> børn her paa
-                  iorden / <lb/>oc giffue oss sÿn naade / <lb/>att hans hellige naffn ib<lb rend="="
-                  />lant oss oc all werden motte helligt giøris / <lb/>med sÿne eghne ords rene oc
-                  sande lærdom / <lb/>oc wid een brendendis kierlighed ÿ wort leffnet. Att</hi>
-               <pb n="E110"/>
-               <hi rend="font_red">han oc millelig wilde affwende all kettersk oc falsk lærdom / <lb/>ther hans
-                  werdige oc hellige na<lb rend="="/>ffn kan lastris oc skendis med.</hi></p>
-            <p><space extent="2blanks"/><hi rend="font_red">ij. Att hans rÿge motte tilkomme oc forø<lb rend="="
-                  />gis. Oc alle syndige menniske forblindede oc fangne wdi dieffuelsens rÿge motte
-                  hentis til<lb rend="="/>bage igien fraa hannwm / <lb/>till then sande trois
-                  bekendelse / <lb/>som er til Christum Jesum / <lb/>att thet Christne menniskers
-                  tal motte forøgis oc bliff<lb rend="="/>ue større.</hi></p>
-            <p><space extent="2blanks"/><hi rend="font_red">iij. Att wÿ oc saa med ha<ex>n</ex>s aand motte styrc
-                  kis / <lb/>til att fuldkomme hans wilie. Oc att for<lb rend="="/>drage saa wel ÿ
-                  leffnedet som ÿ døden / <lb/>saa wel ÿ modgang som ÿ medgang bode ont oc got /
-                  <lb/>saa / <lb/>att wÿ wor wilie bryde / <lb/>offre oc døde.</hi></p>
-            <p><space extent="2blanks"/><hi rend="font_red">iiij. Att han wilde oc werdis att giffue oss wort
-                  daglige brød / <lb/>oc forwaare oss fraa all gi<lb rend="="/>righed / <lb/>lÿfsens
-                  vbeskickelig forsørring / <lb/>oc tÿme lig nærings omhyggelighed. Oc giøre oss saa
-                  til sinde / <lb/>att wÿ motte forlade oss paa hannwm ÿ all wor
-                  nødtørtelighed.</hi></p>
-            <p><space extent="2blanks"/><hi rend="font_red">v. Att han oc wilde forlade oss wor skyld / <lb/>saa som
-                  wÿ forlade wore skyldenere / <lb/>att wort hierte motte haffue een glad oc tryg
-                  samwittighed / <lb/>oc aldrig forferde seg eller frycte for noge<ex>n</ex> synd /
-                  <lb/>oc ey forskrecke seg aff syndsens storhed.</hi></p>
-            <p><space extent="2blanks"/><hi rend="font_red">vj. Att han oc icke wilde indlede oss ÿ frestel<lb
-                     rend="="/>se / <lb/>men heller hielpe oc styrcke wor skrøbelighed med sÿn aand
-                  / <lb/>att spæge legomid / <lb/>oc forsmaa werden med sÿn vbeskickelig begæring oc
-                  wæ=</hi>
-               <pb n="E111" ana="LVI."/>
-               <hi rend="font_red">sen / <lb/>oc offuerwinde dieffuelen / <lb/>med all sÿn fal<lb rend="="/>sked oc
-                  swÿg.</hi></p>
-            <p><space extent="2blanks"/><hi rend="font_red">vij. Att han wilde fremdelis frelse oss fraa ont /
-                  <lb/>bode legomligt oc aandeligt / <lb/>tÿmeligt oc ewigt.</hi></p>
-            <p><space extent="2blanks"/><hi rend="font_red">viij. Hwilke thette sandelig begære / <lb/>the si<lb
-                     rend="="/>ge aff hiertet / <lb/>A M E N.</hi></p>
-            <p><space extent="2blanks"/><hi rend="font_red">ix. For wden all twil troendis att thette er wist oc ia
-                  / <lb/>oc er hørd wdi himmelen / <lb/>effter Chri sti eghet løffte oc tilsielse.
-                  Att hwad ÿ bede tror<note place="right">Math. xxj.</note> att ÿ skulle faa thet /
-                  <lb/>oc thet skal eder giffuis / <lb/><hi rend="center">A M E N.</hi></hi></p>
+            <p><space extent="2blanks"/>&#x00B6; Een kort formaning som er Pater noster med sÿn
+               beslutting oc wdlæggelse. Hwilken then Christne kirckiṣ{??} tiæner eller Biscop /
+                  <lb/>haff<lb rend="="/>uer til then Christne forsamling / <lb/>att hiukomme hwad
+               hun skal bede aff Gud / <lb/>oc achte hwad han wil wor begæring skal wære til
+               hannwm.</p>
+            <p><c function="initials" rend="4">A</c>Lsomkiæriste wenner Jesu Christi / <lb/>Men saa
+               er att wÿ ere her forsamle<lb rend="="/>de ÿ wor Herris Jesu Christi naffn /
+               <lb/>hans hellige Testamente att annam me. Saa formaner ieg eder ÿ thet første /
+               <lb/>att ÿ opløffte eders hierter til Gud / <lb/>oc bede med meg<note place="right"
+                  >Matth. vj.</note> Pater noster / <lb/>saa som Jesus Christus haffuer lærd oss /
+               <lb/>oc loffuit oss thet (til stor glæde) att wÿ skulle bønhøres.</p>
+            <p><c function="initials" rend="4">A</c>Tt Gud wor himmelske fader wille miskundelig see
+               til oss sÿne ælende<note place="right">Math: vj.|Luce. xj.</note> børn her paa iorden
+               / <lb/>oc giffue oss sÿn naade / <lb/>att hans hellige naffn ib<lb rend="="/>lant oss
+               oc all werden motte helligt giøris / <lb/>med sÿne eghne ords rene oc sande lærdom /
+               <lb/>oc wid een brendendis kierlighed ÿ wort leffnet. Att <pb n="E110"/> han oc
+               millelig wilde affwende all kettersk oc falsk lærdom / <lb/>ther hans werdige oc
+               hellige na<lb rend="="/>ffn kan lastris oc skendis med.</p>
+            <p><space extent="2blanks"/>ij. Att hans rÿge motte tilkomme oc forø<lb rend="="/>gis.
+               Oc alle syndige menniske forblindede oc fangne wdi dieffuelsens rÿge motte hentis
+                  til<lb rend="="/>bage igien fraa hannwm / <lb/>till then sande trois bekendelse /
+               <lb/>som er til Christum Jesum / <lb/>att thet Christne menniskers tal motte forøgis
+               oc bliff<lb rend="="/>ue større.</p>
+            <p><space extent="2blanks"/>iij. Att wÿ oc saa med ha<ex>n</ex>s aand motte styrc kis /
+               <lb/>til att fuldkomme hans wilie. Oc att for<lb rend="="/>drage saa wel ÿ leffnedet
+               som ÿ døden / <lb/>saa wel ÿ modgang som ÿ medgang bode ont oc got / <lb/>saa /
+               <lb/>att wÿ wor wilie bryde / <lb/>offre oc døde.</p>
+            <p><space extent="2blanks"/>iiij. Att han wilde oc werdis att giffue oss wort daglige
+               brød / <lb/>oc forwaare oss fraa all gi<lb rend="="/>righed / <lb/>lÿfsens
+               vbeskickelig forsørring / <lb/>oc tÿme lig nærings omhyggelighed. Oc giøre oss saa
+               til sinde / <lb/>att wÿ motte forlade oss paa hannwm ÿ all wor nødtørtelighed.</p>
+            <p><space extent="2blanks"/>v. Att han oc wilde forlade oss wor skyld / <lb/>saa som wÿ
+               forlade wore skyldenere / <lb/>att wort hierte motte haffue een glad oc tryg
+               samwittighed / <lb/>oc aldrig forferde seg eller frycte for noge<ex>n</ex> synd /
+               <lb/>oc ey forskrecke seg aff syndsens storhed.</p>
+            <p><space extent="2blanks"/>vj. Att han oc icke wilde indlede oss ÿ frestel<lb rend="="
+               />se / <lb/>men heller hielpe oc styrcke wor skrøbelighed med sÿn aand / <lb/>att
+               spæge legomid / <lb/>oc forsmaa werden med sÿn vbeskickelig begæring oc wæ= <pb
+                  n="E111" ana="LVI."/> sen / <lb/>oc offuerwinde dieffuelen / <lb/>med all sÿn
+                  fal<lb rend="="/>sked oc swÿg.</p>
+            <p><space extent="2blanks"/>vij. Att han wilde fremdelis frelse oss fraa ont / <lb/>bode
+               legomligt oc aandeligt / <lb/>tÿmeligt oc ewigt.</p>
+            <p><space extent="2blanks"/>viij. Hwilke thette sandelig begære / <lb/>the si<lb
+                  rend="="/>ge aff hiertet / <lb/>A M E N.</p>
+            <p><space extent="2blanks"/>ix. For wden all twil troendis att thette er wist oc ia /
+               <lb/>oc er hørd wdi himmelen / <lb/>effter Chri sti eghet løffte oc tilsielse. Att
+               hwad ÿ bede tror<note place="right">Math. xxj.</note> att ÿ skulle faa thet / <lb/>oc
+               thet skal eder giffuis / <lb/>A M E N.</p>
          </div>
          <div type="head">
             <head>&#x00B6; Een lofsang som Chorid oc then Christne forsamling siunge.</head>
@@ -2706,34 +2860,33 @@
                   >Esaie. vj.</note> Herre Gud Sabaot. Himmel oc iorden er forfylt med thÿn ære
                Salig giør oss wdi thet offuerste. Bene didet wære then ther kommer ÿ Herrens<note
                   place="right">Math. x.</note> naffn. Salig giør oss wdi thet offuerste.</p>
-            <p>&#x00B6; <hi rend="font_red">Effter tesse cereme{??}nier kommer</hi> thet rette messe embede /
-               <lb/>som er Christi nadworis oc Testamentis ord / <lb/>ÿ hwilke hwer Christne
-               menniskis hierte som wil <pb n="E112"/> gaa til Guds bord / <lb/>skal stadfestis oc
-                  vn<lb rend="="/>derwÿsis om Gud faders wilie till han<lb rend="="/>nwm / <lb/>ÿ
-               hans kiære søn oc thet samme ihukomme. Oc kundgiøre Herrens død <note place="left">j.
-                  Corint. xj</note>indtil han kommer. Wid hwilken wÿ haffue syndzens forladelse /
-               <lb/>hwilken oss besegeld er med brøds oc wÿns / <lb/>thet er / <lb/>legoms oc blods
+            <p>&#x00B6; Effter tesse cereme{??}nier kommer thet rette messe embede / <lb/>som er
+               Christi nadworis oc Testamentis ord / <lb/>ÿ hwilke hwer Christne menniskis hierte
+               som wil <pb n="E112"/> gaa til Guds bord / <lb/>skal stadfestis oc vn<lb rend="="
+               />derwÿsis om Gud faders wilie till han<lb rend="="/>nwm / <lb/>ÿ hans kiære søn oc
+               thet samme ihukomme. Oc kundgiøre Herrens død <note place="left">j. Corint.
+               xj</note>indtil han kommer. Wid hwilken wÿ haffue syndzens forladelse / <lb/>hwilken
+               oss besegeld er med brøds oc wÿns / <lb/>thet er / <lb/>legoms oc blods
                Sacramente.</p>
          </div>
          <div type="head">
             <head>&#x00B6; Her effter tager presten brødet ÿ henderne oc siger.</head>
          </div>
          <div>
-            <p><space extent="2blanks"/>&#x00B6; <hi rend="font_red">Wor Herre Jesus Christus <note place="left">j.
-                     Corint. xj|Mat. xxvj.|Marc. xiiij|Luce. xxij.</note>ÿ then nat ther han bleff
-                  forraad / <lb/>tog ha<ex>n</ex> brødet / <lb/>tackede oc brød thet / <lb/>oc gaff
-                  sÿne disciple oc sagde. Ta<lb rend="="/>ger thet hæn oc æderid / <lb/>thet er mit
-                  legome som bliffuer giffuit for eder: thet giører ÿ mÿn hukommelse.</hi></p>
+            <p><space extent="2blanks"/>&#x00B6; Wor Herre Jesus Christus <note place="left">j.
+                  Corint. xj|Mat. xxvj.|Marc. xiiij|Luce. xxij.</note>ÿ then nat ther han bleff
+               forraad / <lb/>tog ha<ex>n</ex> brødet / <lb/>tackede oc brød thet / <lb/>oc gaff
+               sÿne disciple oc sagde. Ta<lb rend="="/>ger thet hæn oc æderid / <lb/>thet er mit
+               legome som bliffuer giffuit for eder: thet giører ÿ mÿn hukommelse.</p>
             <p><hi rend="center">Nw løffter han oc strax ther effter tager han kalken ÿ henderne oc
                   siger.</hi></p>
             <note place="left">Mat. xxvj.|Marc. xiiij|Luce. xxij.</note>
-            <p><space extent="2blanks"/>&#x00B6; <hi rend="font_red">Lÿge maade tog han oc kal<lb rend="="/>ken
-                  effter afftens maaltÿd oc sagde.</hi>
-               <pb n="E113" ana="LVII."/>
-               <hi rend="font_red">Tager oc dricker allesammen ther<note place="right">j. Corint. xj</note> aff /
-                  <lb/>thette er thet ny Testamentis kalk ÿ mitt blod / <lb/>thet som bliffuer
-                  wdgiffuid for eder / <lb/>oc for mange til syndernis forladelse / <lb/>thette
-                  giører saa offte som ÿ dricke ÿ mÿn hu<lb rend="="/>kommelse.</hi></p>
+            <p><space extent="2blanks"/>&#x00B6; Lÿge maade tog han oc kal<lb rend="="/>ken effter
+               afftens maaltÿd oc sagde. <pb n="E113" ana="LVII."/> Tager oc dricker allesammen
+                  ther<note place="right">j. Corint. xj</note> aff / <lb/>thette er thet ny
+               Testamentis kalk ÿ mitt blod / <lb/>thet som bliffuer wdgiffuid for eder / <lb/>oc
+               for mange til syndernis forladelse / <lb/>thette giører saa offte som ÿ dricke ÿ mÿn
+                  hu<lb rend="="/>kommelse.</p>
          </div>
          <div type="head">
             <head>&#x00B6; Nw løffter han / <lb/>oc men begyn<lb rend="="/>der Chorid eller then
@@ -2801,8 +2954,8 @@
                ewige lÿff.</p>
             <p><space extent="2blanks"/>&#x00B6; Jhesu Christi blods deelactighed wære teg til hielp
                oc trøst / <lb/>AMEN.</p>
-            <p>&#x00B6; <hi rend="font_red">Een gudelig oc krafftig lofsang</hi> / <lb/>att siunge ÿ Christi nadwore
-               / <lb/>nar Christi brud skal gaa til Guds bord / <lb/>først att an na<ex>m</ex>me
+            <p>&#x00B6; Een gudelig oc krafftig lofsang / <lb/>att siunge ÿ Christi nadwore /
+               <lb/>nar Christi brud skal gaa til Guds bord / <lb/>først att an na<ex>m</ex>me
                aandelig med troens mund Chri sti legomme / <lb/>oc dricke med troens læber <pb
                   n="E116"/>
                <note place="left">Johan. vj.</note>Christi blod / <lb/>som Christus siger sielff
@@ -2895,8 +3048,8 @@
             <p><hi rend="center">Chorid swarer Amen. &#x00B6; Nw wender han seg til fol<lb rend="="
                   />kit oc siger.</hi></p>
             <p><space extent="2blanks"/>Herren wære med eder.</p>
-            <p><hi rend="center">Swar. Oc med thÿn aand. &#x00B6; <hi rend="font_red">Welsignelsen offuer
-                     folkit</hi> effter Messen.</hi></p>
+            <p rend="center">Swar. Oc med thÿn aand. &#x00B6; Welsignelsen offuer folkit effter
+               Messen.</p>
             <p><c function="initials" rend="3">W</c>Or Herre welsigne teg oc / <lb/>be<lb rend="="
                />skerme teg / <lb/>oc aabenbare teg sitt ansigt / <lb/>oc wære teg miskun delig oc
                wende sitt ansigt til teg / <lb/>oc giff<lb rend="="/>ue teg fred. Swar. Amen.</p>
@@ -2946,8 +3099,8 @@
                   rend="="/>sens leilighed / <lb/>dog beqwemmelig indsat oc indførd.</head>
          </div>
          <div>
-            <p><hi rend="font_red">Dominus vobiscum.</hi> Herren were med eder. Swar. Oc med thÿn aand. <hi rend="font_red">Sursum
-                  corda.</hi> Wore hierter op ÿ himmelen. Swar.</p>
+            <p>Dominus vobiscum. Herren were med eder. Swar. Oc med thÿn aand. Sursum corda. Wore
+               hierter op ÿ himmelen. Swar.</p>
             <p><space extent="2blanks"/>Wÿ haffue thennom til Herren.</p>
 
             <pb n="E123" ana="LXII."/>
@@ -2957,10 +3110,10 @@
             <head>&#x00B6; Nw siunger presten. Vere dignum et iustum est.</head>
          </div>
          <div>
-            <p><hi rend="font_red"><c function="initials" rend="3">S</c>Andelig er thet werdigt oc retwÿst
-                  tilbørligt oc hil<lb rend="="/>somt / <lb/>att wÿ altÿd oc alle stæder / <lb/>teg
-                  skulle loffue oc tacke. O Herre hellige fader almectigste e<lb rend="="/>wige Gud
-                  / <lb/>wid Jesum Christum wor Herre AMEN.</hi></p>
+            <p><c function="initials" rend="3">S</c>Andelig er thet werdigt oc retwÿst tilbørligt oc
+                  hil<lb rend="="/>somt / <lb/>att wÿ altÿd oc alle stæder / <lb/>teg skulle loffue
+               oc tacke. O Herre hellige fader almectigste e<lb rend="="/>wige Gud / <lb/>wid Jesum
+               Christum wor Herre AMEN.</p>
          </div>
          <div type="head">
             <head><figure type="vignette"/> Her endis Messen. <figure type="vignette"/></head>
@@ -3058,12 +3211,11 @@
          <pb n="E128"/>
          <div type="index">
             <div>
-               <p>&#x00B6; <hi rend="font_red">Eet Register offuer then<lb rend="="/>ne Sangbog. Wdi hwilket
-                     man</hi> kan lettelig opsøge oc finde saa mange Psalmer / <lb/>lofsange /
-                  <lb/>aandelig wÿser / <lb/>oc hwess andit her er begerbit ÿ the<ex>n</ex>ne bog.
-                  Oc staar ther hooss hwer sang eet tal paa <hi rend="center">hwilkit blad han
-                     findis ÿ bogen / <lb/>oc samme tal finder man altÿd o<lb rend="="/>uerst paa
-                     hwert blad paa then første sÿde.</hi></p>
+               <p>&#x00B6; Eet Register offuer then<lb rend="="/>ne Sangbog. Wdi hwilket man kan
+                  lettelig opsøge oc finde saa mange Psalmer / <lb/>lofsange / <lb/>aandelig wÿser /
+                  <lb/>oc hwess andit her er begerbit ÿ the<ex>n</ex>ne bog. Oc staar ther hooss
+                  hwer sang eet tal paa hwilkit blad han findis ÿ bogen / <lb/>oc samme tal finder
+                  man altÿd o<lb rend="="/>uerst paa hwert blad paa then første sÿde.</p>
             </div>
             <div>
                <list>
@@ -3322,8 +3474,8 @@
                </list>
             </div>
             <div>
-               <p><hi rend="center">&#x00B6; <hi rend="font_red">Trycht ÿ Rozstock hooss Ludowich Dietz. xx.
-                        Nouembris.</hi> M. D. XXiX.</hi></p>
+               <p rend="center">&#x00B6; Trycht ÿ Rozstock hooss Ludowich Dietz. xx. Nouembris. M.
+                  D. XXiX.</p>
                <figure type="vignette"/>
             </div>
 
