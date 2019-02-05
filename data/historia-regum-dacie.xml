@@ -3,8 +3,16 @@
         <fileDesc>
             <titleStmt>
                 <title>Historia Regum Dacie</title>
-                <author>Sven Aggesøn</author>
-                <editor>Tue Søvsø</editor>
+                <author xml:id="sven-aggesen">Sven Aggesen</author>
+		<editor>
+                    <name xml:id="ts">
+                        <persName>
+                            <forename type="first">Tue</forename>
+                            <surname>Søvsø</surname>
+                        </persName>
+                    </name>
+            </editor>
+	    <funder>Forskningsrådet for Kultur og Kommunikation</funder>
             </titleStmt>
             <publicationStmt>
                 <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
@@ -19,14 +27,16 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl>ed. M. Cl. Gertz, Scriptores Minores Historiæ Danicæ I (1917-1918)</bibl>
-                
             </sourceDesc>
         </fileDesc>
         <profileDesc>
             <creation>
                 <date when="1300">ca. 1300</date>
             </creation>
-            <abstract>nil</abstract><langUsage>
+	    <abstract>
+		    <ab>Den tidligst kendte Danmarkshistorie, som kan tilskrives en navngiven forfatter.</ab>
+		</abstract>
+		<langUsage>
                 <language ident="la" />
             </langUsage>
             <textClass>

@@ -4,7 +4,29 @@
             <titleStmt>
                 <title>Rimkrøniken (Ghemen, 1495)</title>
                 <author>empty</author>
-                <editor>Marita Akhøj Nielsen</editor>
+
+                <editor> <name xml:id="ss">
+                    <persName>
+                        <forename type="first">Simon</forename><forename>Skovgaard</forename>
+                        <surname>Boeck</surname>
+                    </persName>
+                </name></editor><editor> <name xml:id="jon">
+                    <persName>
+                        <forename type="first">Jonathan</forename>
+                        <surname>Adans</surname>
+                    </persName>
+                </name></editor>
+
+		<editor>
+                    <name xml:id="man">
+                        <persName>
+                            <forename type="first">Marita</forename>
+                            <forename type="middle">Akhøj</forename>
+                            <surname>Nielsen</surname>
+                        </persName>
+                    </name>
+            </editor>
+<funder>Statens Humanistiske Forskningsråd</funder>
             </titleStmt>
             <publicationStmt>
                 <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
@@ -25,7 +47,7 @@
                                 <settlement>København</settlement>
                                 <repository>Det Kongelige Bibliotek, UB</repository>
                                 <idno>E 2175,4°</idno>
-                                <msName>nil</msName>
+                                <msName>empty</msName>
                             </msIdentifier>
                         </msDesc>
                     </witness>
@@ -36,7 +58,7 @@
             <creation>
                 <date when="1495">1495</date>
             </creation>
-            <abstract>nil</abstract><langUsage>
+            <abstract><ab>Danmarks historie fortalt af de skiftende regenter på vers. Fra sagnkongen Humle til Christiern I beretter de danske konger til almen opbyggelse om deres gerninger og død.</ab></abstract><langUsage>
                 <language ident="gda" />
             </langUsage>
             <textClass>
@@ -47,18 +69,22 @@
         </profileDesc>
     </teiHeader>
     <text>
-        <body>
-            <div>
-                <lb n="1" />
+	    <front>
+            <titlePage rend="center">
+                <docTitle>
+			<titlePart type="desc"><pb ed="1" n="a1r" /> ¶ Hær begynner th<ex>e</ex>n danskæ</titlePart>
+			<titlePart>Krønnickæ</titlePart>
+			<titlePart type="desc">well offuerseet oc ræth.</titlePart>
+		</docTitle>
+		<figure>
+                    <desc>Træsnit med portræt</desc>
+                </figure>
+            </titlePage>
+            <div type="toc">
                 <head type="add">Indholdsfortegnelse</head>
                 <head type="original">
-                    <pb ed="1" n="a1r" /> ¶ Hær begynner th<ex>e</ex>n danskæ Krønnickæ <lb n="2" />
-                    well offuerseet oc ræth.</head>
-                <p>
-                    
-                    <list>
-                        <item>
-                            <pb ed="2" n="a1v" /> Abel folio lxxvij</item>
+                    <list rend="simple">
+                        <item><pb ed="2" n="a1v" /> Abel folio lxxvij</item>
                         <item>Ambled folio xi</item>
                         <item>Baldher x</item>
                         <item>Butlæ xxxvi</item>
@@ -124,14 +150,13 @@
                         <item>Harald biørnss<ex>øn</ex> xl</item>
                         <item>humgher xlvij</item>
                         <item>harald klack li</item>
+<<<<<<< HEAD
+                        <item>harald gormss<ex>øn</ex> liiij</item>
+                       <pb ed="3" n="a2r" /> <item>harald blodta<ex>n</ex>d lv</item>
+=======
                         <item> harald gormss<ex>øn</ex> liiij</item>
-                    </list>
-                </p>
-                <p>
-                    <list>
-                        <item />
-                        <item>
-                            <pb ed="3" n="a2r" /> harald blodta<ex>n</ex>d lv</item>
+                        <item><pb ed="3" n="a2r" /> harald blodta<ex>n</ex>d lv</item>
+>>>>>>> 52afcde310cb5f8cf7738186fc954b4a538c3be6
                         <item>harald suens<ex>øn</ex> lxij</item>
                         <item>Ingel xxiij</item>
                         <item>Iermer xxxvi</item>
@@ -145,7 +170,7 @@
                         <item>kristoffer lxxvij</item>
                         <item>kristofer erics brod<ex>er</ex> lxxix</item>
                         <item>Kristoffer aff beyern lxxxvij</item>
-                        <item>Kristern</item>
+                        <item>Kristern lxxxviij</item>
                         <item>Lotther hu<ex>m</ex>bles brod<ex>er </ex> v</item>
                         <item>Magnus lxi</item>
                         <item>Margretæ lxxxv</item>
@@ -180,7 +205,7 @@
                         <item> Siwold xxvij</item>
                         <item> Siger xxviij</item>
                         <item> Siwold xxix</item>
-                        <item>lxxxviij Siwerd xxxvi</item>
+                        <item> Siwerd xxxvi</item>
                         <item> Siwald xxxix</item>
                         <item> Snø xxxix</item>
                         <item> Siwerd xlvij</item>
@@ -209,15 +234,11 @@
                         </item>
                         <item> Woldemar lxxxij</item>
                     </list>
-                    
-                </p>
             </div>
-            <div>
-                <head type="add">Prolog</head>
+            <div type="preface" xml:id="christian-3-preface">
+                <head type="add">Forord</head>
                 <lg>
-                    <l>
-                        <pb ed="4" n="a2v" />
-                        <lb n="1" />¶ Wilde gud meg ther tijll nadh<ex>e</ex>n giffuæ<lb n="2" />
+                    <l><pb ed="4" n="a2v" />¶ Wilde gud meg ther tijll nadh<ex>e</ex>n giffuæ<lb n="2" />
                     </l>
                     <l>aff danæ ko<ex>n</ex>ninghæ wilde iegh skriffuæ<lb n="3" />
                     </l>
@@ -262,8 +283,8 @@
                     <l>som bædræ kan draghe tijl mynnæ</l>
                 </lg>
             </div>
+        <body>
             <div>
-                <lb n="23" />
                 <head type="add">Humble</head>
                 <head type="original">¶ Humblæ Danss fadher førstæ <lb n="24" /> Ko<ex>n</ex>ning i
                     Danmark</head>
@@ -1192,7 +1213,7 @@
                 <head type="original">¶ Høtther</head>
                 <lg>
                     <l>
-                        <lb n="7" />¤M¤egh tycker at th<ex>e</ex>n ma<ex>n</ex> ær ey wijs <lb n="8" />
+                        <lb n="7" /><hi rend="initial">M</hi>egh tycker at th<ex>e</ex>n ma<ex>n</ex> ær ey wijs <lb n="8" />
                     </l>
                     <l>som ær begerænde loff oc prijs <lb n="9" />
                     </l>
@@ -2176,7 +2197,7 @@
                         <lb n="22" />
                         <hi rend="initial">D</hi>och en koning haffuer i syn macth <lb n="23" />
                     </l>
-                    <l>ath gøre hwad ha<ex>n</ex>nu<ex>m</ex>
+                    <l>ath gøre hwad ha<ex>n</ex>nu<ex>m</ex> 
                         <app>
                             <lem>ær i</lem>
                             <rdg>æri <ex>tryk</ex>
@@ -2185,7 +2206,7 @@
                     </l>
                     <l>Tha bør ha<ex>n</ex>nu<ex>m</ex> ey ath gøre wræth <lb n="25" />
                     </l>
-                    <l>i modh th<ex>e</ex>n low som skelig ær sæth<lb n="26" />
+                    <l>i modh th<ex>e</ex>n low som skelig ær sæth<lb n="26" /></l><l>
                         <app>
                             <lem>Atthils</lem>
                             <rdg>Atthilf <ex>tryk</ex>
@@ -3068,7 +3089,7 @@
                     </l>
                     <l>Iegh styrde ey landh oc rygæ wel <lb n="27" />
                     </l>
-                    <l>som meg hade burth m<ex>eth</ex>
+                    <l>som meg hade burth m<ex>eth</ex> 
                         <app>
                             <lem>ræth</lem>
                             <rdg>rath <ex>tryk</ex>
@@ -3581,7 +3602,7 @@
                     </l>
                     <l>Th<ex>e</ex>n swenskæ koni<ex>n</ex>g ha<ex>n</ex> hed rægnoldh <lb n="15" />
                     </l>
-                    <l>ha<ex>n</ex> wor myn how<ex>eth</ex>
+                    <l>ha<ex>n</ex> wor myn how<ex>eth</ex> 
                         <app>
                             <lem>fiændæ</lem>
                             <rdg>ftændæ <ex>tryk</ex>
@@ -3589,7 +3610,7 @@
                         </app>
                         <lb n="16" />
                     </l>
-                    <l>Ha<ex>n</ex>
+                    <l>Ha<ex>n</ex> 
                         <app>
                             <lem>thedæ</lem>
                             <rdg>thencthæ <ex>tryk</ex>
@@ -4624,8 +4645,8 @@
                     </l>
                     <l>The mwæ wæl bæræ theris how<ex>eth</ex> høyth <lb n="16" />
                     </l>
-                    <l>ath th<ex>e</ex>m haffuer sodan æræ møth<lb n="17" />
-                        <app>
+                    <l>ath th<ex>e</ex>m haffuer sodan æræ møth<lb n="17" /></l>
+                        <l><app>
                             <lem>Ath</lem>
                             <rdg>Eth <ex>tryk</ex>
                             </rdg>
@@ -4944,7 +4965,7 @@
                     </l>
                     <l>och ieg attraa tijl da<ex>n</ex>mark baar <lb n="6" />
                     </l>
-                    <l>Tha tog ieg tijl ath pønssa ther paa<lb n="7" />
+                    <l>Tha tog ieg tijl ath pønssa ther paa<lb n="7" /></l><l>
                         <app>
                             <lem>hworlundh</lem>
                             <rdg>howrlundh <ex>tryk</ex>
@@ -5303,8 +5324,8 @@
                     </l>
                     <l>The roddhe meg th<ex>e</ex>m at sla i hiell <lb n="14" />
                     </l>
-                    <l>som ey ku<ex>n</ex>ne krij och aule<lb n="15" />
-                        <app>
+                    <l>som ey ku<ex>n</ex>ne krij och aule<lb n="15" /></l>
+                        <l><app>
                             <lem>Forleweth</lem>
                             <rdg>Forl <ex>herefter ét ulæseligt bogstav og</ex> weth <ex>tryk</ex>
                             </rdg>
@@ -5818,16 +5839,16 @@
                     </l>
                     <l>hwath løn myn siæll skullæ fangæ <lb n="20" />
                     </l>
-                    <l>Ieg lod ha<ex>n</ex>nu<ex>m</ex> redhe eth skiff saa fast<lb n="21" />
-                        <app>
+                    <l>Ieg lod ha<ex>n</ex>nu<ex>m</ex> redhe eth skiff saa fast<lb n="21" /></l>
+                        <l><app>
                             <lem>betacth meth tiwræ hwder</lem>
                             <rdg>ath seglæ m<ex>eth</ex> tijl the gwder <ex>tryk</ex>
                             </rdg>
                         </app>
                         <lb n="22" />
                     </l>
-                    <l>Och fik ha<ex>n</ex>nu<ex>m</ex> retskaff m<ex>eth</ex> en hast<lb n="23" />
-                        <app>
+                    <l>Och fik ha<ex>n</ex>nu<ex>m</ex> retskaff m<ex>eth</ex> en hast<lb n="23" /></l>
+                        <l><app>
                             <lem>ath seglæ m<ex>eth</ex> tijl the gwder</lem>
                             <rdg>betacth meth tiwræ hwder <ex>tryk</ex>
                             </rdg>
@@ -5936,8 +5957,8 @@
                     </l>
                     <l>tw skalt ha<ex>n</ex>nu<ex>m</ex> lade lyggæ <lb n="14" />
                     </l>
-                    <l>Wth<ex>e</ex>n tw sier meg tre<ex>n</ex>ne ordh<lb n="15" />
-                        <app>
+                    <l>Wth<ex>e</ex>n tw sier meg tre<ex>n</ex>ne ordh<lb n="15" /></l>
+                        <l><app>
                             <lem>som</lem>
                             <rdg>om <ex>tryk</ex>
                             </rdg>
@@ -6181,8 +6202,8 @@
                     </l>
                     <l>m<ex>eth</ex> allæ syne land saa wenæ <lb n="9" />
                     </l>
-                    <l>Tha kom keyser karll i tydeskæ landh<lb n="10" />
-                        <app>
+                    <l>Tha kom keyser karll i tydeskæ landh<lb n="10" /></l>
+                        <l><app>
                             <lem>och</lem>
                             <rdg>ocg <ex>tryk</ex>
                             </rdg>
@@ -6432,7 +6453,7 @@
             <div>
                 <lb n="23" />
                 <head type="add">Regner, Sigvards søn, kaldet Lodbrog</head>
-                <head type="original">¶ Regner sywardss<ex>øn</ex> kall<ex>et</ex>
+                <head type="original">¶ Regner sywardss<ex>øn</ex> kall<ex>et</ex> 
                     <app>
                         <lem>lodbrog</lem>
                         <rdg>lodbrøg <ex>tryk</ex>
@@ -6926,8 +6947,8 @@
                             <lem>norma<ex>n</ex>di indh</lem>
                             <rdg>norma<ex>n</ex> indh <ex>tryk</ex>
                             </rdg>
-                        </app>
-                        <lb n="18" />th<ex>et</ex> gode land m<ex>eth</ex> frwcth oc wijn <lb n="19" />
+                    </app><lb n="18" /></l>
+                        <l>th<ex>et</ex> gode land m<ex>eth</ex> frwcth oc wijn <lb n="19" />
                     </l>
                     <l>Ther løstæ th<ex>e</ex>m tha at byggæ oc boo <lb n="20" />
                     </l>
@@ -7075,8 +7096,8 @@
                     </l>
                     <l>och skullæ ther ko<ex>n</ex>ning bliffue <lb n="20" />
                     </l>
-                    <l>Th<ex>e</ex>n cristene thro aff al myn acth<lb n="21" />
-                        <app>
+                    <l>Th<ex>e</ex>n cristene thro aff al myn acth<lb n="21" /></l>
+                        <l><app>
                             <lem>thæncthe</lem>
                             <rdg>thæncthø <ex>tryk</ex>
                             </rdg>
@@ -7362,12 +7383,12 @@
                     </l>
                     <l>Som ieg i førstæ søffen tha laa <lb n="19" />
                     </l>
-                    <l>saa wynderligæ meg th<ex>et</ex>
+                    <l>saa wynderligæ meg th<ex>et</ex> 
                         <app>
                             <lem>totthæ</lem>
                             <rdg>tøtthæ <ex>med senere tilføjet ø-streg; tryk</ex>
                             </rdg>
-                        </app>
+                        </app></l><l>
                         <lb n="20" />Aff he<ex>n</ex>nes skødh fluæ fwlæ thoo <lb n="21" />
                     </l>
                     <l>saa høgth som <app>
@@ -7473,7 +7494,7 @@
                     </l>
                     <l>Th<ex>e</ex>n stadh ha<ex>n</ex>s fadher byggæ lodh <lb n="6" />
                     </l>
-                    <l>som sleswigh staar da<ex>n</ex>mark i modh<lb n="7" />
+                    <l>som sleswigh staar da<ex>n</ex>mark i modh<lb n="7" /></l><l>
                         <app>
                             <lem>Och</lem>
                             <rdg>Tch <ex>tryk</ex>
@@ -7594,12 +7615,12 @@
                     </l>
                     <l>Tha swarede meg saa ma<ex>n</ex>gen deylig swen <lb n="4" />
                     </l>
-                    <l>wij willæ ey woffue wore liff m<ex>eth</ex>
+                    <l>wij willæ ey woffue wore liff m<ex>eth</ex> 
                         <app>
                             <lem>th<ex>e</ex>n</lem>
                             <rdg>th<ex>e</ex>m <ex>tryk</ex>
                             </rdg>
-                        </app>
+                        </app></l><l>
                         <lb n="5" />Som oss ladher draffue som ander øgh <lb n="6" />
                     </l>
                     <l>th<ex>et</ex> syæ wij allæ for wth<ex>e</ex>n føgh <lb n="7" />
@@ -7941,8 +7962,8 @@
                             <lem>fiern</lem>
                             <rdg>(fiern <ex>på linje 16; tryk</ex>
                             </rdg>
-                        </app>
-                        <lb n="18" />Aff sa<ex>n</ex>dsø oc i alma<ex>n</ex>debrynk oc i
+                        </app><lb n="18" /></l>
+                        <l>Aff sa<ex>n</ex>dsø oc i alma<ex>n</ex>debrynk oc i
                             dyregru<ex>n</ex>d <lb n="19" />
                     </l>
                     <l>aff anderosen oc dessamelund <lb n="20" />
@@ -8063,8 +8084,8 @@
                             <lem>blijd</lem>
                             <rdg>mild <ex>tryk</ex>
                             </rdg>
-                        </app>
-                        <lb n="12" />th<ex>et</ex> skullæ i wist befynde <lb n="13" />
+                    </app><lb n="12" /></l>
+                        <l>th<ex>et</ex> skullæ i wist befynde <lb n="13" />
                     </l>
                     <l>Siden ieg wor død ieg wan en strijd <lb n="14" />
                     </l>
@@ -8375,8 +8396,8 @@
                             <lem>grundh</lem>
                             <rdg>grundk <ex>tryk</ex>
                             </rdg>
-                        </app>
-                        <lb n="4" />som ha<ex>n</ex> lodh the i døtzens stwndh <lb n="5" />
+                    </app><lb n="4" /></l>
+                        <l>som ha<ex>n</ex> lodh the i døtzens stwndh <lb n="5" />
                     </l>
                     <l>Ha<ex>n</ex> sporde ath ieg kom dødh tijl land <lb n="6" />
                     </l>
@@ -8890,8 +8911,8 @@
                     </l>
                     <l>thi røffuede the paa da<ex>n</ex>mark ind <lb n="27" />
                     </l>
-                    <l>The meg mellem falsther oc siæland<lb n="28" />
-                        <app>
+                    <l>The meg mellem falsther oc siæland<lb n="28" /></l>
+                        <l><app>
                             <lem>sloffue</lem>
                             <rdg>slolffue <ex>tryk</ex>
                             </rdg>
@@ -9006,7 +9027,7 @@
                     <l>Ha<ex>n</ex> tog meg w<ex>edh</ex> syn høyræ hand <lb n="24" />
                     </l>
                     <l>som ieg hade wæret megh<ex>eth</ex> megtigeræ ma<ex>n</ex>
-                        <lb n="25" />Ha<ex>n</ex> lede meg ind wthi syn eyen sall <lb n="26" />
+                        <lb n="25" /></l><l>Ha<ex>n</ex> lede meg ind wthi syn eyen sall <lb n="26" />
                     </l>
                     <l>som kostelig wor oc megh<ex>eth</ex> prall <lb n="27" />
                     </l>
@@ -9214,7 +9235,7 @@
                     </l>
                     <l>Tijth æmbede wijl ha<ex>n</ex> tagæ fra teg <lb n="29" />
                     </l>
-                    <l>om ha<ex>n</ex>
+                    <l>om ha<ex>n</ex> 
                         <app>
                             <lem>kan</lem>
                             <rdg>kom <ex>tryk</ex>
@@ -9687,7 +9708,7 @@
                             <rdg>keystk <ex>tryk</ex>
                             </rdg>
                         </app>
-                        <lb n="3" />th<ex>e</ex>n glædæ lodh gudh meg sømæ <lb n="4" />
+                        <lb n="3" /></l><l>th<ex>e</ex>n glædæ lodh gudh meg sømæ <lb n="4" />
                     </l>
                     <l>Meth herræ skiold ieg oc offuer wand <lb n="5" />
                     </l>
@@ -9783,7 +9804,7 @@
                             <rdg>ritfue <ex>tryk</ex>
                             </rdg>
                         </app>
-                        <lb n="12" />Bisp Absolon swarede oc ther wthi <lb n="13" />
+                        <lb n="12" /></l><l>Bisp Absolon swarede oc ther wthi <lb n="13" />
                     </l>
                     <l>Th<ex>et</ex> da<ex>n</ex>mark haffuer myn herre saa frij <lb n="14" />
                     </l>
@@ -10093,7 +10114,7 @@
                             <rdg>mynnnæ <ex>tryk</ex>
                             </rdg>
                         </app>
-                        <lb n="6" />Meth hestæ oc andræ kleynodh <lb n="7" />
+                        <lb n="6" /></l><l>Meth hestæ oc andræ kleynodh <lb n="7" />
                     </l>
                     <l>Som ieg the herre giffue lodh <lb n="8" />
                     </l>
@@ -10333,7 +10354,7 @@
                     <l>Tha ieg hade seet th<ex>e</ex>n kappe graa <lb n="27" />
                     </l>
                     <l>ieg sørffde wi hade saa kiffu<ex>et</ex>
-                        <lb n="28" />Ha<ex>n</ex>s acth forna<ex>m</ex> ieg ther saa <lb n="29" />
+                        <lb n="28" /></l><l>Ha<ex>n</ex>s acth forna<ex>m</ex> ieg ther saa <lb n="29" />
                     </l>
                     <l>ha<ex>n</ex> willæ seg i klosther haffue giffu<ex>et</ex>
                     </l>
@@ -10442,12 +10463,12 @@
                     <l>Ath ha<ex>n</ex> th<ex>et</ex> hader som gud tijl hør <lb n="14" />
                     </l>
                     <l>och tagher th<ex>et</ex> gud er giffu<ex>et</ex>
-                        <lb n="15" />Ha<ex>n</ex> maa seg wenthe stort wedher mod <lb n="16" />
+                        <lb n="15" /></l><l>Ha<ex>n</ex> maa seg wenthe stort wedher mod <lb n="16" />
                     </l>
                     <l>Wth<ex>e</ex>n ha<ex>n</ex> gør ther fore skellig bod <lb n="17" />
                     </l>
                     <l>thi ladhe seg heller bliffu<ex>et</ex>
-                        <lb n="18" />Tha ieg fik da<ex>n</ex>marks rigæ bolt <lb n="19" />
+                        <lb n="18" /></l><l>Tha ieg fik da<ex>n</ex>marks rigæ bolt <lb n="19" />
                     </l>
                     <l>Ieg ingh<ex>e</ex>n ma<ex>n</ex> rætwished holt <lb n="20" />
                     </l>
@@ -10500,8 +10521,8 @@
                     </l>
                     <l>saa fore the hiem tijl lande <lb n="13" />
                     </l>
-                    <l>I findorp bleff ieg slawen i hiell<lb n="14" />
-                        <app>
+                    <l>I findorp bleff ieg slawen i hiell<lb n="14" /></l>
+                        <l><app>
                             <lem>Forthi</lem>
                             <rdg>Forrhi <ex>tryk</ex>
                             </rdg>
@@ -10521,11 +10542,11 @@
                     </l>
                     <l>tha ladis ieg ther i mwldæ <lb n="22" />
                     </l>
-                    <l>Nar th ko<ex>m</ex>mer saa nær m<ex>eth</ex> en mand <lb n="23" />
+                    <l>Nar th<ex>et</ex> ko<ex>m</ex>mer saa nær m<ex>eth</ex> en mand <lb n="23" />
                     </l>
                     <l>Ha<ex>n</ex> tha th<ex>et</ex> best forsøge kand <lb n="24" />
                     </l>
-                    <l>om ha<ex>n</ex> haffuer wenner hwlæd</l>
+                    <l>om ha<ex>n</ex> haffuer wenner hwldæ</l>
                 </lg>
             </div>
             <div>
@@ -10545,7 +10566,7 @@
                             <rdg>behold <ex>tryk</ex>
                             </rdg>
                         </app>
-                        <lb n="28" />for ieg wor wng ath styræ <lb n="29" />
+                        <lb n="28" /></l><l>for ieg wor wng ath styræ <lb n="29" />
                     </l>
                     <l>Thi for ieg ind i tydeskæ land</l>
                     <l>
@@ -10854,7 +10875,7 @@
                     <l>ath ieg skullæ th<ex>e</ex>m forsware <lb n="22" />
                     </l>
                     <l>For greffue her Gerd theris størstte wue<ex>n</ex>
-                        <lb n="23" />forthi the reddis ha<ex>n</ex>num saare <lb n="24" />
+                        <lb n="23" /></l><l>forthi the reddis ha<ex>n</ex>num saare <lb n="24" />
                     </l>
                     <l>Siden ieg kom tha i righ<ex>eth</ex> ind <lb n="25" />
                     </l>
@@ -11053,7 +11074,7 @@
                     </l>
                     <l>en xi twsend io<ex>m</ex>frwes affth<ex>e</ex>n at qwælle <lb n="29" />
                     </l>
-                    <l>Och om th<ex>et</ex> i ghen wndher danes hand</l>
+                    <l>Och kom th<ex>et</ex> i ghen wndher danes hand</l>
                     <l>
                         <pb ed="146" n="p3r" />
                         <lb n="1" />oc da<ex>n</ex>marks ko<ex>n</ex>ninges wælle <lb n="2" />
@@ -11185,7 +11206,7 @@
                             <rdg>mærk <ex>tryk</ex>
                             </rdg>
                         </app>
-                        <lb n="5" />och alt i sølff hyn bone <lb n="6" />
+                        <lb n="5" /></l><l>och alt i sølff hyn bone <lb n="6" />
                     </l>
                     <l>Hade ha<ex>n</ex> th<ex>e</ex>m giffu<ex>et</ex> wd aff <app>
                             <lem>syn</lem>
@@ -11257,11 +11278,11 @@
                             <rdg>henseen <ex>tryk</ex>
                             </rdg>
                         </app>
-                        <lb n="8" />hefft søwen vnde søwentech gensen <lb n="9" />
+                        <lb n="8" /></l><l>hefft søwen vnde søwentech gensen <lb n="9" />
                     </l>
                     <l>Wo my de gensen nicht en biten <lb n="10" />
                     </l>
-                    <l>de hensen frage ich nicht en skiten_ <lb n="11" />
+                    <l>de hensen frage ich nicht en skiten <lb n="11" />
                     </l>
                     <l>Thi wdgiorde the theris største macth <lb n="12" />
                     </l>
@@ -11492,7 +11513,7 @@
                     </l>
                     <l>som edher wil a<ex>n</ex>neth rade <lb n="27" />
                     </l>
-                    <l>Forthi th<ex>et</ex>
+                    <l>Forthi th<ex>et</ex> 
                         <app>
                             <lem>ko<ex>m</ex>mer</lem>
                             <rdg>ho<ex>m</ex>mer <ex>tryk</ex>
@@ -12133,14 +12154,22 @@
                     </l>
                     <l>han giorde meg stoer hedher oc æræ <lb n="26" />
                     </l>
+<<<<<<< HEAD
                     <l>Ha<ex>n</ex> gaff meg eth preuilegiu<ex>m</ex>
-                        <lb n="27" />blanth andre gunsther slige <lb n="28" />
+                        <lb n="27" /></l><l>blanth andre gunsther slige <lb n="28" />
                     </l>
                     <l>Ath ieg maa lade holle eth studiu<ex>m</ex>
-                        <lb n="29" />En stæd i danmarks rigæ</l>
+                        <lb n="29" /></l><l>En stæd i danmarks rigæ</l>
                     <l>
                         <pb ed="159" n="q5v" />
                         <lb n="1" />Han gaff meg oc meg<ex>eth</ex> skønt afflath <lb n="2" />
+=======
+		    <l>Ha<ex>n</ex> gaff meg eth preuilegiu<ex>m</ex></l>
+                        <l>blanth andre gunsther slige </l>
+			<l>Ath ieg maa lade holle eth studiu<ex>m</ex></l>
+                        <l>En stæd i danmarks rigæ</l>
+                    <l><pb ed="159" n="q5v" />Han gaff meg oc meg<ex>eth</ex> skønt afflath <lb n="2" />
+>>>>>>> 52afcde310cb5f8cf7738186fc954b4a538c3be6
                     </l>
                     <l>tijl ewigh tijd ath haffue <lb n="3" />
                     </l>
@@ -12197,10 +12226,7 @@
                     <l>m<ex>eth</ex> sendhen kan ieg th<ex>et</ex> drwe <lb n="29" />
                     </l>
                     <l>Saa bleff ieg tha paa kiøbmanhaffn dødh</l>
-                    <l>
-                        <pb ed="160" n="q6r" />
-                        <lb n="1" />i Roskild lawdh i iordhe <lb n="2" />
-                    </l>
+                    <l><pb ed="160" n="q6r" />i Roskild lawdh i iordhe </l>
                     <l>Ieg tacker gud som i all myn nødh <lb n="3" />
                     </l>
                     <l>beskermedhe meg oc wordhe <lb n="4" />
@@ -12221,8 +12247,9 @@
                         swaar <lb n="11" />
                     </l>
                     <l>I trettæn aar och tywe <lb n="12" />
-                    </l>
-                    <l>Her ær wdtrycth och wind lagh<ex>et</ex> paa <lb n="13" />
+                    </l></lg></div><div><head type="add">Epilog</head>
+                        
+                    <lg><l>Her ær wdtrycth och wind lagh<ex>et</ex> paa <lb n="13" />
                     </l>
                     <l>the gernigher store och somme smaa <lb n="14" />
                     </l>
