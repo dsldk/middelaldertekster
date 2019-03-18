@@ -438,16 +438,13 @@
                 <head type="add">Første søndag i advent</head>
                 <head>
                     <pb ana="1" n="E13"/>
-                    <orig>Den<ex>n</ex> Første Søndag <lb/> i Aduent.</orig>
-                    <reg>Første søndag i advent</reg>
-                </head>
-                <div xml:id="foerste-soendag-i-advent-introitus-da" type="chapter">
+                    Den<ex>n</ex> Første Søndag <lb/> i Aduent.
+                                   </head>
+                <div xml:id="foerste-soendag-i-advent-introitus-da">
                     <figure type="image"/>
-                    <head type="add">Introitus (dansk)</head>
-                    <head>
-                        <orig>Introitus dansk.</orig>
-                        <reg>Introitus (dansk)</reg>
-                    </head>
+                    <head type="add">Introitus (dansk): Herre Krist Gud Faders enbårne søn</head>
+                    <head>Introitus dansk.</head>
+                    
                     <notatedMusic>
                         <ptr target="nil"/>
                         <desc>nil</desc>
@@ -508,7 +505,7 @@
                         <l>Men alltid tencke paa dig.</l>
                     </lg>
                 </div>
-                <div type="chapter" xml:lang="la">
+                <div xml:id="introitus-la" xml:lang="la">
                     <head type="add">Introitus (latin)</head>
                     <head>
                         <orig>Introitus lat. <lb/><ref target="#sl-25">Psalm. 25.</ref></orig>
