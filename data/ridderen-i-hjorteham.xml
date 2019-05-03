@@ -25,13 +25,13 @@
             </publicationStmt>
             <sourceDesc>
                 <listWit>
-                    <witness>
+                    <witness xml:id="A">
                         <msDesc>
                             <msIdentifier>
                                 <settlement>Linköping</settlement>
                                 <repository>Stiftsbiblioteket</repository>
                                 <idno>T180</idno>
-                                <msName>nil</msName>
+                                <msName>empty</msName>
                             </msIdentifier>
                         </msDesc>
                     </witness>
@@ -49,7 +49,10 @@
             <creation>
                 <date when="1500">ca. 1500</date>
             </creation>
-            <abstract>nil</abstract><langUsage>
+	    <abstract>
+		    <ab>empty</ab>
+	    </abstract>
+	    <langUsage>
                 <language ident="gda" />
             </langUsage>
             <textClass>
