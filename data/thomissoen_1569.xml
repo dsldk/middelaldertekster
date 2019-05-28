@@ -537,7 +537,7 @@
                             <cell>Mat</cell>
                             <cell>S. <app>
                                     <lem>Matthias </lem>
-                                    <rdg><q> Marthias </q> orig.</rdg>
+                                    <rdg wit="#A">Marthias</rdg>
                                 </app> Apostel.</cell>
                         </row>
                         <row>
@@ -734,7 +734,7 @@
                             <cell>Ab</cell>
                             <cell>Joseph nutrici<lb rend="=("/>us Domini. Terminus <app>
                                     <lem>Pascha<lb rend="="/>lis per </lem>
-                                    <rdg><q>Pascha<lb rend="="/>lisper </q> orig.</rdg>
+                                    <rdg wit="#A">Pascha<lb rend="="/>lisper</rdg>
                                 </app> dies 35.</cell>
                             <cell/>
                         </row>
@@ -1402,8 +1402,8 @@
                             <cell>A</cell>
                             <cell>Ba</cell>
                             <cell>Barnab. <app>
-                                    <lem>Solstitium </lem>
-                                    <rdg><q>Solstiu </q> orig.</rdg>
+                                    <lem>Solstitium</lem>
+                                    <rdg wit="#A">Solstiu</rdg>
                                 </app> æstiuu<ex>m</ex>. Solhuer. <lb rend="("/>Solen i
                                     krabbe<ex>n</ex>. Den lengste dag / <lb rend="("/>er 17¾. ti.
                                 lang. Natten da 6¼. <lb rend="("/>Solen op it halfft q. effter 3.
@@ -2240,7 +2240,7 @@
                         <row>
                             <cell><app>
                                     <lem>10 </lem>
-                                    <rdg><q>0 </q> orig.</rdg>
+                                    <rdg wit="#A">0</rdg>
                                 </app></cell>
                             <cell>2</cell>
                             <cell>b</cell>
@@ -2477,7 +2477,7 @@
                             <cell>me</cell>
                             <cell>Solen <app>
                                     <lem>op </lem>
-                                    <rdg><q>dp </q> orig.</rdg>
+                                    <rdg wit="#A">dp</rdg>
                                 </app> til 8. Neder til 4. <lb rend="("/>Dagen er 8. ti: lang.
                                 Natten 16.</cell>
                         </row>
@@ -3460,7 +3460,7 @@
                             det Aar <lb/>Søndag.</p>
                         <p><space extent="2blanks"/>☙ Men at Søndags <app>
                                 <lem>bogstaffue </lem>
-                                <rdg><q>bostaffue </q> orig.</rdg>
+                                <rdg wit="#A">bostaffue</rdg>
                             </app> omskifftis oc <lb/>forskiuder sig huert Aar / det skeer for
                             tuenne Or<lb rend="="/>sager skyld.</p>
                         <p><space extent="2blanks"/>☙ Den ene Orsag er / at naar wi tage vore
@@ -15141,7 +15141,7 @@
                         <l>
                             <app>
                                 <lem>for</lem>
-                                <rdg> herefter lakune; orig.</rdg>
+                                <rdg wit="#A"><note>herefter lakune</note></rdg>
                             </app><pb n="E428" rend="="/>dærffuit i alle maade /</l>
                         <l> kand sig plat intet <lb/> raade /</l>
                         <l> kiender intet gaat / holder det for <lb/> spot /</l>
@@ -17603,7 +17603,7 @@
                         <lg>
                             <l><app>
                                     <lem>Hen</lem>
-                                    <rdg><q>Heu</q> orig.</rdg>
+                                    <rdg wit="#A">Heu</rdg>
                                 </app> hoss Babylonis flod /</l>
                             <l> sade wi <lb/> tilsammen met sorrigfuld mod /</l>
                             <l> der wi <lb/> vaare fengslede i Babylon /</l>
@@ -25886,13 +25886,14 @@
 
         </body>
         <back>
-            <div type="register">
+            <div type="register" xml:id="register">
                 <head type="add">Register</head>
                 <head n="4"><pb n="E797"/>Register offuer den<lb rend="="/>ne Bog.</head>
                 <p> * Naar her staar effter Ziffer tallit it punct (.) <lb/>da mercker det den
                     første side paa bladdit. Men <lb/>naar der staar ij puncter effter Ziffer tallit
                     (:) <lb/>da mercker det den anden side <lb/>paa bladdit. </p>
-                <div type="index">
+                <div type="index" xml:id="index-messe">
+                    <head type="add">Register: Den evangeliske messe</head>
                     <head> I. <lb/> Om den Danske Euangeliske <lb/> Messe. </head>
                     <div type="prose">
                         <head>Jntroitus.</head>
@@ -26251,7 +26252,8 @@
                         <figure/>
                     </div>
                 </div>
-                <div type="index">
+                <div type="index" xml:id="index-davids-salmer">
+                    <head type="add">Register: Davidssalmer</head>
                     <head><pb n="E804"/> II. <lb/> Register paa de Dauids Psalmer / <lb/> som findis
                         vdset i Christelig sang i denne Bog.</head>
                     <list rend="simple">
@@ -26359,7 +26361,8 @@
                         </item>
                     </list>
                 </div>
-                <div type="index">
+                <div type="index" xml:id="index-andre-steder">
+                    <head type="add">Register: Andre bibelsteder</head>
                     <head> III. <lb/> Andre stæder aff den hellige Scrifft / <lb/>som siungis i
                         denne Bog.</head>
                     <list rend="simple">
@@ -26397,7 +26400,8 @@
                         </item>
                     </list>
                 </div>
-                <div type="index">
+                <div type="index" xml:id="index-latinske-salmer">
+                    <head type="add">Register: Latinske salmer</head>
                     <head><pb n="E806"/> IIII. <lb/> Register paa de Latinske Hymner /
                         <lb/>Sequentzer / Responsorier / Anti<lb rend="="/>phoner / som her findis
                         <lb/> paa danske. <lb/>
@@ -26571,7 +26575,8 @@
                         </list>
                     </div>
                 </div>
-                <div type="index">
+                <div type="index" xml:id="index-katolske-salmer">
+                    <head type="add">Register: Katolske salmer</head>
                     <head> V. <lb/> Register paa de gamle sang / som <lb/>haffue været brugt i
                             Paff<lb rend="="/>uedommet.</head>
                     <div>
@@ -26647,7 +26652,8 @@
                         </list>
                     </div>
                 </div>
-                <div type="index">
+                <div type="index" xml:id="index-korrigerede-papistiske-salmer">
+                    <head type="add">Register: Korrigerede katolske salmer</head>
                     <head><pb n="E809"/>VI. <lb/> Register paa de gamle Papistiske <lb/> Sang / som
                         ere Corrigeret <lb/> oc rettede. </head>
                     <div type="section">
@@ -26711,7 +26717,8 @@
                         </div>
                     </div>
                 </div>
-                <div type="index">
+                <div type="index" xml:id="index-mikkel-praests-salmer">
+                    <head type="add">Register: Mikkel Præsts salmer</head>
                     <head> VII. <lb/> Register paa de sang som ere samlit <lb/> aff de Papistiske
                         rim / som her Michel Sog<lb rend="="/>nepræst i Othense / screff om Jom<lb
                             rend="="/>fru Marie Psaltere / Aar &amp;c. <lb/>1496.</head>
@@ -26761,7 +26768,8 @@
                     </div>
 
                 </div>
-                <div type="index">
+                <div type="index" xml:id="index-diverse">
+                    <head type="add">Register: Diverse salmer</head>
                     <head><pb n="E811"/> VIII. Register paa de Psalmer / som inde<lb rend="="/>holde
                         flere Lærdommer / oc kunde derfor hen<lb rend="="/>føris til andre oc flere
                         Artickler / end som de ordent<lb rend="="/>lig i Psalmebogen findis. Jtem /
@@ -27004,7 +27012,8 @@
                     </div>
 
                 </div>
-                <div type="index">
+                <div type="index" xml:id="index-alle-salmer">
+                    <head type="add">Samlet register</head>
                     <head><pb n="E815"/> IX. <lb/> Jt almindeligt Register off<lb rend="="/>uer alle
                         Psalmer / som findis i <lb/> denne Bog / effter Bog<lb rend="="
                         />staffuene.</head>
@@ -27289,7 +27298,7 @@
                             </item>
                             <item><app>
                                     <lem>Hen</lem>
-                                    <rdg><q>Heu</q> orig.</rdg>
+                                    <rdg wit="#A">Heu</rdg>
                                 </app> hoss Babylonis flod <ref target="229">229.</ref>
                             </item>
                             <item>Hielp Gud at ieg nu kunde <ref target="61">61:</ref>
@@ -27753,7 +27762,8 @@
                         </list>
                     </div>
                 </div>
-                <div>
+                <div xml:id="as-dedikation">
+                    <head type="add">Anders Sørensens dedikation</head>
                     <head><hi rend="italics">IN DANICVM PSALTERIVM <lb/> editum a M. Iohanne Thoma
                                 præce<lb rend="="/>ptore suo carissimo.</hi></head>
                     <lg>
@@ -27775,7 +27785,8 @@
                         <l><space extent="4blanks"/><hi rend="italics">Andreas Seuerinus V.</hi></l>
                     </lg>
                 </div>
-                <div>
+                <div xml:id="til-laeseren">
+                    <head type="add">Til læseren</head>
                     <head><pb n="E827"/>Til Læseren.</head>
                     <p>
                         <c function="initials" rend="4">C</c>Hristelige fromme Læsere / denne
