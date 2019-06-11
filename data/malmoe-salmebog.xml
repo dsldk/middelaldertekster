@@ -265,7 +265,7 @@
         <body>
             <div type="calendar" xml:id="calendar">
                 <head type="add">Kalender</head>
-                <div type="month">
+                <div type="month" xml:id="januar">
                     <head>
                         <reg>Januar</reg>
                         <orig><pb n="E17"/>Januarius Glugmaanet</orig>
@@ -292,7 +292,7 @@
                             />maa han lade Leffuer aaren paa den venstre <lb n="E17.016"/>arm / det
                             er gaat at bade.</hi></p>
                 </div>
-                <div type="month">
+                <div type="month" xml:id="februar">
                     <head>
                         <reg>Februar</reg>
                         <orig><pb n="E18"/><pb n="E19"/>KL Februarius Bli<lb
@@ -485,7 +485,7 @@
                     <p><hi rend="font_red">&#x2055;</hi> Solen ko<ex>m</ex>mer i det Tegen Fisk deh
                         x da{??}</p>
                 </div>
-                <div type="month">
+                <div type="month" xml:id="marts">
                     <head><reg>Marts</reg><orig><pb n="E21"/>KL Martius Thor<lb n="E21.002"/>maanet
                             haffuer xxxi dage Natten xii ty<lb n="E21.003" rend="="/>me oc dagen xii
                             tyme</orig></head>
@@ -691,7 +691,7 @@
                     <p>&#x2055; Sole<ex>n</ex> ko<ex>m</ex>mer i det Tege<ex>n</ex> Væder den xi
                         dag</p>
                 </div>
-                <div type="month">
+                <div type="month" xml:id="april">
                     <head><reg>April</reg><orig><pb n="E23"/>KL Aprilis Fare maa<lb n="E23.002"/>net
                             haffuer xxx dage Natten x tyme oc <lb n="E23.003"/>dagen xiiii
                             tyme</orig></head>
@@ -891,7 +891,7 @@
                         />sine skuldre /</p>
                     <p>&#x2055; Sole<ex>n</ex> ko<ex>m</ex>mer i det Tegen Tiwr den xi dag</p>
                 </div>
-                <div type="month">
+                <div type="month" xml:id="maj">
                     <head><reg>Maj</reg><orig><pb n="E25"/>KL Maius May maa<lb n="E25.002"/>net
                             haffuer xxxi dage Natten viii tyme <lb n="E25.003"/>oc dagen xvi
                             tyme</orig></head>
@@ -1098,7 +1098,7 @@
                     <p><hi rend="font_red">&#x2055;</hi> Solen kommer i det tegen Tuillinge den <lb
                             n="E26.008"/> xii dag</p>
                 </div>
-                <div type="month">
+                <div type="month" xml:id="juni">
                     <head><reg>Juni</reg><orig><pb n="E27"/>KL Junius Skier so<ex>m</ex><lb
                                 n="E27.002"/>mer haffuer xxx dage Natte<ex>n</ex> vi tyme och <lb
                                 n="E27.003"/>dagen xviii tyme</orig></head>
@@ -1298,7 +1298,7 @@
                         />{??}æde Yude fastendis</p>
                     <p>Sole<ex>n</ex> ko<ex>m</ex>mer i det tege<ex>n</ex> Krabbe den xii dag</p>
                 </div>
-                <div type="month">
+                <div type="month" xml:id="juli">
                     <head><reg>Juli</reg><orig><pb n="E29"/>Julius Orm maanedt</orig></head>
                     <p><space extent="2blanks"/><hi rend="Antiqua2"><hi rend="italics"
                                 >Kalenderbladet for juli mangler. Maane-</hi>
@@ -1315,7 +1315,7 @@
                             Du skalt icke lade dig <lb n="E29.012"/>fra S. Margrete oc til S.
                             Bartholomet dag <lb n="E29.013"/>thi det er da Hunde Maanet.</hi></p>
                 </div>
-                <div type="month">
+                <div type="month" xml:id="august">
                     <head><reg>August</reg><orig><pb n="E30"/><pb n="E31"/>KL Augustus Høst<lb
                                 n="E31.002"/>maanet haffuer xxxi dage Natte<ex>n</ex> x tyme <lb
                                 n="E31.003"/> och dagen xiiii tyme</orig></head>
@@ -1523,7 +1523,7 @@
                         din drick / thi det er sunt <lb n="E32.010"/> Sole<ex>n</ex> ko<ex>m</ex>mer
                         i det Tege<ex>n</ex> Jo<ex>m</ex>frue den xiiii dag</p>
                 </div>
-                <div type="month">
+                <div type="month" xml:id="september">
                     <head><reg>September</reg><orig><pb n="E33"/>KL September Filke<lb n="E33.002"
                             />maanet haffuer xxx dage Natten xii ty<lb n="E33.003" rend="="/>me och
                             dagen xii tyme</orig></head>
@@ -1723,7 +1723,7 @@
                     <p>&#x2055; Solen kommer i det Tegen Veyskaall <lb n="E34.009"/> den xiiii
                         dag</p>
                 </div>
-                <div type="month">
+                <div type="month" xml:id="oktober">
                     <head><reg>Oktober</reg><orig><pb n="E35"/>KL October Sede<lb n="E35.002"
                             />maanet haffuer xxxi dage Natten xiiii <lb n="E35.003"/> tyme oc dagen
                             x tyme</orig></head>
@@ -1930,7 +1930,7 @@
                         /> oc tage purgatz oc legedom</p>
                     <p>Sole<ex>n</ex> ko<ex>m</ex>mer i det Tege<ex>n</ex> Scorpio den xiii dag</p>
                 </div>
-                <div type="month">
+                <div type="month" xml:id="november">
                     <head><reg>November</reg><orig><pb n="E37"/>KL Nouember Slagte<lb n="E37.002"
                             />maanet haffuer xxx dage Natten xvi ty<lb n="E37.003" rend="="/>me och
                             dagen viii tyme</orig></head>
@@ -2131,10 +2131,13 @@
                         Leweren</p>
                     <p>Sole<ex>n</ex> ko<ex>m</ex>mer i det Tegen Skøtte den xiii dag</p>
                 </div>
-                <div type="month">
-                    <head><reg>December</reg><orig><pb n="E39"/>KL December Jule<lb n="E39.002"
+                <div type="month" xml:id="december">
+                    <head>
+                        <reg>December</reg>
+                        <orig><pb n="E39"/>KL December Jule<lb n="E39.002"
                             />maanet haffuer xxxi dage Natten xvi <lb n="E39.003"/> tyme oc dagen
-                            viii tyme</orig></head>
+                            viii tyme</orig>
+                    </head>
                     <table>
                         <row>
                             <cell rend="font_red">Gylden<lb/>tall</cell>
