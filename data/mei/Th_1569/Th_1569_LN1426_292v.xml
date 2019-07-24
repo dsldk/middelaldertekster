@@ -1,30 +1,174 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="file:/P:/MEI/schema/MEI%204.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="file:/P:/MEI/schema/MEI%204.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><mei xmlns="http://www.music-encoding.org/ns/mei"
+<mei xmlns="http://www.music-encoding.org/ns/mei"
      xmlns:xlink="http://www.w3.org/1999/xlink"
      meiversion="4.0.0"
      xml:id="Th_1569_LN1426_292v_m-1">
-   <meiHead xml:id="Th_1569_LN1426_292v_m-2">
-      <fileDesc xml:id="Th_1569_LN1426_292v_m-3">
-         <titleStmt xml:id="Th_1569_LN1426_292v_m-4">
-            <title xml:id="Th_1569_LN1426_292v_m-10"/>
+   <meiHead xmlns:xl="http://www.w3.org/1999/xlink" xml:id="meiHead_8574f359">
+      <fileDesc xml:id="fileDesc_fe4bd66d">
+         <titleStmt xml:id="titleStmt_acdf3100">
+            <title xml:id="title_39672662">Haleluia. O Herre Gud</title>
          </titleStmt>
-         <pubStmt xml:id="Th_1569_LN1426_292v_m-13">
-            <availability xml:id="Th_1569_LN1426_292v_m-14">
-               <useRestrict xml:id="Th_1569_LN1426_292v_m-15"/>
-            </availability>
+         <pubStmt xml:id="pubStmt_14b1b64e">
+            <respStmt>
+               <resp xml:id="resp_3195b009">Publisher</resp>
+               <corpName xml:id="corpName_0c269cbd">
+                  <abbr xml:id="abbr_e59dfe70">DSL</abbr>
+                  <expan xml:id="expan_f384a3a5">Det Danske Sprog- og Litteraturselskab</expan>
+                  <address xml:id="address_20c1457d">
+                     <addrLine xml:id="addrLine_7da7799c">Christians Brygge 1</addrLine>
+                     <addrLine xml:id="addrLine_9d870705">1219 København K</addrLine>
+                     <addrLine xml:id="addrLine_133486f1">
+                        <ptr label="WWW" target="https://dsl.dk" xml:id="ptr_N20262"/>
+                     </addrLine>
+                     <addrLine xml:id="addrLine_f61416d8">
+                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="ptr_N20270"/>
+                     </addrLine>
+                  </address>
+               </corpName>
+               <persName role="editor" xml:id="persName_183ec4a9">Bjarke Moe</persName>
+               <persName role="data manager" xml:id="persName_d1e8">Axel Teich Geertinger</persName>
+            </respStmt>
          </pubStmt>
+         <seriesStmt xml:id="seriesStmt_76a644d5">
+            <title xml:id="title_31c59c8f">Musik og sprog i reformationstidens danske salmesang</title>
+            <identifier type="file_collection" xml:id="identifier_9896669c">RefSal</identifier>
+         </seriesStmt>
       </fileDesc>
-      <encodingDesc xml:id="Th_1569_LN1426_292v_m-16">
-         <appInfo xml:id="Th_1569_LN1426_292v_m-17">
-            <application xml:id="Th_1569_LN1426_292v_sibelius" isodate="2019-1-8T15:49:38Z"
-                         version="6200">
-               <name xml:id="Th_1569_LN1426_292v_m-19">Sibelius</name>
+      <encodingDesc xml:id="encodingDesc_62aaed0b">
+         <appInfo xml:id="appInfo_cbf15554">
+            <application version="6.2" xml:id="application_d1e36">
+               <name>Sibelius</name>
             </application>
-            <application xml:id="Th_1569_LN1426_292v_sibmei" type="plugin" version="2.1.0">
-               <name xml:id="Th_1569_LN1426_292v_m-21">Sibelius 6.2 to MEI Exporter (2.1.0)</name>
+            <application version="2.1.0 modified for Sibelius 6" xml:id="application_2d1e36">
+               <name>SibMEI</name>
+            </application>
+            <application version="2013" xml:id="application_bf34b2ad">
+               <name xml:id="name_6aec3877">MerMEId</name>
             </application>
          </appInfo>
       </encodingDesc>
+      <workList xml:id="workDesc_e90b246e">
+         <work xml:id="work_7327e799">
+            <identifier label="RefSal" xml:id="identifier_036d65f5">Th 292v</identifier>
+            <identifier label="Glahn 2000" xml:id="identifier_d7614ebf">A I: 7</identifier>
+            <title xml:id="title_da962e98" xml:lang="da">Haleluia. O Herre Gud</title>
+            <title type="uniform" xml:id="title_9aeb727f" xml:lang="da">Halleluja. O Herre Gud</title>
+            <contributor xml:id="respStmt_5577b899">
+               <persName auth.uri="http://www.viaf.org" auth="VIAF" codedval="59249628" role="collector"
+                         xml:id="persName_5eb47039">Hans Thomissøn</persName>
+            </contributor>
+            <history xml:id="history_44436885">
+               <p>Melodien bygger efter alt at dømme på en halleluja-melodi fra katolsk tid. Den danske teksts oprindelse er ukendt.</p>
+            </history>
+            <langUsage xml:id="langUsage_f10dda89">
+               <language xml:id="da">Danish</language>
+               <language xml:id="en">English</language>
+            </langUsage>
+            <expressionList xml:id="expressionList_6a472619">
+               <expression xml:id="expression_13de6575">
+                  <title xml:id="title_3221f463" xml:lang="en"/>
+                  <history xml:id="history_a2c15376">
+                     <p/>
+                  </history>
+                  <perfMedium analog="marc:048" auth="marcmusperf" xml:id="perfMedium_4cb44b2d"/>
+               </expression>
+            </expressionList>
+            <relationList xml:id="relationList_1c110507">
+               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569_LN1426.xml"
+                         xml:id="relation_4d893f59"/>
+            </relationList>
+         </work>
+      </workList>
+      <revisionDesc>
+         <change isodate="2017-08-03" xml:id="change_109N100C9">
+            <respStmt xml:id="respStmt_785d4e1b">
+               <name xml:id="resp_1bd08d1e">bmoe</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_994b7721">
+               <p xml:id="p_a8e20b55"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-08-08" xml:id="change_110N100E3">
+            <respStmt xml:id="respStmt_153fee42">
+               <name xml:id="resp_32fe144b">bmoe</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_8e309098">
+               <p xml:id="p_ae5cfb2c"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-08-25" xml:id="change_128N10114">
+            <respStmt xml:id="respStmt_e4b293da">
+               <name xml:id="resp_f58a5321">bmoe</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_39b27411">
+               <p xml:id="p_5da878a5"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-09-01" xml:id="change_121N100F6">
+            <respStmt xml:id="respStmt_b01e2d55">
+               <name xml:id="resp_5f145660">bmoe</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_649e80c2">
+               <p xml:id="p_99e3865d"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-12-20T08:49:45+01:00" xml:id="change_120N100BE">
+            <respStmt xml:id="respStmt_f76a59ac">
+               <name xml:id="resp_e230eb39">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_20925f8d">
+               <p xml:id="p_3930b327">Batch transformation removing empty elements and udpdating mail address</p>
+            </changeDesc>
+         </change>
+         <change isodate="2018-12-10T13:23:55.857Z" xml:id="change_d7f137a8">
+            <respStmt>
+               <name>bmoe</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_d8e6d241">
+               <p xml:id="p_dac45c81"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-07-09T11:03:36.823Z" xml:id="change_3ce3810a-8b8c">
+            <respStmt>
+               <name>MerMEId user</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_40d99f42-080c">
+               <p>file renamed from 496427b1-eea5-4af1-a5c2-c806111e5a69.xml to Th_1569_LN1426_292v.xml</p>
+            </changeDesc>
+         </change>
+         <change isodate="2019-07-09T11:14:33.075Z" xml:id="change_c265acb0-4866">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_f1a14dd5-cf9e">
+               <p>file reference updated (a file was renamed from 9e6f397d-efc4-4f68-bf67-bbbb86b037ce.xml to Th_1569_LN1426.xml)</p>
+            </changeDesc>
+         </change>
+         <change isodate="2019-07-23T15:15:25.835+02:00" xml:id="change_111d1e90">
+            <respStmt>
+               <name>atge</name>
+            </respStmt>
+            <changeDesc>
+               <p>Transform from MEI 3.0.0 to 4.0.0</p>
+            </changeDesc>
+         </change>
+         <change isodate="2019-07-23T16:02:05.059+02:00" xml:id="change_116d1e90">
+            <respStmt>
+               <name>atge</name>
+            </respStmt>
+            <changeDesc>
+               <p>Update project metadata</p>
+            </changeDesc>
+         </change>
+         <change isodate="2019-07-24T10:14:17.63+02:00" xml:id="change_102d2e73">
+            <respStmt>
+               <name>atge</name>
+            </respStmt>
+            <changeDesc>
+               <p>Merge data and metadata</p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
    </meiHead>
    <music xml:id="Th_1569_LN1426_292v_m-22">
       <body xml:id="Th_1569_LN1426_292v_m-23">
@@ -32,8 +176,7 @@
             <score xml:id="Th_1569_LN1426_292v_m-25">
                <scoreDef xml:id="Th_1569_LN1426_292v_m-26">
                   <staffGrp xml:id="Th_1569_LN1426_292v_m-27">
-                     <staffDef xml:id="Th_1569_LN1426_292v_m-28" clef.line="3" clef.shape="C"
-                               key.sig="0"
+                     <staffDef xml:id="Th_1569_LN1426_292v_m-28" clef.line="3" clef.shape="C" key.sig="0"
                                lines="5"
                                n="1"/>
                   </staffGrp>
@@ -46,8 +189,7 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-54" con="d" wordpos="i">Ha</syl>
                            </verse>
                            <neume xml:id="neume_d3e87">
-                              <nc xml:id="Th_1569_LN1426_292v_m-36" oct="3" pname="g" pnum="55"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-36" oct="3" pname="g" pnum="55" label="dur4"/>
                            </neume>
                         </syllable>
                         <syllable xml:id="Th_1569_LN1426_292v_m-55_syl">
@@ -55,32 +197,20 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-56" con="d" wordpos="m">le</syl>
                            </verse>
                            <neume xml:id="neume_d3e96">
-                              <nc xml:id="Th_1569_LN1426_292v_m-38" oct="3" pname="a" pnum="57"
-                                  label="dur4"/>
-                              <nc xml:id="Th_1569_LN1426_292v_m-39" oct="3" pname="f" pnum="53"
-                                  label="dur4"/>
-                              <nc xml:id="Th_1569_LN1426_292v_m-40" oct="3" pname="g" pnum="55"
-                                  label="dur4"/>
-                              <nc xml:id="Th_1569_LN1426_292v_m-41" oct="4" pname="c" pnum="60"
-                                  label="dur4"/>
-                              <nc xml:id="Th_1569_LN1426_292v_m-42" oct="3" pname="b" pnum="59"
-                                  label="dur4"/>
-                              <nc xml:id="Th_1569_LN1426_292v_m-43" oct="3" pname="a" pnum="57"
-                                  label="dur4"/>
-                              <nc xml:id="Th_1569_LN1426_292v_m-44" oct="3" pname="b" pnum="59"
-                                  label="dur4"/>
-                              <nc xml:id="Th_1569_LN1426_292v_m-45" oct="4" pname="d" pnum="62"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-38" oct="3" pname="a" pnum="57" label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-39" oct="3" pname="f" pnum="53" label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-40" oct="3" pname="g" pnum="55" label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-41" oct="4" pname="c" pnum="60" label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-42" oct="3" pname="b" pnum="59" label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-43" oct="3" pname="a" pnum="57" label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-44" oct="3" pname="b" pnum="59" label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-45" oct="4" pname="d" pnum="62" label="dur4"/>
                            </neume>
                            <neume xml:id="neume_d3e120">
-                              <nc xml:id="Th_1569_LN1426_292v_m-47" oct="4" pname="d" pnum="62"
-                                  label="dur4"/>
-                              <nc xml:id="Th_1569_LN1426_292v_m-48" oct="3" pname="b" pnum="59"
-                                  label="dur4"/>
-                              <nc xml:id="Th_1569_LN1426_292v_m-49" oct="3" pname="g" pnum="55"
-                                  label="dur4"/>
-                              <nc xml:id="Th_1569_LN1426_292v_m-50" oct="3" pname="a" pnum="57"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-47" oct="4" pname="d" pnum="62" label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-48" oct="3" pname="b" pnum="59" label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-49" oct="3" pname="g" pnum="55" label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-50" oct="3" pname="a" pnum="57" label="dur4"/>
                            </neume>
                         </syllable>
                         <syllable xml:id="Th_1569_LN1426_292v_m-57_syl">
@@ -88,8 +218,7 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-58" con="d" wordpos="m">lu</syl>
                            </verse>
                            <neume xml:id="neume_d3e129">
-                              <nc xml:id="Th_1569_LN1426_292v_m-51" oct="3" pname="f" pnum="53"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-51" oct="3" pname="f" pnum="53" label="dur4"/>
                            </neume>
                         </syllable>
                         <syllable xml:id="Th_1569_LN1426_292v_m-59_syl">
@@ -97,8 +226,7 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-60" wordpos="t">ia.</syl>
                            </verse>
                            <neume xml:id="neume_d3e138">
-                              <nc xml:id="Th_1569_LN1426_292v_m-52" oct="3" pname="g" pnum="55"
-                                  label="durlong"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-52" oct="3" pname="g" pnum="55" label="durlong"/>
                            </neume>
                         </syllable>
                         <barLine form="single"/>
@@ -112,8 +240,7 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-71" wordpos="i">O</syl>
                            </verse>
                            <neume xml:id="neume_d3e164">
-                              <nc xml:id="Th_1569_LN1426_292v_m-65" oct="3" pname="g" pnum="55"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-65" oct="3" pname="g" pnum="55" label="dur4"/>
                            </neume>
                         </syllable>
                         <syllable xml:id="Th_1569_LN1426_292v_m-72_syl">
@@ -121,8 +248,7 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-73" con="d" wordpos="i">Her</syl>
                            </verse>
                            <neume xml:id="neume_d3e173">
-                              <nc xml:id="Th_1569_LN1426_292v_m-66" oct="3" pname="a" pnum="57"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-66" oct="3" pname="a" pnum="57" label="dur4"/>
                            </neume>
                         </syllable>
                         <syllable xml:id="Th_1569_LN1426_292v_m-74_syl">
@@ -130,8 +256,7 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-75" wordpos="t">re</syl>
                            </verse>
                            <neume xml:id="neume_d3e182">
-                              <nc xml:id="Th_1569_LN1426_292v_m-67" oct="3" pname="f" pnum="53"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-67" oct="3" pname="f" pnum="53" label="dur4"/>
                            </neume>
                         </syllable>
                         <syllable xml:id="Th_1569_LN1426_292v_m-76_syl">
@@ -139,8 +264,7 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-77" wordpos="i">Gud/</syl>
                            </verse>
                            <neume xml:id="neume_d3e191">
-                              <nc xml:id="Th_1569_LN1426_292v_m-68" oct="3" pname="g" pnum="55"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-68" oct="3" pname="g" pnum="55" label="dur4"/>
                            </neume>
                         </syllable>
                         <syllable xml:id="Th_1569_LN1426_292v_m-93_syl">
@@ -148,8 +272,7 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-94" wordpos="i">den</syl>
                            </verse>
                            <neume xml:id="neume_d3e216">
-                              <nc xml:id="Th_1569_LN1426_292v_m-83" oct="3" pname="g" pnum="55"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-83" oct="3" pname="g" pnum="55" label="dur4"/>
                            </neume>
                         </syllable>
                         <syllable xml:id="Th_1569_LN1426_292v_m-95_syl">
@@ -157,10 +280,8 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-96" wordpos="i">dag</syl>
                            </verse>
                            <neume xml:id="neume_d3e225">
-                              <nc xml:id="Th_1569_LN1426_292v_m-85" oct="4" pname="c" pnum="60"
-                                  label="dur4"/>
-                              <nc xml:id="Th_1569_LN1426_292v_m-86" oct="3" pname="b" pnum="59"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-85" oct="4" pname="c" pnum="60" label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-86" oct="3" pname="b" pnum="59" label="dur4"/>
                            </neume>
                         </syllable>
                         <syllable xml:id="Th_1569_LN1426_292v_m-97_syl">
@@ -168,8 +289,7 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-98" wordpos="i">er</syl>
                            </verse>
                            <neume xml:id="neume_d3e236">
-                              <nc xml:id="Th_1569_LN1426_292v_m-87" oct="3" pname="a" pnum="57"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-87" oct="3" pname="a" pnum="57" label="dur4"/>
                            </neume>
                         </syllable>
                         <syllable xml:id="Th_1569_LN1426_292v_m-99_syl">
@@ -177,8 +297,7 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-100" wordpos="i">oss</syl>
                            </verse>
                            <neume xml:id="neume_d3e245">
-                              <nc xml:id="Th_1569_LN1426_292v_m-88" oct="3" pname="b" pnum="59"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-88" oct="3" pname="b" pnum="59" label="dur4"/>
                            </neume>
                         </syllable>
                         <syllable xml:id="Th_1569_LN1426_292v_m-101_syl">
@@ -186,8 +305,7 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-102" wordpos="i">nu</syl>
                            </verse>
                            <neume xml:id="neume_d3e255">
-                              <nc xml:id="Th_1569_LN1426_292v_m-89" oct="4" pname="d" pnum="62"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-89" oct="4" pname="d" pnum="62" label="dur4"/>
                            </neume>
                         </syllable>
                         <syllable xml:id="Th_1569_LN1426_292v_m-103_syl">
@@ -195,8 +313,7 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-104" con="d" wordpos="i">hel</syl>
                            </verse>
                            <neume xml:id="neume_d3e264">
-                              <nc xml:id="Th_1569_LN1426_292v_m-90" oct="3" pname="g" pnum="55"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-90" oct="3" pname="g" pnum="55" label="dur4"/>
                            </neume>
                         </syllable>
                         <syllable xml:id="Th_1569_LN1426_292v_m-105_syl">
@@ -204,8 +321,7 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-106" wordpos="t">lig</syl>
                            </verse>
                            <neume xml:id="neume_d3e273">
-                              <nc xml:id="Th_1569_LN1426_292v_m-91" oct="3" pname="a" pnum="57"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-91" oct="3" pname="a" pnum="57" label="dur4"/>
                            </neume>
                         </syllable>
                         <syllable xml:id="Th_1569_LN1426_292v_m-107_syl">
@@ -213,13 +329,12 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-108" wordpos="i">giort/</syl>
                            </verse>
                            <neume xml:id="neume_d3e282">
-                              <nc xml:id="Th_1569_LN1426_292v_m-92" oct="3" pname="g" pnum="55"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-92" oct="3" pname="g" pnum="55" label="dur4"/>
                            </neume>
                         </syllable>
                      </layer>
                      <dir type="sb" tstamp="4.75" place="above" label="Linjeskift"
-                        xml:id="Th_1569_LN1426_292v_m-69">ǀ</dir>
+                          xml:id="Th_1569_LN1426_292v_m-69">ǀ</dir>
                   </staff>
                   <sb xml:id="Th_1569_LN1426_292v_m-111" label="editorial"/>
                   <staff xml:id="Th_1569_LN1426_292v_m-112" n="1">
@@ -229,8 +344,7 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-125" wordpos="i">paa</syl>
                            </verse>
                            <neume xml:id="neume_d3e304">
-                              <nc xml:id="Th_1569_LN1426_292v_m-114" oct="3" pname="g" pnum="55"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-114" oct="3" pname="g" pnum="55" label="dur4"/>
                            </neume>
                         </syllable>
                         <syllable xml:id="Th_1569_LN1426_292v_m-126_syl">
@@ -238,8 +352,7 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-127" con="d" wordpos="i">huil</syl>
                            </verse>
                            <neume xml:id="neume_d3e313">
-                              <nc xml:id="Th_1569_LN1426_292v_m-115" oct="3" pname="b" pnum="59"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-115" oct="3" pname="b" pnum="59" label="dur4"/>
                            </neume>
                         </syllable>
                         <syllable xml:id="Th_1569_LN1426_292v_m-128_syl">
@@ -247,8 +360,7 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-129" wordpos="t">cken</syl>
                            </verse>
                            <neume xml:id="neume_d3e322">
-                              <nc xml:id="Th_1569_LN1426_292v_m-116" oct="4" pname="c" pnum="60"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-116" oct="4" pname="c" pnum="60" label="dur4"/>
                            </neume>
                         </syllable>
                         <syllable xml:id="Th_1569_LN1426_292v_m-130_syl">
@@ -256,8 +368,7 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-131" wordpos="i">wi</syl>
                            </verse>
                            <neume xml:id="neume_d3e331">
-                              <nc xml:id="Th_1569_LN1426_292v_m-118" oct="4" pname="d" pnum="62"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-118" oct="4" pname="d" pnum="62" label="dur4"/>
                            </neume>
                         </syllable>
                         <syllable xml:id="Th_1569_LN1426_292v_m-132_syl">
@@ -265,8 +376,7 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-133" wordpos="i">maa</syl>
                            </verse>
                            <neume xml:id="neume_d3e340">
-                              <nc xml:id="Th_1569_LN1426_292v_m-119" oct="4" pname="e" pnum="64"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-119" oct="4" pname="e" pnum="64" label="dur4"/>
                            </neume>
                         </syllable>
                         <syllable xml:id="Th_1569_LN1426_292v_m-134_syl">
@@ -274,8 +384,7 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-135" con="d" wordpos="i">hø</syl>
                            </verse>
                            <neume xml:id="neume_d3e350">
-                              <nc xml:id="Th_1569_LN1426_292v_m-120" oct="4" pname="c" pnum="60"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-120" oct="4" pname="c" pnum="60" label="dur4"/>
                            </neume>
                         </syllable>
                         <syllable xml:id="Th_1569_LN1426_292v_m-136_syl">
@@ -283,8 +392,7 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-137" wordpos="t">re</syl>
                            </verse>
                            <neume xml:id="neume_d3e359">
-                              <nc xml:id="Th_1569_LN1426_292v_m-121" oct="4" pname="d" pnum="62"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-121" oct="4" pname="d" pnum="62" label="dur4"/>
                            </neume>
                         </syllable>
                         <syllable xml:id="Th_1569_LN1426_292v_m-138_syl">
@@ -292,8 +400,7 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-139" wordpos="i">dit</syl>
                            </verse>
                            <neume xml:id="neume_d3e368">
-                              <nc xml:id="Th_1569_LN1426_292v_m-122" oct="4" pname="e" pnum="64"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-122" oct="4" pname="e" pnum="64" label="dur4"/>
                            </neume>
                         </syllable>
                         <syllable xml:id="Th_1569_LN1426_292v_m-140_syl">
@@ -301,8 +408,7 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-141" wordpos="i">Ord/</syl>
                            </verse>
                            <neume xml:id="neume_d3e377">
-                              <nc xml:id="Th_1569_LN1426_292v_m-123" oct="4" pname="d" pnum="62"
-                                  label="durlong"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-123" oct="4" pname="d" pnum="62" label="durlong"/>
                            </neume>
                         </syllable>
                         <barLine form="single"/>
@@ -318,8 +424,7 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-157" wordpos="i">Oc</syl>
                            </verse>
                            <neume xml:id="neume_d3e400">
-                              <nc xml:id="Th_1569_LN1426_292v_m-146" oct="4" pname="d" pnum="62"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-146" oct="4" pname="d" pnum="62" label="dur4"/>
                            </neume>
                         </syllable>
                         <syllable xml:id="Th_1569_LN1426_292v_m-158_syl">
@@ -327,8 +432,7 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-159" wordpos="i">faa</syl>
                            </verse>
                            <neume xml:id="neume_d3e409">
-                              <nc xml:id="Th_1569_LN1426_292v_m-147" oct="4" pname="g" pnum="67"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-147" oct="4" pname="g" pnum="67" label="dur4"/>
                            </neume>
                         </syllable>
                         <syllable xml:id="Th_1569_LN1426_292v_m-160_syl">
@@ -336,8 +440,7 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-161" wordpos="i">at</syl>
                            </verse>
                            <neume xml:id="neume_d3e418">
-                              <nc xml:id="Th_1569_LN1426_292v_m-148" oct="4" pname="f" pnum="65"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-148" oct="4" pname="f" pnum="65" label="dur4"/>
                            </neume>
                         </syllable>
                         <syllable xml:id="Th_1569_LN1426_292v_m-162_syl">
@@ -345,8 +448,7 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-163" con="d" wordpos="i">vi</syl>
                            </verse>
                            <neume xml:id="neume_d3e427">
-                              <nc xml:id="Th_1569_LN1426_292v_m-149" oct="4" pname="e" pnum="64"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-149" oct="4" pname="e" pnum="64" label="dur4"/>
                            </neume>
                         </syllable>
                         <syllable xml:id="Th_1569_LN1426_292v_m-164_syl">
@@ -354,8 +456,7 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-165" wordpos="t">de</syl>
                            </verse>
                            <neume xml:id="neume_d3e436">
-                              <nc xml:id="Th_1569_LN1426_292v_m-150" oct="4" pname="d" pnum="62"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-150" oct="4" pname="d" pnum="62" label="dur4"/>
                            </neume>
                         </syllable>
                         <syllable xml:id="Th_1569_LN1426_292v_m-166_syl">
@@ -363,8 +464,7 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-167" con="d" wordpos="i">for</syl>
                            </verse>
                            <neume xml:id="neume_d3e446">
-                              <nc xml:id="Th_1569_LN1426_292v_m-151" oct="4" pname="c" pnum="60"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-151" oct="4" pname="c" pnum="60" label="dur4"/>
                            </neume>
                         </syllable>
                         <syllable xml:id="Th_1569_LN1426_292v_m-168_syl">
@@ -372,8 +472,7 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-169" con="d" wordpos="m">u</syl>
                            </verse>
                            <neume xml:id="neume_d3e455">
-                              <nc xml:id="Th_1569_LN1426_292v_m-153" oct="3" pname="b" pnum="59"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-153" oct="3" pname="b" pnum="59" label="dur4"/>
                            </neume>
                         </syllable>
                         <syllable xml:id="Th_1569_LN1426_292v_m-170_syl">
@@ -381,8 +480,7 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-171" wordpos="t">den</syl>
                            </verse>
                            <neume xml:id="neume_d3e464">
-                              <nc xml:id="Th_1569_LN1426_292v_m-154" oct="3" pname="a" pnum="57"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-154" oct="3" pname="a" pnum="57" label="dur4"/>
                            </neume>
                         </syllable>
                         <syllable xml:id="Th_1569_LN1426_292v_m-172_syl">
@@ -390,8 +488,7 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-173" wordpos="i">suig/</syl>
                            </verse>
                            <neume xml:id="neume_d3e473">
-                              <nc xml:id="Th_1569_LN1426_292v_m-155" oct="3" pname="b" pnum="59"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-155" oct="3" pname="b" pnum="59" label="dur4"/>
                            </neume>
                         </syllable>
                      </layer>
@@ -406,8 +503,7 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-193" wordpos="i">den</syl>
                            </verse>
                            <neume xml:id="neume_d3e497">
-                              <nc xml:id="Th_1569_LN1426_292v_m-178" oct="3" pname="g" pnum="55"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-178" oct="3" pname="g" pnum="55" label="dur4"/>
                            </neume>
                         </syllable>
                         <syllable xml:id="Th_1569_LN1426_292v_m-194_syl">
@@ -415,10 +511,8 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-195" con="d" wordpos="i">ret</syl>
                            </verse>
                            <neume xml:id="neume_d3e506">
-                              <nc xml:id="Th_1569_LN1426_292v_m-180" oct="3" pname="a" pnum="57"
-                                  label="dur4"/>
-                              <nc xml:id="Th_1569_LN1426_292v_m-181" oct="3" pname="b" pnum="59"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-180" oct="3" pname="a" pnum="57" label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-181" oct="3" pname="b" pnum="59" label="dur4"/>
                            </neume>
                         </syllable>
                         <syllable xml:id="Th_1569_LN1426_292v_m-196_syl">
@@ -426,8 +520,7 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-197" wordpos="t">te</syl>
                            </verse>
                            <neume xml:id="neume_d3e517">
-                              <nc xml:id="Th_1569_LN1426_292v_m-182" oct="4" pname="c" pnum="60"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-182" oct="4" pname="c" pnum="60" label="dur4"/>
                            </neume>
                         </syllable>
                         <syllable xml:id="Th_1569_LN1426_292v_m-198_syl">
@@ -435,10 +528,8 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-199" wordpos="i">vey</syl>
                            </verse>
                            <neume xml:id="neume_d3e526">
-                              <nc xml:id="Th_1569_LN1426_292v_m-184" oct="3" pname="b" pnum="59"
-                                  label="dur4"/>
-                              <nc xml:id="Th_1569_LN1426_292v_m-185" oct="3" pname="a" pnum="57"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-184" oct="3" pname="b" pnum="59" label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-185" oct="3" pname="a" pnum="57" label="dur4"/>
                            </neume>
                         </syllable>
                         <syllable xml:id="Th_1569_LN1426_292v_m-200_syl">
@@ -446,8 +537,7 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-201" wordpos="i">til</syl>
                            </verse>
                            <neume xml:id="neume_d3e538">
-                              <nc xml:id="Th_1569_LN1426_292v_m-186" oct="3" pname="g" pnum="55"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-186" oct="3" pname="g" pnum="55" label="dur4"/>
                            </neume>
                         </syllable>
                         <syllable xml:id="Th_1569_LN1426_292v_m-202_syl">
@@ -455,8 +545,7 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-203" con="d" wordpos="i">Him</syl>
                            </verse>
                            <neume xml:id="neume_d3e547">
-                              <nc xml:id="Th_1569_LN1426_292v_m-187" oct="3" pname="a" pnum="57"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-187" oct="3" pname="a" pnum="57" label="dur4"/>
                            </neume>
                         </syllable>
                         <syllable xml:id="Th_1569_LN1426_292v_m-204_syl">
@@ -464,8 +553,7 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-205" con="d" wordpos="m">me</syl>
                            </verse>
                            <neume xml:id="neume_d3e556">
-                              <nc xml:id="Th_1569_LN1426_292v_m-188" oct="3" pname="f" pnum="53"
-                                  label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-188" oct="3" pname="f" pnum="53" label="dur4"/>
                            </neume>
                         </syllable>
                         <syllable xml:id="Th_1569_LN1426_292v_m-206_syl">
@@ -473,10 +561,8 @@
                               <syl xml:id="Th_1569_LN1426_292v_m-207" wordpos="t">rig</syl>
                            </verse>
                            <neume xml:id="neume_d3e565">
-                              <nc xml:id="Th_1569_LN1426_292v_m-190" oct="3" pname="g" pnum="55"
-                                  label="dur4"/>
-                              <nc xml:id="Th_1569_LN1426_292v_m-191" oct="3" pname="g" pnum="55"
-                                  label="durlong"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-190" oct="3" pname="g" pnum="55" label="dur4"/>
+                              <nc xml:id="Th_1569_LN1426_292v_m-191" oct="3" pname="g" pnum="55" label="durlong"/>
                            </neume>
                         </syllable>
                         <barLine form="end"/>

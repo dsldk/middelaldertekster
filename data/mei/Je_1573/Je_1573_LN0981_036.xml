@@ -1,479 +1,440 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei"
      xmlns:xlink="http://www.w3.org/1999/xlink"
      meiversion="4.0.0"
      xml:id="Je_1573_LN0981_036_m-1">
-   <meiHead xml:id="Je_1573_LN0981_036_m-2">
-      <fileDesc xml:id="Je_1573_LN0981_036_m-3">
-        <titleStmt xml:id="Je_1573_LN0981_036_m-4">
-            <title xml:id="Je_1573_LN0981_036_m-10"/>
-            
-        </titleStmt>
-        <pubStmt xml:id="Je_1573_LN0981_036_m-13">
-            <availability xml:id="Je_1573_LN0981_036_m-14">
-                <useRestrict xml:id="Je_1573_LN0981_036_m-15"/>
-            </availability>
-        </pubStmt>
+   <meiHead xmlns:xl="http://www.w3.org/1999/xlink">
+      <fileDesc>
+         <titleStmt>
+            <title>NU er fød oss Jesus Christ</title>
+         </titleStmt>
+         <pubStmt>
+            <respStmt>
+               <resp>Publisher</resp>
+               <corpName>
+                  <abbr>DSL</abbr>
+                  <expan>Det Danske Sprog- og Litteraturselskab</expan>
+                  <address>
+                     <addrLine>Christians Brygge 1</addrLine>
+                     <addrLine>1219 København K</addrLine>
+                     <addrLine>
+                        <ptr label="WWW" target="https://dsl.dk" xml:id="ptr_N20262"/>
+                     </addrLine>
+                     <addrLine>
+                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="ptr_N20270"/>
+                     </addrLine>
+                  </address>
+               </corpName>
+               <persName role="editor">Bjarke Moe</persName>
+               <persName role="data manager" xml:id="persName_d1e8">Axel Teich Geertinger</persName>
+            </respStmt>
+         </pubStmt>
+         <seriesStmt>
+            <title>Musik og sprog i reformationstidens danske salmesang</title>
+            <identifier type="file_collection">RefSal</identifier>
+         </seriesStmt>
       </fileDesc>
-      <encodingDesc xml:id="Je_1573_LN0981_036_m-16">
-        <appInfo xml:id="Je_1573_LN0981_036_m-17">
-            <application xml:id="Je_1573_LN0981_036_sibelius"
-                         isodate="2019-6-7T11:50:00Z"
-                         version="6200">
-                <name xml:id="Je_1573_LN0981_036_m-19">Sibelius</name>
+      <encodingDesc>
+         <appInfo>
+            <application version="6.2" xml:id="application_d1e36">
+               <name>Sibelius</name>
             </application>
-            <application xml:id="Je_1573_LN0981_036_sibmei" type="plugin" version="2.1.0">
-                <name xml:id="Je_1573_LN0981_036_m-21">Sibelius 6.2 to MEI Exporter (2.1.0)</name>
+            <application version="2.1.0 modified for Sibelius 6" xml:id="application_2d1e36">
+               <name>SibMEI</name>
             </application>
-        </appInfo>
+            <application version="2013">
+               <name>MerMEId</name>
+            </application>
+         </appInfo>
       </encodingDesc>
-    
+      <workList>
+         <work xml:id="work_7327e799">
+            <identifier label="RefSal" xml:id="identifier_036d65f5">Je 036</identifier>
+            <title xml:id="title_da962e98" xml:lang="da">NU er fød oss Jesus Christ</title>
+            <title type="uniform" xml:id="title_0a043715" xml:lang="da">Nu er født os Jesus Krist  </title>
+            <contributor xml:id="respStmt_5577b899">
+               <persName auth.uri="http://www.viaf.org" auth="VIAF" codedval="41412249" role="collector"
+                         xml:id="persName_5eb47039">Niels Jesperssøn</persName>
+            </contributor>
+            <history xml:id="history_44436885">
+               <p/>
+            </history>
+            <langUsage xml:id="langUsage_f10dda89">
+               <language xml:id="da">Danish</language>
+               <language xml:id="en">English</language>
+            </langUsage>
+            <expressionList xml:id="expressionList_6a472619">
+               <expression xml:id="expression_13de6575">
+                  <title xml:id="title_3221f463" xml:lang="en"/>
+                  <history xml:id="history_a2c15376">
+                     <p/>
+                  </history>
+                  <perfMedium analog="marc:048" auth="marcmusperf" xml:id="perfMedium_4cb44b2d"/>
+               </expression>
+            </expressionList>
+            <relationList xml:id="relationList_82890f7b">
+               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf"
+                         target="Je_1573_LN0981.xml"
+                         xml:id="relation_4c78148e"/>
+            </relationList>
+         </work>
+      </workList>
+      <revisionDesc>
+         <change isodate="2017-08-03" xml:id="change_109N100C9">
+            <respStmt>
+               <name>bmoe</name>
+            </respStmt>
+            <changeDesc>
+               <p/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-09-06" xml:id="change_122N10109">
+            <respStmt>
+               <name>bmoe</name>
+            </respStmt>
+            <changeDesc>
+               <p/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-12-20T08:49:43+01:00" xml:id="change_111N100C3">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Batch transformation removing empty elements and udpdating mail address</p>
+            </changeDesc>
+         </change>
+         <change isodate="2019-07-09T10:18:10.427Z" xml:id="change_89N100AD">
+            <respStmt>
+               <name>bmoe</name>
+            </respStmt>
+            <changeDesc>
+               <p/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-07-09T14:32:40.492Z" xml:id="change_0b38eef7-efb5">
+            <respStmt>
+               <name>MerMEId user</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_8a95704b-7d5a">
+               <p>file renamed from a3b5ceef-cd0e-46ef-bfc9-594537e9d66e.xml to Je_1573_LN0981_036.xml</p>
+            </changeDesc>
+         </change>
+         <change isodate="2019-07-10T13:52:32.778Z" xml:id="change_94ae4359-33db">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_24ab2d56-cc24">
+               <p>file reference updated (a file was renamed from d4f1477b-c1ae-40f7-b4e6-2d0150b3ddaf.xml to Je_1573_LN0981.xml)</p>
+            </changeDesc>
+         </change>
+         <change isodate="2019-07-10T12:02:49.122Z" xml:id="change_105N100CE">
+            <respStmt>
+               <name>bmoe</name>
+            </respStmt>
+            <changeDesc>
+               <p/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-07-23T15:14:42.426+02:00" xml:id="change_105d1e87">
+            <respStmt>
+               <name>atge</name>
+            </respStmt>
+            <changeDesc>
+               <p>Transform from MEI 3.0.0 to 4.0.0</p>
+            </changeDesc>
+         </change>
+         <change isodate="2019-07-23T16:01:15.816+02:00" xml:id="change_110d1e87">
+            <respStmt>
+               <name>atge</name>
+            </respStmt>
+            <changeDesc>
+               <p>Update project metadata</p>
+            </changeDesc>
+         </change>
+         <change isodate="2019-07-24T10:13:41.265+02:00" xml:id="change_96d2e70">
+            <respStmt>
+               <name>atge</name>
+            </respStmt>
+            <changeDesc>
+               <p>Merge data and metadata</p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
    </meiHead>
    <music xml:id="Je_1573_LN0981_036_m-22">
       <body xml:id="Je_1573_LN0981_036_m-23">
-        <mdiv xml:id="Je_1573_LN0981_036_m-24">
+         <mdiv xml:id="Je_1573_LN0981_036_m-24">
             <score xml:id="Je_1573_LN0981_036_m-25">
-                <scoreDef xml:id="Je_1573_LN0981_036_m-26">
-                    <staffGrp xml:id="Je_1573_LN0981_036_m-27">
-                        <staffDef xml:id="Je_1573_LN0981_036_m-28"
-                               clef.line="3"
-                               clef.shape="C"
-                               key.sig="1f"
+               <scoreDef xml:id="Je_1573_LN0981_036_m-26">
+                  <staffGrp xml:id="Je_1573_LN0981_036_m-27">
+                     <staffDef xml:id="Je_1573_LN0981_036_m-28" clef.line="3" clef.shape="C" key.sig="1f"
                                lines="5"
-                               n="1">
-                            
-                            
-                        </staffDef>
-                    </staffGrp>
-                </scoreDef>
-                <section xml:id="Je_1573_LN0981_036_m-31">
-                    
-                    <measure xml:id="Je_1573_LN0981_036_m-32" right="invis">
-                        <staff xml:id="Je_1573_LN0981_036_m-34" n="1">
-                            <layer xml:id="Je_1573_LN0981_036_m-35" n="1">
-                                <note xml:id="Je_1573_LN0981_036_m-36"
-                                 dur="breve"
-                                 dur.ppq="2048"
-                                 oct="4"
-                                 pname="c"
+                               n="1"/>
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="Je_1573_LN0981_036_m-31">
+                  <measure xml:id="Je_1573_LN0981_036_m-32" right="invis">
+                     <staff xml:id="Je_1573_LN0981_036_m-34" n="1">
+                        <layer xml:id="Je_1573_LN0981_036_m-35" n="1">
+                           <note xml:id="Je_1573_LN0981_036_m-36" dur="breve" dur.ppq="2048" oct="4" pname="c"
                                  pnum="60">
-                                    <verse xml:id="Je_1573_LN0981_036_m-43" n="1">
-                                        <syl xml:id="Je_1573_LN0981_036_m-44" wordpos="i">NV</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="Je_1573_LN0981_036_m-37"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="a"
+                              <verse xml:id="Je_1573_LN0981_036_m-43" n="1">
+                                 <syl xml:id="Je_1573_LN0981_036_m-44" wordpos="i">NV</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="Je_1573_LN0981_036_m-37" dur="1" dur.ppq="1024" oct="3" pname="a"
                                  pnum="57">
-                                    <verse xml:id="Je_1573_LN0981_036_m-45" n="1">
-                                        <syl xml:id="Je_1573_LN0981_036_m-46" wordpos="i">er</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="Je_1573_LN0981_036_m-38"
-                                 dur="breve"
-                                 dur.ppq="2048"
-                                 oct="3"
-                                 pname="f"
+                              <verse xml:id="Je_1573_LN0981_036_m-45" n="1">
+                                 <syl xml:id="Je_1573_LN0981_036_m-46" wordpos="i">er</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="Je_1573_LN0981_036_m-38" dur="breve" dur.ppq="2048" oct="3" pname="f"
                                  pnum="53">
-                                    <verse xml:id="Je_1573_LN0981_036_m-47" n="1">
-                                        <syl xml:id="Je_1573_LN0981_036_m-48" wordpos="i">fød</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="Je_1573_LN0981_036_m-39"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="a"
+                              <verse xml:id="Je_1573_LN0981_036_m-47" n="1">
+                                 <syl xml:id="Je_1573_LN0981_036_m-48" wordpos="i">fød</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="Je_1573_LN0981_036_m-39" dur="1" dur.ppq="1024" oct="3" pname="a"
                                  pnum="57">
-                                    <verse xml:id="Je_1573_LN0981_036_m-49" n="1">
-                                        <syl xml:id="Je_1573_LN0981_036_m-50" wordpos="i">oss</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="Je_1573_LN0981_036_m-40"
-                                 dur="breve"
-                                 dur.ppq="2048"
-                                 oct="4"
-                                 pname="c"
+                              <verse xml:id="Je_1573_LN0981_036_m-49" n="1">
+                                 <syl xml:id="Je_1573_LN0981_036_m-50" wordpos="i">oss</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="Je_1573_LN0981_036_m-40" dur="breve" dur.ppq="2048" oct="4" pname="c"
                                  pnum="60">
-                                    <verse xml:id="Je_1573_LN0981_036_m-51" n="1">
-                                        <syl xml:id="Je_1573_LN0981_036_m-52" con="d" wordpos="i">Je</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="Je_1573_LN0981_036_m-41"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="4"
-                                 pname="d"
+                              <verse xml:id="Je_1573_LN0981_036_m-51" n="1">
+                                 <syl xml:id="Je_1573_LN0981_036_m-52" con="d" wordpos="i">Je</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="Je_1573_LN0981_036_m-41" dur="1" dur.ppq="1024" oct="4" pname="d"
                                  pnum="62">
-                                    <verse xml:id="Je_1573_LN0981_036_m-53" n="1">
-                                        <syl xml:id="Je_1573_LN0981_036_m-54" wordpos="t">sus</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="Je_1573_LN0981_036_m-42"
-                                 dots="1"
-                                 dur="breve"
-                                 dur.ppq="3072"
-                                 oct="4"
+                              <verse xml:id="Je_1573_LN0981_036_m-53" n="1">
+                                 <syl xml:id="Je_1573_LN0981_036_m-54" wordpos="t">sus</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="Je_1573_LN0981_036_m-42" dots="1" dur="breve" dur.ppq="3072" oct="4"
                                  pname="c"
                                  pnum="60">
-                                    <verse xml:id="Je_1573_LN0981_036_m-55" n="1">
-                                        <syl xml:id="Je_1573_LN0981_036_m-56" wordpos="i">Christ/</syl>
-                                    </verse>
-                                </note>
-                            </layer>
-                        </staff>
-                    </measure>
-                    <sb xml:id="Je_1573_LN0981_036_m-58" label="editorial"/>
-                    
-                    <measure xml:id="Je_1573_LN0981_036_m-57" right="invis">
-                        <staff xml:id="Je_1573_LN0981_036_m-59" n="1">
-                            <layer xml:id="Je_1573_LN0981_036_m-60" n="1">
-                                <note xml:id="Je_1573_LN0981_036_m-61"
-                                 dur="breve"
-                                 dur.ppq="2048"
-                                 oct="4"
-                                 pname="c"
+                              <verse xml:id="Je_1573_LN0981_036_m-55" n="1">
+                                 <syl xml:id="Je_1573_LN0981_036_m-56" wordpos="i">Christ/</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <sb xml:id="Je_1573_LN0981_036_m-58" label="editorial"/>
+                  <measure xml:id="Je_1573_LN0981_036_m-57" right="invis">
+                     <staff xml:id="Je_1573_LN0981_036_m-59" n="1">
+                        <layer xml:id="Je_1573_LN0981_036_m-60" n="1">
+                           <note xml:id="Je_1573_LN0981_036_m-61" dur="breve" dur.ppq="2048" oct="4" pname="c"
                                  pnum="60">
-                                    <verse xml:id="Je_1573_LN0981_036_m-68" n="1">
-                                        <syl xml:id="Je_1573_LN0981_036_m-69" wordpos="i">Aff</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="Je_1573_LN0981_036_m-62"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="a"
+                              <verse xml:id="Je_1573_LN0981_036_m-68" n="1">
+                                 <syl xml:id="Je_1573_LN0981_036_m-69" wordpos="i">Aff</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="Je_1573_LN0981_036_m-62" dur="1" dur.ppq="1024" oct="3" pname="a"
                                  pnum="57">
-                                    <verse xml:id="Je_1573_LN0981_036_m-70" n="1">
-                                        <syl xml:id="Je_1573_LN0981_036_m-71" wordpos="i">en</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="Je_1573_LN0981_036_m-63"
-                                 dur="breve"
-                                 dur.ppq="2048"
-                                 oct="3"
-                                 pname="f"
+                              <verse xml:id="Je_1573_LN0981_036_m-70" n="1">
+                                 <syl xml:id="Je_1573_LN0981_036_m-71" wordpos="i">en</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="Je_1573_LN0981_036_m-63" dur="breve" dur.ppq="2048" oct="3" pname="f"
                                  pnum="53">
-                                    <verse xml:id="Je_1573_LN0981_036_m-72" n="1">
-                                        <syl xml:id="Je_1573_LN0981_036_m-73" con="d" wordpos="i">Jom</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="Je_1573_LN0981_036_m-64"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="a"
+                              <verse xml:id="Je_1573_LN0981_036_m-72" n="1">
+                                 <syl xml:id="Je_1573_LN0981_036_m-73" con="d" wordpos="i">Jom</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="Je_1573_LN0981_036_m-64" dur="1" dur.ppq="1024" oct="3" pname="a"
                                  pnum="57">
-                                    <verse xml:id="Je_1573_LN0981_036_m-74" n="1">
-                                        <syl xml:id="Je_1573_LN0981_036_m-75" wordpos="t">fru</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="Je_1573_LN0981_036_m-65"
-                                 dur="breve"
-                                 dur.ppq="2048"
-                                 oct="4"
-                                 pname="c"
+                              <verse xml:id="Je_1573_LN0981_036_m-74" n="1">
+                                 <syl xml:id="Je_1573_LN0981_036_m-75" wordpos="t">fru</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="Je_1573_LN0981_036_m-65" dur="breve" dur.ppq="2048" oct="4" pname="c"
                                  pnum="60">
-                                    <verse xml:id="Je_1573_LN0981_036_m-76" n="1">
-                                        <syl xml:id="Je_1573_LN0981_036_m-77" wordpos="i">det</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="Je_1573_LN0981_036_m-66"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="4"
-                                 pname="d"
+                              <verse xml:id="Je_1573_LN0981_036_m-76" n="1">
+                                 <syl xml:id="Je_1573_LN0981_036_m-77" wordpos="i">det</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="Je_1573_LN0981_036_m-66" dur="1" dur.ppq="1024" oct="4" pname="d"
                                  pnum="62">
-                                    <verse xml:id="Je_1573_LN0981_036_m-78" n="1">
-                                        <syl xml:id="Je_1573_LN0981_036_m-79" wordpos="i">er</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="Je_1573_LN0981_036_m-67"
-                                 dur="breve"
-                                 dur.ppq="2048"
-                                 oct="4"
-                                 pname="c"
+                              <verse xml:id="Je_1573_LN0981_036_m-78" n="1">
+                                 <syl xml:id="Je_1573_LN0981_036_m-79" wordpos="i">er</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="Je_1573_LN0981_036_m-67" dur="breve" dur.ppq="2048" oct="4" pname="c"
                                  pnum="60">
-                                    <verse xml:id="Je_1573_LN0981_036_m-80" n="1">
-                                        <syl xml:id="Je_1573_LN0981_036_m-81" wordpos="i">vist/</syl>
-                                    </verse>
-                                </note>
-                            </layer>
-                        </staff>
-                    </measure>
-                    <sb xml:id="Je_1573_LN0981_036_m-84" label="editorial"/>
-                    
-                    <measure xml:id="Je_1573_LN0981_036_m-83" right="invis">
-                        <staff xml:id="Je_1573_LN0981_036_m-85" n="1">
-                            <layer xml:id="Je_1573_LN0981_036_m-86" n="1">
-                                <note xml:id="Je_1573_LN0981_036_m-87"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="b"
+                              <verse xml:id="Je_1573_LN0981_036_m-80" n="1">
+                                 <syl xml:id="Je_1573_LN0981_036_m-81" wordpos="i">vist/</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <sb xml:id="Je_1573_LN0981_036_m-84" label="editorial"/>
+                  <measure xml:id="Je_1573_LN0981_036_m-83" right="invis">
+                     <staff xml:id="Je_1573_LN0981_036_m-85" n="1">
+                        <layer xml:id="Je_1573_LN0981_036_m-86" n="1">
+                           <note xml:id="Je_1573_LN0981_036_m-87" dur="1" dur.ppq="1024" oct="3" pname="b"
                                  pnum="58"
                                  accid.ges="f">
-                                    
-                                    <verse xml:id="Je_1573_LN0981_036_m-101" n="1">
-                                        <syl xml:id="Je_1573_LN0981_036_m-102" con="d" wordpos="i">for</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="Je_1573_LN0981_036_m-89"
-                                 dur="breve"
-                                 dur.ppq="2048"
-                                 oct="3"
-                                 pname="b"
+                              <verse xml:id="Je_1573_LN0981_036_m-101" n="1">
+                                 <syl xml:id="Je_1573_LN0981_036_m-102" con="d" wordpos="i">for</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="Je_1573_LN0981_036_m-89" dur="breve" dur.ppq="2048" oct="3" pname="b"
                                  pnum="58"
                                  accid.ges="f">
-                                    
-                                    <verse xml:id="Je_1573_LN0981_036_m-103" n="1">
-                                        <syl xml:id="Je_1573_LN0981_036_m-104" con="d" wordpos="m">u</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="Je_1573_LN0981_036_m-91"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="b"
+                              <verse xml:id="Je_1573_LN0981_036_m-103" n="1">
+                                 <syl xml:id="Je_1573_LN0981_036_m-104" con="d" wordpos="m">u</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="Je_1573_LN0981_036_m-91" dur="1" dur.ppq="1024" oct="3" pname="b"
                                  pnum="58"
                                  accid.ges="f">
-                                    
-                                    <verse xml:id="Je_1573_LN0981_036_m-105" n="1">
-                                        <syl xml:id="Je_1573_LN0981_036_m-106" wordpos="t">den</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="Je_1573_LN0981_036_m-94"
-                                 dur="breve"
-                                 dur.ppq="2048"
-                                 oct="3"
-                                 pname="b"
+                              <verse xml:id="Je_1573_LN0981_036_m-105" n="1">
+                                 <syl xml:id="Je_1573_LN0981_036_m-106" wordpos="t">den</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="Je_1573_LN0981_036_m-94" dur="breve" dur.ppq="2048" oct="3" pname="b"
                                  pnum="58"
                                  accid.ges="f">
-                                    
-                                    <verse xml:id="Je_1573_LN0981_036_m-107" n="1">
-                                        <syl xml:id="Je_1573_LN0981_036_m-108" wordpos="i">Mands</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="Je_1573_LN0981_036_m-96"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="4"
-                                 pname="c"
+                              <verse xml:id="Je_1573_LN0981_036_m-107" n="1">
+                                 <syl xml:id="Je_1573_LN0981_036_m-108" wordpos="i">Mands</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="Je_1573_LN0981_036_m-96" dur="1" dur.ppq="1024" oct="4" pname="c"
                                  pnum="60">
-                                    <verse xml:id="Je_1573_LN0981_036_m-109" n="1">
-                                        <syl xml:id="Je_1573_LN0981_036_m-110" con="d" wordpos="i">be</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="Je_1573_LN0981_036_m-97"
-                                 dur="breve"
-                                 dur.ppq="2048"
-                                 oct="3"
-                                 pname="b"
+                              <verse xml:id="Je_1573_LN0981_036_m-109" n="1">
+                                 <syl xml:id="Je_1573_LN0981_036_m-110" con="d" wordpos="i">be</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="Je_1573_LN0981_036_m-97" dur="breve" dur.ppq="2048" oct="3" pname="b"
                                  pnum="58"
                                  accid.ges="f">
-                                    
-                                    <verse xml:id="Je_1573_LN0981_036_m-111" n="1">
-                                        <syl xml:id="Je_1573_LN0981_036_m-112" con="d" wordpos="m">blan</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="Je_1573_LN0981_036_m-99"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="a"
+                              <verse xml:id="Je_1573_LN0981_036_m-111" n="1">
+                                 <syl xml:id="Je_1573_LN0981_036_m-112" con="d" wordpos="m">blan</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="Je_1573_LN0981_036_m-99" dur="1" dur.ppq="1024" oct="3" pname="a"
                                  pnum="57">
-                                    <verse xml:id="Je_1573_LN0981_036_m-113" n="1">
-                                        <syl xml:id="Je_1573_LN0981_036_m-114" con="d" wordpos="m">del</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="Je_1573_LN0981_036_m-100"
-                                 dur="breve"
-                                 dur.ppq="2048"
-                                 oct="3"
-                                 pname="g"
+                              <verse xml:id="Je_1573_LN0981_036_m-113" n="1">
+                                 <syl xml:id="Je_1573_LN0981_036_m-114" con="d" wordpos="m">del</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="Je_1573_LN0981_036_m-100" dur="breve" dur.ppq="2048" oct="3" pname="g"
                                  pnum="55">
-                                    <verse xml:id="Je_1573_LN0981_036_m-115" n="1">
-                                        <syl xml:id="Je_1573_LN0981_036_m-116" wordpos="t">se/</syl>
-                                    </verse>
-                                </note>
-                            </layer>
-                        </staff>
-                        <dir type="sb"
-                          tstamp="15"
-                          place="above"
-                          label="Linjeskift"
+                              <verse xml:id="Je_1573_LN0981_036_m-115" n="1">
+                                 <syl xml:id="Je_1573_LN0981_036_m-116" wordpos="t">se/</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <dir type="sb" tstamp="15" place="above" label="Linjeskift"
                           xml:id="Je_1573_LN0981_036_m-93">ǀ</dir>
-                    </measure>
-                    <sb xml:id="Je_1573_LN0981_036_m-119" label="editorial"/>
-                    
-                    <measure xml:id="Je_1573_LN0981_036_m-118" right="end">
-                        <staff xml:id="Je_1573_LN0981_036_m-120" n="1">
-                            <layer xml:id="Je_1573_LN0981_036_m-121" n="1">
-                                <note xml:id="Je_1573_LN0981_036_m-122"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="a"
+                  </measure>
+                  <sb xml:id="Je_1573_LN0981_036_m-119" label="editorial"/>
+                  <measure xml:id="Je_1573_LN0981_036_m-118" right="end">
+                     <staff xml:id="Je_1573_LN0981_036_m-120" n="1">
+                        <layer xml:id="Je_1573_LN0981_036_m-121" n="1">
+                           <note xml:id="Je_1573_LN0981_036_m-122" dur="1" dur.ppq="1024" oct="3" pname="a"
                                  pnum="57">
-                                    <verse xml:id="Je_1573_LN0981_036_m-140" n="1">
-                                        <syl xml:id="Je_1573_LN0981_036_m-141" wordpos="i">er</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="Je_1573_LN0981_036_m-123"
-                                 dur="breve"
-                                 dur.ppq="2048"
-                                 oct="4"
-                                 pname="c"
+                              <verse xml:id="Je_1573_LN0981_036_m-140" n="1">
+                                 <syl xml:id="Je_1573_LN0981_036_m-141" wordpos="i">er</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="Je_1573_LN0981_036_m-123" dur="breve" dur.ppq="2048" oct="4" pname="c"
                                  pnum="60">
-                                    <verse xml:id="Je_1573_LN0981_036_m-142" n="1">
-                                        <syl xml:id="Je_1573_LN0981_036_m-143" wordpos="i">hand</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="Je_1573_LN0981_036_m-124"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="a"
+                              <verse xml:id="Je_1573_LN0981_036_m-142" n="1">
+                                 <syl xml:id="Je_1573_LN0981_036_m-143" wordpos="i">hand</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="Je_1573_LN0981_036_m-124" dur="1" dur.ppq="1024" oct="3" pname="a"
                                  pnum="57">
-                                    <verse xml:id="Je_1573_LN0981_036_m-144" n="1">
-                                        <syl xml:id="Je_1573_LN0981_036_m-145" wordpos="i">oss</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="Je_1573_LN0981_036_m-125"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="f"
+                              <verse xml:id="Je_1573_LN0981_036_m-144" n="1">
+                                 <syl xml:id="Je_1573_LN0981_036_m-145" wordpos="i">oss</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="Je_1573_LN0981_036_m-125" dur="1" dur.ppq="1024" oct="3" pname="f"
                                  pnum="53">
-                                    <verse xml:id="Je_1573_LN0981_036_m-146" n="1">
-                                        <syl xml:id="Je_1573_LN0981_036_m-147" con="d" wordpos="i">kom</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="Je_1573_LN0981_036_m-126"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="f"
+                              <verse xml:id="Je_1573_LN0981_036_m-146" n="1">
+                                 <syl xml:id="Je_1573_LN0981_036_m-147" con="d" wordpos="i">kom</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="Je_1573_LN0981_036_m-126" dur="1" dur.ppq="1024" oct="3" pname="f"
                                  pnum="53">
-                                    <verse xml:id="Je_1573_LN0981_036_m-148" n="1">
-                                        <syl xml:id="Je_1573_LN0981_036_m-149" wordpos="t">men</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="Je_1573_LN0981_036_m-127"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="b"
+                              <verse xml:id="Je_1573_LN0981_036_m-148" n="1">
+                                 <syl xml:id="Je_1573_LN0981_036_m-149" wordpos="t">men</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="Je_1573_LN0981_036_m-127" dur="1" dur.ppq="1024" oct="3" pname="b"
                                  pnum="58"
                                  accid.ges="f">
-                                    
-                                    <verse xml:id="Je_1573_LN0981_036_m-150" n="1">
-                                        <syl xml:id="Je_1573_LN0981_036_m-151" wordpos="i">aff</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="Je_1573_LN0981_036_m-129"
-                                 dur="breve"
-                                 dur.ppq="2048"
-                                 oct="3"
-                                 pname="a"
+                              <verse xml:id="Je_1573_LN0981_036_m-150" n="1">
+                                 <syl xml:id="Je_1573_LN0981_036_m-151" wordpos="i">aff</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="Je_1573_LN0981_036_m-129" dur="breve" dur.ppq="2048" oct="3" pname="a"
                                  pnum="57">
-                                    <verse xml:id="Je_1573_LN0981_036_m-152" n="1">
-                                        <syl xml:id="Je_1573_LN0981_036_m-153" con="d" wordpos="i">Hø</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="Je_1573_LN0981_036_m-130"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="a"
+                              <verse xml:id="Je_1573_LN0981_036_m-152" n="1">
+                                 <syl xml:id="Je_1573_LN0981_036_m-153" con="d" wordpos="i">Hø</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="Je_1573_LN0981_036_m-130" dur="1" dur.ppq="1024" oct="3" pname="a"
                                  pnum="57">
-                                    <verse xml:id="Je_1573_LN0981_036_m-154" n="1">
-                                        <syl xml:id="Je_1573_LN0981_036_m-155" con="d" wordpos="m">ye</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="Je_1573_LN0981_036_m-132"
-                                 dur="breve"
-                                 dur.ppq="2048"
-                                 oct="3"
-                                 pname="g"
+                              <verse xml:id="Je_1573_LN0981_036_m-154" n="1">
+                                 <syl xml:id="Je_1573_LN0981_036_m-155" con="d" wordpos="m">ye</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="Je_1573_LN0981_036_m-132" dur="breve" dur.ppq="2048" oct="3" pname="g"
                                  pnum="55">
-                                    <verse xml:id="Je_1573_LN0981_036_m-156" n="1">
-                                        <syl xml:id="Je_1573_LN0981_036_m-157" wordpos="t">ste/</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="Je_1573_LN0981_036_m-133"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="a"
+                              <verse xml:id="Je_1573_LN0981_036_m-156" n="1">
+                                 <syl xml:id="Je_1573_LN0981_036_m-157" wordpos="t">ste/</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="Je_1573_LN0981_036_m-133" dur="1" dur.ppq="1024" oct="3" pname="a"
                                  pnum="57">
-                                    <verse xml:id="Je_1573_LN0981_036_m-158" n="1">
-                                        <syl xml:id="Je_1573_LN0981_036_m-159" wordpos="i">vor</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="Je_1573_LN0981_036_m-134"
-                                 dur="breve"
-                                 dur.ppq="2048"
-                                 oct="3"
+                              <verse xml:id="Je_1573_LN0981_036_m-158" n="1">
+                                 <syl xml:id="Je_1573_LN0981_036_m-159" wordpos="i">vor</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="Je_1573_LN0981_036_m-134" dur="breve" dur.ppq="2048" oct="3" pname="f"
+                                 pnum="53">
+                              <verse xml:id="Je_1573_LN0981_036_m-160" n="1">
+                                 <syl xml:id="Je_1573_LN0981_036_m-161" con="d" wordpos="i">Sa</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="Je_1573_LN0981_036_m-135" dur="1" dur.ppq="1024" oct="3" pname="f"
+                                 pnum="53">
+                              <verse xml:id="Je_1573_LN0981_036_m-162" n="1">
+                                 <syl xml:id="Je_1573_LN0981_036_m-163" con="d" wordpos="m">lig</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="Je_1573_LN0981_036_m-136" dots="1" dur="breve" dur.ppq="3072" oct="3"
                                  pname="f"
                                  pnum="53">
-                                    <verse xml:id="Je_1573_LN0981_036_m-160" n="1">
-                                        <syl xml:id="Je_1573_LN0981_036_m-161" con="d" wordpos="i">Sa</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="Je_1573_LN0981_036_m-135"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="f"
-                                 pnum="53">
-                                    <verse xml:id="Je_1573_LN0981_036_m-162" n="1">
-                                        <syl xml:id="Je_1573_LN0981_036_m-163" con="d" wordpos="m">lig</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="Je_1573_LN0981_036_m-136"
-                                 dots="1"
-                                 dur="breve"
-                                 dur.ppq="3072"
-                                 oct="3"
-                                 pname="f"
-                                 pnum="53">
-                                    <verse xml:id="Je_1573_LN0981_036_m-164" n="1">
-                                        <syl xml:id="Je_1573_LN0981_036_m-165" wordpos="t">hed.</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="Je_1573_LN0981_036_m-138"
-                                 dots="1"
-                                 dur="breve"
-                                 dur.ppq="3072"
-                                 oct="3"
+                              <verse xml:id="Je_1573_LN0981_036_m-164" n="1">
+                                 <syl xml:id="Je_1573_LN0981_036_m-165" wordpos="t">hed.</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="Je_1573_LN0981_036_m-138" dots="1" dur="breve" dur.ppq="3072" oct="3"
                                  pname="f"
                                  pnum="53"/>
-                            </layer>
-                        </staff>
-                        <tie xml:id="Je_1573_LN0981_036_m-137"
-                          endid="#Je_1573_LN0981_036_m-138"
+                        </layer>
+                     </staff>
+                     <tie xml:id="Je_1573_LN0981_036_m-137" endid="#Je_1573_LN0981_036_m-138"
                           startid="#Je_1573_LN0981_036_m-136"/>
-                        <dir type="pb"
-                          tstamp="39"
-                          place="above"
-                          label="Sideskift"
+                     <dir type="pb" tstamp="39" place="above" label="Sideskift"
                           xml:id="Je_1573_LN0981_036_m-131">ǁ</dir>
-                        <fermata xml:id="Je_1573_LN0981_036_m-139"
-                              form="norm"
-                              layer="1"
-                              shape="curved"
+                     <fermata xml:id="Je_1573_LN0981_036_m-139" form="norm" layer="1" shape="curved"
                               staff="1"
                               startid="#Je_1573_LN0981_036_m-138"/>
-                    </measure>
+                  </measure>
                   <pb/>
                </section>
             </score>
-        </mdiv>
+         </mdiv>
       </body>
    </music>
 </mei>

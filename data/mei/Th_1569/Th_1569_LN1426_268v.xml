@@ -1,30 +1,209 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><mei xmlns="http://www.music-encoding.org/ns/mei"
+<mei xmlns="http://www.music-encoding.org/ns/mei"
      xmlns:xlink="http://www.w3.org/1999/xlink"
      meiversion="4.0.0"
      xml:id="Th_1569_LN1426_268v_m-1">
-   <meiHead xml:id="Th_1569_LN1426_268v_m-2">
-      <fileDesc xml:id="Th_1569_LN1426_268v_m-3">
-         <titleStmt xml:id="Th_1569_LN1426_268v_m-4">
-            <title xml:id="Th_1569_LN1426_268v_m-10"/>
+   <meiHead xmlns:xl="http://www.w3.org/1999/xlink" xml:id="meiHead_49f79079">
+      <fileDesc xml:id="fileDesc_98f2b932">
+         <titleStmt xml:id="titleStmt_31446ff8">
+            <title xml:id="title_1091e8fb">Jeg raaber til dig O Herre Christ</title>
          </titleStmt>
-         <pubStmt xml:id="Th_1569_LN1426_268v_m-13">
-            <availability xml:id="Th_1569_LN1426_268v_m-14">
-               <useRestrict xml:id="Th_1569_LN1426_268v_m-15"/>
-            </availability>
+         <pubStmt xml:id="pubStmt_c2bb7590">
+            <respStmt>
+               <resp xml:id="resp_34782288">Publisher</resp>
+               <corpName xml:id="corpName_db2fe819">
+                  <abbr xml:id="abbr_2548365d">DSL</abbr>
+                  <expan xml:id="expan_6d59d61b">Det Danske Sprog- og Litteraturselskab</expan>
+                  <address xml:id="address_f0d937f4">
+                     <addrLine xml:id="addrLine_ac4dc8c6">Christians Brygge 1</addrLine>
+                     <addrLine xml:id="addrLine_9223fa6a">1219 København K</addrLine>
+                     <addrLine xml:id="addrLine_249ed06f">
+                        <ptr label="WWW" target="https://dsl.dk" xml:id="ptr_N20262"/>
+                     </addrLine>
+                     <addrLine xml:id="addrLine_e614e9e9">
+                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="ptr_N20270"/>
+                     </addrLine>
+                  </address>
+               </corpName>
+               <persName role="editor" xml:id="persName_e9f57b6d">Bjarke Moe</persName>
+               <persName role="data manager" xml:id="persName_d1e8">Axel Teich Geertinger</persName>
+            </respStmt>
          </pubStmt>
+         <seriesStmt xml:id="seriesStmt_5b58ff83">
+            <title xml:id="title_acf74b06">Musik og sprog i reformationstidens danske salmesang</title>
+            <identifier type="file_collection" xml:id="identifier_80715a7e">RefSal</identifier>
+         </seriesStmt>
       </fileDesc>
-      <encodingDesc xml:id="Th_1569_LN1426_268v_m-16">
-         <appInfo xml:id="Th_1569_LN1426_268v_m-17">
-            <application xml:id="Th_1569_LN1426_268v_sibelius" isodate="2019-1-8T15:53:16Z"
-                         version="6200">
-               <name xml:id="Th_1569_LN1426_268v_m-19">Sibelius</name>
+      <encodingDesc xml:id="encodingDesc_150ac219">
+         <appInfo xml:id="appInfo_c950335a">
+            <application version="6.2" xml:id="application_d1e36">
+               <name>Sibelius</name>
             </application>
-            <application xml:id="Th_1569_LN1426_268v_sibmei" type="plugin" version="2.1.0">
-               <name xml:id="Th_1569_LN1426_268v_m-21">Sibelius 6.2 to MEI Exporter (2.1.0)</name>
+            <application version="2.1.0 modified for Sibelius 6" xml:id="application_2d1e36">
+               <name>SibMEI</name>
+            </application>
+            <application version="2013" xml:id="application_1b9be33f">
+               <name xml:id="name_a7d64f2c">MerMEId</name>
             </application>
          </appInfo>
       </encodingDesc>
+      <workList xml:id="workDesc_f0531e4b">
+         <work xml:id="work_7327e799">
+            <identifier label="RefSal" xml:id="identifier_036d65f5">Th 268v</identifier>
+            <identifier label="Glahn 1954" xml:id="identifier_6b04c6a6">125</identifier>
+            <identifier label="Glahn 2000" xml:id="identifier_f14b445f">C Ia: 21</identifier>
+            <identifier label="Zahn" xml:id="identifier_721ee165">7400</identifier>
+            <identifier label="DDK 1954" xml:id="identifier_e18e4c18">332</identifier>
+            <identifier label="DDK 2003" xml:id="identifier_6cc811bf">421</identifier>
+            <title xml:id="title_da962e98" xml:lang="da">Jeg raaber til dig O Herre Christ</title>
+            <title type="uniform" xml:id="title_873b261e" xml:lang="da">Jeg råber til dig, o Herre Krist</title>
+            <title type="uniform" xml:id="title_4dda1d7f" xml:lang="de">Ich ruf zu dir, Herr Jesu Christ</title>
+            <contributor xml:id="respStmt_5577b899">
+               <persName auth.uri="http://www.viaf.org" auth="VIAF" codedval="59249628" role="collector"
+                         xml:id="persName_5eb47039">Hans Thomissøn</persName>
+            </contributor>
+            <history xml:id="history_44436885">
+               <p>Melodien forekommer første gang i Klug 1533. Den bygger angiveligt på en eksisterende melodi (fra 1526) (Glahn 1954:244).</p>
+               <p>Teksten tillægges Agricola, prædikant i Eisleben 1527-1536, og offentliggjordes første gang i Klug 1529 (Widding 1933,II:76).</p>
+               <p>Første danske oversættelse kom i Vingaard 1553, fol. 139r, som imidlertid må være skrevet af efter forlæg indeholdende noder. Linjerne i første strofe er nemlig byttet om (1-3-2-4), sådan som de vil stå hvis melodien noteres med gentagelsestegn (som i Thomissøn fol. 268v).Umiddelbart forud for salmen skriver udgiveren, at "Disse Aandelige Viser och Lofsange som her effter følge/ vare aldri Prentede i Danmarck tilffornne". Disse to forhold peger i retning af, at forlægget enten har været et håndskrevet trykforlæg indeholdende musiknotation, eller et trykt forlæg (fx et fra Magdeburg, se Glahn 1954:244), hvori oversættelsen var skrevet direkte ind i. </p>
+               <p>Første danske gengivelse af melodien er Krögerus 1568, fol. 143r.</p>
+               <p>Flerstemmig udsættelse:</p>
+               <p>Mogens Pedersøn 1620</p>
+            </history>
+            <langUsage xml:id="langUsage_f10dda89">
+               <language xml:id="de">German</language>
+               <language xml:id="en">English</language>
+               <language xml:id="da">Danish</language>
+            </langUsage>
+            <expressionList xml:id="expressionList_6a472619">
+               <expression xml:id="expression_13de6575">
+                  <title xml:id="title_3221f463" xml:lang="en"/>
+                  <history xml:id="history_a2c15376">
+                     <p/>
+                  </history>
+                  <perfMedium analog="marc:048" auth="marcmusperf" xml:id="perfMedium_4cb44b2d"/>
+               </expression>
+            </expressionList>
+            <relationList xml:id="relationList_1c110507">
+               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569_LN1426.xml"
+                         xml:id="relation_4d893f59"/>
+            </relationList>
+         </work>
+      </workList>
+      <revisionDesc>
+         <change isodate="2017-08-03" xml:id="change_109N100C9">
+            <respStmt xml:id="respStmt_8f8a4a9d">
+               <name xml:id="resp_9c4cf05e">bmoe</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_a518c0fb">
+               <p xml:id="p_73d4053a"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-08-08" xml:id="change_110N100E3">
+            <respStmt xml:id="respStmt_2bee4e4c">
+               <name xml:id="resp_037bbf30">bmoe</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_d27f015a">
+               <p xml:id="p_8da7a68e"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-08-25" xml:id="change_128N10114">
+            <respStmt xml:id="respStmt_95d9fa2e">
+               <name xml:id="resp_9baf801b">bmoe</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_bff4111f">
+               <p xml:id="p_93842309"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-09-01" xml:id="change_121N100F6">
+            <respStmt xml:id="respStmt_a5d594b0">
+               <name xml:id="resp_6f70afba">bmoe</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_b8a7932b">
+               <p xml:id="p_a6557164"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-11-13T11:22:15.268Z" xml:id="change_125N100FC">
+            <respStmt xml:id="respStmt_1a5a1196">
+               <name xml:id="resp_6672238f">bmoe</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_25c07039">
+               <p xml:id="p_5b0a295c"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-12-20T08:49:45+01:00" xml:id="change_126N100C1">
+            <respStmt xml:id="respStmt_5b7dda12">
+               <name xml:id="resp_991293c5">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_fa1cf2a4">
+               <p xml:id="p_3b166756">Batch transformation removing empty elements and udpdating mail address</p>
+            </changeDesc>
+         </change>
+         <change isodate="2018-12-03T14:02:34.363Z" xml:id="change_8baa7ee9">
+            <respStmt>
+               <name>bmoe</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_674111a9">
+               <p xml:id="p_d3560340"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-06-04T15:15:13.961Z" xml:id="change_116N10129">
+            <respStmt>
+               <name>bmoe</name>
+            </respStmt>
+            <changeDesc>
+               <p/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-06-11T07:35:24.367Z" xml:id="change_122N10134">
+            <respStmt>
+               <name>bmoe</name>
+            </respStmt>
+            <changeDesc>
+               <p/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-07-09T10:59:54.656Z" xml:id="change_c2516550-3b96">
+            <respStmt>
+               <name>MerMEId user</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_7b4c5665-f476">
+               <p>file renamed from 66c26d83-f65d-4264-a0cb-89c7e8080438.xml to Th_1569_LN1426_268v.xml</p>
+            </changeDesc>
+         </change>
+         <change isodate="2019-07-09T11:14:33.075Z" xml:id="change_4ef39778-b320">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_d53236c8-5131">
+               <p>file reference updated (a file was renamed from 9e6f397d-efc4-4f68-bf67-bbbb86b037ce.xml to Th_1569_LN1426.xml)</p>
+            </changeDesc>
+         </change>
+         <change isodate="2019-07-23T15:15:23.927+02:00" xml:id="change_137d1e113">
+            <respStmt>
+               <name>atge</name>
+            </respStmt>
+            <changeDesc>
+               <p>Transform from MEI 3.0.0 to 4.0.0</p>
+            </changeDesc>
+         </change>
+         <change isodate="2019-07-23T16:02:02.876+02:00" xml:id="change_142d1e113">
+            <respStmt>
+               <name>atge</name>
+            </respStmt>
+            <changeDesc>
+               <p>Update project metadata</p>
+            </changeDesc>
+         </change>
+         <change isodate="2019-07-24T10:14:16.03+02:00" xml:id="change_128d2e96">
+            <respStmt>
+               <name>atge</name>
+            </respStmt>
+            <changeDesc>
+               <p>Merge data and metadata</p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
    </meiHead>
    <music xml:id="Th_1569_LN1426_268v_m-22">
       <body xml:id="Th_1569_LN1426_268v_m-23">

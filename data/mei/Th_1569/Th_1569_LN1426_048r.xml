@@ -1,30 +1,188 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><mei xmlns="http://www.music-encoding.org/ns/mei"
+<mei xmlns="http://www.music-encoding.org/ns/mei"
      xmlns:xlink="http://www.w3.org/1999/xlink"
      meiversion="4.0.0"
      xml:id="Th_1569_LN1426_048r_m-1">
-   <meiHead xml:id="Th_1569_LN1426_048r_m-2">
-      <fileDesc xml:id="Th_1569_LN1426_048r_m-3">
-         <titleStmt xml:id="Th_1569_LN1426_048r_m-4">
-            <title xml:id="Th_1569_LN1426_048r_m-10"/>
+   <meiHead xmlns:xl="http://www.w3.org/1999/xlink" xml:id="meiHead_e386942c">
+      <fileDesc xml:id="fileDesc_aecb5219">
+         <titleStmt xml:id="titleStmt_74e1157a">
+            <title xml:id="title_bb668d8a">Englen indgangen til Jomfru Marie</title>
          </titleStmt>
-         <pubStmt xml:id="Th_1569_LN1426_048r_m-13">
-            <availability xml:id="Th_1569_LN1426_048r_m-14">
-               <useRestrict xml:id="Th_1569_LN1426_048r_m-15"/>
-            </availability>
+         <pubStmt xml:id="pubStmt_328f9d8b">
+            <respStmt>
+               <resp xml:id="resp_49c0da96">Publisher</resp>
+               <corpName xml:id="corpName_f65c8bde">
+                  <abbr xml:id="abbr_44e6172b">DSL</abbr>
+                  <expan xml:id="expan_2741f0ce">Det Danske Sprog- og Litteraturselskab</expan>
+                  <address xml:id="address_8de4a402">
+                     <addrLine xml:id="addrLine_0360f2fe">Christians Brygge 1</addrLine>
+                     <addrLine xml:id="addrLine_60574854">1219 København K</addrLine>
+                     <addrLine xml:id="addrLine_4e6593bd">
+                        <ptr label="WWW" target="https://dsl.dk" xml:id="ptr_N20262"/>
+                     </addrLine>
+                     <addrLine xml:id="addrLine_d3be3143">
+                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="ptr_N20270"/>
+                     </addrLine>
+                  </address>
+               </corpName>
+               <persName role="editor" xml:id="persName_d461d72c">Bjarke Moe</persName>
+               <persName role="data manager" xml:id="persName_d1e8">Axel Teich Geertinger</persName>
+            </respStmt>
          </pubStmt>
+         <seriesStmt xml:id="seriesStmt_06033751">
+            <title xml:id="title_2b4a2bca">Musik og sprog i reformationstidens danske salmesang</title>
+            <identifier type="file_collection" xml:id="identifier_8d55413b">RefSal</identifier>
+         </seriesStmt>
       </fileDesc>
-      <encodingDesc xml:id="Th_1569_LN1426_048r_m-16">
-         <appInfo xml:id="Th_1569_LN1426_048r_m-17">
-            <application xml:id="Th_1569_LN1426_048r_sibelius" isodate="2019-1-8T15:50:54Z"
-                         version="6200">
-               <name xml:id="Th_1569_LN1426_048r_m-19">Sibelius</name>
+      <encodingDesc xml:id="encodingDesc_8cbc2d81">
+         <appInfo xml:id="appInfo_e2b1dd74">
+            <application version="6.2" xml:id="application_d1e36">
+               <name>Sibelius</name>
             </application>
-            <application xml:id="Th_1569_LN1426_048r_sibmei" type="plugin" version="2.1.0">
-               <name xml:id="Th_1569_LN1426_048r_m-21">Sibelius 6.2 to MEI Exporter (2.1.0)</name>
+            <application version="2.1.0 modified for Sibelius 6" xml:id="application_2d1e36">
+               <name>SibMEI</name>
+            </application>
+            <application version="2013" xml:id="application_7490c248">
+               <name xml:id="name_04c30978">MerMEId</name>
             </application>
          </appInfo>
       </encodingDesc>
+      <workList xml:id="workDesc_22016e03">
+         <work xml:id="work_7327e799">
+            <identifier label="RefSal" xml:id="identifier_036d65f5">Th 048r</identifier>
+            <identifier label="Glahn 1954" xml:id="identifier_9e495df3">58</identifier>
+            <identifier label="Glahn 2000" xml:id="identifier_8a9b5d33">A IV: 10b</identifier>
+            <title xml:id="title_da962e98" xml:lang="da">Englen indgangen til Jomfru Marie</title>
+            <title type="alternative" xml:id="title_1ffbdd7e" xml:lang="la">Aue Maria</title>
+            <title type="uniform" xml:id="title_c08ee254" xml:lang="en">Englen indgangen til Jomfru Marie</title>
+            <contributor xml:id="respStmt_5577b899">
+               <persName auth.uri="http://www.viaf.org" auth="VIAF" codedval="59249628" role="collector"
+                         xml:id="persName_5eb47039">Hans Thomissøn</persName>
+               <persName auth.uri="http://www.viaf.org" auth="VIAF" codedval="23149066357065600720"
+                         role="author"
+                         xml:id="persName_e05309d5">Jørgen Jensen Sadolin [Jørgen Jensen]</persName>
+            </contributor>
+            <history xml:id="history_44436885">
+               <p/>
+            </history>
+            <langUsage xml:id="langUsage_f10dda89">
+               <language xml:id="la">Latin</language>
+               <language xml:id="da">Danish</language>
+               <language xml:id="en">English</language>
+            </langUsage>
+            <expressionList xml:id="expressionList_6a472619">
+               <expression xml:id="expression_13de6575">
+                  <title xml:id="title_3221f463" xml:lang="en"/>
+                  <history xml:id="history_a2c15376">
+                     <p/>
+                  </history>
+                  <perfMedium analog="marc:048" auth="marcmusperf" xml:id="perfMedium_4cb44b2d"/>
+               </expression>
+            </expressionList>
+            <relationList xml:id="relationList_1c110507">
+               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569_LN1426.xml"
+                         xml:id="relation_4d893f59"/>
+            </relationList>
+         </work>
+      </workList>
+      <revisionDesc>
+         <change isodate="2017-08-03" xml:id="change_109N100C9">
+            <respStmt xml:id="respStmt_4ef8b9e5">
+               <name xml:id="resp_d7d1e1e0">bmoe</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_c3a28b28">
+               <p xml:id="p_8f14ce1c"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-08-08" xml:id="change_110N100E3">
+            <respStmt xml:id="respStmt_6972fee2">
+               <name xml:id="resp_72000490">bmoe</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_653ff691">
+               <p xml:id="p_1382c641"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-08-25" xml:id="change_128N10114">
+            <respStmt xml:id="respStmt_d0bda5b7">
+               <name xml:id="resp_1c0298a4">bmoe</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_0d5d2fa8">
+               <p xml:id="p_8eb66389"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-08-31" xml:id="change_efa0f7cd">
+            <respStmt xml:id="respStmt_5eb7568d">
+               <name xml:id="resp_27a2397d">bmoe</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_5a0cd479">
+               <p xml:id="p_4b3dd888"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-10-30T09:18:28.712Z" xml:id="change_18077215">
+            <respStmt>
+               <name>bmoe</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_d52f44c8">
+               <p xml:id="p_4aafbc96"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-12-20T08:49:49+01:00" xml:id="change_146N10147">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc>
+               <p>Batch transformation removing empty elements and udpdating mail address</p>
+            </changeDesc>
+         </change>
+         <change isodate="2019-06-07T08:41:13.017Z" xml:id="change_114N10128">
+            <respStmt>
+               <name>bmoe</name>
+            </respStmt>
+            <changeDesc>
+               <p/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-07-09T10:22:55.911Z" xml:id="change_3f89c2f0-e8b1">
+            <respStmt>
+               <name>MerMEId user</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_594b8659-969c">
+               <p>file renamed from e213b447-79ec-421d-b2f5-9ddba02f7bc8.xml to Th_1569_LN1426_048r.xml</p>
+            </changeDesc>
+         </change>
+         <change isodate="2019-07-09T11:14:33.075Z" xml:id="change_ef05bba5-ea0c">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_e9e8490d-fe56">
+               <p>file reference updated (a file was renamed from 9e6f397d-efc4-4f68-bf67-bbbb86b037ce.xml to Th_1569_LN1426.xml)</p>
+            </changeDesc>
+         </change>
+         <change isodate="2019-07-23T15:15:09.516+02:00" xml:id="change_120d1e97">
+            <respStmt>
+               <name>atge</name>
+            </respStmt>
+            <changeDesc>
+               <p>Transform from MEI 3.0.0 to 4.0.0</p>
+            </changeDesc>
+         </change>
+         <change isodate="2019-07-23T16:01:46.642+02:00" xml:id="change_125d1e98">
+            <respStmt>
+               <name>atge</name>
+            </respStmt>
+            <changeDesc>
+               <p>Update project metadata</p>
+            </changeDesc>
+         </change>
+         <change isodate="2019-07-24T10:14:03.984+02:00" xml:id="change_111d2e80">
+            <respStmt>
+               <name>atge</name>
+            </respStmt>
+            <changeDesc>
+               <p>Merge data and metadata</p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
    </meiHead>
    <music xml:id="Th_1569_LN1426_048r_m-22">
       <body xml:id="Th_1569_LN1426_048r_m-23">
@@ -72,64 +230,65 @@
                               </verse>
                            </note>
                            <unclear>
-                              <annot xml:id="Th_1569_LN1426_048r_annot1"><rend rend="italic">dig du est bene-dide</rend>: tekstfordeling usikker</annot>
+                              <annot xml:id="Th_1569_LN1426_048r_annot1">
+                                 <rend rend="italic">dig du est bene-dide</rend>: tekstfordeling usikker</annot>
                               <note xml:id="Th_1569_LN1426_048r_m-41" dur="2" dur.ppq="512" oct="4" pname="d"
-                                 pnum="62">
-                              <verse xml:id="Th_1569_LN1426_048r_m-59" n="2">
-                                 <syl xml:id="Th_1569_LN1426_048r_m-60" wordpos="i">dig</syl>
-                              </verse>
-                              <verse xml:id="Th_1569_LN1426_048r_m-63" n="1">
-                                 <syl xml:id="Th_1569_LN1426_048r_m-64" con="d" wordpos="m">gan</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="Th_1569_LN1426_048r_m-42" dur="2" dur.ppq="512" oct="4" pname="d"
-                                 pnum="62">
-                              <verse xml:id="Th_1569_LN1426_048r_m-65" n="1">
-                                 <syl xml:id="Th_1569_LN1426_048r_m-66" wordpos="t">gen</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="Th_1569_LN1426_048r_m-43" dur="1" dur.ppq="1024" oct="4" pname="f"
-                                 pnum="65">
-                              <verse xml:id="Th_1569_LN1426_048r_m-67" n="1">
-                                 <syl xml:id="Th_1569_LN1426_048r_m-68" wordpos="i">til</syl>
-                              </verse>
-                              <verse xml:id="Th_1569_LN1426_048r_m-69" n="2">
-                                 <syl xml:id="Th_1569_LN1426_048r_m-70" wordpos="i">du</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="Th_1569_LN1426_048r_m-44" dur="2" dur.ppq="512" oct="4" pname="e"
-                                 pnum="64">
-                              <verse xml:id="Th_1569_LN1426_048r_m-71" n="2">
-                                 <syl xml:id="Th_1569_LN1426_048r_m-72" wordpos="i">est</syl>
-                              </verse>
-                              <verse xml:id="Th_1569_LN1426_048r_m-73" n="1">
-                                 <syl xml:id="Th_1569_LN1426_048r_m-74" con="d" wordpos="i">Jom</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="Th_1569_LN1426_048r_m-45" dur="2" dur.ppq="512" oct="4" pname="e"
-                                 pnum="64">
-                              <verse xml:id="Th_1569_LN1426_048r_m-75" n="1">
-                                 <syl xml:id="Th_1569_LN1426_048r_m-76" wordpos="t">fru</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="Th_1569_LN1426_048r_m-46" dur="1" dur.ppq="1024" oct="4" pname="d"
-                                 pnum="62">
-                              <verse xml:id="Th_1569_LN1426_048r_m-77" n="1">
-                                 <syl xml:id="Th_1569_LN1426_048r_m-78" con="d" wordpos="i">Ma</syl>
-                              </verse>
-                              <verse xml:id="Th_1569_LN1426_048r_m-81" n="2">
-                                 <syl xml:id="Th_1569_LN1426_048r_m-82" con="d" wordpos="i">bene</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="Th_1569_LN1426_048r_m-48" dur="1" dur.ppq="1024" oct="4" pname="c"
-                                 pnum="60">
-                              <verse xml:id="Th_1569_LN1426_048r_m-79" n="1">
-                                 <syl xml:id="Th_1569_LN1426_048r_m-80" wordpos="t">rie/</syl>
-                              </verse>
-                              <verse xml:id="Th_1569_LN1426_048r_m-83" n="2">
-                                 <syl xml:id="Th_1569_LN1426_048r_m-84" wordpos="t">dide/</syl>
-                              </verse>
-                           </note>
+                                    pnum="62">
+                                 <verse xml:id="Th_1569_LN1426_048r_m-59" n="2">
+                                    <syl xml:id="Th_1569_LN1426_048r_m-60" wordpos="i">dig</syl>
+                                 </verse>
+                                 <verse xml:id="Th_1569_LN1426_048r_m-63" n="1">
+                                    <syl xml:id="Th_1569_LN1426_048r_m-64" con="d" wordpos="m">gan</syl>
+                                 </verse>
+                              </note>
+                              <note xml:id="Th_1569_LN1426_048r_m-42" dur="2" dur.ppq="512" oct="4" pname="d"
+                                    pnum="62">
+                                 <verse xml:id="Th_1569_LN1426_048r_m-65" n="1">
+                                    <syl xml:id="Th_1569_LN1426_048r_m-66" wordpos="t">gen</syl>
+                                 </verse>
+                              </note>
+                              <note xml:id="Th_1569_LN1426_048r_m-43" dur="1" dur.ppq="1024" oct="4" pname="f"
+                                    pnum="65">
+                                 <verse xml:id="Th_1569_LN1426_048r_m-67" n="1">
+                                    <syl xml:id="Th_1569_LN1426_048r_m-68" wordpos="i">til</syl>
+                                 </verse>
+                                 <verse xml:id="Th_1569_LN1426_048r_m-69" n="2">
+                                    <syl xml:id="Th_1569_LN1426_048r_m-70" wordpos="i">du</syl>
+                                 </verse>
+                              </note>
+                              <note xml:id="Th_1569_LN1426_048r_m-44" dur="2" dur.ppq="512" oct="4" pname="e"
+                                    pnum="64">
+                                 <verse xml:id="Th_1569_LN1426_048r_m-71" n="2">
+                                    <syl xml:id="Th_1569_LN1426_048r_m-72" wordpos="i">est</syl>
+                                 </verse>
+                                 <verse xml:id="Th_1569_LN1426_048r_m-73" n="1">
+                                    <syl xml:id="Th_1569_LN1426_048r_m-74" con="d" wordpos="i">Jom</syl>
+                                 </verse>
+                              </note>
+                              <note xml:id="Th_1569_LN1426_048r_m-45" dur="2" dur.ppq="512" oct="4" pname="e"
+                                    pnum="64">
+                                 <verse xml:id="Th_1569_LN1426_048r_m-75" n="1">
+                                    <syl xml:id="Th_1569_LN1426_048r_m-76" wordpos="t">fru</syl>
+                                 </verse>
+                              </note>
+                              <note xml:id="Th_1569_LN1426_048r_m-46" dur="1" dur.ppq="1024" oct="4" pname="d"
+                                    pnum="62">
+                                 <verse xml:id="Th_1569_LN1426_048r_m-77" n="1">
+                                    <syl xml:id="Th_1569_LN1426_048r_m-78" con="d" wordpos="i">Ma</syl>
+                                 </verse>
+                                 <verse xml:id="Th_1569_LN1426_048r_m-81" n="2">
+                                    <syl xml:id="Th_1569_LN1426_048r_m-82" con="d" wordpos="i">bene</syl>
+                                 </verse>
+                              </note>
+                              <note xml:id="Th_1569_LN1426_048r_m-48" dur="1" dur.ppq="1024" oct="4" pname="c"
+                                    pnum="60">
+                                 <verse xml:id="Th_1569_LN1426_048r_m-79" n="1">
+                                    <syl xml:id="Th_1569_LN1426_048r_m-80" wordpos="t">rie/</syl>
+                                 </verse>
+                                 <verse xml:id="Th_1569_LN1426_048r_m-83" n="2">
+                                    <syl xml:id="Th_1569_LN1426_048r_m-84" wordpos="t">dide/</syl>
+                                 </verse>
+                              </note>
                            </unclear>
                         </layer>
                      </staff>
@@ -405,19 +564,21 @@
                               </verse>
                            </note>
                            <unclear>
-                              <annot xml:id="Th_1569_LN1426_048r_annot2"><rend rend="italic">Ma-rie</rend>: tekstfordeling usikker</annot>
+                              <annot xml:id="Th_1569_LN1426_048r_annot2">
+                                 <rend rend="italic">Ma-rie</rend>: tekstfordeling usikker</annot>
                               <note xml:id="Th_1569_LN1426_048r_m-223" dur="1" dur.ppq="1024" oct="4" pname="g"
-                                 pnum="67">
-                              <verse xml:id="Th_1569_LN1426_048r_m-236" n="1">
-                                 <syl xml:id="Th_1569_LN1426_048r_m-237" con="d" wordpos="i">Ma</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="Th_1569_LN1426_048r_m-224" dur="2" dur.ppq="512" oct="4" pname="g"
-                                 pnum="67">
-                              <verse xml:id="Th_1569_LN1426_048r_m-238" n="1">
-                                 <syl xml:id="Th_1569_LN1426_048r_m-239" wordpos="t">rie</syl>
-                              </verse>
-                           </note></unclear>
+                                    pnum="67">
+                                 <verse xml:id="Th_1569_LN1426_048r_m-236" n="1">
+                                    <syl xml:id="Th_1569_LN1426_048r_m-237" con="d" wordpos="i">Ma</syl>
+                                 </verse>
+                              </note>
+                              <note xml:id="Th_1569_LN1426_048r_m-224" dur="2" dur.ppq="512" oct="4" pname="g"
+                                    pnum="67">
+                                 <verse xml:id="Th_1569_LN1426_048r_m-238" n="1">
+                                    <syl xml:id="Th_1569_LN1426_048r_m-239" wordpos="t">rie</syl>
+                                 </verse>
+                              </note>
+                           </unclear>
                            <note xml:id="Th_1569_LN1426_048r_m-225" dur="2" dur.ppq="512" oct="4" pname="d"
                                  pnum="62">
                               <verse xml:id="Th_1569_LN1426_048r_m-240" n="1">

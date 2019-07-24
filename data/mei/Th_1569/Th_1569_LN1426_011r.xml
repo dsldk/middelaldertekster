@@ -1,30 +1,185 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><mei xmlns="http://www.music-encoding.org/ns/mei"
+<mei xmlns="http://www.music-encoding.org/ns/mei"
      xmlns:xlink="http://www.w3.org/1999/xlink"
      meiversion="4.0.0"
      xml:id="Th_1569_LN1426_011r_m-1">
-   <meiHead xml:id="Th_1569_LN1426_011r_m-2">
-      <fileDesc xml:id="Th_1569_LN1426_011r_m-3">
-         <titleStmt xml:id="Th_1569_LN1426_011r_m-4">
-            <title xml:id="Th_1569_LN1426_011r_m-10"/>
+   <meiHead xmlns:xl="http://www.w3.org/1999/xlink" xml:id="meiHead_17c3e77d">
+      <fileDesc xml:id="fileDesc_6d828b19">
+         <titleStmt xml:id="titleStmt_ae7de101">
+            <title xml:id="title_da18d11a">It lidet Barn saa lysteligt</title>
          </titleStmt>
-         <pubStmt xml:id="Th_1569_LN1426_011r_m-13">
-            <availability xml:id="Th_1569_LN1426_011r_m-14">
-               <useRestrict xml:id="Th_1569_LN1426_011r_m-15"/>
-            </availability>
+         <pubStmt xml:id="pubStmt_316ad8da">
+            <respStmt>
+               <resp xml:id="resp_be398b01">Publisher</resp>
+               <corpName xml:id="corpName_59e2897c">
+                  <abbr xml:id="abbr_4013c997">DSL</abbr>
+                  <expan xml:id="expan_9f504407">Det Danske Sprog- og Litteraturselskab</expan>
+                  <address xml:id="address_e5eb00d4">
+                     <addrLine xml:id="addrLine_f3767a07">Christians Brygge 1</addrLine>
+                     <addrLine xml:id="addrLine_a87e07f6">1219 København K</addrLine>
+                     <addrLine xml:id="addrLine_6dc145cc">
+                        <ptr label="WWW" target="https://dsl.dk" xml:id="ptr_N20262"/>
+                     </addrLine>
+                     <addrLine xml:id="addrLine_fc844601">
+                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="ptr_N20270"/>
+                     </addrLine>
+                  </address>
+               </corpName>
+               <persName role="editor" xml:id="persName_712e0585">Bjarke Moe</persName>
+               <persName role="data manager" xml:id="persName_d1e8">Axel Teich Geertinger</persName>
+            </respStmt>
          </pubStmt>
+         <seriesStmt xml:id="seriesStmt_ca938a7f">
+            <title xml:id="title_93040c07">Musik og sprog i reformationstidens danske salmesang</title>
+            <identifier type="file_collection" xml:id="identifier_a8f9c890">RefSal</identifier>
+         </seriesStmt>
       </fileDesc>
-      <encodingDesc xml:id="Th_1569_LN1426_011r_m-16">
-         <appInfo xml:id="Th_1569_LN1426_011r_m-17">
-            <application xml:id="Th_1569_LN1426_011r_sibelius" isodate="2019-1-8T15:50:23Z"
-                         version="6200">
-               <name xml:id="Th_1569_LN1426_011r_m-19">Sibelius</name>
+      <encodingDesc xml:id="encodingDesc_4e95be36">
+         <appInfo xml:id="appInfo_ab110ca7">
+            <application version="6.2" xml:id="application_d1e36">
+               <name>Sibelius</name>
             </application>
-            <application xml:id="Th_1569_LN1426_011r_sibmei" type="plugin" version="2.1.0">
-               <name xml:id="Th_1569_LN1426_011r_m-21">Sibelius 6.2 to MEI Exporter (2.1.0)</name>
+            <application version="2.1.0 modified for Sibelius 6" xml:id="application_2d1e36">
+               <name>SibMEI</name>
+            </application>
+            <application version="2013" xml:id="application_57e6edb7">
+               <name xml:id="name_92c2c79f">MerMEId</name>
             </application>
          </appInfo>
       </encodingDesc>
+      <workList xml:id="workDesc_c4053284">
+         <work xml:id="work_7327e799">
+            <identifier label="RefSal" xml:id="identifier_036d65f5">Th 011r</identifier>
+            <identifier label="Glahn 1954" xml:id="identifier_d959ced8">41b</identifier>
+            <identifier label="Glahn 2000" xml:id="identifier_42908aaa">A II: 3c</identifier>
+            <identifier label="DDK 1954" xml:id="identifier_abb2df99">99</identifier>
+            <identifier label="DDK 2003" xml:id="identifier_363d6e0c">124</identifier>
+            <title xml:id="title_da962e98" xml:lang="da">It lidet Barn saa lysteligt</title>
+            <title type="uniform" xml:id="title_d04da369" xml:lang="da">Et lidet barn så lysteligt</title>
+            <contributor xml:id="respStmt_5577b899">
+               <persName auth.uri="http://www.viaf.org" auth="VIAF" codedval="59249628" role="collector"
+                         xml:id="persName_5eb47039">Hans Thomissøn</persName>
+            </contributor>
+            <history xml:id="history_44436885">
+               <p/>
+            </history>
+            <langUsage xml:id="langUsage_f10dda89">
+               <language xml:id="da">Danish</language>
+               <language xml:id="en">English</language>
+            </langUsage>
+            <expressionList xml:id="expressionList_6a472619">
+               <expression xml:id="expression_13de6575">
+                  <title xml:id="title_3221f463" xml:lang="en"/>
+                  <history xml:id="history_a2c15376">
+                     <p/>
+                  </history>
+                  <perfMedium analog="marc:048" auth="marcmusperf" xml:id="perfMedium_4cb44b2d"/>
+               </expression>
+            </expressionList>
+            <relationList xml:id="relationList_dfe0cd3f">
+               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569_LN1426.xml"
+                         xml:id="relation_3a1ee8c8"/>
+            </relationList>
+         </work>
+      </workList>
+      <revisionDesc>
+         <change isodate="2017-08-03" xml:id="change_109N100C9">
+            <respStmt xml:id="respStmt_a43fd75f">
+               <name xml:id="resp_15d56638">bmoe</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_4f28e013">
+               <p xml:id="p_c4e48f9c"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-08-08" xml:id="change_110N100E3">
+            <respStmt xml:id="respStmt_e59e0408">
+               <name xml:id="resp_2db19d3b">bmoe</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_2186e758">
+               <p xml:id="p_4c1bf2cd"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-08-25" xml:id="change_135N10129">
+            <respStmt xml:id="respStmt_1355f774">
+               <name xml:id="resp_7f8f33d2">bmoe</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_9aa0b0cc">
+               <p xml:id="p_c66b475f"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-10-26T08:49:50.272Z" xml:id="change_f7a5006f">
+            <respStmt xml:id="respStmt_86ed31a1">
+               <name xml:id="resp_52277532">bmoe</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_d5014a0a">
+               <p xml:id="p_30533b27"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-12-20T08:49:50+01:00" xml:id="change_134N10129">
+            <respStmt xml:id="respStmt_dd1e99b5">
+               <name xml:id="resp_b060c4ac">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_bcc936fb">
+               <p xml:id="p_9dd661b5">Batch transformation removing empty elements and udpdating mail address</p>
+            </changeDesc>
+         </change>
+         <change isodate="2019-06-04T14:35:14.972Z" xml:id="change_c48e94ec">
+            <respStmt>
+               <name>bmoe</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_d11105ad">
+               <p xml:id="p_a28fbffc"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-06-07T06:53:26.468Z" xml:id="change_113N10125">
+            <respStmt>
+               <name>bmoe</name>
+            </respStmt>
+            <changeDesc>
+               <p/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-07-09T09:00:11.09+Z" xml:id="change_1fd54ce5-2996">
+            <respStmt>
+               <name>MerMEId user</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_9d80797c-04ea">
+               <p>file renamed from cbacc49b-0725-44db-88c2-02cdf636873c.xml to Th_1569_LN1426_011r.xml</p>
+            </changeDesc>
+         </change>
+         <change isodate="2019-07-09T11:14:33.075Z" xml:id="change_38a874ed-db89">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_a8862146-9ea2">
+               <p>file reference updated (a file was renamed from 9e6f397d-efc4-4f68-bf67-bbbb86b037ce.xml to Th_1569_LN1426.xml)</p>
+            </changeDesc>
+         </change>
+         <change isodate="2019-07-23T15:15:06.527+02:00" xml:id="change_119d1e95">
+            <respStmt>
+               <name>atge</name>
+            </respStmt>
+            <changeDesc>
+               <p>Transform from MEI 3.0.0 to 4.0.0</p>
+            </changeDesc>
+         </change>
+         <change isodate="2019-07-23T16:01:43.271+02:00" xml:id="change_124d1e96">
+            <respStmt>
+               <name>atge</name>
+            </respStmt>
+            <changeDesc>
+               <p>Update project metadata</p>
+            </changeDesc>
+         </change>
+         <change isodate="2019-07-24T10:14:01.482+02:00" xml:id="change_110d2e79">
+            <respStmt>
+               <name>atge</name>
+            </respStmt>
+            <changeDesc>
+               <p>Merge data and metadata</p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
    </meiHead>
    <music xml:id="Th_1569_LN1426_011r_m-22">
       <body xml:id="Th_1569_LN1426_011r_m-23">
@@ -41,7 +196,7 @@
                   <measure xml:id="Th_1569_LN1426_011r_m-32" right="invis">
                      <staff xml:id="Th_1569_LN1426_011r_m-34" n="1">
                         <layer xml:id="Th_1569_LN1426_011r_m-35" n="1">
-                           <meterSig sym="cut"/> 
+                           <meterSig sym="cut"/>
                            <rest xml:id="Th_1569_LN1426_011r_m-36" dur="1" dur.ppq="1024"/>
                            <rest xml:id="Th_1569_LN1426_011r_m-37" dur="2" dur.ppq="512"/>
                            <note xml:id="Th_1569_LN1426_011r_m-38" dur="2" dur.ppq="512" oct="3" pname="f"
@@ -90,30 +245,32 @@
                               </verse>
                            </note>
                            <unclear>
-                              <annot xml:id="Th_1569_LN1426_011r_annot1"><rend rend="italic">ly-ste-ligt</rend>: tekstfordeling usikker</annot>
-                              <annot xml:id="Th_1569_LN1426_011r_annot2"><rend rend="italic">oc hel-lig</rend>: tekstfordeling usikker</annot>
+                              <annot xml:id="Th_1569_LN1426_011r_annot1">
+                                 <rend rend="italic">ly-ste-ligt</rend>: tekstfordeling usikker</annot>
+                              <annot xml:id="Th_1569_LN1426_011r_annot2">
+                                 <rend rend="italic">oc hel-lig</rend>: tekstfordeling usikker</annot>
                               <note xml:id="Th_1569_LN1426_011r_m-43" dur="2" dur.ppq="512" oct="3" pname="b"
-                                 pnum="58"
-                                 accid.ges="f">
-                              <verse xml:id="Th_1569_LN1426_011r_m-70" n="2">
-                                 <syl xml:id="Th_1569_LN1426_011r_m-71" wordpos="i">oc</syl>
-                              </verse>
-                              <verse xml:id="Th_1569_LN1426_011r_m-72" n="1">
-                                 <syl xml:id="Th_1569_LN1426_011r_m-73" con="d" wordpos="i">ly</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="Th_1569_LN1426_011r_m-45" dur="2" dur.ppq="512" oct="3" pname="a"
-                                 pnum="57"/>
-                           <note xml:id="Th_1569_LN1426_011r_m-46" dur="2" dur.ppq="512" oct="3" pname="b"
-                                 pnum="58"
-                                 accid.ges="f">
-                              <verse xml:id="Th_1569_LN1426_011r_m-74" n="1">
-                                 <syl xml:id="Th_1569_LN1426_011r_m-75" con="d" wordpos="m">ste</syl>
-                              </verse>
-                              <verse xml:id="Th_1569_LN1426_011r_m-78" n="2">
-                                 <syl xml:id="Th_1569_LN1426_011r_m-79" con="d" wordpos="i">hel</syl>
-                              </verse>
-                           </note>
+                                    pnum="58"
+                                    accid.ges="f">
+                                 <verse xml:id="Th_1569_LN1426_011r_m-70" n="2">
+                                    <syl xml:id="Th_1569_LN1426_011r_m-71" wordpos="i">oc</syl>
+                                 </verse>
+                                 <verse xml:id="Th_1569_LN1426_011r_m-72" n="1">
+                                    <syl xml:id="Th_1569_LN1426_011r_m-73" con="d" wordpos="i">ly</syl>
+                                 </verse>
+                              </note>
+                              <note xml:id="Th_1569_LN1426_011r_m-45" dur="2" dur.ppq="512" oct="3" pname="a"
+                                    pnum="57"/>
+                              <note xml:id="Th_1569_LN1426_011r_m-46" dur="2" dur.ppq="512" oct="3" pname="b"
+                                    pnum="58"
+                                    accid.ges="f">
+                                 <verse xml:id="Th_1569_LN1426_011r_m-74" n="1">
+                                    <syl xml:id="Th_1569_LN1426_011r_m-75" con="d" wordpos="m">ste</syl>
+                                 </verse>
+                                 <verse xml:id="Th_1569_LN1426_011r_m-78" n="2">
+                                    <syl xml:id="Th_1569_LN1426_011r_m-79" con="d" wordpos="i">hel</syl>
+                                 </verse>
+                              </note>
                            </unclear>
                            <note xml:id="Th_1569_LN1426_011r_m-48" dur="2" dur.ppq="512" oct="3" pname="g"
                                  pnum="55"/>

@@ -1,30 +1,190 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><mei xmlns="http://www.music-encoding.org/ns/mei"
+<mei xmlns="http://www.music-encoding.org/ns/mei"
      xmlns:xlink="http://www.w3.org/1999/xlink"
      meiversion="4.0.0"
      xml:id="Th_1569_LN1426_301r_m-1">
-   <meiHead xml:id="Th_1569_LN1426_301r_m-2">
-      <fileDesc xml:id="Th_1569_LN1426_301r_m-3">
-         <titleStmt xml:id="Th_1569_LN1426_301r_m-4">
-            <title xml:id="Th_1569_LN1426_301r_m-10"/>
+   <meiHead xmlns:xl="http://www.w3.org/1999/xlink" xml:id="meiHead_2974e8fd">
+      <fileDesc xml:id="fileDesc_f329f384">
+         <titleStmt xml:id="titleStmt_e689943e">
+            <title xml:id="title_a60cb171">Jerusalem du hellige Stad</title>
          </titleStmt>
-         <pubStmt xml:id="Th_1569_LN1426_301r_m-13">
-            <availability xml:id="Th_1569_LN1426_301r_m-14">
-               <useRestrict xml:id="Th_1569_LN1426_301r_m-15"/>
-            </availability>
+         <pubStmt xml:id="pubStmt_0e6fff39">
+            <respStmt>
+               <resp xml:id="resp_bf4d2cfd">Publisher</resp>
+               <corpName xml:id="corpName_b5ebedd0">
+                  <abbr xml:id="abbr_37421e8f">DSL</abbr>
+                  <expan xml:id="expan_ada702c3">Det Danske Sprog- og Litteraturselskab</expan>
+                  <address xml:id="address_53298c16">
+                     <addrLine xml:id="addrLine_6b84c685">Christians Brygge 1</addrLine>
+                     <addrLine xml:id="addrLine_be62855f">1219 København K</addrLine>
+                     <addrLine xml:id="addrLine_3ee8bcfb">
+                        <ptr label="WWW" target="https://dsl.dk" xml:id="ptr_N20262"/>
+                     </addrLine>
+                     <addrLine xml:id="addrLine_d6fb84a7">
+                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="ptr_N20270"/>
+                     </addrLine>
+                  </address>
+               </corpName>
+               <persName role="editor" xml:id="persName_504758e4">Bjarke Moe</persName>
+               <persName role="data manager" xml:id="persName_d1e8">Axel Teich Geertinger</persName>
+            </respStmt>
          </pubStmt>
+         <seriesStmt xml:id="seriesStmt_fe3e52d0">
+            <title xml:id="title_2fd6d77e">Musik og sprog i reformationstidens danske salmesang</title>
+            <identifier type="file_collection" xml:id="identifier_f70f9aa6">RefSal</identifier>
+         </seriesStmt>
       </fileDesc>
-      <encodingDesc xml:id="Th_1569_LN1426_301r_m-16">
-         <appInfo xml:id="Th_1569_LN1426_301r_m-17">
-            <application xml:id="Th_1569_LN1426_301r_sibelius" isodate="2019-1-8T15:53:36Z"
-                         version="6200">
-               <name xml:id="Th_1569_LN1426_301r_m-19">Sibelius</name>
+      <encodingDesc xml:id="encodingDesc_ca6be482">
+         <appInfo xml:id="appInfo_2853be82">
+            <application version="6.2" xml:id="application_d1e36">
+               <name>Sibelius</name>
             </application>
-            <application xml:id="Th_1569_LN1426_301r_sibmei" type="plugin" version="2.1.0">
-               <name xml:id="Th_1569_LN1426_301r_m-21">Sibelius 6.2 to MEI Exporter (2.1.0)</name>
+            <application version="2.1.0 modified for Sibelius 6" xml:id="application_2d1e36">
+               <name>SibMEI</name>
+            </application>
+            <application version="2013" xml:id="application_a55dc76c">
+               <name xml:id="name_9fc78c1d">MerMEId</name>
             </application>
          </appInfo>
       </encodingDesc>
+      <workList xml:id="workDesc_946fbfca">
+         <work xml:id="work_7327e799">
+            <identifier label="RefSal" xml:id="identifier_036d65f5">Th 301r</identifier>
+            <identifier label="Glahn 2000" xml:id="identifier_7ef100e4">C IIa: 2</identifier>
+            <title xml:id="title_da962e98" xml:lang="da">Jerusalem du hellige Stad</title>
+            <title type="alternative" xml:id="title_c26fd9b1" xml:lang="la">Lauda Ierusalem Dominum</title>
+            <title type="alternative" xml:id="title_1a931029" xml:lang="en">Prayse thou the lorde Hierusalem</title>
+            <title type="uniform" xml:id="title_4a2a7d1c" xml:lang="da">Jerusalem, du hellige stad</title>
+            <contributor xml:id="respStmt_5577b899">
+               <persName auth.uri="http://www.viaf.org" auth="VIAF" codedval="59249628" role="collector"
+                         xml:id="persName_5eb47039">Hans Thomissøn</persName>
+            </contributor>
+            <history xml:id="history_44436885">
+               <p>Melodien kendes fra Miles Coverdales engelske sangbog 1535 (Glahn 1963; Glahn 1999 (se henvisninger i Glahn 2000:89)). </p>
+            </history>
+            <langUsage xml:id="langUsage_f10dda89">
+               <language xml:id="la">Latin</language>
+               <language xml:id="da">Danish</language>
+               <language xml:id="en">English</language>
+            </langUsage>
+            <classification xml:id="classification_81a43c49">
+               <termList xml:id="termList_d457d5c7">
+                  <term xml:id="term_4a09e826">Sl 147</term>
+               </termList>
+            </classification>
+            <expressionList xml:id="expressionList_6a472619">
+               <expression xml:id="expression_13de6575">
+                  <title xml:id="title_3221f463" xml:lang="en"/>
+                  <history xml:id="history_a2c15376">
+                     <p/>
+                  </history>
+                  <perfMedium analog="marc:048" auth="marcmusperf" xml:id="perfMedium_4cb44b2d"/>
+               </expression>
+            </expressionList>
+            <relationList xml:id="relationList_1c110507">
+               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569_LN1426.xml"
+                         xml:id="relation_4d893f59"/>
+            </relationList>
+         </work>
+      </workList>
+      <revisionDesc>
+         <change isodate="2017-08-03" xml:id="change_109N100C9">
+            <respStmt xml:id="respStmt_cc9c98b2">
+               <name xml:id="resp_02d70bd8">bmoe</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_aebe49f1">
+               <p xml:id="p_b551279a"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-08-08" xml:id="change_110N100E3">
+            <respStmt xml:id="respStmt_b775b4bf">
+               <name xml:id="resp_490ba2c6">bmoe</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_ef9704ca">
+               <p xml:id="p_29bc5d7d"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-08-25" xml:id="change_128N10114">
+            <respStmt xml:id="respStmt_b023d687">
+               <name xml:id="resp_0b85c0aa">bmoe</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_60ca7409">
+               <p xml:id="p_0d118cce"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-09-01" xml:id="change_127N1010C">
+            <respStmt xml:id="respStmt_6d820581">
+               <name xml:id="resp_bd2b55d9">bmoe</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_8f370ddb">
+               <p xml:id="p_610d0c1d"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-12-20T08:49:45+01:00" xml:id="change_122N100C6">
+            <respStmt xml:id="respStmt_b203ad01">
+               <name xml:id="resp_8ff64066">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_f44ed1d2">
+               <p xml:id="p_b6712a99">Batch transformation removing empty elements and udpdating mail address</p>
+            </changeDesc>
+         </change>
+         <change isodate="2018-12-11T12:47:19.369Z" xml:id="change_bea73d78">
+            <respStmt xml:id="respStmt_1a927993">
+               <name xml:id="resp_4a4c6813">bmoe</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_c4be3ffc">
+               <p xml:id="p_b9a75899"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-06-11T07:48:53.273Z" xml:id="change_111N1011C">
+            <respStmt>
+               <name>bmoe</name>
+            </respStmt>
+            <changeDesc>
+               <p/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-07-09T11:04:55.146Z" xml:id="change_a599d15a-fa60">
+            <respStmt>
+               <name>MerMEId user</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_2cc7a662-48ed">
+               <p>file renamed from 3ee63d6d-15d6-4dc1-8e6b-b04df892234a.xml to Th_1569_LN1426_301r.xml</p>
+            </changeDesc>
+         </change>
+         <change isodate="2019-07-09T11:14:33.075Z" xml:id="change_473a2011-4044">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_53f55605-fd51">
+               <p>file reference updated (a file was renamed from 9e6f397d-efc4-4f68-bf67-bbbb86b037ce.xml to Th_1569_LN1426.xml)</p>
+            </changeDesc>
+         </change>
+         <change isodate="2019-07-23T15:15:26.551+02:00" xml:id="change_121d1e99">
+            <respStmt>
+               <name>atge</name>
+            </respStmt>
+            <changeDesc>
+               <p>Transform from MEI 3.0.0 to 4.0.0</p>
+            </changeDesc>
+         </change>
+         <change isodate="2019-07-23T16:02:05.856+02:00" xml:id="change_126d1e100">
+            <respStmt>
+               <name>atge</name>
+            </respStmt>
+            <changeDesc>
+               <p>Update project metadata</p>
+            </changeDesc>
+         </change>
+         <change isodate="2019-07-24T10:14:18.228+02:00" xml:id="change_113d2e84">
+            <respStmt>
+               <name>atge</name>
+            </respStmt>
+            <changeDesc>
+               <p>Merge data and metadata</p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
    </meiHead>
    <music xml:id="Th_1569_LN1426_301r_m-22">
       <body xml:id="Th_1569_LN1426_301r_m-23">

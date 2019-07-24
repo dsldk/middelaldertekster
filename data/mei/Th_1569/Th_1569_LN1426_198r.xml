@@ -1,30 +1,182 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><mei xmlns="http://www.music-encoding.org/ns/mei"
+<mei xmlns="http://www.music-encoding.org/ns/mei"
      xmlns:xlink="http://www.w3.org/1999/xlink"
      meiversion="4.0.0"
      xml:id="Th_1569_LN1426_198r_m-1">
-   <meiHead xml:id="Th_1569_LN1426_198r_m-2">
-      <fileDesc xml:id="Th_1569_LN1426_198r_m-3">
-         <titleStmt xml:id="Th_1569_LN1426_198r_m-4">
-            <title xml:id="Th_1569_LN1426_198r_m-10"/>
+   <meiHead xmlns:xl="http://www.w3.org/1999/xlink" xml:id="meiHead_b97fa7af">
+      <fileDesc xml:id="fileDesc_939d517f">
+         <titleStmt xml:id="titleStmt_2788ccbf">
+            <title xml:id="title_7f4ca321">Hielp oss Gud Fader i Himmerig</title>
          </titleStmt>
-         <pubStmt xml:id="Th_1569_LN1426_198r_m-13">
-            <availability xml:id="Th_1569_LN1426_198r_m-14">
-               <useRestrict xml:id="Th_1569_LN1426_198r_m-15"/>
-            </availability>
+         <pubStmt xml:id="pubStmt_34fdddcd">
+            <respStmt>
+               <resp xml:id="resp_4823638e">Publisher</resp>
+               <corpName xml:id="corpName_24d0cb17">
+                  <abbr xml:id="abbr_7cd3e053">DSL</abbr>
+                  <expan xml:id="expan_06d443e4">Det Danske Sprog- og Litteraturselskab</expan>
+                  <address xml:id="address_586e3afa">
+                     <addrLine xml:id="addrLine_0d2c8282">Christians Brygge 1</addrLine>
+                     <addrLine xml:id="addrLine_53905183">1219 København K</addrLine>
+                     <addrLine xml:id="addrLine_75d2864d">
+                        <ptr label="WWW" target="https://dsl.dk" xml:id="ptr_N20262"/>
+                     </addrLine>
+                     <addrLine xml:id="addrLine_57c31c21">
+                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="ptr_N20270"/>
+                     </addrLine>
+                  </address>
+               </corpName>
+               <persName role="editor" xml:id="persName_2ff9107b">Bjarke Moe</persName>
+               <persName role="data manager" xml:id="persName_d1e8">Axel Teich Geertinger</persName>
+            </respStmt>
          </pubStmt>
+         <seriesStmt xml:id="seriesStmt_f8b5f1c1">
+            <title xml:id="title_6dd44fff">Musik og sprog i reformationstidens danske salmesang</title>
+            <identifier type="file_collection" xml:id="identifier_bc0016da">RefSal</identifier>
+         </seriesStmt>
       </fileDesc>
-      <encodingDesc xml:id="Th_1569_LN1426_198r_m-16">
-         <appInfo xml:id="Th_1569_LN1426_198r_m-17">
-            <application xml:id="Th_1569_LN1426_198r_sibelius" isodate="2019-1-8T15:52:37Z"
-                         version="6200">
-               <name xml:id="Th_1569_LN1426_198r_m-19">Sibelius</name>
+      <encodingDesc xml:id="encodingDesc_8b9e9086">
+         <appInfo xml:id="appInfo_f1800b5f">
+            <application version="6.2" xml:id="application_d1e36">
+               <name>Sibelius</name>
             </application>
-            <application xml:id="Th_1569_LN1426_198r_sibmei" type="plugin" version="2.1.0">
-               <name xml:id="Th_1569_LN1426_198r_m-21">Sibelius 6.2 to MEI Exporter (2.1.0)</name>
+            <application version="2.1.0 modified for Sibelius 6" xml:id="application_2d1e36">
+               <name>SibMEI</name>
+            </application>
+            <application version="2013" xml:id="application_6cc10f70">
+               <name xml:id="name_da4a1fd3">MerMEId</name>
             </application>
          </appInfo>
       </encodingDesc>
+      <workList xml:id="workDesc_7015820f">
+         <work xml:id="work_7327e799">
+            <identifier label="RefSal" xml:id="identifier_036d65f5">Th 198r</identifier>
+            <identifier label="Glahn 2000" xml:id="identifier_95dd8ef3">D I: 9</identifier>
+            <title xml:id="title_da962e98" xml:lang="da">Hielp oss Gud Fader i Himmerig</title>
+            <title type="uniform" xml:id="title_8d780f00" xml:lang="da">Hjælp os, Gud Fader i Himmerig</title>
+            <contributor xml:id="respStmt_5577b899">
+               <persName auth.uri="http://www.viaf.org" auth="VIAF" codedval="59249628" role="collector"
+                         xml:id="persName_5eb47039">Hans Thomissøn</persName>
+            </contributor>
+            <history xml:id="history_44436885">
+               <p>Melodien kendes ikke fra andre kilder. Severin Widding betegnede tekstens form som "firliniet Folkevise med Omkvæd" (Widding 1933,II:165), omend den sidste linje ikke anvendes sådan. Henrik Glahn skønnede, at salmen stammede fra "dansk eller nordisk folkelig visetradition" (Glahn 2000:89).</p>
+            </history>
+            <langUsage xml:id="langUsage_f10dda89">
+               <language xml:id="da">Danish</language>
+               <language xml:id="en">English</language>
+            </langUsage>
+            <expressionList xml:id="expressionList_6a472619">
+               <expression xml:id="expression_13de6575">
+                  <title xml:id="title_3221f463" xml:lang="en"/>
+                  <history xml:id="history_a2c15376">
+                     <p/>
+                  </history>
+                  <perfMedium analog="marc:048" auth="marcmusperf" xml:id="perfMedium_4cb44b2d"/>
+               </expression>
+            </expressionList>
+            <relationList xml:id="relationList_1c110507">
+               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569_LN1426.xml"
+                         xml:id="relation_4d893f59"/>
+            </relationList>
+         </work>
+      </workList>
+      <revisionDesc>
+         <change isodate="2017-08-03" xml:id="change_109N100C9">
+            <respStmt xml:id="respStmt_e93367e6">
+               <name xml:id="resp_0f86545a">bmoe</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_e8da9abd">
+               <p xml:id="p_31585c2e"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-08-08" xml:id="change_110N100E3">
+            <respStmt xml:id="respStmt_ae1ef90d">
+               <name xml:id="resp_25c365c5">bmoe</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_8909eee7">
+               <p xml:id="p_1e80dcda"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-08-25" xml:id="change_128N10114">
+            <respStmt xml:id="respStmt_96b6f978">
+               <name xml:id="resp_dfa17aa0">bmoe</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_1b2b5752">
+               <p xml:id="p_67b279cf"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-09-01" xml:id="change_121N100F6">
+            <respStmt xml:id="respStmt_aa76dae4">
+               <name xml:id="resp_67590851">bmoe</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_d1a7826d">
+               <p xml:id="p_c1a1486f"/>
+            </changeDesc>
+         </change>
+         <change isodate="2017-12-20T08:49:46+01:00" xml:id="change_120N100BE">
+            <respStmt xml:id="respStmt_ddeba91c">
+               <name xml:id="resp_da122473">MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_b7457f4b">
+               <p xml:id="p_4814c5b3">Batch transformation removing empty elements and udpdating mail address</p>
+            </changeDesc>
+         </change>
+         <change isodate="2018-11-20T10:33:16.348Z" xml:id="change_6ba8402d">
+            <respStmt>
+               <name>bmoe</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_fffa4bb4">
+               <p xml:id="p_844a6732"/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-06-07T11:11:51.664Z" xml:id="change_106N10108">
+            <respStmt>
+               <name>bmoe</name>
+            </respStmt>
+            <changeDesc>
+               <p/>
+            </changeDesc>
+         </change>
+         <change isodate="2019-07-09T10:48:05.257Z" xml:id="change_a4257ed0-6889">
+            <respStmt>
+               <name>MerMEId user</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_0a9460c5-c64a">
+               <p>file renamed from c763b51d-3125-43cc-9682-c86e97582bc2.xml to Th_1569_LN1426_198r.xml</p>
+            </changeDesc>
+         </change>
+         <change isodate="2019-07-09T11:14:33.075Z" xml:id="change_e0599962-2689">
+            <respStmt>
+               <name>MerMEId</name>
+            </respStmt>
+            <changeDesc xml:id="changeDesc_4539a712-7152">
+               <p>file reference updated (a file was renamed from 9e6f397d-efc4-4f68-bf67-bbbb86b037ce.xml to Th_1569_LN1426.xml)</p>
+            </changeDesc>
+         </change>
+         <change isodate="2019-07-23T15:15:19.95+02:00" xml:id="change_116d1e90">
+            <respStmt>
+               <name>atge</name>
+            </respStmt>
+            <changeDesc>
+               <p>Transform from MEI 3.0.0 to 4.0.0</p>
+            </changeDesc>
+         </change>
+         <change isodate="2019-07-23T16:01:58.41+02:00" xml:id="change_121d1e90">
+            <respStmt>
+               <name>atge</name>
+            </respStmt>
+            <changeDesc>
+               <p>Update project metadata</p>
+            </changeDesc>
+         </change>
+         <change isodate="2019-07-24T10:14:12.728+02:00" xml:id="change_107d2e73">
+            <respStmt>
+               <name>atge</name>
+            </respStmt>
+            <changeDesc>
+               <p>Merge data and metadata</p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
    </meiHead>
    <music xml:id="Th_1569_LN1426_198r_m-22">
       <body xml:id="Th_1569_LN1426_198r_m-23">
@@ -113,7 +265,8 @@
                                   staff="1"
                                   lwidth="medium"
                                   lform="solid"/>
-                     <fermata form="norm" shape="curved" staff="1" layer="1" startid="#Th_1569_LN1426_198r_meterSig1"/>
+                     <fermata form="norm" shape="curved" staff="1" layer="1"
+                              startid="#Th_1569_LN1426_198r_meterSig1"/>
                   </measure>
                   <sb xml:id="Th_1569_LN1426_198r_m-69" label="editorial"/>
                   <measure xml:id="Th_1569_LN1426_198r_m-68" right="invis">
@@ -312,7 +465,10 @@
                                  <syl xml:id="Th_1569_LN1426_198r_m-177" wordpos="i">oc</syl>
                               </verse>
                            </note>
-                           <annot xml:id="Th_1569_LN1426_198r_annot1"><ref target="https://tekstnet.dk/thomissoen_1569/metadata"><rend rend="italic">punctus divisionis</rend></ref> før noden i tryk</annot>
+                           <annot xml:id="Th_1569_LN1426_198r_annot1">
+                              <ref target="https://tekstnet.dk/thomissoen_1569/metadata">
+                                 <rend rend="italic">punctus divisionis</rend>
+                              </ref> før noden i tryk</annot>
                            <note xml:id="Th_1569_LN1426_198r_m-163" dots="1" dur="breve" dur.ppq="3072" oct="4"
                                  pname="c"
                                  pnum="60">
