@@ -168,6 +168,14 @@
                <p>Add directory name to relations and references</p>
             </changeDesc>
          </change>
+         <change isodate="2019-07-25T12:17:35.643+02:00" xml:id="change_106d2e70">
+            <respStmt>
+               <name>atge</name>
+            </respStmt>
+            <changeDesc>
+               <p>Update music from filebase</p>
+            </changeDesc>
+         </change>
       </revisionDesc>
    </meiHead>
    <music xml:id="Je_1573_LN0981_011_m-22">
@@ -185,26 +193,30 @@
                   <measure xml:id="Je_1573_LN0981_011_m-32">
                      <staff xml:id="Je_1573_LN0981_011_m-34" n="1">
                         <layer xml:id="Je_1573_LN0981_011_m-35" n="1">
-                           <note xml:id="Je_1573_LN0981_011_m-37" dur="breve" dur.ppq="2048" oct="3" pname="d"
-                                 pnum="50">
-                              <verse xml:id="Je_1573_LN0981_011_m-51" n="1">
-                                 <syl xml:id="Je_1573_LN0981_011_m-52" wordpos="i">WI</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="Je_1573_LN0981_011_m-38" dur="1" dur.ppq="1024" oct="3" pname="a"
-                                 pnum="57"/>
-                           <note xml:id="Je_1573_LN0981_011_m-39" dur="1" dur.ppq="1024" oct="3" pname="g"
-                                 pnum="55"/>
-                           <note xml:id="Je_1573_LN0981_011_m-40" dur="breve" dur.ppq="2048" oct="3" pname="a"
-                                 pnum="57"/>
-                           <note xml:id="Je_1573_LN0981_011_m-41" dur="long" dur.ppq="4096" oct="3" pname="e"
-                                 pnum="52"/>
-                           <note xml:id="Je_1573_LN0981_011_m-42" dur="breve" dur.ppq="2048" oct="3" pname="f"
-                                 pnum="53">
-                              <verse xml:id="Je_1573_LN0981_011_m-53" n="1">
-                                 <syl xml:id="Je_1573_LN0981_011_m-54" wordpos="i">tro</syl>
-                              </verse>
-                           </note>
+                           <meterSig sym="cut"/>
+                           <unclear>
+                              <annot xml:id="Je_1573_LN0981_011_annot1">ligatur: uklare værdier</annot>
+                              <note xml:id="Je_1573_LN0981_011_m-37" dur="breve" dur.ppq="2048" oct="3" pname="d"
+                                    pnum="50">
+                                 <verse xml:id="Je_1573_LN0981_011_m-51" n="1">
+                                    <syl xml:id="Je_1573_LN0981_011_m-52" wordpos="i">WI</syl>
+                                 </verse>
+                              </note>
+                              <note xml:id="Je_1573_LN0981_011_m-38" dur="1" dur.ppq="1024" oct="3" pname="a"
+                                    pnum="57"/>
+                              <note xml:id="Je_1573_LN0981_011_m-39" dur="1" dur.ppq="1024" oct="3" pname="g"
+                                    pnum="55"/>
+                              <note xml:id="Je_1573_LN0981_011_m-40" dur="breve" dur.ppq="2048" oct="3" pname="a"
+                                    pnum="57"/>
+                              <note xml:id="Je_1573_LN0981_011_m-41" dur="breve" dur.ppq="4096" oct="3" pname="e"
+                                    pnum="52"/>
+                              <note xml:id="Je_1573_LN0981_011_m-42" dur="breve" dur.ppq="2048" oct="3" pname="f"
+                                    pnum="53">
+                                 <verse xml:id="Je_1573_LN0981_011_m-53" n="1">
+                                    <syl xml:id="Je_1573_LN0981_011_m-54" wordpos="i">tro</syl>
+                                 </verse>
+                              </note>
+                           </unclear>
                            <note xml:id="Je_1573_LN0981_011_m-43" dur="1" dur.ppq="1024" oct="3" pname="e"
                                  pnum="52">
                               <verse xml:id="Je_1573_LN0981_011_m-55" n="1">
@@ -249,8 +261,14 @@
                            </note>
                         </layer>
                      </staff>
-                     <dir type="sb" tstamp="80.75" place="above" label="Linjeskift"
+                     <dir type="sb" tstamp="72.75" place="above" label="Linjeskift"
                           xml:id="Je_1573_LN0981_011_m-50">ǀ</dir>
+                     <bracketSpan xml:id="Je_1573_LN0981_011_m-1420" func="ligature"
+                                  startid="#Je_1573_LN0981_011_m-37"
+                                  endid="#Je_1573_LN0981_011_m-42"
+                                  staff="1"
+                                  lwidth="medium"
+                                  lform="solid"/>
                   </measure>
                   <sb xml:id="Je_1573_LN0981_011_m-70" label="editorial"/>
                   <measure xml:id="Je_1573_LN0981_011_m-69" right="invis">
@@ -329,18 +347,22 @@
                                  <syl xml:id="Je_1573_LN0981_011_m-117" wordpos="i">sin</syl>
                               </verse>
                            </note>
-                           <note xml:id="Je_1573_LN0981_011_m-105" dur="1" dur.ppq="1024" oct="3" pname="a"
-                                 pnum="57">
-                              <verse xml:id="Je_1573_LN0981_011_m-118" n="1">
-                                 <syl xml:id="Je_1573_LN0981_011_m-119" con="d" wordpos="i">Fa</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="Je_1573_LN0981_011_m-106" dur="1" dur.ppq="1024" oct="3" pname="g"
-                                 pnum="55">
-                              <verse xml:id="Je_1573_LN0981_011_m-120" n="1">
-                                 <syl xml:id="Je_1573_LN0981_011_m-121" wordpos="t">ders</syl>
-                              </verse>
-                           </note>
+                           <damage>
+                              <annot xml:id="Je_1573_LN0981_011_annot2">
+                                 <rend rend="italic">Fa-ders</rend>: lakune i orig. Indsat efter trykt faksimile</annot>
+                              <note xml:id="Je_1573_LN0981_011_m-105" dur="1" dur.ppq="1024" oct="3" pname="a"
+                                    pnum="57">
+                                 <verse xml:id="Je_1573_LN0981_011_m-118" n="1">
+                                    <syl xml:id="Je_1573_LN0981_011_m-119" con="d" wordpos="i">Fa</syl>
+                                 </verse>
+                              </note>
+                              <note xml:id="Je_1573_LN0981_011_m-106" dur="1" dur.ppq="1024" oct="3" pname="g"
+                                    pnum="55">
+                                 <verse xml:id="Je_1573_LN0981_011_m-120" n="1">
+                                    <syl xml:id="Je_1573_LN0981_011_m-121" wordpos="t">ders</syl>
+                                 </verse>
+                              </note>
+                           </damage>
                            <note xml:id="Je_1573_LN0981_011_m-108" dur="1" dur.ppq="1024" oct="3" pname="a"
                                  pnum="57">
                               <verse xml:id="Je_1573_LN0981_011_m-122" n="1">

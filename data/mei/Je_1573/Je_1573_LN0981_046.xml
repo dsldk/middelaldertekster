@@ -167,6 +167,14 @@
                <p>Add directory name to relations and references</p>
             </changeDesc>
          </change>
+         <change isodate="2019-07-25T12:17:38.271+02:00" xml:id="change_105d2e68">
+            <respStmt>
+               <name>atge</name>
+            </respStmt>
+            <changeDesc>
+               <p>Update music from filebase</p>
+            </changeDesc>
+         </change>
       </revisionDesc>
    </meiHead>
    <music xml:id="Je_1573_LN0981_046_m-22">
@@ -492,10 +500,13 @@
                               <syl xml:id="Je_1573_LN0981_046_m-165" wordpos="t">te.</syl>
                            </verse>
                            <neume xml:id="neume_d3e463">
-                              <nc xml:id="Je_1573_LN0981_046_m-144" oct="3" pname="g" pnum="55" label="dur4"/>
+                              <nc xml:id="Je_1573_LN0981_046_m-144" oct="3" pname="g" pnum="55" label="durlong"/>
                            </neume>
                         </syllable>
                         <barLine form="single"/>
+                        <fermata xml:id="Je_1573_LN0981_046_m-419" form="norm" layer="1" shape="curved"
+                                 staff="1"
+                                 startid="#Je_1573_LN0981_046_m-144"/>
                      </layer>
                      <dir type="pb" tstamp="10.75" place="above" label="Sideskift"
                           xml:id="Je_1573_LN0981_046_m-145">ǁ</dir>
@@ -504,6 +515,7 @@
                   <measure xml:id="Je_1573_LN0981_046_m-167" right="invis">
                      <staff xml:id="Je_1573_LN0981_046_m-169" n="1">
                         <layer xml:id="Je_1573_LN0981_046_m-170" n="1">
+                           <meterSig sym="cut"/>
                            <note xml:id="Je_1573_LN0981_046_m-171" dur="breve" dur.ppq="2048" oct="3" pname="f"
                                  pnum="53">
                               <verse xml:id="Je_1573_LN0981_046_m-184" n="1">
@@ -747,6 +759,8 @@
                      </staff>
                      <dir type="sb" tstamp="28.75" place="above" label="Linjeskift"
                           xml:id="Je_1573_LN0981_046_m-283">ǀ</dir>
+                     <fermata form="norm" layer="1" shape="curved" staff="1"
+                              startid="#Je_1573_LN0981_046_m-282"/>
                   </measure>
                   <sb xml:id="Je_1573_LN0981_046_m-294" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_046_m-295" n="1">
@@ -938,13 +952,16 @@
                               <syl xml:id="Je_1573_LN0981_046_m-378" wordpos="t">sis.</syl>
                            </verse>
                            <neume xml:id="neume_d3e1085">
-                              <nc xml:id="Je_1573_LN0981_046_m-363" oct="3" pname="g" pnum="55" label="dur4"/>
+                              <nc xml:id="Je_1573_LN0981_046_m-363" oct="3" pname="g" pnum="55" label="durlong"/>
                            </neume>
                         </syllable>
                         <barLine form="single"/>
                      </layer>
                      <dir type="sb" tstamp="8.75" place="above" label="Linjeskift"
                           xml:id="Je_1573_LN0981_046_m-364">ǀ</dir>
+                     <fermata xml:id="Je_1573_LN0981_046_m-4190" form="norm" layer="1" shape="curved"
+                              staff="1"
+                              startid="#Je_1573_LN0981_046_m-363"/>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_046_m-381" label="editorial"/>
                   <measure xml:id="Je_1573_LN0981_046_m-380" right="invis">

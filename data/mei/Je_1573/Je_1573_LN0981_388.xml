@@ -176,6 +176,14 @@
                <p>Add directory name to relations and references</p>
             </changeDesc>
          </change>
+         <change isodate="2019-07-25T12:18:00.401+02:00" xml:id="change_111d2e70">
+            <respStmt>
+               <name>atge</name>
+            </respStmt>
+            <changeDesc>
+               <p>Update music from filebase</p>
+            </changeDesc>
+         </change>
       </revisionDesc>
    </meiHead>
    <music xml:id="Je_1573_LN0981_388_m-22">
@@ -193,6 +201,7 @@
                   <measure xml:id="Je_1573_LN0981_388_m-32" right="invis">
                      <staff xml:id="Je_1573_LN0981_388_m-34" n="1">
                         <layer xml:id="Je_1573_LN0981_388_m-35" n="1">
+                           <meterSig sym="cut"/>
                            <rest xml:id="Je_1573_LN0981_388_m-36" dur="1" dur.ppq="1024"/>
                            <rest xml:id="Je_1573_LN0981_388_m-37" dur="2" dur.ppq="512"/>
                            <note xml:id="Je_1573_LN0981_388_m-38" dur="2" dur.ppq="512" oct="4" pname="f"
@@ -424,24 +433,28 @@
                                  <syl xml:id="Je_1573_LN0981_388_m-167" wordpos="i">oss</syl>
                               </verse>
                            </note>
-                           <note xml:id="Je_1573_LN0981_388_m-161" dur="1" dur.ppq="1024" oct="4" pname="d"
-                                 pnum="62">
-                              <verse xml:id="Je_1573_LN0981_388_m-168" n="1">
-                                 <syl xml:id="Je_1573_LN0981_388_m-169" con="d" wordpos="i">off</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="Je_1573_LN0981_388_m-162" dur="1" dur.ppq="1024" oct="4" pname="e"
-                                 pnum="64">
-                              <verse xml:id="Je_1573_LN0981_388_m-170" n="1">
-                                 <syl xml:id="Je_1573_LN0981_388_m-171" con="d" wordpos="m">uer</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="Je_1573_LN0981_388_m-163" dur="1" dur.ppq="1024" oct="4" pname="f"
-                                 pnum="65">
-                              <verse xml:id="Je_1573_LN0981_388_m-172" n="1">
-                                 <syl xml:id="Je_1573_LN0981_388_m-173" wordpos="t">uinde/</syl>
-                              </verse>
-                           </note>
+                           <unclear>
+                              <annot xml:id="Je_1573_LN0981_388_annot1">
+                                 <rend rend="italic">off-uer-uinde</rend>: tekstfordeling usikker</annot>
+                              <note xml:id="Je_1573_LN0981_388_m-161" dur="1" dur.ppq="1024" oct="4" pname="d"
+                                    pnum="62">
+                                 <verse xml:id="Je_1573_LN0981_388_m-168" n="1">
+                                    <syl xml:id="Je_1573_LN0981_388_m-169" con="d" wordpos="i">off</syl>
+                                 </verse>
+                              </note>
+                              <note xml:id="Je_1573_LN0981_388_m-162" dur="1" dur.ppq="1024" oct="4" pname="e"
+                                    pnum="64">
+                                 <verse xml:id="Je_1573_LN0981_388_m-170" n="1">
+                                    <syl xml:id="Je_1573_LN0981_388_m-171" con="d" wordpos="m">uer</syl>
+                                 </verse>
+                              </note>
+                              <note xml:id="Je_1573_LN0981_388_m-163" dur="1" dur.ppq="1024" oct="4" pname="f"
+                                    pnum="65">
+                                 <verse xml:id="Je_1573_LN0981_388_m-172" n="1">
+                                    <syl xml:id="Je_1573_LN0981_388_m-173" wordpos="t">uinde/</syl>
+                                 </verse>
+                              </note>
+                           </unclear>
                         </layer>
                      </staff>
                   </measure>

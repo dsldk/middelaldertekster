@@ -168,6 +168,14 @@
                <p>Add directory name to relations and references</p>
             </changeDesc>
          </change>
+         <change isodate="2019-07-25T12:17:36.664+02:00" xml:id="change_106d2e70">
+            <respStmt>
+               <name>atge</name>
+            </respStmt>
+            <changeDesc>
+               <p>Update music from filebase</p>
+            </changeDesc>
+         </change>
       </revisionDesc>
    </meiHead>
    <music xml:id="Je_1573_LN0981_025_m-22">
@@ -315,13 +323,16 @@
                            <verse xml:id="Je_1573_LN0981_025_m-110" n="1">
                               <syl xml:id="Je_1573_LN0981_025_m-111" wordpos="i">ad</syl>
                            </verse>
-                           <neume xml:id="neume_d3e264">
-                              <nc xml:id="Je_1573_LN0981_025_m-87" oct="4" pname="d" pnum="62" label="dur4"/>
-                              <nc xml:id="Je_1573_LN0981_025_m-88" oct="4" pname="c" pnum="60" label="dur4"/>
-                              <nc xml:id="Je_1573_LN0981_025_m-89" oct="4" pname="d" pnum="62" label="dur4"/>
-                              <nc xml:id="Je_1573_LN0981_025_m-90" oct="3" pname="b" pnum="58" accid="f"
-                                  label="dur4"/>
-                           </neume>
+                           <reg>
+                              <annot xml:id="Je_1573_LN0981_025_annot1">♭ før ligaturen flyttet til før h</annot>
+                              <neume xml:id="neume_d3e264">
+                                 <nc xml:id="Je_1573_LN0981_025_m-87" oct="4" pname="d" pnum="62" label="dur4"/>
+                                 <nc xml:id="Je_1573_LN0981_025_m-88" oct="4" pname="c" pnum="60" label="dur4"/>
+                                 <nc xml:id="Je_1573_LN0981_025_m-89" oct="4" pname="d" pnum="62" label="dur4"/>
+                                 <nc xml:id="Je_1573_LN0981_025_m-90" oct="3" pname="b" pnum="58" accid="f"
+                                     label="dur4"/>
+                              </neume>
+                           </reg>
                         </syllable>
                         <syllable xml:id="Je_1573_LN0981_025_m-149_syl">
                            <verse xml:id="Je_1573_LN0981_025_m-149" n="1">
@@ -346,8 +357,11 @@
                               <nc xml:id="Je_1573_LN0981_025_m-118" oct="3" pname="b" pnum="58" accid="f"
                                   label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_025_m-120" oct="4" pname="c" pnum="60" label="dur4"/>
-                              <nc xml:id="Je_1573_LN0981_025_m-121" oct="3" pname="b" pnum="58" accid="f"
-                                  label="dur4"/>
+                              <supplied>
+                                 <annot xml:id="Je_1573_LN0981_025_annot2">♭ tilføjet</annot>
+                                 <nc xml:id="Je_1573_LN0981_025_m-121" oct="3" pname="b" pnum="58" accid="f"
+                                     label="dur4"/>
+                              </supplied>
                            </neume>
                         </syllable>
                         <syllable xml:id="Je_1573_LN0981_025_m-155_syl">
@@ -356,8 +370,11 @@
                            </verse>
                            <neume xml:id="neume_d3e337">
                               <nc xml:id="Je_1573_LN0981_025_m-124" oct="3" pname="a" pnum="57" label="dur4"/>
-                              <nc xml:id="Je_1573_LN0981_025_m-125" oct="3" pname="b" pnum="58" accid="f"
-                                  label="dur4"/>
+                              <supplied>
+                                 <annot xml:id="Je_1573_LN0981_025_annot3">♭ tilføjet</annot>
+                                 <nc xml:id="Je_1573_LN0981_025_m-125" oct="3" pname="b" pnum="58" accid="f"
+                                     label="dur4"/>
+                              </supplied>
                            </neume>
                         </syllable>
                         <syllable xml:id="Je_1573_LN0981_025_m-157_syl">
@@ -366,8 +383,11 @@
                            </verse>
                            <neume xml:id="neume_d3e352">
                               <nc xml:id="Je_1573_LN0981_025_m-128" oct="3" pname="g" pnum="55" label="dur4"/>
-                              <nc xml:id="Je_1573_LN0981_025_m-129" oct="3" pname="b" pnum="58" accid="f"
-                                  label="dur4"/>
+                              <supplied>
+                                 <annot xml:id="Je_1573_LN0981_025_annot4">♭ tilføjet</annot>
+                                 <nc xml:id="Je_1573_LN0981_025_m-129" oct="3" pname="b" pnum="58" accid="f"
+                                     label="dur4"/>
+                              </supplied>
                               <nc xml:id="Je_1573_LN0981_025_m-131" oct="3" pname="g" pnum="55" label="dur4"/>
                            </neume>
                         </syllable>
@@ -648,7 +668,7 @@
                               <syl xml:id="Je_1573_LN0981_025_m-299" wordpos="t">stri.</syl>
                            </verse>
                            <neume xml:id="neume_d3e778">
-                              <nc xml:id="Je_1573_LN0981_025_m-291" oct="3" pname="g" pnum="55" label="dur4"/>
+                              <nc xml:id="Je_1573_LN0981_025_m-291" oct="3" pname="g" pnum="55" label="durlong"/>
                            </neume>
                         </syllable>
                         <barLine form="dbl"/>
@@ -842,7 +862,7 @@
                            </verse>
                            <neume xml:id="neume_d3e1042">
                               <nc xml:id="Je_1573_LN0981_025_m-376" oct="3" pname="a" pnum="57" label="dur4"/>
-                              <nc xml:id="Je_1573_LN0981_025_m-377" oct="3" pname="g" pnum="55" label="dur4"/>
+                              <nc xml:id="Je_1573_LN0981_025_m-377" oct="3" pname="g" pnum="55" label="durlong"/>
                            </neume>
                         </syllable>
                         <barLine form="dbl"/>
@@ -1219,7 +1239,7 @@
                            </verse>
                            <neume xml:id="neume_d3e1551">
                               <nc xml:id="Je_1573_LN0981_025_m-554" oct="3" pname="a" pnum="57" label="dur4"/>
-                              <nc xml:id="Je_1573_LN0981_025_m-555" oct="3" pname="g" pnum="55" label="dur4"/>
+                              <nc xml:id="Je_1573_LN0981_025_m-555" oct="3" pname="g" pnum="55" label="durlong"/>
                            </neume>
                         </syllable>
                         <barLine form="end"/>

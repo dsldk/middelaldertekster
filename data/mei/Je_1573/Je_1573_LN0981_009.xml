@@ -168,6 +168,14 @@
                <p>Add directory name to relations and references</p>
             </changeDesc>
          </change>
+         <change isodate="2019-07-25T12:17:35.285+02:00" xml:id="change_106d2e70">
+            <respStmt>
+               <name>atge</name>
+            </respStmt>
+            <changeDesc>
+               <p>Update music from filebase</p>
+            </changeDesc>
+         </change>
       </revisionDesc>
    </meiHead>
    <music xml:id="Je_1573_LN0981_009_m-22">
@@ -227,7 +235,7 @@
                            </verse>
                            <neume xml:id="neume_d3e138">
                               <nc xml:id="Je_1573_LN0981_009_m-55" oct="3" pname="a" pnum="57" label="dur4"/>
-                              <nc xml:id="Je_1573_LN0981_009_m-56" oct="3" pname="g" pnum="55" label="dur4"/>
+                              <nc xml:id="Je_1573_LN0981_009_m-56" oct="3" pname="g" pnum="55" label="durlong"/>
                            </neume>
                         </syllable>
                         <barLine form="single"/>
@@ -562,7 +570,10 @@
                            </verse>
                            <neume xml:id="neume_d3e639">
                               <nc xml:id="Je_1573_LN0981_009_m-250" oct="3" pname="a" pnum="57" label="dur4"/>
-                              <nc xml:id="Je_1573_LN0981_009_m-251" oct="3" pname="g" pnum="55" label="dur4"/>
+                              <corr>
+                                 <annot xml:id="Je_1573_LN0981_009_annot1">uudfyldt longa i tryk</annot>
+                                 <nc xml:id="Je_1573_LN0981_009_m-251" oct="3" pname="g" pnum="55" label="durlong"/>
+                              </corr>
                            </neume>
                         </syllable>
                         <fermata xml:id="Je_1573_LN0981_009_m-252" form="norm" layer="1" shape="curved"
@@ -616,7 +627,10 @@
                            </verse>
                            <neume xml:id="neume_d3e719">
                               <nc xml:id="Je_1573_LN0981_009_m-280" oct="3" pname="a" pnum="57" label="dur4"/>
-                              <nc xml:id="Je_1573_LN0981_009_m-281" oct="3" pname="g" pnum="55" label="dur4"/>
+                              <corr>
+                                 <annot xml:id="Je_1573_LN0981_009_annot2">uudfyldt longa i tryk</annot>
+                                 <nc xml:id="Je_1573_LN0981_009_m-281" oct="3" pname="g" pnum="55" label="durlong"/>
+                              </corr>
                            </neume>
                         </syllable>
                         <fermata xml:id="Je_1573_LN0981_009_m-282" form="norm" layer="1" shape="curved"

@@ -178,6 +178,14 @@
                <p>Add directory name to relations and references</p>
             </changeDesc>
          </change>
+         <change isodate="2019-07-25T12:17:39.891+02:00" xml:id="change_113d2e74">
+            <respStmt>
+               <name>atge</name>
+            </respStmt>
+            <changeDesc>
+               <p>Update music from filebase</p>
+            </changeDesc>
+         </change>
       </revisionDesc>
    </meiHead>
    <music xml:id="Je_1573_LN0981_077_m-22">
@@ -194,6 +202,7 @@
                <section xml:id="Je_1573_LN0981_077_m-31">
                   <staff xml:id="Je_1573_LN0981_077_m-34" n="1">
                      <layer xml:id="Je_1573_LN0981_077_m-35" n="1">
+                        <meterSig sym="cut"/>
                         <syllable xml:id="Je_1573_LN0981_077_m-52_syl">
                            <verse xml:id="Je_1573_LN0981_077_m-52" n="1">
                               <syl xml:id="Je_1573_LN0981_077_m-53" con="d" wordpos="i">KY</syl>
@@ -277,6 +286,7 @@
                               <nc xml:id="Je_1573_LN0981_077_m-51" oct="3" pname="d" pnum="50" label="dur4"/>
                            </neume>
                         </syllable>
+                        <barLine form="single"/>
                      </layer>
                      <dir type="pb" tstamp="10.5" place="above" label="Sideskift"
                           xml:id="Je_1573_LN0981_077_m-48">ǁ</dir>
@@ -297,7 +307,7 @@
                               <syl xml:id="Je_1573_LN0981_077_m-89" con="d" wordpos="i">sen</syl>
                            </verse>
                            <neume xml:id="neume_d3e213">
-                              <nc xml:id="Je_1573_LN0981_077_m-77" oct="3" pname="e" pnum="52" label="dur4"/>
+                              <nc xml:id="Je_1573_LN0981_077_m-77" oct="3" pname="e" pnum="52" label="dur8"/>
                            </neume>
                         </syllable>
                         <syllable xml:id="Je_1573_LN0981_077_m-90_syl">
@@ -305,7 +315,7 @@
                               <syl xml:id="Je_1573_LN0981_077_m-91" wordpos="t">de</syl>
                            </verse>
                            <neume xml:id="neume_d3e222">
-                              <nc xml:id="Je_1573_LN0981_077_m-78" oct="3" pname="e" pnum="52" label="dur4"/>
+                              <nc xml:id="Je_1573_LN0981_077_m-78" oct="3" pname="e" pnum="52" label="dur8"/>
                            </neume>
                         </syllable>
                         <syllable xml:id="Je_1573_LN0981_077_m-92_syl">
@@ -463,14 +473,18 @@
                               <syl xml:id="Je_1573_LN0981_077_m-148" wordpos="t">lig.</syl>
                            </verse>
                            <neume xml:id="neume_d3e410">
-                              <nc xml:id="Je_1573_LN0981_077_m-123" oct="3" pname="g" pnum="55" label="dur4"/>
+                              <nc xml:id="Je_1573_LN0981_077_m-123" oct="3" pname="g" pnum="55" label="durlong"/>
                            </neume>
                         </syllable>
+                        <barLine form="single"/>
                      </layer>
                      <dir type="sb" tstamp="2.5" place="above" label="Linjeskift"
                           xml:id="Je_1573_LN0981_077_m-113">ǀ</dir>
                      <dir type="sb" tstamp="12.75" place="above" label="Linjeskift"
                           xml:id="Je_1573_LN0981_077_m-124">ǀ</dir>
+                     <fermata xml:id="Je_1573_LN0981_077_m-3190" form="norm" layer="1" shape="curved"
+                              staff="1"
+                              startid="#Je_1573_LN0981_077_m-123"/>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_077_m-151" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_077_m-152" n="1">
@@ -617,6 +631,7 @@
                               <nc xml:id="Je_1573_LN0981_077_m-192" oct="3" pname="d" pnum="50" label="dur4"/>
                            </neume>
                         </syllable>
+                        <barLine form="single"/>
                      </layer>
                      <dir type="sb" tstamp="3.5" place="above" label="Linjeskift"
                           xml:id="Je_1573_LN0981_077_m-186">ǀ</dir>
@@ -702,7 +717,7 @@
                               <syl xml:id="Je_1573_LN0981_077_m-249" wordpos="i">dig.</syl>
                            </verse>
                            <neume xml:id="neume_d3e704">
-                              <nc xml:id="Je_1573_LN0981_077_m-228" oct="3" pname="g" pnum="55" label="dur4"/>
+                              <nc xml:id="Je_1573_LN0981_077_m-228" oct="3" pname="g" pnum="55" label="durlong"/>
                            </neume>
                         </syllable>
                         <barLine form="single"/>
@@ -711,6 +726,9 @@
                           xml:id="Je_1573_LN0981_077_m-223">ǀ</dir>
                      <dir type="sb" tstamp="11.75" place="above" label="Linjeskift"
                           xml:id="Je_1573_LN0981_077_m-229">ǀ</dir>
+                     <fermata xml:id="Je_1573_LN0981_077_m-3109" form="norm" layer="1" shape="curved"
+                              staff="1"
+                              startid="#Je_1573_LN0981_077_m-228"/>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_077_m-252" label="editorial"/>
                   <scoreDef xml:id="Je_1573_LN0981_077_m-297" key.sig="1f"/>
@@ -822,6 +840,7 @@
                               <nc xml:id="Je_1573_LN0981_077_m-270" oct="3" pname="a" pnum="57" label="dur4"/>
                            </neume>
                         </syllable>
+                        <barLine form="single"/>
                      </layer>
                      <dir type="pb" tstamp="12.5" place="above" label="Sideskift"
                           xml:id="Je_1573_LN0981_077_m-269">ǁ</dir>
@@ -963,6 +982,7 @@
                               <nc xml:id="Je_1573_LN0981_077_m-339" oct="3" pname="a" pnum="57" label="dur4"/>
                            </neume>
                         </syllable>
+                        <barLine form="single"/>
                      </layer>
                      <dir type="sb" tstamp="2.5" place="above" label="Linjeskift"
                           xml:id="Je_1573_LN0981_077_m-333">ǀ</dir>
@@ -1049,7 +1069,7 @@
                               <syl xml:id="Je_1573_LN0981_077_m-393" wordpos="i">Aand.</syl>
                            </verse>
                            <neume xml:id="neume_d3e1130">
-                              <nc xml:id="Je_1573_LN0981_077_m-372" oct="3" pname="g" pnum="55" label="dur4"/>
+                              <nc xml:id="Je_1573_LN0981_077_m-372" oct="3" pname="g" pnum="55" label="durlong"/>
                            </neume>
                         </syllable>
                         <fermata xml:id="Je_1573_LN0981_077_m-373" form="norm" layer="1" shape="curved"

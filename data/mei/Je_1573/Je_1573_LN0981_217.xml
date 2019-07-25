@@ -176,6 +176,14 @@
                <p>Add directory name to relations and references</p>
             </changeDesc>
          </change>
+         <change isodate="2019-07-25T12:17:48.715+02:00" xml:id="change_111d2e70">
+            <respStmt>
+               <name>atge</name>
+            </respStmt>
+            <changeDesc>
+               <p>Update music from filebase</p>
+            </changeDesc>
+         </change>
       </revisionDesc>
    </meiHead>
    <music xml:id="Je_1573_LN0981_217_m-22">
@@ -193,6 +201,7 @@
                   <measure xml:id="Je_1573_LN0981_217_m-32" right="invis">
                      <staff xml:id="Je_1573_LN0981_217_m-34" n="1">
                         <layer xml:id="Je_1573_LN0981_217_m-35" n="1">
+                           <meterSig sym="cut"/>
                            <note xml:id="Je_1573_LN0981_217_m-36" dur="breve" dur.ppq="2048" oct="3" pname="d"
                                  pnum="50">
                               <verse xml:id="Je_1573_LN0981_217_m-44" n="1">
@@ -245,7 +254,7 @@
                      </staff>
                   </measure>
                   <sb xml:id="Je_1573_LN0981_217_m-61" label="editorial"/>
-                  <measure xml:id="Je_1573_LN0981_217_m-60" right="invis">
+                  <measure xml:id="Je_1573_LN0981_217_m-60" right="single">
                      <staff xml:id="Je_1573_LN0981_217_m-62" n="1">
                         <layer xml:id="Je_1573_LN0981_217_m-63" n="1">
                            <note xml:id="Je_1573_LN0981_217_m-64" dur="1" dur.ppq="1024" oct="3" pname="a"
@@ -433,7 +442,7 @@
                      </staff>
                   </measure>
                   <sb xml:id="Je_1573_LN0981_217_m-153" label="editorial"/>
-                  <measure xml:id="Je_1573_LN0981_217_m-152" right="invis">
+                  <measure xml:id="Je_1573_LN0981_217_m-152" right="single">
                      <staff xml:id="Je_1573_LN0981_217_m-154" n="1">
                         <layer xml:id="Je_1573_LN0981_217_m-155" n="1">
                            <note xml:id="Je_1573_LN0981_217_m-156" dur="1" dur.ppq="1024" oct="3" pname="f"
@@ -608,7 +617,7 @@
                      </staff>
                   </measure>
                   <sb xml:id="Je_1573_LN0981_217_m-245" label="editorial"/>
-                  <measure xml:id="Je_1573_LN0981_217_m-244" right="invis">
+                  <measure xml:id="Je_1573_LN0981_217_m-244" right="single">
                      <staff xml:id="Je_1573_LN0981_217_m-246" n="1">
                         <layer xml:id="Je_1573_LN0981_217_m-247" n="1">
                            <note xml:id="Je_1573_LN0981_217_m-248" dur="1" dur.ppq="1024" oct="3" pname="f"
@@ -702,7 +711,7 @@
                   </staffGrp>
                </scoreDef>
                <section>
-                  <measure xml:id="Je_1573_LN0981_217_m-285" right="invis">
+                  <measure xml:id="Je_1573_LN0981_217_m-285" right="single">
                      <staff xml:id="Je_1573_LN0981_217_m-288" n="1">
                         <layer xml:id="Je_1573_LN0981_217_m-289" n="1">
                            <note xml:id="Je_1573_LN0981_217_m-290" dur="breve" dur.ppq="2048" oct="2" pname="a"
@@ -872,7 +881,7 @@
                           xml:id="Je_1573_LN0981_217_m-342">ǀ</dir>
                   </measure>
                   <sb xml:id="Je_1573_LN0981_217_m-370" label="editorial"/>
-                  <measure xml:id="Je_1573_LN0981_217_m-369" right="invis">
+                  <measure xml:id="Je_1573_LN0981_217_m-369" right="single">
                      <staff xml:id="Je_1573_LN0981_217_m-371" n="1">
                         <layer xml:id="Je_1573_LN0981_217_m-372" n="1">
                            <note xml:id="Je_1573_LN0981_217_m-373" dur="1" dur.ppq="1024" oct="3" pname="f"
@@ -1111,7 +1120,7 @@
                           xml:id="Je_1573_LN0981_217_m-470">ǀ</dir>
                   </measure>
                   <sb xml:id="Je_1573_LN0981_217_m-491" label="editorial"/>
-                  <measure xml:id="Je_1573_LN0981_217_m-490">
+                  <measure xml:id="Je_1573_LN0981_217_m-490" right="single">
                      <staff xml:id="Je_1573_LN0981_217_m-492" n="1">
                         <layer xml:id="Je_1573_LN0981_217_m-493" n="1">
                            <note xml:id="Je_1573_LN0981_217_m-494" dur="1" dur.ppq="1024" oct="3" pname="f"
@@ -1507,7 +1516,7 @@
                                   lform="solid"/>
                   </measure>
                   <sb xml:id="Je_1573_LN0981_217_m-683" label="editorial"/>
-                  <measure xml:id="Je_1573_LN0981_217_m-682" right="invis">
+                  <measure xml:id="Je_1573_LN0981_217_m-682" right="single">
                      <staff xml:id="Je_1573_LN0981_217_m-684" n="1">
                         <layer xml:id="Je_1573_LN0981_217_m-685" n="1">
                            <note xml:id="Je_1573_LN0981_217_m-686" dur="breve" dur.ppq="2048" oct="3" pname="c"
@@ -1626,6 +1635,7 @@
                                  <syl xml:id="Je_1573_LN0981_217_m-749" con="d" wordpos="i">Kon</syl>
                               </verse>
                            </note>
+                           <annot xml:id="Je_1573_LN0981_217_annot1">f-nøgle i begyndelse af system spejlvendt i tryk</annot>
                            <note xml:id="Je_1573_LN0981_217_m-734" dur="breve" dur.ppq="2048" oct="3" pname="a"
                                  pnum="57">
                               <verse xml:id="Je_1573_LN0981_217_m-750" n="1">

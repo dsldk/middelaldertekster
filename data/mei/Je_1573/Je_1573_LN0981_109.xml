@@ -176,6 +176,14 @@
                <p>Add directory name to relations and references</p>
             </changeDesc>
          </change>
+         <change isodate="2019-07-25T12:17:42.375+02:00" xml:id="change_111d2e70">
+            <respStmt>
+               <name>atge</name>
+            </respStmt>
+            <changeDesc>
+               <p>Update music from filebase</p>
+            </changeDesc>
+         </change>
       </revisionDesc>
    </meiHead>
    <music xml:id="Je_1573_LN0981_109_m-22">
@@ -233,9 +241,12 @@
                            </verse>
                            <neume xml:id="neume_d3e138">
                               <nc xml:id="Je_1573_LN0981_109_m-54" oct="3" pname="a" pnum="57" label="dur4"/>
-                              <nc xml:id="Je_1573_LN0981_109_m-55" oct="3" pname="g" pnum="55" label="dur4"/>
+                              <nc xml:id="Je_1573_LN0981_109_m-55" oct="3" pname="g" pnum="55" label="durlong"/>
                            </neume>
                         </syllable>
+                        <fermata xml:id="Je_1573_LN0981_109_m-2950" form="norm" layer="1" shape="curved"
+                                 staff="1"
+                                 startid="#Je_1573_LN0981_109_m-55"/>
                         <barLine form="single"/>
                      </layer>
                      <dir type="sb" tstamp="16.75" place="above" label="Linjeskift"
@@ -473,7 +484,7 @@
                               <nc xml:id="Je_1573_LN0981_109_m-197" oct="4" pname="c" pnum="60" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_109_m-198" oct="3" pname="a" pnum="57" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_109_m-199" oct="3" pname="a" pnum="57" label="dur4"/>
-                              <nc xml:id="Je_1573_LN0981_109_m-200" oct="3" pname="g" pnum="55" label="dur4"/>
+                              <nc xml:id="Je_1573_LN0981_109_m-200" oct="3" pname="g" pnum="55" label="durlong"/>
                            </neume>
                         </syllable>
                         <fermata xml:id="Je_1573_LN0981_109_m-201" form="norm" layer="1" shape="curved"
@@ -534,7 +545,7 @@
                            </verse>
                            <neume xml:id="neume_d3e614">
                               <nc xml:id="Je_1573_LN0981_109_m-235" oct="3" pname="a" pnum="57" label="dur4"/>
-                              <nc xml:id="Je_1573_LN0981_109_m-236" oct="3" pname="g" pnum="55" label="dur4"/>
+                              <nc xml:id="Je_1573_LN0981_109_m-236" oct="3" pname="g" pnum="55" label="durlong"/>
                            </neume>
                         </syllable>
                         <fermata xml:id="Je_1573_LN0981_109_m-237" form="norm" layer="1" shape="curved"

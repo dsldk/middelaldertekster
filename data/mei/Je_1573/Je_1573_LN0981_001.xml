@@ -178,6 +178,14 @@
                <p>Add directory name to relations and references</p>
             </changeDesc>
          </change>
+         <change isodate="2019-07-25T12:17:34.621+02:00" xml:id="change_113d2e75">
+            <respStmt>
+               <name>atge</name>
+            </respStmt>
+            <changeDesc>
+               <p>Update music from filebase</p>
+            </changeDesc>
+         </change>
       </revisionDesc>
    </meiHead>
    <music xml:id="Je_1573_LN0981_001_m-22">
@@ -195,6 +203,7 @@
                   <measure xml:id="Je_1573_LN0981_001_m-32" right="invis">
                      <staff xml:id="Je_1573_LN0981_001_m-34" n="1">
                         <layer xml:id="Je_1573_LN0981_001_m-35" n="1">
+                           <meterSig sym="cut"/>
                            <note xml:id="Je_1573_LN0981_001_m-36" dur="1" dur.ppq="1024" oct="3" pname="f"
                                  pnum="53">
                               <verse xml:id="Je_1573_LN0981_001_m-45" n="1">
@@ -222,48 +231,52 @@
                                  <syl xml:id="Je_1573_LN0981_001_m-56" wordpos="i">hans</syl>
                               </verse>
                            </note>
-                           <note xml:id="Je_1573_LN0981_001_m-39" dur="2" dur.ppq="512" oct="3" pname="g"
-                                 pnum="55">
-                              <verse xml:id="Je_1573_LN0981_001_m-57" n="2">
-                                 <syl xml:id="Je_1573_LN0981_001_m-58" wordpos="i">hierte</syl>
-                              </verse>
-                              <verse xml:id="Je_1573_LN0981_001_m-59" n="1">
-                                 <syl xml:id="Je_1573_LN0981_001_m-60" con="d" wordpos="i">Fa</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="Je_1573_LN0981_001_m-40" dur="2" dur.ppq="512" oct="3" pname="f"
-                                 pnum="53">
-                              <verse xml:id="Je_1573_LN0981_001_m-61" n="1">
-                                 <syl xml:id="Je_1573_LN0981_001_m-62" wordpos="t">ders</syl>
-                              </verse>
-                              <verse xml:id="Je_1573_LN0981_001_m-69" n="2">
-                                 <syl xml:id="Je_1573_LN0981_001_m-70" con="d" wordpos="i">vd</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="Je_1573_LN0981_001_m-41" dur="2" dur.ppq="512" oct="3" pname="e"
-                                 pnum="52">
-                              <verse xml:id="Je_1573_LN0981_001_m-63" n="1">
-                                 <syl xml:id="Je_1573_LN0981_001_m-64" con="d" wordpos="i">en</syl>
-                              </verse>
-                              <verse xml:id="Je_1573_LN0981_001_m-71" n="2">
-                                 <syl xml:id="Je_1573_LN0981_001_m-72" con="d" wordpos="m">gan</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="Je_1573_LN0981_001_m-42" dur="2" dur.ppq="512" oct="3" pname="e"
-                                 pnum="52">
-                              <verse xml:id="Je_1573_LN0981_001_m-65" n="1">
-                                 <syl xml:id="Je_1573_LN0981_001_m-66" wordpos="t">borne</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="Je_1573_LN0981_001_m-43" dur="breve" dur.ppq="2048" oct="3" pname="d"
-                                 pnum="50">
-                              <verse xml:id="Je_1573_LN0981_001_m-67" n="1">
-                                 <syl xml:id="Je_1573_LN0981_001_m-68" wordpos="i">Søn/</syl>
-                              </verse>
-                              <verse xml:id="Je_1573_LN0981_001_m-73" n="2">
-                                 <syl xml:id="Je_1573_LN0981_001_m-74" wordpos="t">gen/</syl>
-                              </verse>
-                           </note>
+                           <unclear>
+                              <annot xml:id="Je_1573_LN0981_001_annot1">
+                                 <rend rend="italic">hierte vd-gan-gen</rend>: tekstfordeling usikker</annot>
+                              <note xml:id="Je_1573_LN0981_001_m-39" dur="2" dur.ppq="512" oct="3" pname="g"
+                                    pnum="55">
+                                 <verse xml:id="Je_1573_LN0981_001_m-57" n="2">
+                                    <syl xml:id="Je_1573_LN0981_001_m-58" wordpos="i">hierte</syl>
+                                 </verse>
+                                 <verse xml:id="Je_1573_LN0981_001_m-59" n="1">
+                                    <syl xml:id="Je_1573_LN0981_001_m-60" con="d" wordpos="i">Fa</syl>
+                                 </verse>
+                              </note>
+                              <note xml:id="Je_1573_LN0981_001_m-40" dur="2" dur.ppq="512" oct="3" pname="f"
+                                    pnum="53">
+                                 <verse xml:id="Je_1573_LN0981_001_m-61" n="1">
+                                    <syl xml:id="Je_1573_LN0981_001_m-62" wordpos="t">ders</syl>
+                                 </verse>
+                                 <verse xml:id="Je_1573_LN0981_001_m-69" n="2">
+                                    <syl xml:id="Je_1573_LN0981_001_m-70" con="d" wordpos="i">vd</syl>
+                                 </verse>
+                              </note>
+                              <note xml:id="Je_1573_LN0981_001_m-41" dur="2" dur.ppq="512" oct="3" pname="e"
+                                    pnum="52">
+                                 <verse xml:id="Je_1573_LN0981_001_m-63" n="1">
+                                    <syl xml:id="Je_1573_LN0981_001_m-64" con="d" wordpos="i">en</syl>
+                                 </verse>
+                                 <verse xml:id="Je_1573_LN0981_001_m-71" n="2">
+                                    <syl xml:id="Je_1573_LN0981_001_m-72" con="d" wordpos="m">gan</syl>
+                                 </verse>
+                              </note>
+                              <note xml:id="Je_1573_LN0981_001_m-42" dur="2" dur.ppq="512" oct="3" pname="e"
+                                    pnum="52">
+                                 <verse xml:id="Je_1573_LN0981_001_m-65" n="1">
+                                    <syl xml:id="Je_1573_LN0981_001_m-66" wordpos="t">borne</syl>
+                                 </verse>
+                              </note>
+                              <note xml:id="Je_1573_LN0981_001_m-43" dur="breve" dur.ppq="2048" oct="3" pname="d"
+                                    pnum="50">
+                                 <verse xml:id="Je_1573_LN0981_001_m-67" n="1">
+                                    <syl xml:id="Je_1573_LN0981_001_m-68" wordpos="i">Søn/</syl>
+                                 </verse>
+                                 <verse xml:id="Je_1573_LN0981_001_m-73" n="2">
+                                    <syl xml:id="Je_1573_LN0981_001_m-74" wordpos="t">gen/</syl>
+                                 </verse>
+                              </note>
+                           </unclear>
                         </layer>
                      </staff>
                      <dir type="sb" tstamp="24.75" place="above" label="Linjeskift"

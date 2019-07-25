@@ -176,6 +176,14 @@
                <p>Add directory name to relations and references</p>
             </changeDesc>
          </change>
+         <change isodate="2019-07-25T12:17:48.121+02:00" xml:id="change_111d2e70">
+            <respStmt>
+               <name>atge</name>
+            </respStmt>
+            <changeDesc>
+               <p>Update music from filebase</p>
+            </changeDesc>
+         </change>
       </revisionDesc>
    </meiHead>
    <music xml:id="Je_1573_LN0981_205_m-22">
@@ -193,6 +201,7 @@
                   <measure xml:id="Je_1573_LN0981_205_m-32" right="invis">
                      <staff xml:id="Je_1573_LN0981_205_m-34" n="1">
                         <layer xml:id="Je_1573_LN0981_205_m-35" n="1">
+                           <meterSig sym="cut"/>
                            <note xml:id="Je_1573_LN0981_205_m-36" dur="breve" dur.ppq="2048" oct="3" pname="a"
                                  pnum="57">
                               <verse xml:id="Je_1573_LN0981_205_m-45" n="1">
@@ -299,24 +308,28 @@
                                  <syl xml:id="Je_1573_LN0981_205_m-98" wordpos="i">det</syl>
                               </verse>
                            </note>
-                           <note xml:id="Je_1573_LN0981_205_m-82" dur="1" dur.ppq="1024" oct="3" pname="a"
-                                 pnum="57">
-                              <verse xml:id="Je_1573_LN0981_205_m-99" n="1">
-                                 <syl xml:id="Je_1573_LN0981_205_m-100" con="d" wordpos="i">Syn</syl>
-                              </verse>
-                              <verse xml:id="Je_1573_LN0981_205_m-103" n="2">
-                                 <syl xml:id="Je_1573_LN0981_205_m-104" con="d" wordpos="i">e</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="Je_1573_LN0981_205_m-83" dur="2" dur.ppq="512" oct="3" pname="g"
-                                 pnum="55">
-                              <verse xml:id="Je_1573_LN0981_205_m-101" n="1">
-                                 <syl xml:id="Je_1573_LN0981_205_m-102" wordpos="t">der</syl>
-                              </verse>
-                              <verse xml:id="Je_1573_LN0981_205_m-105" n="2">
-                                 <syl xml:id="Je_1573_LN0981_205_m-106" con="d" wordpos="m">ui</syl>
-                              </verse>
-                           </note>
+                           <unclear>
+                              <annot xml:id="Je_1573_LN0981_annot1">
+                                 <rend rend="italic">Syn-der</rend>: tekstfordeling usikker</annot>
+                              <note xml:id="Je_1573_LN0981_205_m-82" dur="1" dur.ppq="1024" oct="3" pname="a"
+                                    pnum="57">
+                                 <verse xml:id="Je_1573_LN0981_205_m-99" n="1">
+                                    <syl xml:id="Je_1573_LN0981_205_m-100" con="d" wordpos="i">Syn</syl>
+                                 </verse>
+                                 <verse xml:id="Je_1573_LN0981_205_m-103" n="2">
+                                    <syl xml:id="Je_1573_LN0981_205_m-104" con="d" wordpos="i">e</syl>
+                                 </verse>
+                              </note>
+                              <note xml:id="Je_1573_LN0981_205_m-83" dur="2" dur.ppq="512" oct="3" pname="g"
+                                    pnum="55">
+                                 <verse xml:id="Je_1573_LN0981_205_m-101" n="1">
+                                    <syl xml:id="Je_1573_LN0981_205_m-102" wordpos="t">der</syl>
+                                 </verse>
+                                 <verse xml:id="Je_1573_LN0981_205_m-105" n="2">
+                                    <syl xml:id="Je_1573_LN0981_205_m-106" con="d" wordpos="m">ui</syl>
+                                 </verse>
+                              </note>
+                           </unclear>
                            <note xml:id="Je_1573_LN0981_205_m-84" dur="2" dur.ppq="512" oct="3" pname="f"
                                  pnum="53">
                               <verse xml:id="Je_1573_LN0981_205_m-107" n="2">

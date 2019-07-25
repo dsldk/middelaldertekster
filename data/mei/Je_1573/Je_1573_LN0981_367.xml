@@ -176,6 +176,14 @@
                <p>Add directory name to relations and references</p>
             </changeDesc>
          </change>
+         <change isodate="2019-07-25T12:17:59.631+02:00" xml:id="change_111d2e70">
+            <respStmt>
+               <name>atge</name>
+            </respStmt>
+            <changeDesc>
+               <p>Update music from filebase</p>
+            </changeDesc>
+         </change>
       </revisionDesc>
    </meiHead>
    <music xml:id="Je_1573_LN0981_367_m-22">
@@ -193,6 +201,7 @@
                   <measure xml:id="Je_1573_LN0981_367_m-32" right="invis">
                      <staff xml:id="Je_1573_LN0981_367_m-34" n="1">
                         <layer xml:id="Je_1573_LN0981_367_m-35" n="1">
+                           <meterSig sym="cut"/>
                            <note xml:id="Je_1573_LN0981_367_m-36" dur="breve" dur.ppq="2048" oct="4" pname="c"
                                  pnum="60">
                               <verse xml:id="Je_1573_LN0981_367_m-50" n="1">
@@ -342,6 +351,8 @@
                      </staff>
                      <dir type="pb" tstamp="48.75" place="above" label="Sideskift"
                           xml:id="Je_1573_LN0981_367_m-90">ǁ</dir>
+                     <fermata form="norm" layer="1" shape="curved" staff="1"
+                              startid="#Je_1573_LN0981_367_m-89"/>
                   </measure>
                   <sb xml:id="Je_1573_LN0981_367_m-112" label="editorial"/>
                   <measure xml:id="Je_1573_LN0981_367_m-111" right="invis">
@@ -1012,6 +1023,8 @@
                      </staff>
                      <dir type="sb" tstamp="48.75" place="above" label="Linjeskift"
                           xml:id="Je_1573_LN0981_367_m-431">ǀ</dir>
+                     <fermata form="norm" layer="1" shape="curved" staff="1"
+                              startid="#Je_1573_LN0981_367_m-430"/>
                   </measure>
                   <sb xml:id="Je_1573_LN0981_367_m-453" label="editorial"/>
                   <measure xml:id="Je_1573_LN0981_367_m-452" right="invis">

@@ -168,6 +168,14 @@
                <p>Add directory name to relations and references</p>
             </changeDesc>
          </change>
+         <change isodate="2019-07-25T12:17:40.631+02:00" xml:id="change_106d2e70">
+            <respStmt>
+               <name>atge</name>
+            </respStmt>
+            <changeDesc>
+               <p>Update music from filebase</p>
+            </changeDesc>
+         </change>
       </revisionDesc>
    </meiHead>
    <music xml:id="Je_1573_LN0981_087_m-22">
@@ -233,13 +241,16 @@
                            <verse xml:id="Je_1573_LN0981_087_m-97" n="1">
                               <syl xml:id="Je_1573_LN0981_087_m-98" con="d" wordpos="m">len</syl>
                            </verse>
-                           <neume xml:id="neume_d3e143">
-                              <nc xml:id="Je_1573_LN0981_087_m-49" oct="3" pname="g" pnum="55" label="dur4"/>
-                              <nc xml:id="Je_1573_LN0981_087_m-50" oct="3" pname="a" pnum="57" label="dur4"/>
-                              <nc xml:id="Je_1573_LN0981_087_m-51" oct="3" pname="b" pnum="58" accid="f"
-                                  label="dur4"/>
-                              <nc xml:id="Je_1573_LN0981_087_m-53" oct="3" pname="a" pnum="57" label="dur4"/>
-                           </neume>
+                           <reg>
+                              <annot xml:id="Je_1573_LN0981_087_annot1">♭ før ligaturen flyttet til før h</annot>
+                              <neume xml:id="neume_d3e143">
+                                 <nc xml:id="Je_1573_LN0981_087_m-49" oct="3" pname="g" pnum="55" label="dur4"/>
+                                 <nc xml:id="Je_1573_LN0981_087_m-50" oct="3" pname="a" pnum="57" label="dur4"/>
+                                 <nc xml:id="Je_1573_LN0981_087_m-51" oct="3" pname="b" pnum="58" accid="f"
+                                     label="dur4"/>
+                                 <nc xml:id="Je_1573_LN0981_087_m-53" oct="3" pname="a" pnum="57" label="dur4"/>
+                              </neume>
+                           </reg>
                         </syllable>
                      </layer>
                      <dir type="pb" tstamp="14.75" place="above" label="Sideskift"
@@ -483,13 +494,16 @@
                            <verse xml:id="Je_1573_LN0981_087_m-204" n="1">
                               <syl xml:id="Je_1573_LN0981_087_m-205" con="d" wordpos="m">ni</syl>
                            </verse>
-                           <neume xml:id="neume_d3e511">
-                              <nc xml:id="Je_1573_LN0981_087_m-184" oct="3" pname="f" pnum="53" label="dur4"/>
-                              <nc xml:id="Je_1573_LN0981_087_m-185" oct="3" pname="g" pnum="55" label="dur4"/>
-                              <nc xml:id="Je_1573_LN0981_087_m-186" oct="3" pname="a" pnum="57" label="dur4"/>
-                              <nc xml:id="Je_1573_LN0981_087_m-187" oct="3" pname="b" pnum="58" accid="f"
-                                  label="dur4"/>
-                           </neume>
+                           <reg>
+                              <annot xml:id="Je_1573_LN0981_087_annot2">♭ før ligaturen flyttet til før h</annot>
+                              <neume xml:id="neume_d3e511">
+                                 <nc xml:id="Je_1573_LN0981_087_m-184" oct="3" pname="f" pnum="53" label="dur4"/>
+                                 <nc xml:id="Je_1573_LN0981_087_m-185" oct="3" pname="g" pnum="55" label="dur4"/>
+                                 <nc xml:id="Je_1573_LN0981_087_m-186" oct="3" pname="a" pnum="57" label="dur4"/>
+                                 <nc xml:id="Je_1573_LN0981_087_m-187" oct="3" pname="b" pnum="58" accid="f"
+                                     label="dur4"/>
+                              </neume>
+                           </reg>
                         </syllable>
                         <syllable xml:id="Je_1573_LN0981_087_m-206_syl">
                            <verse xml:id="Je_1573_LN0981_087_m-206" n="1">
@@ -721,7 +735,7 @@
                            </verse>
                            <neume xml:id="neume_d3e869">
                               <nc xml:id="Je_1573_LN0981_087_m-321" oct="3" pname="a" pnum="57" label="dur4"/>
-                              <nc xml:id="Je_1573_LN0981_087_m-322" oct="3" pname="g" pnum="55" label="dur4"/>
+                              <nc xml:id="Je_1573_LN0981_087_m-322" oct="3" pname="g" pnum="55" label="durlong"/>
                            </neume>
                         </syllable>
                         <fermata xml:id="Je_1573_LN0981_087_m-323" form="norm" layer="1" shape="curved"
@@ -729,6 +743,8 @@
                                  startid="#Je_1573_LN0981_087_m-322"/>
                         <barLine form="dbl"/>
                      </layer>
+                     <dir type="pb" tstamp="16.75" place="above" label="Sideskift"
+                          xml:id="Je_1573_LN0981_087_m-5401">ǁ</dir>
                   </staff>
                   <pb/>
                </section>
@@ -1009,7 +1025,7 @@
                               <syl xml:id="Je_1573_LN0981_087_m-464" wordpos="i">se.</syl>
                            </verse>
                            <neume xml:id="neume_d3e1245">
-                              <nc xml:id="Je_1573_LN0981_087_m-443" oct="3" pname="g" pnum="55" label="dur4"/>
+                              <nc xml:id="Je_1573_LN0981_087_m-443" oct="3" pname="g" pnum="55" label="durlong"/>
                            </neume>
                         </syllable>
                         <fermata xml:id="Je_1573_LN0981_087_m-444" form="norm" layer="1" shape="curved"
@@ -1384,7 +1400,7 @@
                               <syl xml:id="Je_1573_LN0981_087_m-640" wordpos="t">men.</syl>
                            </verse>
                            <neume xml:id="neume_d3e1741">
-                              <nc xml:id="Je_1573_LN0981_087_m-613" oct="3" pname="g" pnum="55" label="dur4"/>
+                              <nc xml:id="Je_1573_LN0981_087_m-613" oct="3" pname="g" pnum="55" label="durlong"/>
                            </neume>
                         </syllable>
                         <fermata xml:id="Je_1573_LN0981_087_m-614" form="norm" layer="1" shape="curved"

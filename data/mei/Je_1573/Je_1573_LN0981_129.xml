@@ -176,6 +176,14 @@
                <p>Add directory name to relations and references</p>
             </changeDesc>
          </change>
+         <change isodate="2019-07-25T12:17:43.821+02:00" xml:id="change_111d2e70">
+            <respStmt>
+               <name>atge</name>
+            </respStmt>
+            <changeDesc>
+               <p>Update music from filebase</p>
+            </changeDesc>
+         </change>
       </revisionDesc>
    </meiHead>
    <music xml:id="Je_1573_LN0981_129_m-22">
@@ -193,6 +201,7 @@
                   <measure xml:id="Je_1573_LN0981_129_m-32" right="invis">
                      <staff xml:id="Je_1573_LN0981_129_m-34" n="1">
                         <layer xml:id="Je_1573_LN0981_129_m-35" n="1">
+                           <meterSig sym="cut"/>
                            <note xml:id="Je_1573_LN0981_129_m-36" dur="breve" dur.ppq="2048" oct="3" pname="d"
                                  pnum="50">
                               <verse xml:id="Je_1573_LN0981_129_m-45" n="2">
@@ -284,24 +293,28 @@
                                  <syl xml:id="Je_1573_LN0981_129_m-94" con="d" wordpos="i">eff</syl>
                               </verse>
                            </note>
-                           <note xml:id="Je_1573_LN0981_129_m-83" dur="1" dur.ppq="1024" oct="4" pname="c"
-                                 pnum="60">
-                              <verse xml:id="Je_1573_LN0981_129_m-95" n="1">
-                                 <syl xml:id="Je_1573_LN0981_129_m-96" wordpos="t">ter</syl>
-                              </verse>
-                              <verse xml:id="Je_1573_LN0981_129_m-99" n="2">
-                                 <syl xml:id="Je_1573_LN0981_129_m-100" con="d" wordpos="i">Embe</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="Je_1573_LN0981_129_m-84" dur="1" dur.ppq="1024" oct="3" pname="b"
-                                 pnum="59">
-                              <verse xml:id="Je_1573_LN0981_129_m-97" n="1">
-                                 <syl xml:id="Je_1573_LN0981_129_m-98" wordpos="i">sin</syl>
-                              </verse>
-                              <verse xml:id="Je_1573_LN0981_129_m-101" n="2">
-                                 <syl xml:id="Je_1573_LN0981_129_m-102" wordpos="t">de</syl>
-                              </verse>
-                           </note>
+                           <unclear>
+                              <annot xml:id="Je_1573_LN0981_129_annot1">
+                                 <rend rend="italic">Embe-de</rend>: tekstfordeling usikker</annot>
+                              <note xml:id="Je_1573_LN0981_129_m-83" dur="1" dur.ppq="1024" oct="4" pname="c"
+                                    pnum="60">
+                                 <verse xml:id="Je_1573_LN0981_129_m-95" n="1">
+                                    <syl xml:id="Je_1573_LN0981_129_m-96" wordpos="t">ter</syl>
+                                 </verse>
+                                 <verse xml:id="Je_1573_LN0981_129_m-99" n="2">
+                                    <syl xml:id="Je_1573_LN0981_129_m-100" con="d" wordpos="i">Embe</syl>
+                                 </verse>
+                              </note>
+                              <note xml:id="Je_1573_LN0981_129_m-84" dur="1" dur.ppq="1024" oct="3" pname="b"
+                                    pnum="59">
+                                 <verse xml:id="Je_1573_LN0981_129_m-97" n="1">
+                                    <syl xml:id="Je_1573_LN0981_129_m-98" wordpos="i">sin</syl>
+                                 </verse>
+                                 <verse xml:id="Je_1573_LN0981_129_m-101" n="2">
+                                    <syl xml:id="Je_1573_LN0981_129_m-102" wordpos="t">de</syl>
+                                 </verse>
+                              </note>
+                           </unclear>
                            <note xml:id="Je_1573_LN0981_129_m-85" dur="1" dur.ppq="1024" oct="3" pname="a"
                                  pnum="57">
                               <verse xml:id="Je_1573_LN0981_129_m-103" n="2">

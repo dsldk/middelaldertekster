@@ -176,6 +176,14 @@
                <p>Add directory name to relations and references</p>
             </changeDesc>
          </change>
+         <change isodate="2019-07-25T12:17:56.711+02:00" xml:id="change_111d2e70">
+            <respStmt>
+               <name>atge</name>
+            </respStmt>
+            <changeDesc>
+               <p>Update music from filebase</p>
+            </changeDesc>
+         </change>
       </revisionDesc>
    </meiHead>
    <music xml:id="Je_1573_LN0981_332_m-22">
@@ -193,6 +201,10 @@
                   <measure xml:id="Je_1573_LN0981_332_m-32" right="invis">
                      <staff xml:id="Je_1573_LN0981_332_m-34" n="1">
                         <layer xml:id="Je_1573_LN0981_332_m-35" n="1">
+                           <meterSigGrp func="mixed">
+                              <meterSig sym="cut"/>
+                              <meterSig count="2"/>
+                           </meterSigGrp>
                            <note xml:id="Je_1573_LN0981_332_m-36" dur="breve" dur.ppq="2048" oct="3" pname="b"
                                  pnum="59">
                               <verse xml:id="Je_1573_LN0981_332_m-47" n="1">
@@ -324,34 +336,38 @@
                                  <syl xml:id="Je_1573_LN0981_332_m-115" con="d" wordpos="i">vel</syl>
                               </verse>
                            </note>
-                           <note xml:id="Je_1573_LN0981_332_m-88" dur="1" dur.ppq="1024" oct="3" pname="g"
-                                 pnum="55">
-                              <verse xml:id="Je_1573_LN0981_332_m-112" n="2">
-                                 <syl xml:id="Je_1573_LN0981_332_m-113" wordpos="i">oss</syl>
-                              </verse>
-                              <verse xml:id="Je_1573_LN0981_332_m-116" n="1">
-                                 <syl xml:id="Je_1573_LN0981_332_m-117" con="d" wordpos="m">sig</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="Je_1573_LN0981_332_m-90" dur="1" dur.ppq="1024" oct="3" pname="d"
-                                 pnum="50"/>
-                           <note xml:id="Je_1573_LN0981_332_m-91" dur="breve" dur.ppq="2048" oct="3" pname="f"
-                                 pnum="53"/>
-                           <note xml:id="Je_1573_LN0981_332_m-92" dur="breve" dur.ppq="2048" oct="3" pname="g"
-                                 pnum="55">
-                              <verse xml:id="Je_1573_LN0981_332_m-120" n="2">
-                                 <syl xml:id="Je_1573_LN0981_332_m-121" con="d" wordpos="i">skin</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="Je_1573_LN0981_332_m-93" dur="breve" dur.ppq="2048" oct="3" pname="e"
-                                 pnum="52">
-                              <verse xml:id="Je_1573_LN0981_332_m-118" n="1">
-                                 <syl xml:id="Je_1573_LN0981_332_m-119" wordpos="t">ne/</syl>
-                              </verse>
-                              <verse xml:id="Je_1573_LN0981_332_m-122" n="2">
-                                 <syl xml:id="Je_1573_LN0981_332_m-123" wordpos="t">ne/</syl>
-                              </verse>
-                           </note>
+                           <unclear>
+                              <annot xml:id="Je_1573_LN0981_332_annot1">
+                                 <rend rend="italic">oss skin-ne</rend>: tekstfordeling usikker</annot>
+                              <note xml:id="Je_1573_LN0981_332_m-88" dur="1" dur.ppq="1024" oct="3" pname="g"
+                                    pnum="55">
+                                 <verse xml:id="Je_1573_LN0981_332_m-112" n="2">
+                                    <syl xml:id="Je_1573_LN0981_332_m-113" wordpos="i">oss</syl>
+                                 </verse>
+                                 <verse xml:id="Je_1573_LN0981_332_m-116" n="1">
+                                    <syl xml:id="Je_1573_LN0981_332_m-117" con="d" wordpos="m">sig</syl>
+                                 </verse>
+                              </note>
+                              <note xml:id="Je_1573_LN0981_332_m-90" dur="1" dur.ppq="1024" oct="3" pname="d"
+                                    pnum="50"/>
+                              <note xml:id="Je_1573_LN0981_332_m-91" dur="breve" dur.ppq="2048" oct="3" pname="f"
+                                    pnum="53"/>
+                              <note xml:id="Je_1573_LN0981_332_m-92" dur="breve" dur.ppq="2048" oct="3" pname="g"
+                                    pnum="55">
+                                 <verse xml:id="Je_1573_LN0981_332_m-120" n="2">
+                                    <syl xml:id="Je_1573_LN0981_332_m-121" con="d" wordpos="i">skin</syl>
+                                 </verse>
+                              </note>
+                              <note xml:id="Je_1573_LN0981_332_m-93" dur="breve" dur.ppq="2048" oct="3" pname="e"
+                                    pnum="52">
+                                 <verse xml:id="Je_1573_LN0981_332_m-118" n="1">
+                                    <syl xml:id="Je_1573_LN0981_332_m-119" wordpos="t">ne/</syl>
+                                 </verse>
+                                 <verse xml:id="Je_1573_LN0981_332_m-122" n="2">
+                                    <syl xml:id="Je_1573_LN0981_332_m-123" wordpos="t">ne/</syl>
+                                 </verse>
+                              </note>
+                           </unclear>
                         </layer>
                      </staff>
                      <bracketSpan xml:id="Je_1573_LN0981_332_m-89" func="ligature"

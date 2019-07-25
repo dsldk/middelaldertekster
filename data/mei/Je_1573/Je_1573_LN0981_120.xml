@@ -176,6 +176,14 @@
                <p>Add directory name to relations and references</p>
             </changeDesc>
          </change>
+         <change isodate="2019-07-25T12:17:43.235+02:00" xml:id="change_111d2e70">
+            <respStmt>
+               <name>atge</name>
+            </respStmt>
+            <changeDesc>
+               <p>Update music from filebase</p>
+            </changeDesc>
+         </change>
       </revisionDesc>
    </meiHead>
    <music xml:id="Je_1573_LN0981_120_m-22">
@@ -193,6 +201,7 @@
                   <measure xml:id="Je_1573_LN0981_120_m-32" right="rptend">
                      <staff xml:id="Je_1573_LN0981_120_m-34" n="1">
                         <layer xml:id="Je_1573_LN0981_120_m-35" n="1">
+                           <meterSig sym="cut"/>
                            <note xml:id="Je_1573_LN0981_120_m-36" dur="1" dur.ppq="1024" oct="3" pname="g"
                                  pnum="55">
                               <verse xml:id="Je_1573_LN0981_120_m-48" n="2">
@@ -362,20 +371,24 @@
                                  <syl xml:id="Je_1573_LN0981_120_m-132" wordpos="t">der</syl>
                               </verse>
                            </note>
-                           <note xml:id="Je_1573_LN0981_120_m-107" dur="1" dur.ppq="1024" oct="3" pname="g"
-                                 pnum="55">
-                              <verse xml:id="Je_1573_LN0981_120_m-133" n="1">
-                                 <syl xml:id="Je_1573_LN0981_120_m-134" con="d" wordpos="i">al</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="Je_1573_LN0981_120_m-108" dur="2" dur.ppq="512" oct="3" pname="f"
-                                 pnum="53">
-                              <verse xml:id="Je_1573_LN0981_120_m-135" n="1">
-                                 <syl xml:id="Je_1573_LN0981_120_m-136" wordpos="t">le</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="Je_1573_LN0981_120_m-109" dur="2" dur.ppq="512" oct="3" pname="e"
-                                 pnum="52"/>
+                           <unclear>
+                              <annot xml:id="Je_1573_LN0981_120_annot1">
+                                 <rend rend="italic">al-le</rend>: tekstfordeling usikker</annot>
+                              <note xml:id="Je_1573_LN0981_120_m-107" dur="1" dur.ppq="1024" oct="3" pname="g"
+                                    pnum="55">
+                                 <verse xml:id="Je_1573_LN0981_120_m-133" n="1">
+                                    <syl xml:id="Je_1573_LN0981_120_m-134" con="d" wordpos="i">al</syl>
+                                 </verse>
+                              </note>
+                              <note xml:id="Je_1573_LN0981_120_m-108" dur="2" dur.ppq="512" oct="3" pname="f"
+                                    pnum="53">
+                                 <verse xml:id="Je_1573_LN0981_120_m-135" n="1">
+                                    <syl xml:id="Je_1573_LN0981_120_m-136" wordpos="t">le</syl>
+                                 </verse>
+                              </note>
+                              <note xml:id="Je_1573_LN0981_120_m-109" dur="2" dur.ppq="512" oct="3" pname="e"
+                                    pnum="52"/>
+                           </unclear>
                            <note xml:id="Je_1573_LN0981_120_m-110" dur="1" dur.ppq="1024" oct="3" pname="d"
                                  pnum="50">
                               <verse xml:id="Je_1573_LN0981_120_m-137" n="1">
