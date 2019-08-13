@@ -201,6 +201,7 @@
                   <measure xml:id="Je_1573_LN0981_199_m-32" right="invis">
                      <staff xml:id="Je_1573_LN0981_199_m-34" n="1">
                         <layer xml:id="Je_1573_LN0981_199_m-35" n="1">
+                           <meterSig sym="cut"/>
                            <note xml:id="Je_1573_LN0981_199_m-36" dur="1" dur.ppq="1024" oct="3" pname="a"
                                  pnum="57">
                               <verse xml:id="Je_1573_LN0981_199_m-42" n="1">
@@ -460,7 +461,9 @@
                                  <syl xml:id="Je_1573_LN0981_199_m-170" con="d" wordpos="m">ri</syl>
                               </verse>
                            </note>
-                           <note xml:id="Je_1573_LN0981_199_m-164" dur="breve" dur.ppq="2048" oct="3" pname="d"
+                           <unclear>
+                              <annot xml:id="Je_1573_LN0981_199_annot1"><rend rend="italic">e-leis</rend>: tekstfordeling usikker</annot>
+                              <note xml:id="Je_1573_LN0981_199_m-164" dur="breve" dur.ppq="2048" oct="3" pname="d"
                                  pnum="50">
                               <verse xml:id="Je_1573_LN0981_199_m-171" n="1">
                                  <syl xml:id="Je_1573_LN0981_199_m-172" con="d" wordpos="m">e</syl>
@@ -472,10 +475,14 @@
                                  <syl xml:id="Je_1573_LN0981_199_m-174" wordpos="t">leis.</syl>
                               </verse>
                            </note>
+                           </unclear>
                         </layer>
                      </staff>
                      <dir type="sb" tstamp="32.75" place="above" label="Linjeskift"
                           xml:id="Je_1573_LN0981_199_m-166">ǀ</dir>
+                     <fermata xml:id="Je_1573_LN0981_199_m-1650" form="norm" layer="1" shape="curved"
+                        staff="1"
+                        startid="#Je_1573_LN0981_199_m-165"/>
                   </measure>
                   <sb xml:id="Je_1573_LN0981_199_m-177" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_199_m-178" n="1">
@@ -606,7 +613,7 @@
                               <syl xml:id="Je_1573_LN0981_199_m-230" wordpos="t">ia.</syl>
                            </verse>
                            <neume xml:id="neume_d3e652">
-                              <nc xml:id="Je_1573_LN0981_199_m-197" oct="3" pname="d" pnum="50" label="dur4"/>
+                              <nc xml:id="Je_1573_LN0981_199_m-197" oct="3" pname="d" pnum="50" label="durlong"/>
                            </neume>
                         </syllable>
                         <fermata xml:id="Je_1573_LN0981_199_m-198" form="norm" layer="1" shape="curved"
