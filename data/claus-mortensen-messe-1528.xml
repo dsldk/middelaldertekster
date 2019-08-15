@@ -66,7 +66,7 @@
                     <pb n="A_1r"/>Th<ex>et</ex> cristelighe mes<lb rend="-"/>sze embedhe paa
                         da<ex>n</ex><lb rend="-"/>sche </titlePart>
             </titlePage>
-            <div type="preface">
+            <div type="preface" xml:id="fortale">
                 <head type="add">Fortale</head>
                 <head>
                     <pb n="A_1v"/>
@@ -96,7 +96,7 @@
             </div>
         </front>
         <body>
-            <div>
+            <div xml:id="messens-indledende-boen" n="1">
                 <head type="add">Messens indledende bøn</head>
                 <head>
                     <pb n="A_2r"/>Exordium <lb/> Ceremoniernis begioendellssze <lb/> till
@@ -115,7 +115,7 @@
                         <ex>et</ex> cxxxv</note>
                 </p>
             </div>
-            <div>
+            <div xml:id="skriftemaal" n="2">
                 <head type="add">Skriftemål</head>
                 <head>Confiteor</head>
                 <head>En korth bekiændilsze y gudz ansycth</head>
@@ -133,7 +133,7 @@
                         >Luce viii</note>
                 </p>
             </div>
-            <div>
+            <div xml:id="absolution" n="3">
                 <head type="add">Absolution</head>
                 <head>Absolutio</head>
                 <head>En<ex>n</ex> ewangelisch affløessningh offwer <lb/> menheden</head>
@@ -152,7 +152,7 @@
                     hannum <lb/> kundhe fuldhko<ex>m</ex>me hans gudo<ex>m</ex>melighe wyllie/ och
                     faa <lb/> th<ex>et</ex> ewighe liiff amen</p>
             </div>
-            <div>
+            <div xml:id="introitus" n="4">
                 <head type="add">Introitus</head>
                 <head>Nu begioender choredh <lb/> eller christen forsamling <lb/> ath syunge
                     introitum til <lb/> messzen <lb/> Officium Deprofundis</head>
@@ -219,11 +219,10 @@
                     <l>aff saarrigh och synder alle</l>
                 </lg>
             </div>
-            <div>
-                <div>
+            <div type="chapter" xml:id="kyrie-criste-kyrie" n="5">
+                <div xml:id="kyrieeleison" n="1">
                     <head type="add">Kyrie</head>
                     <head>Kyrieeleiszon</head>
-
                     <lg>
                         <l>Kyrie gudh fadher/ alsom høegeste trøest</l>
                         <l>Thu esth <lb/> wor glædhe och løsth</l>
@@ -232,9 +231,9 @@
                         <lb/>
                     </lg>
                 </div>
-                <div>
+                <div xml:id="krist-du-er-vor-vej" n="2">
+                    <head type="add">Krist, du er vor vej</head>
                     <head>Criste</head>
-
                     <lg>
                         <l>Christe thu esth wor wæi och th<ex>et</ex> sande lyussz</l>
                         <l>Sa<ex>n</ex>d<lb rend="-"/>hedszens porth/ kierlighedszens spæil/</l>
@@ -248,9 +247,9 @@
                         <l>forbarme tigh offuer oss</l>
                     </lg>
                 </div>
-                <div>
+                <div xml:id="kyrie-helligaand-i-evighed" n="3">
+                    <head type="add">Kyrie eleison</head>
                     <head>Kyrieeleiszon</head>
-
                     <lg>
                         <l>Kyrie helligandh y euigh<ex>ed</ex>/</l>
                         <l>wer hoss oss m<ex>eth</ex> thin mis<lb rend="-"/> kundligh<ex>ed</ex>/ </l>
@@ -262,12 +261,11 @@
                     <p> vt supra</p>
                 </div>
             </div>
-            <div>
+            <div xml:id="gloria" n="6">
                 <head type="add">Gloria</head>
                 <head>
                     <pb n="A_4v"/>Gloria in excelsis deo <note place="margin">Luce. ii</note>
                 </head>
-
                 <lg>
                     <l>Gloria Ere och priiss</l>
                     <l>wære gudh y th<ex>et</ex> høegesthe</l>
@@ -344,7 +342,7 @@
                     <figDesc>blomst</figDesc>
                 </figure>
             </div>
-            <div>
+            <div xml:id="hilsen" n="7">
                 <head type="add">Hilsen</head>
                 <head>Effther the<ex>n</ex>ne loffsangh <lb/> vendher presten sigh til <lb/>
                     faalcketh och syungher</head>
@@ -366,7 +364,7 @@
                 </lg>
                 <lb/>
             </div>
-            <div>
+            <div xml:id="inledningskollekt" n="8">
                 <head type="add">Indledningskollekt (1)</head>
                 <head>Collecta <figure>
                         <figDesc>blomst</figDesc>
@@ -383,7 +381,7 @@
                     </figure>
                 </p>
             </div>
-            <div>
+            <div xml:id="indledningskollekt2" n="9">
                 <head type="add">Indledningskollekt (2)</head>
                 <head>En andhen Collecth</head>
                 <figure>
@@ -407,7 +405,7 @@
                         th<ex>et</ex> sza<ex>m</ex>me meth <lb/> gierninghen for thin szøn ihesu
                     christhi wor herris <lb/> skyldh Choredth suarer Amen</p>
             </div>
-            <div>
+            <div xml:id="indledning-til-epistellaesning" n="10">
                 <head type="add">Indledning til epistellæsning</head>
                 <head>Her effter lesszis en epistel <lb/> enthen aff thet ga<ex>m</ex>ble eller
                     <lb/> ny testamente <lb/>i Cor xi</head>
@@ -449,7 +447,7 @@
                     dricker wuerdelige/ han ædher och <pb n="B 3r"/> dricker sygh syelff dommen/ ath
                     han icke wnderskee<lb rend="-"/>dher herrens legomme</p>
             </div>
-            <div>
+            <div xml:id="lovsang-med-halleluja" n="11">
                 <head type="add">Salme: Lovsang med halleluja</head>
                 <head> Her effther foelgher en <lb/> laaffszangh m<ex>eth</ex> alleluya</head>
                 <p>Alleluya Graduall</p>
@@ -514,7 +512,7 @@
                     <l>for vden <lb/> endhe</l>
                 </lg>
             </div>
-            <div>
+            <div xml:id="inledning-til-evangelielaesning" n="12">
                 <head type="add">Indledning til evangelielæsning</head>
                 <head>Ther nesth leesszis eth <lb/> Euangelion aff euange<lb rend="-"/>listerne huor
                     som teckis <lb/> effther tydszens leiligh<ex>ed</ex>
@@ -597,7 +595,7 @@
                             <q>aff-|gudh</q> orig.</rdg>
                     </app>/ then seer fadheren</p>
             </div>
-            <div>
+            <div xml:id="opdeling-af-evangelielaesning1" n="13">
                 <head type="add">Opdeling af evangelielæsning (1)</head>
                 <head>Diuisio</head>
                 <p>
@@ -619,7 +617,7 @@
                     myth blod/ hand haffuer th<ex>et</ex> euige liiff Och ieg <lb/> schal opuecke
                     hannom paa then ydersthe dag</p>
             </div>
-            <div>
+            <div xml:id="opdeling-af-evangelielaesning2" n="14">
                 <head type="add">Opdeling af evangelielæsning (2)</head>
                 <head>Diuisio</head>
                 <p>
@@ -633,10 +631,9 @@
                     himmelsche brød och ere dødhe/ <lb/> huo so<ex>m</ex> æder thette brød/ han
                     schal leffue euindelige</p>
             </div>
-            <div>
+            <div xml:id="trosbekendelse" n="15">
                 <head type="add">Trosbekendelse</head>
                 <head>Christhen forsamlingh <lb/> och choredth syungher <lb/> Credo</head>
-
                 <lg>
                     <l>
                         <hi rend="initial">U</hi>y thro allszammen paa en gud/</l>
@@ -712,16 +709,14 @@
                     <figDesc>blomst</figDesc>
                 </figure>
             </div>
-            <div>
-                <head type="add">Salme: Lovsang til helligånden</head>
+            <div xml:id="nu-bede-vi-den-helligaand" n="16">
+                <head type="add">Nu bede vi den Helligånd</head>
                 <head>En laaffsang som syun<lb rend="-"/>gis faare predicken met <lb/> huilcken
                     christhen kirke <lb/> christi brudh paa kaller <lb/> the<ex>n</ex> hellighands
                     naadhe <lb/> syunghendis m<ex>eth</ex> hierte<ex>n</ex>s <lb/> begieringh <lb/>
                     Cantus</head>
                 <pb n="C 3r"/>
-
                 <head type="add">Nu bede vi den helligånd</head>
-
                 <lg>
                     <l>
                         <hi rend="initial">N</hi>w bede wy the<ex>n</ex> helligandh/</l>
@@ -769,8 +764,8 @@
                     </l>
                 </lg>
             </div>
-            <div>
-                <head type="add">Salme</head>
+            <div xml:id="nu-er-os-gud-miskundelig" n="17">
+                <head type="add">Nu er os Gud miskundelig</head>
                 <head>Deus misereatur <lb/> The<ex>n</ex>ne psalme syungis eff<lb rend="-"/>ter
                     predicken m<ex>eth</ex> huilcken <lb/> christhe<ex>n</ex> forsa<ex>m</ex>lingh
                     tacker <lb/> gud for alle syne velgierni<ex>n</ex><lb rend="-"/>gher Och
@@ -783,7 +778,6 @@
                         m<ex>eth</ex> huilcke <lb/> ha<ex>n</ex>d stoerker och vederque<lb rend="-"
                     />gher syne vdualldhe: dagh <lb/> fraa dagh: </head>
                 <head>Ca<ex>n</ex>tus</head>
-
                 <lg>
                     <l>
                         <hi rend="initial">N</hi>w er oss gudh mischundeligh/ <note place="margin"
@@ -845,7 +839,6 @@
                     <figDesc>krogkors</figDesc>
                 </figure>
                 <lb/>
-
                 <lg>
                     <l>Ere wære gud fader y hymmerigh/</l>
                     <l>som alting <lb/> monne raade</l>
@@ -883,7 +876,7 @@
             <figure>
                 <figDesc>krogkors</figDesc>
             </figure>
-            <div>
+            <div xml:id="formaning" n="18">
                 <head type="add">Formaning</head>
                 <head>Paraclesis. siue succinc<lb rend="-"/>ta. dominice p<ex>re</ex>cationis. <lb/>
                     enarratio: <lb/> En korth formaningh: szom <lb/> er Pater Noster. met syn be<lb
@@ -913,7 +906,7 @@
             <figure>
                 <figDesc>blomst</figDesc>
             </figure>
-            <div>
+            <div xml:id="nadverboen1" n="19">
                 <figure>
                     <figDesc>kors</figDesc>
                 </figure>
@@ -950,7 +943,7 @@
             <figure>
                 <figDesc>blomst</figDesc>
             </figure>
-            <div>
+            <div xml:id="nadverboen2" n="?">
                 <head type="add">Nadverbøn (del 2)</head>
                 <head>
                     <figure>
@@ -977,7 +970,7 @@
             <figure>
                 <figDesc>blomst</figDesc>
             </figure>
-            <div>
+            <div xml:id="nadverboen3" n="?">
                 <figure>
                     <figDesc>kors</figDesc>
                 </figure>
@@ -1011,7 +1004,7 @@
             <figure>
                 <figDesc>blomst</figDesc>
             </figure>
-            <div>
+            <div xml:id="nadverboen4" n="?">
                 <figure>
                     <figDesc>kors</figDesc>
                 </figure>
@@ -1040,7 +1033,7 @@
             <figure>
                 <figDesc>krogkors</figDesc>
             </figure>
-            <div>
+            <div xml:id="nadverboen5" n="?">
                 <figure>
                     <figDesc>kors</figDesc>
                 </figure>
@@ -1064,7 +1057,7 @@
             <figure>
                 <figDesc>blomst</figDesc>
             </figure>
-            <div>
+            <div xml:id="nadverboen6" n="6">
                 <figure>
                     <figDesc>kors</figDesc>
                 </figure>
@@ -1088,7 +1081,7 @@
             <figure>
                 <figDesc>krogkors</figDesc>
             </figure>
-            <div>
+            <div xml:id="nadverboen7" n="?">
                 <figure>
                     <figDesc>kors</figDesc>
                 </figure>
@@ -1114,7 +1107,7 @@
             <figure>
                 <figDesc>krogkors</figDesc>
             </figure>
-            <div>
+            <div xml:id="nadverboen" n="?">
                 <figure>
                     <figDesc>kors</figDesc>
                 </figure>
@@ -1133,7 +1126,7 @@
             <figure>
                 <figDesc>blomst</figDesc>
             </figure>
-            <div>
+            <div xml:id="nadverboen9" n="?">
                 <figure>
                     <figDesc>kors</figDesc>
                 </figure>
@@ -1155,13 +1148,12 @@
             <figure>
                 <figDesc>blomst</figDesc>
             </figure>
-            <div>
+            <div xml:id="sanctus" n="?">
                 <head type="add">Sanctus (helligsangen)</head>
                 <head>En loffsa<ex>n</ex>g som chored oc christe<ex>n</ex>
                     <lb/> forsa<ex>m</ex>li<ex>n</ex>g siunger: som er S<ex>an</ex>ctus: <note
                         place="margin">Esaie. vi.</note>
                 </head>
-
                 <lg>
                     <l>
                         <hi rend="initial">H</hi>Ellig Hellig Hellig esth thu</l>
@@ -1184,7 +1176,7 @@
             <figure>
                 <figDesc>blomst</figDesc>
             </figure>
-            <div>
+            <div xml:id="indledning-til-nadverindstiftelsesordene" n="?">
                 <head type="add">Indledning til nadverindstiftelsesordene</head>
                 <head>Effther tiisse ceremonier ko<ex>m</ex>
                     <lb rend="-"/>mer th<ex>et</ex> rette messe embedhe <lb/> som er Christi
@@ -1207,12 +1199,11 @@
                     </figure>
                 </head>
             </div>
-            <div>
+            <div xml:id="indstiftelsesordene-broed" n="?">
                 <head type="add">Indstiftelsesordene (brød)</head>
                 <head>Her effter tager Christe<ex>n</ex>
                     <lb/> forsa<ex>m</ex>li<ex>n</ex>gs tie<ex>n</ex>nere brødet <lb/> y henderne
                     och sygher:</head>
-
                 <lg>
                     <l>
                         <hi rend="initial">W</hi>or herre Jhesus<note place="margin"> 1. Cor.
@@ -1228,11 +1219,10 @@
                         min huko<ex>m</ex>melse</l>
                 </lg>
             </div>
-            <div>
+            <div xml:id="indstiftelsesordene-vin" n="?">
                 <head type="add">Indstiftelsesordene (vin)</head>
                 <head>Nu løffter ha<ex>n</ex>. oc strax ther <lb/> effther tager ha<ex>n</ex>
                     kalcken y <lb/> henderne oc syger:</head>
-
                 <lg>
                     <l>
                         <hi rend="initial">L</hi>Jge maade tog han <note place="margin">Mat.
@@ -1249,7 +1239,7 @@
                         <lb/> y dricke: y min hukommelse:</l>
                 </lg>
             </div>
-            <div>
+            <div xml:id="benedictus" n="?">
                 <head type="add">Benedictus (lovprisning)</head>
                 <head>Nu løffter han: oc men be<lb rend="-"/>giønder chored eller chris<lb rend="-"
                     />ten forsa<ex>m</ex>ling en laaffsang <lb/> so<ex>m</ex> følger effter messe
@@ -1257,9 +1247,9 @@
                     <lb/>
                 </head>
             </div>
-            <div>
+            <div xml:id="tibi-laus" n="?">
+                <head type="add">Tibi laus</head>
                 <head>Tibi laus:</head>
-
                 <lg>
                     <l>
                         <hi rend="initial">T</hi>ig wære laaff och priss</l>
@@ -1286,7 +1276,7 @@
                     <l>Hellig hellig hellig hun syunger tigh</l>
                 </lg>
             </div>
-            <div>
+            <div xml:id="fredshilsen" n="?">
                 <head type="add">Fredshilsen</head>
                 <head>Nu ve<ex>n</ex>der christe<ex>n</ex> forsa<ex>m</ex>li<ex>n</ex>gs <lb/>
                         tie<ex>n</ex>nere sigh till faalcket oc <lb/> siger Pax domini: </head>
@@ -1294,12 +1284,10 @@
                     <figDesc>krogkors</figDesc>
                 </figure>
                 <p>Herrens frid wære m<ex>eth</ex> edher </p>
-            </div>
-            <figure>
-                <figDesc>blomst</figDesc>
-            </figure>
-            <div>
-                <head>Faalcket suarer</head>
+                <figure>
+                    <figDesc>blomst</figDesc>
+                </figure>
+                <p>Faalcket suarer</p>
                 <figure>
                     <figDesc>krogkors</figDesc>
                 </figure>
@@ -1308,10 +1296,9 @@
                     <figDesc>krogkors</figDesc>
                 </figure>
             </div>
-            <div>
-                <head type="add">Agnus Dei (O du Guds Lam)</head>
+            <div xml:id="agnus-dei" n="?">
+                <head type="add">Agnus Dei / O Guds Lam uskyldig</head>
                 <head>Nu begiøndis agnus dei</head>
-
                 <lg>
                     <l>
                         <hi rend="initial">O</hi> Gudts lam som baarttagher alle verdens <lb/>
@@ -1330,7 +1317,7 @@
                     </figure>
                 </lg>
             </div>
-            <div>
+            <div xml:id="formaning2" n="?">
                 <head type="add">Formaning</head>
                 <head>Exhortacio: <pb n="D 2v"/> En kort formani<ex>n</ex>g till fol<lb rend="-"
                     />ken oc serdel<ex>is</ex> til the<ex>n</ex>nom so<ex>m</ex>
@@ -1356,7 +1343,7 @@
             <figure>
                 <figDesc>blomst</figDesc>
             </figure>
-            <div>
+            <div xml:id="uddeling-af-nadver" n="?">
                 <head type="add">Uddeling af nadver</head>
                 <head>Nu co<ex>m</ex>municerer ha<ex>n</ex> oc be<lb rend="-"/>retther faalcket
                     syghendis</head>
@@ -1396,8 +1383,8 @@
                     </figure>
                 </p>
             </div>
-            <div>
-                <head type="add">Indledning til salme</head>
+            <div xml:id="indledning-til-salme" n="?">
+                <head type="add">Jesus Kristus er vor salighed</head>
                 <head>En gudelig oc krafftig laaffsa<ex>n</ex>g <lb/> ath siunge i christi natuore:
                     nar <pb n="D 3r"/> Christi brud schal gaa til gudz <lb/> bord: først ath
                         ana<ex>m</ex>me andelige <lb/> m<ex>eth</ex> throi<ex>n</ex>s mu<ex>n</ex>d
@@ -1421,7 +1408,6 @@
                         <note place="margin">Joh. iii.</note> oc vederlauff for alle verd<lb
                         rend="-"/>sens synder:</head>
                 <head type="add">Jesus Kristus er til stede!</head>
-
                 <lg>
                     <l>
                         <hi rend="initial">I</hi>hesus christus er wor saligh<ex>ed</ex>/</l>
@@ -1568,12 +1554,11 @@
             <figure>
                 <figDesc>krogkors</figDesc>
             </figure>
-            <div>
+            <div xml:id="nadvertakkesalme" n="?">
                 <head type="add">Nadvertakkesalme</head>
                 <head>Co<ex>m</ex>munio <lb/> En laaffsa<ex>n</ex>g m<ex>eth</ex> huilcke<ex>n</ex>
                         chri<lb rend="-"/>ste<ex>n</ex> forsa<ex>m</ex>li<ex>n</ex>g taker oc erer
                     gud</head>
-
                 <lg>
                     <l>
                         <hi rend="initial">G</hi>ud wære laaffuet altidt oc benedid<ex>ed</ex>
@@ -1670,7 +1655,7 @@
                     <l>Kyrieeleison</l>
                 </lg>
             </div>
-            <div>
+            <div xml:id="hilsen2" n="?">
                 <head type="add">Hilsen</head>
                 <head>Ther effter ve<ex>n</ex>der christe<ex>n</ex> kirkis <lb/> tie<ex>n</ex>nere
                     sig til folk<ex>et</ex> oc siger D<ex>omi</ex>n<ex>u</ex>s</head>
@@ -1682,7 +1667,7 @@
                         <figDesc>krogkors</figDesc>
                     </figure>Och m<ex>eth</ex> thin aandh</p>
             </div>
-            <div>
+            <div xml:id="kollekt" n="?">
                 <head type="add">Kollekt</head>
                 <head>En collecte <figure>
                         <figDesc>kors</figDesc>
@@ -1700,7 +1685,7 @@
                     </figure>
                 </p>
             </div>
-            <div>
+            <div xml:id="hilsen3" n="?">
                 <head type="add">Hilsen</head>
                 <head>Nu ve<ex>n</ex>der ha<ex>n</ex> sig til folk<ex>et</ex> oc siger</head>
                 <p>Herren wære m<ex>eth</ex> edher Suar Et cum sipritu tuo <lb/> Och m<ex>eth</ex>
@@ -1711,7 +1696,7 @@
                     </app>
                 </p>
             </div>
-            <div>
+            <div xml:id="velsignelse" n="?">
                 <head type="add">Velsignelse</head>
                 <head>Velsignilse offuer faalk<ex>et</ex> effter <lb/>
                     <figure>
@@ -1732,11 +1717,11 @@
                     freden Suar amen</p>
             </div>
             <pb n="dd 1v"/>
-            <div>
+            <div xml:id="gud-fader-udi-himmerig" n="?">
                 <figure>
                     <figDesc>kors</figDesc>
                 </figure>
-                <head type="add">Salme om De 10 bud</head>
+                <head type="add">Gud Fader udi Himmerig</head>
                 <head>The x budord som lere oss alt <lb/>
                     <note place="margin">Exodi xx</note>
                     <note place="margin">Deut. v.</note> th<ex>et</ex> vy ere gud plictige oc vor
@@ -1745,7 +1730,6 @@
                     <lb/> m<ex>eth</ex> throen till gud oc m<ex>eth</ex> gierni<ex>n</ex>
                     <lb rend="-"/>gen till vor broder oc søster: om <lb/> vy ville bliffue szalighe
                         m<ex>eth</ex> gudh <lb/> euindelighe: Cantus</head>
-
                 <lg>
                     <l>
                         <hi rend="initial">G</hi>UD fader wdy himmerigh/</l>
@@ -1904,8 +1888,8 @@
             <figure>
                 <figDesc>kors</figDesc>
             </figure>
-            <div>
-                <head type="add"> Inledning til Sursum Corda</head>
+            <div xml:id="sursum-corda-indledning" n="?">
+                <head type="add"> Indledning til Sursum Corda</head>
                 <head>En liden Prefatz: som <lb/> maa brugis y natuori<ex>n</ex>s <lb/> ceremonier
                     effter tidse<ex>n</ex>s <lb/> leiligh<ex>ed</ex>: tog ingseeth och <lb/>
                     ingførth bequemmelige</head>
@@ -1915,13 +1899,12 @@
                     <figDesc>kors</figDesc>
                 </figure>
                 <p>Herren wære m<ex>eth</ex> edher</p>
-            </div>
-            <div>
-                <head>Faalcketh suarer: Et cu<ex>m</ex>
-                </head>
+            
+                <p>Faalcketh suarer: Et cu<ex>m</ex>
+                </p>
                 <p>Och m<ex>eth</ex> thin andh</p>
             </div>
-            <div>
+            <div xml:id="sursum-corda" n="?">
                 <figure>
                     <figDesc>kors</figDesc>
                 </figure>
@@ -1931,26 +1914,22 @@
                     <figDesc>kors</figDesc>
                 </figure>
                 <p>Uore hierter op y hymmelen</p>
-            </div>
-            <div>
-                <head>Forsamlinge<ex>n</ex> suarer Ha<lb rend="-"/>bemus ad dominum:</head>
+            
+                <p>Forsamlinge<ex>n</ex> suarer Ha<lb rend="-"/>bemus ad dominum:</p>
                 <figure>
                     <figDesc>kors</figDesc>
                 </figure>
                 <p>Uy haffue the<ex>n</ex>nom til herren</p>
-            </div>
-            <div>
-                <head>Gra<ex>tia</ex>s agamus domino</head>
+            
+                <p>Gra<ex>tia</ex>s agamus domino</p>
                 <p>Lader oss tacke gud vor herre</p>
-            </div>
-            <div>
-                <head>Chored suarer Dignu<ex>m</ex> et</head>
+            
+                <p>Chored suarer Dignu<ex>m</ex> et</p>
                 <p>Th<ex>et</ex> er verdigth och reettuisth</p>
             </div>
-            <pb n="dd 3r"/>
-            <div>
-                <head>Christe<ex>n</ex> kirkis tie<ex>n</ex>nere: Uere dig</head>
-
+            
+            <div xml:id="sandelig-er-det-verdigt" n="?">
+                <head><pb n="dd 3r"/>Christe<ex>n</ex> kirkis tie<ex>n</ex>nere: Uere dig</head>
                 <lg>
                     <l>
                         <hi rend="initial">S</hi>andeliighe er th<ex>et ver</ex>
@@ -1964,7 +1943,7 @@
                     <l>ved Jhesum chris<lb rend="-"/>tum vor herre: Amen</l>
                 </lg>
             </div>
-            <div>
+            <div xml:id="afslutning" n="?">
                 <head type="add">Afslutning</head>
                 <head>.Finis.</head>
                 <p>
