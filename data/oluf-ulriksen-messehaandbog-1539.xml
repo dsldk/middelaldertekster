@@ -437,11 +437,9 @@
                 </notatedMusic>
                 <p><lb/>De<ex>n</ex>ne Epistel bescriffuer oss til de Cor<lb rend="="/>rinter
                     sanctus Paulus.</p>
-            </div>
-            <lb/>
-            <div>
-                <head>Epistelen. (<ref target="#kor-1-11"><orig>i . Cor. Xi</orig><reg>1 Kor
-                            11</reg></ref>).</head>
+           
+                <p>Epistelen. (<ref target="#kor-1-11"><orig>i . Cor. Xi</orig><reg>1 Kor
+                            11</reg></ref>).</p>
                 <lb/>
                 <p>
                     <c function="initials" rend="2">N</c>Ar i ko<ex>m</ex>me tilsamme<ex>n</ex>
@@ -1363,12 +1361,12 @@
                 <p>Finis Ceue domice <lb/>Et Ceremo<lb rend="="/>niarum </p>
             </div>
             <lb/>
-            <div xml:id="Collecter-til-søndagene">
+            <div type="chapter" xml:id="Collecter-til-soendagene">
                 <head type="add"><pb n="E62"/>[Udvalgte kollekter til søndagene]</head>
                 <head>Her effterfølger nogle faa vdualde <lb/>Collecter til Søndagene. Høg<lb
                         rend="="/>tidelige dage. oc ande<ex>n</ex> tid om <lb/>Aaret nar behoff
                     giørs.</head>
-                <head>Dominica Prima aduentus Collecta</head>
+               <div> <head>Dominica Prima aduentus Collecta</head>
                 <p><lb/>Lader oss alle bede</p>
                 <lb/>
                 <p>O Herre Jesu criste. vij bede dig yd<lb rend="="/>mygeligen. opueck din
@@ -1376,10 +1374,11 @@
                     som oss paahenger for vo<lb rend="="/>re synders skyld Och vid dig bliffue
                     <lb/>frelste oc salige Du som med gudt fad<ex>er</ex>
                     <lb/>oc den helligaandt leffuer oc regnerer <lb/>een sand gud fra euighedt oc
-                    tiil euig<lb rend="="/>hedt Amen</p>
-            </div>
+                    tiil euig<lb rend="="/>hedt Amen</p></div>
+            
             <lb/>
-            <div>
+            <div xml:id="dominica-secunda-adventus-collecta">
+                <head type="add">Dominica secunda adventus collecta</head>
                 <head>Dominica secunda aduentus Collecta</head>
                 <lb/>
                 <p>O almectigste euige gud Verdis att <lb/>opuecke vore hierter tiil att berede din
@@ -1390,7 +1389,8 @@
                     le. ut supra</p>
             </div>
             <lb/>
-            <div>
+            <div xml:id="dominica-tertia-afventus-collecta">
+                <head type="add">Dominica tertia adventus collecta</head>
                 <head>Dominica tertia aduentus Collecta</head>
                 <lb/>
                 <p>O herre Jesu criste. Vij bede dig yd<lb rend="="/>mygeligen at du vilt bøie din
@@ -1399,7 +1399,8 @@
                     <lb/>din naadis tilko<ex>m</ex>melse Du so<ex>m</ex> leffuer. vt supra</p>
             </div>
             <lb/>
-            <div>
+            <div xml:id="dominica-quarta-adventus-collecta">
+                <head type="add">Dominica quarta adventus collecta</head>
                 <head>Dominica quarta aduentus Collec.</head>
                 <lb/>
                 <p>O Almectigste euige gudt Vij bede <lb/>dig att du vilt ko<ex>m</ex>me oc lade din
@@ -1409,7 +1410,8 @@
                     Vid din enborne søn iesu<ex>m</ex>. c. v. ut supra</p>
             </div>
             <lb/>
-            <div>
+            <div xml:id="die-nativitatis-christi-collecta">
+                <head type="add">Die nativitatis Christi collecta</head>
                 <head>Die natiuitatis Cristi Collec.</head>
                 <lb/>
                 <p>O Almectigste euige gudt Vij bede <lb/>din vsigelige godhedt att du vilt giff<pb
@@ -1419,7 +1421,8 @@
                         rend="="/>ner i vore hiert<ex>er</ex> Vid din enborne søn.</p>
             </div>
             <lb/>
-            <div>
+            <div xml:id="die-sancti-stephani-diacone-et-martyris">
+                <head type="add">Die sancti Stephani diacone et martyris</head>
                 <head>Die sancti Stephani diacone et martyris</head>
                 <lb/>
                 <p>
@@ -1431,7 +1434,8 @@
                     ut supra</p>
             </div>
             <lb/>
-            <div>
+            <div xml:id="die-sancti-joannis-apostolis-et-evangeliste">
+                <head type="add">Die sancti Joannis apostolis et evangeliste</head>
                 <head>Die sancti Joannis apostolis et euangeliste.</head>
                 <lb/>
                 <p>
@@ -1442,7 +1446,8 @@
                     />uer oc glede Vid din enborne s<ex>øn</ex> i. ut supra</p>
             </div>
             <lb/>
-            <div>
+            <div xml:id="dominica-infra-octavas-nativitatis-collecta">
+                <head type="add">Dominica infra octavas nativitatis collecta</head>
                 <head><pb n="E65"/>Dominica infra octauas Natiuitatis. Col.</head>
                 <lb/>
                 <p>
@@ -1452,7 +1457,8 @@
                     din enborne søn iesu<ex>m</ex>. ut supra.</p>
             </div>
             <lb/>
-            <div>
+            <div xml:id="die-circumcisionis-domini-collecta">
+                <head type="add">Die circumcisionis domini collecta</head>
                 <head>Die Circumcisionis domini Collecta</head>
                 <lb/>
                 <p>
@@ -1465,7 +1471,8 @@
                     ut supra.</p>
             </div>
             <lb/>
-            <div>
+            <div xml:id="die-epiphanie-collecta">
+                <head type="add">Die epiphanie collecta</head>
                 <head>Die Epiphanie Collecta</head>
                 <lb/>
                 <p>
@@ -1477,7 +1484,8 @@
                         en<ex>borne</ex>. ut supra.</p>
             </div>
             <lb/>
-            <div>
+            <div xml:id="dominica-prima-epiphanie-collecta">
+                <head type="add">dominica-prima-epiphanie-collecta</head>
                 <head>Dominica Prima Epiphanie Coll.</head>
                 <lb/>
                 <p>O Almectigste euige gud Verdis at <lb/>forfølge diit folkes ydmygelige bøn
@@ -1486,7 +1494,8 @@
                         gerni<ex>n</ex>ge<ex>n</ex>. Vid. ut supra</p>
             </div>
             <lb/>
-            <div>
+            <div xml:id="dominica-secunda-epiphanie-collecta">
+                <head type="add">Dominica secunda epiphanie collecta</head>
                 <head>Dominica Secunda Epiphanie Colle.</head>
                 <lb/>
                 <p>O Almectigste euige gud Som sty<lb rend="="/>rer oc regerer alle ting i
@@ -1496,7 +1505,8 @@
                     ut supra</p>
             </div>
             <lb/>
-            <div>
+            <div xml:id="dominica-tertia-epiphanie-collecta">
+                <head type="add">Dominica tertia epiphanie collecta</head>
                 <head>Dominica Tertia Epiphanie Coll.</head>
                 <lb/>
                 <p>O Almectigste euige gud Se mildeli<lb rend="="/>ge til vor natuurs brøst oc
@@ -1505,7 +1515,8 @@
                         iesu<ex>m</ex> cristum. ut supra.</p>
             </div>
             <lb/>
-            <div>
+            <div xml:id="dominica-quarta-epiphanie-collecta">
+                <head type="add">Dominica quarta epiphanie collecta</head>
                 <head>Dominica Quarta epiphanie Coll.</head>
                 <lb/>
                 <p>
@@ -1519,7 +1530,8 @@
                         offuerui<ex>n</ex>de Vid din enborne. ut supra.</p>
             </div>
             <lb/>
-            <div>
+            <div xml:id="dominica-quinta-epiphanie-collecta">
+                <head type="add">Dominica quinta epiphanie collecta</head>
                 <head>Dominica Quinta epiphanie Colle.</head>
                 <lb/>
                 <p>
@@ -1530,7 +1542,8 @@
                     din beskermelse. Vid din enb<ex>orne</ex>. ut supra.</p>
             </div>
             <lb/>
-            <div>
+            <div xml:id="dominica-sexta-epiphanie-collecta">
+                <head type="add">Dominica secta epiphanie collecta</head>
                 <head>Dominica Sexta epiphanie Coll.</head>
                 <lb/>
                 <p>O <app>
@@ -1545,7 +1558,8 @@
                     euige liffs sande skenk <lb/>oc gaffuer. Ved din enborne søn. ut supra</p>
             </div>
             <lb/>
-            <div>
+            <div xml:id="dominica-septuagesime-collecta">
+                <head type="add">Dominica septuagesime collecta</head>
                 <head>Dominica Septuagesime Collecta.</head>
                 <lb/>
                 <p>O Almectigste euige gudt Vy bede <lb/>att du vilt mildelige bønhøre dit fol<lb
@@ -1555,7 +1569,8 @@
                         enbo<ex>rne</ex>. ut supra</p>
             </div>
             <lb/>
-            <div>
+            <div xml:id="dominica-sexagesime-collecta">
+                <head type="add">Dominica sexagesime collecta</head>
                 <head>Dominica sexagesime Collecta</head>
                 <lb/>
                 <p>O Almectigste euige gud Som seer <lb/>att vy icke fortrøste eller forlade oss <pb
@@ -1566,7 +1581,8 @@
                         en<ex>borne</ex>. ut supra</p>
             </div>
             <lb/>
-            <div>
+            <div xml:id="dominica-quinquagesime-collecta">
+                <head type="add">Dominica quinquagesime collecta</head>
                 <head>Dominica Quinquagesime Colle.</head>
                 <lb/>
                 <p>O Almectigste euige gudt Vii bede <lb/>at du vilt blidelige<ex>n</ex> bønhøre oss
@@ -1575,14 +1591,16 @@
                     iesum cristu<ex>m</ex>. ut supra</p>
             </div>
             <lb/>
-            <div>
+            <div xml:id="dominica-prima-quadragesime-collecta">
+                <head type="add">Dominica prima quadragesime collecta</head>
                 <head>Dominica Prima quadragesime Col.</head>
                 <lb/>
                 <p>O Almectigste euige gud Vi bede se <lb/>mildelige til dit folk oc affuent
                         naade<lb rend="="/>lige fra oss alle dine vredis tegn V. ut supra</p>
             </div>
             <lb/>
-            <div>
+            <div xml:id="dominica-secunda-quadragesime-collecta">
+                <head type="add">Dominica secunda quadragesime collecta</head>
                 <head>Dominica secunda quadragesime Collec.</head>
                 <lb/>
                 <p>O Almectigste euige gud Som seer <pb n="E70"/> vor styrke oc mact aldelis at vere
@@ -1591,7 +1609,8 @@
                     synder. onde huskude <lb/>oc tancker Vid din enborne søn. ut supra</p>
             </div>
             <lb/>
-            <div>
+            <div xml:id="dominica-tertia-quadragesime-collecta">
+                <head type="add">Dominica tertia quadragesime collecta</head>
                 <head>Dominica Tertia quadragesime Col.</head>
                 <lb/>
                 <p>O Almectigste euige gud Verdis at <lb/>see til de ydmyge me<ex>n</ex>niskes bøn
@@ -1599,7 +1618,8 @@
                     beskermelse Vid din. ut supra</p>
             </div>
             <lb/>
-            <div>
+            <div xml:id="dominica-in-medio-quadragesima-collecta">
+                <head type="add">Dominica in medio quadragesima collecta</head>
                 <head>Dominica in medio quadragesima. Collec.</head>
                 <lb/>
                 <p>O Almectigste euige gud Verdis til <lb/>att vy so<ex>m</ex> for vore onde
@@ -1608,7 +1628,8 @@
                     søn Jesu<ex>m</ex>. ut supra</p>
             </div>
             <lb/>
-            <div>
+            <div xml:id="dominica-passionis-collecta">
+                <head type="add">Dominica passionis collecta</head>
                 <head>Dominica passionis Collec.</head>
                 <lb/>
                 <p>O Almectigste euige gud Verdes atse <lb/>mildelige til din hellige christne kirke
@@ -1617,7 +1638,8 @@
                     søn iesu<ex>m</ex>. ut supra</p>
             </div>
             <lb/>
-            <div>
+            <div xml:id="dominica-palmarun-collecta">
+                <head type="add">Dominica palmarum collecta</head>
                 <head>Dominica Palmarum Collecta</head>
                 <lb/>
                 <p>O Almectigste euige gud Som loest <lb/>din søn ana<ex>m</ex>me mando<ex>m</ex> oc
@@ -1628,7 +1650,8 @@
                     supra</p>
             </div>
             <lb/>
-            <div>
+            <div xml:id="bona-feria-quinta-post-palmarum-collecta">
+                <head type="add">Bona feria quinta post palmarum collecta</head>
                 <head>Bona feria quinta post Palm. Coll.</head>
                 <lb/>
                 <p>O Herre Jesu criste Du som haffuer <lb/>effterlat oss dit brød at ede oc din kalc
@@ -2471,6 +2494,7 @@
             <lb/>
             <div>
                 <head>Finis omnium Collec<lb rend="="/>tarum totius Anni</head>
+            </div>
             </div>
             <lb/>
             <div xml:id="Prefationes">
