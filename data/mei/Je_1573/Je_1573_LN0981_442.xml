@@ -1,200 +1,204 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei"
-     xmlns:xlink="http://www.w3.org/1999/xlink"
-     meiversion="4.0.0"
-     xml:id="Je_1573_LN0981_442_m-1">
-   <meiHead xmlns:xl="http://www.w3.org/1999/xlink">
-      <fileDesc>
-         <titleStmt>
-            <title>HVo som vil salig vdi Verden leffue</title>
-         </titleStmt>
-         <pubStmt>
-            <respStmt>
-               <resp>Publisher</resp>
-               <corpName>
-                  <abbr>DSL</abbr>
-                  <expan>Det Danske Sprog- og Litteraturselskab</expan>
-                  <address>
-                     <addrLine>Christians Brygge 1</addrLine>
-                     <addrLine>1219 København K</addrLine>
-                     <addrLine>
-                        <ptr label="WWW" target="https://dsl.dk" xml:id="ptr_N20262"/>
-                     </addrLine>
-                     <addrLine>
-                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="ptr_N20270"/>
-                     </addrLine>
-                  </address>
-               </corpName>
-               <persName role="editor">Bjarke Moe</persName>
-               <persName role="data manager" xml:id="persName_d1e8">Axel Teich Geertinger</persName>
-            </respStmt>
-         </pubStmt>
-         <seriesStmt>
-            <title>Musik og sprog i reformationstidens danske salmesang</title>
-            <identifier type="file_collection">RefSal</identifier>
-         </seriesStmt>
-      </fileDesc>
-      <encodingDesc>
-         <appInfo>
-            <application version="6.2" xml:id="application_d1e36">
-               <name>Sibelius</name>
-            </application>
-            <application version="2.1.0 modified for Sibelius 6" xml:id="application_2d1e36">
-               <name>SibMEI</name>
-            </application>
-            <application version="2013">
-               <name>MerMEId</name>
-            </application>
-         </appInfo>
-      </encodingDesc>
-      <workList>
-         <work xml:id="work_7327e799">
-            <identifier label="RefSal" xml:id="identifier_036d65f5">Je 442</identifier>
-            <title xml:id="title_da962e98" xml:lang="da">HVo som vil salig vdi Verden leffue</title>
-            <title type="uniform" xml:id="title_22b59291" xml:lang="da">Hvo som vil salig udi verden leve  </title>
-            <contributor xml:id="respStmt_5577b899">
-               <persName auth.uri="http://www.viaf.org" auth="VIAF" codedval="41412249" role="collector"
-                         xml:id="persName_5eb47039">Niels Jesperssøn</persName>
-            </contributor>
-            <history xml:id="history_44436885">
-               <p/>
-            </history>
-            <langUsage xml:id="langUsage_f10dda89">
-               <language xml:id="da">Danish</language>
-               <language xml:id="en">English</language>
-            </langUsage>
-            <expressionList xml:id="expressionList_6a472619">
-               <expression xml:id="expression_13de6575">
-                  <title xml:id="title_3221f463" xml:lang="en"/>
-                  <history xml:id="history_a2c15376">
-                     <p/>
-                  </history>
-                  <perfMedium analog="marc:048" auth="marcmusperf" xml:id="perfMedium_4cb44b2d"/>
-               </expression>
-            </expressionList>
-            <relationList xml:id="relationList_82890f7b">
-               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf"
-                         target="Je_1573/Je_1573_LN0981.xml"
-                         xml:id="relation_4c78148e"/>
-            </relationList>
-         </work>
-      </workList>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="Je_1573_LN0981_442_m-1">
+<meiHead>
+      <fileDesc xml:id="Je_1573_LN0981_442_fileDesc_bb6d5d9b">
+<titleStmt xml:id="Je_1573_LN0981_442_titleStmt_f9684f40">
+<title xml:id="Je_1573_LN0981_442_title_abb012ce">HVo som vil salig vdi Verden leffue</title>
+</titleStmt>
+<pubStmt xml:id="Je_1573_LN0981_442_pubStmt_49a87298">
+<respStmt>
+<resp xml:id="Je_1573_LN0981_442_resp_dcab1c4a">Publisher</resp>
+<corpName xml:id="Je_1573_LN0981_442_corpName_9b9bbdb5">
+<abbr xml:id="Je_1573_LN0981_442_abbr_2ce60117">DSL</abbr>
+<expan xml:lang="da" xml:id="Je_1573_LN0981_442_expan_c9ca9365a">Det Danske Sprog- og Litteraturselskab</expan>
+<expan xml:lang="en" xml:id="Je_1573_LN0981_442_expan_c9ca9365b">Society for Danish Language and Literature</expan>
+<address xml:id="Je_1573_LN0981_442_address_104a55b6">
+<addrLine xml:id="Je_1573_LN0981_442_addrLine_5604589f">Christians Brygge 1</addrLine>
+<addrLine xml:id="Je_1573_LN0981_442_addrLine_17d89d19">1219 København K</addrLine>
+<addrLine xml:id="Je_1573_LN0981_442_addrLine_ca75e30b">
+<ptr label="WWW" target="https://dsl.dk" xml:id="Je_1573_LN0981_442_ptr_N20262"/>
+</addrLine>
+<addrLine xml:id="Je_1573_LN0981_442_addrLine_73eb1972">
+<ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="Je_1573_LN0981_442_ptr_N20270"/>
+</addrLine>
+</address>
+</corpName>
+<persName role="editor" xml:id="Je_1573_LN0981_442_persName_6632134b">Bjarke Moe</persName>
+<persName role="data manager" xml:id="Je_1573_LN0981_442_persName_d1e8">Axel Teich Geertinger</persName>
+<persName xml:id="Je_1573_LN0981_442_persName_6632134a" role="project director">Marita Akhøj Nielsen</persName>
+</respStmt>
+</pubStmt>
+<seriesStmt xml:id="Je_1573_LN0981_442_seriesStmt_0831786c">
+<title xml:id="Je_1573_LN0981_442_title_7c9c19af">Musik og sprog i reformationstidens danske salmesang</title>
+<identifier type="file_collection" xml:id="Je_1573_LN0981_442_identifier_c557f385">RefSal</identifier>
+</seriesStmt>
+</fileDesc>
+      <encodingDesc xml:id="Je_1573_LN0981_442_encodingDesc_61bf9ab4">
+<appInfo xml:id="Je_1573_LN0981_442_appInfo_168c6114">
+<application version="6.2" xml:id="Je_1573_LN0981_442_application_d1e36">
+<name>Sibelius</name>
+</application>
+<application version="2.1.0 modified for Sibelius 6" xml:id="Je_1573_LN0981_442_application_2d1e36">
+<name>SibMEI</name>
+</application>
+<application version="2013" xml:id="Je_1573_LN0981_442_application_947905d9">
+<name>MerMEId</name>
+</application>
+</appInfo>
+</encodingDesc>
+      <workList xml:id="Je_1573_LN0981_442_workDesc_5393fb6d">
+<work xml:id="Je_1573_LN0981_442_work_7327e799">
+<identifier label="RefSal" xml:id="Je_1573_LN0981_442_identifier_036d65f5">Je 442</identifier>
+<title xml:id="Je_1573_LN0981_442_title_da962e98" xml:lang="da">HVo som vil salig vdi Verden leffue</title>
+<title type="uniform" xml:id="Je_1573_LN0981_442_title_22b59291" xml:lang="da">Hvo som vil salig udi verden leve  </title>
+<contributor xml:id="Je_1573_LN0981_442_respStmt_5577b899">
+<persName auth.uri="http://www.viaf.org" auth="VIAF" codedval="41412249" role="collector" xml:id="Je_1573_LN0981_442_persName_5eb47039">Niels Jesperssøn</persName>
+</contributor>
+<history xml:id="Je_1573_LN0981_442_history_44436885">
+<p/>
+</history>
+<langUsage xml:id="Je_1573_LN0981_442_langUsage_f10dda89">
+<language xml:id="da">Danish</language>
+<language xml:id="en">English</language>
+</langUsage>
+<expressionList xml:id="Je_1573_LN0981_442_expressionList_6a472619">
+<expression xml:id="Je_1573_LN0981_442_expression_13de6575">
+<title xml:id="Je_1573_LN0981_442_title_3221f463" xml:lang="en">HVo som vil salig vdi Verden leffue/</title>
+<history xml:id="Je_1573_LN0981_442_history_a2c15376">
+<p/>
+</history>
+<perfMedium analog="marc:048" auth="marcmusperf" xml:id="Je_1573_LN0981_442_perfMedium_4cb44b2d"/>
+</expression>
+</expressionList>
+<relationList xml:id="Je_1573_LN0981_442_relationList_82890f7b">
+<relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf" target="Je_1573/Je_1573_LN0981.xml" xml:id="Je_1573_LN0981_442_relation_4c78148e"/>
+</relationList>
+<classification xml:id="Je_1573_LN0981_442_classification_81a43c49">
+<termList xml:id="Je_1573_LN0981_442_termList_ab4fb67c"/>
+</classification>
+</work>
+</workList>
       <revisionDesc>
-         <change isodate="2017-08-03" xml:id="change_109N100C9">
-            <respStmt>
-               <name>bmoe</name>
-            </respStmt>
-            <changeDesc>
-               <p/>
-            </changeDesc>
-         </change>
-         <change isodate="2017-09-06" xml:id="change_122N10109">
-            <respStmt>
-               <name>bmoe</name>
-            </respStmt>
-            <changeDesc>
-               <p/>
-            </changeDesc>
-         </change>
-         <change isodate="2017-10-11T14:03:08.363Z" xml:id="change_117N100F2">
-            <respStmt>
-               <name>bmoe</name>
-            </respStmt>
-            <changeDesc>
-               <p/>
-            </changeDesc>
-         </change>
-         <change isodate="2017-12-20T08:49:35+01:00" xml:id="change_115N100BE">
-            <respStmt>
-               <name>MerMEId</name>
-            </respStmt>
-            <changeDesc>
-               <p>Batch transformation removing empty elements and udpdating mail address</p>
-            </changeDesc>
-         </change>
-         <change isodate="2019-07-09T12:15:05.786Z" xml:id="change_94N100B5">
-            <respStmt>
-               <name>bmoe</name>
-            </respStmt>
-            <changeDesc>
-               <p/>
-            </changeDesc>
-         </change>
-         <change isodate="2019-07-09T15:05:45.744Z" xml:id="change_722b5eb8-6c77">
-            <respStmt>
-               <name>MerMEId user</name>
-            </respStmt>
-            <changeDesc xml:id="changeDesc_94d0463d-3b66">
-               <p>file renamed from 563ca3f7-ef9a-43ba-ae1a-4dd55c91ead5.xml to Je_1573_LN0981_442.xml</p>
-            </changeDesc>
-         </change>
-         <change isodate="2019-07-10T13:52:32.778Z" xml:id="change_bc32b7a7-ef49">
-            <respStmt>
-               <name>MerMEId</name>
-            </respStmt>
-            <changeDesc xml:id="changeDesc_83216a52-68b6">
-               <p>file reference updated (a file was renamed from d4f1477b-c1ae-40f7-b4e6-2d0150b3ddaf.xml to Je_1573_LN0981.xml)</p>
-            </changeDesc>
-         </change>
-         <change isodate="2019-07-10T13:31:34.266Z" xml:id="change_110N100D6">
-            <respStmt>
-               <name>bmoe</name>
-            </respStmt>
-            <changeDesc>
-               <p/>
-            </changeDesc>
-         </change>
-         <change isodate="2019-07-23T15:15:04.514+02:00" xml:id="change_110d1e87">
-            <respStmt>
-               <name>atge</name>
-            </respStmt>
-            <changeDesc>
-               <p>Transform from MEI 3.0.0 to 4.0.0</p>
-            </changeDesc>
-         </change>
-         <change isodate="2019-07-23T16:01:40.972+02:00" xml:id="change_115d1e87">
-            <respStmt>
-               <name>atge</name>
-            </respStmt>
-            <changeDesc>
-               <p>Update project metadata</p>
-            </changeDesc>
-         </change>
-         <change isodate="2019-07-24T10:13:59.812+02:00" xml:id="change_101d2e70">
-            <respStmt>
-               <name>atge</name>
-            </respStmt>
-            <changeDesc>
-               <p>Merge data and metadata</p>
-            </changeDesc>
-         </change>
-         <change isodate="2019-07-24T11:55:29.354+02:00" xml:id="change_191d1e71">
-            <respStmt>
-               <name>atge</name>
-            </respStmt>
-            <changeDesc>
-               <p>Add directory name to relations and references</p>
-            </changeDesc>
-         </change>
-         <change isodate="2019-07-25T12:18:04.081+02:00" xml:id="change_111d2e70">
-            <respStmt>
-               <name>atge</name>
-            </respStmt>
-            <changeDesc>
-               <p>Update music from filebase</p>
-            </changeDesc>
-         </change>
-      </revisionDesc>
+<change isodate="2017-08-03" xml:id="Je_1573_LN0981_442_change_109N100C9">
+<respStmt>
+<name>bmoe</name>
+</respStmt>
+<changeDesc>
+<p/>
+</changeDesc>
+</change>
+<change isodate="2017-09-06" xml:id="Je_1573_LN0981_442_change_122N10109">
+<respStmt>
+<name>bmoe</name>
+</respStmt>
+<changeDesc>
+<p/>
+</changeDesc>
+</change>
+<change isodate="2017-10-11T14:03:08.363Z" xml:id="Je_1573_LN0981_442_change_117N100F2">
+<respStmt>
+<name>bmoe</name>
+</respStmt>
+<changeDesc>
+<p/>
+</changeDesc>
+</change>
+<change isodate="2017-12-20T08:49:35+01:00" xml:id="Je_1573_LN0981_442_change_115N100BE">
+<respStmt>
+<name>MerMEId</name>
+</respStmt>
+<changeDesc>
+<p>Batch transformation removing empty elements and udpdating mail address</p>
+</changeDesc>
+</change>
+<change isodate="2019-07-09T12:15:05.786Z" xml:id="Je_1573_LN0981_442_change_94N100B5">
+<respStmt>
+<name>bmoe</name>
+</respStmt>
+<changeDesc>
+<p/>
+</changeDesc>
+</change>
+<change isodate="2019-07-09T15:05:45.744Z" xml:id="Je_1573_LN0981_442_change_722b5eb8-6c77">
+<respStmt>
+<name>MerMEId user</name>
+</respStmt>
+<changeDesc xml:id="Je_1573_LN0981_442_changeDesc_94d0463d-3b66">
+<p>file renamed from 563ca3f7-ef9a-43ba-ae1a-4dd55c91ead5.xml to Je_1573_LN0981_442.xml</p>
+</changeDesc>
+</change>
+<change isodate="2019-07-10T13:52:32.778Z" xml:id="Je_1573_LN0981_442_change_bc32b7a7-ef49">
+<respStmt>
+<name>MerMEId</name>
+</respStmt>
+<changeDesc xml:id="Je_1573_LN0981_442_changeDesc_83216a52-68b6">
+<p>file reference updated (a file was renamed from d4f1477b-c1ae-40f7-b4e6-2d0150b3ddaf.xml to Je_1573_LN0981.xml)</p>
+</changeDesc>
+</change>
+<change isodate="2019-07-10T13:31:34.266Z" xml:id="Je_1573_LN0981_442_change_110N100D6">
+<respStmt>
+<name>bmoe</name>
+</respStmt>
+<changeDesc>
+<p/>
+</changeDesc>
+</change>
+<change isodate="2019-07-23T15:15:04.514+02:00" xml:id="Je_1573_LN0981_442_change_110d1e87">
+<respStmt>
+<name>atge</name>
+</respStmt>
+<changeDesc>
+<p>Transform from MEI 3.0.0 to 4.0.0</p>
+</changeDesc>
+</change>
+<change isodate="2019-07-23T16:01:40.972+02:00" xml:id="Je_1573_LN0981_442_change_115d1e87">
+<respStmt>
+<name>atge</name>
+</respStmt>
+<changeDesc>
+<p>Update project metadata</p>
+</changeDesc>
+</change>
+<change isodate="2019-07-24T10:13:59.812+02:00" xml:id="Je_1573_LN0981_442_change_101d2e70">
+<respStmt>
+<name>atge</name>
+</respStmt>
+<changeDesc>
+<p>Merge data and metadata</p>
+</changeDesc>
+</change>
+<change isodate="2019-07-24T11:55:29.354+02:00" xml:id="Je_1573_LN0981_442_change_191d1e71">
+<respStmt>
+<name>atge</name>
+</respStmt>
+<changeDesc>
+<p>Add directory name to relations and references</p>
+</changeDesc>
+</change>
+<change isodate="2019-07-25T12:18:04.081+02:00" xml:id="Je_1573_LN0981_442_change_111d2e70">
+<respStmt>
+<name>atge</name>
+</respStmt>
+<changeDesc>
+<p>Update music from filebase</p>
+</changeDesc>
+</change>
+<change xml:id="Je_1573_LN0981_442_change_196d2e151" isodate="2020-01-07T12:25:05.185+02:00">
+<respStmt>
+<name>atge</name>
+</respStmt>
+<changeDesc>
+<p>Supplied additional metadata</p>
+</changeDesc>
+</change>
+</revisionDesc>
    </meiHead>
-   <music xml:id="Je_1573_LN0981_442_m-22">
+<music xml:id="Je_1573_LN0981_442_m-22">
       <body xml:id="Je_1573_LN0981_442_m-23">
          <mdiv xml:id="Je_1573_LN0981_442_m-24">
             <score xml:id="Je_1573_LN0981_442_m-25">
                <scoreDef xml:id="Je_1573_LN0981_442_m-26">
                   <staffGrp xml:id="Je_1573_LN0981_442_m-27">
-                     <staffDef xml:id="Je_1573_LN0981_442_m-28" clef.line="4" clef.shape="C" key.sig="0"
-                               lines="5"
-                               n="1"/>
+                     <staffDef xml:id="Je_1573_LN0981_442_m-28" clef.line="4" clef.shape="C" key.sig="0" lines="5" n="1"/>
                   </staffGrp>
                </scoreDef>
                <section xml:id="Je_1573_LN0981_442_m-31">
@@ -202,151 +206,127 @@
                      <staff xml:id="Je_1573_LN0981_442_m-34" n="1">
                         <layer xml:id="Je_1573_LN0981_442_m-35" n="1">
                            <meterSig sym="cut"/>
-                           <note xml:id="Je_1573_LN0981_442_m-36" dur="1" dur.ppq="1024" oct="3" pname="a"
-                                 pnum="57">
+                           <note xml:id="Je_1573_LN0981_442_m-36" dur="1" dur.ppq="1024" oct="3" pname="a" pnum="57">
                               <verse xml:id="Je_1573_LN0981_442_m-48" n="1">
                                  <syl xml:id="Je_1573_LN0981_442_m-49" wordpos="i">HVo</syl>
                               </verse>
                            </note>
-                           <note xml:id="Je_1573_LN0981_442_m-37" dur="1" dur.ppq="1024" oct="4" pname="c"
-                                 pnum="60">
+                           <note xml:id="Je_1573_LN0981_442_m-37" dur="1" dur.ppq="1024" oct="4" pname="c" pnum="60">
                               <verse xml:id="Je_1573_LN0981_442_m-50" n="1">
                                  <syl xml:id="Je_1573_LN0981_442_m-51" wordpos="i">som</syl>
                               </verse>
                            </note>
-                           <note xml:id="Je_1573_LN0981_442_m-38" dur="1" dur.ppq="1024" oct="3" pname="b"
-                                 pnum="59">
+                           <note xml:id="Je_1573_LN0981_442_m-38" dur="1" dur.ppq="1024" oct="3" pname="b" pnum="59">
                               <verse xml:id="Je_1573_LN0981_442_m-52" n="1">
                                  <syl xml:id="Je_1573_LN0981_442_m-53" wordpos="i">vil</syl>
                               </verse>
                            </note>
-                           <note xml:id="Je_1573_LN0981_442_m-39" dur="2" dur.ppq="512" oct="4" pname="c"
-                                 pnum="60">
+                           <note xml:id="Je_1573_LN0981_442_m-39" dur="2" dur.ppq="512" oct="4" pname="c" pnum="60">
                               <verse xml:id="Je_1573_LN0981_442_m-54" n="1">
                                  <syl xml:id="Je_1573_LN0981_442_m-55" con="d" wordpos="i">sa</syl>
                               </verse>
                            </note>
-                           <note xml:id="Je_1573_LN0981_442_m-40" dur="2" dur.ppq="512" oct="4" pname="d"
-                                 pnum="62">
+                           <note xml:id="Je_1573_LN0981_442_m-40" dur="2" dur.ppq="512" oct="4" pname="d" pnum="62">
                               <verse xml:id="Je_1573_LN0981_442_m-56" n="1">
                                  <syl xml:id="Je_1573_LN0981_442_m-57" wordpos="t">lig</syl>
                               </verse>
                            </note>
-                           <note xml:id="Je_1573_LN0981_442_m-41" dur="1" dur.ppq="1024" oct="4" pname="e"
-                                 pnum="64">
+                           <note xml:id="Je_1573_LN0981_442_m-41" dur="1" dur.ppq="1024" oct="4" pname="e" pnum="64">
                               <verse xml:id="Je_1573_LN0981_442_m-58" n="1">
                                  <syl xml:id="Je_1573_LN0981_442_m-59" con="d" wordpos="i">vd</syl>
                               </verse>
                            </note>
-                           <note xml:id="Je_1573_LN0981_442_m-42" dur="2" dur.ppq="512" oct="4" pname="e"
-                                 pnum="64">
+                           <note xml:id="Je_1573_LN0981_442_m-42" dur="2" dur.ppq="512" oct="4" pname="e" pnum="64">
                               <verse xml:id="Je_1573_LN0981_442_m-60" n="1">
                                  <syl xml:id="Je_1573_LN0981_442_m-61" wordpos="t">i</syl>
                               </verse>
                            </note>
-                           <note xml:id="Je_1573_LN0981_442_m-43" dur="1" dur.ppq="1024" oct="4" pname="d"
-                                 pnum="62">
+                           <note xml:id="Je_1573_LN0981_442_m-43" dur="1" dur.ppq="1024" oct="4" pname="d" pnum="62">
                               <verse xml:id="Je_1573_LN0981_442_m-62" n="1">
                                  <syl xml:id="Je_1573_LN0981_442_m-63" con="d" wordpos="i">Ver</syl>
                               </verse>
                            </note>
-                           <note xml:id="Je_1573_LN0981_442_m-44" dur="2" dur.ppq="512" oct="4" pname="c"
-                                 pnum="60">
+                           <note xml:id="Je_1573_LN0981_442_m-44" dur="2" dur.ppq="512" oct="4" pname="c" pnum="60">
                               <verse xml:id="Je_1573_LN0981_442_m-64" n="1">
                                  <syl xml:id="Je_1573_LN0981_442_m-65" wordpos="t">den</syl>
                               </verse>
                            </note>
-                           <note xml:id="Je_1573_LN0981_442_m-45" dur="1" dur.ppq="1024" oct="3" pname="b"
-                                 pnum="59">
+                           <note xml:id="Je_1573_LN0981_442_m-45" dur="1" dur.ppq="1024" oct="3" pname="b" pnum="59">
                               <verse xml:id="Je_1573_LN0981_442_m-66" n="1">
                                  <syl xml:id="Je_1573_LN0981_442_m-67" con="d" wordpos="i">leff</syl>
                               </verse>
                            </note>
-                           <note xml:id="Je_1573_LN0981_442_m-46" dur="breve" dur.ppq="2048" oct="3" pname="b"
-                                 pnum="59">
+                           <note xml:id="Je_1573_LN0981_442_m-46" dur="breve" dur.ppq="2048" oct="3" pname="b" pnum="59">
                               <verse xml:id="Je_1573_LN0981_442_m-68" n="1">
                                  <syl xml:id="Je_1573_LN0981_442_m-69" wordpos="t">ue/</syl>
                               </verse>
                            </note>
                         </layer>
                      </staff>
-                     <dir type="sb" tstamp="40.75" place="above" label="Linjeskift"
-                          xml:id="Je_1573_LN0981_442_m-47">ǀ</dir>
+                     <dir type="sb" tstamp="40.75" place="above" label="Linjeskift" xml:id="Je_1573_LN0981_442_m-47">ǀ</dir>
                   </measure>
                   <sb xml:id="Je_1573_LN0981_442_m-71" label="editorial"/>
                   <measure xml:id="Je_1573_LN0981_442_m-70" right="end">
                      <staff xml:id="Je_1573_LN0981_442_m-72" n="1">
                         <layer xml:id="Je_1573_LN0981_442_m-73" n="1">
-                           <note xml:id="Je_1573_LN0981_442_m-74" dur="1" dur.ppq="1024" oct="3" pname="b"
-                                 pnum="59">
+                           <note xml:id="Je_1573_LN0981_442_m-74" dur="1" dur.ppq="1024" oct="3" pname="b" pnum="59">
                               <verse xml:id="Je_1573_LN0981_442_m-86" n="1">
                                  <syl xml:id="Je_1573_LN0981_442_m-87" wordpos="i">J</syl>
                               </verse>
                            </note>
-                           <note xml:id="Je_1573_LN0981_442_m-75" dur="1" dur.ppq="1024" oct="4" pname="c"
-                                 pnum="60">
+                           <note xml:id="Je_1573_LN0981_442_m-75" dur="1" dur.ppq="1024" oct="4" pname="c" pnum="60">
                               <verse xml:id="Je_1573_LN0981_442_m-88" n="1">
                                  <syl xml:id="Je_1573_LN0981_442_m-89" con="d" wordpos="i">Her</syl>
                               </verse>
                            </note>
-                           <note xml:id="Je_1573_LN0981_442_m-76" dur="1" dur.ppq="1024" oct="4" pname="d"
-                                 pnum="62">
+                           <note xml:id="Je_1573_LN0981_442_m-76" dur="1" dur.ppq="1024" oct="4" pname="d" pnum="62">
                               <verse xml:id="Je_1573_LN0981_442_m-90" n="1">
                                  <syl xml:id="Je_1573_LN0981_442_m-91" wordpos="t">rens</syl>
                               </verse>
                            </note>
-                           <note xml:id="Je_1573_LN0981_442_m-77" dur="2" dur.ppq="512" oct="4" pname="d"
-                                 pnum="62">
+                           <note xml:id="Je_1573_LN0981_442_m-77" dur="2" dur.ppq="512" oct="4" pname="d" pnum="62">
                               <verse xml:id="Je_1573_LN0981_442_m-92" n="1">
                                  <syl xml:id="Je_1573_LN0981_442_m-93" wordpos="i">ord</syl>
                               </verse>
                            </note>
-                           <note xml:id="Je_1573_LN0981_442_m-78" dur="2" dur.ppq="512" oct="4" pname="c"
-                                 pnum="60">
+                           <note xml:id="Je_1573_LN0981_442_m-78" dur="2" dur.ppq="512" oct="4" pname="c" pnum="60">
                               <verse xml:id="Je_1573_LN0981_442_m-94" n="1">
                                  <syl xml:id="Je_1573_LN0981_442_m-95" wordpos="i">oc</syl>
                               </verse>
                            </note>
-                           <note xml:id="Je_1573_LN0981_442_m-79" dur="1" dur.ppq="1024" oct="3" pname="b"
-                                 pnum="59">
+                           <note xml:id="Je_1573_LN0981_442_m-79" dur="1" dur.ppq="1024" oct="3" pname="b" pnum="59">
                               <verse xml:id="Je_1573_LN0981_442_m-96" n="1">
                                  <syl xml:id="Je_1573_LN0981_442_m-97" wordpos="i">fryct</syl>
                               </verse>
                            </note>
-                           <note xml:id="Je_1573_LN0981_442_m-80" dur="2" dur.ppq="512" oct="3" pname="a"
-                                 pnum="57">
+                           <note xml:id="Je_1573_LN0981_442_m-80" dur="2" dur.ppq="512" oct="3" pname="a" pnum="57">
                               <verse xml:id="Je_1573_LN0981_442_m-98" n="1">
                                  <syl xml:id="Je_1573_LN0981_442_m-99" wordpos="i">skal</syl>
                               </verse>
                            </note>
-                           <note xml:id="Je_1573_LN0981_442_m-81" dur="1" dur.ppq="1024" oct="3" pname="g"
-                                 pnum="55">
+                           <note xml:id="Je_1573_LN0981_442_m-81" dur="1" dur.ppq="1024" oct="3" pname="g" pnum="55">
                               <verse xml:id="Je_1573_LN0981_442_m-100" n="1">
                                  <syl xml:id="Je_1573_LN0981_442_m-101" wordpos="i">hand</syl>
                               </verse>
                            </note>
-                           <note xml:id="Je_1573_LN0981_442_m-82" dur="2" dur.ppq="512" oct="3" pname="a"
-                                 pnum="57">
+                           <note xml:id="Je_1573_LN0981_442_m-82" dur="2" dur.ppq="512" oct="3" pname="a" pnum="57">
                               <verse xml:id="Je_1573_LN0981_442_m-102" n="1">
                                  <syl xml:id="Je_1573_LN0981_442_m-103" wordpos="i">sig</syl>
                               </verse>
                            </note>
-                           <note xml:id="Je_1573_LN0981_442_m-83" dur="1" dur.ppq="1024" oct="3" pname="b"
-                                 pnum="59">
+                           <note xml:id="Je_1573_LN0981_442_m-83" dur="1" dur.ppq="1024" oct="3" pname="b" pnum="59">
                               <verse xml:id="Je_1573_LN0981_442_m-104" n="1">
                                  <syl xml:id="Je_1573_LN0981_442_m-105" con="d" wordpos="i">øff</syl>
                               </verse>
                            </note>
-                           <note xml:id="Je_1573_LN0981_442_m-84" dur="long" dur.ppq="4096" oct="3" pname="a"
-                                 pnum="57">
+                           <note xml:id="Je_1573_LN0981_442_m-84" dur="long" dur.ppq="4096" oct="3" pname="a" pnum="57">
                               <verse xml:id="Je_1573_LN0981_442_m-106" n="1">
                                  <syl xml:id="Je_1573_LN0981_442_m-107" wordpos="t">ue.</syl>
                               </verse>
                            </note>
                         </layer>
                      </staff>
-                     <fermata xml:id="Je_1573_LN0981_442_m-85" form="norm" layer="1" shape="curved" staff="1"
-                              startid="#Je_1573_LN0981_442_m-84"/>
+                     <fermata xml:id="Je_1573_LN0981_442_m-85" form="norm" layer="1" shape="curved" staff="1" startid="#Je_1573_LN0981_442_m-84"/>
                   </measure>
                   <pb/>
                </section>

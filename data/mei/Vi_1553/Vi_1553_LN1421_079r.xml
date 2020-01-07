@@ -1,48 +1,93 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei"
-     xmlns:xlink="http://www.w3.org/1999/xlink"
-     meiversion="4.0.0"
-     xml:id="Vi_1553_LN1421_079r_m-1">
-   <meiHead xml:id="Vi_1553_LN1421_079r_m-2">
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="Vi_1553_LN1421_079r_m-1">
+<meiHead xml:id="Vi_1553_LN1421_079r_m-2" meiversion="4.0.0">
       <fileDesc xml:id="Vi_1553_LN1421_079r_m-3">
-        <titleStmt xml:id="Vi_1553_LN1421_079r_m-4">
-            <title xml:id="Vi_1553_LN1421_079r_m-10"/>
-            
-        </titleStmt>
-        <pubStmt xml:id="Vi_1553_LN1421_079r_m-13">
-            <availability xml:id="Vi_1553_LN1421_079r_m-14">
-                <useRestrict xml:id="Vi_1553_LN1421_079r_m-15"/>
-            </availability>
-        </pubStmt>
-      </fileDesc>
+<titleStmt xml:id="Vi_1553_LN1421_079r_m-4">
+<title xml:id="Vi_1553_LN1421_079r_m-10"/>
+</titleStmt>
+<pubStmt xml:id="Vi_1553_LN1421_079r_m-13">
+<availability xml:id="Vi_1553_LN1421_079r_m-14">
+<useRestrict xml:id="Vi_1553_LN1421_079r_m-15"/>
+</availability>
+<respStmt>
+<resp xml:id="Vi_1553_LN1421_079r_resp_dcab1c4a">Publisher</resp>
+<corpName xml:id="Vi_1553_LN1421_079r_corpName_9b9bbdb5">
+<abbr xml:id="Vi_1553_LN1421_079r_abbr_2ce60117">DSL</abbr>
+<expan xml:lang="da" xml:id="Vi_1553_LN1421_079r_expan_c9ca9365a">Det Danske Sprog- og Litteraturselskab</expan>
+<expan xml:lang="en" xml:id="Vi_1553_LN1421_079r_expan_c9ca9365b">Society for Danish Language and Literature</expan>
+<address xml:id="Vi_1553_LN1421_079r_address_104a55b6">
+<addrLine xml:id="Vi_1553_LN1421_079r_addrLine_5604589f">Christians Brygge 1</addrLine>
+<addrLine xml:id="Vi_1553_LN1421_079r_addrLine_17d89d19">1219 København K</addrLine>
+<addrLine xml:id="Vi_1553_LN1421_079r_addrLine_ca75e30b">
+<ptr xml:id="Vi_1553_LN1421_079r_ptr_N20262" target="https://dsl.dk" label="WWW"/>
+</addrLine>
+<addrLine xml:id="Vi_1553_LN1421_079r_addrLine_73eb1972">
+<ptr xml:id="Vi_1553_LN1421_079r_ptr_N20270" target="mailto://sekretariat@dsl.dk" label="E-mail"/>
+</addrLine>
+</address>
+</corpName>
+<persName xml:id="Vi_1553_LN1421_079r_persName_6632134b" role="editor">Bjarke Moe</persName>
+<persName xml:id="Vi_1553_LN1421_079r_persName_d1e8" role="data manager">Axel Teich Geertinger</persName>
+<persName xml:id="Vi_1553_LN1421_079r_persName_6632134a" role="project director">Marita Akhøj Nielsen</persName>
+</respStmt>
+</pubStmt>
+<seriesStmt xml:id="Vi_1553_LN1421_079r_seriesStmt_0831786c">
+<title xml:id="Vi_1553_LN1421_079r_title_7c9c19af">Musik og sprog i reformationstidens danske salmesang</title>
+<identifier xml:id="Vi_1553_LN1421_079r_identifier_c557f385" type="file_collection">RefSal</identifier>
+</seriesStmt>
+</fileDesc>
       <encodingDesc xml:id="Vi_1553_LN1421_079r_m-16">
-        <appInfo xml:id="Vi_1553_LN1421_079r_m-17">
-            <application xml:id="Vi_1553_LN1421_079r_sibelius"
-                         isodate="2019-6-7T11:48:17Z"
-                         version="6200">
-                <name xml:id="Vi_1553_LN1421_079r_m-19">Sibelius</name>
-            </application>
-            <application xml:id="Vi_1553_LN1421_079r_sibmei" type="plugin" version="2.1.0">
-                <name xml:id="Vi_1553_LN1421_079r_m-21">Sibelius 6.2 to MEI Exporter (2.1.0)</name>
-            </application>
-        </appInfo>
-      </encodingDesc>
+<appInfo xml:id="Vi_1553_LN1421_079r_m-17">
+<application xml:id="Vi_1553_LN1421_079r_sibelius" isodate="2019-6-7T11:48:17Z" version="6200">
+<name xml:id="Vi_1553_LN1421_079r_m-19">Sibelius</name>
+</application>
+<application xml:id="Vi_1553_LN1421_079r_sibmei" type="plugin" version="2.1.0">
+<name xml:id="Vi_1553_LN1421_079r_m-21">Sibelius 6.2 to MEI Exporter (2.1.0)</name>
+</application>
+<application xml:id="Vi_1553_LN1421_079r_application_947905d9" version="2019.2">
+<name xml:id="Vi_1553_LN1421_079r_name_57b2a9f0">MerMEId</name>
+</application>
+</appInfo>
+</encodingDesc>
     
-   </meiHead>
-   <music xml:id="Vi_1553_LN1421_079r_m-22">
+   <workList xml:id="Vi_1553_LN1421_079r_workDesc_5393fb6d">
+<work xml:id="Vi_1553_LN1421_079r_work_7327e799">
+<title xml:lang="da" xml:id="Vi_1553_LN1421_079r_title_da962e98">[Titel]</title>
+<contributor xml:id="Vi_1553_LN1421_079r_respStmt_5577b899"/>
+<history xml:id="Vi_1553_LN1421_079r_history_44436885"/>
+<langUsage xml:id="Vi_1553_LN1421_079r_langUsage_f10dda89">
+<language xml:id="da">Danish</language>
+</langUsage>
+<classification xml:id="Vi_1553_LN1421_079r_classification_81a43c49">
+<termList xml:id="Vi_1553_LN1421_079r_termList_ab4fb67c"/>
+</classification>
+<expressionList xml:id="Vi_1553_LN1421_079r_expressionList_6a472619">
+<expression xml:id="Vi_1553_LN1421_079r_expression_13de6575">
+<title xml:lang="en" xml:id="Vi_1553_LN1421_079r_title_3221f463"/>
+</expression>
+</expressionList>
+<relationList xml:id="Vi_1553_LN1421_079r_relationList_81b6d009">
+<relation xml:id="Vi_1553_LN1421_079r_relation_e55eedbf" target="Vi_1553/Vi_1553_LN1421.xml" rel="isPartOf" label="En Ny Psalmebog"/>
+</relationList>
+</work>
+</workList>
+<revisionDesc>
+<change xml:id="Vi_1553_LN1421_079r_change_196d2e151" isodate="2020-01-07T12:25:05.185+02:00">
+<respStmt>
+<name>atge</name>
+</respStmt>
+<changeDesc>
+<p>Supplied additional metadata</p>
+</changeDesc>
+</change>
+</revisionDesc>
+</meiHead>
+<music xml:id="Vi_1553_LN1421_079r_m-22" meiversion="4.0.0">
       <body xml:id="Vi_1553_LN1421_079r_m-23">
         <mdiv xml:id="Vi_1553_LN1421_079r_m-24">
             <score xml:id="Vi_1553_LN1421_079r_m-25">
                 <scoreDef xml:id="Vi_1553_LN1421_079r_m-26">
                     <staffGrp xml:id="Vi_1553_LN1421_079r_m-27">
-                        <staffDef xml:id="Vi_1553_LN1421_079r_m-28"
-                               clef.line="4"
-                               clef.shape="C"
-                               key.sig="0"
-                               lines="5"
-                               n="1">
+                        <staffDef xml:id="Vi_1553_LN1421_079r_m-28" clef.line="4" clef.shape="C" key.sig="0" lines="5" n="1">
                             
                             
                         </staffDef>
@@ -54,67 +99,16 @@
                         <staff xml:id="Vi_1553_LN1421_079r_m-34" n="1">
                             <layer xml:id="Vi_1553_LN1421_079r_m-35" n="1">
                                 <meterSig sym="cut"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-36"
-                                 dur="breve"
-                                 dur.ppq="2048"
-                                 oct="3"
-                                 pname="b"
-                                 pnum="59"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-37"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="b"
-                                 pnum="59"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-38"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="g"
-                                 pnum="55"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-39"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="4"
-                                 pname="c"
-                                 pnum="60"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-40"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="a"
-                                 pnum="57"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-41"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="4"
-                                 pname="d"
-                                 pnum="62"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-42"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="4"
-                                 pname="d"
-                                 pnum="62"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-43"
-                                 dots="1"
-                                 dur="1"
-                                 dur.ppq="1536"
-                                 oct="3"
-                                 pname="b"
-                                 pnum="59"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-44"
-                                 dur="2"
-                                 dur.ppq="512"
-                                 oct="3"
-                                 pname="g"
-                                 pnum="55"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-45"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="g"
-                                 pnum="55"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-36" dur="breve" dur.ppq="2048" oct="3" pname="b" pnum="59"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-37" dur="1" dur.ppq="1024" oct="3" pname="b" pnum="59"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-38" dur="1" dur.ppq="1024" oct="3" pname="g" pnum="55"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-39" dur="1" dur.ppq="1024" oct="4" pname="c" pnum="60"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-40" dur="1" dur.ppq="1024" oct="3" pname="a" pnum="57"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-41" dur="1" dur.ppq="1024" oct="4" pname="d" pnum="62"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-42" dur="1" dur.ppq="1024" oct="4" pname="d" pnum="62"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-43" dots="1" dur="1" dur.ppq="1536" oct="3" pname="b" pnum="59"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-44" dur="2" dur.ppq="512" oct="3" pname="g" pnum="55"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-45" dur="1" dur.ppq="1024" oct="3" pname="g" pnum="55"/>
                             </layer>
                         </staff>
                     </measure>
@@ -124,48 +118,13 @@
                         <staff xml:id="Vi_1553_LN1421_079r_m-48" n="1">
                             <layer xml:id="Vi_1553_LN1421_079r_m-49" n="1">
                                 <rest xml:id="Vi_1553_LN1421_079r_m-50" dur="2" dur.ppq="512"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-51"
-                                 dur="2"
-                                 dur.ppq="512"
-                                 oct="3"
-                                 pname="g"
-                                 pnum="55"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-52"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="4"
-                                 pname="c"
-                                 pnum="60"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-53"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="b"
-                                 pnum="59"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-54"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="a"
-                                 pnum="57"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-55"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="g"
-                                 pnum="55"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-56"
-                                 dur="breve"
-                                 dur.ppq="2048"
-                                 oct="3"
-                                 pname="f"
-                                 pnum="53"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-57"
-                                 dur="breve"
-                                 dur.ppq="2048"
-                                 oct="3"
-                                 pname="e"
-                                 pnum="52"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-51" dur="2" dur.ppq="512" oct="3" pname="g" pnum="55"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-52" dur="1" dur.ppq="1024" oct="4" pname="c" pnum="60"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-53" dur="1" dur.ppq="1024" oct="3" pname="b" pnum="59"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-54" dur="1" dur.ppq="1024" oct="3" pname="a" pnum="57"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-55" dur="1" dur.ppq="1024" oct="3" pname="g" pnum="55"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-56" dur="breve" dur.ppq="2048" oct="3" pname="f" pnum="53"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-57" dur="breve" dur.ppq="2048" oct="3" pname="e" pnum="52"/>
                             </layer>
                         </staff>
                         <supplied>
@@ -177,54 +136,14 @@
                         <staff xml:id="Vi_1553_LN1421_079r_m-61" n="1">
                             <layer xml:id="Vi_1553_LN1421_079r_m-62" n="1">
                                 <rest xml:id="Vi_1553_LN1421_079r_m-63" dur="1" dur.ppq="1024"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-64"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="c"
-                                 pnum="48"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-65"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="g"
-                                 pnum="55"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-66"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="a"
-                                 pnum="57"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-67"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="b"
-                                 pnum="59"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-68"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="4"
-                                 pname="c"
-                                 pnum="60"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-69"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="4"
-                                 pname="d"
-                                 pnum="62"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-70"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="4"
-                                 pname="d"
-                                 pnum="62"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-71"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="b"
-                                 pnum="59"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-64" dur="1" dur.ppq="1024" oct="3" pname="c" pnum="48"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-65" dur="1" dur.ppq="1024" oct="3" pname="g" pnum="55"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-66" dur="1" dur.ppq="1024" oct="3" pname="a" pnum="57"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-67" dur="1" dur.ppq="1024" oct="3" pname="b" pnum="59"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-68" dur="1" dur.ppq="1024" oct="4" pname="c" pnum="60"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-69" dur="1" dur.ppq="1024" oct="4" pname="d" pnum="62"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-70" dur="1" dur.ppq="1024" oct="4" pname="d" pnum="62"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-71" dur="1" dur.ppq="1024" oct="3" pname="b" pnum="59"/>
                             </layer>
                         </staff>
                     </measure>
@@ -234,48 +153,13 @@
                         <staff xml:id="Vi_1553_LN1421_079r_m-74" n="1">
                             <layer xml:id="Vi_1553_LN1421_079r_m-75" n="1">
                                 <rest xml:id="Vi_1553_LN1421_079r_m-76" dur="2" dur.ppq="512"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-77"
-                                 dur="2"
-                                 dur.ppq="512"
-                                 oct="3"
-                                 pname="b"
-                                 pnum="59"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-78"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="4"
-                                 pname="e"
-                                 pnum="64"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-79"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="4"
-                                 pname="e"
-                                 pnum="64"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-80"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="4"
-                                 pname="d"
-                                 pnum="62"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-81"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="b"
-                                 pnum="59"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-82"
-                                 dur="breve"
-                                 dur.ppq="2048"
-                                 oct="4"
-                                 pname="c"
-                                 pnum="60"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-83"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="b"
-                                 pnum="59"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-77" dur="2" dur.ppq="512" oct="3" pname="b" pnum="59"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-78" dur="1" dur.ppq="1024" oct="4" pname="e" pnum="64"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-79" dur="1" dur.ppq="1024" oct="4" pname="e" pnum="64"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-80" dur="1" dur.ppq="1024" oct="4" pname="d" pnum="62"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-81" dur="1" dur.ppq="1024" oct="3" pname="b" pnum="59"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-82" dur="breve" dur.ppq="2048" oct="4" pname="c" pnum="60"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-83" dur="1" dur.ppq="1024" oct="3" pname="b" pnum="59"/>
                             </layer>
                         </staff>
                     </measure>
@@ -284,48 +168,13 @@
                         <staff xml:id="Vi_1553_LN1421_079r_m-87" n="1">
                             <layer xml:id="Vi_1553_LN1421_079r_m-88" n="1">
                                 <rest xml:id="Vi_1553_LN1421_079r_m-89" dur="2" dur.ppq="512"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-90"
-                                 dur="2"
-                                 dur.ppq="512"
-                                 oct="3"
-                                 pname="b"
-                                 pnum="59"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-91"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="b"
-                                 pnum="59"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-92"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="g"
-                                 pnum="55"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-93"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="4"
-                                 pname="c"
-                                 pnum="60"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-94"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="b"
-                                 pnum="59"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-95"
-                                 dur="breve"
-                                 dur.ppq="2048"
-                                 oct="3"
-                                 pname="a"
-                                 pnum="57"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-96"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="g"
-                                 pnum="55"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-90" dur="2" dur.ppq="512" oct="3" pname="b" pnum="59"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-91" dur="1" dur.ppq="1024" oct="3" pname="b" pnum="59"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-92" dur="1" dur.ppq="1024" oct="3" pname="g" pnum="55"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-93" dur="1" dur.ppq="1024" oct="4" pname="c" pnum="60"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-94" dur="1" dur.ppq="1024" oct="3" pname="b" pnum="59"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-95" dur="breve" dur.ppq="2048" oct="3" pname="a" pnum="57"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-96" dur="1" dur.ppq="1024" oct="3" pname="g" pnum="55"/>
                             </layer>
                         </staff>
                     </measure>
@@ -334,62 +183,18 @@
                         <staff xml:id="Vi_1553_LN1421_079r_m-99" n="1">
                             <layer xml:id="Vi_1553_LN1421_079r_m-100" n="1">
                                 <rest xml:id="Vi_1553_LN1421_079r_m-101" dur="2" dur.ppq="512"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-102"
-                                 dur="2"
-                                 dur.ppq="512"
-                                 oct="3"
-                                 pname="g"
-                                 pnum="55"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-103"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="4"
-                                 pname="c"
-                                 pnum="60"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-104"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="b"
-                                 pnum="59"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-105"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="g"
-                                 pnum="55"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-102" dur="2" dur.ppq="512" oct="3" pname="g" pnum="55"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-103" dur="1" dur.ppq="1024" oct="4" pname="c" pnum="60"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-104" dur="1" dur.ppq="1024" oct="3" pname="b" pnum="59"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-105" dur="1" dur.ppq="1024" oct="3" pname="g" pnum="55"/>
                                 <rest xml:id="Vi_1553_LN1421_079r_m-106" dur="2" dur.ppq="512"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-107"
-                                 dur="2"
-                                 dur.ppq="512"
-                                 oct="3"
-                                 pname="g"
-                                 pnum="55"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-109"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="a"
-                                 pnum="57"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-110"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="g"
-                                 pnum="55"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-111"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="e"
-                                 pnum="52"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-107" dur="2" dur.ppq="512" oct="3" pname="g" pnum="55"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-109" dur="1" dur.ppq="1024" oct="3" pname="a" pnum="57"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-110" dur="1" dur.ppq="1024" oct="3" pname="g" pnum="55"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-111" dur="1" dur.ppq="1024" oct="3" pname="e" pnum="52"/>
                             </layer>
                         </staff>
-                        <dir type="sb"
-                          tstamp="20"
-                          place="above"
-                          label="Linjeskift"
-                          xml:id="Vi_1553_LN1421_079r_m-108">ǀ</dir>
+                        <dir type="sb" tstamp="20" place="above" label="Linjeskift" xml:id="Vi_1553_LN1421_079r_m-108">ǀ</dir>
                     </measure>
                     <sb xml:id="Vi_1553_LN1421_079r_m-113" label="editorial"/>
                     <measure xml:id="Vi_1553_LN1421_079r_m-112" right="invis">
@@ -399,60 +204,15 @@
                                     <annot xml:id="Vi_1553_LN1421_079r_annot2">pause tilføjet</annot>
                                 </supplied>
                                 <rest xml:id="Vi_1553_LN1421_079r_m-116" dur="2" dur.ppq="512"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-117"
-                                 dur="2"
-                                 dur.ppq="512"
-                                 oct="3"
-                                 pname="b"
-                                 pnum="59"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-118"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="b"
-                                 pnum="59"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-119"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="4"
-                                 pname="c"
-                                 pnum="60"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-120"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="4"
-                                 pname="d"
-                                 pnum="62"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-121"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="4"
-                                 pname="c"
-                                 pnum="60"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-122"
-                                 dur="2"
-                                 dur.ppq="512"
-                                 oct="3"
-                                 pname="b"
-                                 pnum="59"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-123"
-                                 dur="2"
-                                 dur.ppq="512"
-                                 oct="4"
-                                 pname="c"
-                                 pnum="60"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-124"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="a"
-                                 pnum="57"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-125"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="g"
-                                 pnum="55"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-117" dur="2" dur.ppq="512" oct="3" pname="b" pnum="59"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-118" dur="1" dur.ppq="1024" oct="3" pname="b" pnum="59"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-119" dur="1" dur.ppq="1024" oct="4" pname="c" pnum="60"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-120" dur="1" dur.ppq="1024" oct="4" pname="d" pnum="62"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-121" dur="1" dur.ppq="1024" oct="4" pname="c" pnum="60"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-122" dur="2" dur.ppq="512" oct="3" pname="b" pnum="59"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-123" dur="2" dur.ppq="512" oct="4" pname="c" pnum="60"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-124" dur="1" dur.ppq="1024" oct="3" pname="a" pnum="57"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-125" dur="1" dur.ppq="1024" oct="3" pname="g" pnum="55"/>
                             </layer>
                         </staff>
                     </measure>
@@ -462,54 +222,14 @@
                         <staff xml:id="Vi_1553_LN1421_079r_m-128" n="1">
                             <layer xml:id="Vi_1553_LN1421_079r_m-129" n="1">
                                 <rest xml:id="Vi_1553_LN1421_079r_m-130" dur="1" dur.ppq="1024"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-131"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="4"
-                                 pname="c"
-                                 pnum="60"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-132"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="b"
-                                 pnum="59"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-133"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="a"
-                                 pnum="57"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-134"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="e"
-                                 pnum="52"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-135"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="a"
-                                 pnum="57"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-136"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="g"
-                                 pnum="55"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-137"
-                                 dur="breve"
-                                 dur.ppq="2048"
-                                 oct="3"
-                                 pname="f"
-                                 pnum="53"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-138"
-                                 dur="breve"
-                                 dur.ppq="2048"
-                                 oct="3"
-                                 pname="e"
-                                 pnum="52"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-131" dur="1" dur.ppq="1024" oct="4" pname="c" pnum="60"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-132" dur="1" dur.ppq="1024" oct="3" pname="b" pnum="59"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-133" dur="1" dur.ppq="1024" oct="3" pname="a" pnum="57"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-134" dur="1" dur.ppq="1024" oct="3" pname="e" pnum="52"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-135" dur="1" dur.ppq="1024" oct="3" pname="a" pnum="57"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-136" dur="1" dur.ppq="1024" oct="3" pname="g" pnum="55"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-137" dur="breve" dur.ppq="2048" oct="3" pname="f" pnum="53"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-138" dur="breve" dur.ppq="2048" oct="3" pname="e" pnum="52"/>
                             </layer>
                         </staff>
                     </measure>
@@ -519,105 +239,24 @@
                         <staff xml:id="Vi_1553_LN1421_079r_m-142" n="1">
                             <layer xml:id="Vi_1553_LN1421_079r_m-143" n="1">
                                 <rest xml:id="Vi_1553_LN1421_079r_m-144" dur="1" dur.ppq="1024"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-145"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="4"
-                                 pname="e"
-                                 pnum="64"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-146"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="4"
-                                 pname="e"
-                                 pnum="64"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-147"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="4"
-                                 pname="c"
-                                 pnum="60"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-148"
-                                 dur="breve"
-                                 dur.ppq="2048"
-                                 oct="3"
-                                 pname="b"
-                                 pnum="59"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-149"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="e"
-                                 pnum="52"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-150"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="b"
-                                 pnum="59"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-151"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="4"
-                                 pname="c"
-                                 pnum="60"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-152"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="4"
-                                 pname="d"
-                                 pnum="62"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-153"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="4"
-                                 pname="c"
-                                 pnum="60"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-154"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="a"
-                                 pnum="57"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-155"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="g"
-                                 pnum="55"/>
-                           <note xml:id="Vi_1553_LN1421_079r_m-157"
-                                 dur="1"
-                                 dur.ppq="1024"
-                                 oct="3"
-                                 pname="a"
-                                 pnum="57"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-158"
-                                 dur="breve"
-                                 dur.ppq="2048"
-                                 oct="3"
-                                 pname="f"
-                                 pnum="53"/>
-                                <note xml:id="Vi_1553_LN1421_079r_m-159"
-                                 dur="long"
-                                 dur.ppq="4096"
-                                 oct="3"
-                                 pname="e"
-                                 pnum="52"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-145" dur="1" dur.ppq="1024" oct="4" pname="e" pnum="64"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-146" dur="1" dur.ppq="1024" oct="4" pname="e" pnum="64"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-147" dur="1" dur.ppq="1024" oct="4" pname="c" pnum="60"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-148" dur="breve" dur.ppq="2048" oct="3" pname="b" pnum="59"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-149" dur="1" dur.ppq="1024" oct="3" pname="e" pnum="52"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-150" dur="1" dur.ppq="1024" oct="3" pname="b" pnum="59"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-151" dur="1" dur.ppq="1024" oct="4" pname="c" pnum="60"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-152" dur="1" dur.ppq="1024" oct="4" pname="d" pnum="62"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-153" dur="1" dur.ppq="1024" oct="4" pname="c" pnum="60"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-154" dur="1" dur.ppq="1024" oct="3" pname="a" pnum="57"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-155" dur="1" dur.ppq="1024" oct="3" pname="g" pnum="55"/>
+                           <note xml:id="Vi_1553_LN1421_079r_m-157" dur="1" dur.ppq="1024" oct="3" pname="a" pnum="57"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-158" dur="breve" dur.ppq="2048" oct="3" pname="f" pnum="53"/>
+                                <note xml:id="Vi_1553_LN1421_079r_m-159" dur="long" dur.ppq="4096" oct="3" pname="e" pnum="52"/>
                             </layer>
                         </staff>
-                        <fermata xml:id="Vi_1553_LN1421_079r_m-160"
-                              form="norm"
-                              layer="1"
-                              shape="curved"
-                              staff="1"
-                              startid="#Vi_1553_LN1421_079r_m-159"/>
-                    <bracketSpan xml:id="Vi_1553_LN1421_079r_m-156"
-                                  func="ligature"
-                                  startid="#Vi_1553_LN1421_079r_m-155"
-                                  endid="#Vi_1553_LN1421_079r_m-157"
-                                  staff="1"
-                                  lwidth="medium"
-                                  lform="solid"/>
+                        <fermata xml:id="Vi_1553_LN1421_079r_m-160" form="norm" layer="1" shape="curved" staff="1" startid="#Vi_1553_LN1421_079r_m-159"/>
+                    <bracketSpan xml:id="Vi_1553_LN1421_079r_m-156" func="ligature" startid="#Vi_1553_LN1421_079r_m-155" endid="#Vi_1553_LN1421_079r_m-157" staff="1" lwidth="medium" lform="solid"/>
                         <supplied>
                             <annot xml:id="Vi_1553_LN1421_079r_annot3">afsluttende dobbeltstreg tilføjet</annot>
                         </supplied>

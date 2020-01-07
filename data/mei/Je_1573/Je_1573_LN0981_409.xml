@@ -1,200 +1,204 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei"
-     xmlns:xlink="http://www.w3.org/1999/xlink"
-     meiversion="4.0.0"
-     xml:id="Je_1573_LN0981_409_m-1">
-   <meiHead xmlns:xl="http://www.w3.org/1999/xlink" xml:id="meiHead_c868732d">
-      <fileDesc xml:id="fileDesc_fe8fb045">
-         <titleStmt xml:id="titleStmt_6d2aa40d">
-            <title xml:id="title_595e4194">HAleluia. Judicabunt Sancti nationes</title>
-         </titleStmt>
-         <pubStmt xml:id="pubStmt_4d0509d7">
-            <respStmt>
-               <resp xml:id="resp_7acf963c">Publisher</resp>
-               <corpName xml:id="corpName_50994034">
-                  <abbr xml:id="abbr_bc25b994">DSL</abbr>
-                  <expan xml:id="expan_333eb133">Det Danske Sprog- og Litteraturselskab</expan>
-                  <address xml:id="address_981f5709">
-                     <addrLine xml:id="addrLine_f84a5f0d">Christians Brygge 1</addrLine>
-                     <addrLine xml:id="addrLine_4f346de0">1219 København K</addrLine>
-                     <addrLine xml:id="addrLine_ea8c2ffe">
-                        <ptr label="WWW" target="https://dsl.dk" xml:id="ptr_N20262"/>
-                     </addrLine>
-                     <addrLine xml:id="addrLine_be797d13">
-                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="ptr_N20270"/>
-                     </addrLine>
-                  </address>
-               </corpName>
-               <persName role="editor" xml:id="persName_04a3e6c5">Bjarke Moe</persName>
-               <persName role="data manager" xml:id="persName_d1e8">Axel Teich Geertinger</persName>
-            </respStmt>
-         </pubStmt>
-         <seriesStmt xml:id="seriesStmt_4e95e1f2">
-            <title xml:id="title_2b64ac41">Musik og sprog i reformationstidens danske salmesang</title>
-            <identifier type="file_collection" xml:id="identifier_bf04bf92">RefSal</identifier>
-         </seriesStmt>
-      </fileDesc>
-      <encodingDesc xml:id="encodingDesc_74b45df4">
-         <appInfo xml:id="appInfo_58ad575f">
-            <application version="6.2" xml:id="application_d1e36">
-               <name>Sibelius</name>
-            </application>
-            <application version="2.1.0 modified for Sibelius 6" xml:id="application_2d1e36">
-               <name>SibMEI</name>
-            </application>
-            <application version="2013" xml:id="application_c5741c94">
-               <name xml:id="name_d7506f20">MerMEId</name>
-            </application>
-         </appInfo>
-      </encodingDesc>
-      <workList xml:id="workDesc_d8d806ba">
-         <work xml:id="work_7327e799">
-            <identifier label="RefSal" xml:id="identifier_036d65f5">Je 409</identifier>
-            <identifier label="LU" xml:id="identifier_5767dd5f">1712</identifier>
-            <title xml:id="title_da962e98" xml:lang="la">HAleluia. Judicabunt Sancti nationes</title>
-            <contributor xml:id="respStmt_5577b899">
-               <persName auth.uri="http://www.viaf.org" auth="VIAF" codedval="41412249" role="collector"
-                         xml:id="persName_5eb47039">Niels Jesperssøn</persName>
-            </contributor>
-            <history xml:id="history_44436885">
-               <p/>
-            </history>
-            <langUsage xml:id="langUsage_f10dda89">
-               <language xml:id="la">Latin</language>
-               <language xml:id="en">English</language>
-            </langUsage>
-            <expressionList xml:id="expressionList_6a472619">
-               <expression xml:id="expression_13de6575">
-                  <title xml:id="title_3221f463" xml:lang="en"/>
-                  <history xml:id="history_a2c15376">
-                     <p/>
-                  </history>
-                  <perfMedium analog="marc:048" auth="marcmusperf" xml:id="perfMedium_4cb44b2d"/>
-               </expression>
-            </expressionList>
-            <relationList xml:id="relationList_82890f7b">
-               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf"
-                         target="Je_1573/Je_1573_LN0981.xml"
-                         xml:id="relation_4c78148e"/>
-            </relationList>
-         </work>
-      </workList>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="Je_1573_LN0981_409_m-1">
+<meiHead xml:id="Je_1573_LN0981_409_meiHead_c868732d">
+      <fileDesc xml:id="Je_1573_LN0981_409_fileDesc_fe8fb045">
+<titleStmt xml:id="Je_1573_LN0981_409_titleStmt_6d2aa40d">
+<title xml:id="Je_1573_LN0981_409_title_595e4194">HAleluia. Judicabunt Sancti nationes</title>
+</titleStmt>
+<pubStmt xml:id="Je_1573_LN0981_409_pubStmt_4d0509d7">
+<respStmt>
+<resp xml:id="Je_1573_LN0981_409_resp_7acf963c">Publisher</resp>
+<corpName xml:id="Je_1573_LN0981_409_corpName_50994034">
+<abbr xml:id="Je_1573_LN0981_409_abbr_bc25b994">DSL</abbr>
+<expan xml:id="Je_1573_LN0981_409_expan_333eb133" xml:lang="da">Det Danske Sprog- og Litteraturselskab</expan>
+<expan xml:lang="en" xml:id="Je_1573_LN0981_409_expan_c9ca9365b">Society for Danish Language and Literature</expan>
+<address xml:id="Je_1573_LN0981_409_address_981f5709">
+<addrLine xml:id="Je_1573_LN0981_409_addrLine_f84a5f0d">Christians Brygge 1</addrLine>
+<addrLine xml:id="Je_1573_LN0981_409_addrLine_4f346de0">1219 København K</addrLine>
+<addrLine xml:id="Je_1573_LN0981_409_addrLine_ea8c2ffe">
+<ptr label="WWW" target="https://dsl.dk" xml:id="Je_1573_LN0981_409_ptr_N20262"/>
+</addrLine>
+<addrLine xml:id="Je_1573_LN0981_409_addrLine_be797d13">
+<ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="Je_1573_LN0981_409_ptr_N20270"/>
+</addrLine>
+</address>
+</corpName>
+<persName role="editor" xml:id="Je_1573_LN0981_409_persName_04a3e6c5">Bjarke Moe</persName>
+<persName role="data manager" xml:id="Je_1573_LN0981_409_persName_d1e8">Axel Teich Geertinger</persName>
+<persName xml:id="Je_1573_LN0981_409_persName_6632134a" role="project director">Marita Akhøj Nielsen</persName>
+</respStmt>
+</pubStmt>
+<seriesStmt xml:id="Je_1573_LN0981_409_seriesStmt_4e95e1f2">
+<title xml:id="Je_1573_LN0981_409_title_2b64ac41">Musik og sprog i reformationstidens danske salmesang</title>
+<identifier type="file_collection" xml:id="Je_1573_LN0981_409_identifier_bf04bf92">RefSal</identifier>
+</seriesStmt>
+</fileDesc>
+      <encodingDesc xml:id="Je_1573_LN0981_409_encodingDesc_74b45df4">
+<appInfo xml:id="Je_1573_LN0981_409_appInfo_58ad575f">
+<application version="6.2" xml:id="Je_1573_LN0981_409_application_d1e36">
+<name>Sibelius</name>
+</application>
+<application version="2.1.0 modified for Sibelius 6" xml:id="Je_1573_LN0981_409_application_2d1e36">
+<name>SibMEI</name>
+</application>
+<application version="2013" xml:id="Je_1573_LN0981_409_application_c5741c94">
+<name xml:id="Je_1573_LN0981_409_name_d7506f20">MerMEId</name>
+</application>
+</appInfo>
+</encodingDesc>
+      <workList xml:id="Je_1573_LN0981_409_workDesc_d8d806ba">
+<work xml:id="Je_1573_LN0981_409_work_7327e799">
+<identifier label="RefSal" xml:id="Je_1573_LN0981_409_identifier_036d65f5">Je 409</identifier>
+<identifier label="LU" xml:id="Je_1573_LN0981_409_identifier_5767dd5f">1712</identifier>
+<title xml:id="Je_1573_LN0981_409_title_da962e98" xml:lang="la">HAleluia. Judicabunt Sancti nationes</title>
+<contributor xml:id="Je_1573_LN0981_409_respStmt_5577b899">
+<persName auth.uri="http://www.viaf.org" auth="VIAF" codedval="41412249" role="collector" xml:id="Je_1573_LN0981_409_persName_5eb47039">Niels Jesperssøn</persName>
+</contributor>
+<history xml:id="Je_1573_LN0981_409_history_44436885">
+<p/>
+</history>
+<langUsage xml:id="Je_1573_LN0981_409_langUsage_f10dda89">
+<language xml:id="la">Latin</language>
+<language xml:id="en">English</language>
+</langUsage>
+<expressionList xml:id="Je_1573_LN0981_409_expressionList_6a472619">
+<expression xml:id="Je_1573_LN0981_409_expression_13de6575">
+<title xml:id="Je_1573_LN0981_409_title_3221f463" xml:lang="en">HAle</title>
+<history xml:id="Je_1573_LN0981_409_history_a2c15376">
+<p/>
+</history>
+<perfMedium analog="marc:048" auth="marcmusperf" xml:id="Je_1573_LN0981_409_perfMedium_4cb44b2d"/>
+</expression>
+</expressionList>
+<relationList xml:id="Je_1573_LN0981_409_relationList_82890f7b">
+<relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf" target="Je_1573/Je_1573_LN0981.xml" xml:id="Je_1573_LN0981_409_relation_4c78148e"/>
+</relationList>
+<classification xml:id="Je_1573_LN0981_409_classification_81a43c49">
+<termList xml:id="Je_1573_LN0981_409_termList_ab4fb67c"/>
+</classification>
+</work>
+</workList>
       <revisionDesc>
-         <change isodate="2017-08-03" xml:id="change_109N100C9">
-            <respStmt xml:id="respStmt_4348a9bb">
-               <name xml:id="resp_0f646e96">bmoe</name>
-            </respStmt>
-            <changeDesc xml:id="changeDesc_70eeb12d">
-               <p xml:id="p_37983c79"/>
-            </changeDesc>
-         </change>
-         <change isodate="2017-09-06" xml:id="change_122N10109">
-            <respStmt xml:id="respStmt_0aa5106b">
-               <name xml:id="resp_b910906b">bmoe</name>
-            </respStmt>
-            <changeDesc xml:id="changeDesc_89933004">
-               <p xml:id="p_a545aedf"/>
-            </changeDesc>
-         </change>
-         <change isodate="2017-10-11T13:41:22.236Z" xml:id="change_118N100F5">
-            <respStmt xml:id="respStmt_92cc0998">
-               <name xml:id="resp_73913e11">bmoe</name>
-            </respStmt>
-            <changeDesc xml:id="changeDesc_61af45d0">
-               <p xml:id="p_8c01ff89"/>
-            </changeDesc>
-         </change>
-         <change isodate="2017-12-20T08:49:37+01:00" xml:id="change_116N100C1">
-            <respStmt xml:id="respStmt_b8a89046">
-               <name xml:id="resp_164d0c85">MerMEId</name>
-            </respStmt>
-            <changeDesc xml:id="changeDesc_e00352b2">
-               <p xml:id="p_cf9a4312">Batch transformation removing empty elements and udpdating mail address</p>
-            </changeDesc>
-         </change>
-         <change isodate="2019-07-09T12:10:51.586Z" xml:id="change_94N100B5">
-            <respStmt xml:id="respStmt_6696c8a0">
-               <name xml:id="resp_15131455">bmoe</name>
-            </respStmt>
-            <changeDesc xml:id="changeDesc_8299adb7">
-               <p xml:id="p_4f0d19fb"/>
-            </changeDesc>
-         </change>
-         <change isodate="2019-07-09T15:03:27.215Z" xml:id="change_93a0212e-9679">
-            <respStmt xml:id="respStmt_452d0b87">
-               <name xml:id="resp_e46a7418">MerMEId user</name>
-            </respStmt>
-            <changeDesc xml:id="changeDesc_a0e3ec0c-a19b">
-               <p xml:id="p_5c1e5526">file renamed from 3888b684-ab96-4125-853d-be1cc82cbba2.xml to Je_1573_LN0981_409.xml</p>
-            </changeDesc>
-         </change>
-         <change isodate="2019-07-10T13:52:32.778Z" xml:id="change_e768c898-4612">
-            <respStmt xml:id="respStmt_b390ca03">
-               <name xml:id="resp_81d89916">MerMEId</name>
-            </respStmt>
-            <changeDesc xml:id="changeDesc_0ef4a60a-ef92">
-               <p xml:id="p_cd708498">file reference updated (a file was renamed from d4f1477b-c1ae-40f7-b4e6-2d0150b3ddaf.xml to Je_1573_LN0981.xml)</p>
-            </changeDesc>
-         </change>
-         <change isodate="2019-07-10T13:27:08.989Z" xml:id="change_510a7e41">
-            <respStmt>
-               <name>bmoe</name>
-            </respStmt>
-            <changeDesc xml:id="changeDesc_c36b792f">
-               <p xml:id="p_3dfe0797"/>
-            </changeDesc>
-         </change>
-         <change isodate="2019-07-23T15:15:02.851+02:00" xml:id="change_110d1e87">
-            <respStmt>
-               <name>atge</name>
-            </respStmt>
-            <changeDesc>
-               <p>Transform from MEI 3.0.0 to 4.0.0</p>
-            </changeDesc>
-         </change>
-         <change isodate="2019-07-23T16:01:39.067+02:00" xml:id="change_115d1e87">
-            <respStmt>
-               <name>atge</name>
-            </respStmt>
-            <changeDesc>
-               <p>Update project metadata</p>
-            </changeDesc>
-         </change>
-         <change isodate="2019-07-24T10:13:58.351+02:00" xml:id="change_101d2e70">
-            <respStmt>
-               <name>atge</name>
-            </respStmt>
-            <changeDesc>
-               <p>Merge data and metadata</p>
-            </changeDesc>
-         </change>
-         <change isodate="2019-07-24T11:55:27.716+02:00" xml:id="change_470d1e71">
-            <respStmt>
-               <name>atge</name>
-            </respStmt>
-            <changeDesc>
-               <p>Add directory name to relations and references</p>
-            </changeDesc>
-         </change>
-         <change isodate="2019-07-25T12:18:02.031+02:00" xml:id="change_111d2e70">
-            <respStmt>
-               <name>atge</name>
-            </respStmt>
-            <changeDesc>
-               <p>Update music from filebase</p>
-            </changeDesc>
-         </change>
-      </revisionDesc>
+<change isodate="2017-08-03" xml:id="Je_1573_LN0981_409_change_109N100C9">
+<respStmt xml:id="Je_1573_LN0981_409_respStmt_4348a9bb">
+<name xml:id="Je_1573_LN0981_409_resp_0f646e96">bmoe</name>
+</respStmt>
+<changeDesc xml:id="Je_1573_LN0981_409_changeDesc_70eeb12d">
+<p xml:id="Je_1573_LN0981_409_p_37983c79"/>
+</changeDesc>
+</change>
+<change isodate="2017-09-06" xml:id="Je_1573_LN0981_409_change_122N10109">
+<respStmt xml:id="Je_1573_LN0981_409_respStmt_0aa5106b">
+<name xml:id="Je_1573_LN0981_409_resp_b910906b">bmoe</name>
+</respStmt>
+<changeDesc xml:id="Je_1573_LN0981_409_changeDesc_89933004">
+<p xml:id="Je_1573_LN0981_409_p_a545aedf"/>
+</changeDesc>
+</change>
+<change isodate="2017-10-11T13:41:22.236Z" xml:id="Je_1573_LN0981_409_change_118N100F5">
+<respStmt xml:id="Je_1573_LN0981_409_respStmt_92cc0998">
+<name xml:id="Je_1573_LN0981_409_resp_73913e11">bmoe</name>
+</respStmt>
+<changeDesc xml:id="Je_1573_LN0981_409_changeDesc_61af45d0">
+<p xml:id="Je_1573_LN0981_409_p_8c01ff89"/>
+</changeDesc>
+</change>
+<change isodate="2017-12-20T08:49:37+01:00" xml:id="Je_1573_LN0981_409_change_116N100C1">
+<respStmt xml:id="Je_1573_LN0981_409_respStmt_b8a89046">
+<name xml:id="Je_1573_LN0981_409_resp_164d0c85">MerMEId</name>
+</respStmt>
+<changeDesc xml:id="Je_1573_LN0981_409_changeDesc_e00352b2">
+<p xml:id="Je_1573_LN0981_409_p_cf9a4312">Batch transformation removing empty elements and udpdating mail address</p>
+</changeDesc>
+</change>
+<change isodate="2019-07-09T12:10:51.586Z" xml:id="Je_1573_LN0981_409_change_94N100B5">
+<respStmt xml:id="Je_1573_LN0981_409_respStmt_6696c8a0">
+<name xml:id="Je_1573_LN0981_409_resp_15131455">bmoe</name>
+</respStmt>
+<changeDesc xml:id="Je_1573_LN0981_409_changeDesc_8299adb7">
+<p xml:id="Je_1573_LN0981_409_p_4f0d19fb"/>
+</changeDesc>
+</change>
+<change isodate="2019-07-09T15:03:27.215Z" xml:id="Je_1573_LN0981_409_change_93a0212e-9679">
+<respStmt xml:id="Je_1573_LN0981_409_respStmt_452d0b87">
+<name xml:id="Je_1573_LN0981_409_resp_e46a7418">MerMEId user</name>
+</respStmt>
+<changeDesc xml:id="Je_1573_LN0981_409_changeDesc_a0e3ec0c-a19b">
+<p xml:id="Je_1573_LN0981_409_p_5c1e5526">file renamed from 3888b684-ab96-4125-853d-be1cc82cbba2.xml to Je_1573_LN0981_409.xml</p>
+</changeDesc>
+</change>
+<change isodate="2019-07-10T13:52:32.778Z" xml:id="Je_1573_LN0981_409_change_e768c898-4612">
+<respStmt xml:id="Je_1573_LN0981_409_respStmt_b390ca03">
+<name xml:id="Je_1573_LN0981_409_resp_81d89916">MerMEId</name>
+</respStmt>
+<changeDesc xml:id="Je_1573_LN0981_409_changeDesc_0ef4a60a-ef92">
+<p xml:id="Je_1573_LN0981_409_p_cd708498">file reference updated (a file was renamed from d4f1477b-c1ae-40f7-b4e6-2d0150b3ddaf.xml to Je_1573_LN0981.xml)</p>
+</changeDesc>
+</change>
+<change isodate="2019-07-10T13:27:08.989Z" xml:id="Je_1573_LN0981_409_change_510a7e41">
+<respStmt>
+<name>bmoe</name>
+</respStmt>
+<changeDesc xml:id="Je_1573_LN0981_409_changeDesc_c36b792f">
+<p xml:id="Je_1573_LN0981_409_p_3dfe0797"/>
+</changeDesc>
+</change>
+<change isodate="2019-07-23T15:15:02.851+02:00" xml:id="Je_1573_LN0981_409_change_110d1e87">
+<respStmt>
+<name>atge</name>
+</respStmt>
+<changeDesc>
+<p>Transform from MEI 3.0.0 to 4.0.0</p>
+</changeDesc>
+</change>
+<change isodate="2019-07-23T16:01:39.067+02:00" xml:id="Je_1573_LN0981_409_change_115d1e87">
+<respStmt>
+<name>atge</name>
+</respStmt>
+<changeDesc>
+<p>Update project metadata</p>
+</changeDesc>
+</change>
+<change isodate="2019-07-24T10:13:58.351+02:00" xml:id="Je_1573_LN0981_409_change_101d2e70">
+<respStmt>
+<name>atge</name>
+</respStmt>
+<changeDesc>
+<p>Merge data and metadata</p>
+</changeDesc>
+</change>
+<change isodate="2019-07-24T11:55:27.716+02:00" xml:id="Je_1573_LN0981_409_change_470d1e71">
+<respStmt>
+<name>atge</name>
+</respStmt>
+<changeDesc>
+<p>Add directory name to relations and references</p>
+</changeDesc>
+</change>
+<change isodate="2019-07-25T12:18:02.031+02:00" xml:id="Je_1573_LN0981_409_change_111d2e70">
+<respStmt>
+<name>atge</name>
+</respStmt>
+<changeDesc>
+<p>Update music from filebase</p>
+</changeDesc>
+</change>
+<change xml:id="Je_1573_LN0981_409_change_196d2e151" isodate="2020-01-07T12:25:05.185+02:00">
+<respStmt>
+<name>atge</name>
+</respStmt>
+<changeDesc>
+<p>Supplied additional metadata</p>
+</changeDesc>
+</change>
+</revisionDesc>
    </meiHead>
-   <music xml:id="Je_1573_LN0981_409_m-22">
+<music xml:id="Je_1573_LN0981_409_m-22">
       <body xml:id="Je_1573_LN0981_409_m-23">
          <mdiv xml:id="Je_1573_LN0981_409_m-24">
             <score xml:id="Je_1573_LN0981_409_m-25">
                <scoreDef xml:id="Je_1573_LN0981_409_m-26">
                   <staffGrp xml:id="Je_1573_LN0981_409_m-27">
-                     <staffDef xml:id="Je_1573_LN0981_409_m-28" clef.line="5" clef.shape="C" key.sig="0"
-                               lines="5"
-                               n="1"/>
+                     <staffDef xml:id="Je_1573_LN0981_409_m-28" clef.line="5" clef.shape="C" key.sig="0" lines="5" n="1"/>
                   </staffGrp>
                </scoreDef>
                <section xml:id="Je_1573_LN0981_409_m-31">
@@ -205,7 +209,7 @@
                            <verse xml:id="Je_1573_LN0981_409_m-64" n="1">
                               <syl xml:id="Je_1573_LN0981_409_m-65" con="d" wordpos="i">HA</syl>
                            </verse>
-                           <neume xml:id="neume_d3e87">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e87">
                               <nc xml:id="Je_1573_LN0981_409_m-36" oct="3" pname="d" pnum="50" label="dur4"/>
                            </neume>
                         </syllable>
@@ -213,20 +217,20 @@
                            <verse xml:id="Je_1573_LN0981_409_m-66" n="1">
                               <syl xml:id="Je_1573_LN0981_409_m-67" con="d" wordpos="m">le</syl>
                            </verse>
-                           <neume xml:id="neume_d3e96">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e96">
                               <nc xml:id="Je_1573_LN0981_409_m-38" oct="3" pname="e" pnum="52" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-39" oct="3" pname="g" pnum="55" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-40" oct="3" pname="e" pnum="52" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-41" oct="3" pname="c" pnum="48" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-42" oct="3" pname="d" pnum="50" label="dur4"/>
                            </neume>
-                           <neume xml:id="neume_d3e114">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e114">
                               <nc xml:id="Je_1573_LN0981_409_m-44" oct="3" pname="e" pnum="52" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-45" oct="3" pname="g" pnum="55" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-46" oct="3" pname="e" pnum="52" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-47" oct="3" pname="d" pnum="50" label="dur4"/>
                            </neume>
-                           <neume xml:id="neume_d3e122">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e122">
                               <nc xml:id="Je_1573_LN0981_409_m-49" oct="3" pname="e" pnum="52" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-50" oct="3" pname="f" pnum="53" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-51" oct="3" pname="e" pnum="52" label="dur4"/>
@@ -234,8 +238,7 @@
                            </neume>
                         </syllable>
                      </layer>
-                     <dir type="pb" tstamp="14.75" place="above" label="Sideskift"
-                          xml:id="Je_1573_LN0981_409_m-53">ǁ</dir>
+                     <dir type="pb" tstamp="14.75" place="above" label="Sideskift" xml:id="Je_1573_LN0981_409_m-53">ǁ</dir>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_409_m-55" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_409_m-56" n="1">
@@ -244,7 +247,7 @@
                            <verse xml:id="Je_1573_LN0981_409_m-68" n="1">
                               <syl xml:id="Je_1573_LN0981_409_m-69" con="d" wordpos="m">lu</syl>
                            </verse>
-                           <neume xml:id="neume_d3e152">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e152">
                               <nc xml:id="Je_1573_LN0981_409_m-59" oct="3" pname="d" pnum="50" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-60" oct="2" pname="b" pnum="47" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-61" oct="3" pname="c" pnum="48" label="dur4"/>
@@ -254,12 +257,11 @@
                            <verse xml:id="Je_1573_LN0981_409_m-70" n="1">
                               <syl xml:id="Je_1573_LN0981_409_m-71" wordpos="t">ia.</syl>
                            </verse>
-                           <neume xml:id="neume_d3e165">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e165">
                               <nc xml:id="Je_1573_LN0981_409_m-62" oct="3" pname="d" pnum="50" label="durlong"/>
                            </neume>
                         </syllable>
-                        <fermata xml:id="Je_1573_LN0981_409_m-63" form="norm" layer="1" shape="curved" staff="1"
-                                 startid="#Je_1573_LN0981_409_m-62"/>
+                        <fermata xml:id="Je_1573_LN0981_409_m-63" form="norm" layer="1" shape="curved" staff="1" startid="#Je_1573_LN0981_409_m-62"/>
                         <barLine form="single"/>
                      </layer>
                   </staff>
@@ -269,7 +271,7 @@
                            <verse xml:id="Je_1573_LN0981_409_m-95" n="1">
                               <syl xml:id="Je_1573_LN0981_409_m-96" con="d" wordpos="i">Ju</syl>
                            </verse>
-                           <neume xml:id="neume_d3e190">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e190">
                               <nc xml:id="Je_1573_LN0981_409_m-76" oct="3" pname="d" pnum="50" label="dur4"/>
                            </neume>
                         </syllable>
@@ -277,7 +279,7 @@
                            <verse xml:id="Je_1573_LN0981_409_m-97" n="1">
                               <syl xml:id="Je_1573_LN0981_409_m-98" con="d" wordpos="m">di</syl>
                            </verse>
-                           <neume xml:id="neume_d3e199">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e199">
                               <nc xml:id="Je_1573_LN0981_409_m-78" oct="3" pname="c" pnum="48" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-79" oct="3" pname="d" pnum="50" label="dur4"/>
                            </neume>
@@ -286,13 +288,13 @@
                            <verse xml:id="Je_1573_LN0981_409_m-99" n="1">
                               <syl xml:id="Je_1573_LN0981_409_m-100" con="d" wordpos="m">ca</syl>
                            </verse>
-                           <neume xml:id="neume_d3e210">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e210">
                               <nc xml:id="Je_1573_LN0981_409_m-81" oct="3" pname="d" pnum="50" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-82" oct="3" pname="f" pnum="53" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-83" oct="3" pname="d" pnum="50" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-84" oct="3" pname="c" pnum="48" label="dur4"/>
                            </neume>
-                           <neume xml:id="neume_d3e226">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e226">
                               <nc xml:id="Je_1573_LN0981_409_m-86" oct="3" pname="e" pnum="52" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-87" oct="3" pname="f" pnum="53" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-88" oct="3" pname="g" pnum="55" label="dur4"/>
@@ -306,13 +308,12 @@
                            <verse xml:id="Je_1573_LN0981_409_m-101" n="1">
                               <syl xml:id="Je_1573_LN0981_409_m-102" wordpos="t">bunt</syl>
                            </verse>
-                           <neume xml:id="neume_d3e241">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e241">
                               <nc xml:id="Je_1573_LN0981_409_m-93" oct="3" pname="d" pnum="50" label="dur4"/>
                            </neume>
                         </syllable>
                      </layer>
-                     <dir type="sb" tstamp="15.75" place="above" label="Linjeskift"
-                          xml:id="Je_1573_LN0981_409_m-94">ǀ</dir>
+                     <dir type="sb" tstamp="15.75" place="above" label="Linjeskift" xml:id="Je_1573_LN0981_409_m-94">ǀ</dir>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_409_m-105" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_409_m-106" n="1">
@@ -321,7 +322,7 @@
                            <verse xml:id="Je_1573_LN0981_409_m-137" n="1">
                               <syl xml:id="Je_1573_LN0981_409_m-138" con="d" wordpos="i">Sanc</syl>
                            </verse>
-                           <neume xml:id="neume_d3e271">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e271">
                               <nc xml:id="Je_1573_LN0981_409_m-109" oct="3" pname="d" pnum="50" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-110" oct="2" pname="b" pnum="47" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-111" oct="3" pname="c" pnum="48" label="dur4"/>
@@ -332,7 +333,7 @@
                            <verse xml:id="Je_1573_LN0981_409_m-139" n="1">
                               <syl xml:id="Je_1573_LN0981_409_m-140" wordpos="t">ti</syl>
                            </verse>
-                           <neume xml:id="neume_d3e286">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e286">
                               <nc xml:id="Je_1573_LN0981_409_m-113" oct="3" pname="d" pnum="50" label="dur4"/>
                            </neume>
                         </syllable>
@@ -340,7 +341,7 @@
                            <verse xml:id="Je_1573_LN0981_409_m-141" n="1">
                               <syl xml:id="Je_1573_LN0981_409_m-142" con="d" wordpos="i">na</syl>
                            </verse>
-                           <neume xml:id="neume_d3e296">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e296">
                               <nc xml:id="Je_1573_LN0981_409_m-114" oct="3" pname="d" pnum="50" label="dur4"/>
                            </neume>
                         </syllable>
@@ -348,7 +349,7 @@
                            <verse xml:id="Je_1573_LN0981_409_m-143" n="1">
                               <syl xml:id="Je_1573_LN0981_409_m-144" con="d" wordpos="m">ti</syl>
                            </verse>
-                           <neume xml:id="neume_d3e305">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e305">
                               <nc xml:id="Je_1573_LN0981_409_m-116" oct="3" pname="d" pnum="50" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-117" oct="3" pname="a" pnum="57" label="dur4"/>
                            </neume>
@@ -359,20 +360,19 @@
                            </verse>
                            <reg>
                               <annot xml:id="Je_1573_LN0981_409_annot2">♭ før ligaturen flyttet til før h</annot>
-                              <neume xml:id="neume_d3e316">
+                              <neume xml:id="Je_1573_LN0981_409_neume_d3e316">
                               <nc xml:id="Je_1573_LN0981_409_m-119" oct="3" pname="g" pnum="55" label="dur4"/>
-                              <nc xml:id="Je_1573_LN0981_409_m-120" oct="3" pname="b" pnum="58" accid="f"
-                                  label="dur4"/>
+                              <nc xml:id="Je_1573_LN0981_409_m-120" oct="3" pname="b" pnum="58" accid="f" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-122" oct="3" pname="a" pnum="57" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-123" oct="3" pname="g" pnum="55" label="dur4"/>
                            </neume>
                            </reg>
-                           <neume xml:id="neume_d3e335">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e335">
                               <nc xml:id="Je_1573_LN0981_409_m-125" oct="3" pname="a" pnum="57" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-126" oct="3" pname="g" pnum="55" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-127" oct="3" pname="e" pnum="52" label="dur4"/>
                            </neume>
-                           <neume xml:id="neume_d3e341">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e341">
                               <nc xml:id="Je_1573_LN0981_409_m-129" oct="3" pname="f" pnum="53" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-130" oct="3" pname="e" pnum="52" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-131" oct="3" pname="d" pnum="50" label="dur4"/>
@@ -382,21 +382,20 @@
                            <verse xml:id="Je_1573_LN0981_409_m-147" n="1">
                               <syl xml:id="Je_1573_LN0981_409_m-148" wordpos="t">nes,</syl>
                            </verse>
-                           <neume xml:id="neume_d3e348">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e348">
                               <nc xml:id="Je_1573_LN0981_409_m-133" oct="3" pname="d" pnum="50" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-134" oct="3" pname="f" pnum="53" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-135" oct="3" pname="d" pnum="50" label="dur4"/>
                            </neume>
                         </syllable>
                      </layer>
-                     <dir type="sb" tstamp="21.75" place="above" label="Linjeskift"
-                          xml:id="Je_1573_LN0981_409_m-136">ǀ</dir>
+                     <dir type="sb" tstamp="21.75" place="above" label="Linjeskift" xml:id="Je_1573_LN0981_409_m-136">ǀ</dir>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_409_m-151" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_409_m-152" n="1">
                      <layer xml:id="Je_1573_LN0981_409_m-153" n="1">
-                        <syllable xml:id="_syl">
-                           <neume xml:id="neume_d3e390">
+                        <syllable xml:id="Je_1573_LN0981_409__syl">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e390">
                               <nc xml:id="Je_1573_LN0981_409_m-155" oct="3" pname="d" pnum="50" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-156" oct="3" pname="c" pnum="48" label="dur4"/>
                            </neume>
@@ -405,7 +404,7 @@
                            <verse xml:id="Je_1573_LN0981_409_m-180" n="1">
                               <syl xml:id="Je_1573_LN0981_409_m-181" wordpos="i">et</syl>
                            </verse>
-                           <neume xml:id="neume_d3e394">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e394">
                               <nc xml:id="Je_1573_LN0981_409_m-157" oct="3" pname="d" pnum="50" label="dur4"/>
                            </neume>
                         </syllable>
@@ -413,7 +412,7 @@
                            <verse xml:id="Je_1573_LN0981_409_m-182" n="1">
                               <syl xml:id="Je_1573_LN0981_409_m-183" con="d" wordpos="i">do</syl>
                            </verse>
-                           <neume xml:id="neume_d3e403">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e403">
                               <nc xml:id="Je_1573_LN0981_409_m-158" oct="3" pname="d" pnum="50" label="dur4"/>
                            </neume>
                         </syllable>
@@ -421,7 +420,7 @@
                            <verse xml:id="Je_1573_LN0981_409_m-184" n="1">
                               <syl xml:id="Je_1573_LN0981_409_m-185" con="d" wordpos="m">mi</syl>
                            </verse>
-                           <neume xml:id="neume_d3e412">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e412">
                               <nc xml:id="Je_1573_LN0981_409_m-160" oct="3" pname="f" pnum="53" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-161" oct="3" pname="e" pnum="52" label="dur4"/>
                            </neume>
@@ -430,7 +429,7 @@
                            <verse xml:id="Je_1573_LN0981_409_m-186" n="1">
                               <syl xml:id="Je_1573_LN0981_409_m-187" con="d" wordpos="m">na</syl>
                            </verse>
-                           <neume xml:id="neume_d3e424">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e424">
                               <nc xml:id="Je_1573_LN0981_409_m-163" oct="3" pname="f" pnum="53" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-164" oct="3" pname="g" pnum="55" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-165" oct="3" pname="a" pnum="57" label="dur4"/>
@@ -440,7 +439,7 @@
                            <verse xml:id="Je_1573_LN0981_409_m-188" n="1">
                               <syl xml:id="Je_1573_LN0981_409_m-189" con="d" wordpos="m">bun</syl>
                            </verse>
-                           <neume xml:id="neume_d3e437">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e437">
                               <nc xml:id="Je_1573_LN0981_409_m-167" oct="3" pname="f" pnum="53" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-168" oct="3" pname="e" pnum="52" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-169" oct="3" pname="d" pnum="50" label="dur4"/>
@@ -450,7 +449,7 @@
                            <verse xml:id="Je_1573_LN0981_409_m-190" n="1">
                               <syl xml:id="Je_1573_LN0981_409_m-191" wordpos="t">tur</syl>
                            </verse>
-                           <neume xml:id="neume_d3e451">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e451">
                               <nc xml:id="Je_1573_LN0981_409_m-171" oct="3" pname="d" pnum="50" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-172" oct="3" pname="f" pnum="53" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-173" oct="3" pname="g" pnum="55" label="dur4"/>
@@ -460,7 +459,7 @@
                            <verse xml:id="Je_1573_LN0981_409_m-222" n="1">
                               <syl xml:id="Je_1573_LN0981_409_m-223" con="d" wordpos="i">po</syl>
                            </verse>
-                           <neume xml:id="neume_d3e464">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e464">
                               <nc xml:id="Je_1573_LN0981_409_m-175" oct="3" pname="e" pnum="52" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-176" oct="3" pname="d" pnum="50" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-177" oct="3" pname="f" pnum="53" label="dur4"/>
@@ -468,8 +467,7 @@
                            </neume>
                         </syllable>
                      </layer>
-                     <dir type="sb" tstamp="19.75" place="above" label="Linjeskift"
-                          xml:id="Je_1573_LN0981_409_m-179">ǀ</dir>
+                     <dir type="sb" tstamp="19.75" place="above" label="Linjeskift" xml:id="Je_1573_LN0981_409_m-179">ǀ</dir>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_409_m-194" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_409_m-195" n="1">
@@ -478,7 +476,7 @@
                            <verse xml:id="Je_1573_LN0981_409_m-224" n="1">
                               <syl xml:id="Je_1573_LN0981_409_m-225" con="d" wordpos="m">pu</syl>
                            </verse>
-                           <neume xml:id="neume_d3e508">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e508">
                               <nc xml:id="Je_1573_LN0981_409_m-198" oct="3" pname="c" pnum="48" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-199" oct="3" pname="d" pnum="50" label="dur4"/>
                            </neume>
@@ -487,7 +485,7 @@
                            <verse xml:id="Je_1573_LN0981_409_m-226" n="1">
                               <syl xml:id="Je_1573_LN0981_409_m-227" wordpos="t">lis,</syl>
                            </verse>
-                           <neume xml:id="neume_d3e519">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e519">
                               <nc xml:id="Je_1573_LN0981_409_m-200" oct="3" pname="d" pnum="50" label="dur4"/>
                            </neume>
                         </syllable>
@@ -495,7 +493,7 @@
                            <verse xml:id="Je_1573_LN0981_409_m-228" n="1">
                               <syl xml:id="Je_1573_LN0981_409_m-229" wordpos="i">et</syl>
                            </verse>
-                           <neume xml:id="neume_d3e528">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e528">
                               <nc xml:id="Je_1573_LN0981_409_m-201" oct="3" pname="c" pnum="48" label="dur4"/>
                            </neume>
                         </syllable>
@@ -503,7 +501,7 @@
                            <verse xml:id="Je_1573_LN0981_409_m-230" n="1">
                               <syl xml:id="Je_1573_LN0981_409_m-231" con="d" wordpos="i">reg</syl>
                            </verse>
-                           <neume xml:id="neume_d3e537">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e537">
                               <nc xml:id="Je_1573_LN0981_409_m-202" oct="3" pname="d" pnum="50" label="dur4"/>
                            </neume>
                         </syllable>
@@ -511,7 +509,7 @@
                            <verse xml:id="Je_1573_LN0981_409_m-232" n="1">
                               <syl xml:id="Je_1573_LN0981_409_m-233" con="d" wordpos="m">na</syl>
                            </verse>
-                           <neume xml:id="neume_d3e547">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e547">
                               <nc xml:id="Je_1573_LN0981_409_m-204" oct="3" pname="d" pnum="50" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-205" oct="3" pname="a" pnum="57" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-206" oct="4" pname="c" pnum="60" label="dur4"/>
@@ -526,7 +524,7 @@
                            <verse xml:id="Je_1573_LN0981_409_m-234" n="1">
                               <syl xml:id="Je_1573_LN0981_409_m-235" wordpos="t">bit</syl>
                            </verse>
-                           <neume xml:id="neume_d3e571">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e571">
                               <nc xml:id="Je_1573_LN0981_409_m-213" oct="3" pname="a" pnum="57" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-214" oct="3" pname="g" pnum="55" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-215" oct="3" pname="f" pnum="53" label="dur4"/>
@@ -536,7 +534,7 @@
                            <verse xml:id="Je_1573_LN0981_409_m-268" n="1">
                               <syl xml:id="Je_1573_LN0981_409_m-269" con="d" wordpos="i">il</syl>
                            </verse>
-                           <neume xml:id="neume_d3e584">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e584">
                               <nc xml:id="Je_1573_LN0981_409_m-216" oct="3" pname="a" pnum="57" label="dur4"/>
                            </neume>
                         </syllable>
@@ -544,27 +542,26 @@
                            <verse xml:id="Je_1573_LN0981_409_m-270" n="1">
                               <syl xml:id="Je_1573_LN0981_409_m-271" con="d" wordpos="m">lo</syl>
                            </verse>
-                           <neume xml:id="neume_d3e594">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e594">
                               <nc xml:id="Je_1573_LN0981_409_m-218" oct="3" pname="a" pnum="57" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-219" oct="4" pname="c" pnum="60" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-220" oct="3" pname="b" pnum="59" label="dur4"/>
                            </neume>
                         </syllable>
                      </layer>
-                     <dir type="sb" tstamp="20.75" place="above" label="Linjeskift"
-                          xml:id="Je_1573_LN0981_409_m-221">ǀ</dir>
+                     <dir type="sb" tstamp="20.75" place="above" label="Linjeskift" xml:id="Je_1573_LN0981_409_m-221">ǀ</dir>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_409_m-238" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_409_m-239" n="1">
                      <layer xml:id="Je_1573_LN0981_409_m-240" n="1">
-                        <syllable xml:id="_syl">
-                           <neume xml:id="neume_d3e632">
+                        <syllable xml:id="Je_1573_LN0981_409__syl">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e632">
                               <nc xml:id="Je_1573_LN0981_409_m-242" oct="3" pname="g" pnum="55" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-243" oct="3" pname="b" pnum="59" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-244" oct="4" pname="c" pnum="60" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-245" oct="4" pname="d" pnum="62" label="dur4"/>
                            </neume>
-                           <neume xml:id="neume_d3e640">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e640">
                               <nc xml:id="Je_1573_LN0981_409_m-247" oct="3" pname="b" pnum="59" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-248" oct="3" pname="a" pnum="57" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-249" oct="4" pname="c" pnum="60" label="dur4"/>
@@ -576,7 +573,7 @@
                            <verse xml:id="Je_1573_LN0981_409_m-272" n="1">
                               <syl xml:id="Je_1573_LN0981_409_m-273" wordpos="t">rum</syl>
                            </verse>
-                           <neume xml:id="neume_d3e651">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e651">
                               <nc xml:id="Je_1573_LN0981_409_m-253" oct="3" pname="g" pnum="55" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-254" oct="3" pname="a" pnum="57" label="dur4"/>
                            </neume>
@@ -585,7 +582,7 @@
                            <verse xml:id="Je_1573_LN0981_409_m-274" n="1">
                               <syl xml:id="Je_1573_LN0981_409_m-275" wordpos="i">rex</syl>
                            </verse>
-                           <neume xml:id="neume_d3e663">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e663">
                               <nc xml:id="Je_1573_LN0981_409_m-255" oct="3" pname="a" pnum="57" label="dur4"/>
                            </neume>
                         </syllable>
@@ -593,7 +590,7 @@
                            <verse xml:id="Je_1573_LN0981_409_m-276" n="1">
                               <syl xml:id="Je_1573_LN0981_409_m-277" wordpos="i">in</syl>
                            </verse>
-                           <neume xml:id="neume_d3e672">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e672">
                               <nc xml:id="Je_1573_LN0981_409_m-257" oct="3" pname="d" pnum="50" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-258" oct="3" pname="c" pnum="48" label="dur4"/>
                            </neume>
@@ -602,7 +599,7 @@
                            <verse xml:id="Je_1573_LN0981_409_m-297" n="1">
                               <syl xml:id="Je_1573_LN0981_409_m-298" con="d" wordpos="i">æ</syl>
                            </verse>
-                           <neume xml:id="neume_d3e683">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e683">
                               <nc xml:id="Je_1573_LN0981_409_m-260" oct="3" pname="e" pnum="52" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-261" oct="3" pname="g" pnum="55" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-262" oct="3" pname="e" pnum="52" label="dur4"/>
@@ -613,18 +610,17 @@
                            </neume>
                         </syllable>
                      </layer>
-                     <dir type="sb" tstamp="21.75" place="above" label="Linjeskift"
-                          xml:id="Je_1573_LN0981_409_m-267">ǀ</dir>
+                     <dir type="sb" tstamp="21.75" place="above" label="Linjeskift" xml:id="Je_1573_LN0981_409_m-267">ǀ</dir>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_409_m-280" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_409_m-281" n="1">
                      <layer xml:id="Je_1573_LN0981_409_m-282" n="1">
-                        <syllable xml:id="_syl">
-                           <neume xml:id="neume_d3e731">
+                        <syllable xml:id="Je_1573_LN0981_409__syl">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e731">
                               <nc xml:id="Je_1573_LN0981_409_m-284" oct="3" pname="e" pnum="52" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-285" oct="3" pname="d" pnum="50" label="dur4"/>
                            </neume>
-                           <neume xml:id="neume_d3e735">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e735">
                               <nc xml:id="Je_1573_LN0981_409_m-287" oct="3" pname="e" pnum="52" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-288" oct="3" pname="f" pnum="53" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-289" oct="3" pname="e" pnum="52" label="dur4"/>
@@ -635,7 +631,7 @@
                            <verse xml:id="Je_1573_LN0981_409_m-299" n="1">
                               <syl xml:id="Je_1573_LN0981_409_m-300" con="d" wordpos="m">ter</syl>
                            </verse>
-                           <neume xml:id="neume_d3e744">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e744">
                               <nc xml:id="Je_1573_LN0981_409_m-292" oct="3" pname="d" pnum="50" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-293" oct="2" pname="b" pnum="47" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-294" oct="3" pname="c" pnum="48" label="dur4"/>
@@ -645,13 +641,11 @@
                            <verse xml:id="Je_1573_LN0981_409_m-301" n="1">
                               <syl xml:id="Je_1573_LN0981_409_m-302" wordpos="t">num.</syl>
                            </verse>
-                           <neume xml:id="neume_d3e757">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e757">
                               <nc xml:id="Je_1573_LN0981_409_m-295" oct="3" pname="d" pnum="50" label="durlong"/>
                            </neume>
                         </syllable>
-                        <fermata xml:id="Je_1573_LN0981_409_m-296" form="norm" layer="1" shape="curved"
-                                 staff="1"
-                                 startid="#Je_1573_LN0981_409_m-295"/>
+                        <fermata xml:id="Je_1573_LN0981_409_m-296" form="norm" layer="1" shape="curved" staff="1" startid="#Je_1573_LN0981_409_m-295"/>
                         <barLine form="dbl"/>
                      </layer>
                   </staff>
@@ -661,7 +655,7 @@
                            <verse xml:id="Je_1573_LN0981_409_m-335" n="1">
                               <syl xml:id="Je_1573_LN0981_409_m-336" con="d" wordpos="i">Ha</syl>
                            </verse>
-                           <neume xml:id="neume_d3e783">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e783">
                               <nc xml:id="Je_1573_LN0981_409_m-307" oct="3" pname="d" pnum="50" label="dur4"/>
                            </neume>
                         </syllable>
@@ -669,14 +663,14 @@
                            <verse xml:id="Je_1573_LN0981_409_m-337" n="1">
                               <syl xml:id="Je_1573_LN0981_409_m-338" con="d" wordpos="m">le</syl>
                            </verse>
-                           <neume xml:id="neume_d3e792">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e792">
                               <nc xml:id="Je_1573_LN0981_409_m-309" oct="3" pname="e" pnum="52" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-310" oct="3" pname="g" pnum="55" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-311" oct="3" pname="e" pnum="52" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-312" oct="3" pname="c" pnum="48" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-313" oct="3" pname="d" pnum="50" label="dur4"/>
                            </neume>
-                           <neume xml:id="neume_d3e810">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e810">
                               <nc xml:id="Je_1573_LN0981_409_m-315" oct="3" pname="e" pnum="52" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-316" oct="3" pname="g" pnum="55" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-317" oct="3" pname="e" pnum="52" label="dur4"/>
@@ -684,14 +678,13 @@
                            </neume>
                         </syllable>
                      </layer>
-                     <dir type="pb" tstamp="10.75" place="above" label="Sideskift"
-                          xml:id="Je_1573_LN0981_409_m-319">ǁ</dir>
+                     <dir type="pb" tstamp="10.75" place="above" label="Sideskift" xml:id="Je_1573_LN0981_409_m-319">ǁ</dir>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_409_m-321" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_409_m-322" n="1">
                      <layer xml:id="Je_1573_LN0981_409_m-323" n="1">
-                        <syllable xml:id="_syl">
-                           <neume xml:id="neume_d3e838">
+                        <syllable xml:id="Je_1573_LN0981_409__syl">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e838">
                               <nc xml:id="Je_1573_LN0981_409_m-325" oct="3" pname="e" pnum="52" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-326" oct="3" pname="f" pnum="53" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-327" oct="3" pname="e" pnum="52" label="dur4"/>
@@ -702,7 +695,7 @@
                            <verse xml:id="Je_1573_LN0981_409_m-339" n="1">
                               <syl xml:id="Je_1573_LN0981_409_m-340" con="d" wordpos="m">lu</syl>
                            </verse>
-                           <neume xml:id="neume_d3e846">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e846">
                               <nc xml:id="Je_1573_LN0981_409_m-330" oct="3" pname="d" pnum="50" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-331" oct="2" pname="b" pnum="47" label="dur4"/>
                               <nc xml:id="Je_1573_LN0981_409_m-332" oct="3" pname="c" pnum="48" label="dur4"/>
@@ -712,13 +705,11 @@
                            <verse xml:id="Je_1573_LN0981_409_m-341" n="1">
                               <syl xml:id="Je_1573_LN0981_409_m-342" wordpos="t">ia.</syl>
                            </verse>
-                           <neume xml:id="neume_d3e860">
+                           <neume xml:id="Je_1573_LN0981_409_neume_d3e860">
                               <nc xml:id="Je_1573_LN0981_409_m-333" oct="3" pname="d" pnum="50" label="durlong"/>
                            </neume>
                         </syllable>
-                        <fermata xml:id="Je_1573_LN0981_409_m-334" form="norm" layer="1" shape="curved"
-                                 staff="1"
-                                 startid="#Je_1573_LN0981_409_m-333"/>
+                        <fermata xml:id="Je_1573_LN0981_409_m-334" form="norm" layer="1" shape="curved" staff="1" startid="#Je_1573_LN0981_409_m-333"/>
                         <barLine form="end"/>
                      </layer>
                   </staff>
