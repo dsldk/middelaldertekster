@@ -1,1444 +1,1501 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei"
-     xmlns:xlink="http://www.w3.org/1999/xlink"
      meiversion="4.0.0"
      xml:id="Ul_1535_LN0076_000a04v_m-1">
-   <meiHead xml:id="Ul_1535_LN0076_000a04v_m-2">
-      <fileDesc xml:id="Ul_1535_LN0076_000a04v_m-3">
-        <titleStmt xml:id="Ul_1535_LN0076_000a04v_m-4">
-            <title xml:id="Ul_1535_LN0076_000a04v_m-10"/>
-            
-        </titleStmt>
-        <pubStmt xml:id="Ul_1535_LN0076_000a04v_m-13">
-            <availability xml:id="Ul_1535_LN0076_000a04v_m-14">
-                <useRestrict xml:id="Ul_1535_LN0076_000a04v_m-15"/>
-            </availability>
-        </pubStmt>
-      </fileDesc>
-      <encodingDesc xml:id="Ul_1535_LN0076_000a04v_m-16">
-        <appInfo xml:id="Ul_1535_LN0076_000a04v_m-17">
-            <application xml:id="Ul_1535_LN0076_000a04v_sibelius"
+    <meiHead xml:id="Ul_1535_LN0076_000a04v_m-2">
+        <fileDesc xml:id="Ul_1535_LN0076_000a04v_m-3">
+            <titleStmt xml:id="Ul_1535_LN0076_000a04v_m-4">
+                <title xml:id="Ul_1535_LN0076_000a04v_m-10">LAder oss nw alle bede. Fader vor du som est y himmellin</title>
+            </titleStmt>
+            <pubStmt xml:id="Ul_1535_LN0076_000a04v_m-13">
+                <availability xml:id="Ul_1535_LN0076_000a04v_m-14">
+                    <useRestrict xml:id="Ul_1535_LN0076_000a04v_m-15"/>
+                </availability>
+                <respStmt>
+                    <resp xml:id="Ul_1535_LN0076_000a04v_resp_dcab1c4a">Publisher</resp>
+                    <corpName xml:id="Ul_1535_LN0076_000a04v_corpName_9b9bbdb5" role="">
+                        <abbr xml:id="Ul_1535_LN0076_000a04v_abbr_2ce60117">DSL</abbr>
+                        <expan xml:lang="da" xml:id="Ul_1535_LN0076_000a04v_expan_c9ca9365a">Det Danske Sprog- og Litteraturselskab</expan>
+                        <expan xml:lang="en" xml:id="Ul_1535_LN0076_000a04v_expan_c9ca9365b">Society for Danish Language and Literature</expan>
+                        <address xml:id="Ul_1535_LN0076_000a04v_address_104a55b6">
+                     <addrLine xml:id="Ul_1535_LN0076_000a04v_addrLine_5604589f">Christians Brygge 1</addrLine>
+                     <addrLine xml:id="Ul_1535_LN0076_000a04v_addrLine_17d89d19">1219 København K</addrLine>
+                     <addrLine xml:id="Ul_1535_LN0076_000a04v_addrLine_ca75e30b">
+                        <ptr xml:id="Ul_1535_LN0076_000a04v_ptr_N20262"
+                             target="https://dsl.dk"
+                             label="WWW"/>
+                     </addrLine>
+                     <addrLine xml:id="Ul_1535_LN0076_000a04v_addrLine_73eb1972">
+                        <ptr xml:id="Ul_1535_LN0076_000a04v_ptr_N20270"
+                             target="mailto://sekretariat@dsl.dk"
+                             label="E-mail"/>
+                     </addrLine>
+                  </address>
+                    </corpName>
+                    <persName xml:id="Ul_1535_LN0076_000a04v_persName_6632134b" role="editor">Bjarke Moe</persName>
+                    <persName xml:id="Ul_1535_LN0076_000a04v_persName_d1e8" role="data manager">Axel Teich Geertinger</persName>
+                    <persName xml:id="Ul_1535_LN0076_000a04v_persName_6632134a"
+                         role="project director">Marita Akhøj Nielsen</persName>
+                </respStmt>
+            </pubStmt>
+            <seriesStmt xml:id="Ul_1535_LN0076_000a04v_seriesStmt_0831786c">
+                <title xml:id="Ul_1535_LN0076_000a04v_title_7c9c19af">Musik og sprog i reformationstidens danske salmesang</title>
+                <identifier xml:id="Ul_1535_LN0076_000a04v_identifier_c557f385"
+                        type="file_collection">RefSal</identifier>
+            </seriesStmt>
+        </fileDesc>
+        <encodingDesc xml:id="Ul_1535_LN0076_000a04v_m-16">
+            <appInfo xml:id="Ul_1535_LN0076_000a04v_m-17">
+                <application xml:id="Ul_1535_LN0076_000a04v_sibelius"
                          isodate="2019-6-7T11:48:35Z"
                          version="6200">
-                <name xml:id="Ul_1535_LN0076_000a04v_m-19">Sibelius</name>
-            </application>
-            <application xml:id="Ul_1535_LN0076_000a04v_sibmei"
+                    <name xml:id="Ul_1535_LN0076_000a04v_m-19">Sibelius</name>
+                </application>
+                <application xml:id="Ul_1535_LN0076_000a04v_sibmei"
                          type="plugin"
                          version="2.1.0">
-                <name xml:id="Ul_1535_LN0076_000a04v_m-21">Sibelius 6.2 to MEI Exporter (2.1.0)</name>
-            </application>
-        </appInfo>
-      </encodingDesc>
-    
-   </meiHead>
-   <music xml:id="Ul_1535_LN0076_000a04v_m-22">
-      <body xml:id="Ul_1535_LN0076_000a04v_m-23">
-        <mdiv n="1" xml:id="mdiv-01">
-            <score xml:id="Ul_1535_LN0076_000a04v_m-25">
-               <scoreDef xml:id="Ul_1535_LN0076_000a04v_m-26">
-                  <staffGrp xml:id="Ul_1535_LN0076_000a04v_m-27">
-                     <staffDef xml:id="Ul_1535_LN0076_000a04v_m-28"
+                    <name xml:id="Ul_1535_LN0076_000a04v_m-21">Sibelius 6.2 to MEI Exporter (2.1.0)</name>
+                </application>
+                <application xml:id="Ul_1535_LN0076_000a04v_application_947905d9" version="2019.2">
+                    <name xml:id="Ul_1535_LN0076_000a04v_name_57b2a9f0">MerMEId</name>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <workList xml:id="Ul_1535_LN0076_000a04v_workDesc_5393fb6d">
+            <work xml:id="Ul_1535_LN0076_000a04v_work_7327e799">
+                <title xml:lang="da" xml:id="Ul_1535_LN0076_000a04v_title_da962e98">LAder oss nw alle bede. Fader vor du som est y himmellin</title>
+                <title type="uniform"
+                   xml:id="Ul_1535_LN0076_000a04v_title_da345962e98"
+                   xml:lang="da">Fader vor, du som er i himmelen</title>
+                <identifier label="RefSal" xml:id="identifier_8e722ce1">Ul a04v</identifier>
+            <identifier xml:id="Ul_1535_LN0076_a04v_identifier_d1e102" label="Ulricksøn 1535">fol. a04v</identifier>
+                <contributor xml:id="Ul_1535_LN0076_000a04v_respStmt_5577b899"/>
+                <history xml:id="Ul_1535_LN0076_000a04v_history_44436885"/>
+                <langUsage xml:id="Ul_1535_LN0076_000a04v_langUsage_f10dda89">
+                    <language xml:id="en">English</language>
+                    <language xml:id="da">Danish</language>
+                </langUsage>
+                <classification xml:id="Ul_1535_LN0076_000a04v_classification_81a43c49">
+                    <termList xml:id="Ul_1535_LN0076_000a04v_termList_ab4fb67c"/>
+                </classification>
+                
+                <relationList xml:id="Ul_1535_LN0076_000a04v_relationList_81b6d009">
+                    <relation xml:id="Ul_1535_LN0076_000a04v_relation_e55eedbf"
+                         target="Ul_1535/Ul_1535_LN0076.xml"
+                         rel="isPartOf"
+                         label="Een handbog som inde holler det hellige Euangeliske Messe embede"/>
+                </relationList>
+            </work>
+        </workList>
+        
+    </meiHead>
+    <music xml:id="Ul_1535_LN0076_000a04v_m-22">
+        <body xml:id="Ul_1535_LN0076_000a04v_m-23">
+            <mdiv n="1" xml:id="mdiv-01">
+                <score xml:id="Ul_1535_LN0076_000a04v_m-25">
+                    <scoreDef xml:id="Ul_1535_LN0076_000a04v_m-26">
+                        <staffGrp xml:id="Ul_1535_LN0076_000a04v_m-27">
+                            <staffDef xml:id="Ul_1535_LN0076_000a04v_m-28"
                                clef.line="5"
                                clef.shape="C"
                                key.sig="1f"
                                lines="5"
                                n="1"/>
-                  </staffGrp>
-               </scoreDef>
-                <supplied>
-                    <annot xml:id="Ul_1535_LN0076_000a04v_annot1">C-nøgle på femte linje tilføjet</annot>
-                </supplied>
-                <reg>
-                    <annot xml:id="Ul_1535_LN0076_000a04v_annot2">4 linjer i systemet ændret til 5<lb/><ref target="https://tekstnet.dk/thomissoen_1569/metadata">Se generelle bemærkninger her</ref>
-                    </annot>
-                </reg>
-               <section xml:id="Ul_1535_LN0076_000a04v_m-31">
-                    
-                    
+                        </staffGrp>
+                    </scoreDef>
+                    <supplied>
+                        <annot xml:id="Ul_1535_LN0076_000a04v_annot1">C-nøgle på femte linje tilføjet</annot>
+                    </supplied>
+                    <reg>
+                        <annot xml:id="Ul_1535_LN0076_000a04v_annot2">4 linjer i systemet ændret til 5<lb/>
+                            <ref target="https://tekstnet.dk/thomissoen_1569/metadata">Se generelle bemærkninger her</ref>
+                        </annot>
+                    </reg>
+                    <section xml:id="Ul_1535_LN0076_000a04v_m-31">
+
+
                         <staff xml:id="Ul_1535_LN0076_000a04v_m-34" n="1">
                             <layer xml:id="Ul_1535_LN0076_000a04v_m-35" n="1">
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-48_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-48" n="1">
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-48_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-48" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-49" con="d" wordpos="i">LA</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e87">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-36"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e87">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-36"
                                   oct="3"
                                   pname="d"
                                   pnum="50"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-50_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-50" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-50_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-50" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-51" wordpos="t">der</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e96">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-37"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e96">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-37"
                                   oct="3"
                                   pname="f"
                                   pnum="53"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-52_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-52" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-52_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-52" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-53" wordpos="i">oss</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e105">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-38"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e105">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-38"
                                   oct="3"
                                   pname="g"
                                   pnum="55"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-54_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-54" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-54_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-54" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-55" wordpos="i">nw</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e114">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-39"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e114">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-39"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-56_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-56" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-56_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-56" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-57" con="d" wordpos="i">al</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e123">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-40"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e123">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-40"
                                   oct="3"
                                   pname="g"
                                   pnum="55"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-58_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-58" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-58_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-58" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-59" wordpos="t">le</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e133">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-42"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e133">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-42"
                                   oct="3"
                                   pname="g"
                                   pnum="55"
                                   label="dur4"/>
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-43"
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-43"
                                   oct="3"
                                   pname="f"
                                   pnum="53"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-60_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-60" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-60_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-60" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-61" con="d" wordpos="i">be</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e144">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-45"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e144">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-45"
                                   oct="3"
                                   pname="f"
                                   pnum="53"
                                   label="dur4"/>
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-46"
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-46"
                                   oct="3"
                                   pname="g"
                                   pnum="55"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-62_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-62" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-62_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-62" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-63" wordpos="t">de.</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e155">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-47"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e155">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-47"
                                   oct="3"
                                   pname="g"
                                   pnum="55"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <barLine form="single"/>
-                     </layer>
+                                    </neume>
+                                </syllable>
+                                <barLine form="single"/>
+                            </layer>
                         </staff>
-                        
-                        
-                    
-                    
-                    
+
+
+
+
+
                         <staff xml:id="Ul_1535_LN0076_000a04v_m-65" n="1">
                             <layer xml:id="Ul_1535_LN0076_000a04v_m-66" n="1">
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-78_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-78" n="1">
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-78_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-78" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-79" con="d" wordpos="i">Fa</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e179">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-67"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e179">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-67"
                                   oct="3"
                                   pname="f"
                                   pnum="53"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-80_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-80" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-80_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-80" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-81" wordpos="t">der</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e188">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-68"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e188">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-68"
                                   oct="3"
                                   pname="g"
                                   pnum="55"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-82_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-82" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-82_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-82" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-83" wordpos="i">vor</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e197">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-69"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e197">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-69"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-84_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-84" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-84_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-84" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-85" wordpos="i">du</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e206">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-70"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e206">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-70"
                                   oct="3"
                                   pname="g"
                                   pnum="55"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-86_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-86" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-86_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-86" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-87" wordpos="i">som</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e215">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-71"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e215">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-71"
                                   oct="3"
                                   pname="b"
                                   pnum="58"
                                   accid.ges="f"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-88_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-88" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-88_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-88" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-89" wordpos="i">est</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e227">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-73"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e227">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-73"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-90_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-90" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-90_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-90" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-91" wordpos="i">y</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e236">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-75"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e236">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-75"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-76"
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-76"
                                   oct="3"
                                   pname="g"
                                   pnum="55"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                     </layer>
-                        <dir type="sb"
+                                    </neume>
+                                </syllable>
+                            </layer>
+                            <dir type="sb"
                           tstamp="8.75"
                           place="above"
                           label="Linjeskift"
                           xml:id="Ul_1535_LN0076_000a04v_m-77">ǀ</dir>
-                  </staff>
-                        
-                        
-                    
-                    <sb xml:id="Ul_1535_LN0076_000a04v_m-94" label="editorial"/>
-                    
-                    
+                        </staff>
+
+
+
+                        <sb xml:id="Ul_1535_LN0076_000a04v_m-94" label="editorial"/>
+
+
                         <staff xml:id="Ul_1535_LN0076_000a04v_m-95" n="1">
                             <layer xml:id="Ul_1535_LN0076_000a04v_m-96" n="1">
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-121_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-121" n="1">
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-121_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-121" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-122" con="d" wordpos="i">hym</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e265">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-98"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e265">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-98"
                                   oct="3"
                                   pname="g"
                                   pnum="55"
                                   label="dur4"/>
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-99"
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-99"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-123_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-123" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-123_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-123" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-124" con="d" wordpos="m">mel</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e276">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-100"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e276">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-100"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-125_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-125" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-125_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-125" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-126" wordpos="t">lin</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e285">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-101"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e285">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-101"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-127_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-127" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-127_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-127" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-128" con="d" wordpos="i">hel</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e294">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-102"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e294">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-102"
                                   oct="3"
                                   pname="g"
                                   pnum="55"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-129_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-129" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-129_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-129" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-130" wordpos="t">ligt</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e304">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-103"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e304">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-103"
                                   oct="3"
                                   pname="b"
                                   pnum="58"
                                   accid.ges="f"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-131_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-131" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-131_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-131" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-132" con="d" wordpos="i">wor</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e315">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-105"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e315">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-105"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-133_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-133" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-133_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-133" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-134" wordpos="t">de</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e324">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-107"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e324">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-107"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-108"
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-108"
                                   oct="3"
                                   pname="g"
                                   pnum="55"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-135_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-135" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-135_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-135" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-136" wordpos="i">dit</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e335">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-110"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e335">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-110"
                                   oct="3"
                                   pname="g"
                                   pnum="55"
                                   label="dur4"/>
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-111"
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-111"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-137_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-137" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-137_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-137" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-138" wordpos="i">naffn</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e347">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-112"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e347">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-112"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-139_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-139" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-139_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-139" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-140" con="d" wordpos="i">til</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e356">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-113"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e356">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-113"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-141_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-141" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-141_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-141" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-142" con="d" wordpos="m">kom</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e365">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-114"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e365">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-114"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-143_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-143" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-143_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-143" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-144" wordpos="t">me</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e374">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-115"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e374">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-115"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-145_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-145" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-145_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-145" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-146" wordpos="i">oss</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e383">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-116"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e383">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-116"
                                   oct="3"
                                   pname="g"
                                   pnum="55"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-147_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-147" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-147_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-147" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-148" wordpos="i">dit</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e392">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-117"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e392">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-117"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-181_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-181" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-181_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-181" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-182" con="d" wordpos="i">ri</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e402">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-118"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e402">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-118"
                                   oct="3"
                                   pname="b"
                                   pnum="58"
                                   accid.ges="f"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                     </layer>
-                        <dir type="sb"
+                                    </neume>
+                                </syllable>
+                            </layer>
+                            <dir type="sb"
                           tstamp="18.75"
                           place="above"
                           label="Linjeskift"
                           xml:id="Ul_1535_LN0076_000a04v_m-120">ǀ</dir>
-                  </staff>
-                        
-                        
-                        
-                        
-                    
-                    <sb xml:id="Ul_1535_LN0076_000a04v_m-151" label="editorial"/>
-                    
-                    
+                        </staff>
+
+
+
+
+
+                        <sb xml:id="Ul_1535_LN0076_000a04v_m-151" label="editorial"/>
+
+
                         <staff xml:id="Ul_1535_LN0076_000a04v_m-152" n="1">
                             <layer xml:id="Ul_1535_LN0076_000a04v_m-153" n="1">
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-183_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-183" n="1">
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-183_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-183" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-184" wordpos="t">ge</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e434">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-154"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e434">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-154"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-185_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-185" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-185_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-185" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-186" con="d" wordpos="i">vor</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e443">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-155"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e443">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-155"
                                   oct="3"
                                   pname="g"
                                   pnum="55"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-187_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-187" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-187_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-187" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-188" wordpos="t">de</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e452">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-156"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e452">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-156"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-189_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-189" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-189_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-189" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-190" wordpos="i">din</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e461">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-157"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e461">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-157"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-191_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-191" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-191_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-191" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-192" con="d" wordpos="i">vil</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e470">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-158"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e470">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-158"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-193_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-193" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-193_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-193" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-194" wordpos="t">ie</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e480">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-159"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e480">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-159"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-195_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-195" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-195_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-195" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-196" wordpos="i">som</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e489">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-160"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e489">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-160"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-197_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-197" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-197_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-197" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-198" wordpos="i">y</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e498">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-161"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e498">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-161"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-199_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-199" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-199_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-199" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-200" con="d" wordpos="i">hym</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e507">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-162"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e507">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-162"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-201_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-201" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-201_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-201" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-202" con="d" wordpos="m">me</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e516">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-163"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e516">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-163"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-203_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-203" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-203_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-203" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-204" wordpos="t">lin</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e525">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-164"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e525">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-164"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-205_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-205" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-205_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-205" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-206" con="d" wordpos="i">oc</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e535">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-165"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e535">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-165"
                                   oct="3"
                                   pname="b"
                                   pnum="58"
                                   accid.ges="f"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-207_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-207" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-207_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-207" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-208" wordpos="t">saa</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e546">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-168"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e546">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-168"
                                   oct="3"
                                   pname="g"
                                   pnum="55"
                                   label="dur4"/>
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-169"
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-169"
                                   oct="3"
                                   pname="f"
                                   pnum="53"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-209_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-209" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-209_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-209" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-210" wordpos="i">paa</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e557">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-171"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e557">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-171"
                                   oct="3"
                                   pname="f"
                                   pnum="53"
                                   label="dur4"/>
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-172"
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-172"
                                   oct="3"
                                   pname="g"
                                   pnum="55"
                                   label="dur4"/>
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-173"
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-173"
                                   oct="3"
                                   pname="b"
                                   pnum="58"
                                   accid.ges="f"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-211_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-211" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-211_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-211" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-212" con="d" wordpos="i">ior</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e574">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-176"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e574">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-176"
                                   oct="3"
                                   pname="g"
                                   pnum="55"
                                   label="dur4"/>
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-177"
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-177"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-213_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-213" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-213_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-213" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-214" wordpos="t">den</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e585">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-178"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e585">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-178"
                                   oct="3"
                                   pname="g"
                                   pnum="55"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-215_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-215" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-215_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-215" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-216" wordpos="i">Giff</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e594">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-179"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e594">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-179"
                                   oct="3"
                                   pname="g"
                                   pnum="55"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                     </layer>
-                        <dir type="sb"
+                                    </neume>
+                                </syllable>
+                            </layer>
+                            <dir type="sb"
                           tstamp="21.75"
                           place="above"
                           label="Linjeskift"
                           xml:id="Ul_1535_LN0076_000a04v_m-180">ǀ</dir>
-                  </staff>
-                        
-                        
-                        
-                        
-                    
-                    <sb xml:id="Ul_1535_LN0076_000a04v_m-219" label="editorial"/>
-                    
-                    
+                        </staff>
+
+
+
+
+
+                        <sb xml:id="Ul_1535_LN0076_000a04v_m-219" label="editorial"/>
+
+
                         <staff xml:id="Ul_1535_LN0076_000a04v_m-220" n="1">
                             <layer xml:id="Ul_1535_LN0076_000a04v_m-221" n="1">
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-235_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-235" n="1">
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-235_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-235" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-236" wordpos="i">oss</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e625">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-222"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e625">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-222"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-237_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-237" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-237_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-237" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-238" wordpos="i">y</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e634">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-223"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e634">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-223"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-239_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-239" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-239_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-239" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-240" wordpos="i">dag</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e643">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-224"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e643">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-224"
                                   oct="3"
                                   pname="b"
                                   pnum="58"
                                   accid.ges="f"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-241_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-241" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-241_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-241" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-242" wordpos="i">wort</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e654">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-226"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e654">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-226"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-243_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-243" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-243_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-243" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-244" con="d" wordpos="i">dag</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e663">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-228"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e663">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-228"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-229"
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-229"
                                   oct="3"
                                   pname="g"
                                   pnum="55"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-245_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-245" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-245_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-245" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-246" con="d" wordpos="m">li</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e675">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-231"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e675">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-231"
                                   oct="3"
                                   pname="g"
                                   pnum="55"
                                   label="dur4"/>
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-232"
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-232"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-247_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-247" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-247_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-247" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-248" wordpos="t">ge</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e686">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-233"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e686">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-233"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-249_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-249" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-249_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-249" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-250" wordpos="i">brødt</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e695">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-234"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e695">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-234"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <barLine form="single"/>
-                     </layer>
+                                    </neume>
+                                </syllable>
+                                <barLine form="single"/>
+                            </layer>
                         </staff>
-                        
-                        
-                    
-                    
-                    
+
+
+
+
+
                         <staff xml:id="Ul_1535_LN0076_000a04v_m-253" n="1">
                             <layer xml:id="Ul_1535_LN0076_000a04v_m-254" n="1">
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-266_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-266" n="1">
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-266_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-266" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-267" wordpos="i">Oc</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e719">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-255"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e719">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-255"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-268_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-268" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-268_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-268" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-269" con="d" wordpos="i">for</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e728">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-256"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e728">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-256"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-270_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-270" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-270_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-270" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-271" con="d" wordpos="m">la</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e737">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-257"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e737">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-257"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-272_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-272" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-272_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-272" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-273" wordpos="t">de</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e746">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-258"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e746">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-258"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-274_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-274" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-274_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-274" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-275" wordpos="i">oss</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e755">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-259"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e755">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-259"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-276_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-276" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-276_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-276" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-277" con="d" wordpos="i">wo</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e765">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-260"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e765">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-260"
                                   oct="3"
                                   pname="g"
                                   pnum="55"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-278_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-278" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-278_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-278" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-279" wordpos="t">re</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e774">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-261"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e774">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-261"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-280_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-280" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-280_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-280" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-281" con="d" wordpos="i">syn</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e783">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-262"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e783">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-262"
                                   oct="3"
                                   pname="b"
                                   pnum="58"
                                   accid.ges="f"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-282_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-282" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-282_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-282" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-283" wordpos="t">der</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e794">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-264"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e794">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-264"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                     </layer>
-                        <dir type="sb"
+                                    </neume>
+                                </syllable>
+                            </layer>
+                            <dir type="sb"
                           tstamp="9.75"
                           place="above"
                           label="Linjeskift"
                           xml:id="Ul_1535_LN0076_000a04v_m-265">ǀ</dir>
-                  </staff>
-                        
-                    
-                    <sb xml:id="Ul_1535_LN0076_000a04v_m-286" label="editorial"/>
-                    
-                    
+                        </staff>
+
+
+                        <sb xml:id="Ul_1535_LN0076_000a04v_m-286" label="editorial"/>
+
+
                         <staff xml:id="Ul_1535_LN0076_000a04v_m-287" n="1">
                             <layer xml:id="Ul_1535_LN0076_000a04v_m-288" n="1">
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-307_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-307" n="1">
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-307_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-307" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-308" wordpos="i">som</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e819">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-289"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e819">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-289"
                                   oct="3"
                                   pname="g"
                                   pnum="55"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-309_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-309" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-309_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-309" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-310" wordpos="i">wy</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e828">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-290"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e828">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-290"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-311_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-311" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-311_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-311" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-312" con="d" wordpos="i">for</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e837">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-291"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e837">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-291"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-313_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-313" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-313_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-313" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-314" con="d" wordpos="m">la</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e846">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-292"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e846">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-292"
                                   oct="3"
                                   pname="b"
                                   pnum="58"
                                   accid.ges="f"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-315_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-315" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-315_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-315" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-316" wordpos="t">de</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e857">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-295"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e857">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-295"
                                   oct="3"
                                   pname="g"
                                   pnum="55"
                                   label="dur4"/>
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-296"
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-296"
                                   oct="3"
                                   pname="f"
                                   pnum="53"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-317_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-317" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-317_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-317" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-318" con="d" wordpos="i">wo</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e869">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-298"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e869">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-298"
                                   oct="3"
                                   pname="f"
                                   pnum="53"
                                   label="dur4"/>
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-299"
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-299"
                                   oct="3"
                                   pname="g"
                                   pnum="55"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-319_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-319" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-319_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-319" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-320" wordpos="t">re</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e880">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-300"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e880">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-300"
                                   oct="3"
                                   pname="b"
                                   pnum="58"
                                   accid.ges="f"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-321_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-321" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-321_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-321" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-322" con="d" wordpos="i">skyl</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e891">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-303"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e891">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-303"
                                   oct="3"
                                   pname="g"
                                   pnum="55"
                                   label="dur4"/>
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-304"
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-304"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-323_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-323" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-323_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-323" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-324" con="d" wordpos="m">de</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e903">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-305"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e903">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-305"
                                   oct="3"
                                   pname="g"
                                   pnum="55"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-325_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-325" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-325_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-325" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-326" wordpos="t">ner/</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e912">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-306"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e912">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-306"
                                   oct="3"
                                   pname="g"
                                   pnum="55"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <barLine form="single"/>
-                     </layer>
+                                    </neume>
+                                </syllable>
+                                <barLine form="single"/>
+                            </layer>
                         </staff>
-                        
-                        
-                        
-                    
-                    
-                    
+
+
+
+
+
+
                         <staff xml:id="Ul_1535_LN0076_000a04v_m-329" n="1">
                             <layer xml:id="Ul_1535_LN0076_000a04v_m-330" n="1">
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-346_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-346" n="1">
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-346_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-346" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-347" wordpos="i">Oc</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e938">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-331"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e938">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-331"
                                   oct="3"
                                   pname="g"
                                   pnum="55"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-348_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-348" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-348_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-348" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-349" wordpos="i">ledt</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e947">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-332"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e947">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-332"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-350_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-350" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-350_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-350" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-351" wordpos="i">oss</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e956">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-333"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e956">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-333"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-352_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-352" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-352_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-352" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-353" con="d" wordpos="i">ic</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e965">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-334"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e965">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-334"
                                   oct="3"
                                   pname="b"
                                   pnum="58"
                                   accid.ges="f"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-354_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-354" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-354_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-354" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-355" wordpos="t">ke</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e976">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-336"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e976">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-336"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-356_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-356" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-356_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-356" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-357" wordpos="i">y</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e986">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-338"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e986">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-338"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-339"
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-339"
                                   oct="3"
                                   pname="g"
                                   pnum="55"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-358_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-358" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-358_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-358" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-359" con="d" wordpos="i">fre</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e997">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-341"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e997">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-341"
                                   oct="3"
                                   pname="g"
                                   pnum="55"
                                   label="dur4"/>
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-342"
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-342"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-360_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-360" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-360_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-360" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-361" con="d" wordpos="m">stel</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e1008">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-343"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e1008">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-343"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-362_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-362" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-362_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-362" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-363" wordpos="t">se</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e1017">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-344"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e1017">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-344"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                     </layer>
-                        <dir type="pb"
+                                    </neume>
+                                </syllable>
+                            </layer>
+                            <dir type="pb"
                           tstamp="11.75"
                           place="above"
                           label="Sideskift"
                           xml:id="Ul_1535_LN0076_000a04v_m-345">ǁ</dir>
-                  </staff>
-                        
-                        
-                        
-                    
-                    <sb xml:id="Ul_1535_LN0076_000a04v_m-366" label="editorial"/>
-                    
+                        </staff>
+
+
+
+
+                        <sb xml:id="Ul_1535_LN0076_000a04v_m-366" label="editorial"/>
+
                         <staff xml:id="Ul_1535_LN0076_000a04v_m-367" n="1">
                             <layer xml:id="Ul_1535_LN0076_000a04v_m-368" n="1">
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-387_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-387" n="1">
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-387_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-387" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-388" wordpos="i">Men</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e1043">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-369"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e1043">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-369"
                                   oct="3"
                                   pname="b"
                                   pnum="58"
                                   accid.ges="f"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-389_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-389" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-389_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-389" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-390" wordpos="i">frelss</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e1054">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-372"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e1054">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-372"
                                   oct="3"
                                   pname="g"
                                   pnum="55"
                                   label="dur4"/>
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-373"
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-373"
                                   oct="3"
                                   pname="f"
                                   pnum="53"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-391_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-391" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-391_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-391" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-392" wordpos="i">oss</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e1065">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-375"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e1065">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-375"
                                   oct="3"
                                   pname="f"
                                   pnum="53"
                                   label="dur4"/>
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-376"
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-376"
                                   oct="3"
                                   pname="g"
                                   pnum="55"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-393_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-393" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-393_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-393" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-394" wordpos="i">fra</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e1077">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-378"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e1077">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-378"
                                   oct="3"
                                   pname="f"
                                   pnum="53"
                                   label="dur4"/>
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-379"
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-379"
                                   oct="3"
                                   pname="g"
                                   pnum="55"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-395_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-395" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-395_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-395" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-396" wordpos="i">dett</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e1088">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-380"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e1088">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-380"
                                   oct="3"
                                   pname="b"
                                   pnum="58"
                                   accid.ges="f"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-397_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-397" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-397_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-397" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-398" con="d" wordpos="i">on</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e1099">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-383"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e1099">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-383"
                                   oct="3"
                                   pname="g"
                                   pnum="55"
                                   label="dur4"/>
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-384"
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-384"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-399_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-399" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-399_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-399" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-400" wordpos="t">de</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e1110">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-385"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e1110">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-385"
                                   oct="3"
                                   pname="g"
                                   pnum="55"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <fermata xml:id="Ul_1535_LN0076_000a04v_m-386"
+                                    </neume>
+                                </syllable>
+                                <fermata xml:id="Ul_1535_LN0076_000a04v_m-386"
                                  form="norm"
                                  layer="1"
                                  shape="curved"
                                  staff="1"
                                  startid="#Ul_1535_LN0076_000a04v_m-385"/>
-                        <barLine form="single"/>
-                     </layer>
+                                <barLine form="single"/>
+                            </layer>
                         </staff>
-                        
-                        
-                        
-                        
-                        
-                    
-                    <pb/>
-               </section>
-            </score>
-         </mdiv>
-         <mdiv xml:id="mdiv-02" n="2">
-            <score>
-               <scoreDef>
-                  <staffGrp>
-                     <staffDef n="1" key.sig="1f" clef.shape="C" clef.line="5" lines="5"/>
-                  </staffGrp>
-               </scoreDef>
-                <supplied>
-                    <annot xml:id="Ul_1535_LN0076_000a04v_annot4">C-nøgle på femte linje tilføjet</annot>
-                </supplied>
-                <reg>
-                    <annot xml:id="Ul_1535_LN0076_000a04v_annot5">4 linjer i systemet ændret til 5<lb/><ref target="https://tekstnet.dk/thomissoen_1569/metadata">Se generelle bemærkninger her</ref>
-                    </annot>
-                </reg>
-               <section>
-                    
-                    
-                    
+
+
+
+
+
+
+                        <pb/>
+                    </section>
+                </score>
+            </mdiv>
+            <mdiv xml:id="mdiv-02" n="2">
+                <score>
+                    <scoreDef>
+                        <staffGrp>
+                            <staffDef n="1" key.sig="1f" clef.shape="C" clef.line="5" lines="5"/>
+                        </staffGrp>
+                    </scoreDef>
+                    <supplied>
+                        <annot xml:id="Ul_1535_LN0076_000a04v_annot4">C-nøgle på femte linje tilføjet</annot>
+                    </supplied>
+                    <reg>
+                        <annot xml:id="Ul_1535_LN0076_000a04v_annot5">4 linjer i systemet ændret til 5<lb/>
+                            <ref target="https://tekstnet.dk/thomissoen_1569/metadata">Se generelle bemærkninger her</ref>
+                        </annot>
+                    </reg>
+                    <section>
+
+
+
                         <staff xml:id="Ul_1535_LN0076_000a04v_m-404" n="1">
                             <layer xml:id="Ul_1535_LN0076_000a04v_m-405" n="1">
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-408_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-408" n="1">
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-408_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-408" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-409" con="d" wordpos="i">A</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e1146">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-406"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e1146">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-406"
                                   oct="3"
                                   pname="g"
                                   pnum="55"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <syllable xml:id="Ul_1535_LN0076_000a04v_m-410_syl">
-                           <verse xml:id="Ul_1535_LN0076_000a04v_m-410" n="1">
+                                    </neume>
+                                </syllable>
+                                <syllable xml:id="Ul_1535_LN0076_000a04v_m-410_syl">
+                                    <verse xml:id="Ul_1535_LN0076_000a04v_m-410" n="1">
                                         <syl xml:id="Ul_1535_LN0076_000a04v_m-411" wordpos="t">men</syl>
                                     </verse>
-                           <neume xml:id="neume_d3e1155">
-                              <nc xml:id="Ul_1535_LN0076_000a04v_m-407"
+                                    <neume xml:id="Ul_1535_LN0076_000a04v_neume_d3e1155">
+                                        <nc xml:id="Ul_1535_LN0076_000a04v_m-407"
                                   oct="3"
                                   pname="a"
                                   pnum="57"
                                   label="dur4"/>
-                           </neume>
-                        </syllable>
-                        <barLine form="end"/>
+                                    </neume>
+                                </syllable>
+                                <barLine form="end"/>
                                 <reg>
                                     <annot xml:id="Ul_1535_LN0076_000a04v_annot3">enkeltstreg ændret til afsluttende dobbeltstreg</annot>
                                 </reg>
-                     </layer>
+                            </layer>
                         </staff>
-                    
-                  <pb/>
-               </section>
-            </score>
-         </mdiv>
-      </body>
-   </music>
+
+                        <pb/>
+                    </section>
+                </score>
+            </mdiv>
+        </body>
+    </music>
 </mei>
