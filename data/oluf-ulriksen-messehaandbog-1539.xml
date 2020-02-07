@@ -335,15 +335,13 @@
                             <rdg wit="#orig.">forba <note>rettet</note></rdg>
                         </app></l>
                 </lg>
-            </div>
-            <div xml:id="kyrie-helligaand-i-evighed" type="psalm">
-                <head type="add"><pb n="B_3r" ana="E13"/>Kyrie helligånd i evighed</head>
-                <head>Kyrieeleison.</head>
+            
+                <p>Kyrieeleison.</p>
                 <notatedMusic>
                     <ptr target="Vo_1539_LN0298_000b02r.xml#mdiv-03"/>
                 </notatedMusic>
                 <lg>
-                    <l>Kyrie Helligaand i euigh<ex>ed</ex>.</l>
+                    <l><pb n="B_3r" ana="E13"/>Kyrie Helligaand i euigh<ex>ed</ex>.</l>
                     <l>veer hooss oss m<ex>ed</ex> din miscundelighed.</l>
                     <l>vor synd ville vy begrede.</l>
                     <l>ladt oss ey fortabis</l>
@@ -407,7 +405,7 @@
                 <notatedMusic>
                     <ptr target="Vo_1539_LN0298_000b04v.xml#mdiv-02"/>
                 </notatedMusic>
-                <p>Oc m. t. a<lb/></p>
+                <p>Oc m<ex>eth thin aand</ex><lb/></p>
                 <p>Presten vender sig til alterit oc siger.</p>
                 <lb/>
                 <p>Lader oss alle bede.</p>
@@ -554,18 +552,18 @@
                     <l>Herren vere med eder</l>
                 </lg>
                 <p>Folked suarer </p>
-                <lg>
-                    <notatedMusic>
+                <notatedMusic>
                         <ptr target="Vo_1539_LN0298_000c04v.xml#mdiv-02"/>
                     </notatedMusic>
+                <lg>
                     <l>Oc medt din aandt</l>
                 </lg>
                 <p>Presten siger.</p>
                 <notatedMusic>
                     <ptr target="Vo_1539_LN0298_000c04v.xml#mdiv-03"/>
                 </notatedMusic>
-                <p>Desse effter følgende euangelij ord be<lb rend="="/>scriffuer oss S Mat. N.</p>
-                <p>Folked suarer </p>
+                <p>Desse effterfølgende euangelij ord be<lb rend="="/>scriffuer oss S<ex>anctus</ex> Mat<ex>heus</ex></p>
+                <p>N. Folked suarer </p>
                 <notatedMusic>
                     <ptr target="Vo_1539_LN0298_000c04v.xml#mdiv-04"/>
                 </notatedMusic>
@@ -609,7 +607,7 @@
                     <ptr target="Vo_1539_LN0298_000d01v.xml#mdiv-02"/>
                 </notatedMusic>
                 <lg>
-                    <l>Credo in vnum deum</l>
+                    <l>Credo in vnum deum.</l>
                 </lg>
                 <p> Corus persequentur </p>
                 <notatedMusic>
@@ -667,7 +665,7 @@
                 <lg>
                     <l>Vy tro alsammen paa en gudt.</l>
                     <l>him<lb rend="="/>mels scabere oc iordens.</l>
-                    <l>guds søn sin fad<ex>er</ex>s vilie giorde</l>
+                    <l>guds søn sin fad<ex>er</ex>s vilie giorde.</l>
                     <l>paa d<ex>et</ex> vi sine børn sculle bliffue.</l>
                     <l>hand vil oss forse vor ne<lb rend="="/>ring.</l>
                     <l>liif oc siel i hans beuaring</l>
@@ -909,7 +907,7 @@
                     <l>Vid Jesum christum vor herre.</l>
                     <l>Vid huil<lb rend="="/>ken din maiestet loffue alle engle.</l>
                     <l>Til<lb rend="="/>bede herredømmene oc scelffue veldig<pb ana="E40" rend="="
-                        />hedene </l>
+                        />hedene. </l>
                     <l>Disligest himlene. oc saa hi<ex>m</ex>ler<lb rend="="/>nis
                         krafft<ex>er</ex></l>
                     <l>Oc det hellige Seraphi<ex>m</ex>. </l>
@@ -1146,7 +1144,7 @@
                     <ptr target="Vo_1539_LN0298_000g03v.xml"/>
                 </notatedMusic>
                 <lg>
-                    <l><c function="initials" rend="2">I</c>Esus Christus er vor salighed</l>
+                    <l><c function="initials" rend="2">I</c>Esus Christus er vor salighed.</l>
                     <l>som fra oss tog gud fad<ex>er</ex>s vrede.</l>
                     <l>Med sin pine oc hellige dødt.</l>
                     <l>frelste han oss fra helluedis nød.</l>
@@ -1218,9 +1216,16 @@
                     <l>O guds la<ex>m</ex> so<ex>m</ex> bortager all verdens
                         <lb/>synd<ex>er</ex>.</l>
                     <l>forbarme dig offuer oss: </l>
-                    <l>Miscunde dig offuer oss.</l>
-                    <l>Giff oss din fred.</l>
                 </lg>
+                
+                <lg><l>O guds la<ex>m</ex> so<ex>m</ex> bortager all verdens
+                    <lb/>synd<ex>er</ex>.</l>
+                    <l>Miscunde dig offuer oss.</l></lg> <!-- OBS gentagelse indsat uden note, OK? -->
+                
+                <lg><l>O guds la<ex>m</ex> so<ex>m</ex> bortager all verdens
+                    <lb/>synd<ex>er</ex>.</l>
+                    <l>Giff oss din fred.</l></lg>
+                
             </div>
             <lb/>
             <div>
@@ -2641,6 +2646,7 @@
                     <l>Oc i deris asyn er opfaren tiil <lb/>himelen.</l>
                     <l>Paa det han skulle giøre oss <pb ana="E115"/> delactige</l>
                     <l>aff sin g<ex>u</ex>ddo<ex>m</ex>melighed oc ere.</l>
+                    <l>Oc derfore</l>
                 </lg>
                 <p>ut in Prefatione natiuitatis</p>
             </div>
@@ -2651,7 +2657,7 @@
                     <ptr target="Vo_1539_LN0298_000p02r.xml"/>
                 </notatedMusic>
                 <lg>
-                    <l>Oc derfore vid Jesu<ex>m</ex> christu<ex>m</ex> vor herre</l>
+                   <l>vid Jesu<ex>m</ex> christu<ex>m</ex> vor herre</l>
                     <l><c function="initials" rend="2">H</c>uilc<lb rend="="/>ken opfarendis offuer
                         alle himle.</l>
                     <l>Oc siddendis vid din høgre hand haffuer begaffuit</l>
@@ -2711,10 +2717,7 @@
                 <lg>
                     <l>oc euige gud.</l>
                     <l><c function="initials" rend="2">O</c>C dig bør oss at ere</l>
-                    <l>oc benedide <app>
-                            <lem>iomfru</lem>
-                            <rdg wit="#orig.">i iomfru <note>rettet</note></rdg>
-                        </app> Maria</l>
+                    <l>oc benedide i iomfru Maria</l>
                     <l>medt <pb ana="E120"/> hiertens frygd oc glede.</l>
                     <l>Huilkeen so<ex>m</ex> haffuer vndfanget din enborne søn</l>
                     <l>aff din hi<ex>m</ex>melske krafft.</l>
