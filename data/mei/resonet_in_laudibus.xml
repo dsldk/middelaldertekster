@@ -1,0 +1,97 @@
+<mei xmlns="http://www.music-encoding.org/ns/mei"
+     meiversion="4.0.0"
+     xml:id="resonet_in_laudibus_m-1">
+   <meiHead xml:id="resonet_in_laudibus_meiHead_9bc9b036">
+      <fileDesc xml:id="resonet_in_laudibus_fileDesc_00c5fb3e">
+         <titleStmt xml:id="resonet_in_laudibus_titleStmt_1b1411d3">
+            <title xml:id="resonet_in_laudibus_title_28995289">Resonet in laudibus</title>
+         </titleStmt>
+         <pubStmt xml:id="resonet_in_laudibus_pubStmt_55462a26">
+            <respStmt>
+               <resp xml:id="resonet_in_laudibus_resp_6b2370cb">Publisher</resp>
+               <corpName xml:id="resonet_in_laudibus_corpName_b028b13e">
+                  <abbr xml:id="resonet_in_laudibus_abbr_dcc68a4c">DSL</abbr>
+                  <expan xml:id="resonet_in_laudibus_expan_b05b1f84" xml:lang="da">Det Danske Sprog- og Litteraturselskab</expan>
+                  <expan xml:lang="en" xml:id="resonet_in_laudibus_expan_c9ca9365b">Society for Danish Language and Literature</expan>
+                  <address xml:id="resonet_in_laudibus_address_bd17f7dd">
+                     <addrLine xml:id="resonet_in_laudibus_addrLine_c9525bc5">Christians Brygge 1</addrLine>
+                     <addrLine xml:id="resonet_in_laudibus_addrLine_ee5b3717">1219 København K</addrLine>
+                     <addrLine xml:id="resonet_in_laudibus_addrLine_b2bf696b">
+                        <ptr label="WWW"
+                             target="https://dsl.dk"
+                             xml:id="resonet_in_laudibus_ptr_N20262"/>
+                     </addrLine>
+                     <addrLine xml:id="resonet_in_laudibus_addrLine_b7565f24">
+                        <ptr label="E-mail"
+                             target="mailto://sekretariat@dsl.dk"
+                             xml:id="resonet_in_laudibus_ptr_N20270"/>
+                     </addrLine>
+                  </address>
+               </corpName>
+               <persName role="editor" xml:id="resonet_in_laudibus_persName_0b280046">Bjarke Moe</persName>
+               <persName role="data manager" xml:id="resonet_in_laudibus_persName_d1e8">Axel Teich Geertinger</persName>
+               <persName xml:id="resonet_in_laudibus_persName_6632134a" role="project director">Marita Akhøj Nielsen</persName>
+            </respStmt>
+         </pubStmt>
+         <seriesStmt xml:id="resonet_in_laudibus_seriesStmt_d2b89f88">
+            <title xml:id="resonet_in_laudibus_title_018b64ea">Musik og sprog i reformationstidens danske salmesang</title>
+            <identifier type="file_collection" xml:id="resonet_in_laudibus_identifier_15c04147">RefSal</identifier>
+         </seriesStmt>
+      </fileDesc>
+      <encodingDesc xml:id="resonet_in_laudibus_encodingDesc_827c7449">
+         <appInfo xml:id="resonet_in_laudibus_appInfo_31e5fed8">
+            <application version="6.2" xml:id="resonet_in_laudibus_application_d1e36">
+               <name>Sibelius</name>
+            </application>
+            <application version="2.1.0 modified for Sibelius 6"
+                         xml:id="resonet_in_laudibus_application_2d1e36">
+               <name>SibMEI</name>
+            </application>
+            <application version="2013" xml:id="resonet_in_laudibus_application_dbb29229">
+               <name xml:id="resonet_in_laudibus_name_e982a3b9">MerMEId</name>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <workList xml:id="resonet_in_laudibus_workDesc_6388ca7c">
+         <work xml:id="resonet_in_laudibus_work_7327e799">
+            <identifier xml:id="resonet_in_laudibus_identifier_d1e100" label="Thomissøn 1569">fol. 12v</identifier>
+            <identifier label="Glahn 1954" xml:id="resonet_in_laudibus_identifier_3a4a4e03">44</identifier>
+            <identifier label="Glahn 2000" xml:id="resonet_in_laudibus_identifier_ad471802">A II: 6a</identifier>
+            <identifier label="Zahn" xml:id="resonet_in_laudibus_identifier_19a8f264">8573</identifier>
+            <identifier label="DDK 1954" xml:id="resonet_in_laudibus_identifier_8b5aaae5">264</identifier>
+            <identifier label="DDK 2003" xml:id="resonet_in_laudibus_identifier_09135fca">330</identifier>
+            <title type="uniform"
+                   xml:id="resonet_in_laudibus_title_934a9f76"
+                   xml:lang="la">Resonet in laudibus</title>
+            <history xml:id="resonet_in_laudibus_history_44436885">
+               <p/>
+            </history>
+            <langUsage xml:id="resonet_in_laudibus_langUsage_f10dda89">
+               <language>Latin</language>
+               <language>English</language>
+            </langUsage>
+            <relationList xml:id="resonet_in_laudibus_relationList_366c57c3">
+               <relation label="Den danske Psalmebog"
+                         rel="isPartOf"
+                         target="Th_1569/Th_1569_LN1426.xml"
+                         xml:id="resonet_in_laudibus_relation_b5a09855"/>
+               <relation label="Den danske Psalmebog (1569), fol. 12v"
+                         rel="hasEmbodiment"
+                         target="Th_1569/Th_1569_LN1426_012v.xml"
+                         xml:id="resonet_in_laudibus_relation_d1e149"/>
+               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 59"
+                         rel="hasEmbodiment"
+                         target="Je_1573/Je_1573_LN0981_059.xml"
+                         xml:id="relation_b5a09855a"/>
+            </relationList>
+            <classification xml:id="resonet_in_laudibus_classification_81a43c49">
+               <termList xml:id="resonet_in_laudibus_termList_ab4fb67c">
+                  <term type="itemClass" xml:id="resonet_in_laudibus_term_d1e156">melody</term>
+               </termList>
+            </classification>
+         </work>
+      </workList>
+
+   </meiHead>
+   <music xml:id="resonet_in_laudibus_m-22"/>
+</mei>
