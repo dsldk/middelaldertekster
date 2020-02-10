@@ -1,6 +1,4 @@
-<mei xmlns="http://www.music-encoding.org/ns/mei"
-     meiversion="4.0.0"
-     xml:id="dies_est_laeticiae_m-1">
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="dies_est_laeticiae_m-1">
    <meiHead xml:id="dies_est_laeticiae_meiHead_550ef323">
       <fileDesc xml:id="dies_est_laeticiae_fileDesc_c59b2cba">
          <titleStmt xml:id="dies_est_laeticiae_titleStmt_b1368867">
@@ -17,14 +15,10 @@
                      <addrLine xml:id="dies_est_laeticiae_addrLine_8d1005b9">Christians Brygge 1</addrLine>
                      <addrLine xml:id="dies_est_laeticiae_addrLine_2089f606">1219 København K</addrLine>
                      <addrLine xml:id="dies_est_laeticiae_addrLine_91393194">
-                        <ptr label="WWW"
-                             target="https://dsl.dk"
-                             xml:id="dies_est_laeticiae_ptr_N20262"/>
+                        <ptr label="WWW" target="https://dsl.dk" xml:id="dies_est_laeticiae_ptr_N20262"/>
                      </addrLine>
                      <addrLine xml:id="dies_est_laeticiae_addrLine_2aee5182">
-                        <ptr label="E-mail"
-                             target="mailto://sekretariat@dsl.dk"
-                             xml:id="dies_est_laeticiae_ptr_N20270"/>
+                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="dies_est_laeticiae_ptr_N20270"/>
                      </addrLine>
                   </address>
                </corpName>
@@ -43,8 +37,7 @@
             <application version="6.2" xml:id="dies_est_laeticiae_application_d1e36">
                <name>Sibelius</name>
             </application>
-            <application version="2.1.0 modified for Sibelius 6"
-                         xml:id="dies_est_laeticiae_application_2d1e36">
+            <application version="2.1.0 modified for Sibelius 6" xml:id="dies_est_laeticiae_application_2d1e36">
                <name>SibMEI</name>
             </application>
             <application version="2013" xml:id="dies_est_laeticiae_application_7846fa73">
@@ -54,15 +47,14 @@
       </encodingDesc>
       <workList xml:id="dies_est_laeticiae_workDesc_f1add62a">
          <work xml:id="dies_est_laeticiae_work_7327e799">
-            <identifier xml:id="dies_est_laeticiae_identifier_d1e100" label="Thomissøn 1569">fol. 7r</identifier>
+            <identifier xml:id="dies_est_laeticiae_identifier_d1e100" label="Thomissøn 1569">fol. 7r, 9r, 11r</identifier>
+            <identifier label="Jespersen 1573">s. 72</identifier>
             <identifier label="Glahn 1954" xml:id="dies_est_laeticiae_identifier_cde38ab7">41a</identifier>
             <identifier label="Glahn 2000" xml:id="dies_est_laeticiae_identifier_b377104f">A II: 3a</identifier>
             <identifier label="Zahn" xml:id="dies_est_laeticiae_identifier_59a46350">7869</identifier>
             <identifier label="DDK 1954" xml:id="dies_est_laeticiae_identifier_d9f083cb">124</identifier>
             <identifier label="DDK 2003" xml:id="dies_est_laeticiae_identifier_6c720e45">154</identifier>
-            <title type="uniform"
-                   xml:id="dies_est_laeticiae_title_f5c69bd3"
-                   xml:lang="la">Dies est læticiæ</title>
+            <title type="uniform" xml:id="dies_est_laeticiae_title_f5c69bd3" xml:lang="la">Dies est læticiæ</title>
             <history xml:id="dies_est_laeticiae_history_44436885">
                <p/>
             </history>
@@ -72,14 +64,12 @@
             </langUsage>
 
             <relationList xml:id="dies_est_laeticiae_relationList_479fc386">
-               <relation label="Den danske Psalmebog"
-                         rel="isPartOf"
-                         target="Th_1569/Th_1569_LN1426.xml"
-                         xml:id="dies_est_laeticiae_relation_08669cf8"/>
-               <relation label="Den danske Psalmebog"
-                         rel="hasEmbodiment"
-                         target="Th_1569/Th_1569_LN1426_007r.xml"
-                         xml:id="dies_est_laeticiae_relation_d1e149"/>
+               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml" xml:id="dies_est_laeticiae_relation_08669cf8"/>
+               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf" target="Je_1573/Je_1573_LN0981.xml"/>
+               <relation label="Den danske Psalmebog, fol. 7r" rel="hasEmbodiment" target="Th_1569/Th_1569_LN1426_007r.xml" xml:id="dies_est_laeticiae_relation_d1e149"/>
+               <relation label="Den danske Psalmebog, fol. 9r" rel="hasEmbodiment" target="Th_1569/Th_1569_LN1426_009r.xml"/>
+               <relation label="Den danske Psalmebog, fol. 11r" rel="hasEmbodiment" target="Th_1569/Th_1569_LN1426_011r.xml"/>
+               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 72" rel="hasEmbodiment" target="Je_1573/Je_1573_LN0981_072.xml"/>
             </relationList>
             <classification xml:id="dies_est_laeticiae_classification_81a43c49">
                <termList xml:id="dies_est_laeticiae_termList_ab4fb67c">

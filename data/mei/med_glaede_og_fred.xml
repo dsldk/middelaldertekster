@@ -1,6 +1,4 @@
-<mei xmlns="http://www.music-encoding.org/ns/mei"
-     meiversion="4.0.0"
-     xml:id="med_glaede_og_fred_m-1">
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="med_glaede_og_fred_m-1">
    <meiHead xml:id="med_glaede_og_fred_meiHead_dce936c8">
       <fileDesc xml:id="med_glaede_og_fred_fileDesc_d63c781f">
          <titleStmt xml:id="med_glaede_og_fred_titleStmt_0772f093">
@@ -17,14 +15,10 @@
                      <addrLine xml:id="med_glaede_og_fred_addrLine_41da718f">Christians Brygge 1</addrLine>
                      <addrLine xml:id="med_glaede_og_fred_addrLine_5971c911">1219 København K</addrLine>
                      <addrLine xml:id="med_glaede_og_fred_addrLine_d2597aff">
-                        <ptr label="WWW"
-                             target="https://dsl.dk"
-                             xml:id="med_glaede_og_fred_ptr_N20262"/>
+                        <ptr label="WWW" target="https://dsl.dk" xml:id="med_glaede_og_fred_ptr_N20262"/>
                      </addrLine>
                      <addrLine xml:id="med_glaede_og_fred_addrLine_f7696bd5">
-                        <ptr label="E-mail"
-                             target="mailto://sekretariat@dsl.dk"
-                             xml:id="med_glaede_og_fred_ptr_N20270"/>
+                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="med_glaede_og_fred_ptr_N20270"/>
                      </addrLine>
                   </address>
                </corpName>
@@ -43,8 +37,7 @@
             <application version="6.2" xml:id="med_glaede_og_fred_application_d1e36">
                <name>Sibelius</name>
             </application>
-            <application version="2.1.0 modified for Sibelius 6"
-                         xml:id="med_glaede_og_fred_application_2d1e36">
+            <application version="2.1.0 modified for Sibelius 6" xml:id="med_glaede_og_fred_application_2d1e36">
                <name>SibMEI</name>
             </application>
             <application version="2013" xml:id="med_glaede_og_fred_application_6ec3980e">
@@ -54,27 +47,19 @@
       </encodingDesc>
       <workList xml:id="med_glaede_og_fred_workDesc_390b5501">
          <work xml:id="med_glaede_og_fred_work_7327e799">
+            <identifier label="Vingaard 1553">fol. 17r</identifier>
             <identifier xml:id="med_glaede_og_fred_identifier_d1e100" label="Thomissøn 1569">fol. 333v</identifier>
+            <identifier label="Jespersen 1573">s. 117</identifier>
             <identifier label="Glahn 1954" xml:id="med_glaede_og_fred_identifier_ce218d78">108</identifier>
             <identifier label="Glahn 2000" xml:id="med_glaede_og_fred_identifier_9df0fcee">C Ia: 4</identifier>
             <identifier label="DDK 1954" xml:id="med_glaede_og_fred_identifier_0e96f6f6">283</identifier>
             <identifier label="DDK 2003" xml:id="med_glaede_og_fred_identifier_bdff2aab">349</identifier>
             <identifier label="Korth 2017" xml:id="med_glaede_og_fred_identifier_62deeada">18</identifier>
-            <title type="alternative"
-                   xml:id="med_glaede_og_fred_title_a69c53d8"
-                   xml:lang="la">Nunc dimittis</title>
-            <title type="uniform"
-                   xml:id="med_glaede_og_fred_title_7c1baa0c"
-                   xml:lang="da">Med glæde og fred far jeg nu hen</title>
-            <title type="uniform"
-                   xml:id="med_glaede_og_fred_title_6d22ed8c"
-                   xml:lang="de">Mit Fried und Freud ich fahr dahin</title>
+            <title type="alternative" xml:id="med_glaede_og_fred_title_a69c53d8" xml:lang="la">Nunc dimittis</title>
+            <title type="uniform" xml:id="med_glaede_og_fred_title_7c1baa0c" xml:lang="da">Med glæde og fred far jeg nu hen</title>
+            <title type="uniform" xml:id="med_glaede_og_fred_title_6d22ed8c" xml:lang="de">Mit Fried und Freud ich fahr dahin</title>
             <contributor xml:id="med_glaede_og_fred_respStmt_5577b899">
-               <persName auth.uri="http://www.viaf.org"
-                         auth="VIAF"
-                         codedval="14773105"
-                         role="author"
-                         xml:id="med_glaede_og_fred_persName_a91123a3">Morten Luther [Martin Luther]</persName>
+               <persName auth.uri="http://www.viaf.org" auth="VIAF" codedval="14773105" role="author" xml:id="med_glaede_og_fred_persName_a91123a3">Morten Luther [Martin Luther]</persName>
             </contributor>
             <history xml:id="med_glaede_og_fred_history_44436885">
                <p/>
@@ -92,14 +77,12 @@
                </termList>
             </classification>
             <relationList xml:id="med_glaede_og_fred_relationList_1c110507">
-               <relation label="Den danske Psalmebog"
-                         rel="isPartOf"
-                         target="Th_1569/Th_1569_LN1426.xml"
-                         xml:id="med_glaede_og_fred_relation_4d893f59"/>
-               <relation label="Den danske Psalmebog (1569), fol. 333v"
-                         rel="hasEmbodiment"
-                         target="Th_1569/Th_1569_LN1426_333v.xml"
-                         xml:id="med_glaede_og_fred_relation_d1e173"/>
+               <relation label="En Ny Psalmebog" rel="isPartOf" target="Vi_1553/Vi_1553_LN1421.xml"/>
+               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml" xml:id="med_glaede_og_fred_relation_4d893f59"/>
+               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf" target="Je_1573/Je_1573_LN0981.xml"/>
+               <relation label="En Ny Psalmebog (1553), fol. 17r" rel="hasEmbodiment" target="Vi_1553/Vi_1553_LN1421_017r.xml"/>
+               <relation label="Den danske Psalmebog (1569), fol. 333v" rel="hasEmbodiment" target="Th_1569/Th_1569_LN1426_333v.xml" xml:id="med_glaede_og_fred_relation_d1e173"/>
+               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 117" rel="hasEmbodiment" target="Je_1573/Je_1573_LN0981_117.xml"/>
             </relationList>
          </work>
       </workList>

@@ -1,6 +1,4 @@
-<mei xmlns="http://www.music-encoding.org/ns/mei"
-     meiversion="4.0.0"
-     xml:id="halleluja_lover_gud_m-1">
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="halleluja_lover_gud_m-1">
    <meiHead xml:id="halleluja_lover_gud_meiHead_7115b02c">
       <fileDesc xml:id="halleluja_lover_gud_fileDesc_afbe04c4">
          <titleStmt xml:id="halleluja_lover_gud_titleStmt_c7240e04">
@@ -17,14 +15,10 @@
                      <addrLine xml:id="halleluja_lover_gud_addrLine_bbb6bb46">Christians Brygge 1</addrLine>
                      <addrLine xml:id="halleluja_lover_gud_addrLine_c52abcf4">1219 København K</addrLine>
                      <addrLine xml:id="halleluja_lover_gud_addrLine_0730457a">
-                        <ptr label="WWW"
-                             target="https://dsl.dk"
-                             xml:id="halleluja_lover_gud_ptr_N20262"/>
+                        <ptr label="WWW" target="https://dsl.dk" xml:id="halleluja_lover_gud_ptr_N20262"/>
                      </addrLine>
                      <addrLine xml:id="halleluja_lover_gud_addrLine_24e99f3b">
-                        <ptr label="E-mail"
-                             target="mailto://sekretariat@dsl.dk"
-                             xml:id="halleluja_lover_gud_ptr_N20270"/>
+                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="halleluja_lover_gud_ptr_N20270"/>
                      </addrLine>
                   </address>
                </corpName>
@@ -43,8 +37,7 @@
             <application version="6.2" xml:id="halleluja_lover_gud_application_d1e36">
                <name>Sibelius</name>
             </application>
-            <application version="2.1.0 modified for Sibelius 6"
-                         xml:id="halleluja_lover_gud_application_2d1e36">
+            <application version="2.1.0 modified for Sibelius 6" xml:id="halleluja_lover_gud_application_2d1e36">
                <name>SibMEI</name>
             </application>
             <application version="2013" xml:id="halleluja_lover_gud_application_1dd930ab">
@@ -55,10 +48,9 @@
       <workList xml:id="halleluja_lover_gud_workDesc_332a5ade">
          <work xml:id="halleluja_lover_gud_work_7327e799">
             <identifier xml:id="halleluja_lover_gud_identifier_d1e100" label="Thomissøn 1569">fol. 291r</identifier>
+            <identifier label="Jespersen 1573">s. 112</identifier>
             <identifier label="Glahn 2000" xml:id="halleluja_lover_gud_identifier_399c64a8">D I: 33</identifier>
-            <title type="uniform"
-                   xml:id="halleluja_lover_gud_title_24fa7e7b"
-                   xml:lang="da">Halleluja. Lover Gud, I hedninger alle</title>
+            <title type="uniform" xml:id="halleluja_lover_gud_title_24fa7e7b" xml:lang="da">Halleluja. Lover Gud, I hedninger alle</title>
             <history xml:id="halleluja_lover_gud_history_44436885">
                <p>Tekstens og melodiens oprindelse er ukendt. Widding formodede, at den var senmiddelalderlig (<abbr>Widding 1933</abbr>,II:250-251).</p>
                <p>Th og Je.</p>
@@ -74,14 +66,10 @@
                </termList>
             </classification>
             <relationList xml:id="halleluja_lover_gud_relationList_1c110507">
-               <relation label="Den danske Psalmebog"
-                         rel="isPartOf"
-                         target="Th_1569/Th_1569_LN1426.xml"
-                         xml:id="halleluja_lover_gud_relation_4d893f59"/>
-               <relation label="Den danske Psalmebog (1569), fol. 291r"
-                         rel="hasEmbodiment"
-                         target="Th_1569/Th_1569_LN1426_291r.xml"
-                         xml:id="halleluja_lover_gud_relation_d1e152"/>
+               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml" xml:id="halleluja_lover_gud_relation_4d893f59"/>
+               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf" target="Je_1573/Je_1573_LN0981.xml"/>
+               <relation label="Den danske Psalmebog (1569), fol. 291r" rel="hasEmbodiment" target="Th_1569/Th_1569_LN1426_291r.xml" xml:id="halleluja_lover_gud_relation_d1e152"/>
+               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 112" rel="hasEmbodiment" target="Je_1573/Je_1573_LN0981_112.xml"/>
             </relationList>
          </work>
       </workList>
