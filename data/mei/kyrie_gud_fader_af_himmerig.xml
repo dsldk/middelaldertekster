@@ -1,4 +1,6 @@
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="kyrie_gud_fader_af_himmerig_m-1">
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0"
+     xml:id="kyrie_gud_fader_af_himmerig_m-1">
    <meiHead xml:id="kyrie_gud_fader_af_himmerig_meiHead_d62880cb">
       <fileDesc xml:id="kyrie_gud_fader_af_himmerig_fileDesc_8d0c593d">
          <titleStmt xml:id="kyrie_gud_fader_af_himmerig_titleStmt_aa028f68">
@@ -15,10 +17,12 @@
                      <addrLine xml:id="kyrie_gud_fader_af_himmerig_addrLine_6b30efec">Christians Brygge 1</addrLine>
                      <addrLine xml:id="kyrie_gud_fader_af_himmerig_addrLine_d35a4dea">1219 København K</addrLine>
                      <addrLine xml:id="kyrie_gud_fader_af_himmerig_addrLine_b3c33183">
-                        <ptr label="WWW" target="https://dsl.dk" xml:id="kyrie_gud_fader_af_himmerig_ptr_N20262"/>
+                        <ptr label="WWW" target="https://dsl.dk"
+                             xml:id="kyrie_gud_fader_af_himmerig_ptr_N20262"/>
                      </addrLine>
                      <addrLine xml:id="kyrie_gud_fader_af_himmerig_addrLine_f46d4d40">
-                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="kyrie_gud_fader_af_himmerig_ptr_N20270"/>
+                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk"
+                             xml:id="kyrie_gud_fader_af_himmerig_ptr_N20270"/>
                      </addrLine>
                   </address>
                </corpName>
@@ -37,9 +41,8 @@
             <application version="6.2" xml:id="kyrie_gud_fader_af_himmerig_application_d1e36">
                <name>Sibelius</name>
             </application>
-            <application version="2.1.0 modified for Sibelius 6" xml:id="kyrie_gud_fader_af_himmerig_application_2d1e36">
-               <name>SibMEI</name>
-            </application>
+            <application xml:id="kyrie_gud_fader_af_himmerig_application_2d1e36" version="2.1.0">
+               <name>SibMEI</name> modified for Sibelius 6</application>
             <application version="2013" xml:id="kyrie_gud_fader_af_himmerig_application_8c5ffd9a">
                <name xml:id="kyrie_gud_fader_af_himmerig_name_8e5d6dca">MerMEId</name>
             </application>
@@ -53,29 +56,40 @@
             <identifier label="Glahn 2000" xml:id="kyrie_gud_fader_af_himmerig_identifier_5220f8ee">A I: 2</identifier>
             <identifier label="LU" xml:id="kyrie_gud_fader_af_himmerig_identifier_18706337">34</identifier>
             <identifier label="LU" xml:id="kyrie_gud_fader_af_himmerig_identifier_bff746a2">54</identifier>
-            <title type="uniform" xml:id="kyrie_gud_fader_af_himmerig_title_1365ed35" xml:lang="da">Kyrie Gud Fader af Himmerig</title>
+            <title type="uniform" xml:id="kyrie_gud_fader_af_himmerig_title_1365ed35"
+                   xml:lang="da">Kyrie Gud Fader af Himmerig</title>
             <history xml:id="kyrie_gud_fader_af_himmerig_history_44436885">
                <p>Kyriesalmen er knyttet til juletiden, og dens tekst kendes tilbage fra <abbr>Pedersen 1533</abbr>. Melodien er formodentlig sammensat af mindst to middelalderlige forlæg, dels <rend fontstyle="italic">Kyrie Rex Splendens</rend> og <rend fontstyle="italic">Kyrie Jesu Redemptor</rend>. Det tyder på, at melodien knytter an til tyske traditioner (<abbr>Glahn 1954</abbr>:39-41).</p>
                <p>Tekstkilder:
-                  <lb/><abbr>Pedersen 1533</abbr>, fol. 19r<lb/><abbr>Vingaard 1553</abbr>, fol. 98IIv
-                  <lb/><abbr>Thomissøn 1569</abbr>, fol. 3r<lb/><abbr>Jespersen 1573</abbr>, s. 77</p>
-               <p>Flerstemmig udsættelse:<lb/><abbr>Pedersøn 1620</abbr>, nr. 1</p>
+                  <lb/>
+                  <abbr>Pedersen 1533</abbr>, fol. 19r<lb/>
+                  <abbr>Vingaard 1553</abbr>, fol. 98IIv
+                  <lb/>
+                  <abbr>Thomissøn 1569</abbr>, fol. 3r<lb/>
+                  <abbr>Jespersen 1573</abbr>, s. 77</p>
+               <p>Flerstemmig udsættelse:<lb/>
+                  <abbr>Pedersøn 1620</abbr>, nr. 1</p>
             </history>
             <langUsage xml:id="kyrie_gud_fader_af_himmerig_langUsage_f10dda89">
                <language>English</language>
                <language>Danish</language>
             </langUsage>
-            <relationList xml:id="kyrie_gud_fader_af_himmerig_relationList_71f3b189">
-               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml" xml:id="kyrie_gud_fader_af_himmerig_relation_196a8d03"/>
-               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf" target="Je_1573/Je_1573_LN0981.xml"/>
-               <relation label="Den danske Psalmebog" rel="hasEmbodiment" target="Th_1569/Th_1569_LN1426_003r.xml" xml:id="kyrie_gud_fader_af_himmerig_relation_d1e152"/>
-               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 77" rel="hasEmbodiment" target="Je_1573/Je_1573_LN0981_077.xml"/>
-            </relationList>
             <classification xml:id="kyrie_gud_fader_af_himmerig_classification_81a43c49">
                <termList xml:id="kyrie_gud_fader_af_himmerig_termList_ab4fb67c">
                   <term type="itemClass" xml:id="kyrie_gud_fader_af_himmerig_term_d1e159">melody</term>
                </termList>
             </classification>
+            <relationList xml:id="kyrie_gud_fader_af_himmerig_relationList_71f3b189">
+               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml"
+                         xml:id="kyrie_gud_fader_af_himmerig_relation_196a8d03"/>
+               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf"
+                         target="Je_1573/Je_1573_LN0981.xml"/>
+               <relation label="Den danske Psalmebog" rel="hasEmbodiment"
+                         target="Th_1569/Th_1569_LN1426_003r.xml"
+                         xml:id="kyrie_gud_fader_af_himmerig_relation_d1e152"/>
+               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 77" rel="hasEmbodiment"
+                         target="Je_1573/Je_1573_LN0981_077.xml"/>
+            </relationList>
          </work>
       </workList>
    </meiHead>

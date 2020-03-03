@@ -1,4 +1,6 @@
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="o_guds_lam_uskyldig_m-1">
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0"
+     xml:id="o_guds_lam_uskyldig_m-1">
    <meiHead xml:id="o_guds_lam_uskyldig_meiHead_b5351a99">
       <fileDesc xml:id="o_guds_lam_uskyldig_fileDesc_3c8f3a80">
          <titleStmt xml:id="o_guds_lam_uskyldig_titleStmt_037c8de7">
@@ -18,7 +20,8 @@
                         <ptr label="WWW" target="https://dsl.dk" xml:id="o_guds_lam_uskyldig_ptr_N20262"/>
                      </addrLine>
                      <addrLine xml:id="o_guds_lam_uskyldig_addrLine_1d0d2710">
-                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="o_guds_lam_uskyldig_ptr_N20270"/>
+                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk"
+                             xml:id="o_guds_lam_uskyldig_ptr_N20270"/>
                      </addrLine>
                   </address>
                </corpName>
@@ -37,9 +40,8 @@
             <application version="6.2" xml:id="o_guds_lam_uskyldig_application_d1e36">
                <name>Sibelius</name>
             </application>
-            <application version="2.1.0 modified for Sibelius 6" xml:id="o_guds_lam_uskyldig_application_2d1e36">
-               <name>SibMEI</name>
-            </application>
+            <application xml:id="o_guds_lam_uskyldig_application_2d1e36" version="2.1.0">
+               <name>SibMEI</name> modified for Sibelius 6</application>
             <application version="2013" xml:id="o_guds_lam_uskyldig_application_9864dfd0">
                <name xml:id="o_guds_lam_uskyldig_name_a2abce58">MerMEId</name>
             </application>
@@ -65,20 +67,24 @@
                <language>Danish</language>
                <language>English</language>
             </langUsage>
-            <relationList xml:id="o_guds_lam_uskyldig_relationList_1c110507">
-               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml" xml:id="o_guds_lam_uskyldig_relation_4d893f59"/>
-               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf" target="Je_1573/Je_1573_LN0981.xml"/>
-               <relation label="Den danske Psalmebog (1569), fol. 127v" rel="hasEmbodiment" target="Th_1569/Th_1569_LN1426_127v.xml" xml:id="o_guds_lam_uskyldig_relation_d1e158"/>
-               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 18" rel="hasEmbodiment" target="Je_1573/Je_1573_LN0981_018.xml"/>
-            </relationList>
             <classification xml:id="o_guds_lam_uskyldig_classification_81a43c49">
                <termList xml:id="o_guds_lam_uskyldig_termList_ab4fb67c">
                   <term type="itemClass" xml:id="o_guds_lam_uskyldig_term_d1e165">melody</term>
                </termList>
             </classification>
+            <relationList xml:id="o_guds_lam_uskyldig_relationList_1c110507">
+               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml"
+                         xml:id="o_guds_lam_uskyldig_relation_4d893f59"/>
+               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf"
+                         target="Je_1573/Je_1573_LN0981.xml"/>
+               <relation label="Den danske Psalmebog (1569), fol. 127v" rel="hasEmbodiment"
+                         target="Th_1569/Th_1569_LN1426_127v.xml"
+                         xml:id="o_guds_lam_uskyldig_relation_d1e158"/>
+               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 18" rel="hasEmbodiment"
+                         target="Je_1573/Je_1573_LN0981_018.xml"/>
+            </relationList>
          </work>
       </workList>
-
    </meiHead>
    <music xml:id="o_guds_lam_uskyldig_m-22"/>
 </mei>

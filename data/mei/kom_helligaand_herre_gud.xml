@@ -1,4 +1,6 @@
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="kom_helligaand_herre_gud_m-1">
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0"
+     xml:id="kom_helligaand_herre_gud_m-1">
    <meiHead xml:id="kom_helligaand_herre_gud_meiHead_e6e5db13">
       <fileDesc xml:id="kom_helligaand_herre_gud_fileDesc_3293bf9d">
          <titleStmt xml:id="kom_helligaand_herre_gud_titleStmt_f7791216">
@@ -15,10 +17,12 @@
                      <addrLine xml:id="kom_helligaand_herre_gud_addrLine_62f76472">Christians Brygge 1</addrLine>
                      <addrLine xml:id="kom_helligaand_herre_gud_addrLine_b1c421b1">1219 København K</addrLine>
                      <addrLine xml:id="kom_helligaand_herre_gud_addrLine_a2d2477a">
-                        <ptr label="WWW" target="https://dsl.dk" xml:id="kom_helligaand_herre_gud_ptr_N20262"/>
+                        <ptr label="WWW" target="https://dsl.dk"
+                             xml:id="kom_helligaand_herre_gud_ptr_N20262"/>
                      </addrLine>
                      <addrLine xml:id="kom_helligaand_herre_gud_addrLine_5a054213">
-                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="kom_helligaand_herre_gud_ptr_N20270"/>
+                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk"
+                             xml:id="kom_helligaand_herre_gud_ptr_N20270"/>
                      </addrLine>
                   </address>
                </corpName>
@@ -37,9 +41,8 @@
             <application version="6.2" xml:id="kom_helligaand_herre_gud_application_d1e36">
                <name>Sibelius</name>
             </application>
-            <application version="2.1.0 modified for Sibelius 6" xml:id="kom_helligaand_herre_gud_application_2d1e36">
-               <name>SibMEI</name>
-            </application>
+            <application xml:id="kom_helligaand_herre_gud_application_2d1e36" version="2.1.0">
+               <name>SibMEI</name> modified for Sibelius 6</application>
             <application version="2013" xml:id="kom_helligaand_herre_gud_application_02ecfebb">
                <name xml:id="kom_helligaand_herre_gud_name_9758d9b0">MerMEId</name>
             </application>
@@ -51,13 +54,18 @@
             <identifier label="Jespersen 1573">s. 254</identifier>
             <identifier label="Glahn 1954" xml:id="kom_helligaand_herre_gud_identifier_a197a8e2">8</identifier>
             <identifier label="Glahn 2000" xml:id="kom_helligaand_herre_gud_identifier_ad6cd1d6">A I: 11a</identifier>
-            <title type="alternative" xml:id="kom_helligaand_herre_gud_title_ef9a064b" xml:lang="la">Veni sancte spiritus &amp; emitte cælitus</title>
+            <title type="alternative" xml:id="kom_helligaand_herre_gud_title_ef9a064b"
+                   xml:lang="la">Veni sancte spiritus &amp; emitte cælitus</title>
             <title type="uniform" xml:id="kom_helligaand_herre_gud_title_e6ca4a50" xml:lang="da">Kom Helligånd, Herre Gud</title>
             <history xml:id="kom_helligaand_herre_gud_history_44436885">
-               <p>Dette er en dansk bearbejdelse af den latinske pinsesekvens <rend fontstyle="italic">Veni sancte spiritus et emitte caelitus</rend>. Tyske pinsesekvenser kendes blandt andet fra Thomas Müntzers <rend fontstyle="italic">Deutsch Euangelisch Messze</rend> (Allstedt, 1524) (<ref target="https://archive.thulb.uni-jena.de/ufb/rsc/viewer/ufb_derivate_00010764/Theol-4-00235-06_0084.tif">faksimile</ref>), hvor den ses med teksten <rend fontstyle="italic">Kum du tröster heylger geist</rend>. Melodien danner også grundlag for <ref target="document.xq?doc=vi_arme_adams_boern_alle.xml"><rend fontstyle="italic">Wi arme Adams børn alle</rend></ref>.</p>
+               <p>Dette er en dansk bearbejdelse af den latinske pinsesekvens <rend fontstyle="italic">Veni sancte spiritus et emitte caelitus</rend>. Tyske pinsesekvenser kendes blandt andet fra Thomas Müntzers <rend fontstyle="italic">Deutsch Euangelisch Messze</rend> (Allstedt, 1524) (<ref target="https://archive.thulb.uni-jena.de/ufb/rsc/viewer/ufb_derivate_00010764/Theol-4-00235-06_0084.tif">faksimile</ref>), hvor den ses med teksten <rend fontstyle="italic">Kum du tröster heylger geist</rend>. Melodien danner også grundlag for <ref target="document.xq?doc=vi_arme_adams_boern_alle.xml">
+                     <rend fontstyle="italic">Wi arme Adams børn alle</rend>
+                  </ref>.</p>
                <p>Tekstkilder:
-                  <lb/><abbr>Thomissøn 1569</abbr>, fol. 103r
-                  <lb/><abbr>Jespersen 1573</abbr>, s. 254</p>
+                  <lb/>
+                  <abbr>Thomissøn 1569</abbr>, fol. 103r
+                  <lb/>
+                  <abbr>Jespersen 1573</abbr>, s. 254</p>
             </history>
             <langUsage xml:id="kom_helligaand_herre_gud_langUsage_f10dda89">
                <language>Latin</language>
@@ -66,7 +74,8 @@
             </langUsage>
             <notesStmt xml:id="kom_helligaand_herre_gud_notesStmt_6120b6b8">
                <annot type="links" xml:id="kom_helligaand_herre_gud_annot_833375bf">
-                  <ptr mimetype="" target="https://de.wikipedia.org/wiki/Veni_Sancte_Spiritus" xml:id="kom_helligaand_herre_gud_ptr_51baedca"/>
+                  <ptr target="https://de.wikipedia.org/wiki/Veni_Sancte_Spiritus"
+                       xml:id="kom_helligaand_herre_gud_ptr_51baedca"/>
                </annot>
             </notesStmt>
             <classification xml:id="kom_helligaand_herre_gud_classification_81a43c49">
@@ -76,14 +85,18 @@
                </termList>
             </classification>
             <relationList xml:id="kom_helligaand_herre_gud_relationList_1c110507">
-               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml" xml:id="kom_helligaand_herre_gud_relation_4d893f59"/>
-               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf" target="Je_1573/Je_1573_LN0981.xml"/>
-               <relation label="Den danske Psalmebog (1569), fol. 103r" rel="hasEmbodiment" target="Th_1569/Th_1569_LN1426_103r.xml" xml:id="kom_helligaand_herre_gud_relation_d1e155"/>
-               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 254" rel="hasEmbodiment" target="Je_1573/Je_1573_LN0981_254.xml"/>
+               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml"
+                         xml:id="kom_helligaand_herre_gud_relation_4d893f59"/>
+               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf"
+                         target="Je_1573/Je_1573_LN0981.xml"/>
+               <relation label="Den danske Psalmebog (1569), fol. 103r" rel="hasEmbodiment"
+                         target="Th_1569/Th_1569_LN1426_103r.xml"
+                         xml:id="kom_helligaand_herre_gud_relation_d1e155"/>
+               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 254" rel="hasEmbodiment"
+                         target="Je_1573/Je_1573_LN0981_254.xml"/>
             </relationList>
          </work>
       </workList>
-
    </meiHead>
    <music xml:id="kom_helligaand_herre_gud_m-22"/>
 </mei>

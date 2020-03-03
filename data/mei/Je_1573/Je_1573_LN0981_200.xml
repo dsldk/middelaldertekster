@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="Je_1573_LN0981_200_m-1">
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0"
+     xml:id="Je_1573_LN0981_200_m-1">
    <meiHead>
       <fileDesc xml:id="Je_1573_LN0981_200_fileDesc_bb6d5d9b">
          <titleStmt xml:id="Je_1573_LN0981_200_titleStmt_f9684f40">
@@ -19,7 +20,8 @@
                         <ptr label="WWW" target="https://dsl.dk" xml:id="Je_1573_LN0981_200_ptr_N20262"/>
                      </addrLine>
                      <addrLine xml:id="Je_1573_LN0981_200_addrLine_73eb1972">
-                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="Je_1573_LN0981_200_ptr_N20270"/>
+                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk"
+                             xml:id="Je_1573_LN0981_200_ptr_N20270"/>
                      </addrLine>
                   </address>
                </corpName>
@@ -38,9 +40,8 @@
             <application version="6.2" xml:id="Je_1573_LN0981_200_application_d1e36">
                <name>Sibelius</name>
             </application>
-            <application version="2.1.0 modified for Sibelius 6" xml:id="Je_1573_LN0981_200_application_2d1e36">
-               <name>SibMEI</name>
-            </application>
+            <application xml:id="Je_1573_LN0981_200_application_2d1e36" version="2.1.0">
+               <name>SibMEI</name> modified for Sibelius 6</application>
             <application version="2013" xml:id="Je_1573_LN0981_200_application_947905d9">
                <name>MerMEId</name>
             </application>
@@ -52,7 +53,8 @@
             <identifier xml:id="Je_1573_LN0981_200_identifier_d1e100" label="Jespersen 1573">s. 200</identifier>
             <title xml:id="Je_1573_LN0981_200_title_da962e98" xml:lang="la">MAne prima sabbathi sirgens Dei Filius</title>
             <contributor xml:id="Je_1573_LN0981_200_respStmt_5577b899">
-               <persName auth.uri="http://www.viaf.org" auth="VIAF" codedval="41412249" role="collector" xml:id="Je_1573_LN0981_200_persName_5eb47039">Niels Jesperssøn</persName>
+               <persName auth.uri="http://www.viaf.org" auth="VIAF" codedval="41412249" role="collector"
+                         xml:id="Je_1573_LN0981_200_persName_5eb47039">Niels Jespersen</persName>
             </contributor>
             <history xml:id="Je_1573_LN0981_200_history_44436885">
                <p/>
@@ -61,16 +63,16 @@
                <language xml:id="la">Latin</language>
                <language xml:id="en">English</language>
             </langUsage>
-            
-            <relationList xml:id="Je_1573_LN0981_200_relationList_82890f7b">
-               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf" target="Je_1573/Je_1573_LN0981.xml" xml:id="Je_1573_LN0981_200_relation_4c78148e"/>
-            </relationList>
             <classification xml:id="Je_1573_LN0981_200_classification_81a43c49">
                <termList xml:id="Je_1573_LN0981_200_termList_ab4fb67c"/>
             </classification>
+            <relationList xml:id="Je_1573_LN0981_200_relationList_82890f7b">
+               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf"
+                         target="Je_1573/Je_1573_LN0981.xml"
+                         xml:id="Je_1573_LN0981_200_relation_4c78148e"/>
+            </relationList>
          </work>
       </workList>
-      
    </meiHead>
    <music xml:id="Je_1573_LN0981_200_m-22">
       <body xml:id="Je_1573_LN0981_200_m-23">
@@ -78,7 +80,9 @@
             <score xml:id="Je_1573_LN0981_200_m-25">
                <scoreDef xml:id="Je_1573_LN0981_200_m-26">
                   <staffGrp xml:id="Je_1573_LN0981_200_m-27">
-                     <staffDef xml:id="Je_1573_LN0981_200_m-28" clef.line="4" clef.shape="C" key.sig="0" lines="5" n="1"/>
+                     <staffDef xml:id="Je_1573_LN0981_200_m-28" clef.line="4" clef.shape="C" key.sig="0"
+                               lines="5"
+                               n="1"/>
                   </staffGrp>
                </scoreDef>
                <section xml:id="Je_1573_LN0981_200_m-31">
@@ -174,7 +178,8 @@
                            </neume>
                         </syllable>
                      </layer>
-                     <dir type="sb" tstamp="11.75" place="above" label="Linjeskift" xml:id="Je_1573_LN0981_200_m-47">⁞</dir>
+                     <dir type="sb" tstamp="11.75" place="above" label="Linjeskift"
+                          xml:id="Je_1573_LN0981_200_m-47">⁞</dir>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_200_m-71" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_200_m-72" n="1">
@@ -259,7 +264,8 @@
                               <nc xml:id="Je_1573_LN0981_200_m-83" oct="3" pname="d" pnum="50" label="dur4"/>
                            </neume>
                         </syllable>
-                        <fermata xml:id="Je_1573_LN0981_200_m-84" form="norm" layer="1" shape="curved" staff="1" startid="#Je_1573_LN0981_200_m-83"/>
+                        <fermata xml:id="Je_1573_LN0981_200_m-84" form="norm" layer="1" shape="curved" staff="1"
+                                 startid="#Je_1573_LN0981_200_m-83"/>
                         <barLine form="single"/>
                      </layer>
                   </staff>
@@ -298,7 +304,8 @@
                            </neume>
                         </syllable>
                      </layer>
-                     <dir type="sb" tstamp="4.75" place="above" label="Linjeskift" xml:id="Je_1573_LN0981_200_m-113">⁞</dir>
+                     <dir type="sb" tstamp="4.75" place="above" label="Linjeskift"
+                          xml:id="Je_1573_LN0981_200_m-113">⁞</dir>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_200_m-124" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_200_m-125" n="1">
@@ -416,7 +423,8 @@
                            </neume>
                         </syllable>
                      </layer>
-                     <dir type="sb" tstamp="14.75" place="above" label="Linjeskift" xml:id="Je_1573_LN0981_200_m-141">⁞</dir>
+                     <dir type="sb" tstamp="14.75" place="above" label="Linjeskift"
+                          xml:id="Je_1573_LN0981_200_m-141">⁞</dir>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_200_m-170" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_200_m-171" n="1">
@@ -445,7 +453,9 @@
                               <nc xml:id="Je_1573_LN0981_200_m-175" oct="3" pname="d" pnum="50" label="dur4"/>
                            </neume>
                         </syllable>
-                        <fermata xml:id="Je_1573_LN0981_200_m-176" form="norm" layer="1" shape="curved" staff="1" startid="#Je_1573_LN0981_200_m-175"/>
+                        <fermata xml:id="Je_1573_LN0981_200_m-176" form="norm" layer="1" shape="curved"
+                                 staff="1"
+                                 startid="#Je_1573_LN0981_200_m-175"/>
                         <barLine form="single"/>
                      </layer>
                   </staff>
@@ -548,7 +558,8 @@
                            </neume>
                         </syllable>
                      </layer>
-                     <dir type="sb" tstamp="12.75" place="above" label="Linjeskift" xml:id="Je_1573_LN0981_200_m-201">⁞</dir>
+                     <dir type="sb" tstamp="12.75" place="above" label="Linjeskift"
+                          xml:id="Je_1573_LN0981_200_m-201">⁞</dir>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_200_m-226" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_200_m-227" n="1">
@@ -625,7 +636,9 @@
                               <nc xml:id="Je_1573_LN0981_200_m-237" oct="3" pname="d" pnum="50" label="dur4"/>
                            </neume>
                         </syllable>
-                        <fermata xml:id="Je_1573_LN0981_200_m-238" form="norm" layer="1" shape="curved" staff="1" startid="#Je_1573_LN0981_200_m-237"/>
+                        <fermata xml:id="Je_1573_LN0981_200_m-238" form="norm" layer="1" shape="curved"
+                                 staff="1"
+                                 startid="#Je_1573_LN0981_200_m-237"/>
                         <barLine form="single"/>
                      </layer>
                   </staff>
@@ -688,7 +701,8 @@
                            </neume>
                         </syllable>
                      </layer>
-                     <dir type="pb" tstamp="7.75" place="above" label="Sideskift" xml:id="Je_1573_LN0981_200_m-270">|</dir>
+                     <dir type="pb" tstamp="7.75" place="above" label="Sideskift"
+                          xml:id="Je_1573_LN0981_200_m-270">|</dir>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_200_m-287" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_200_m-288" n="1">
@@ -807,10 +821,13 @@
                               <nc xml:id="Je_1573_LN0981_200_m-306" oct="3" pname="d" pnum="50" label="dur4"/>
                            </neume>
                         </syllable>
-                        <fermata xml:id="Je_1573_LN0981_200_m-2380" form="norm" layer="1" shape="curved" staff="1" startid="#Je_1573_LN0981_200_m-306"/>
+                        <fermata xml:id="Je_1573_LN0981_200_m-2380" form="norm" layer="1" shape="curved"
+                                 staff="1"
+                                 startid="#Je_1573_LN0981_200_m-306"/>
                         <barLine form="single"/>
                      </layer>
-                     <dir type="sb" tstamp="16.75" place="above" label="Linjeskift" xml:id="Je_1573_LN0981_200_m-307">⁞</dir>
+                     <dir type="sb" tstamp="16.75" place="above" label="Linjeskift"
+                          xml:id="Je_1573_LN0981_200_m-307">⁞</dir>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_200_m-338" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_200_m-339" n="1">
@@ -920,7 +937,8 @@
                            </neume>
                         </syllable>
                      </layer>
-                     <dir type="sb" tstamp="13.75" place="above" label="Linjeskift" xml:id="Je_1573_LN0981_200_m-354">⁞</dir>
+                     <dir type="sb" tstamp="13.75" place="above" label="Linjeskift"
+                          xml:id="Je_1573_LN0981_200_m-354">⁞</dir>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_200_m-379" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_200_m-380" n="1">
@@ -991,7 +1009,9 @@
                               <nc xml:id="Je_1573_LN0981_200_m-392" oct="3" pname="d" pnum="50" label="dur4"/>
                            </neume>
                         </syllable>
-                        <fermata xml:id="Je_1573_LN0981_200_m-393" form="norm" layer="1" shape="curved" staff="1" startid="#Je_1573_LN0981_200_m-392"/>
+                        <fermata xml:id="Je_1573_LN0981_200_m-393" form="norm" layer="1" shape="curved"
+                                 staff="1"
+                                 startid="#Je_1573_LN0981_200_m-392"/>
                         <barLine form="single"/>
                      </layer>
                   </staff>
@@ -1046,7 +1066,8 @@
                            </neume>
                         </syllable>
                      </layer>
-                     <dir type="sb" tstamp="6.75" place="above" label="Linjeskift" xml:id="Je_1573_LN0981_200_m-424">⁞</dir>
+                     <dir type="sb" tstamp="6.75" place="above" label="Linjeskift"
+                          xml:id="Je_1573_LN0981_200_m-424">⁞</dir>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_200_m-435" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_200_m-436" n="1">
@@ -1172,7 +1193,8 @@
                            </neume>
                         </syllable>
                      </layer>
-                     <dir type="sb" tstamp="15.75" place="above" label="Linjeskift" xml:id="Je_1573_LN0981_200_m-453">⁞</dir>
+                     <dir type="sb" tstamp="15.75" place="above" label="Linjeskift"
+                          xml:id="Je_1573_LN0981_200_m-453">⁞</dir>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_200_m-490" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_200_m-491" n="1">
@@ -1233,7 +1255,9 @@
                               <nc xml:id="Je_1573_LN0981_200_m-499" oct="3" pname="a" pnum="57" label="dur4"/>
                            </neume>
                         </syllable>
-                        <fermata xml:id="Je_1573_LN0981_200_m-500" form="norm" layer="1" shape="curved" staff="1" startid="#Je_1573_LN0981_200_m-499"/>
+                        <fermata xml:id="Je_1573_LN0981_200_m-500" form="norm" layer="1" shape="curved"
+                                 staff="1"
+                                 startid="#Je_1573_LN0981_200_m-499"/>
                         <barLine form="single"/>
                      </layer>
                   </staff>
@@ -1296,7 +1320,8 @@
                            </neume>
                         </syllable>
                      </layer>
-                     <dir type="sb" tstamp="7.75" place="above" label="Linjeskift" xml:id="Je_1573_LN0981_200_m-526">⁞</dir>
+                     <dir type="sb" tstamp="7.75" place="above" label="Linjeskift"
+                          xml:id="Je_1573_LN0981_200_m-526">⁞</dir>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_200_m-542" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_200_m-543" n="1">
@@ -1414,7 +1439,8 @@
                            </neume>
                         </syllable>
                      </layer>
-                     <dir type="pb" tstamp="14.75" place="above" label="Sideskift" xml:id="Je_1573_LN0981_200_m-559">|</dir>
+                     <dir type="pb" tstamp="14.75" place="above" label="Sideskift"
+                          xml:id="Je_1573_LN0981_200_m-559">|</dir>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_200_m-590" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_200_m-591" n="1">
@@ -1475,7 +1501,9 @@
                               <nc xml:id="Je_1573_LN0981_200_m-599" oct="3" pname="a" pnum="57" label="dur4"/>
                            </neume>
                         </syllable>
-                        <fermata xml:id="Je_1573_LN0981_200_m-600" form="norm" layer="1" shape="curved" staff="1" startid="#Je_1573_LN0981_200_m-599"/>
+                        <fermata xml:id="Je_1573_LN0981_200_m-600" form="norm" layer="1" shape="curved"
+                                 staff="1"
+                                 startid="#Je_1573_LN0981_200_m-599"/>
                         <barLine form="single"/>
                      </layer>
                   </staff>
@@ -1530,7 +1558,8 @@
                            </neume>
                         </syllable>
                      </layer>
-                     <dir type="sb" tstamp="6.75" place="above" label="Linjeskift" xml:id="Je_1573_LN0981_200_m-625">⁞</dir>
+                     <dir type="sb" tstamp="6.75" place="above" label="Linjeskift"
+                          xml:id="Je_1573_LN0981_200_m-625">⁞</dir>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_200_m-640" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_200_m-641" n="1">
@@ -1636,7 +1665,8 @@
                            </neume>
                         </syllable>
                      </layer>
-                     <dir type="sb" tstamp="16.75" place="above" label="Linjeskift" xml:id="Je_1573_LN0981_200_m-662">⁞</dir>
+                     <dir type="sb" tstamp="16.75" place="above" label="Linjeskift"
+                          xml:id="Je_1573_LN0981_200_m-662">⁞</dir>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_200_m-689" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_200_m-690" n="1">
@@ -1684,7 +1714,9 @@
                               <nc xml:id="Je_1573_LN0981_200_m-702" oct="3" pname="d" pnum="50" label="dur4"/>
                            </neume>
                         </syllable>
-                        <fermata xml:id="Je_1573_LN0981_200_m-703" form="norm" layer="1" shape="curved" staff="1" startid="#Je_1573_LN0981_200_m-702"/>
+                        <fermata xml:id="Je_1573_LN0981_200_m-703" form="norm" layer="1" shape="curved"
+                                 staff="1"
+                                 startid="#Je_1573_LN0981_200_m-702"/>
                         <barLine form="single"/>
                      </layer>
                   </staff>
@@ -1755,7 +1787,8 @@
                            </neume>
                         </syllable>
                      </layer>
-                     <dir type="sb" tstamp="8.75" place="above" label="Linjeskift" xml:id="Je_1573_LN0981_200_m-726">⁞</dir>
+                     <dir type="sb" tstamp="8.75" place="above" label="Linjeskift"
+                          xml:id="Je_1573_LN0981_200_m-726">⁞</dir>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_200_m-744" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_200_m-745" n="1">
@@ -1854,7 +1887,8 @@
                            </neume>
                         </syllable>
                      </layer>
-                     <dir type="sb" tstamp="16.75" place="above" label="Linjeskift" xml:id="Je_1573_LN0981_200_m-767">⁞</dir>
+                     <dir type="sb" tstamp="16.75" place="above" label="Linjeskift"
+                          xml:id="Je_1573_LN0981_200_m-767">⁞</dir>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_200_m-790" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_200_m-791" n="1">
@@ -1893,7 +1927,9 @@
                               <nc xml:id="Je_1573_LN0981_200_m-800" oct="3" pname="d" pnum="50" label="dur4"/>
                            </neume>
                         </syllable>
-                        <fermata xml:id="Je_1573_LN0981_200_m-801" form="norm" layer="1" shape="curved" staff="1" startid="#Je_1573_LN0981_200_m-800"/>
+                        <fermata xml:id="Je_1573_LN0981_200_m-801" form="norm" layer="1" shape="curved"
+                                 staff="1"
+                                 startid="#Je_1573_LN0981_200_m-800"/>
                         <barLine form="single"/>
                      </layer>
                   </staff>
@@ -1967,7 +2003,8 @@
                            </neume>
                         </syllable>
                      </layer>
-                     <dir type="sb" tstamp="11.75" place="above" label="Linjeskift" xml:id="Je_1573_LN0981_200_m-829">⁞</dir>
+                     <dir type="sb" tstamp="11.75" place="above" label="Linjeskift"
+                          xml:id="Je_1573_LN0981_200_m-829">⁞</dir>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_200_m-848" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_200_m-849" n="1">
@@ -2078,7 +2115,8 @@
                            </neume>
                         </syllable>
                      </layer>
-                     <dir type="pb" tstamp="14.75" place="above" label="Sideskift" xml:id="Je_1573_LN0981_200_m-866">|</dir>
+                     <dir type="pb" tstamp="14.75" place="above" label="Sideskift"
+                          xml:id="Je_1573_LN0981_200_m-866">|</dir>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_200_m-893" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_200_m-894" n="1">
@@ -2108,7 +2146,9 @@
                               <nc xml:id="Je_1573_LN0981_200_m-900" oct="3" pname="d" pnum="50" label="dur4"/>
                            </neume>
                         </syllable>
-                        <fermata xml:id="Je_1573_LN0981_200_m-901" form="norm" layer="1" shape="curved" staff="1" startid="#Je_1573_LN0981_200_m-900"/>
+                        <fermata xml:id="Je_1573_LN0981_200_m-901" form="norm" layer="1" shape="curved"
+                                 staff="1"
+                                 startid="#Je_1573_LN0981_200_m-900"/>
                         <barLine form="single"/>
                      </layer>
                   </staff>
@@ -2189,7 +2229,8 @@
                            </neume>
                         </syllable>
                      </layer>
-                     <dir type="sb" tstamp="11.75" place="above" label="Linjeskift" xml:id="Je_1573_LN0981_200_m-926">⁞</dir>
+                     <dir type="sb" tstamp="11.75" place="above" label="Linjeskift"
+                          xml:id="Je_1573_LN0981_200_m-926">⁞</dir>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_200_m-947" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_200_m-948" n="1">
@@ -2294,7 +2335,8 @@
                            </neume>
                         </syllable>
                      </layer>
-                     <dir type="sb" tstamp="15.75" place="above" label="Linjeskift" xml:id="Je_1573_LN0981_200_m-967">⁞</dir>
+                     <dir type="sb" tstamp="15.75" place="above" label="Linjeskift"
+                          xml:id="Je_1573_LN0981_200_m-967">⁞</dir>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_200_m-992" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_200_m-993" n="1">
@@ -2324,7 +2366,9 @@
                               <nc xml:id="Je_1573_LN0981_200_m-999" oct="3" pname="d" pnum="50" label="dur4"/>
                            </neume>
                         </syllable>
-                        <fermata xml:id="Je_1573_LN0981_200_m-1000" form="norm" layer="1" shape="curved" staff="1" startid="#Je_1573_LN0981_200_m-999"/>
+                        <fermata xml:id="Je_1573_LN0981_200_m-1000" form="norm" layer="1" shape="curved"
+                                 staff="1"
+                                 startid="#Je_1573_LN0981_200_m-999"/>
                         <barLine form="single"/>
                      </layer>
                   </staff>
@@ -2411,7 +2455,8 @@
                            </neume>
                         </syllable>
                      </layer>
-                     <dir type="sb" tstamp="10.75" place="above" label="Linjeskift" xml:id="Je_1573_LN0981_200_m-1023">⁞</dir>
+                     <dir type="sb" tstamp="10.75" place="above" label="Linjeskift"
+                          xml:id="Je_1573_LN0981_200_m-1023">⁞</dir>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_200_m-1044" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_200_m-1045" n="1">
@@ -2530,7 +2575,8 @@
                            </neume>
                         </syllable>
                      </layer>
-                     <dir type="sb" tstamp="15.75" place="above" label="Linjeskift" xml:id="Je_1573_LN0981_200_m-1063">⁞</dir>
+                     <dir type="sb" tstamp="15.75" place="above" label="Linjeskift"
+                          xml:id="Je_1573_LN0981_200_m-1063">⁞</dir>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_200_m-1096" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_200_m-1097" n="1">
@@ -2627,7 +2673,9 @@
                               <nc xml:id="Je_1573_LN0981_200_m-1115" oct="3" pname="d" pnum="50" label="dur4"/>
                            </neume>
                         </syllable>
-                        <fermata xml:id="Je_1573_LN0981_200_m-1116" form="norm" layer="1" shape="curved" staff="1" startid="#Je_1573_LN0981_200_m-1115"/>
+                        <fermata xml:id="Je_1573_LN0981_200_m-1116" form="norm" layer="1" shape="curved"
+                                 staff="1"
+                                 startid="#Je_1573_LN0981_200_m-1115"/>
                         <barLine form="single"/>
                      </layer>
                   </staff>
@@ -2642,7 +2690,8 @@
                            </neume>
                         </syllable>
                      </layer>
-                     <dir type="sb" tstamp="1.75" place="above" label="Linjeskift" xml:id="Je_1573_LN0981_200_m-1143">⁞</dir>
+                     <dir type="sb" tstamp="1.75" place="above" label="Linjeskift"
+                          xml:id="Je_1573_LN0981_200_m-1143">⁞</dir>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_200_m-1148" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_200_m-1149" n="1">
@@ -2752,7 +2801,8 @@
                            </neume>
                         </syllable>
                      </layer>
-                     <dir type="pb" tstamp="13.75" place="above" label="Sideskift" xml:id="Je_1573_LN0981_200_m-1164">|</dir>
+                     <dir type="pb" tstamp="13.75" place="above" label="Sideskift"
+                          xml:id="Je_1573_LN0981_200_m-1164">|</dir>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_200_m-1193" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_200_m-1194" n="1">
@@ -2873,7 +2923,8 @@
                            </neume>
                         </syllable>
                      </layer>
-                     <dir type="sb" tstamp="17.75" place="above" label="Linjeskift" xml:id="Je_1573_LN0981_200_m-1215">⁞</dir>
+                     <dir type="sb" tstamp="17.75" place="above" label="Linjeskift"
+                          xml:id="Je_1573_LN0981_200_m-1215">⁞</dir>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_200_m-1246" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_200_m-1247" n="1">
@@ -2942,7 +2993,9 @@
                               <nc xml:id="Je_1573_LN0981_200_m-1256" oct="3" pname="d" pnum="50" label="dur4"/>
                            </neume>
                         </syllable>
-                        <fermata xml:id="Je_1573_LN0981_200_m-1257" form="norm" layer="1" shape="curved" staff="1" startid="#Je_1573_LN0981_200_m-1256"/>
+                        <fermata xml:id="Je_1573_LN0981_200_m-1257" form="norm" layer="1" shape="curved"
+                                 staff="1"
+                                 startid="#Je_1573_LN0981_200_m-1256"/>
                         <barLine form="single"/>
                      </layer>
                   </staff>
@@ -2998,7 +3051,8 @@
                            </neume>
                         </syllable>
                      </layer>
-                     <dir type="sb" tstamp="7.75" place="above" label="Linjeskift" xml:id="Je_1573_LN0981_200_m-1286">⁞</dir>
+                     <dir type="sb" tstamp="7.75" place="above" label="Linjeskift"
+                          xml:id="Je_1573_LN0981_200_m-1286">⁞</dir>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_200_m-1301" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_200_m-1302" n="1">
@@ -3110,7 +3164,8 @@
                            </neume>
                         </syllable>
                      </layer>
-                     <dir type="sb" tstamp="15.75" place="above" label="Linjeskift" xml:id="Je_1573_LN0981_200_m-1320">⁞</dir>
+                     <dir type="sb" tstamp="15.75" place="above" label="Linjeskift"
+                          xml:id="Je_1573_LN0981_200_m-1320">⁞</dir>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_200_m-1349" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_200_m-1350" n="1">
@@ -3216,7 +3271,8 @@
                            </neume>
                         </syllable>
                      </layer>
-                     <dir type="sb" tstamp="16.75" place="above" label="Linjeskift" xml:id="Je_1573_LN0981_200_m-1372">⁞</dir>
+                     <dir type="sb" tstamp="16.75" place="above" label="Linjeskift"
+                          xml:id="Je_1573_LN0981_200_m-1372">⁞</dir>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_200_m-1397" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_200_m-1398" n="1">
@@ -3253,7 +3309,9 @@
                               <nc xml:id="Je_1573_LN0981_200_m-1403" oct="3" pname="d" pnum="50" label="dur4"/>
                            </neume>
                         </syllable>
-                        <fermata xml:id="Je_1573_LN0981_200_m-1404" form="norm" layer="1" shape="curved" staff="1" startid="#Je_1573_LN0981_200_m-1403"/>
+                        <fermata xml:id="Je_1573_LN0981_200_m-1404" form="norm" layer="1" shape="curved"
+                                 staff="1"
+                                 startid="#Je_1573_LN0981_200_m-1403"/>
                         <barLine form="single"/>
                      </layer>
                   </staff>
@@ -3335,7 +3393,8 @@
                            </neume>
                         </syllable>
                      </layer>
-                     <dir type="sb" tstamp="12.75" place="above" label="Linjeskift" xml:id="Je_1573_LN0981_200_m-1433">⁞</dir>
+                     <dir type="sb" tstamp="12.75" place="above" label="Linjeskift"
+                          xml:id="Je_1573_LN0981_200_m-1433">⁞</dir>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_200_m-1454" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_200_m-1455" n="1">
@@ -3448,7 +3507,8 @@
                            </neume>
                         </syllable>
                      </layer>
-                     <dir type="pb" tstamp="16.75" place="above" label="Sideskift" xml:id="Je_1573_LN0981_200_m-1475">|</dir>
+                     <dir type="pb" tstamp="16.75" place="above" label="Sideskift"
+                          xml:id="Je_1573_LN0981_200_m-1475">|</dir>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_200_m-1504" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_200_m-1505" n="1">
@@ -3552,7 +3612,9 @@
                               <nc xml:id="Je_1573_LN0981_200_m-1523" oct="3" pname="d" pnum="50" label="dur4"/>
                            </neume>
                         </syllable>
-                        <fermata xml:id="Je_1573_LN0981_200_m-1524" form="norm" layer="1" shape="curved" staff="1" startid="#Je_1573_LN0981_200_m-1523"/>
+                        <fermata xml:id="Je_1573_LN0981_200_m-1524" form="norm" layer="1" shape="curved"
+                                 staff="1"
+                                 startid="#Je_1573_LN0981_200_m-1523"/>
                         <barLine form="single"/>
                      </layer>
                   </staff>
@@ -3567,7 +3629,8 @@
                            </neume>
                         </syllable>
                      </layer>
-                     <dir type="sb" tstamp="1.75" place="above" label="Linjeskift" xml:id="Je_1573_LN0981_200_m-1554">⁞</dir>
+                     <dir type="sb" tstamp="1.75" place="above" label="Linjeskift"
+                          xml:id="Je_1573_LN0981_200_m-1554">⁞</dir>
                   </staff>
                   <sb xml:id="Je_1573_LN0981_200_m-1559" label="editorial"/>
                   <staff xml:id="Je_1573_LN0981_200_m-1560" n="1">
@@ -3652,7 +3715,9 @@
                               <nc xml:id="Je_1573_LN0981_200_m-1571" oct="3" pname="a" pnum="57" label="durlong"/>
                            </neume>
                         </syllable>
-                        <fermata xml:id="Je_1573_LN0981_200_m-1572" form="norm" layer="1" shape="curved" staff="1" startid="#Je_1573_LN0981_200_m-1571"/>
+                        <fermata xml:id="Je_1573_LN0981_200_m-1572" form="norm" layer="1" shape="curved"
+                                 staff="1"
+                                 startid="#Je_1573_LN0981_200_m-1571"/>
                         <barLine form="end"/>
                      </layer>
                   </staff>

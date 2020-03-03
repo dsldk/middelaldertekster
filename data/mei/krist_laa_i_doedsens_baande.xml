@@ -1,4 +1,6 @@
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="krist_laa_i_doedsens_baande_m-1">
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0"
+     xml:id="krist_laa_i_doedsens_baande_m-1">
    <meiHead xml:id="krist_laa_i_doedsens_baande_meiHead_02a48c11">
       <fileDesc xml:id="krist_laa_i_doedsens_baande_fileDesc_ebbd0a91">
          <titleStmt xml:id="krist_laa_i_doedsens_baande_titleStmt_d50934f7">
@@ -15,10 +17,12 @@
                      <addrLine xml:id="krist_laa_i_doedsens_baande_addrLine_dc29ce00">Christians Brygge 1</addrLine>
                      <addrLine xml:id="krist_laa_i_doedsens_baande_addrLine_0b2321d1">1219 København K</addrLine>
                      <addrLine xml:id="krist_laa_i_doedsens_baande_addrLine_c85c262b">
-                        <ptr label="WWW" target="https://dsl.dk" xml:id="krist_laa_i_doedsens_baande_ptr_N20262"/>
+                        <ptr label="WWW" target="https://dsl.dk"
+                             xml:id="krist_laa_i_doedsens_baande_ptr_N20262"/>
                      </addrLine>
                      <addrLine xml:id="krist_laa_i_doedsens_baande_addrLine_043ee73b">
-                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="krist_laa_i_doedsens_baande_ptr_N20270"/>
+                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk"
+                             xml:id="krist_laa_i_doedsens_baande_ptr_N20270"/>
                      </addrLine>
                   </address>
                </corpName>
@@ -37,9 +41,8 @@
             <application version="6.2" xml:id="krist_laa_i_doedsens_baande_application_d1e36">
                <name>Sibelius</name>
             </application>
-            <application version="2.1.0 modified for Sibelius 6" xml:id="krist_laa_i_doedsens_baande_application_2d1e36">
-               <name>SibMEI</name>
-            </application>
+            <application xml:id="krist_laa_i_doedsens_baande_application_2d1e36" version="2.1.0">
+               <name>SibMEI</name> modified for Sibelius 6</application>
             <application version="2013" xml:id="krist_laa_i_doedsens_baande_application_35b9ee8d">
                <name xml:id="krist_laa_i_doedsens_baande_name_7f74def5">MerMEId</name>
             </application>
@@ -55,26 +58,39 @@
             <identifier label="DDK 1954" xml:id="krist_laa_i_doedsens_baande_identifier_521876f1">193</identifier>
             <identifier label="DDK 2003" xml:id="krist_laa_i_doedsens_baande_identifier_a4933768">243</identifier>
             <identifier label="Korth 2017" xml:id="krist_laa_i_doedsens_baande_identifier_a401d187">6</identifier>
-            <title type="uniform" xml:id="krist_laa_i_doedsens_baande_title_d22c7b83" xml:lang="da">Krist lå i dødsens bånde</title>
-            <title type="uniform" xml:id="krist_laa_i_doedsens_baande_title_98ee362b" xml:lang="de">Christ lag in Todesbanden</title>
+            <title type="uniform" xml:id="krist_laa_i_doedsens_baande_title_d22c7b83"
+                   xml:lang="da">Krist lå i dødsens bånde</title>
+            <title type="uniform" xml:id="krist_laa_i_doedsens_baande_title_98ee362b"
+                   xml:lang="de">Christ lag in Todesbanden</title>
             <contributor xml:id="krist_laa_i_doedsens_baande_respStmt_5577b899">
-               <persName auth.uri="http://www.viaf.org" auth="VIAF" codedval="14773105" role="author" xml:id="krist_laa_i_doedsens_baande_persName_0f7d3b9d">Morten Luther [Martin Luther]</persName>
+               <persName auth.uri="http://www.viaf.org" auth="VIAF" codedval="14773105" role="author"
+                         xml:id="krist_laa_i_doedsens_baande_persName_0f7d3b9d">Morten Luther [Martin Luther]</persName>
             </contributor>
             <history xml:id="krist_laa_i_doedsens_baande_history_44436885">
-               <p>Denne Luthersalme er en bearbejdelse af den middelalderlige påskeleise <rend fontstyle="italic">Christ ist erstanden</rend>, dvs. en folkelig religiøs sang opstået i middelalderen og karakteristisk ved den afsluttende linje <rend fontstyle="italic">kyrie eleison</rend> eller forkortet <rend fontstyle="italic">kyrieleis</rend>. Denne leise knyttede sig til påskesekvensen <ref target="document.xq?doc=kristus_jesus_for_os_ofret.xml"><rend fontstyle="italic">Victimae paschali laudes</rend></ref>.</p>
+               <p>Denne Luthersalme er en bearbejdelse af den middelalderlige påskeleise <rend fontstyle="italic">Christ ist erstanden</rend>, dvs. en folkelig religiøs sang opstået i middelalderen og karakteristisk ved den afsluttende linje <rend fontstyle="italic">kyrie eleison</rend> eller forkortet <rend fontstyle="italic">kyrieleis</rend>. Denne leise knyttede sig til påskesekvensen <ref target="document.xq?doc=kristus_jesus_for_os_ofret.xml">
+                     <rend fontstyle="italic">Victimae paschali laudes</rend>
+                  </ref>.</p>
                <p>Luthers bearbejdning kom første gang i et nu bortkommet enkelttryk og sidenhen i <rend fontstyle="italic">Eyn Enchiridion</rend> (Erfurt: Johannes Loersfeld, 1524) 
                    (<ref target="http://www.deutschestextarchiv.de/book/view/luther_enchiridion_1524?p=32">digital udgave</ref>) og i Johann Walters <rend fontstyle="italic">Geystliche gesangk 
                    Buchleyn</rend> (Wittenberg: [Joseph Klug], 1524) (<ref target="https://bildsuche.digitale-sammlungen.de/index.html?c=viewer&amp;bandnummer=bsb00027050&amp;pimage=31&amp;v=2p&amp;nav=&amp;l=de">faksimile af 
                        melodiversion 1</ref>; <ref target="https://bildsuche.digitale-sammlungen.de/index.html?c=viewer&amp;bandnummer=bsb00027050&amp;pimage=33&amp;v=2p&amp;nav=&amp;l=de">faksimile af melodiversion 2</ref>), hvor salmen bringes med to ikke helt identiske melodier. Walter bragte begge versioner, også den (nr. 2), som blev den mest udbredte i tysk og dansk tradition. De danske oversættelser af Luthers salme fulgte to spor, <rend fontstyle="italic">CHrist laa ÿ dødzens bond</rend> (<abbr>Dietz 1529</abbr>) og <rend fontstyle="italic">CHrist laa ÿ dødtzens wonde</rend> (<abbr>Dietz 1536</abbr>). Den ældste bevarede melodigengivelse med dansk tekst er i en salmebog trykt i Lübeck af Asswerus Kröger i 1568 (LN 1425), hvor begge oversættelser bringes med samme melodiform, fol. 30v og 33v.</p>
                <p>Tekstkilder:
-                  <lb/><abbr>Dietz 1529</abbr>, fol. 20v
-                  <lb/><abbr>Pedersen 1533</abbr>, fol. 24v
-                  <lb/><abbr>Pedersen 1533</abbr>, fol. 29r
-                  <lb/><abbr>Dietz 1536</abbr>, fol. c1v
-                  <lb/><abbr>Vingaard 1553</abbr>, fol. 32v
-                  <lb/><abbr>Vingaard 1553</abbr>, fol. 35r
-                  <lb/><abbr>Thomissøn 1569</abbr>, fol. 91v
-                  <lb/><abbr>Jespersen 1573</abbr>, s. 205</p>
+                  <lb/>
+                  <abbr>Dietz 1529</abbr>, fol. 20v
+                  <lb/>
+                  <abbr>Pedersen 1533</abbr>, fol. 24v
+                  <lb/>
+                  <abbr>Pedersen 1533</abbr>, fol. 29r
+                  <lb/>
+                  <abbr>Dietz 1536</abbr>, fol. c1v
+                  <lb/>
+                  <abbr>Vingaard 1553</abbr>, fol. 32v
+                  <lb/>
+                  <abbr>Vingaard 1553</abbr>, fol. 35r
+                  <lb/>
+                  <abbr>Thomissøn 1569</abbr>, fol. 91v
+                  <lb/>
+                  <abbr>Jespersen 1573</abbr>, s. 205</p>
             </history>
             <langUsage xml:id="krist_laa_i_doedsens_baande_langUsage_f10dda89">
                <language>German</language>
@@ -83,24 +99,30 @@
             </langUsage>
             <notesStmt xml:id="krist_laa_i_doedsens_baande_notesStmt_6120b6b8">
                <annot type="links" xml:id="krist_laa_i_doedsens_baande_annot_833375bf">
-                  <ptr mimetype="" target="https://hymnary.org/tune/christ_lag_in_todesbanden" xml:id="krist_laa_i_doedsens_baande_ptr_95c76d20"/>
-                  <ptr mimetype="" target="https://de.wikipedia.org/wiki/Christ_lag_in_Todesbanden" xml:id="krist_laa_i_doedsens_baande_ptr_51baedca"/>
+                  <ptr target="https://hymnary.org/tune/christ_lag_in_todesbanden"
+                       xml:id="krist_laa_i_doedsens_baande_ptr_95c76d20"/>
+                  <ptr target="https://de.wikipedia.org/wiki/Christ_lag_in_Todesbanden"
+                       xml:id="krist_laa_i_doedsens_baande_ptr_51baedca"/>
                </annot>
             </notesStmt>
-            <relationList xml:id="krist_laa_i_doedsens_baande_relationList_1c110507">
-               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml" xml:id="krist_laa_i_doedsens_baande_relation_4d893f59"/>
-               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf" target="Je_1573/Je_1573_LN0981.xml"/>
-               <relation label="Den danske Psalmebog (1569), fol. 91v" rel="hasEmbodiment" target="Th_1569/Th_1569_LN1426_091v.xml" xml:id="krist_laa_i_doedsens_baande_relation_d1e161"/>
-               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 205" rel="hasEmbodiment" target="Je_1573/Je_1573_LN0981_205.xml"/>
-            </relationList>
             <classification xml:id="krist_laa_i_doedsens_baande_classification_81a43c49">
                <termList xml:id="krist_laa_i_doedsens_baande_termList_ab4fb67c">
                   <term type="itemClass" xml:id="krist_laa_i_doedsens_baande_term_d1e168">melody</term>
                </termList>
             </classification>
+            <relationList xml:id="krist_laa_i_doedsens_baande_relationList_1c110507">
+               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml"
+                         xml:id="krist_laa_i_doedsens_baande_relation_4d893f59"/>
+               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf"
+                         target="Je_1573/Je_1573_LN0981.xml"/>
+               <relation label="Den danske Psalmebog (1569), fol. 91v" rel="hasEmbodiment"
+                         target="Th_1569/Th_1569_LN1426_091v.xml"
+                         xml:id="krist_laa_i_doedsens_baande_relation_d1e161"/>
+               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 205" rel="hasEmbodiment"
+                         target="Je_1573/Je_1573_LN0981_205.xml"/>
+            </relationList>
          </work>
       </workList>
-
    </meiHead>
    <music xml:id="krist_laa_i_doedsens_baande_m-22"/>
 </mei>

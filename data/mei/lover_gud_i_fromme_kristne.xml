@@ -1,4 +1,6 @@
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="lover_gud_i_fromme_kristne_m-1">
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0"
+     xml:id="lover_gud_i_fromme_kristne_m-1">
    <meiHead xml:id="lover_gud_i_fromme_kristne_meiHead_c69fbb5f">
       <fileDesc xml:id="lover_gud_i_fromme_kristne_fileDesc_978ccc17">
          <titleStmt xml:id="lover_gud_i_fromme_kristne_titleStmt_1552b50c">
@@ -15,10 +17,12 @@
                      <addrLine xml:id="lover_gud_i_fromme_kristne_addrLine_12fc85c4">Christians Brygge 1</addrLine>
                      <addrLine xml:id="lover_gud_i_fromme_kristne_addrLine_2d9cce01">1219 København K</addrLine>
                      <addrLine xml:id="lover_gud_i_fromme_kristne_addrLine_811cf975">
-                        <ptr label="WWW" target="https://dsl.dk" xml:id="lover_gud_i_fromme_kristne_ptr_N20262"/>
+                        <ptr label="WWW" target="https://dsl.dk"
+                             xml:id="lover_gud_i_fromme_kristne_ptr_N20262"/>
                      </addrLine>
                      <addrLine xml:id="lover_gud_i_fromme_kristne_addrLine_750433c5">
-                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="lover_gud_i_fromme_kristne_ptr_N20270"/>
+                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk"
+                             xml:id="lover_gud_i_fromme_kristne_ptr_N20270"/>
                      </addrLine>
                   </address>
                </corpName>
@@ -37,9 +41,8 @@
             <application version="6.2" xml:id="lover_gud_i_fromme_kristne_application_d1e36">
                <name>Sibelius</name>
             </application>
-            <application version="2.1.0 modified for Sibelius 6" xml:id="lover_gud_i_fromme_kristne_application_2d1e36">
-               <name>SibMEI</name>
-            </application>
+            <application xml:id="lover_gud_i_fromme_kristne_application_2d1e36" version="2.1.0">
+               <name>SibMEI</name> modified for Sibelius 6</application>
             <application version="2013" xml:id="lover_gud_i_fromme_kristne_application_c5d30121">
                <name xml:id="lover_gud_i_fromme_kristne_name_86acde12">MerMEId</name>
             </application>
@@ -64,20 +67,24 @@
                <language>Danish</language>
                <language>English</language>
             </langUsage>
-            <relationList xml:id="lover_gud_i_fromme_kristne_relationList_1c110507">
-               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml" xml:id="lover_gud_i_fromme_kristne_relation_4d893f59"/>
-               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf" target="Je_1573/Je_1573_LN0981.xml"/>
-               <relation label="Den danske Psalmebog (1569), fol. 131v" rel="hasEmbodiment" target="Th_1569/Th_1569_LN1426_131v.xml" xml:id="lover_gud_i_fromme_kristne_relation_d1e155"/>
-               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 309" rel="hasEmbodiment" target="Je_1573/Je_1573_LN0981_309.xml"/>
-            </relationList>
             <classification xml:id="lover_gud_i_fromme_kristne_classification_81a43c49">
                <termList xml:id="lover_gud_i_fromme_kristne_termList_ab4fb67c">
                   <term type="itemClass" xml:id="lover_gud_i_fromme_kristne_term_d1e162">melody</term>
                </termList>
             </classification>
+            <relationList xml:id="lover_gud_i_fromme_kristne_relationList_1c110507">
+               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml"
+                         xml:id="lover_gud_i_fromme_kristne_relation_4d893f59"/>
+               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf"
+                         target="Je_1573/Je_1573_LN0981.xml"/>
+               <relation label="Den danske Psalmebog (1569), fol. 131v" rel="hasEmbodiment"
+                         target="Th_1569/Th_1569_LN1426_131v.xml"
+                         xml:id="lover_gud_i_fromme_kristne_relation_d1e155"/>
+               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 309" rel="hasEmbodiment"
+                         target="Je_1573/Je_1573_LN0981_309.xml"/>
+            </relationList>
          </work>
       </workList>
-
    </meiHead>
    <music xml:id="lover_gud_i_fromme_kristne_m-22"/>
 </mei>

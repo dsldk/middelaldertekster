@@ -1,4 +1,6 @@
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="dies_est_laeticiae_m-1">
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0"
+     xml:id="dies_est_laeticiae_m-1">
    <meiHead xml:id="dies_est_laeticiae_meiHead_550ef323">
       <fileDesc xml:id="dies_est_laeticiae_fileDesc_c59b2cba">
          <titleStmt xml:id="dies_est_laeticiae_titleStmt_b1368867">
@@ -20,7 +22,8 @@
                         <ptr label="WWW" target="https://dsl.dk" xml:id="dies_est_laeticiae_ptr_N20262"/>
                      </addrLine>
                      <addrLine xml:id="dies_est_laeticiae_addrLine_2aee5182">
-                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="dies_est_laeticiae_ptr_N20270"/>
+                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk"
+                             xml:id="dies_est_laeticiae_ptr_N20270"/>
                      </addrLine>
                   </address>
                </corpName>
@@ -39,9 +42,8 @@
             <application version="6.2" xml:id="dies_est_laeticiae_application_d1e36">
                <name>Sibelius</name>
             </application>
-            <application version="2.1.0 modified for Sibelius 6" xml:id="dies_est_laeticiae_application_2d1e36">
-               <name>SibMEI</name>
-            </application>
+            <application xml:id="dies_est_laeticiae_application_2d1e36" version="2.1.0">
+               <name>SibMEI</name> modified for Sibelius 6</application>
             <application version="2013" xml:id="dies_est_laeticiae_application_7846fa73">
                <name xml:id="dies_est_laeticiae_name_92a19da7">MerMEId</name>
             </application>
@@ -61,21 +63,33 @@
             <title type="uniform" xml:id="dies_est_laeticiae_title_4f7cad00" xml:lang="da">Den signede dag er os beted</title>
             <history xml:id="dies_est_laeticiae_history_44436885">
                <p>Den latinske julesang kendes fra bøhmiske og nederlandske håndskrifter fra senmiddelalderen. Den blev optaget i Joseph Klugs salmebøger sammen med den tyske oversættelse <rend fontstyle="italic">Der Tag der ist so freudenreich</rend>. <abbr>Vingaard 1553</abbr> bringer på samme måde den latinske tekst (fol. 9v) og den dansk oversættelse <rend fontstyle="italic">DEn signede Dag er voss beted</rend> (fol. 10r) lige efter hinanden.</p>
-               <p>Tidligt i reformationsårene fremkom salmerne <rend fontstyle="italic">EEtt lidet barn saa ærefult</rend> (<abbr>Dietz 1529</abbr>, fol. 19v) og <rend fontstyle="italic">EEt lidet barn saa løsteligt</rend> (fol. 34r), som begge skulle synges til melodien <rend fontstyle="italic">Dies est lætitiæ</rend>. De var oversættelser af den tyske salme <rend fontstyle="italic">Eyn kindelein so lauelich</rend> (<abbr>Widding 1933</abbr>: II,45).</p> 
+               <p>Tidligt i reformationsårene fremkom salmerne <rend fontstyle="italic">EEtt lidet barn saa ærefult</rend> (<abbr>Dietz 1529</abbr>, fol. 19v) og <rend fontstyle="italic">EEt lidet barn saa løsteligt</rend> (fol. 34r), som begge skulle synges til melodien <rend fontstyle="italic">Dies est lætitiæ</rend>. De var oversættelser af den tyske salme <rend fontstyle="italic">Eyn kindelein so lauelich</rend> (<abbr>Widding 1933</abbr>: II,45).</p>
                <p>Første melodigengivelse med dansk tekst findes i en salmebog trykt i Lübeck af Asswerus Kröger i 1568 (LN 1425). Her gengives noderne til <rend fontstyle="italic">Dies est lætitiæ</rend> (fol. 7v), <rend fontstyle="italic">Den signede dag er oss beted</rend> (fol. 9v) og <rend fontstyle="italic">It lidet Barn saa lysteligt</rend> (fol. 74r).</p>
                <p>Tekstkilder:
-                  <lb/><abbr>Dietz 1529</abbr>, fol. 19v
-                  <lb/><abbr>Dietz 1529</abbr>, fol. 34r
-                  <lb/><abbr>Pedersen 1533</abbr>, fol. 13v
-                  <lb/><abbr>Dietz 1536</abbr>, fol. c3r
-                  <lb/><abbr>Vingaard 1553</abbr>, fol. 9v
-                  <lb/><abbr>Vingaard 1553</abbr>, fol. 10r
-                  <lb/><abbr>Vingaard 1553</abbr>, fol. 13v
-                  <lb/><abbr>Vingaard 1553</abbr>, fol. 75v
-                  <lb/><abbr>Thomissøn 1569</abbr>, fol. 7r
-                  <lb/><abbr>Thomissøn 1569</abbr>, fol. 9r
-                  <lb/><abbr>Thomissøn 1569</abbr>, fol. 11r
-                  <lb/><abbr>Jespersen 1573</abbr>, s. 72</p>
+                  <lb/>
+                  <abbr>Dietz 1529</abbr>, fol. 19v
+                  <lb/>
+                  <abbr>Dietz 1529</abbr>, fol. 34r
+                  <lb/>
+                  <abbr>Pedersen 1533</abbr>, fol. 13v
+                  <lb/>
+                  <abbr>Dietz 1536</abbr>, fol. c3r
+                  <lb/>
+                  <abbr>Vingaard 1553</abbr>, fol. 9v
+                  <lb/>
+                  <abbr>Vingaard 1553</abbr>, fol. 10r
+                  <lb/>
+                  <abbr>Vingaard 1553</abbr>, fol. 13v
+                  <lb/>
+                  <abbr>Vingaard 1553</abbr>, fol. 75v
+                  <lb/>
+                  <abbr>Thomissøn 1569</abbr>, fol. 7r
+                  <lb/>
+                  <abbr>Thomissøn 1569</abbr>, fol. 9r
+                  <lb/>
+                  <abbr>Thomissøn 1569</abbr>, fol. 11r
+                  <lb/>
+                  <abbr>Jespersen 1573</abbr>, s. 72</p>
             </history>
             <langUsage xml:id="dies_est_laeticiae_langUsage_f10dda89">
                <language>Latin</language>
@@ -84,26 +98,34 @@
             </langUsage>
             <notesStmt xml:id="dies_est_laeticiae_notesStmt_6120b6b8">
                <annot type="links" xml:id="dies_est_laeticiae_annot_833375bf">
-                  <ptr mimetype="" target="https://hymnary.org/tune/dies_est_laetitiae" xml:id="dies_est_laeticiae_ptr_95c76d20"/>
-                  <ptr mimetype="" target="https://hymnary.org/text/der_tag_der_ist_so_freudenreich" xml:id="dies_est_laeticiae_ptr_51baedca"/>
+                  <ptr target="https://hymnary.org/tune/dies_est_laetitiae"
+                       xml:id="dies_est_laeticiae_ptr_95c76d20"/>
+                  <ptr target="https://hymnary.org/text/der_tag_der_ist_so_freudenreich"
+                       xml:id="dies_est_laeticiae_ptr_51baedca"/>
                </annot>
             </notesStmt>
-            <relationList xml:id="dies_est_laeticiae_relationList_479fc386">
-               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml" xml:id="dies_est_laeticiae_relation_08669cf8"/>
-               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf" target="Je_1573/Je_1573_LN0981.xml"/>
-               <relation label="Den danske Psalmebog, fol. 7r" rel="hasEmbodiment" target="Th_1569/Th_1569_LN1426_007r.xml" xml:id="dies_est_laeticiae_relation_d1e149"/>
-               <relation label="Den danske Psalmebog, fol. 9r" rel="hasEmbodiment" target="Th_1569/Th_1569_LN1426_009r.xml"/>
-               <relation label="Den danske Psalmebog, fol. 11r" rel="hasEmbodiment" target="Th_1569/Th_1569_LN1426_011r.xml"/>
-               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 72" rel="hasEmbodiment" target="Je_1573/Je_1573_LN0981_072.xml"/>
-            </relationList>
             <classification xml:id="dies_est_laeticiae_classification_81a43c49">
                <termList xml:id="dies_est_laeticiae_termList_ab4fb67c">
                   <term type="itemClass" xml:id="dies_est_laeticiae_term_d1e156">melody</term>
                </termList>
             </classification>
+            <relationList xml:id="dies_est_laeticiae_relationList_479fc386">
+               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml"
+                         xml:id="dies_est_laeticiae_relation_08669cf8"/>
+               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf"
+                         target="Je_1573/Je_1573_LN0981.xml"/>
+               <relation label="Den danske Psalmebog, fol. 7r" rel="hasEmbodiment"
+                         target="Th_1569/Th_1569_LN1426_007r.xml"
+                         xml:id="dies_est_laeticiae_relation_d1e149"/>
+               <relation label="Den danske Psalmebog, fol. 9r" rel="hasEmbodiment"
+                         target="Th_1569/Th_1569_LN1426_009r.xml"/>
+               <relation label="Den danske Psalmebog, fol. 11r" rel="hasEmbodiment"
+                         target="Th_1569/Th_1569_LN1426_011r.xml"/>
+               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 72" rel="hasEmbodiment"
+                         target="Je_1573/Je_1573_LN0981_072.xml"/>
+            </relationList>
          </work>
       </workList>
-
    </meiHead>
    <music xml:id="dies_est_laeticiae_m-22"/>
 </mei>

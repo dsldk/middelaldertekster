@@ -1,4 +1,6 @@
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="esajas_den_profet_m-1">
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0"
+     xml:id="esajas_den_profet_m-1">
    <meiHead xml:id="esajas_den_profet_meiHead_f78a7320">
       <fileDesc xml:id="esajas_den_profet_fileDesc_b4d607ec">
          <titleStmt xml:id="esajas_den_profet_titleStmt_6f5d64ee">
@@ -18,7 +20,8 @@
                         <ptr label="WWW" target="https://dsl.dk" xml:id="esajas_den_profet_ptr_N20262"/>
                      </addrLine>
                      <addrLine xml:id="esajas_den_profet_addrLine_040a4381">
-                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="esajas_den_profet_ptr_N20270"/>
+                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk"
+                             xml:id="esajas_den_profet_ptr_N20270"/>
                      </addrLine>
                   </address>
                </corpName>
@@ -37,9 +40,8 @@
             <application version="6.2" xml:id="esajas_den_profet_application_d1e36">
                <name>Sibelius</name>
             </application>
-            <application version="2.1.0 modified for Sibelius 6" xml:id="esajas_den_profet_application_2d1e36">
-               <name>SibMEI</name>
-            </application>
+            <application xml:id="esajas_den_profet_application_2d1e36" version="2.1.0">
+               <name>SibMEI</name> modified for Sibelius 6</application>
             <application version="2013" xml:id="esajas_den_profet_application_15f4afa7">
                <name xml:id="esajas_den_profet_name_48c91534">MerMEId</name>
             </application>
@@ -57,7 +59,8 @@
             <title type="uniform" xml:id="esajas_den_profet_title_827e7b0a" xml:lang="da">Esajas den profet monne det så gå</title>
             <title type="uniform" xml:id="esajas_den_profet_title_8909c71a" xml:lang="de">Jesaia, dem Propheten, das geschah</title>
             <contributor xml:id="esajas_den_profet_respStmt_5577b899">
-               <persName auth.uri="http://www.viaf.org" auth="VIAF" codedval="14773105" role="author" xml:id="esajas_den_profet_persName_d528b837">Morten Luther [Martin Luther]</persName>
+               <persName auth.uri="http://www.viaf.org" auth="VIAF" codedval="14773105" role="author"
+                         xml:id="esajas_den_profet_persName_d528b837">Morten Luther [Martin Luther]</persName>
             </contributor>
             <history xml:id="esajas_den_profet_history_44436885">
                <p/>
@@ -75,10 +78,15 @@
                </termList>
             </classification>
             <relationList xml:id="esajas_den_profet_relationList_1c110507">
-               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml" xml:id="esajas_den_profet_relation_4d893f59"/>
-               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf" target="Je_1573/Je_1573_LN0981.xml"/>
-               <relation label="Den danske Psalmebog (1569), fol. 125r" rel="hasEmbodiment" target="Th_1569/Th_1569_LN1426_125r.xml" xml:id="esajas_den_profet_relation_d1e170"/>
-               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 367" rel="hasEmbodiment" target="Je_1573/Je_1573_LN0981_367.xml"/>
+               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml"
+                         xml:id="esajas_den_profet_relation_4d893f59"/>
+               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf"
+                         target="Je_1573/Je_1573_LN0981.xml"/>
+               <relation label="Den danske Psalmebog (1569), fol. 125r" rel="hasEmbodiment"
+                         target="Th_1569/Th_1569_LN1426_125r.xml"
+                         xml:id="esajas_den_profet_relation_d1e170"/>
+               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 367" rel="hasEmbodiment"
+                         target="Je_1573/Je_1573_LN0981_367.xml"/>
             </relationList>
          </work>
       </workList>

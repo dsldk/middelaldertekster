@@ -1,4 +1,6 @@
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="beklage_af_al_min_sinde_m-1">
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0"
+     xml:id="beklage_af_al_min_sinde_m-1">
    <meiHead xml:id="beklage_af_al_min_sinde_meiHead_0c5640e0">
       <fileDesc xml:id="beklage_af_al_min_sinde_fileDesc_dc422db5">
          <titleStmt xml:id="beklage_af_al_min_sinde_titleStmt_327b48f4">
@@ -18,7 +20,8 @@
                         <ptr label="WWW" target="https://dsl.dk" xml:id="beklage_af_al_min_sinde_ptr_N20262"/>
                      </addrLine>
                      <addrLine xml:id="beklage_af_al_min_sinde_addrLine_6b26f115">
-                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="beklage_af_al_min_sinde_ptr_N20270"/>
+                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk"
+                             xml:id="beklage_af_al_min_sinde_ptr_N20270"/>
                      </addrLine>
                   </address>
                </corpName>
@@ -37,9 +40,8 @@
             <application version="6.2" xml:id="beklage_af_al_min_sinde_application_d1e36">
                <name>Sibelius</name>
             </application>
-            <application version="2.1.0 modified for Sibelius 6" xml:id="beklage_af_al_min_sinde_application_2d1e36">
-               <name>SibMEI</name>
-            </application>
+            <application xml:id="beklage_af_al_min_sinde_application_2d1e36" version="2.1.0">
+               <name>SibMEI</name> modified for Sibelius 6</application>
             <application version="2013" xml:id="beklage_af_al_min_sinde_application_ba8c0f6c">
                <name xml:id="beklage_af_al_min_sinde_name_13f28d87">MerMEId</name>
             </application>
@@ -64,20 +66,25 @@
             <notesStmt xml:id="beklage_af_al_min_sinde_notesStmt_fc221f7d">
                <annot type="links" xml:id="beklage_af_al_min_sinde_annot_2b4c2d39"/>
             </notesStmt>
-            <relationList xml:id="beklage_af_al_min_sinde_relationList_1c110507">
-               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml" xml:id="beklage_af_al_min_sinde_relation_4d893f59"/>
-               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf" target="Je_1573/Je_1573_LN0981.xml"/>
-               <relation label="Den danske Psalmebog (1569), fol. 180v" rel="hasEmbodiment" target="Th_1569/Th_1569_LN1426_180v.xml" xml:id="beklage_af_al_min_sinde_relation_d1e150"/>
-               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 355" rel="hasEmbodiment" target="Je_1573/Je_1573_LN0981_355.xml" xml:id="beklage_af_al_min_sinde_relation_d1e150a"/>
-            </relationList>
             <classification xml:id="beklage_af_al_min_sinde_classification_81a43c49">
                <termList xml:id="beklage_af_al_min_sinde_termList_ab4fb67c">
                   <term type="itemClass" xml:id="beklage_af_al_min_sinde_term_d1e158">melody</term>
                </termList>
             </classification>
+            <relationList xml:id="beklage_af_al_min_sinde_relationList_1c110507">
+               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml"
+                         xml:id="beklage_af_al_min_sinde_relation_4d893f59"/>
+               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf"
+                         target="Je_1573/Je_1573_LN0981.xml"/>
+               <relation label="Den danske Psalmebog (1569), fol. 180v" rel="hasEmbodiment"
+                         target="Th_1569/Th_1569_LN1426_180v.xml"
+                         xml:id="beklage_af_al_min_sinde_relation_d1e150"/>
+               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 355" rel="hasEmbodiment"
+                         target="Je_1573/Je_1573_LN0981_355.xml"
+                         xml:id="beklage_af_al_min_sinde_relation_d1e150a"/>
+            </relationList>
          </work>
       </workList>
-
    </meiHead>
    <music xml:id="beklage_af_al_min_sinde_m-22"/>
 </mei>

@@ -1,4 +1,6 @@
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="resonet_in_laudibus_m-1">
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0"
+     xml:id="resonet_in_laudibus_m-1">
    <meiHead xml:id="resonet_in_laudibus_meiHead_9bc9b036">
       <fileDesc xml:id="resonet_in_laudibus_fileDesc_00c5fb3e">
          <titleStmt xml:id="resonet_in_laudibus_titleStmt_1b1411d3">
@@ -19,7 +21,8 @@
                         <ptr label="WWW" target="https://dsl.dk" xml:id="resonet_in_laudibus_ptr_N20262"/>
                      </addrLine>
                      <addrLine xml:id="resonet_in_laudibus_addrLine_b7565f24">
-                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="resonet_in_laudibus_ptr_N20270"/>
+                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk"
+                             xml:id="resonet_in_laudibus_ptr_N20270"/>
                      </addrLine>
                   </address>
                </corpName>
@@ -38,9 +41,8 @@
             <application version="6.2" xml:id="resonet_in_laudibus_application_d1e36">
                <name>Sibelius</name>
             </application>
-            <application version="2.1.0 modified for Sibelius 6" xml:id="resonet_in_laudibus_application_2d1e36">
-               <name>SibMEI</name>
-            </application>
+            <application xml:id="resonet_in_laudibus_application_2d1e36" version="2.1.0">
+               <name>SibMEI</name> modified for Sibelius 6</application>
             <application version="2013" xml:id="resonet_in_laudibus_application_dbb29229">
                <name xml:id="resonet_in_laudibus_name_e982a3b9">MerMEId</name>
             </application>
@@ -60,16 +62,25 @@
             <title type="alternative" xml:id="resonet_in_laudibus_title_02966ef3" xml:lang="la">Christus natus hodie</title>
             <history xml:id="resonet_in_laudibus_history_44436885">
                <p>Den latinske sang <rend fontstyle="italic">Resonet in laudibus</rend> stammer fra middelalder og kan spores tilbage til 1300-tallet. En fordanskning af salmen er foretaget af Arvid Pedersen i <rend fontstyle="italic">AAl then gantske Christenhed</rend>, som forekommer første gang i <abbr>Dietz 1529</abbr>, fol. 35r. Hos <abbr>Thomissøn 1569</abbr>, fol. 12v, og <abbr>Jespersen 1573</abbr>, s. 59, bringes den latinske sang med noder, mens den danske bearbejdning gengives (hhv. <ref target="https://tekstnet.dk/thomissoen_1569/2/11">fol. 14r</ref> og <ref target="https://tekstnet.dk/jespersen_1573/5/11">s. 61</ref>) med henvisning hertil. Hos Jespersen er den danske bearbejdning udformet som en vekselsang, hvor menigheden synger omkvæd, degnen stroferne. Et uddrag af den latinske sang er gengivet i <abbr>Vingaard 1553</abbr>, fol. 173v.</p>
-               <p>Den dansk salme <rend fontstyle="italic">NW er fød oss Jesus Christ</rend> (<abbr>Dietz 1529</abbr>, <ref target="https://tekstnet.dk/dietz-salmebog-1529/5/4">fol. 20r</ref>) er baseret på første del af den middelalderlige sang uden omkvædet. Ifølge Widding brugtes denne sang i forbindelse med tidebønnerne (<abbr>Widding 1933</abbr>: II, 25). Salmen gengives også i <abbr>Pedersen 1533</abbr>, fol. 17r, og <abbr>Vingaard 1553</abbr>, <ref target="https://tekstnet.dk/vingaard_1553/4/8">fol. 9r.</ref></p> 
+               <p>Den dansk salme <rend fontstyle="italic">NW er fød oss Jesus Christ</rend> (<abbr>Dietz 1529</abbr>, <ref target="https://tekstnet.dk/dietz-salmebog-1529/5/4">fol. 20r</ref>) er baseret på første del af den middelalderlige sang uden omkvædet. Ifølge Widding brugtes denne sang i forbindelse med tidebønnerne (<abbr>Widding 1933</abbr>: II, 25). Salmen gengives også i <abbr>Pedersen 1533</abbr>, fol. 17r, og <abbr>Vingaard 1553</abbr>, <ref target="https://tekstnet.dk/vingaard_1553/4/8">fol. 9r.</ref>
+               </p>
                <p>Tekstkilder:
-                  <lb/><abbr>Dietz 1529</abbr>, fol. 35r
-                  <lb/><abbr>Pedersen 1533</abbr>, fol. 18r 
-                  <lb/><abbr>Vingaard 1553</abbr>, fol. 15r
-                  <lb/><abbr>Vingaard 1553</abbr>, fol. 173v
-                  <lb/><abbr>Thomissøn 1569</abbr>, fol. 12v
-                  <lb/><abbr>Thomissøn 1569</abbr>, fol. 13v
-                  <lb/><abbr>Jespersen 1573</abbr>, s. 36
-                  <lb/><abbr>Jespersen 1573</abbr>, s. 59</p>
+                  <lb/>
+                  <abbr>Dietz 1529</abbr>, fol. 35r
+                  <lb/>
+                  <abbr>Pedersen 1533</abbr>, fol. 18r 
+                  <lb/>
+                  <abbr>Vingaard 1553</abbr>, fol. 15r
+                  <lb/>
+                  <abbr>Vingaard 1553</abbr>, fol. 173v
+                  <lb/>
+                  <abbr>Thomissøn 1569</abbr>, fol. 12v
+                  <lb/>
+                  <abbr>Thomissøn 1569</abbr>, fol. 13v
+                  <lb/>
+                  <abbr>Jespersen 1573</abbr>, s. 36
+                  <lb/>
+                  <abbr>Jespersen 1573</abbr>, s. 59</p>
             </history>
             <langUsage xml:id="resonet_in_laudibus_langUsage_f10dda89">
                <language>Latin</language>
@@ -78,26 +89,35 @@
             </langUsage>
             <notesStmt xml:id="resonet_in_laudibus_notesStmt_6120b6b8">
                <annot type="links" xml:id="resonet_in_laudibus_annot_833375bf">
-                  <ptr mimetype="" target="https://hymnary.org/tune/resonet_in_laudibus_german" xml:id="resonet_in_laudibus_ptr_95c76d20"/>
-                  <ptr mimetype="" target="https://en.wikipedia.org/wiki/Resonet_in_laudibus" xml:id="resonet_in_laudibus_ptr_51baedca"/>
+                  <ptr target="https://hymnary.org/tune/resonet_in_laudibus_german"
+                       xml:id="resonet_in_laudibus_ptr_95c76d20"/>
+                  <ptr target="https://en.wikipedia.org/wiki/Resonet_in_laudibus"
+                       xml:id="resonet_in_laudibus_ptr_51baedca"/>
                </annot>
             </notesStmt>
-            <relationList xml:id="resonet_in_laudibus_relationList_366c57c3">
-               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml" xml:id="resonet_in_laudibus_relation_b5a09855"/>
-               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf" target="Je_1573/Je_1573_LN0981.xml"/>
-               <relation label="Den danske Psalmebog (1569), fol. 12v" rel="hasEmbodiment" target="Th_1569/Th_1569_LN1426_012v.xml" xml:id="resonet_in_laudibus_relation_d1e149"/>
-               <relation label="Den danske Psalmebog (1569), fol. 13v" rel="hasEmbodiment" target="Th_1569/Th_1569_LN1426_013v.xml"/>
-               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 36" rel="hasEmbodiment" target="Je_1573/Je_1573_LN0981_036.xml"/>
-               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 59" rel="hasEmbodiment" target="Je_1573/Je_1573_LN0981_059.xml" xml:id="relation_b5a09855a"/>
-            </relationList>
             <classification xml:id="resonet_in_laudibus_classification_81a43c49">
                <termList xml:id="resonet_in_laudibus_termList_ab4fb67c">
                   <term type="itemClass" xml:id="resonet_in_laudibus_term_d1e156">melody</term>
                </termList>
             </classification>
+            <relationList xml:id="resonet_in_laudibus_relationList_366c57c3">
+               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml"
+                         xml:id="resonet_in_laudibus_relation_b5a09855"/>
+               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf"
+                         target="Je_1573/Je_1573_LN0981.xml"/>
+               <relation label="Den danske Psalmebog (1569), fol. 12v" rel="hasEmbodiment"
+                         target="Th_1569/Th_1569_LN1426_012v.xml"
+                         xml:id="resonet_in_laudibus_relation_d1e149"/>
+               <relation label="Den danske Psalmebog (1569), fol. 13v" rel="hasEmbodiment"
+                         target="Th_1569/Th_1569_LN1426_013v.xml"/>
+               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 36" rel="hasEmbodiment"
+                         target="Je_1573/Je_1573_LN0981_036.xml"/>
+               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 59" rel="hasEmbodiment"
+                         target="Je_1573/Je_1573_LN0981_059.xml"
+                         xml:id="relation_b5a09855a"/>
+            </relationList>
          </work>
       </workList>
-
    </meiHead>
    <music xml:id="resonet_in_laudibus_m-22"/>
 </mei>

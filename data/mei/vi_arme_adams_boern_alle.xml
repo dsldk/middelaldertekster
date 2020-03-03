@@ -1,4 +1,6 @@
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="vi_arme_adams_boern_alle_m-1">
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0"
+     xml:id="vi_arme_adams_boern_alle_m-1">
    <meiHead xml:id="vi_arme_adams_boern_alle_meiHead_153a84dd">
       <fileDesc xml:id="vi_arme_adams_boern_alle_fileDesc_13c953be">
          <titleStmt xml:id="vi_arme_adams_boern_alle_titleStmt_7e1c1287">
@@ -15,10 +17,12 @@
                      <addrLine xml:id="vi_arme_adams_boern_alle_addrLine_07ce5649">Christians Brygge 1</addrLine>
                      <addrLine xml:id="vi_arme_adams_boern_alle_addrLine_e1ed5de2">1219 København K</addrLine>
                      <addrLine xml:id="vi_arme_adams_boern_alle_addrLine_d232e092">
-                        <ptr label="WWW" target="https://dsl.dk" xml:id="vi_arme_adams_boern_alle_ptr_N20262"/>
+                        <ptr label="WWW" target="https://dsl.dk"
+                             xml:id="vi_arme_adams_boern_alle_ptr_N20262"/>
                      </addrLine>
                      <addrLine xml:id="vi_arme_adams_boern_alle_addrLine_6df0a542">
-                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="vi_arme_adams_boern_alle_ptr_N20270"/>
+                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk"
+                             xml:id="vi_arme_adams_boern_alle_ptr_N20270"/>
                      </addrLine>
                   </address>
                </corpName>
@@ -37,9 +41,8 @@
             <application version="6.2" xml:id="vi_arme_adams_boern_alle_application_d1e36">
                <name>Sibelius</name>
             </application>
-            <application version="2.1.0 modified for Sibelius 6" xml:id="vi_arme_adams_boern_alle_application_2d1e36">
-               <name>SibMEI</name>
-            </application>
+            <application xml:id="vi_arme_adams_boern_alle_application_2d1e36" version="2.1.0">
+               <name>SibMEI</name> modified for Sibelius 6</application>
             <application version="2013" xml:id="vi_arme_adams_boern_alle_application_fed6d71d">
                <name xml:id="vi_arme_adams_boern_alle_name_4be3c7b7">MerMEId</name>
             </application>
@@ -52,16 +55,26 @@
             <identifier label="Glahn 2000" xml:id="vi_arme_adams_boern_alle_identifier_4be736f4">A I: 11b</identifier>
             <title type="uniform" xml:id="vi_arme_adams_boern_alle_title_b2ef9f36" xml:lang="da">Vi arme Adams børn alle</title>
             <contributor xml:id="vi_arme_adams_boern_alle_respStmt_5577b899">
-               <persName auth.uri="http://www.viaf.org" auth="VIAF" codedval="10642241" role="author" xml:id="vi_arme_adams_boern_alle_persName_bbc10bf5">Hans Taussen [Hans Tausen]</persName>
+               <persName auth.uri="http://www.viaf.org" auth="VIAF" codedval="10642241" role="author"
+                         xml:id="vi_arme_adams_boern_alle_persName_bbc10bf5">Hans Taussen [Hans Tausen]</persName>
             </contributor>
             <history xml:id="vi_arme_adams_boern_alle_history_44436885">
-               <p>Thomissøn angiver, at Hans Tausen har skrevet teksten, der betegnes som "En Sekventze til/ Nu bede wi den hellig Aand". Dette henviser til, melodien bygger på pinsesekvensen <rend fontstyle="italic">Veni sancte spiritus et emitte caelitus</rend>, som kendes i en dansk bearbejdning under navnet <ref target="document.xq?doc=kom_helligaand_herre_gud.xml"><rend fontstyle="italic">Kom Helligaand Herre Gud</rend></ref>. Som indskudsstrofe til pinsesekvensen brugte man <ref target="document.xq?doc=nu_bede_vi_den_helligaand.xml"><rend fontstyle="italic">Nu bede vi den Helligånd</rend></ref>, og Tausens nye tekst synes derfor at overtage sekvensens liturgiske funktion.</p>
+               <p>Thomissøn angiver, at Hans Tausen har skrevet teksten, der betegnes som "En Sekventze til/ Nu bede wi den hellig Aand". Dette henviser til, melodien bygger på pinsesekvensen <rend fontstyle="italic">Veni sancte spiritus et emitte caelitus</rend>, som kendes i en dansk bearbejdning under navnet <ref target="document.xq?doc=kom_helligaand_herre_gud.xml">
+                     <rend fontstyle="italic">Kom Helligaand Herre Gud</rend>
+                  </ref>. Som indskudsstrofe til pinsesekvensen brugte man <ref target="document.xq?doc=nu_bede_vi_den_helligaand.xml">
+                     <rend fontstyle="italic">Nu bede vi den Helligånd</rend>
+                  </ref>, og Tausens nye tekst synes derfor at overtage sekvensens liturgiske funktion.</p>
                <p>Tekstkilder:
-                  <lb/><abbr>Pedersen 1533</abbr>, fol. 106r
-                  <lb/><abbr>Dietz 1536</abbr>, fol. f1r
-                  <lb/><abbr>Vingaard 1553</abbr>, fol. 38v
-                  <lb/><abbr>Thomissøn 1569</abbr>, fol. 101v
-                  <lb/><abbr>Jespersen 1573</abbr>, s. 142</p>
+                  <lb/>
+                  <abbr>Pedersen 1533</abbr>, fol. 106r
+                  <lb/>
+                  <abbr>Dietz 1536</abbr>, fol. f1r
+                  <lb/>
+                  <abbr>Vingaard 1553</abbr>, fol. 38v
+                  <lb/>
+                  <abbr>Thomissøn 1569</abbr>, fol. 101v
+                  <lb/>
+                  <abbr>Jespersen 1573</abbr>, s. 142</p>
             </history>
             <langUsage xml:id="vi_arme_adams_boern_alle_langUsage_f10dda89">
                <language>English</language>
@@ -69,7 +82,8 @@
             </langUsage>
             <notesStmt xml:id="vi_arme_adams_boern_alle_notesStmt_6120b6b8">
                <annot type="links" xml:id="vi_arme_adams_boern_alle_annot_833375bf">
-                  <ptr mimetype="" target="https://de.wikipedia.org/wiki/Veni_Sancte_Spiritus" xml:id="vi_arme_adams_boern_alle_ptr_51baedca"/>
+                  <ptr target="https://de.wikipedia.org/wiki/Veni_Sancte_Spiritus"
+                       xml:id="vi_arme_adams_boern_alle_ptr_51baedca"/>
                </annot>
             </notesStmt>
             <classification xml:id="vi_arme_adams_boern_alle_classification_81a43c49">
@@ -77,16 +91,19 @@
                   <term type="itemClass" xml:id="vi_arme_adams_boern_alle_term_d1e141">melody</term>
                </termList>
             </classification>
-
             <relationList xml:id="vi_arme_adams_boern_alle_relationList_1c110507">
-               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml" xml:id="vi_arme_adams_boern_alle_relation_4d893f59"/>
-               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf" target="Je_1573/Je_1573_LN0981.xml"/>
-               <relation label="Den danske Psalmebog (1569), fol. 101v" rel="hasEmbodiment" target="Th_1569/Th_1569_LN1426_101v.xml" xml:id="vi_arme_adams_boern_alle_relation_d1e148"/>
-               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 142" rel="hasEmbodiment" target="Je_1573/Je_1573_LN0981_142.xml"/>
+               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml"
+                         xml:id="vi_arme_adams_boern_alle_relation_4d893f59"/>
+               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf"
+                         target="Je_1573/Je_1573_LN0981.xml"/>
+               <relation label="Den danske Psalmebog (1569), fol. 101v" rel="hasEmbodiment"
+                         target="Th_1569/Th_1569_LN1426_101v.xml"
+                         xml:id="vi_arme_adams_boern_alle_relation_d1e148"/>
+               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 142" rel="hasEmbodiment"
+                         target="Je_1573/Je_1573_LN0981_142.xml"/>
             </relationList>
          </work>
       </workList>
-
    </meiHead>
    <music xml:id="vi_arme_adams_boern_alle_m-22"/>
 </mei>

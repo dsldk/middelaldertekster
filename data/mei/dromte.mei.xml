@@ -1,157 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<mei xml:id="m-1" meiversion="3.0.0" xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink">
-<meiHead xml:id="m-2">
-    <fileDesc xml:id="m-3">
-        <titleStmt xml:id="m-4">
+<?xml-model href="http://www.music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><mei xmlns="http://www.music-encoding.org/ns/mei"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xml:id="m-1"
+     meiversion="3.0.0">
+   <meiHead xml:id="m-2">
+      <fileDesc xml:id="m-3">
+         <titleStmt xml:id="m-4">
             <title xml:id="m-10">Drømde mik en drøm i nat</title>
             <respStmt xml:id="m-11">
-                <persName xml:id="m-12">Bjarke Moe</persName>
-                <persName xml:id="m-12a">Axel Teich Geertinger</persName>
-                <corpName xml:id="m-12b">Dansk Center for Musikudgivelse</corpName>
+               <persName xml:id="m-12">Bjarke Moe</persName>
+               <persName xml:id="m-12a">Axel Teich Geertinger</persName>
+               <corpName xml:id="m-12b">Dansk Center for Musikudgivelse</corpName>
             </respStmt>
-        </titleStmt>
-        <pubStmt xml:id="m-13"/>
-        <sourceDesc xml:id="m-13b">
+         </titleStmt>
+         <pubStmt xml:id="m-13"/>
+         <sourceDesc xml:id="m-13b">
             <source xml:id="m-13c">
-                <titleStmt xml:id="m-13d">
-                    <title xml:id="m-13e">Codex runicus</title>
-                </titleStmt>
-                <physLoc xml:id="m-13f">
-                    <repository xml:id="m-13g">
-                        <identifier xml:id="m-13h">AM 28, 8o</identifier>
-                    </repository>
-                </physLoc>
+               <titleStmt xml:id="m-13d">
+                  <title xml:id="m-13e">Codex runicus</title>
+               </titleStmt>
+               <physLoc xml:id="m-13f">
+                  <repository xml:id="m-13g">
+                     <identifier xml:id="m-13h">AM 28, 8o</identifier>
+                  </repository>
+               </physLoc>
             </source>
-        </sourceDesc>
-    </fileDesc>
-    <encodingDesc xml:id="m-16">
-        <appInfo xml:id="m-17">
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc xml:id="m-16">
+         <appInfo xml:id="m-17">
             <application xml:id="sibelius" isodate="2017-10-4T12:41:35Z" version="6200">
-                <name xml:id="m-19">Sibelius</name>
+               <name xml:id="m-19">Sibelius</name>
             </application>
             <application xml:id="sibmei" type="plugin" version="2.1.0">
-                <name xml:id="m-21">Sibelius 6.2 to MEI Exporter (2.1.0)</name>
+               <name xml:id="m-21">Sibelius 6.2 to MEI Exporter (2.1.0)</name>
             </application>
-        </appInfo>
-    </encodingDesc>
-    <workDesc xml:id="m-5">
-        <work xml:id="m-6">
-            <titleStmt xml:id="m-7">
-                <title xml:id="m-8">Drømde mik en drøm i nat</title>
-            </titleStmt>
-        </work>
-    </workDesc>
-</meiHead>
-<music xml:id="m-22">
-    <body xml:id="m-23">
-        <mdiv xml:id="m-24">
+         </appInfo>
+      </encodingDesc>
+      <workDesc xml:id="m-5">
+         <work xml:id="m-6"/>
+      </workDesc>
+   </meiHead>
+   <music xml:id="m-22">
+      <body xml:id="m-23">
+         <mdiv xml:id="m-24">
             <score xml:id="m-25">
-                <scoreDef xml:id="m-26">
-                    <staffGrp xml:id="m-27">
-                        <staffDef xml:id="m-28" clef.line="4" clef.shape="C" key.sig="0" lines="4" n="1"/>                        
-                    </staffGrp>
-                </scoreDef>
-                <section xml:id="m-31">
-                    <measure xml:id="m-32" label="1" metcon="false" right="invis">
-                        <staff xml:id="m-34" n="1">
-                            <layer xml:id="m-35" n="1">
-                                <chord dur="4" stem.len="0">
-                                    <note xml:id="m-36" oct="3" pname="f">
-                                        <verse xml:id="m-65" n="1">
-                                            <syl xml:id="m-66" con="d" wordpos="i">drøm</syl>
-                                        </verse>
-                                    </note>
-                                    <note xml:id="m-37" oct="3" pname="f"/>
-                                </chord>
-                                <note xml:id="m-38" dur="4" oct="3" pname="a" stem.len="0">
-                                    <verse xml:id="m-67" n="1">
-                                        <syl xml:id="m-68" wordpos="t">de</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="m-39" dur="4" oct="3" pname="g" stem.len="0">
-                                    <verse xml:id="m-69" n="1">
-                                        <syl xml:id="m-70" wordpos="i">mik</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="m-40" dur="4" oct="3" pname="a" stem.len="0">
-                                    <verse xml:id="m-71" n="1">
-                                        <syl xml:id="m-72" wordpos="i">en</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="m-41" dur="4" oct="3" pname="f" stem.len="0">
-                                    <verse xml:id="m-73" n="1">
-                                        <syl xml:id="m-74" wordpos="i">drøm</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="m-42" dur="4" oct="3" pname="e" stem.len="0">
-                                    <verse xml:id="m-75" n="1">
-                                        <syl xml:id="m-76" wordpos="i">i</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="m-43" dur="4" oct="3" pname="d" stem.len="0">
-                                    <verse xml:id="m-77" n="1">
-                                        <syl xml:id="m-78" wordpos="i">nat</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="m-44" dur="4" oct="3" pname="f" stem.len="0">
-                                    <verse xml:id="m-79" n="1">
-                                        <syl xml:id="m-80" wordpos="i">um</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="m-45" dur="4" oct="3" pname="a" stem.len="0">
-                                    <verse xml:id="m-81" n="1">
-                                        <syl xml:id="m-82" con="d" wordpos="i">sil</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="m-46" dur="4" oct="3" pname="a" stem.len="0">
-                                    <verse xml:id="m-83" n="1">
-                                        <syl xml:id="m-84" wordpos="t">ki</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="m-47" dur="4" oct="3" pname="a" stem.len="0">
-                                    <verse xml:id="m-85" n="1">
-                                        <syl xml:id="m-86" wordpos="i">ok</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="m-48" dur="4" oct="3" pname="a" stem.len="0">
-                                    <verse xml:id="m-87" n="1">
-                                        <syl xml:id="m-88" con="d" wordpos="i">ær</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="m-49" dur="4" oct="3" pname="f" stem.len="0">
-                                    <verse xml:id="m-89" n="1">
-                                        <syl xml:id="m-90" wordpos="t">lik</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="m-50" dur="4" oct="3" pname="d" stem.len="0">
-                                    <verse xml:id="m-91" n="1">
-                                        <syl xml:id="m-92" wordpos="i">pæl</syl>
-                                    </verse>
-                                </note>
-                                <note xml:id="m-51" dur="4" oct="3" pname="f" stem.len="0"/>
-                                <note xml:id="m-52" dur="4" oct="3" pname="a" stem.len="0"/>
-                                <note xml:id="m-53" dur="4" oct="3" pname="g" stem.len="0"/>
-                                <note xml:id="m-54" dur="4" oct="3" pname="a" stem.len="0"/>
-                                <tuplet bracket.visible="true" bracket.place="above" num="9" numbase="3" num.visible="false">
-                                    <note xml:id="m-56" dur="4" oct="3" pname="a" stem.len="0"/>
-                                    <note xml:id="m-57" dur="4" oct="3" pname="e" stem.len="0"/>
-                                    <note xml:id="m-58" dur="4" oct="3" pname="a" stem.len="0"/>
-                                    <note xml:id="m-59" dur="4" oct="3" pname="e" stem.len="0"/>
-                                    <note xml:id="m-60" dur="4" oct="3" pname="f" stem.len="0"/>
-                                    <note xml:id="m-61" dur="4" oct="3" pname="d" stem.len="0"/>
-                                    <note xml:id="m-62" dur="4" oct="3" pname="f" stem.len="0"/>
-                                    <note xml:id="m-63" dur="4" oct="3" pname="a" stem.len="0"/>
-                                    <note xml:id="m-64" dur="4" oct="3" pname="e" stem.len="0"/>
-                                </tuplet>
-                            </layer>
-                        </staff>
-                        <!-- Mere rigtigt end tuplet, men vises ikke i Verovio: -->
-                        <!--<line xml:id="m-55" dur.ges="2294p" layer="1" staff="1" tstamp="3.7143" tstamp2="0m+4.9944" type="bracket" subtype="ligature" />-->
-                    </measure>
-                </section>
+               <scoreDef xml:id="m-26">
+                  <staffGrp xml:id="m-27">
+                     <staffDef xml:id="m-28" clef.line="4" clef.shape="C" key.sig="0" lines="4" n="1"/>
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="m-31">
+                  <measure xml:id="m-32" label="1" metcon="false" right="invis">
+                     <staff xml:id="m-34" n="1">
+                        <layer xml:id="m-35" n="1">
+                           <chord dur="4" stem.len="0">
+                              <note xml:id="m-36" oct="3" pname="f">
+                                 <verse xml:id="m-65" n="1">
+                                    <syl xml:id="m-66" con="d" wordpos="i">drøm</syl>
+                                 </verse>
+                              </note>
+                              <note xml:id="m-37" oct="3" pname="f"/>
+                           </chord>
+                           <note xml:id="m-38" dur="4" oct="3" pname="a" stem.len="0">
+                              <verse xml:id="m-67" n="1">
+                                 <syl xml:id="m-68" wordpos="t">de</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="m-39" dur="4" oct="3" pname="g" stem.len="0">
+                              <verse xml:id="m-69" n="1">
+                                 <syl xml:id="m-70" wordpos="i">mik</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="m-40" dur="4" oct="3" pname="a" stem.len="0">
+                              <verse xml:id="m-71" n="1">
+                                 <syl xml:id="m-72" wordpos="i">en</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="m-41" dur="4" oct="3" pname="f" stem.len="0">
+                              <verse xml:id="m-73" n="1">
+                                 <syl xml:id="m-74" wordpos="i">drøm</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="m-42" dur="4" oct="3" pname="e" stem.len="0">
+                              <verse xml:id="m-75" n="1">
+                                 <syl xml:id="m-76" wordpos="i">i</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="m-43" dur="4" oct="3" pname="d" stem.len="0">
+                              <verse xml:id="m-77" n="1">
+                                 <syl xml:id="m-78" wordpos="i">nat</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="m-44" dur="4" oct="3" pname="f" stem.len="0">
+                              <verse xml:id="m-79" n="1">
+                                 <syl xml:id="m-80" wordpos="i">um</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="m-45" dur="4" oct="3" pname="a" stem.len="0">
+                              <verse xml:id="m-81" n="1">
+                                 <syl xml:id="m-82" con="d" wordpos="i">sil</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="m-46" dur="4" oct="3" pname="a" stem.len="0">
+                              <verse xml:id="m-83" n="1">
+                                 <syl xml:id="m-84" wordpos="t">ki</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="m-47" dur="4" oct="3" pname="a" stem.len="0">
+                              <verse xml:id="m-85" n="1">
+                                 <syl xml:id="m-86" wordpos="i">ok</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="m-48" dur="4" oct="3" pname="a" stem.len="0">
+                              <verse xml:id="m-87" n="1">
+                                 <syl xml:id="m-88" con="d" wordpos="i">ær</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="m-49" dur="4" oct="3" pname="f" stem.len="0">
+                              <verse xml:id="m-89" n="1">
+                                 <syl xml:id="m-90" wordpos="t">lik</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="m-50" dur="4" oct="3" pname="d" stem.len="0">
+                              <verse xml:id="m-91" n="1">
+                                 <syl xml:id="m-92" wordpos="i">pæl</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="m-51" dur="4" oct="3" pname="f" stem.len="0"/>
+                           <note xml:id="m-52" dur="4" oct="3" pname="a" stem.len="0"/>
+                           <note xml:id="m-53" dur="4" oct="3" pname="g" stem.len="0"/>
+                           <note xml:id="m-54" dur="4" oct="3" pname="a" stem.len="0"/>
+                           <tuplet bracket.visible="true" bracket.place="above" num="9" numbase="3"
+                                   num.visible="false">
+                              <note xml:id="m-56" dur="4" oct="3" pname="a" stem.len="0"/>
+                              <note xml:id="m-57" dur="4" oct="3" pname="e" stem.len="0"/>
+                              <note xml:id="m-58" dur="4" oct="3" pname="a" stem.len="0"/>
+                              <note xml:id="m-59" dur="4" oct="3" pname="e" stem.len="0"/>
+                              <note xml:id="m-60" dur="4" oct="3" pname="f" stem.len="0"/>
+                              <note xml:id="m-61" dur="4" oct="3" pname="d" stem.len="0"/>
+                              <note xml:id="m-62" dur="4" oct="3" pname="f" stem.len="0"/>
+                              <note xml:id="m-63" dur="4" oct="3" pname="a" stem.len="0"/>
+                              <note xml:id="m-64" dur="4" oct="3" pname="e" stem.len="0"/>
+                           </tuplet>
+                        </layer>
+                     </staff>
+                     <!-- Mere rigtigt end tuplet, men vises ikke i Verovio: --><!--<line xml:id="m-55" dur.ges="2294p" layer="1" staff="1" tstamp="3.7143" tstamp2="0m+4.9944" type="bracket" subtype="ligature" />--></measure>
+               </section>
             </score>
-        </mdiv>
-    </body>
-</music>
+         </mdiv>
+      </body>
+   </music>
 </mei>

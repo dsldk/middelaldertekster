@@ -1,4 +1,6 @@
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="fader_vor_udi_himmerig_m-1">
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0"
+     xml:id="fader_vor_udi_himmerig_m-1">
    <meiHead xml:id="fader_vor_udi_himmerig_meiHead_c8e13b5e">
       <fileDesc xml:id="fader_vor_udi_himmerig_fileDesc_9875255e">
          <titleStmt xml:id="fader_vor_udi_himmerig_titleStmt_871ca274">
@@ -18,7 +20,8 @@
                         <ptr label="WWW" target="https://dsl.dk" xml:id="fader_vor_udi_himmerig_ptr_N20262"/>
                      </addrLine>
                      <addrLine xml:id="fader_vor_udi_himmerig_addrLine_b8f9b9b7">
-                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="fader_vor_udi_himmerig_ptr_N20270"/>
+                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk"
+                             xml:id="fader_vor_udi_himmerig_ptr_N20270"/>
                      </addrLine>
                   </address>
                </corpName>
@@ -37,9 +40,8 @@
             <application version="6.2" xml:id="fader_vor_udi_himmerig_application_d1e36">
                <name>Sibelius</name>
             </application>
-            <application version="2.1.0 modified for Sibelius 6" xml:id="fader_vor_udi_himmerig_application_2d1e36">
-               <name>SibMEI</name>
-            </application>
+            <application xml:id="fader_vor_udi_himmerig_application_2d1e36" version="2.1.0">
+               <name>SibMEI</name> modified for Sibelius 6</application>
             <application version="2013" xml:id="fader_vor_udi_himmerig_application_25bdcbdc">
                <name xml:id="fader_vor_udi_himmerig_name_debbb085">MerMEId</name>
             </application>
@@ -58,7 +60,8 @@
             <title type="uniform" xml:id="fader_vor_udi_himmerig_title_450a79fa" xml:lang="da">Fader vor udi Himmerig</title>
             <title type="uniform" xml:id="fader_vor_udi_himmerig_title_625d6bbb" xml:lang="de">Vater unser im Himmelreich</title>
             <contributor xml:id="fader_vor_udi_himmerig_respStmt_5577b899">
-               <persName auth.uri="http://www.viaf.org" auth="VIAF" codedval="14773105" role="author" xml:id="fader_vor_udi_himmerig_persName_5a21acd5">Morten Luther [Martin Luther]</persName>
+               <persName auth.uri="http://www.viaf.org" auth="VIAF" codedval="14773105" role="author"
+                         xml:id="fader_vor_udi_himmerig_persName_5a21acd5">Morten Luther [Martin Luther]</persName>
             </contributor>
             <history xml:id="fader_vor_udi_himmerig_history_44436885">
                <p>Thomissøn angiver MDXXXIX [= 1539]</p>
@@ -71,17 +74,22 @@
                <language>English</language>
                <language>Danish</language>
             </langUsage>
-            <relationList xml:id="fader_vor_udi_himmerig_relationList_1c110507">
-               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml" xml:id="fader_vor_udi_himmerig_relation_4d893f59"/>
-               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf" target="Je_1573/Je_1573_LN0981.xml"/>
-               <relation label="Den danske Psalmebog (1569), fol. 119r" rel="hasEmbodiment" target="Th_1569/Th_1569_LN1426_119r.xml" xml:id="fader_vor_udi_himmerig_relation_d1e170"/>
-               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 430" rel="hasEmbodiment" target="Je_1573/Je_1573_LN0981_430.xml"/>
-            </relationList>
             <classification xml:id="fader_vor_udi_himmerig_classification_81a43c49">
                <termList xml:id="fader_vor_udi_himmerig_termList_ab4fb67c">
                   <term type="itemClass" xml:id="fader_vor_udi_himmerig_term_d1e177">melody</term>
                </termList>
             </classification>
+            <relationList xml:id="fader_vor_udi_himmerig_relationList_1c110507">
+               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml"
+                         xml:id="fader_vor_udi_himmerig_relation_4d893f59"/>
+               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf"
+                         target="Je_1573/Je_1573_LN0981.xml"/>
+               <relation label="Den danske Psalmebog (1569), fol. 119r" rel="hasEmbodiment"
+                         target="Th_1569/Th_1569_LN1426_119r.xml"
+                         xml:id="fader_vor_udi_himmerig_relation_d1e170"/>
+               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 430" rel="hasEmbodiment"
+                         target="Je_1573/Je_1573_LN0981_430.xml"/>
+            </relationList>
          </work>
       </workList>
    </meiHead>

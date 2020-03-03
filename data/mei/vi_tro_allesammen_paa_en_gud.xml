@@ -1,4 +1,6 @@
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="vi_tro_allesammen_paa_en_gud_m-1">
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0"
+     xml:id="vi_tro_allesammen_paa_en_gud_m-1">
    <meiHead xml:id="vi_tro_allesammen_paa_en_gud_meiHead_132397b1">
       <fileDesc xml:id="vi_tro_allesammen_paa_en_gud_fileDesc_c64b4f72">
          <titleStmt xml:id="vi_tro_allesammen_paa_en_gud_titleStmt_0e0700ed">
@@ -15,10 +17,12 @@
                      <addrLine xml:id="vi_tro_allesammen_paa_en_gud_addrLine_5abdff7f">Christians Brygge 1</addrLine>
                      <addrLine xml:id="vi_tro_allesammen_paa_en_gud_addrLine_e77cc123">1219 København K</addrLine>
                      <addrLine xml:id="vi_tro_allesammen_paa_en_gud_addrLine_12897a14">
-                        <ptr label="WWW" target="https://dsl.dk" xml:id="vi_tro_allesammen_paa_en_gud_ptr_N20262"/>
+                        <ptr label="WWW" target="https://dsl.dk"
+                             xml:id="vi_tro_allesammen_paa_en_gud_ptr_N20262"/>
                      </addrLine>
                      <addrLine xml:id="vi_tro_allesammen_paa_en_gud_addrLine_3462662b">
-                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="vi_tro_allesammen_paa_en_gud_ptr_N20270"/>
+                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk"
+                             xml:id="vi_tro_allesammen_paa_en_gud_ptr_N20270"/>
                      </addrLine>
                   </address>
                </corpName>
@@ -29,7 +33,8 @@
          </pubStmt>
          <seriesStmt xml:id="vi_tro_allesammen_paa_en_gud_seriesStmt_fa5f7991">
             <title xml:id="vi_tro_allesammen_paa_en_gud_title_b0149681">Musik og sprog i reformationstidens danske salmesang</title>
-            <identifier type="file_collection" xml:id="vi_tro_allesammen_paa_en_gud_identifier_32a11b0f">RefSal</identifier>
+            <identifier type="file_collection"
+                        xml:id="vi_tro_allesammen_paa_en_gud_identifier_32a11b0f">RefSal</identifier>
          </seriesStmt>
       </fileDesc>
       <encodingDesc xml:id="vi_tro_allesammen_paa_en_gud_encodingDesc_37617a54">
@@ -37,9 +42,8 @@
             <application version="6.2" xml:id="vi_tro_allesammen_paa_en_gud_application_d1e36">
                <name>Sibelius</name>
             </application>
-            <application version="2.1.0 modified for Sibelius 6" xml:id="vi_tro_allesammen_paa_en_gud_application_2d1e36">
-               <name>SibMEI</name>
-            </application>
+            <application xml:id="vi_tro_allesammen_paa_en_gud_application_2d1e36" version="2.1.0">
+               <name>SibMEI</name> modified for Sibelius 6</application>
             <application version="2013" xml:id="vi_tro_allesammen_paa_en_gud_application_b3171371">
                <name xml:id="vi_tro_allesammen_paa_en_gud_name_faddf5d1">MerMEId</name>
             </application>
@@ -57,7 +61,8 @@
             <identifier label="DDK 1954" xml:id="vi_tro_allesammen_paa_en_gud_identifier_b3fbf7c3">431</identifier>
             <identifier label="DDK 2003" xml:id="vi_tro_allesammen_paa_en_gud_identifier_33936003">542</identifier>
             <identifier label="Korth 2017" xml:id="vi_tro_allesammen_paa_en_gud_identifier_b568971d">23</identifier>
-            <title type="uniform" xml:id="vi_tro_allesammen_paa_en_gud_title_be223d12" xml:lang="da">Vi tro allesammen på en Gud</title>
+            <title type="uniform" xml:id="vi_tro_allesammen_paa_en_gud_title_be223d12"
+                   xml:lang="da">Vi tro allesammen på en Gud</title>
             <history xml:id="vi_tro_allesammen_paa_en_gud_history_44436885">
                <p/>
             </history>
@@ -65,21 +70,30 @@
                <language>Danish</language>
                <language>English</language>
             </langUsage>
-            <relationList xml:id="vi_tro_allesammen_paa_en_gud_relationList_1c110507">
-               <relation label="Handbog Om den rette Euangeliske Messe" rel="isPartOf" target="Vo_1539/Vo_1539_LN0298.xml"/>
-               <relation label="En Ny Psalmebog" rel="isPartOf" target="Vi_1553/Vi_1553_LN1421.xml"/>
-               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml" xml:id="vi_tro_allesammen_paa_en_gud_relation_4d893f59"/>
-               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf" target="Je_1573/Je_1573_LN0981.xml"/>
-               <relation label="Handbog Om den rette Euangeliske Messe (1539), fol. d02v" rel="hasEmbodiment" target="Vo_1539/Vo_1539_LN0298_000d02v.xml"/>
-               <relation label="En Ny Psalmebog (1553), fol. 107r" rel="hasEmbodiment" target="Vi_1553/Vi_1553_LN1421_107r.xml"/>
-               <relation label="Den danske Psalmebog (1569), fol. 117r" rel="hasEmbodiment" target="Th_1569/Th_1569_LN1426_117r.xml" xml:id="vi_tro_allesammen_paa_en_gud_relation_d1e152"/>
-               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 11" rel="hasEmbodiment" target="Je_1573/Je_1573_LN0981_011.xml"/>
-            </relationList>
             <classification xml:id="vi_tro_allesammen_paa_en_gud_classification_81a43c49">
                <termList xml:id="vi_tro_allesammen_paa_en_gud_termList_ab4fb67c">
                   <term type="itemClass" xml:id="vi_tro_allesammen_paa_en_gud_term_d1e159">melody</term>
                </termList>
             </classification>
+            <relationList xml:id="vi_tro_allesammen_paa_en_gud_relationList_1c110507">
+               <relation label="Handbog Om den rette Euangeliske Messe" rel="isPartOf"
+                         target="Vo_1539/Vo_1539_LN0298.xml"/>
+               <relation label="En Ny Psalmebog" rel="isPartOf" target="Vi_1553/Vi_1553_LN1421.xml"/>
+               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml"
+                         xml:id="vi_tro_allesammen_paa_en_gud_relation_4d893f59"/>
+               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf"
+                         target="Je_1573/Je_1573_LN0981.xml"/>
+               <relation label="Handbog Om den rette Euangeliske Messe (1539), fol. d02v"
+                         rel="hasEmbodiment"
+                         target="Vo_1539/Vo_1539_LN0298_000d02v.xml"/>
+               <relation label="En Ny Psalmebog (1553), fol. 107r" rel="hasEmbodiment"
+                         target="Vi_1553/Vi_1553_LN1421_107r.xml"/>
+               <relation label="Den danske Psalmebog (1569), fol. 117r" rel="hasEmbodiment"
+                         target="Th_1569/Th_1569_LN1426_117r.xml"
+                         xml:id="vi_tro_allesammen_paa_en_gud_relation_d1e152"/>
+               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 11" rel="hasEmbodiment"
+                         target="Je_1573/Je_1573_LN0981_011.xml"/>
+            </relationList>
          </work>
       </workList>
    </meiHead>

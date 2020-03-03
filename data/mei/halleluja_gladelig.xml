@@ -1,4 +1,6 @@
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="halleluja_gladelig_m-1">
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0"
+     xml:id="halleluja_gladelig_m-1">
    <meiHead xml:id="halleluja_gladelig_meiHead_3d799436">
       <fileDesc xml:id="halleluja_gladelig_fileDesc_81ccb40e">
          <titleStmt xml:id="halleluja_gladelig_titleStmt_290a5652">
@@ -18,7 +20,8 @@
                         <ptr label="WWW" target="https://dsl.dk" xml:id="halleluja_gladelig_ptr_N20262"/>
                      </addrLine>
                      <addrLine xml:id="halleluja_gladelig_addrLine_b73ad4c8">
-                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="halleluja_gladelig_ptr_N20270"/>
+                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk"
+                             xml:id="halleluja_gladelig_ptr_N20270"/>
                      </addrLine>
                   </address>
                </corpName>
@@ -37,9 +40,8 @@
             <application version="6.2" xml:id="halleluja_gladelig_application_d1e36">
                <name>Sibelius</name>
             </application>
-            <application version="2.1.0 modified for Sibelius 6" xml:id="halleluja_gladelig_application_2d1e36">
-               <name>SibMEI</name>
-            </application>
+            <application xml:id="halleluja_gladelig_application_2d1e36" version="2.1.0">
+               <name>SibMEI</name> modified for Sibelius 6</application>
             <application version="2013" xml:id="halleluja_gladelig_application_9a63e510">
                <name xml:id="halleluja_gladelig_name_1c374aeb">MerMEId</name>
             </application>
@@ -62,20 +64,24 @@
                <language>Danish</language>
                <language>English</language>
             </langUsage>
-            <relationList xml:id="halleluja_gladelig_relationList_1c110507">
-               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml" xml:id="halleluja_gladelig_relation_4d893f59"/>
-               <relation label="Thet cristelighe mesßeembedhe" rel="isPartOf" target="Mo_1528/Mo_1528_LN0174.xml"/>
-               <relation label="Den danske Psalmebog (1569), fol. 288r" rel="hasEmbodiment" target="Th_1569/Th_1569_LN1426_288r.xml" xml:id="halleluja_gladelig_relation_d1e164"/>
-               <relation label="Thet cristelighe mesßeembedhe (1528), fol. b03r" rel="hasEmbodiment" target="Mo_1528/Mo_1528_LN0174_000B03r.xml"/>
-            </relationList>
             <classification xml:id="halleluja_gladelig_classification_81a43c49">
                <termList xml:id="halleluja_gladelig_termList_ab4fb67c">
                   <term type="itemClass" xml:id="halleluja_gladelig_term_d1e171">melody</term>
                </termList>
             </classification>
+            <relationList xml:id="halleluja_gladelig_relationList_1c110507">
+               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml"
+                         xml:id="halleluja_gladelig_relation_4d893f59"/>
+               <relation label="Thet cristelighe mesßeembedhe" rel="isPartOf"
+                         target="Mo_1528/Mo_1528_LN0174.xml"/>
+               <relation label="Den danske Psalmebog (1569), fol. 288r" rel="hasEmbodiment"
+                         target="Th_1569/Th_1569_LN1426_288r.xml"
+                         xml:id="halleluja_gladelig_relation_d1e164"/>
+               <relation label="Thet cristelighe mesßeembedhe (1528), fol. b03r" rel="hasEmbodiment"
+                         target="Mo_1528/Mo_1528_LN0174_000B03r.xml"/>
+            </relationList>
          </work>
       </workList>
-
    </meiHead>
    <music xml:id="halleluja_gladelig_m-22"/>
 </mei>

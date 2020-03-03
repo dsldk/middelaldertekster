@@ -1,4 +1,6 @@
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="grates_nunc_omnes_reddamus_m-1">
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0"
+     xml:id="grates_nunc_omnes_reddamus_m-1">
    <meiHead xml:id="grates_nunc_omnes_reddamus_meiHead_39bae599">
       <fileDesc xml:id="grates_nunc_omnes_reddamus_fileDesc_29ddce0c">
          <titleStmt xml:id="grates_nunc_omnes_reddamus_titleStmt_2a26e881">
@@ -16,10 +18,12 @@
                      <addrLine xml:id="grates_nunc_omnes_reddamus_addrLine_ddfe02a1">Christians Brygge 1</addrLine>
                      <addrLine xml:id="grates_nunc_omnes_reddamus_addrLine_1f7460ac">1219 København K</addrLine>
                      <addrLine xml:id="grates_nunc_omnes_reddamus_addrLine_c3f06b7b">
-                        <ptr label="WWW" target="https://dsl.dk" xml:id="grates_nunc_omnes_reddamus_ptr_N20262"/>
+                        <ptr label="WWW" target="https://dsl.dk"
+                             xml:id="grates_nunc_omnes_reddamus_ptr_N20262"/>
                      </addrLine>
                      <addrLine xml:id="grates_nunc_omnes_reddamus_addrLine_3cfdf21d">
-                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="grates_nunc_omnes_reddamus_ptr_N20270"/>
+                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk"
+                             xml:id="grates_nunc_omnes_reddamus_ptr_N20270"/>
                      </addrLine>
                   </address>
                </corpName>
@@ -38,9 +42,8 @@
             <application version="6.2" xml:id="grates_nunc_omnes_reddamus_application_d1e36">
                <name>Sibelius</name>
             </application>
-            <application version="2.1.0 modified for Sibelius 6" xml:id="grates_nunc_omnes_reddamus_application_2d1e36">
-               <name>SibMEI</name>
-            </application>
+            <application xml:id="grates_nunc_omnes_reddamus_application_2d1e36" version="2.1.0">
+               <name>SibMEI</name> modified for Sibelius 6</application>
             <application version="2013" xml:id="grates_nunc_omnes_reddamus_application_30a4e8ac">
                <name xml:id="grates_nunc_omnes_reddamus_name_8654a359">MerMEId</name>
             </application>
@@ -57,16 +60,23 @@
             <title xml:id="grates_nunc_omnes_reddamus_title_fg122e98" xml:lang="da">Nu lader oss alle tacke Gud vor Herre</title>
             <title type="uniform" xml:id="grates_nunc_omnes_reddamus_title_df1a0c27" xml:lang="da">Nu lader os alle takke Gud vor Herre</title>
             <history xml:id="grates_nunc_omnes_reddamus_history_44436885">
-               <p>Denne julesekvens fik en særdeles stor udbredelse, såvel på latin som i oversættelser på tysk og dansk. En årsag hertil er måske, at Luther undtog netop <rend fontstyle="italic">Grates nunc omnes</rend> fra forbuddet mod brugen af sekvenser (<abbr>Glahn 1954</abbr>: 46). Både den latinske og danske sekvens blev brugt i danske messer, i følge kilderne gerne i kombination med hinanden.</p> 
+               <p>Denne julesekvens fik en særdeles stor udbredelse, såvel på latin som i oversættelser på tysk og dansk. En årsag hertil er måske, at Luther undtog netop <rend fontstyle="italic">Grates nunc omnes</rend> fra forbuddet mod brugen af sekvenser (<abbr>Glahn 1954</abbr>: 46). Både den latinske og danske sekvens blev brugt i danske messer, i følge kilderne gerne i kombination med hinanden.</p>
                <p>Tekstkilder: 
-                  <lb/><abbr>Dietz 1529</abbr>, fol. 18v
-                  <lb/><abbr>Pedersen 1533</abbr>, fol. 15r
-                  <lb/><abbr>Vingaard 1553</abbr>, fol. 7v
-                  <lb/><abbr>Thomissøn 1569</abbr>, fol. 6r
-                  <lb/><abbr>Thomissøn 1569</abbr>, fol. 6v
-                  <lb/><abbr>Jespersen 1573</abbr>, s. 46</p>
+                  <lb/>
+                  <abbr>Dietz 1529</abbr>, fol. 18v
+                  <lb/>
+                  <abbr>Pedersen 1533</abbr>, fol. 15r
+                  <lb/>
+                  <abbr>Vingaard 1553</abbr>, fol. 7v
+                  <lb/>
+                  <abbr>Thomissøn 1569</abbr>, fol. 6r
+                  <lb/>
+                  <abbr>Thomissøn 1569</abbr>, fol. 6v
+                  <lb/>
+                  <abbr>Jespersen 1573</abbr>, s. 46</p>
                <p>Flerstemmig udsættelse: 
-                  <lb/><abbr>Pedersøn 1620</abbr>, nr. 3</p>
+                  <lb/>
+                  <abbr>Pedersøn 1620</abbr>, nr. 3</p>
             </history>
             <langUsage xml:id="grates_nunc_omnes_reddamus_langUsage_f10dda89">
                <language xml:id="la">Latin</language>
@@ -75,24 +85,30 @@
             </langUsage>
             <notesStmt xml:id="grates_nunc_omnes_reddamus_notesStmt_6120b6b8">
                <annot type="links" xml:id="grates_nunc_omnes_reddamus_annot_833375bf">
-                  <ptr mimetype="" target="https://de.wikipedia.org/wiki/Grates_nunc_omnes" xml:id="grates_nunc_omnes_reddamus_ptr_51baedca"/>
+                  <ptr target="https://de.wikipedia.org/wiki/Grates_nunc_omnes"
+                       xml:id="grates_nunc_omnes_reddamus_ptr_51baedca"/>
                </annot>
             </notesStmt>
-            <relationList xml:id="grates_nunc_omnes_reddamus_relationList_c72866f9">
-               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml" xml:id="grates_nunc_omnes_reddamus_relation_944315de"/>
-               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf" target="Je_1573/Je_1573_LN0981.xml"/>
-               <relation label="Den danske Psalmebog (1569), fol 6r" rel="hasEmbodiment" target="Th_1569/Th_1569_LN1426_006r.xml" xml:id="grates_nunc_omnes_reddamus_relation_d1e139"/>
-               <relation label="Den danske Psalmebog (1569), fol 6v" rel="hasEmbodiment" target="Th_1569/Th_1569_LN1426_006v.xml"/>
-               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 46" rel="hasEmbodiment" target="Je_1573/Je_1573_LN0981_046.xml"/>
-            </relationList>
             <classification xml:id="grates_nunc_omnes_reddamus_classification_81a43c49">
                <termList xml:id="grates_nunc_omnes_reddamus_termList_ab4fb67c">
                   <term type="itemClass" xml:id="grates_nunc_omnes_reddamus_term_d1e146">melody</term>
                </termList>
             </classification>
+            <relationList xml:id="grates_nunc_omnes_reddamus_relationList_c72866f9">
+               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml"
+                         xml:id="grates_nunc_omnes_reddamus_relation_944315de"/>
+               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf"
+                         target="Je_1573/Je_1573_LN0981.xml"/>
+               <relation label="Den danske Psalmebog (1569), fol 6r" rel="hasEmbodiment"
+                         target="Th_1569/Th_1569_LN1426_006r.xml"
+                         xml:id="grates_nunc_omnes_reddamus_relation_d1e139"/>
+               <relation label="Den danske Psalmebog (1569), fol 6v" rel="hasEmbodiment"
+                         target="Th_1569/Th_1569_LN1426_006v.xml"/>
+               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 46" rel="hasEmbodiment"
+                         target="Je_1573/Je_1573_LN0981_046.xml"/>
+            </relationList>
          </work>
       </workList>
-
    </meiHead>
    <music xml:id="grates_nunc_omnes_reddamus_m-22"/>
 </mei>

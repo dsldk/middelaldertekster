@@ -1,4 +1,6 @@
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="aleneste_gud_i_himmerig_m-1">
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0"
+     xml:id="aleneste_gud_i_himmerig_m-1">
    <meiHead xml:id="aleneste_gud_i_himmerig_meiHead_d53364fe">
       <fileDesc xml:id="aleneste_gud_i_himmerig_fileDesc_3201a249">
          <titleStmt xml:id="aleneste_gud_i_himmerig_titleStmt_c8bb08d0">
@@ -18,7 +20,8 @@
                         <ptr label="WWW" target="https://dsl.dk" xml:id="aleneste_gud_i_himmerig_ptr_N20262"/>
                      </addrLine>
                      <addrLine xml:id="aleneste_gud_i_himmerig_addrLine_99f7f681">
-                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="aleneste_gud_i_himmerig_ptr_N20270"/>
+                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk"
+                             xml:id="aleneste_gud_i_himmerig_ptr_N20270"/>
                      </addrLine>
                   </address>
                </corpName>
@@ -37,9 +40,8 @@
             <application version="6.2" xml:id="aleneste_gud_i_himmerig_application_d1e36">
                <name>Sibelius</name>
             </application>
-            <application version="2.1.0 modified for Sibelius 6" xml:id="aleneste_gud_i_himmerig_application_2d1e36">
-               <name>SibMEI</name>
-            </application>
+            <application xml:id="aleneste_gud_i_himmerig_application_2d1e36" version="2.1.0">
+               <name>SibMEI</name> modified for Sibelius 6</application>
             <application version="2013" xml:id="aleneste_gud_i_himmerig_application_4ffee87e">
                <name xml:id="aleneste_gud_i_himmerig_name_db77c50a">MerMEId</name>
             </application>
@@ -47,7 +49,6 @@
       </encodingDesc>
       <workList xml:id="aleneste_gud_i_himmerig_workDesc_43b4feaf">
          <work xml:id="aleneste_gud_i_himmerig_work_7327e799">
-
             <identifier xml:id="aleneste_gud_i_himmerig_identifier_d1e100" label="Thomissøn 1569">fol. 109v</identifier>
             <identifier label="Jespersen 1573">s. 7</identifier>
             <identifier label="Glahn 1954" xml:id="aleneste_gud_i_himmerig_identifier_7a46e258">64</identifier>
@@ -55,9 +56,9 @@
             <identifier label="Zahn" xml:id="aleneste_gud_i_himmerig_identifier_ed52d437">4457</identifier>
             <identifier label="DDK 1954" xml:id="aleneste_gud_i_himmerig_identifier_b5e08dd9">12</identifier>
             <identifier label="DDK 2003" xml:id="aleneste_gud_i_himmerig_identifier_8eb85f4d">9</identifier>
-            <title type="alternative" xml:id="aleneste_gud_i_himmerig_title_55c66e2a" xml:lang="la">Gloria in excelsis Deo</title>
+            <title type="alternative" xml:id="aleneste_gud_i_himmerig_title_55c66e2a"
+                   xml:lang="la">Gloria in excelsis Deo</title>
             <title type="uniform" xml:id="aleneste_gud_i_himmerig_title_55bb8792" xml:lang="da">Aleneste Gud i Himmerig</title>
-
             <history xml:id="aleneste_gud_i_himmerig_history_44436885">
                <p>Flerstemmig udsættelse:<lb/>
                   <abbr>Mogens Pedersøn 1620</abbr>
@@ -68,20 +69,24 @@
                <language>Danish</language>
                <language>Latin</language>
             </langUsage>
-            <relationList xml:id="aleneste_gud_i_himmerig_relationList_1c110507">
-               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml" xml:id="aleneste_gud_i_himmerig_relation_4d893f59"/>
-               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf" target="Je_1573/Je_1573_LN0981.xml"/>
-               <relation label="Den danske Psalmebog (1569), fol. 109v" rel="hasEmbodiment" target="Th_1569/Th_1569_LN1426_109v.xml" xml:id="aleneste_gud_i_himmerig_relation_d1e161"/>
-               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 7" rel="hasEmbodiment" target="Je_1573/Je_1573_LN0981_007.xml"/>
-            </relationList>
             <classification xml:id="aleneste_gud_i_himmerig_classification_81a43c49">
                <termList xml:id="aleneste_gud_i_himmerig_termList_ab4fb67c">
                   <term type="itemClass" xml:id="aleneste_gud_i_himmerig_term_d1e168">melody</term>
                </termList>
             </classification>
+            <relationList xml:id="aleneste_gud_i_himmerig_relationList_1c110507">
+               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml"
+                         xml:id="aleneste_gud_i_himmerig_relation_4d893f59"/>
+               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf"
+                         target="Je_1573/Je_1573_LN0981.xml"/>
+               <relation label="Den danske Psalmebog (1569), fol. 109v" rel="hasEmbodiment"
+                         target="Th_1569/Th_1569_LN1426_109v.xml"
+                         xml:id="aleneste_gud_i_himmerig_relation_d1e161"/>
+               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 7" rel="hasEmbodiment"
+                         target="Je_1573/Je_1573_LN0981_007.xml"/>
+            </relationList>
          </work>
       </workList>
-
    </meiHead>
    <music xml:id="aleneste_gud_i_himmerig_m-22"/>
 </mei>

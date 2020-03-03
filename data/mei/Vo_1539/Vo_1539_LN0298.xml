@@ -1,367 +1,338 @@
-<mei xmlns="http://www.music-encoding.org/ns/mei"
-     meiversion="4.0.0"
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0"
      xml:id="Vo_1539_LN0298_mei_a0515327">
-    <meiHead xml:id="Vo_1539_LN0298_meiHead_0f31ae99">
-        <fileDesc xml:id="Vo_1539_LN0298_fileDesc_3a97a3f1">
-            <titleStmt xml:id="Vo_1539_LN0298_titleStmt_a435c248">
-                <title xml:id="Vo_1539_LN0298_title_e9b9e26e" xml:lang="da">Handbog Om den rette Euangeliske Messe</title>
-            </titleStmt>
-            <pubStmt xml:id="Vo_1539_LN0298_pubStmt_8a866ed9">
-                <respStmt xml:id="respStmt_16ba472c">
-                    <resp xml:id="Vo_1539_LN0298_resp_8661f567">Publisher</resp>
-                    <corpName xml:id="Vo_1539_LN0298_corpName_b4973044" role="">
-                        <abbr xml:id="Vo_1539_LN0298_abbr_f4c490a6">DSL</abbr>
-                        <expan xml:id="Vo_1539_LN0298_expan_0c0760fa" xml:lang="da">Det Danske Sprog- og Litteraturselskab</expan>
-                        <expan xml:lang="en" xml:id="Vo_1539_LN0298_expan_c9ca9365b">Society for Danish Language and Literature</expan>
-                        <address xml:id="Vo_1539_LN0298_address_91c48211">
-                            <addrLine xml:id="Vo_1539_LN0298_addrLine_d993c478">Christians Brygge 1</addrLine>
-                            <addrLine xml:id="Vo_1539_LN0298_addrLine_17fa3481">1219 København K</addrLine>
-                            <addrLine xml:id="Vo_1539_LN0298_addrLine_447e6855">
-                                <ptr label="WWW"
-                             target="https://dsl.dk"
-                             xml:id="Vo_1539_LN0298_ptr_N20262"/>
-                            </addrLine>
-                            <addrLine xml:id="Vo_1539_LN0298_addrLine_07ab8629">
-                                <ptr label="E-mail"
-                             xml:id="Vo_1539_LN0298_ptr_N20270"
+   <meiHead xml:id="Vo_1539_LN0298_meiHead_0f31ae99">
+      <fileDesc xml:id="Vo_1539_LN0298_fileDesc_3a97a3f1">
+         <titleStmt xml:id="Vo_1539_LN0298_titleStmt_a435c248">
+            <title xml:id="Vo_1539_LN0298_title_e9b9e26e" xml:lang="da">Handbog Om den rette Euangeliske Messe</title>
+         </titleStmt>
+         <pubStmt xml:id="Vo_1539_LN0298_pubStmt_8a866ed9">
+            <respStmt xml:id="respStmt_16ba472c">
+               <resp xml:id="Vo_1539_LN0298_resp_8661f567">Publisher</resp>
+               <corpName xml:id="Vo_1539_LN0298_corpName_b4973044" role="">
+                  <abbr xml:id="Vo_1539_LN0298_abbr_f4c490a6">DSL</abbr>
+                  <expan xml:id="Vo_1539_LN0298_expan_0c0760fa" xml:lang="da">Det Danske Sprog- og Litteraturselskab</expan>
+                  <expan xml:lang="en" xml:id="Vo_1539_LN0298_expan_c9ca9365b">Society for Danish Language and Literature</expan>
+                  <address xml:id="Vo_1539_LN0298_address_91c48211">
+                     <addrLine xml:id="Vo_1539_LN0298_addrLine_d993c478">Christians Brygge 1</addrLine>
+                     <addrLine xml:id="Vo_1539_LN0298_addrLine_17fa3481">1219 København K</addrLine>
+                     <addrLine xml:id="Vo_1539_LN0298_addrLine_447e6855">
+                        <ptr label="WWW" target="https://dsl.dk" xml:id="Vo_1539_LN0298_ptr_N20262"/>
+                     </addrLine>
+                     <addrLine xml:id="Vo_1539_LN0298_addrLine_07ab8629">
+                        <ptr label="E-mail" xml:id="Vo_1539_LN0298_ptr_N20270"
                              target="mailto://sekretariat@dsl.dk"/>
-                            </addrLine>
-                        </address>
-                    </corpName>
-                    <persName role="editor" xml:id="Vo_1539_LN0298_persName_3c83de25">Bjarke Moe</persName>
-                    <persName role="data manager" xml:id="Vo_1539_LN0298_persName_d1e8">Axel Teich Geertinger</persName>
-                    <persName xml:id="Vo_1539_LN0298_persName_6632134a" role="project director">Marita Akhøj Nielsen</persName>
-                </respStmt>
-            </pubStmt>
-            <seriesStmt xml:id="Vo_1539_LN0298_seriesStmt_658fef25">
-                <title xml:id="Vo_1539_LN0298_title_acdd4586">Musik og sprog i reformationstidens danske salmesang</title>
-                <identifier type="file_collection" xml:id="Vo_1539_LN0298_identifier_96caf6a9">RefSal</identifier>
-            </seriesStmt>
-        </fileDesc>
-        <encodingDesc xml:id="Vo_1539_LN0298_encodingDesc_32032d25">
-            <appInfo xml:id="Vo_1539_LN0298_appInfo_c967ac5e">
-                <application version="6.2" xml:id="Vo_1539_LN0298_application_d1e36">
-                    <name xml:id="name_7c6b7d91">Sibelius</name>
-                </application>
-                <application version="2.1.0 modified for Sibelius 6"
-                         xml:id="Vo_1539_LN0298_application_2d1e36">
-                    <name xml:id="name_42ff33e4">SibMEI</name>
-                </application>
-                <application version="2013" xml:id="Vo_1539_LN0298_application_63a6a582">
-                    <name xml:id="Vo_1539_LN0298_name_51487e61">MerMEId</name>
-                </application>
-            </appInfo>
-        </encodingDesc>
-        <workList xml:id="Vo_1539_LN0298_workDesc_1d450454">
-            <work xml:id="Vo_1539_LN0298_work_7327e799">
-                <identifier label="RefSal" xml:id="Vo_1539_LN0298_identifier_036d65f5">Vormordsen 1539</identifier>
-                <title xml:id="Vo_1539_LN0298_title_da962e98" xml:lang="da">Handbog Om den rette Euangeliske Messe</title>
-                <contributor xml:id="Vo_1539_LN0298_respStmt_5577b899"/>
-                <history xml:id="Vo_1539_LN0298_history_44436885">
-                    <p n="MerMEId_temporary_wrapper" xml:id="p_4edd6c9c"/>
-                </history>
-                <langUsage xml:id="Vo_1539_LN0298_langUsage_f10dda89">
-                    <language xml:id="en">English</language>
-                    <language xml:id="da">Danish</language>
-                </langUsage>
-                <contents>
-                    <contentItem label="1" type="music_document">
-                        <title>Aff dybhedtzens nødt raaber ieg til dig</title>
-                        <title type="uniform">Af dybhedsens nød råber jeg til dig</title>
-                        <locus>fol. b01r</locus>
-                        <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/3"/>
-                        <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000b01r.xml"/>
-                    </contentItem>
-                    <contentItem label="2" type="music_document">
-                        <title>Kyrie Gud fader. alsomhøgeste trøst</title>
-                        <title type="uniform">Kyrie Gud Fader alsomhøjeste trøst</title>
-                        <locus>fol. b02r</locus>
-                        <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/5"/>
-                        <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000b02r.xml"/>
-                    </contentItem>
-                    <contentItem label="3" type="music_document">
-                        <title>Gloria Ere oc priiss vere Gud i det høgeste</title>
-                        <title type="uniform">Gloria, ære og pris være Gud i det højeste</title>
-                        <locus>fol. b03r</locus>
-                        <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/6"/>
-                        <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000b03r.xml"/>
-                    </contentItem>
-                    <contentItem label="4" type="music_document">
-                        <title>Herren vere med eder</title>
-                        <title type="uniform">Herren være med eder</title>
-                        <locus>fol. b04v</locus>
-                        <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/6"/>
-                        <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000b04v.xml"/>
-                    </contentItem>
-                    <contentItem label="5" type="music_document">
-                        <title>Denne Epistel bescriffuer oss til de Corinter sanctus Paulus</title>
-                        <title type="uniform">Denne epistel beskriver os til de korinther Sankt Paulus</title>
-                        <locus>fol. c01v</locus>
-                        <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/7"/>
-                        <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000c01v.xml"/>
-                    </contentItem>
-                    <contentItem label="6" type="music_document">
-                        <title>Alleluia bør oss altidt att siunge</title>
-                        <title type="uniform">Halleluja bør os altid at sjunge</title>
-                        <locus>fol. c02v</locus>
-                        <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/8"/>
-                        <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000c02v.xml"/>
-                    </contentItem>
-                    <contentItem label="7" type="music_document">
-                        <title>Herren vere med eder</title>
-                        <title type="uniform">Herren være med eder</title>
-                        <locus>fol. c04v</locus>
-                        <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/10"/>
-                        <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000c04v.xml"/>
-                    </contentItem>
-                    <contentItem label="8" type="music_document">
-                        <title>Credo in vnum deum</title>
-                        <title type="uniform"/>
-                        <locus>fol. d01v</locus>
-                        <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/11"/>
-                        <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000d01v.xml"/>
-                    </contentItem>
-                    <contentItem label="9" type="music_document">
-                        <title>Vy tro alsammen paa en gudt</title>
-                        <title type="uniform">Vi tro allesammen på en Gud</title>
-                        <locus>fol. d02v</locus>
-                        <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/12"/>
-                        <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000d02v.xml"/>
-                    </contentItem>
-                    <contentItem label="10" type="music_document">
-                        <title>Nu er oss Gud miscundelig</title>
-                        <title type="uniform">Nu er os Gud miskundelig</title>
-                        <locus>fol. e02r</locus>
-                        <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/15"/>
-                        <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000e02r.xml"/>
-                    </contentItem>
-                    <contentItem label="11" type="music_document">
-                        <title>Herren veere med eder</title>
-                        <title type="uniform">Herren være med eder</title>
-                        <locus>fol. e03v</locus>
-                        <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/18"/>
-                        <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000e03v.xml"/>
-                    </contentItem>
-                    <contentItem label="12" type="music_document">
-                        <title>HEllig Hellig Hellig</title>
-                        <title type="uniform">Hellig, hellig, hellig</title>
-                        <locus>fol. f01r</locus>
-                        <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/19"/>
-                        <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000f01r.xml"/>
-                    </contentItem>
-                    <contentItem label="13" type="music_document">
-                        <title>LAder oss nu alle bede. Fader vor du som est i himlene</title>
-                        <title type="uniform">Fader vor, du som er i himlene</title>
-                        <locus>fol. f04r</locus>
-                        <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/21"/>
-                        <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000f04r.xml"/>
-                    </contentItem>
-                    <contentItem label="14" type="music_document">
-                        <title>VOr herre Jesus cristus i den nat</title>
-                        <title type="uniform">Vor herre Jesus Kristus i den nat</title>
-                        <locus>fol. f04v</locus>
-                        <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/21"/>
-                        <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000f04v.xml"/>
-                    </contentItem>
-                    <contentItem label="15" type="music_document">
-                        <title>LJge maade Tog han oc kalken effter afftens maaltid</title>
-                        <title type="uniform">Lige måde tog han og kalken efter aftens måltid</title>
-                        <locus>fol. g01v</locus>
-                        <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/22"/>
-                        <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000g01v.xml"/>
-                    </contentItem>
-                    <contentItem label="16" type="music_document">
-                        <title>IEsus Christus er vor salighed</title>
-                        <title type="uniform">Jesus Kristus er vor salighed</title>
-                        <locus>fol. g03v</locus>
-                        <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/23"/>
-                        <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000g03v.xml"/>
-                    </contentItem>
-                    <contentItem label="17" type="music_document">
-                        <title>O guds lam som bortager all verdens synder</title>
-                        <title type="uniform">O Guds lam, som bortager al verdens synder</title>
-                        <locus>fol. g04v</locus>
-                        <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/24"/>
-                        <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000g04v.xml"/>
-                    </contentItem>
-                    <contentItem label="18" type="music_document">
-                        <title>GVd fader vdi himmerig</title>
-                        <title type="uniform">Gud Fader udi Himmerig</title>
-                        <locus>fol. h01v</locus>
-                        <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/28"/>
-                        <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000h01v.xml"/>
-                    </contentItem>
-                    <contentItem label="19" type="music_document">
-                        <title>Forle oss med fredt naadelig</title>
-                        <title type="uniform">Forlen os med fred nådelig</title>
-                        <locus>fol. h02v</locus>
-                        <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/29"/>
-                        <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000h02v.xml"/>
-                    </contentItem>
-                    <contentItem label="20" type="music_document">
-                        <title>Oc euige gud DV som vid dit ordt</title>
-                        <title type="uniform">Og evige Gud, du som ved dit ord</title>
-                        <locus>fol. o02v</locus>
-                        <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/33"/>
-                        <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000o02v.xml"/>
-                    </contentItem>
-                    <contentItem label="21" type="music_document">
-                        <title>Oc euige gud. DV som haffuer giffuit</title>
-                        <title type="uniform">Og evige Gud. Du, som haver givet</title>
-                        <locus>fol. o03v</locus>
-                        <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/34"/>
-                        <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000o03v.xml"/>
-                    </contentItem>
-                    <contentItem label="22" type="music_document">
-                        <title/>
-                        <title type="uniform"/>
-                        <locus/>
-                        <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/1"/>
-                        <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000o041v.xml"/>
-                    </contentItem>
-                    <contentItem label="23" type="music_document">
-                        <title>Vid Jesum christum vor herre Huilken som effter sin opstandelse aff døde</title>
-                        <title type="uniform">Ved Jesus Kristus, vor Herre, hvilken som efter sin opstandelse af døde</title>
-                        <locus>fol. p01v</locus>
-                        <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/36"/>
-                        <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000p01v.xml"/>
-                    </contentItem>
-                    <contentItem label="24" type="music_document">
-                        <title>vid Jesum christum vor herre Huilcken opfarendis offuer alle himle</title>
-                        <title type="uniform">Ved Jesus Kristus, vor Herre, hvilken opfarende over alle himle</title>
-                        <locus>fol. p02r</locus>
-                        <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/37"/>
-                        <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000p02r.xml"/>
-                    </contentItem>
-                    <contentItem label="25" type="music_document">
-                        <title>Oc euige gudt. HVilcken du som met din enborne søn</title>
-                        <title type="uniform">Og evige Gud, hvilken du som med din enbårne søn</title>
-                        <locus>fol. p02v</locus>
-                        <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/38"/>
-                        <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000p02v.xml"/>
-                    </contentItem>
-                    <contentItem label="26" type="music_document">
-                        <title>oc euige gud. OC dig bør oss at ere oc benedide</title>
-                        <title type="uniform">Og evige Gud, og dig bør os at ære og benedide</title>
-                        <locus>fol. p04r</locus>
-                        <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/39"/>
-                        <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000p04r.xml"/>
-                    </contentItem>
-                </contents>
-                <relationList xml:id="Vo_1539_LN0298_relationList_801a02fc">
-                    <relation rel="hasPart"
-                         label="Aff dybhedtzens nødt raaber ieg til dig"
+                     </addrLine>
+                  </address>
+               </corpName>
+               <persName role="editor" xml:id="Vo_1539_LN0298_persName_3c83de25">Bjarke Moe</persName>
+               <persName role="data manager" xml:id="Vo_1539_LN0298_persName_d1e8">Axel Teich Geertinger</persName>
+               <persName xml:id="Vo_1539_LN0298_persName_6632134a" role="project director">Marita Akhøj Nielsen</persName>
+            </respStmt>
+         </pubStmt>
+         <seriesStmt xml:id="Vo_1539_LN0298_seriesStmt_658fef25">
+            <title xml:id="Vo_1539_LN0298_title_acdd4586">Musik og sprog i reformationstidens danske salmesang</title>
+            <identifier type="file_collection" xml:id="Vo_1539_LN0298_identifier_96caf6a9">RefSal</identifier>
+         </seriesStmt>
+      </fileDesc>
+      <encodingDesc xml:id="Vo_1539_LN0298_encodingDesc_32032d25">
+         <appInfo xml:id="Vo_1539_LN0298_appInfo_c967ac5e">
+            <application version="6.2" xml:id="Vo_1539_LN0298_application_d1e36">
+               <name xml:id="name_7c6b7d91">Sibelius</name>
+            </application>
+            <application xml:id="Vo_1539_LN0298_application_2d1e36" version="2.1.0">
+               <name xml:id="name_42ff33e4">SibMEI</name> modified for Sibelius 6</application>
+            <application version="2013" xml:id="Vo_1539_LN0298_application_63a6a582">
+               <name xml:id="Vo_1539_LN0298_name_51487e61">MerMEId</name>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <workList xml:id="Vo_1539_LN0298_workDesc_1d450454">
+         <work xml:id="Vo_1539_LN0298_work_7327e799">
+            <identifier label="RefSal" xml:id="Vo_1539_LN0298_identifier_036d65f5">Vormordsen 1539</identifier>
+            <title xml:id="Vo_1539_LN0298_title_da962e98" xml:lang="da">Handbog Om den rette Euangeliske Messe</title>
+            <contributor xml:id="Vo_1539_LN0298_respStmt_5577b899"/>
+            <history xml:id="Vo_1539_LN0298_history_44436885">
+               <p n="MerMEId_temporary_wrapper" xml:id="p_4edd6c9c"/>
+            </history>
+            <langUsage xml:id="Vo_1539_LN0298_langUsage_f10dda89">
+               <language xml:id="en">English</language>
+               <language xml:id="da">Danish</language>
+            </langUsage>
+            <contents>
+               <contentItem label="1" type="music_document">
+                  <title>Aff dybhedtzens nødt raaber ieg til dig</title>
+                  <title type="uniform">Af dybhedsens nød råber jeg til dig</title>
+                  <locus>fol. b01r</locus>
+                  <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/3"/>
+                  <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000b01r.xml"/>
+               </contentItem>
+               <contentItem label="2" type="music_document">
+                  <title>Kyrie Gud fader. alsomhøgeste trøst</title>
+                  <title type="uniform">Kyrie Gud Fader alsomhøjeste trøst</title>
+                  <locus>fol. b02r</locus>
+                  <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/5"/>
+                  <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000b02r.xml"/>
+               </contentItem>
+               <contentItem label="3" type="music_document">
+                  <title>Gloria Ere oc priiss vere Gud i det høgeste</title>
+                  <title type="uniform">Gloria, ære og pris være Gud i det højeste</title>
+                  <locus>fol. b03r</locus>
+                  <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/6"/>
+                  <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000b03r.xml"/>
+               </contentItem>
+               <contentItem label="4" type="music_document">
+                  <title>Herren vere med eder</title>
+                  <title type="uniform">Herren være med eder</title>
+                  <locus>fol. b04v</locus>
+                  <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/6"/>
+                  <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000b04v.xml"/>
+               </contentItem>
+               <contentItem label="5" type="music_document">
+                  <title>Denne Epistel bescriffuer oss til de Corinter sanctus Paulus</title>
+                  <title type="uniform">Denne epistel beskriver os til de korinther Sankt Paulus</title>
+                  <locus>fol. c01v</locus>
+                  <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/7"/>
+                  <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000c01v.xml"/>
+               </contentItem>
+               <contentItem label="6" type="music_document">
+                  <title>Alleluia bør oss altidt att siunge</title>
+                  <title type="uniform">Halleluja bør os altid at sjunge</title>
+                  <locus>fol. c02v</locus>
+                  <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/8"/>
+                  <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000c02v.xml"/>
+               </contentItem>
+               <contentItem label="7" type="music_document">
+                  <title>Herren vere med eder</title>
+                  <title type="uniform">Herren være med eder</title>
+                  <locus>fol. c04v</locus>
+                  <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/10"/>
+                  <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000c04v.xml"/>
+               </contentItem>
+               <contentItem label="8" type="music_document">
+                  <title>Credo in vnum deum</title>
+                  <title type="uniform"/>
+                  <locus>fol. d01v</locus>
+                  <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/11"/>
+                  <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000d01v.xml"/>
+               </contentItem>
+               <contentItem label="9" type="music_document">
+                  <title>Vy tro alsammen paa en gudt</title>
+                  <title type="uniform">Vi tro allesammen på en Gud</title>
+                  <locus>fol. d02v</locus>
+                  <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/12"/>
+                  <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000d02v.xml"/>
+               </contentItem>
+               <contentItem label="10" type="music_document">
+                  <title>Nu er oss Gud miscundelig</title>
+                  <title type="uniform">Nu er os Gud miskundelig</title>
+                  <locus>fol. e02r</locus>
+                  <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/15"/>
+                  <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000e02r.xml"/>
+               </contentItem>
+               <contentItem label="11" type="music_document">
+                  <title>Herren veere med eder</title>
+                  <title type="uniform">Herren være med eder</title>
+                  <locus>fol. e03v</locus>
+                  <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/18"/>
+                  <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000e03v.xml"/>
+               </contentItem>
+               <contentItem label="12" type="music_document">
+                  <title>HEllig Hellig Hellig</title>
+                  <title type="uniform">Hellig, hellig, hellig</title>
+                  <locus>fol. f01r</locus>
+                  <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/19"/>
+                  <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000f01r.xml"/>
+               </contentItem>
+               <contentItem label="13" type="music_document">
+                  <title>LAder oss nu alle bede. Fader vor du som est i himlene</title>
+                  <title type="uniform">Fader vor, du som er i himlene</title>
+                  <locus>fol. f04r</locus>
+                  <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/21"/>
+                  <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000f04r.xml"/>
+               </contentItem>
+               <contentItem label="14" type="music_document">
+                  <title>VOr herre Jesus cristus i den nat</title>
+                  <title type="uniform">Vor herre Jesus Kristus i den nat</title>
+                  <locus>fol. f04v</locus>
+                  <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/21"/>
+                  <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000f04v.xml"/>
+               </contentItem>
+               <contentItem label="15" type="music_document">
+                  <title>LJge maade Tog han oc kalken effter afftens maaltid</title>
+                  <title type="uniform">Lige måde tog han og kalken efter aftens måltid</title>
+                  <locus>fol. g01v</locus>
+                  <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/22"/>
+                  <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000g01v.xml"/>
+               </contentItem>
+               <contentItem label="16" type="music_document">
+                  <title>IEsus Christus er vor salighed</title>
+                  <title type="uniform">Jesus Kristus er vor salighed</title>
+                  <locus>fol. g03v</locus>
+                  <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/23"/>
+                  <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000g03v.xml"/>
+               </contentItem>
+               <contentItem label="17" type="music_document">
+                  <title>O guds lam som bortager all verdens synder</title>
+                  <title type="uniform">O Guds lam, som bortager al verdens synder</title>
+                  <locus>fol. g04v</locus>
+                  <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/24"/>
+                  <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000g04v.xml"/>
+               </contentItem>
+               <contentItem label="18" type="music_document">
+                  <title>GVd fader vdi himmerig</title>
+                  <title type="uniform">Gud Fader udi Himmerig</title>
+                  <locus>fol. h01v</locus>
+                  <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/28"/>
+                  <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000h01v.xml"/>
+               </contentItem>
+               <contentItem label="19" type="music_document">
+                  <title>Forle oss med fredt naadelig</title>
+                  <title type="uniform">Forlen os med fred nådelig</title>
+                  <locus>fol. h02v</locus>
+                  <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/29"/>
+                  <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000h02v.xml"/>
+               </contentItem>
+               <contentItem label="20" type="music_document">
+                  <title>Oc euige gud DV som vid dit ordt</title>
+                  <title type="uniform">Og evige Gud, du som ved dit ord</title>
+                  <locus>fol. o02v</locus>
+                  <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/33"/>
+                  <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000o02v.xml"/>
+               </contentItem>
+               <contentItem label="21" type="music_document">
+                  <title>Oc euige gud. DV som haffuer giffuit</title>
+                  <title type="uniform">Og evige Gud. Du, som haver givet</title>
+                  <locus>fol. o03v</locus>
+                  <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/34"/>
+                  <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000o03v.xml"/>
+               </contentItem>
+               <contentItem label="22" type="music_document">
+                  <title/>
+                  <title type="uniform"/>
+                  <locus/>
+                  <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/1"/>
+                  <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000o041v.xml"/>
+               </contentItem>
+               <contentItem label="23" type="music_document">
+                  <title>Vid Jesum christum vor herre Huilken som effter sin opstandelse aff døde</title>
+                  <title type="uniform">Ved Jesus Kristus, vor Herre, hvilken som efter sin opstandelse af døde</title>
+                  <locus>fol. p01v</locus>
+                  <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/36"/>
+                  <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000p01v.xml"/>
+               </contentItem>
+               <contentItem label="24" type="music_document">
+                  <title>vid Jesum christum vor herre Huilcken opfarendis offuer alle himle</title>
+                  <title type="uniform">Ved Jesus Kristus, vor Herre, hvilken opfarende over alle himle</title>
+                  <locus>fol. p02r</locus>
+                  <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/37"/>
+                  <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000p02r.xml"/>
+               </contentItem>
+               <contentItem label="25" type="music_document">
+                  <title>Oc euige gudt. HVilcken du som met din enborne søn</title>
+                  <title type="uniform">Og evige Gud, hvilken du som med din enbårne søn</title>
+                  <locus>fol. p02v</locus>
+                  <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/38"/>
+                  <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000p02v.xml"/>
+               </contentItem>
+               <contentItem label="26" type="music_document">
+                  <title>oc euige gud. OC dig bør oss at ere oc benedide</title>
+                  <title type="uniform">Og evige Gud, og dig bør os at ære og benedide</title>
+                  <locus>fol. p04r</locus>
+                  <ptr type="edition" target="https://tekstnet.dk/oluf-ulriksen-messehaandbog-1539/39"/>
+                  <ptr type="db" target="Vo_1539/Vo_1539_LN0298_000p04r.xml"/>
+               </contentItem>
+            </contents>
+            <classification xml:id="Vo_1539_LN0298_classification_81a43c49">
+               <termList xml:id="Vo_1539_LN0298_termList_ab4fb67c">
+                  <term xml:id="term_fdd6cefc" type="itemClass">publication</term>
+               </termList>
+            </classification>
+            <relationList xml:id="Vo_1539_LN0298_relationList_801a02fc">
+               <relation rel="hasPart" label="Aff dybhedtzens nødt raaber ieg til dig"
                          target="Vo_1539/Vo_1539_LN0298_000b01r.xml"
                          xml:id="relation_4f771eb4"/>
-                    <relation rel="hasPart"
-                         label="Kyrie Gud fader. alsomhøgeste trøst"
+               <relation rel="hasPart" label="Kyrie Gud fader. alsomhøgeste trøst"
                          target="Vo_1539/Vo_1539_LN0298_000b02r.xml"
                          xml:id="relation_275577b2"/>
-                    <relation rel="hasPart"
-                         label="Gloria Ere oc priiss vere Gud i det høgeste"
+               <relation rel="hasPart" label="Gloria Ere oc priiss vere Gud i det høgeste"
                          target="Vo_1539/Vo_1539_LN0298_000b03r.xml"
                          xml:id="relation_be0b7036"/>
-                    <relation rel="hasPart"
-                         label="Herren vere med eder"
+               <relation rel="hasPart" label="Herren vere med eder"
                          target="Vo_1539/Vo_1539_LN0298_000b04v.xml"
                          xml:id="relation_9ed3e74b"/>
-                    <relation rel="hasPart"
+               <relation rel="hasPart"
                          label="Denne Epistel bescriffuer oss til de Corinter sanctus Paulus"
                          target="Vo_1539/Vo_1539_LN0298_000c01v.xml"
                          xml:id="relation_960047b2"/>
-                    <relation rel="hasPart"
-                         label="Alleluia bør oss altidt att siunge"
+               <relation rel="hasPart" label="Alleluia bør oss altidt att siunge"
                          target="Vo_1539/Vo_1539_LN0298_000c02v.xml"
                          xml:id="relation_cf2439da"/>
-                    <relation rel="hasPart"
-                         label="Herren vere med eder"
+               <relation rel="hasPart" label="Herren vere med eder"
                          target="Vo_1539/Vo_1539_LN0298_000c04v.xml"
                          xml:id="relation_08dbc9d7"/>
-                    <relation rel="hasPart"
-                         label="Credo in vnum deum"
+               <relation rel="hasPart" label="Credo in vnum deum"
                          target="Vo_1539/Vo_1539_LN0298_000d01v.xml"
                          xml:id="relation_6c029583"/>
-                    <relation rel="hasPart"
-                         label="Vy tro alsammen paa en gudt"
+               <relation rel="hasPart" label="Vy tro alsammen paa en gudt"
                          target="Vo_1539/Vo_1539_LN0298_000d02v.xml"
                          xml:id="relation_3d4b7bcf"/>
-                    <relation rel="hasPart"
-                         label="Nu er oss Gud miscundelig"
+               <relation rel="hasPart" label="Nu er oss Gud miscundelig"
                          target="Vo_1539/Vo_1539_LN0298_000e02r.xml"
                          xml:id="relation_87c34353"/>
-                    <relation rel="hasPart"
-                         label="Herren veere med eder"
+               <relation rel="hasPart" label="Herren veere med eder"
                          target="Vo_1539/Vo_1539_LN0298_000e03v.xml"
                          xml:id="relation_61ffe922"/>
-                    <relation rel="hasPart"
-                         label="HEllig Hellig Hellig"
+               <relation rel="hasPart" label="HEllig Hellig Hellig"
                          target="Vo_1539/Vo_1539_LN0298_000f01r.xml"
                          xml:id="relation_565188fa"/>
-                    <relation rel="hasPart"
-                         label="LAder oss nu alle bede. Fader vor du som est i himlene"
+               <relation rel="hasPart" label="LAder oss nu alle bede. Fader vor du som est i himlene"
                          target="Vo_1539/Vo_1539_LN0298_000f04r.xml"
                          xml:id="relation_845d46ef"/>
-                    <relation rel="hasPart"
-                         label="VOr herre Jesus cristus i den nat"
+               <relation rel="hasPart" label="VOr herre Jesus cristus i den nat"
                          target="Vo_1539/Vo_1539_LN0298_000f04v.xml"
                          xml:id="relation_824e2da1"/>
-                    <relation rel="hasPart"
-                         label="LJge maade Tog han oc kalken effter afftens maaltid"
+               <relation rel="hasPart" label="LJge maade Tog han oc kalken effter afftens maaltid"
                          target="Vo_1539/Vo_1539_LN0298_000g01v.xml"
                          xml:id="relation_44b52b34"/>
-                    <relation rel="hasPart"
-                         label="IEsus Christus er vor salighed"
+               <relation rel="hasPart" label="IEsus Christus er vor salighed"
                          target="Vo_1539/Vo_1539_LN0298_000g03v.xml"
                          xml:id="relation_39ac17b2"/>
-                    <relation rel="hasPart"
-                         label="O guds lam som bortager all verdens synder"
+               <relation rel="hasPart" label="O guds lam som bortager all verdens synder"
                          target="Vo_1539/Vo_1539_LN0298_000g04v.xml"
                          xml:id="relation_4d5bb89c"/>
-                    <relation rel="hasPart"
-                         label="GVd fader vdi himmerig"
+               <relation rel="hasPart" label="GVd fader vdi himmerig"
                          target="Vo_1539/Vo_1539_LN0298_000h01v.xml"
                          xml:id="relation_4384ee33"/>
-                    <relation rel="hasPart"
-                         label="Forle oss med fredt naadelig"
+               <relation rel="hasPart" label="Forle oss med fredt naadelig"
                          target="Vo_1539/Vo_1539_LN0298_000h02v.xml"
                          xml:id="relation_9fca4e0e"/>
-                    <relation rel="hasPart"
-                         label="Oc euige gud DV som vid dit ordt"
+               <relation rel="hasPart" label="Oc euige gud DV som vid dit ordt"
                          target="Vo_1539/Vo_1539_LN0298_000o02v.xml"
                          xml:id="relation_c4cad7dc"/>
-                    <relation rel="hasPart"
-                         label="Oc euige gud. DV som haffuer giffuit"
+               <relation rel="hasPart" label="Oc euige gud. DV som haffuer giffuit"
                          target="Vo_1539/Vo_1539_LN0298_000o03v.xml"
                          xml:id="relation_c26cd8cb"/>
-                    <relation rel="hasPart"
-                         label="Verdigt oc helsompt. ATt vy dig O herre"
+               <relation rel="hasPart" label="Verdigt oc helsompt. ATt vy dig O herre"
                          target="Vo_1539/Vo_1539_LN0298_000o041v.xml"
                          xml:id="relation_e55eedbf"/>
-                    <relation rel="hasPart"
+               <relation rel="hasPart"
                          label="Vid Jesum christum vor herre Huilken som effter sin opstandelse aff døde"
                          target="Vo_1539/Vo_1539_LN0298_000p01v.xml"
                          xml:id="relation_d29219ac"/>
-                    <relation rel="hasPart"
+               <relation rel="hasPart"
                          label="vid Jesum christum vor herre Huilcken opfarendis offuer alle himle"
                          target="Vo_1539/Vo_1539_LN0298_000p02r.xml"
                          xml:id="relation_0a02dd7c"/>
-                    <relation rel="hasPart"
-                         label="Oc euige gudt. HVilcken du som met din enborne søn"
+               <relation rel="hasPart" label="Oc euige gudt. HVilcken du som met din enborne søn"
                          target="Vo_1539/Vo_1539_LN0298_000p02v.xml"
                          xml:id="relation_1c34ec5a"/>
-                    <relation rel="hasPart"
-                         label="oc euige gud. OC dig bør oss at ere oc benedide"
+               <relation rel="hasPart" label="oc euige gud. OC dig bør oss at ere oc benedide"
                          target="Vo_1539/Vo_1539_LN0298_000p04r.xml"
                          xml:id="relation_be01b72b"/>
-                </relationList>
-                <classification xml:id="Vo_1539_LN0298_classification_81a43c49">
-                    <termList xml:id="Vo_1539_LN0298_termList_ab4fb67c">
-                        <term xml:id="term_fdd6cefc" type="itemClass">publication</term>
-                    </termList>
-                </classification>
-            </work>
-        </workList>
-        
-    </meiHead>
-    <music xml:id="music_44606b63"/>
+            </relationList>
+         </work>
+      </workList>
+   </meiHead>
+   <music xml:id="music_44606b63"/>
 </mei>

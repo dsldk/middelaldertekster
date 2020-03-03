@@ -1,4 +1,6 @@
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="kristus_jesus_for_os_ofret_m-1">
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0"
+     xml:id="kristus_jesus_for_os_ofret_m-1">
    <meiHead xml:id="kristus_jesus_for_os_ofret_meiHead_25fe0ab5">
       <fileDesc xml:id="kristus_jesus_for_os_ofret_fileDesc_c8a4a945">
          <titleStmt xml:id="kristus_jesus_for_os_ofret_titleStmt_33b36378">
@@ -16,10 +18,12 @@
                      <addrLine xml:id="kristus_jesus_for_os_ofret_addrLine_411f676a">Christians Brygge 1</addrLine>
                      <addrLine xml:id="kristus_jesus_for_os_ofret_addrLine_b297a7ff">1219 København K</addrLine>
                      <addrLine xml:id="kristus_jesus_for_os_ofret_addrLine_e71d8181">
-                        <ptr label="WWW" target="https://dsl.dk" xml:id="kristus_jesus_for_os_ofret_ptr_N20262"/>
+                        <ptr label="WWW" target="https://dsl.dk"
+                             xml:id="kristus_jesus_for_os_ofret_ptr_N20262"/>
                      </addrLine>
                      <addrLine xml:id="kristus_jesus_for_os_ofret_addrLine_0c6319f3">
-                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="kristus_jesus_for_os_ofret_ptr_N20270"/>
+                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk"
+                             xml:id="kristus_jesus_for_os_ofret_ptr_N20270"/>
                      </addrLine>
                   </address>
                </corpName>
@@ -38,9 +42,8 @@
             <application version="6.2" xml:id="kristus_jesus_for_os_ofret_application_d1e36">
                <name>Sibelius</name>
             </application>
-            <application version="2.1.0 modified for Sibelius 6" xml:id="kristus_jesus_for_os_ofret_application_2d1e36">
-               <name>SibMEI</name>
-            </application>
+            <application xml:id="kristus_jesus_for_os_ofret_application_2d1e36" version="2.1.0">
+               <name>SibMEI</name> modified for Sibelius 6</application>
             <application version="2013" xml:id="kristus_jesus_for_os_ofret_application_632b3919">
                <name xml:id="kristus_jesus_for_os_ofret_name_f0808e6b">MerMEId</name>
             </application>
@@ -53,22 +56,32 @@
             <identifier label="Glahn 1954" xml:id="kristus_jesus_for_os_ofret_identifier_120cade3">7</identifier>
             <identifier label="Glahn 2000" xml:id="kristus_jesus_for_os_ofret_identifier_a96cdffd">A I: 10</identifier>
             <identifier label="DDK 2003" xml:id="kristus_jesus_for_os_ofret_identifier_3b11a2bd">340</identifier>
-            <title type="alternative" xml:id="kristus_jesus_for_os_ofret_title_acc39b49" xml:lang="la">Victimæ paschali laudes</title>
+            <title type="alternative" xml:id="kristus_jesus_for_os_ofret_title_acc39b49"
+                   xml:lang="la">Victimæ paschali laudes</title>
             <title type="uniform" xml:id="kristus_jesus_for_os_ofret_title_603e39af" xml:lang="da">Kristus Jesus for os ofret</title>
             <history xml:id="kristus_jesus_for_os_ofret_history_44436885">
                <p>Denne påskesekvens kan spores tilbage til det 11. århundrede. En tysksproget bearbejdning fra den tidlige reformation ses i Thomas Müntzers <rend fontstyle="italic">Deutsch Euangelisch Messze</rend> (Allstedt, 1524) (<ref target="https://archive.thulb.uni-jena.de/ufb/rsc/viewer/ufb_derivate_00010764/Theol-4-00235-06_0071.tif">faksimile</ref>). Også tidligt fremkom den på dansk og tryktes i <abbr>Dietz 1529</abbr>, dog en anden bearbejdning af sekvensen. Müntzers tekst ser derimod ud til at have været forlæg for en oversættelse, som bragtes i <abbr>Pedersen 1533</abbr>, fol. 28v. Den melodiform, som gengives hos <abbr>Thomissøn 1569</abbr>, forekommer at være en blanding af en tysk og en romansk tradition. <abbr>Jespersen 1573</abbr> bringer også den latinske sekvens, som synes at være tættere beslægtet med den romanske tradition (<abbr>Glahn 1954</abbr>: 49).</p>
                <p>Sekvensen blev sunget alternerende med den strofiske salme <ref target="document.xq?doc=resurrexit_christus.xml">Christ stod op aff døde</ref>.</p>
                <p>Tekstkilder:
-                  <lb/><abbr>Dietz 1529</abbr>, fol. 23r
-                  <lb/><abbr>Pedersen 1533</abbr>, fol. 27v
-                  <lb/><abbr>Pedersen 1533</abbr>, fol. 28v
-                  <lb/><abbr>Vingaard 1553</abbr>, fol. 31r 
-                  <lb/><abbr>Vingaard 1553</abbr>, fol. 32r
-                  <lb/><abbr>Thomissøn 1569</abbr>, fol. 83v_b
-                  <lb/><abbr>Jespersen 1573</abbr>, s. 196
-                  <lb/><abbr>Jespersen 1573</abbr>, s. 217</p>
+                  <lb/>
+                  <abbr>Dietz 1529</abbr>, fol. 23r
+                  <lb/>
+                  <abbr>Pedersen 1533</abbr>, fol. 27v
+                  <lb/>
+                  <abbr>Pedersen 1533</abbr>, fol. 28v
+                  <lb/>
+                  <abbr>Vingaard 1553</abbr>, fol. 31r 
+                  <lb/>
+                  <abbr>Vingaard 1553</abbr>, fol. 32r
+                  <lb/>
+                  <abbr>Thomissøn 1569</abbr>, fol. 83v_b
+                  <lb/>
+                  <abbr>Jespersen 1573</abbr>, s. 196
+                  <lb/>
+                  <abbr>Jespersen 1573</abbr>, s. 217</p>
                <p>Flerstemmig udsættelse:
-                  <lb/><abbr>Pedersøn 1620</abbr>, nr. 7</p>
+                  <lb/>
+                  <abbr>Pedersøn 1620</abbr>, nr. 7</p>
             </history>
             <langUsage xml:id="kristus_jesus_for_os_ofret_langUsage_f10dda89">
                <language>Latin</language>
@@ -77,25 +90,32 @@
             </langUsage>
             <notesStmt xml:id="kristus_jesus_for_os_ofret_notesStmt_6120b6b8">
                <annot type="links" xml:id="kristus_jesus_for_os_ofret_annot_833375bf">
-                  <ptr mimetype="" target="https://hymnary.org/tune/victimae_paschali_laudes_mode_i" xml:id="kristus_jesus_for_os_ofret_ptr_95c76d20"/>
-                  <ptr mimetype="" target="https://de.wikipedia.org/wiki/Victimae_paschali_laudes" xml:id="kristus_jesus_for_os_ofret_ptr_51baedca"/>
+                  <ptr target="https://hymnary.org/tune/victimae_paschali_laudes_mode_i"
+                       xml:id="kristus_jesus_for_os_ofret_ptr_95c76d20"/>
+                  <ptr target="https://de.wikipedia.org/wiki/Victimae_paschali_laudes"
+                       xml:id="kristus_jesus_for_os_ofret_ptr_51baedca"/>
                </annot>
             </notesStmt>
-            <relationList xml:id="kristus_jesus_for_os_ofret_relationList_1c110507">
-               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml" xml:id="kristus_jesus_for_os_ofret_relation_4d893f59"/>
-               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf" target="Je_1573/Je_1573_LN0981.xml"/>
-               <relation label="Den danske Psalmebog (1569), fol. 83v b" rel="hasEmbodiment" target="Th_1569/Th_1569_LN1426_083v_b.xml" xml:id="kristus_jesus_for_os_ofret_relation_d1e152"/>
-               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 196" rel="hasEmbodiment" target="Je_1573/Je_1573_LN0981_196.xml"/>
-               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 217" rel="hasEmbodiment" target="Je_1573/Je_1573_LN0981_217.xml"/>
-            </relationList>
             <classification xml:id="kristus_jesus_for_os_ofret_classification_81a43c49">
                <termList xml:id="kristus_jesus_for_os_ofret_termList_ab4fb67c">
                   <term type="itemClass" xml:id="kristus_jesus_for_os_ofret_term_d1e159">melody</term>
                </termList>
             </classification>
+            <relationList xml:id="kristus_jesus_for_os_ofret_relationList_1c110507">
+               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml"
+                         xml:id="kristus_jesus_for_os_ofret_relation_4d893f59"/>
+               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf"
+                         target="Je_1573/Je_1573_LN0981.xml"/>
+               <relation label="Den danske Psalmebog (1569), fol. 83v b" rel="hasEmbodiment"
+                         target="Th_1569/Th_1569_LN1426_083v_b.xml"
+                         xml:id="kristus_jesus_for_os_ofret_relation_d1e152"/>
+               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 196" rel="hasEmbodiment"
+                         target="Je_1573/Je_1573_LN0981_196.xml"/>
+               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 217" rel="hasEmbodiment"
+                         target="Je_1573/Je_1573_LN0981_217.xml"/>
+            </relationList>
          </work>
       </workList>
-
    </meiHead>
    <music xml:id="kristus_jesus_for_os_ofret_m-22"/>
 </mei>
