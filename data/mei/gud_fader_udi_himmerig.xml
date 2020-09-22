@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0"
-     xml:id="gud_fader_udi_himmerig_m-1">
+<?xml version="1.0" encoding="UTF-8"?><mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="gud_fader_udi_himmerig_m-1">
    <meiHead xml:id="gud_fader_udi_himmerig_meiHead_6d5c4de5">
       <fileDesc xml:id="gud_fader_udi_himmerig_fileDesc_6230e35e">
          <titleStmt xml:id="gud_fader_udi_himmerig_titleStmt_ebc14299">
@@ -20,8 +18,7 @@
                         <ptr label="WWW" target="https://dsl.dk" xml:id="gud_fader_udi_himmerig_ptr_N20262"/>
                      </addrLine>
                      <addrLine xml:id="gud_fader_udi_himmerig_addrLine_6b1a2135">
-                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk"
-                             xml:id="gud_fader_udi_himmerig_ptr_N20270"/>
+                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="gud_fader_udi_himmerig_ptr_N20270"/>
                      </addrLine>
                   </address>
                </corpName>
@@ -60,13 +57,13 @@
             <history xml:id="gud_fader_udi_himmerig_history_44436885">
                <p>Melodien kendes kun fra danske kilder. Glahn skønnede derfor, at den stammede fra dansk eller nordisk visetradition (<abbr>Glahn 2000</abbr>: 89).</p>
                <p>Tekstkilder:
-                   <lb/><abbr>Mortensen 1529</abbr>, fol. dd1v <ptr type="text_edition" target="https://salmer.dsl.dk/claus-mortensen-messe-1528/31" label="Digital udgave"/>
-                   <lb/><abbr>Dietz 1529</abbr>, fol. 60v <ptr type="text_edition" target="https://salmer.dsl.dk/dietz-salmebog-1529.xml/9/35" label="Digital udgave"/>
-                   <lb/><abbr>Pedersen 1533</abbr>, fol. 43r <ptr type="text_edition" target="https://salmer.dsl.dk/malmoe-salmebog.xml/3/62" label="Digital udgave"/>
-                   <lb/><abbr>Vormordsen 1539</abbr>, fol. h01v <ptr type="edition" target="https://salmer.dsl.dk/oluf-ulriksen-messehaandbog-1539.xml/1/26" label="Digital udgave"/>
-                   <lb/><abbr>Vingaard 1553</abbr>, fol. 91IIv <ptr type="text_edition" target="https://salmer.dsl.dk/vingaard_1553/5/61" label="Digital udgave"/>
-                   <lb/><abbr>Thomissøn 1569</abbr>, fol. 111v <ptr type="edition" target="https://salmer.dsl.dk/thomissoen_1569/9/1" label="Digital udgave"/>
-                   <lb/><abbr>Jespersen 1573</abbr>, s. 290 <ptr type="edition" target="https://salmer.dsl.dk/jespersen_1573/41/3" label="Digital udgave"/> 
+                   <lb/><abbr>Mortensen 1529</abbr>, fol. dd1v <ptr target="#alt-indledning-til-nadver-mortensen-1529" type="text_edition" label="Digital udgave"/>
+                   <lb/><abbr>Dietz 1529</abbr>, fol. 60v <ptr target="#de-ti-budord" type="text_edition" label="Digital udgave"/>
+                   <lb/><abbr>Pedersen 1533</abbr>, fol. 43r <ptr target="https://salmer.dsl.dk/malmoe-salmebog.xml/3/62" type="text_edition" label="Digital udgave"/>
+                   <lb/><abbr>Vormordsen 1539</abbr>, fol. h01v <ptr target="https://salmer.dsl.dk/oluf-ulriksen-messehaandbog-1539.xml/1/26" type="edition" label="Digital udgave"/>
+                   <lb/><abbr>Vingaard 1553</abbr>, fol. 91IIv <ptr target="https://salmer.dsl.dk/vingaard_1553/5/61" type="text_edition" label="Digital udgave"/>
+                   <lb/><abbr>Thomissøn 1569</abbr>, fol. 111v <ptr target="#section-9-1" type="edition" label="Digital udgave"/>
+                   <lb/><abbr>Jespersen 1573</abbr>, s. 290 <ptr target="#gud-fader-udi-himmerig-jespersen-1573" type="edition" label="Digital udgave"/> 
                </p>
             </history>
             <langUsage xml:id="gud_fader_udi_himmerig_langUsage_f10dda89">
@@ -79,20 +76,12 @@
                </termList>
             </classification>
             <relationList xml:id="gud_fader_udi_himmerig_relationList_1c110507">
-               <relation label="Handbog Om den rette Euangeliske Messe" rel="isPartOf"
-                         target="Vo_1539/Vo_1539_LN0298.xml"/>
-               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml"
-                         xml:id="gud_fader_udi_himmerig_relation_4d893f59"/>
-               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf"
-                         target="Je_1573/Je_1573_LN0981.xml"/>
-               <relation label="Handbog Om den rette Euangeliske Messe (1539), fol. h01v"
-                         rel="hasEmbodiment"
-                         target="Vo_1539/Vo_1539_LN0298_000h01v.xml"/>
-               <relation label="Den danske Psalmebog (1569), fol. 111v" rel="hasEmbodiment"
-                         target="Th_1569/Th_1569_LN1426_111v.xml"
-                         xml:id="gud_fader_udi_himmerig_relation_d1e142"/>
-               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 290" rel="hasEmbodiment"
-                         target="Je_1573/Je_1573_LN0981_290.xml"/>
+               <relation label="Handbog Om den rette Euangeliske Messe" rel="isPartOf" target="Vo_1539/Vo_1539_LN0298.xml"/>
+               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml" xml:id="gud_fader_udi_himmerig_relation_4d893f59"/>
+               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf" target="Je_1573/Je_1573_LN0981.xml"/>
+               <relation label="Handbog Om den rette Euangeliske Messe (1539), fol. h01v" rel="hasEmbodiment" target="Vo_1539/Vo_1539_LN0298_000h01v.xml"/>
+               <relation label="Den danske Psalmebog (1569), fol. 111v" rel="hasEmbodiment" target="Th_1569/Th_1569_LN1426_111v.xml" xml:id="gud_fader_udi_himmerig_relation_d1e142"/>
+               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 290" rel="hasEmbodiment" target="Je_1573/Je_1573_LN0981_290.xml"/>
             </relationList>
          </work>
       </workList>

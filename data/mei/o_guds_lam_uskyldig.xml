@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0"
-     xml:id="o_guds_lam_uskyldig_m-1">
+<?xml version="1.0" encoding="UTF-8"?><mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="o_guds_lam_uskyldig_m-1">
    <meiHead xml:id="o_guds_lam_uskyldig_meiHead_b5351a99">
       <fileDesc xml:id="o_guds_lam_uskyldig_fileDesc_3c8f3a80">
          <titleStmt xml:id="o_guds_lam_uskyldig_titleStmt_037c8de7">
@@ -20,8 +18,7 @@
                         <ptr label="WWW" target="https://dsl.dk" xml:id="o_guds_lam_uskyldig_ptr_N20262"/>
                      </addrLine>
                      <addrLine xml:id="o_guds_lam_uskyldig_addrLine_1d0d2710">
-                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk"
-                             xml:id="o_guds_lam_uskyldig_ptr_N20270"/>
+                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="o_guds_lam_uskyldig_ptr_N20270"/>
                      </addrLine>
                   </address>
                </corpName>
@@ -65,11 +62,11 @@
                <p>Salmen er en metrisk omformning af ordinariumsleddet <rend fontstyle="italic">Agnus Dei</rend> (Guds lam), og den tilskrives Nicolaus Decius. Den ældste bevarede tyske kilde er en salmebog fra Rostock 1531, men den forekommer allerede i dansk oversættelse i <abbr>Dietz 1529</abbr> (<abbr>Widding 1933</abbr>: II,45).</p>
                <p>Melodien er afledt af en gregoriansk melodi og har været mundtlig overleveret. En af de første kilder til melodien er Johann Spangenbergs <rend fontstyle="italic">Kirchengesenge deudtsch</rend> (Magdeburg: Michael Lotter, 1545) (<ref target="https://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN776395068&amp;PHYSID=PHYS_0405&amp;DMDID=">faksimile</ref>).</p>
                <p>Tekstkilder:
-                   <lb/><abbr>Dietz 1529</abbr>, fol. 30r <ptr type="text_edition" target="https://salmer.dsl.dk/dietz-salmebog-1529.xml/7/10" label="Digital udgave"/>
-                   <lb/><abbr>Pedersen 1533</abbr>, fol. 37v <ptr type="text_edition" target="https://salmer.dsl.dk/malmoe-salmebog.xml/3/56" label="Digital udgave"/>
-                   <lb/><abbr>Vingaard 1553</abbr>, fol. 118r <ptr type="text_edition" target="https://salmer.dsl.dk/vingaard_1553/6/38" label="Digital udgave"/>
-                   <lb/><abbr>Thomissøn 1569</abbr>, fol. 127v <ptr type="edition" target="https://salmer.dsl.dk/thomissoen_1569/9/5" label="Digital udgave"/>
-                   <lb/><abbr>Jespersen 1573</abbr>, s. 18 <ptr type="edition" target="https://salmer.dsl.dk/jespersen_1573/1/10" label="Digital udgave"/>
+                   <lb/><abbr>Dietz 1529</abbr>, fol. 30r <ptr target="#agnus-dei3" type="text_edition" label="Digital udgave"/>
+                   <lb/><abbr>Pedersen 1533</abbr>, fol. 37v <ptr target="https://salmer.dsl.dk/malmoe-salmebog.xml/3/56" type="text_edition" label="Digital udgave"/>
+                   <lb/><abbr>Vingaard 1553</abbr>, fol. 118r <ptr target="#_5-soendag-efter-paaske" type="text_edition" label="Digital udgave"/>
+                   <lb/><abbr>Thomissøn 1569</abbr>, fol. 127v <ptr target="#section-9-1-hymn-5" type="edition" label="Digital udgave"/>
+                   <lb/><abbr>Jespersen 1573</abbr>, s. 18 <ptr target="#section-1-10" type="edition" label="Digital udgave"/>
                </p>
             </history>
             <langUsage xml:id="o_guds_lam_uskyldig_langUsage_f10dda89">
@@ -80,8 +77,7 @@
             </langUsage>
             <notesStmt xml:id="o_guds_lam_uskyldig_notesStmt_6120b6b8">
                <annot type="links" xml:id="o_guds_lam_uskyldig_annot_833375bf">
-                  <ptr target="https://de.wikipedia.org/wiki/O_Lamm_Gottes,_unschuldig"
-                     xml:id="o_guds_lam_uskyldig_ptr_95c76d20"/>
+                  <ptr target="https://de.wikipedia.org/wiki/O_Lamm_Gottes,_unschuldig" xml:id="o_guds_lam_uskyldig_ptr_95c76d20"/>
                </annot>
             </notesStmt>
             <classification xml:id="o_guds_lam_uskyldig_classification_81a43c49">
@@ -90,15 +86,10 @@
                </termList>
             </classification>
             <relationList xml:id="o_guds_lam_uskyldig_relationList_1c110507">
-               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml"
-                         xml:id="o_guds_lam_uskyldig_relation_4d893f59"/>
-               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf"
-                         target="Je_1573/Je_1573_LN0981.xml"/>
-               <relation label="Den danske Psalmebog (1569), fol. 127v" rel="hasEmbodiment"
-                         target="Th_1569/Th_1569_LN1426_127v.xml"
-                         xml:id="o_guds_lam_uskyldig_relation_d1e158"/>
-               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 18" rel="hasEmbodiment"
-                         target="Je_1573/Je_1573_LN0981_018.xml"/>
+               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml" xml:id="o_guds_lam_uskyldig_relation_4d893f59"/>
+               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf" target="Je_1573/Je_1573_LN0981.xml"/>
+               <relation label="Den danske Psalmebog (1569), fol. 127v" rel="hasEmbodiment" target="Th_1569/Th_1569_LN1426_127v.xml" xml:id="o_guds_lam_uskyldig_relation_d1e158"/>
+               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 18" rel="hasEmbodiment" target="Je_1573/Je_1573_LN0981_018.xml"/>
             </relationList>
          </work>
       </workList>

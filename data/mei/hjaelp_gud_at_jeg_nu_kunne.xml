@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0"
-     xml:id="hjaelp_gud_at_jeg_nu_kunne_m-1">
+<?xml version="1.0" encoding="UTF-8"?><mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="hjaelp_gud_at_jeg_nu_kunne_m-1">
    <meiHead xml:id="hjaelp_gud_at_jeg_nu_kunne_meiHead_e88d32bf">
       <fileDesc xml:id="hjaelp_gud_at_jeg_nu_kunne_fileDesc_b057bbbc">
          <titleStmt xml:id="hjaelp_gud_at_jeg_nu_kunne_titleStmt_ffe40f8a">
@@ -17,12 +15,10 @@
                      <addrLine xml:id="hjaelp_gud_at_jeg_nu_kunne_addrLine_9cfc2591">Christians Brygge 1</addrLine>
                      <addrLine xml:id="hjaelp_gud_at_jeg_nu_kunne_addrLine_8f0f8d45">1219 København K</addrLine>
                      <addrLine xml:id="hjaelp_gud_at_jeg_nu_kunne_addrLine_eeec649b">
-                        <ptr label="WWW" target="https://dsl.dk"
-                             xml:id="hjaelp_gud_at_jeg_nu_kunne_ptr_N20262"/>
+                        <ptr label="WWW" target="https://dsl.dk" xml:id="hjaelp_gud_at_jeg_nu_kunne_ptr_N20262"/>
                      </addrLine>
                      <addrLine xml:id="hjaelp_gud_at_jeg_nu_kunne_addrLine_1fd97920">
-                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk"
-                             xml:id="hjaelp_gud_at_jeg_nu_kunne_ptr_N20270"/>
+                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="hjaelp_gud_at_jeg_nu_kunne_ptr_N20270"/>
                      </addrLine>
                   </address>
                </corpName>
@@ -63,9 +59,9 @@
                <p>En af de tidligste bevarede kilder til teksten er et tysk enkelttryk fra 1524. Melodien til salmen er baseret på en folkelig vise, som findes under flere forskellige titler i tyske kilder. I Joachim Slüters <rend fontstyle="italic">Enchiridion</rend> (oprindelig tryk i Rostock 1531) fremgår det, at salmen skal synges til melodien <rend fontstyle="italic">Möcht ick mit lust syngen/ eyn schöne dagewisz</rend>
                   <ref target="https://dibiki.ub.uni-kiel.de/viewer/object/PPN513105549/245/">(faksimile af udgave fra Lübeck 1547)</ref>, formodentlig den dagevise, som kendes under navnet <rend fontstyle="italic">Könt ich von Herzen singen</rend> (<abbr>Glahn 1954</abbr>: 198).</p>
                <p>Tekstkilder:
-                   <lb/><abbr>Vingaard 1553</abbr>, fol. 144v <ptr type="text_edition" target="https://salmer.dsl.dk/vingaard_1553/8/9" label="Digital udgave"/>
-                   <lb/><abbr>Thomissøn 1569</abbr>, fol. 61v <ptr type="edition" target="https://salmer.dsl.dk/thomissoen_1569/4/1" label="Digital udgave"/>
-                   <lb/><abbr>Jespersen 1573</abbr>, s. 172 <ptr type="edition" target="https://salmer.dsl.dk/jespersen_1573/27/3" label="Digital udgave"/>
+                   <lb/><abbr>Vingaard 1553</abbr>, fol. 144v <ptr target="#o-herre-en-fader-og-gud-over-mit-levned" type="text_edition" label="Digital udgave"/>
+                   <lb/><abbr>Thomissøn 1569</abbr>, fol. 61v <ptr target="#section-4-hymn-1" type="edition" label="Digital udgave"/>
+                   <lb/><abbr>Jespersen 1573</abbr>, s. 172 <ptr target="#section-27-3" type="edition" label="Digital udgave"/>
                </p>
             </history>
             <langUsage xml:id="hjaelp_gud_at_jeg_nu_kunne_langUsage_f10dda89">
@@ -78,15 +74,10 @@
                </termList>
             </classification>
             <relationList xml:id="hjaelp_gud_at_jeg_nu_kunne_relationList_1c110507">
-               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml"
-                         xml:id="hjaelp_gud_at_jeg_nu_kunne_relation_4d893f59"/>
-               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf"
-                         target="Je_1573/Je_1573_LN0981.xml"/>
-               <relation label="Den danske Psalmebog (1569), fol. 61v" rel="hasEmbodiment"
-                         target="Th_1569/Th_1569_LN1426_061v.xml"
-                         xml:id="hjaelp_gud_at_jeg_nu_kunne_relation_d1e149"/>
-               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 172" rel="hasEmbodiment"
-                         target="Je_1573/Je_1573_LN0981_172.xml"/>
+               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml" xml:id="hjaelp_gud_at_jeg_nu_kunne_relation_4d893f59"/>
+               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf" target="Je_1573/Je_1573_LN0981.xml"/>
+               <relation label="Den danske Psalmebog (1569), fol. 61v" rel="hasEmbodiment" target="Th_1569/Th_1569_LN1426_061v.xml" xml:id="hjaelp_gud_at_jeg_nu_kunne_relation_d1e149"/>
+               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 172" rel="hasEmbodiment" target="Je_1573/Je_1573_LN0981_172.xml"/>
             </relationList>
          </work>
       </workList>

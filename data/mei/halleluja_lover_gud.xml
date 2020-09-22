@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0"
-     xml:id="halleluja_lover_gud_m-1">
+<?xml version="1.0" encoding="UTF-8"?><mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="halleluja_lover_gud_m-1">
    <meiHead xml:id="halleluja_lover_gud_meiHead_7115b02c">
       <fileDesc xml:id="halleluja_lover_gud_fileDesc_afbe04c4">
          <titleStmt xml:id="halleluja_lover_gud_titleStmt_c7240e04">
@@ -20,8 +18,7 @@
                         <ptr label="WWW" target="https://dsl.dk" xml:id="halleluja_lover_gud_ptr_N20262"/>
                      </addrLine>
                      <addrLine xml:id="halleluja_lover_gud_addrLine_24e99f3b">
-                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk"
-                             xml:id="halleluja_lover_gud_ptr_N20270"/>
+                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="halleluja_lover_gud_ptr_N20270"/>
                      </addrLine>
                   </address>
                </corpName>
@@ -57,8 +54,8 @@
             <history xml:id="halleluja_lover_gud_history_44436885">
                <p>Både tekstens og melodiens oprindelse er ukendt. Widding formodede, at salmen var senmiddelalderlig (<abbr>Widding 1933</abbr>: II,250-251).</p>
                <p>Tekstkilder:
-                   <lb/><abbr>Thomissøn 1569</abbr>, fol. 291r <ptr type="edition" target="https://salmer.dsl.dk/thomissoen_1569/19/5" label="Digital udgave"/>
-                   <lb/><abbr>Jespersen 1573</abbr>, s. 112 <ptr type="edition" target="https://salmer.dsl.dk/jespersen_1573/15/3" label="Digital udgave"/>
+                   <lb/><abbr>Thomissøn 1569</abbr>, fol. 291r <ptr target="#section-19-hymn-5" type="edition" label="Digital udgave"/>
+                   <lb/><abbr>Jespersen 1573</abbr>, s. 112 <ptr target="#section-15-3" type="edition" label="Digital udgave"/>
                </p>
             </history>
             <langUsage xml:id="halleluja_lover_gud_langUsage_f10dda89">
@@ -72,15 +69,10 @@
                </termList>
             </classification>
             <relationList xml:id="halleluja_lover_gud_relationList_1c110507">
-               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml"
-                         xml:id="halleluja_lover_gud_relation_4d893f59"/>
-               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf"
-                         target="Je_1573/Je_1573_LN0981.xml"/>
-               <relation label="Den danske Psalmebog (1569), fol. 291r" rel="hasEmbodiment"
-                         target="Th_1569/Th_1569_LN1426_291r.xml"
-                         xml:id="halleluja_lover_gud_relation_d1e152"/>
-               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 112" rel="hasEmbodiment"
-                         target="Je_1573/Je_1573_LN0981_112.xml"/>
+               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml" xml:id="halleluja_lover_gud_relation_4d893f59"/>
+               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf" target="Je_1573/Je_1573_LN0981.xml"/>
+               <relation label="Den danske Psalmebog (1569), fol. 291r" rel="hasEmbodiment" target="Th_1569/Th_1569_LN1426_291r.xml" xml:id="halleluja_lover_gud_relation_d1e152"/>
+               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 112" rel="hasEmbodiment" target="Je_1573/Je_1573_LN0981_112.xml"/>
             </relationList>
          </work>
       </workList>

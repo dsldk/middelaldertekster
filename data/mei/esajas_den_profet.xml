@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0"
-     xml:id="esajas_den_profet_m-1">
+<?xml version="1.0" encoding="UTF-8"?><mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="esajas_den_profet_m-1">
    <meiHead xml:id="esajas_den_profet_meiHead_f78a7320">
       <fileDesc xml:id="esajas_den_profet_fileDesc_b4d607ec">
          <titleStmt xml:id="esajas_den_profet_titleStmt_6f5d64ee">
@@ -20,8 +18,7 @@
                         <ptr label="WWW" target="https://dsl.dk" xml:id="esajas_den_profet_ptr_N20262"/>
                      </addrLine>
                      <addrLine xml:id="esajas_den_profet_addrLine_040a4381">
-                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk"
-                             xml:id="esajas_den_profet_ptr_N20270"/>
+                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="esajas_den_profet_ptr_N20270"/>
                      </addrLine>
                   </address>
                </corpName>
@@ -60,18 +57,17 @@
             <title type="uniform" xml:id="esajas_den_profet_title_827e7b0a" xml:lang="da">Esajas den profet monne det så gå</title>
             <title type="uniform" xml:id="esajas_den_profet_title_8909c71a" xml:lang="de">Jesaia, dem Propheten, das geschah</title>
             <contributor xml:id="esajas_den_profet_respStmt_5577b899">
-               <persName auth.uri="http://www.viaf.org" auth="VIAF" codedval="14773105" role="author"
-                         xml:id="esajas_den_profet_persName_d528b837">Morten Luther [Martin Luther]</persName>
+               <persName auth.uri="http://www.viaf.org" auth="VIAF" codedval="14773105" role="author" xml:id="esajas_den_profet_persName_d528b837">Morten Luther [Martin Luther]</persName>
             </contributor>
             <history xml:id="esajas_den_profet_history_44436885">
                <p>Denne Luthersalme er baseret på ordinariumsleddet <rend fontstyle="italic">Sanctus</rend>, og den tryktes første gang i Luthers <rend fontstyle="italic">Deutsche Messe</rend> (Wittenberg: Melchior Lotter, 1526) (<ref target="https://digitale.bibliothek.uni-halle.de/vd16/content/pageview/1665727">faksimile</ref>). Angiveligt skulle Luther selv have skrevet melodien (<abbr>Korth 2017</abbr>: 204).</p>
                <p>Tekstkilder:
-                   <lb/><abbr>Pedersen 1533</abbr>, fol. 36v <ptr type="text_edition" target="https://salmer.dsl.dk/malmoe-salmebog.xml/3/54" label="Digital udgave"/>
-                   <lb/><abbr>Dietz 1536</abbr>, fol. b3v <ptr type="text_edition" target="https://salmer.dsl.dk/dietz-salmebog-1536.xml/5" label="Digital udgave"/> 
-                   <lb/><abbr>Vingaard 1553</abbr>, fol. 115r <ptr type="text_edition" target="https://salmer.dsl.dk/vingaard_1553/6/30" label="Digital udgave"/>
-                   <lb/><abbr>Vingaard 1553</abbr>, fol. 115v <ptr type="text_edition" target="https://salmer.dsl.dk/vingaard_1553/6/31" label="Digital udgave"/>
-                   <lb/><abbr>Thomissøn 1569</abbr>, fol. 125r <ptr type="edition" target="https://salmer.dsl.dk/thomissoen_1569/9/5" label="Digital udgave"/>
-                   <lb/><abbr>Jespersen 1573</abbr>, s. 367 <ptr type="edition" target="https://salmer.dsl.dk/jespersen_1573/59/1" label="Digital udgave"/>
+                   <lb/><abbr>Pedersen 1533</abbr>, fol. 36v <ptr target="https://salmer.dsl.dk/malmoe-salmebog.xml/3/54" type="text_edition" label="Digital udgave"/>
+                   <lb/><abbr>Dietz 1536</abbr>, fol. b3v <ptr target="#sanctus-dietz-1536" type="text_edition" label="Digital udgave"/> 
+                   <lb/><abbr>Vingaard 1553</abbr>, fol. 115r <ptr target="#paaskeaften" type="text_edition" label="Digital udgave"/>
+                   <lb/><abbr>Vingaard 1553</abbr>, fol. 115v <ptr target="#paaskedag" type="text_edition" label="Digital udgave"/>
+                   <lb/><abbr>Thomissøn 1569</abbr>, fol. 125r <ptr target="#section-9-1-hymn-5" type="edition" label="Digital udgave"/>
+                   <lb/><abbr>Jespersen 1573</abbr>, s. 367 <ptr target="#esaias-den-prophet" type="edition" label="Digital udgave"/>
                </p>
             </history>
             <langUsage xml:id="esajas_den_profet_langUsage_f10dda89">
@@ -82,8 +78,7 @@
             </langUsage>
             <notesStmt xml:id="esajas_den_profet_notesStmt_6120b6b8">
                <annot type="links" xml:id="esajas_den_profet_annot_833375bf">
-                  <ptr target="https://hymnary.org/text/jesaia_dem_propheten_das_geschah"
-                     xml:id="esajas_den_profet_ptr_95c76d20"/>
+                  <ptr target="https://hymnary.org/text/jesaia_dem_propheten_das_geschah" xml:id="esajas_den_profet_ptr_95c76d20"/>
                </annot>
             </notesStmt>
             <classification xml:id="esajas_den_profet_classification_81a43c49">
@@ -93,15 +88,10 @@
                </termList>
             </classification>
             <relationList xml:id="esajas_den_profet_relationList_1c110507">
-               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml"
-                         xml:id="esajas_den_profet_relation_4d893f59"/>
-               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf"
-                         target="Je_1573/Je_1573_LN0981.xml"/>
-               <relation label="Den danske Psalmebog (1569), fol. 125r" rel="hasEmbodiment"
-                         target="Th_1569/Th_1569_LN1426_125r.xml"
-                         xml:id="esajas_den_profet_relation_d1e170"/>
-               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 367" rel="hasEmbodiment"
-                         target="Je_1573/Je_1573_LN0981_367.xml"/>
+               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml" xml:id="esajas_den_profet_relation_4d893f59"/>
+               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf" target="Je_1573/Je_1573_LN0981.xml"/>
+               <relation label="Den danske Psalmebog (1569), fol. 125r" rel="hasEmbodiment" target="Th_1569/Th_1569_LN1426_125r.xml" xml:id="esajas_den_profet_relation_d1e170"/>
+               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 367" rel="hasEmbodiment" target="Je_1573/Je_1573_LN0981_367.xml"/>
             </relationList>
          </work>
       </workList>

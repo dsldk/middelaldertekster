@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0"
-     xml:id="beklage_af_al_min_sinde_m-1">
+<?xml version="1.0" encoding="UTF-8"?><mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="beklage_af_al_min_sinde_m-1">
    <meiHead xml:id="beklage_af_al_min_sinde_meiHead_0c5640e0">
       <fileDesc xml:id="beklage_af_al_min_sinde_fileDesc_dc422db5">
          <titleStmt xml:id="beklage_af_al_min_sinde_titleStmt_327b48f4">
@@ -20,8 +18,7 @@
                         <ptr label="WWW" target="https://dsl.dk" xml:id="beklage_af_al_min_sinde_ptr_N20262"/>
                      </addrLine>
                      <addrLine xml:id="beklage_af_al_min_sinde_addrLine_6b26f115">
-                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk"
-                             xml:id="beklage_af_al_min_sinde_ptr_N20270"/>
+                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="beklage_af_al_min_sinde_ptr_N20270"/>
                      </addrLine>
                   </address>
                </corpName>
@@ -58,11 +55,11 @@
             <history xml:id="beklage_af_al_min_sinde_history_44436885">
                <p>Salmens ophav er ukendt, men det vides, at den var udbredt i Norden (<abbr>Widding 1933</abbr>: II,68). Melodien kendes fra <rend fontstyle="italic">Souter Liedekens</rend> (Antwerpen: Symon Cock, 1540) (<ref target="https://www.dbnl.org/tekst/zuyl004sout02_01/zuyl004sout02_01_0020.php#zuyl004sout02_0018">faksimile</ref>).</p>
                <p>Tekstkilder:
-                   <lb/><abbr>Pedersen 1533</abbr>, fol. 35v <ptr type="text_edition" target="https://salmer.dsl.dk/malmoe-salmebog.xml/3/52" label="Digital udgave"/>
-                   <lb/><abbr>Dietz 1536</abbr>, fol. c1r <ptr type="text_edition" target="https://salmer.dsl.dk/dietz-salmebog-1536.xml/10" label="Digital udgave"/>
-                   <lb/><abbr>Vingaard 1553</abbr>, fol. 76v <ptr type="text_edition" target="https://salmer.dsl.dk/vingaard_1553/5/50" label="Digital udgave"/>
-                   <lb/><abbr>Thomissøn 1569</abbr>, fol. 180v <ptr type="edition" target="https://salmer.dsl.dk/thomissoen_1569/13/6" label="Digital udgave"/>
-                   <lb/><abbr>Jespersen 1573</abbr>, s. 355 <ptr type="edition" target="https://salmer.dsl.dk/jespersen_1573/55/4" label="Digital udgave"/>
+                   <lb/><abbr>Pedersen 1533</abbr>, fol. 35v <ptr target="https://salmer.dsl.dk/malmoe-salmebog.xml/3/52" type="text_edition" label="Digital udgave"/>
+                   <lb/><abbr>Dietz 1536</abbr>, fol. c1r <ptr target="#beklage-af-al-min-synd" type="text_edition" label="Digital udgave"/>
+                   <lb/><abbr>Vingaard 1553</abbr>, fol. 76v <ptr target="https://salmer.dsl.dk/vingaard_1553/5/50" type="text_edition" label="Digital udgave"/>
+                   <lb/><abbr>Thomissøn 1569</abbr>, fol. 180v <ptr target="#section-13-hymn-6" type="edition" label="Digital udgave"/>
+                   <lb/><abbr>Jespersen 1573</abbr>, s. 355 <ptr target="#beklage-af-al-min-sinde-jespersen-1573" type="edition" label="Digital udgave"/>
                </p>
                <p>Flerstemmig udsættelse:
                   <lb/><abbr>Pedersøn 1620</abbr>, nr. 22</p>
@@ -80,16 +77,10 @@
                </termList>
             </classification>
             <relationList xml:id="beklage_af_al_min_sinde_relationList_1c110507">
-               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml"
-                         xml:id="beklage_af_al_min_sinde_relation_4d893f59"/>
-               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf"
-                         target="Je_1573/Je_1573_LN0981.xml"/>
-               <relation label="Den danske Psalmebog (1569), fol. 180v" rel="hasEmbodiment"
-                         target="Th_1569/Th_1569_LN1426_180v.xml"
-                         xml:id="beklage_af_al_min_sinde_relation_d1e150"/>
-               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 355" rel="hasEmbodiment"
-                         target="Je_1573/Je_1573_LN0981_355.xml"
-                         xml:id="beklage_af_al_min_sinde_relation_d1e150a"/>
+               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml" xml:id="beklage_af_al_min_sinde_relation_4d893f59"/>
+               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf" target="Je_1573/Je_1573_LN0981.xml"/>
+               <relation label="Den danske Psalmebog (1569), fol. 180v" rel="hasEmbodiment" target="Th_1569/Th_1569_LN1426_180v.xml" xml:id="beklage_af_al_min_sinde_relation_d1e150"/>
+               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 355" rel="hasEmbodiment" target="Je_1573/Je_1573_LN0981_355.xml" xml:id="beklage_af_al_min_sinde_relation_d1e150a"/>
             </relationList>
          </work>
       </workList>

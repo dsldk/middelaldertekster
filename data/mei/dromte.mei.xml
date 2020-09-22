@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><mei xmlns="http://www.music-encoding.org/ns/mei"
-     xmlns:xlink="http://www.w3.org/1999/xlink"
-     xml:id="m-1"
-     meiversion="3.0.0">
-   <meiHead xml:id="m-2">
+<?xml version="1.0" encoding="UTF-8"?><mei xmlns="http://www.music-encoding.org/ns/mei" xml:id="m-1" meiversion="3.0.0">
+   <meiHead xml:id="m-2" meiversion="3.0.0">
       <fileDesc xml:id="m-3">
          <titleStmt xml:id="m-4">
             <title xml:id="m-10">Drømde mik en drøm i nat</title>
@@ -41,7 +37,7 @@
          <work xml:id="m-6"/>
       </workDesc>
    </meiHead>
-   <music xml:id="m-22">
+   <music xml:id="m-22" meiversion="3.0.0">
       <body xml:id="m-23">
          <mdiv xml:id="m-24">
             <score xml:id="m-25">
@@ -131,8 +127,7 @@
                            <note xml:id="m-52" dur="4" oct="3" pname="a" stem.len="0"/>
                            <note xml:id="m-53" dur="4" oct="3" pname="g" stem.len="0"/>
                            <note xml:id="m-54" dur="4" oct="3" pname="a" stem.len="0"/>
-                           <tuplet bracket.visible="true" bracket.place="above" num="9" numbase="3"
-                                   num.visible="false">
+                           <tuplet bracket.visible="true" bracket.place="above" num="9" numbase="3" num.visible="false">
                               <note xml:id="m-56" dur="4" oct="3" pname="a" stem.len="0"/>
                               <note xml:id="m-57" dur="4" oct="3" pname="e" stem.len="0"/>
                               <note xml:id="m-58" dur="4" oct="3" pname="a" stem.len="0"/>
@@ -145,7 +140,7 @@
                            </tuplet>
                         </layer>
                      </staff>
-                     <!-- Mere rigtigt end tuplet, men vises ikke i Verovio: --><!--<line xml:id="m-55" dur.ges="2294p" layer="1" staff="1" tstamp="3.7143" tstamp2="0m+4.9944" type="bracket" subtype="ligature" />--></measure>
+                     </measure>
                </section>
             </score>
          </mdiv>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0"
-     xml:id="o_vi_arme_synder_m-1">
+<?xml version="1.0" encoding="UTF-8"?><mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="o_vi_arme_synder_m-1">
    <meiHead xml:id="o_vi_arme_synder_meiHead_a4bc3e7f">
       <fileDesc xml:id="o_vi_arme_synder_fileDesc_9d305203">
          <titleStmt xml:id="o_vi_arme_synder_titleStmt_51cce0ef">
@@ -20,8 +18,7 @@
                         <ptr label="WWW" target="https://dsl.dk" xml:id="o_vi_arme_synder_ptr_N20262"/>
                      </addrLine>
                      <addrLine xml:id="o_vi_arme_synder_addrLine_33e9b5a6">
-                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk"
-                             xml:id="o_vi_arme_synder_ptr_N20270"/>
+                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="o_vi_arme_synder_ptr_N20270"/>
                      </addrLine>
                   </address>
                </corpName>
@@ -58,9 +55,7 @@
             <title type="alternative" xml:id="o_vi_arme_synder_title_7hnaf9b4" xml:lang="la">Laus tibi Christe</title>
             <title type="uniform" xml:id="o_vi_arme_synder_title_1uiaf6m4" xml:lang="da">Døden dig trængte, Herre Jesu Krist</title>
             <contributor xml:id="o_vi_arme_synder_respStmt_5577b899">
-               <persName auth.uri="http://www.viaf.org" auth="VIAF" codedval="59249628"
-                         role="translator"
-                         xml:id="o_vi_arme_synder_persName_c1f35ae4">Hans Thomissøn</persName>
+               <persName auth.uri="http://www.viaf.org" auth="VIAF" codedval="59249628" role="translator" xml:id="o_vi_arme_synder_persName_c1f35ae4">Hans Thomissøn</persName>
             </contributor>
             <history xml:id="o_vi_arme_synder_history_44436885">
                <p>Den middelalderlige latinske sang <rend fontstyle="italic">Laus tibi Christe</rend> blev brugt i påskeugen og kendes tilbage til 1300-tallet. 
@@ -72,9 +67,9 @@
                    hvilket ses afspejlet i den varierende overlevering i 1500-tallet. Thomissøn baserer sig angiveligt på anden udgave af Lucas 
                    Lossius' <rend fontstyle="italic">Psalmodia</rend> (Wittenberg: G. Rhaus arvinger, 1561) (<abbr>Glahn 1954</abbr>: 110).</p>
                <p>Tekstkilder:
-                   <lb/><abbr>Thomissøn 1569</abbr>, fol. 54r <ptr type="edition" target="https://salmer.dsl.dk/thomissoen_1569/3/15" label="Digital udgave"/>
-                   <lb/><abbr>Thomissøn 1569</abbr>, fol. 77v <ptr type="edition" target="https://salmer.dsl.dk/thomissoen_1569/4/5" label="Digital udgave"/>
-                   <lb/><abbr>Thomissøn 1569</abbr>, fol. 78r <ptr type="edition" target="https://salmer.dsl.dk/thomissoen_1569/4/6" label="Digital udgave"/>
+                   <lb/><abbr>Thomissøn 1569</abbr>, fol. 54r <ptr target="#section-3-hymn-15" type="edition" label="Digital udgave"/>
+                   <lb/><abbr>Thomissøn 1569</abbr>, fol. 77v <ptr target="#section-4-hymn-5" type="edition" label="Digital udgave"/>
+                   <lb/><abbr>Thomissøn 1569</abbr>, fol. 78r <ptr target="#section-4-hymn-6" type="edition" label="Digital udgave"/>
                </p>
             </history>
             <langUsage xml:id="o_vi_arme_synder_langUsage_f10dda89">
@@ -84,8 +79,7 @@
             </langUsage>
             <notesStmt xml:id="o_vi_arme_synder_notesStmt_6120b6b8">
                <annot type="links" xml:id="o_vi_arme_synder_annot_833375bf">
-                  <ptr target="https://de.wikipedia.org/wiki/Laus_tibi,_Christe"
-                       xml:id="o_vi_arme_synder_ptr_51baedca"/>
+                  <ptr target="https://de.wikipedia.org/wiki/Laus_tibi,_Christe" xml:id="o_vi_arme_synder_ptr_51baedca"/>
                </annot>
             </notesStmt>
             <classification xml:id="o_vi_arme_synder_classification_81a43c49">
@@ -94,15 +88,10 @@
                </termList>
             </classification>
             <relationList xml:id="o_vi_arme_synder_relationList_1c110507">
-               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml"
-                         xml:id="o_vi_arme_synder_relation_4d893f59"/>
-               <relation label="Den danske Psalmebog (1569), fol. 54r" rel="hasEmbodiment"
-                         target="Th_1569/Th_1569_LN1426_054r.xml"
-                         xml:id="o_vi_arme_synder_relation_d1e145"/>
-               <relation label="Den danske Psalmebog (1569), fol. 77v" rel="hasEmbodiment"
-                         target="Th_1569/Th_1569_LN1426_077v.xml"/>
-               <relation label="Den danske Psalmebog (1569), fol. 78r" rel="hasEmbodiment"
-                         target="Th_1569/Th_1569_LN1426_078r.xml"/>
+               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml" xml:id="o_vi_arme_synder_relation_4d893f59"/>
+               <relation label="Den danske Psalmebog (1569), fol. 54r" rel="hasEmbodiment" target="Th_1569/Th_1569_LN1426_054r.xml" xml:id="o_vi_arme_synder_relation_d1e145"/>
+               <relation label="Den danske Psalmebog (1569), fol. 77v" rel="hasEmbodiment" target="Th_1569/Th_1569_LN1426_077v.xml"/>
+               <relation label="Den danske Psalmebog (1569), fol. 78r" rel="hasEmbodiment" target="Th_1569/Th_1569_LN1426_078r.xml"/>
             </relationList>
          </work>
       </workList>

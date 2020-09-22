@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0"
-     xml:id="alle_kristne_fryde_sig_nu_m-1">
+<?xml version="1.0" encoding="UTF-8"?><mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="alle_kristne_fryde_sig_nu_m-1">
    <meiHead xml:id="alle_kristne_fryde_sig_nu_meiHead_fca2e8db">
       <fileDesc xml:id="alle_kristne_fryde_sig_nu_fileDesc_b11bc5d8">
          <titleStmt xml:id="alle_kristne_fryde_sig_nu_titleStmt_68237857">
@@ -17,12 +15,10 @@
                      <addrLine xml:id="alle_kristne_fryde_sig_nu_addrLine_b75c133e">Christians Brygge 1</addrLine>
                      <addrLine xml:id="alle_kristne_fryde_sig_nu_addrLine_58faa98b">1219 København K</addrLine>
                      <addrLine xml:id="alle_kristne_fryde_sig_nu_addrLine_228dac06">
-                        <ptr label="WWW" target="https://dsl.dk"
-                             xml:id="alle_kristne_fryde_sig_nu_ptr_N20262"/>
+                        <ptr label="WWW" target="https://dsl.dk" xml:id="alle_kristne_fryde_sig_nu_ptr_N20262"/>
                      </addrLine>
                      <addrLine xml:id="alle_kristne_fryde_sig_nu_addrLine_a079054e">
-                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk"
-                             xml:id="alle_kristne_fryde_sig_nu_ptr_N20270"/>
+                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="alle_kristne_fryde_sig_nu_ptr_N20270"/>
                      </addrLine>
                   </address>
                </corpName>
@@ -62,15 +58,15 @@
                <p>Salmen er en bearbejdning af den latinske sang <rend fontstyle="italic">Omnis mundus jocundetur</rend> og kendes fra 1400-tallet.  Den danske tekst kendes fra <abbr>Pedersen 1533</abbr>.</p>
                <p>Tekstkilder:
                   <lb/>
-                   <abbr>Pedersen 1533</abbr>, fol. 97v <ptr type="text_edition" target="https://salmer.dsl.dk/malmoe-salmebog.xml/6/15" label="Digital udgave"/>
+                   <abbr>Pedersen 1533</abbr>, fol. 97v <ptr target="https://salmer.dsl.dk/malmoe-salmebog.xml/6/15" type="text_edition" label="Digital udgave"/>
                   <lb/>
-                   <abbr>Dietz 1536</abbr>, fol. g4r <ptr type="text_edition" target="https://salmer.dsl.dk/dietz-salmebog-1536.xml/41" label="Digital udgave"/>
+                   <abbr>Dietz 1536</abbr>, fol. g4r <ptr target="#alle-kristne-fryde-sig-nu-dietz-1536" type="text_edition" label="Digital udgave"/>
                   <lb/>
-                   <abbr>Vingaard 1553</abbr>, fol. 74v <ptr type="text_edition" target="https://salmer.dsl.dk/vingaard_1553/5/47" label="Digital udgave"/>
+                   <abbr>Vingaard 1553</abbr>, fol. 74v <ptr target="https://salmer.dsl.dk/vingaard_1553/5/47" type="text_edition" label="Digital udgave"/>
                   <lb/>
-                   <abbr>Thomissøn 1569</abbr>, fol. 27v <ptr type="edition" target="https://salmer.dsl.dk/thomissoen_1569/2/24" label="Digital udgave"/>
+                   <abbr>Thomissøn 1569</abbr>, fol. 27v <ptr target="#alle-kristne-fryde-sig-nu-thomissoen-1569" type="edition" label="Digital udgave"/>
                   <lb/>
-                   <abbr>Jespersen 1573</abbr>, s. 313 <ptr type="edition" target="https://salmer.dsl.dk/jespersen_1573/46/1" label="Digital udgave"/></p>
+                   <abbr>Jespersen 1573</abbr>, s. 313 <ptr target="#alle-kristne-fryde-sig-nu-jespersen-1573" type="edition" label="Digital udgave"/></p>
             </history>
             <langUsage xml:id="alle_kristne_fryde_sig_nu_langUsage_f10dda89">
                <language>Danish</language>
@@ -82,16 +78,10 @@
                </termList>
             </classification>
             <relationList xml:id="alle_kristne_fryde_sig_nu_relationList_93ee4a04">
-               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml"
-                         xml:id="alle_kristne_fryde_sig_nu_relation_d3947c1a"/>
-               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf"
-                         target="Je_1573/Je_1573_LN0981.xml"/>
-               <relation label="Den danske Psalmebog (1569), fol. 27v" rel="hasEmbodiment"
-                         target="Th_1569/Th_1569_LN1426_027v.xml"
-                         xml:id="alle_kristne_fryde_sig_nu_relation_d1e146"/>
-               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 313" rel="hasEmbodiment"
-                         target="Je_1573/Je_1573_LN0981_313.xml"
-                         xml:id="alle_kristne_fryde_sig_nu_relation_d1e146a"/>
+               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml" xml:id="alle_kristne_fryde_sig_nu_relation_d3947c1a"/>
+               <relation label="GRADVAL. En Almindelig Sangbog" rel="isPartOf" target="Je_1573/Je_1573_LN0981.xml"/>
+               <relation label="Den danske Psalmebog (1569), fol. 27v" rel="hasEmbodiment" target="Th_1569/Th_1569_LN1426_027v.xml" xml:id="alle_kristne_fryde_sig_nu_relation_d1e146"/>
+               <relation label="GRADVAL. En Almindelig Sangbog (1573), s. 313" rel="hasEmbodiment" target="Je_1573/Je_1573_LN0981_313.xml" xml:id="alle_kristne_fryde_sig_nu_relation_d1e146a"/>
             </relationList>
          </work>
       </workList>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0"
-     xml:id="hjaelp_gud_hvor_stor_m-1">
+<?xml version="1.0" encoding="UTF-8"?><mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="hjaelp_gud_hvor_stor_m-1">
    <meiHead xml:id="hjaelp_gud_hvor_stor_meiHead_3da2b876">
       <fileDesc xml:id="hjaelp_gud_hvor_stor_fileDesc_14f24ffc">
          <titleStmt xml:id="hjaelp_gud_hvor_stor_titleStmt_d0e12773">
@@ -20,8 +18,7 @@
                         <ptr label="WWW" target="https://dsl.dk" xml:id="hjaelp_gud_hvor_stor_ptr_N20262"/>
                      </addrLine>
                      <addrLine xml:id="hjaelp_gud_hvor_stor_addrLine_063cb1b6">
-                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk"
-                             xml:id="hjaelp_gud_hvor_stor_ptr_N20270"/>
+                        <ptr label="E-mail" target="mailto://sekretariat@dsl.dk" xml:id="hjaelp_gud_hvor_stor_ptr_N20270"/>
                      </addrLine>
                   </address>
                </corpName>
@@ -60,10 +57,10 @@
             <history xml:id="hjaelp_gud_hvor_stor_history_44436885">
                <p>Salmen er skrevet af Paul Speratus og kendes fra <rend fontstyle="italic">Etlich Christlich lider</rend> (Nürnberg: Jobst Gutknecht, 1524) (<ref target="https://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN860380920&amp;PHYSID=PHYS_0018&amp;DMDID=DMDLOG_0005">faksimile</ref>), der regnes for den første lutherske salmebog. Melodien tryktes i en firstemmig udsættelse i Johann Walters <rend fontstyle="italic">Geystliche gesangk Buchleyn</rend> (Wittenberg: [Joseph Klug], 1524) (<ref target="https://bildsuche.digitale-sammlungen.de/index.html?c=viewer&amp;bandnummer=bsb00027050&amp;pimage=87&amp;v=2p&amp;nav=&amp;l=de">faksimile</ref>).</p>
                <p>Tekstkilder:
-                   <lb/><abbr>Pedersen 1533</abbr>, fol. 39r <ptr type="text_edition" target="https://salmer.dsl.dk/dietz-salmebog-1529.xml/3/58" label="Digital udgave"/>
-                   <lb/><abbr>Dietz 1536</abbr>, fol. a4v <ptr type="text_edition" target="https://salmer.dsl.dk/dietz-salmebog-1536.xml/3" label="Digital udgave"/>
-                   <lb/><abbr>Vingaard 1553</abbr>, fol. 79r <ptr type="edition" target="https://salmer.dsl.dk/vingaard_1553/5/52" label="Digital udgave"/>
-                   <lb/><abbr>Thomissøn 1569</abbr>, fol. 186r <ptr type="edition" target="https://salmer.dsl.dk/thomissoen_1569/13/10" label="Digital udgave"/>
+                   <lb/><abbr>Pedersen 1533</abbr>, fol. 39r <ptr target="https://salmer.dsl.dk/dietz-salmebog-1529.xml/3/58" type="text_edition" label="Digital udgave"/>
+                   <lb/><abbr>Dietz 1536</abbr>, fol. a4v <ptr target="#hjaelp-gud-hvor-stor-er-menneskets-sorg-og-noed" type="text_edition" label="Digital udgave"/>
+                   <lb/><abbr>Vingaard 1553</abbr>, fol. 79r <ptr target="https://salmer.dsl.dk/vingaard_1553/5/52" type="edition" label="Digital udgave"/>
+                   <lb/><abbr>Thomissøn 1569</abbr>, fol. 186r <ptr target="#section-13-hymn-10" type="edition" label="Digital udgave"/>
                </p>
             </history>
             <langUsage xml:id="hjaelp_gud_hvor_stor_langUsage_f10dda89">
@@ -72,8 +69,7 @@
             </langUsage>
             <notesStmt xml:id="hjaelp_gud_hvor_stor_notesStmt_b29fea60">
                <annot type="links" xml:id="hjaelp_gud_hvor_stor_annot_ce579229">
-                  <ptr target="https://de.wikisource.org/wiki/Hilff_got_wie_ist_der_menschen_not"
-                  xml:id="hjaelp_gud_hvor_stor_ptr_95c76d20"/>
+                  <ptr target="https://de.wikisource.org/wiki/Hilff_got_wie_ist_der_menschen_not" xml:id="hjaelp_gud_hvor_stor_ptr_95c76d20"/>
                </annot>
             </notesStmt>
             <classification xml:id="hjaelp_gud_hvor_stor_classification_81a43c49">
@@ -83,13 +79,9 @@
             </classification>
             <relationList xml:id="hjaelp_gud_hvor_stor_relationList_1c110507">
                <relation label="En Ny Psalmebog" rel="isPartOf" target="Vi_1553/Vi_1553_LN1421.xml"/>
-               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml"
-                         xml:id="hjaelp_gud_hvor_stor_relation_4d893f59"/>
-               <relation label="En Ny Psalmebog (1553), fol. 79r" rel="hasEmbodiment"
-                         target="Vi_1553/Vi_1553_LN1421_079r.xml"/>
-               <relation label="Den danske Psalmebog (1569), fol. 186r" rel="hasEmbodiment"
-                         target="Th_1569/Th_1569_LN1426_186r.xml"
-                         xml:id="hjaelp_gud_hvor_stor_relation_d1e148"/>
+               <relation label="Den danske Psalmebog" rel="isPartOf" target="Th_1569/Th_1569_LN1426.xml" xml:id="hjaelp_gud_hvor_stor_relation_4d893f59"/>
+               <relation label="En Ny Psalmebog (1553), fol. 79r" rel="hasEmbodiment" target="Vi_1553/Vi_1553_LN1421_079r.xml"/>
+               <relation label="Den danske Psalmebog (1569), fol. 186r" rel="hasEmbodiment" target="Th_1569/Th_1569_LN1426_186r.xml" xml:id="hjaelp_gud_hvor_stor_relation_d1e148"/>
 
             </relationList>
          </work>
